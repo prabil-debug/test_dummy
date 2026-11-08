@@ -64,3 +64,23 @@ DOF: close-ups cInf 12-16 px at 1080, wides/aerials 0, focus on the eyes. FOREGR
 1. Voice: your own recording or text-to-speech (needed before frames can be locked).
 2. Captions on/off.
 3. Whether to add a 15th "extended" shot to get closer to the skill's 55-70 s target (the script alone is ~46 s, fine for Shorts/Reels).
+
+## Locked timings from the real voice (voice/voice.wav, voice/words.json)
+Voice is 54.9 s, so TOTAL ~= 1650 frames (not 1390). Re-time the shots above proportionally to these section starts
+(seconds -> frames at 30 fps):
+
+| Section | Start (s) | Frame |
+|---------|-----------|-------|
+| Hook | 0.00 | 0 |
+| Setting ("London,") | 4.12 | 124 |
+| Action ("Step one") | 14.54 | 436 |
+| Snap ("The bridge wobbles harder") | ~25.9 | ~777 |
+| Luckily | 31.56 | 947 |
+| Unluckily | 33.14 | 994 |
+| Explanation ("Think of a swing") | 37.16 | 1115 |
+| "Here, the crowd..." | 42.02 | 1261 |
+| Twist ("Today it's rock solid") | 51.08 | 1532 |
+| End | 54.90 | 1647 |
+
+Notes: words.json was made with a small speech-to-text model, so hand-check it (the first word is "2" for "Two";
+numbers and punctuation can be off). Voice is Piper "ryan-high" TTS.
