@@ -1,0 +1,4917 @@
+[
+ {
+  "word": "Imagine",
+  "start": 0.0,
+  "end": 0.46
+ },
+ {
+  "word": "waking",
+  "start": 0.46,
+  "end": 0.72
+ },
+ {
+  "word": "up",
+  "start": 0.72,
+  "end": 0.88
+ },
+ {
+  "word": "tomorrow",
+  "start": 0.88,
+  "end": 1.1
+ },
+ {
+  "word": "morning,",
+  "start": 1.1,
+  "end": 1.52
+ },
+ {
+  "word": "you",
+  "start": 2.32,
+  "end": 2.56
+ },
+ {
+  "word": "reach",
+  "start": 2.56,
+  "end": 2.74
+ },
+ {
+  "word": "for",
+  "start": 2.74,
+  "end": 2.86
+ },
+ {
+  "word": "your",
+  "start": 2.86,
+  "end": 2.98
+ },
+ {
+  "word": "phone,",
+  "start": 2.98,
+  "end": 3.66
+ },
+ {
+  "word": "no",
+  "start": 4.18,
+  "end": 4.34
+ },
+ {
+  "word": "notifications,",
+  "start": 4.34,
+  "end": 4.9
+ },
+ {
+  "word": "no",
+  "start": 6.08,
+  "end": 6.2
+ },
+ {
+  "word": "messages,",
+  "start": 6.2,
+  "end": 6.66
+ },
+ {
+  "word": "you",
+  "start": 7.66,
+  "end": 7.8
+ },
+ {
+  "word": "open",
+  "start": 7.8,
+  "end": 8.0
+ },
+ {
+  "word": "Instagram,",
+  "start": 8.0,
+  "end": 8.66
+ },
+ {
+  "word": "nothing,",
+  "start": 9.7,
+  "end": 9.9
+ },
+ {
+  "word": "you",
+  "start": 11.24,
+  "end": 11.36
+ },
+ {
+  "word": "try",
+  "start": 11.36,
+  "end": 11.6
+ },
+ {
+  "word": "Google,",
+  "start": 11.6,
+  "end": 12.1
+ },
+ {
+  "word": "doesn't",
+  "start": 13.1,
+  "end": 13.26
+ },
+ {
+  "word": "load,",
+  "start": 13.26,
+  "end": 13.8
+ },
+ {
+  "word": "you",
+  "start": 14.88,
+  "end": 15.0
+ },
+ {
+  "word": "restart",
+  "start": 15.0,
+  "end": 15.18
+ },
+ {
+  "word": "your",
+  "start": 15.18,
+  "end": 15.46
+ },
+ {
+  "word": "Wi",
+  "start": 15.46,
+  "end": 15.7
+ },
+ {
+  "word": "-Fi,",
+  "start": 15.7,
+  "end": 16.0
+ },
+ {
+  "word": "still",
+  "start": 16.9,
+  "end": 17.1
+ },
+ {
+  "word": "nothing.",
+  "start": 17.1,
+  "end": 17.6
+ },
+ {
+  "word": "First",
+  "start": 18.78,
+  "end": 19.06
+ },
+ {
+  "word": "you",
+  "start": 19.06,
+  "end": 19.2
+ },
+ {
+  "word": "think",
+  "start": 19.2,
+  "end": 19.38
+ },
+ {
+  "word": "it's",
+  "start": 19.38,
+  "end": 19.5
+ },
+ {
+  "word": "just",
+  "start": 19.5,
+  "end": 19.7
+ },
+ {
+  "word": "a",
+  "start": 19.7,
+  "end": 19.8
+ },
+ {
+  "word": "network",
+  "start": 19.8,
+  "end": 20.0
+ },
+ {
+  "word": "problem,",
+  "start": 20.0,
+  "end": 20.6
+ },
+ {
+  "word": "but",
+  "start": 21.32,
+  "end": 21.48
+ },
+ {
+  "word": "then",
+  "start": 21.48,
+  "end": 21.6
+ },
+ {
+  "word": "you",
+  "start": 21.6,
+  "end": 21.7
+ },
+ {
+  "word": "look",
+  "start": 21.7,
+  "end": 21.84
+ },
+ {
+  "word": "outside,",
+  "start": 21.84,
+  "end": 22.46
+ },
+ {
+  "word": "traffic",
+  "start": 23.5,
+  "end": 23.6
+ },
+ {
+  "word": "lights",
+  "start": 23.6,
+  "end": 23.8
+ },
+ {
+  "word": "are",
+  "start": 23.8,
+  "end": 23.96
+ },
+ {
+  "word": "malfunctioning,",
+  "start": 23.96,
+  "end": 25.4
+ },
+ {
+  "word": "helps",
+  "start": 25.7,
+  "end": 25.8
+ },
+ {
+  "word": "aren't",
+  "start": 25.8,
+  "end": 26.0
+ },
+ {
+  "word": "accepting",
+  "start": 26.0,
+  "end": 26.24
+ },
+ {
+  "word": "digital",
+  "start": 26.24,
+  "end": 26.52
+ },
+ {
+  "word": "payments,",
+  "start": 26.52,
+  "end": 27.02
+ },
+ {
+  "word": "lights",
+  "start": 27.86,
+  "end": 27.96
+ },
+ {
+  "word": "are",
+  "start": 27.96,
+  "end": 28.12
+ },
+ {
+  "word": "being",
+  "start": 28.12,
+  "end": 28.34
+ },
+ {
+  "word": "delayed,",
+  "start": 28.34,
+  "end": 28.78
+ },
+ {
+  "word": "thanks",
+  "start": 29.3,
+  "end": 29.78
+ },
+ {
+  "word": "are",
+  "start": 29.78,
+  "end": 29.98
+ },
+ {
+  "word": "struggling",
+  "start": 29.98,
+  "end": 30.22
+ },
+ {
+  "word": "to",
+  "start": 30.22,
+  "end": 30.36
+ },
+ {
+  "word": "operate,",
+  "start": 30.36,
+  "end": 30.66
+ },
+ {
+  "word": "and",
+  "start": 31.72,
+  "end": 31.86
+ },
+ {
+  "word": "then",
+  "start": 31.86,
+  "end": 31.92
+ },
+ {
+  "word": "you",
+  "start": 31.92,
+  "end": 32.02
+ },
+ {
+  "word": "hear",
+  "start": 32.02,
+  "end": 32.16
+ },
+ {
+  "word": "something",
+  "start": 32.16,
+  "end": 32.4
+ },
+ {
+  "word": "terrifying",
+  "start": 32.4,
+  "end": 32.74
+ },
+ {
+  "word": "on",
+  "start": 32.74,
+  "end": 33.02
+ },
+ {
+  "word": "the",
+  "start": 33.02,
+  "end": 33.82
+ },
+ {
+  "word": "radio,",
+  "start": 33.82,
+  "end": 33.82
+ },
+ {
+  "word": "the",
+  "start": 34.56,
+  "end": 34.72
+ },
+ {
+  "word": "internet",
+  "start": 34.72,
+  "end": 34.92
+ },
+ {
+  "word": "is",
+  "start": 34.92,
+  "end": 35.16
+ },
+ {
+  "word": "gone,",
+  "start": 35.16,
+  "end": 35.72
+ },
+ {
+  "word": "everywhere,",
+  "start": 36.48,
+  "end": 36.8
+ },
+ {
+  "word": "it",
+  "start": 37.88,
+  "end": 37.96
+ },
+ {
+  "word": "is",
+  "start": 37.96,
+  "end": 38.06
+ },
+ {
+  "word": "never",
+  "start": 38.06,
+  "end": 38.2
+ },
+ {
+  "word": "coming",
+  "start": 38.2,
+  "end": 38.32
+ },
+ {
+  "word": "back,",
+  "start": 38.32,
+  "end": 38.94
+ },
+ {
+  "word": "no",
+  "start": 39.68,
+  "end": 39.86
+ },
+ {
+  "word": "explanation,",
+  "start": 39.86,
+  "end": 40.38
+ },
+ {
+  "word": "no",
+  "start": 41.5,
+  "end": 41.72
+ },
+ {
+  "word": "warning,",
+  "start": 41.72,
+  "end": 42.1
+ },
+ {
+  "word": "no",
+  "start": 43.08,
+  "end": 43.2
+ },
+ {
+  "word": "way",
+  "start": 43.2,
+  "end": 43.28
+ },
+ {
+  "word": "to",
+  "start": 43.28,
+  "end": 43.36
+ },
+ {
+  "word": "fix",
+  "start": 43.36,
+  "end": 43.52
+ },
+ {
+  "word": "it.",
+  "start": 43.52,
+  "end": 43.76
+ },
+ {
+  "word": "What",
+  "start": 44.72,
+  "end": 44.86
+ },
+ {
+  "word": "happens",
+  "start": 44.86,
+  "end": 45.12
+ },
+ {
+  "word": "to",
+  "start": 45.12,
+  "end": 45.36
+ },
+ {
+  "word": "the",
+  "start": 45.36,
+  "end": 45.44
+ },
+ {
+  "word": "world",
+  "start": 45.44,
+  "end": 45.72
+ },
+ {
+  "word": "when",
+  "start": 45.72,
+  "end": 45.9
+ },
+ {
+  "word": "humanity",
+  "start": 45.9,
+  "end": 46.24
+ },
+ {
+  "word": "loses",
+  "start": 46.24,
+  "end": 46.64
+ },
+ {
+  "word": "the",
+  "start": 46.64,
+  "end": 46.94
+ },
+ {
+  "word": "technology",
+  "start": 46.94,
+  "end": 47.32
+ },
+ {
+  "word": "it",
+  "start": 47.32,
+  "end": 47.58
+ },
+ {
+  "word": "has",
+  "start": 47.58,
+  "end": 47.74
+ },
+ {
+  "word": "depended",
+  "start": 47.74,
+  "end": 48.06
+ },
+ {
+  "word": "on",
+  "start": 48.06,
+  "end": 48.32
+ },
+ {
+  "word": "for",
+  "start": 48.32,
+  "end": 48.5
+ },
+ {
+  "word": "decades?",
+  "start": 48.5,
+  "end": 48.96
+ },
+ {
+  "word": "Let's",
+  "start": 50.48,
+  "end": 50.7
+ },
+ {
+  "word": "find",
+  "start": 50.7,
+  "end": 50.92
+ },
+ {
+  "word": "out.",
+  "start": 50.92,
+  "end": 52.38
+ },
+ {
+  "word": "First",
+  "start": 52.86,
+  "end": 53.06
+ },
+ {
+  "word": "few",
+  "start": 53.06,
+  "end": 53.24
+ },
+ {
+  "word": "hours",
+  "start": 53.24,
+  "end": 53.44
+ },
+ {
+  "word": "would",
+  "start": 53.44,
+  "end": 53.62
+ },
+ {
+  "word": "be",
+  "start": 53.62,
+  "end": 53.78
+ },
+ {
+  "word": "confusing,",
+  "start": 53.78,
+  "end": 54.34
+ },
+ {
+  "word": "billions",
+  "start": 55.36,
+  "end": 55.46
+ },
+ {
+  "word": "of",
+  "start": 55.46,
+  "end": 55.64
+ },
+ {
+  "word": "people",
+  "start": 55.64,
+  "end": 55.86
+ },
+ {
+  "word": "would",
+  "start": 55.86,
+  "end": 56.06
+ },
+ {
+  "word": "try",
+  "start": 56.06,
+  "end": 56.2
+ },
+ {
+  "word": "to",
+  "start": 56.2,
+  "end": 56.3
+ },
+ {
+  "word": "reconnect,",
+  "start": 56.3,
+  "end": 56.72
+ },
+ {
+  "word": "internet",
+  "start": 57.32,
+  "end": 57.76
+ },
+ {
+  "word": "providers",
+  "start": 57.76,
+  "end": 58.06
+ },
+ {
+  "word": "would",
+  "start": 58.06,
+  "end": 58.4
+ },
+ {
+  "word": "be",
+  "start": 58.4,
+  "end": 58.5
+ },
+ {
+  "word": "flooded",
+  "start": 58.5,
+  "end": 58.62
+ },
+ {
+  "word": "with",
+  "start": 58.62,
+  "end": 58.88
+ },
+ {
+  "word": "calls,",
+  "start": 58.88,
+  "end": 59.46
+ },
+ {
+  "word": "governments",
+  "start": 60.2,
+  "end": 60.32
+ },
+ {
+  "word": "would",
+  "start": 60.32,
+  "end": 60.54
+ },
+ {
+  "word": "issue",
+  "start": 60.54,
+  "end": 60.76
+ },
+ {
+  "word": "emergency",
+  "start": 60.76,
+  "end": 61.16
+ },
+ {
+  "word": "announcements",
+  "start": 61.16,
+  "end": 61.52
+ },
+ {
+  "word": "through",
+  "start": 61.52,
+  "end": 61.84
+ },
+ {
+  "word": "television",
+  "start": 61.84,
+  "end": 62.16
+ },
+ {
+  "word": "and",
+  "start": 62.16,
+  "end": 62.52
+ },
+ {
+  "word": "radio,",
+  "start": 62.52,
+  "end": 62.86
+ },
+ {
+  "word": "but",
+  "start": 63.86,
+  "end": 64.0
+ },
+ {
+  "word": "the",
+  "start": 64.0,
+  "end": 64.1
+ },
+ {
+  "word": "biggest",
+  "start": 64.1,
+  "end": 64.36
+ },
+ {
+  "word": "shock",
+  "start": 64.36,
+  "end": 64.62
+ },
+ {
+  "word": "wouldn't",
+  "start": 64.62,
+  "end": 64.86
+ },
+ {
+  "word": "be",
+  "start": 64.86,
+  "end": 65.08
+ },
+ {
+  "word": "social",
+  "start": 65.08,
+  "end": 65.26
+ },
+ {
+  "word": "media",
+  "start": 65.26,
+  "end": 65.48
+ },
+ {
+  "word": "disappearing,",
+  "start": 65.48,
+  "end": 65.9
+ },
+ {
+  "word": "would",
+  "start": 67.06,
+  "end": 67.2
+ },
+ {
+  "word": "be",
+  "start": 67.2,
+  "end": 67.38
+ },
+ {
+  "word": "money,",
+  "start": 67.38,
+  "end": 67.8
+ },
+ {
+  "word": "most",
+  "start": 68.98,
+  "end": 69.12
+ },
+ {
+  "word": "people",
+  "start": 69.12,
+  "end": 69.3
+ },
+ {
+  "word": "don't",
+  "start": 69.3,
+  "end": 69.54
+ },
+ {
+  "word": "carry",
+  "start": 69.54,
+  "end": 69.68
+ },
+ {
+  "word": "much",
+  "start": 69.68,
+  "end": 69.9
+ },
+ {
+  "word": "physical",
+  "start": 69.9,
+  "end": 70.12
+ },
+ {
+  "word": "cash",
+  "start": 70.12,
+  "end": 70.44
+ },
+ {
+  "word": "anymore,",
+  "start": 70.44,
+  "end": 70.92
+ },
+ {
+  "word": "businesses",
+  "start": 71.86,
+  "end": 71.98
+ },
+ {
+  "word": "depend",
+  "start": 71.98,
+  "end": 72.36
+ },
+ {
+  "word": "on",
+  "start": 72.36,
+  "end": 72.54
+ },
+ {
+  "word": "digital",
+  "start": 72.54,
+  "end": 72.78
+ },
+ {
+  "word": "payment",
+  "start": 72.78,
+  "end": 72.94
+ },
+ {
+  "word": "systems,",
+  "start": 72.94,
+  "end": 73.44
+ },
+ {
+  "word": "online",
+  "start": 73.76,
+  "end": 73.76
+ },
+ {
+  "word": "banking,",
+  "start": 73.76,
+  "end": 74.16
+ },
+ {
+  "word": "and",
+  "start": 74.24,
+  "end": 74.44
+ },
+ {
+  "word": "connected",
+  "start": 74.44,
+  "end": 74.56
+ },
+ {
+  "word": "payment",
+  "start": 74.56,
+  "end": 74.78
+ },
+ {
+  "word": "networks,",
+  "start": 74.78,
+  "end": 75.3
+ },
+ {
+  "word": "you",
+  "start": 76.26,
+  "end": 76.4
+ },
+ {
+  "word": "walk",
+  "start": 76.4,
+  "end": 76.54
+ },
+ {
+  "word": "into",
+  "start": 76.54,
+  "end": 76.74
+ },
+ {
+  "word": "a",
+  "start": 76.74,
+  "end": 76.9
+ },
+ {
+  "word": "supermarket,",
+  "start": 76.9,
+  "end": 77.18
+ },
+ {
+  "word": "fill",
+  "start": 77.42,
+  "end": 77.5
+ },
+ {
+  "word": "your",
+  "start": 77.5,
+  "end": 77.68
+ },
+ {
+  "word": "shopping",
+  "start": 77.68,
+  "end": 77.84
+ },
+ {
+  "word": "cart",
+  "start": 77.84,
+  "end": 78.1
+ },
+ {
+  "word": "and",
+  "start": 78.1,
+  "end": 78.22
+ },
+ {
+  "word": "reach",
+  "start": 78.22,
+  "end": 78.42
+ },
+ {
+  "word": "the",
+  "start": 78.42,
+  "end": 78.6
+ },
+ {
+  "word": "checkout,",
+  "start": 78.6,
+  "end": 78.86
+ },
+ {
+  "word": "your",
+  "start": 79.98,
+  "end": 80.14
+ },
+ {
+  "word": "car",
+  "start": 80.14,
+  "end": 80.34
+ },
+ {
+  "word": "doesn't",
+  "start": 80.34,
+  "end": 80.64
+ },
+ {
+  "word": "work,",
+  "start": 80.64,
+  "end": 81.18
+ },
+ {
+  "word": "either",
+  "start": 82.24,
+  "end": 82.32
+ },
+ {
+  "word": "does",
+  "start": 82.32,
+  "end": 82.48
+ },
+ {
+  "word": "your",
+  "start": 82.48,
+  "end": 82.62
+ },
+ {
+  "word": "payment",
+  "start": 82.62,
+  "end": 82.8
+ },
+ {
+  "word": "app,",
+  "start": 82.8,
+  "end": 83.34
+ },
+ {
+  "word": "and",
+  "start": 84.08,
+  "end": 84.2
+ },
+ {
+  "word": "the",
+  "start": 84.2,
+  "end": 84.26
+ },
+ {
+  "word": "cashier",
+  "start": 84.26,
+  "end": 84.54
+ },
+ {
+  "word": "tells",
+  "start": 84.54,
+  "end": 84.72
+ },
+ {
+  "word": "you",
+  "start": 84.72,
+  "end": 84.84
+ },
+ {
+  "word": "they",
+  "start": 84.84,
+  "end": 84.94
+ },
+ {
+  "word": "can",
+  "start": 84.94,
+  "end": 85.08
+ },
+ {
+  "word": "only",
+  "start": 85.08,
+  "end": 85.24
+ },
+ {
+  "word": "accept",
+  "start": 85.24,
+  "end": 85.48
+ },
+ {
+  "word": "cash.",
+  "start": 85.48,
+  "end": 85.98
+ },
+ {
+  "word": "For",
+  "start": 86.84,
+  "end": 87.0
+ },
+ {
+  "word": "millions",
+  "start": 87.0,
+  "end": 87.22
+ },
+ {
+  "word": "of",
+  "start": 87.22,
+  "end": 87.4
+ },
+ {
+  "word": "people,",
+  "start": 87.4,
+  "end": 87.72
+ },
+ {
+  "word": "this",
+  "start": 87.86,
+  "end": 87.92
+ },
+ {
+  "word": "would",
+  "start": 87.92,
+  "end": 88.06
+ },
+ {
+  "word": "be",
+  "start": 88.06,
+  "end": 88.14
+ },
+ {
+  "word": "the",
+  "start": 88.14,
+  "end": 88.26
+ },
+ {
+  "word": "first",
+  "start": 88.26,
+  "end": 88.46
+ },
+ {
+  "word": "time",
+  "start": 88.46,
+  "end": 88.64
+ },
+ {
+  "word": "they",
+  "start": 88.64,
+  "end": 88.8
+ },
+ {
+  "word": "realize",
+  "start": 88.8,
+  "end": 89.16
+ },
+ {
+  "word": "how",
+  "start": 89.16,
+  "end": 89.46
+ },
+ {
+  "word": "dependent",
+  "start": 89.46,
+  "end": 89.76
+ },
+ {
+  "word": "their",
+  "start": 89.76,
+  "end": 90.0
+ },
+ {
+  "word": "daily",
+  "start": 90.0,
+  "end": 90.16
+ },
+ {
+  "word": "lives",
+  "start": 90.16,
+  "end": 90.54
+ },
+ {
+  "word": "have",
+  "start": 90.54,
+  "end": 90.7
+ },
+ {
+  "word": "become",
+  "start": 90.7,
+  "end": 90.86
+ },
+ {
+  "word": "on",
+  "start": 90.86,
+  "end": 91.1
+ },
+ {
+  "word": "something",
+  "start": 91.1,
+  "end": 91.32
+ },
+ {
+  "word": "they",
+  "start": 91.32,
+  "end": 91.48
+ },
+ {
+  "word": "barely",
+  "start": 91.48,
+  "end": 91.66
+ },
+ {
+  "word": "think",
+  "start": 91.66,
+  "end": 91.9
+ },
+ {
+  "word": "about.",
+  "start": 91.9,
+  "end": 92.82
+ },
+ {
+  "word": "Here's",
+  "start": 93.92,
+  "end": 94.06
+ },
+ {
+  "word": "the",
+  "start": 94.06,
+  "end": 94.18
+ },
+ {
+  "word": "part",
+  "start": 94.18,
+  "end": 94.28
+ },
+ {
+  "word": "that",
+  "start": 94.28,
+  "end": 94.72
+ },
+ {
+  "word": "surprises",
+  "start": 94.72,
+  "end": 94.72
+ },
+ {
+  "word": "most",
+  "start": 94.72,
+  "end": 94.98
+ },
+ {
+  "word": "people.",
+  "start": 94.98,
+  "end": 95.54
+ },
+ {
+  "word": "This",
+  "start": 96.24,
+  "end": 96.36
+ },
+ {
+  "word": "isn't",
+  "start": 96.36,
+  "end": 96.64
+ },
+ {
+  "word": "pure",
+  "start": 96.64,
+  "end": 96.8
+ },
+ {
+  "word": "fantasy.",
+  "start": 96.8,
+  "end": 97.28
+ },
+ {
+  "word": "In",
+  "start": 98.62,
+  "end": 98.72
+ },
+ {
+  "word": "October",
+  "start": 98.72,
+  "end": 98.96
+ },
+ {
+  "word": "2021,",
+  "start": 98.96,
+  "end": 99.86
+ },
+ {
+  "word": "Facebook,",
+  "start": 100.34,
+  "end": 100.46
+ },
+ {
+  "word": "Instagram,",
+  "start": 100.84,
+  "end": 101.12
+ },
+ {
+  "word": "and",
+  "start": 101.14,
+  "end": 101.3
+ },
+ {
+  "word": "WhatsApp",
+  "start": 101.3,
+  "end": 101.62
+ },
+ {
+  "word": "went",
+  "start": 101.62,
+  "end": 101.78
+ },
+ {
+  "word": "down",
+  "start": 101.78,
+  "end": 102.04
+ },
+ {
+  "word": "for",
+  "start": 102.04,
+  "end": 102.16
+ },
+ {
+  "word": "about",
+  "start": 102.16,
+  "end": 102.34
+ },
+ {
+  "word": "six",
+  "start": 102.34,
+  "end": 102.6
+ },
+ {
+  "word": "hours.",
+  "start": 102.6,
+  "end": 102.92
+ },
+ {
+  "word": "The",
+  "start": 103.92,
+  "end": 104.0
+ },
+ {
+  "word": "ins",
+  "start": 104.0,
+  "end": 104.1
+ },
+ {
+  "word": "of",
+  "start": 104.1,
+  "end": 104.22
+ },
+ {
+  "word": "people",
+  "start": 104.22,
+  "end": 104.38
+ },
+ {
+  "word": "lost",
+  "start": 104.38,
+  "end": 104.62
+ },
+ {
+  "word": "them",
+  "start": 104.62,
+  "end": 104.76
+ },
+ {
+  "word": "at",
+  "start": 104.76,
+  "end": 104.88
+ },
+ {
+  "word": "once.",
+  "start": 104.88,
+  "end": 105.42
+ },
+ {
+  "word": "Reports",
+  "start": 106.06,
+  "end": 106.3
+ },
+ {
+  "word": "at",
+  "start": 106.3,
+  "end": 106.46
+ },
+ {
+  "word": "the",
+  "start": 106.46,
+  "end": 106.68
+ },
+ {
+  "word": "time",
+  "start": 106.68,
+  "end": 106.9
+ },
+ {
+  "word": "said",
+  "start": 106.9,
+  "end": 107.08
+ },
+ {
+  "word": "some",
+  "start": 107.08,
+  "end": 107.36
+ },
+ {
+  "word": "engineers",
+  "start": 107.36,
+  "end": 107.72
+ },
+ {
+  "word": "struggled",
+  "start": 107.72,
+  "end": 107.94
+ },
+ {
+  "word": "to",
+  "start": 107.94,
+  "end": 108.12
+ },
+ {
+  "word": "fix",
+  "start": 108.12,
+  "end": 108.24
+ },
+ {
+  "word": "the",
+  "start": 108.24,
+  "end": 108.42
+ },
+ {
+  "word": "problem",
+  "start": 108.42,
+  "end": 108.62
+ },
+ {
+  "word": "because",
+  "start": 108.62,
+  "end": 108.92
+ },
+ {
+  "word": "the",
+  "start": 108.92,
+  "end": 109.18
+ },
+ {
+  "word": "systems",
+  "start": 109.18,
+  "end": 109.36
+ },
+ {
+  "word": "they",
+  "start": 109.36,
+  "end": 109.58
+ },
+ {
+  "word": "needed",
+  "start": 109.58,
+  "end": 109.74
+ },
+ {
+  "word": "to",
+  "start": 109.74,
+  "end": 109.86
+ },
+ {
+  "word": "get",
+  "start": 109.86,
+  "end": 110.02
+ },
+ {
+  "word": "inside",
+  "start": 110.02,
+  "end": 110.34
+ },
+ {
+  "word": "the",
+  "start": 110.34,
+  "end": 110.58
+ },
+ {
+  "word": "buildings",
+  "start": 110.58,
+  "end": 110.82
+ },
+ {
+  "word": "were",
+  "start": 110.82,
+  "end": 111.06
+ },
+ {
+  "word": "affected",
+  "start": 111.06,
+  "end": 111.24
+ },
+ {
+  "word": "too.",
+  "start": 111.24,
+  "end": 112.16
+ },
+ {
+  "word": "In",
+  "start": 112.8,
+  "end": 112.88
+ },
+ {
+  "word": "January",
+  "start": 112.88,
+  "end": 113.16
+ },
+ {
+  "word": "2011,",
+  "start": 113.16,
+  "end": 113.86
+ },
+ {
+  "word": "Egypt's",
+  "start": 114.32,
+  "end": 114.82
+ },
+ {
+  "word": "government",
+  "start": 114.82,
+  "end": 114.82
+ },
+ {
+  "word": "cut",
+  "start": 114.82,
+  "end": 114.98
+ },
+ {
+  "word": "off",
+  "start": 114.98,
+  "end": 115.14
+ },
+ {
+  "word": "the",
+  "start": 115.14,
+  "end": 115.28
+ },
+ {
+  "word": "country's",
+  "start": 115.28,
+  "end": 115.64
+ },
+ {
+  "word": "internet",
+  "start": 115.64,
+  "end": 115.82
+ },
+ {
+  "word": "for",
+  "start": 115.82,
+  "end": 116.0
+ },
+ {
+  "word": "about",
+  "start": 116.0,
+  "end": 116.2
+ },
+ {
+  "word": "five",
+  "start": 116.2,
+  "end": 116.44
+ },
+ {
+  "word": "days.",
+  "start": 116.44,
+  "end": 116.9
+ },
+ {
+  "word": "And",
+  "start": 117.94,
+  "end": 118.06
+ },
+ {
+  "word": "in",
+  "start": 118.06,
+  "end": 118.24
+ },
+ {
+  "word": "2022,",
+  "start": 118.24,
+  "end": 118.88
+ },
+ {
+  "word": "an",
+  "start": 119.2,
+  "end": 119.32
+ },
+ {
+  "word": "undersea",
+  "start": 119.32,
+  "end": 119.68
+ },
+ {
+  "word": "cable",
+  "start": 119.68,
+  "end": 119.86
+ },
+ {
+  "word": "was",
+  "start": 119.86,
+  "end": 120.08
+ },
+ {
+  "word": "cut",
+  "start": 120.08,
+  "end": 120.24
+ },
+ {
+  "word": "after",
+  "start": 120.24,
+  "end": 120.52
+ },
+ {
+  "word": "a",
+  "start": 120.52,
+  "end": 120.62
+ },
+ {
+  "word": "volcanic",
+  "start": 120.62,
+  "end": 120.86
+ },
+ {
+  "word": "eruption",
+  "start": 120.86,
+  "end": 121.26
+ },
+ {
+  "word": "and",
+  "start": 121.26,
+  "end": 121.66
+ },
+ {
+  "word": "the",
+  "start": 121.66,
+  "end": 121.92
+ },
+ {
+  "word": "island",
+  "start": 121.92,
+  "end": 122.04
+ },
+ {
+  "word": "nation",
+  "start": 122.04,
+  "end": 122.32
+ },
+ {
+  "word": "of",
+  "start": 122.32,
+  "end": 122.48
+ },
+ {
+  "word": "Tonga",
+  "start": 122.48,
+  "end": 122.76
+ },
+ {
+  "word": "was",
+  "start": 122.76,
+  "end": 122.96
+ },
+ {
+  "word": "largely",
+  "start": 122.96,
+  "end": 123.34
+ },
+ {
+  "word": "cut",
+  "start": 123.34,
+  "end": 123.5
+ },
+ {
+  "word": "off",
+  "start": 123.5,
+  "end": 123.7
+ },
+ {
+  "word": "for",
+  "start": 123.7,
+  "end": 123.84
+ },
+ {
+  "word": "weeks.",
+  "start": 123.84,
+  "end": 124.28
+ },
+ {
+  "word": "Those",
+  "start": 125.26,
+  "end": 125.46
+ },
+ {
+  "word": "were",
+  "start": 125.46,
+  "end": 125.64
+ },
+ {
+  "word": "small",
+  "start": 125.64,
+  "end": 125.9
+ },
+ {
+  "word": "outages",
+  "start": 125.9,
+  "end": 126.26
+ },
+ {
+  "word": "and",
+  "start": 126.26,
+  "end": 126.5
+ },
+ {
+  "word": "small",
+  "start": 126.5,
+  "end": 126.66
+ },
+ {
+  "word": "places",
+  "start": 126.66,
+  "end": 126.98
+ },
+ {
+  "word": "with",
+  "start": 126.98,
+  "end": 127.2
+ },
+ {
+  "word": "the",
+  "start": 127.2,
+  "end": 127.28
+ },
+ {
+  "word": "rest",
+  "start": 127.28,
+  "end": 127.42
+ },
+ {
+  "word": "of",
+  "start": 127.42,
+  "end": 127.56
+ },
+ {
+  "word": "the",
+  "start": 127.56,
+  "end": 127.66
+ },
+ {
+  "word": "world",
+  "start": 127.66,
+  "end": 127.86
+ },
+ {
+  "word": "still",
+  "start": 127.86,
+  "end": 128.16
+ },
+ {
+  "word": "online",
+  "start": 128.16,
+  "end": 128.38
+ },
+ {
+  "word": "to",
+  "start": 128.38,
+  "end": 128.6
+ },
+ {
+  "word": "help.",
+  "start": 128.6,
+  "end": 129.08
+ },
+ {
+  "word": "Now",
+  "start": 129.92,
+  "end": 130.04
+ },
+ {
+  "word": "take",
+  "start": 130.04,
+  "end": 130.2
+ },
+ {
+  "word": "away",
+  "start": 130.2,
+  "end": 130.3
+ },
+ {
+  "word": "the",
+  "start": 130.3,
+  "end": 130.44
+ },
+ {
+  "word": "rest",
+  "start": 130.44,
+  "end": 130.54
+ },
+ {
+  "word": "of",
+  "start": 130.54,
+  "end": 130.68
+ },
+ {
+  "word": "the",
+  "start": 130.68,
+  "end": 130.74
+ },
+ {
+  "word": "world.",
+  "start": 130.74,
+  "end": 131.32
+ },
+ {
+  "word": "By",
+  "start": 132.62,
+  "end": 132.72
+ },
+ {
+  "word": "the",
+  "start": 132.72,
+  "end": 132.84
+ },
+ {
+  "word": "same",
+  "start": 132.84,
+  "end": 132.96
+ },
+ {
+  "word": "day,",
+  "start": 132.96,
+  "end": 133.2
+ },
+ {
+  "word": "things",
+  "start": 133.34,
+  "end": 133.38
+ },
+ {
+  "word": "could",
+  "start": 133.38,
+  "end": 133.5
+ },
+ {
+  "word": "get",
+  "start": 133.5,
+  "end": 133.62
+ },
+ {
+  "word": "much",
+  "start": 133.62,
+  "end": 133.82
+ },
+ {
+  "word": "worse.",
+  "start": 133.82,
+  "end": 134.3
+ },
+ {
+  "word": "Modern",
+  "start": 135.38,
+  "end": 135.38
+ },
+ {
+  "word": "businesses",
+  "start": 135.38,
+  "end": 135.76
+ },
+ {
+  "word": "depend",
+  "start": 135.76,
+  "end": 136.16
+ },
+ {
+  "word": "on",
+  "start": 136.16,
+  "end": 136.36
+ },
+ {
+  "word": "connected",
+  "start": 136.36,
+  "end": 136.52
+ },
+ {
+  "word": "systems",
+  "start": 136.52,
+  "end": 136.92
+ },
+ {
+  "word": "to",
+  "start": 136.92,
+  "end": 137.1
+ },
+ {
+  "word": "communicate,",
+  "start": 137.1,
+  "end": 137.58
+ },
+ {
+  "word": "manage",
+  "start": 137.78,
+  "end": 138.06
+ },
+ {
+  "word": "inventory,",
+  "start": 138.06,
+  "end": 138.52
+ },
+ {
+  "word": "process",
+  "start": 138.86,
+  "end": 138.92
+ },
+ {
+  "word": "orders",
+  "start": 138.92,
+  "end": 139.34
+ },
+ {
+  "word": "and",
+  "start": 139.34,
+  "end": 139.54
+ },
+ {
+  "word": "coordinate",
+  "start": 139.54,
+  "end": 139.84
+ },
+ {
+  "word": "deliveries.",
+  "start": 139.84,
+  "end": 140.48
+ },
+ {
+  "word": "It",
+  "start": 141.48,
+  "end": 141.56
+ },
+ {
+  "word": "lines",
+  "start": 141.56,
+  "end": 141.7
+ },
+ {
+  "word": "rely",
+  "start": 141.7,
+  "end": 141.98
+ },
+ {
+  "word": "on",
+  "start": 141.98,
+  "end": 142.1
+ },
+ {
+  "word": "digital",
+  "start": 142.1,
+  "end": 142.26
+ },
+ {
+  "word": "networks.",
+  "start": 142.26,
+  "end": 142.94
+ },
+ {
+  "word": "Hospitals",
+  "start": 143.72,
+  "end": 143.86
+ },
+ {
+  "word": "use",
+  "start": 143.86,
+  "end": 144.16
+ },
+ {
+  "word": "connected",
+  "start": 144.16,
+  "end": 144.34
+ },
+ {
+  "word": "systems",
+  "start": 144.34,
+  "end": 144.68
+ },
+ {
+  "word": "to",
+  "start": 144.68,
+  "end": 144.92
+ },
+ {
+  "word": "access",
+  "start": 144.92,
+  "end": 145.16
+ },
+ {
+  "word": "records",
+  "start": 145.16,
+  "end": 145.58
+ },
+ {
+  "word": "and",
+  "start": 145.58,
+  "end": 145.8
+ },
+ {
+  "word": "coordinate",
+  "start": 145.8,
+  "end": 146.06
+ },
+ {
+  "word": "care.",
+  "start": 146.06,
+  "end": 146.6
+ },
+ {
+  "word": "Apply",
+  "start": 147.36,
+  "end": 147.6
+ },
+ {
+  "word": "chains",
+  "start": 147.6,
+  "end": 147.96
+ },
+ {
+  "word": "depend",
+  "start": 147.96,
+  "end": 148.3
+ },
+ {
+  "word": "on",
+  "start": 148.3,
+  "end": 148.58
+ },
+ {
+  "word": "content",
+  "start": 148.58,
+  "end": 148.76
+ },
+ {
+  "word": "information",
+  "start": 148.76,
+  "end": 149.14
+ },
+ {
+  "word": "exchange.",
+  "start": 149.14,
+  "end": 149.76
+ },
+ {
+  "word": "Without",
+  "start": 150.74,
+  "end": 150.9
+ },
+ {
+  "word": "the",
+  "start": 150.9,
+  "end": 151.06
+ },
+ {
+  "word": "internet,",
+  "start": 151.06,
+  "end": 151.3
+ },
+ {
+  "word": "these",
+  "start": 151.42,
+  "end": 151.6
+ },
+ {
+  "word": "systems",
+  "start": 151.6,
+  "end": 151.82
+ },
+ {
+  "word": "wouldn't",
+  "start": 151.82,
+  "end": 152.14
+ },
+ {
+  "word": "all",
+  "start": 152.14,
+  "end": 152.38
+ },
+ {
+  "word": "instantly",
+  "start": 152.38,
+  "end": 152.7
+ },
+ {
+  "word": "collapse.",
+  "start": 152.7,
+  "end": 153.16
+ },
+ {
+  "word": "Then",
+  "start": 154.04,
+  "end": 154.14
+ },
+ {
+  "word": "you",
+  "start": 154.14,
+  "end": 154.24
+ },
+ {
+  "word": "have",
+  "start": 154.24,
+  "end": 154.42
+ },
+ {
+  "word": "offline",
+  "start": 154.42,
+  "end": 154.72
+ },
+ {
+  "word": "backups",
+  "start": 154.72,
+  "end": 155.04
+ },
+ {
+  "word": "and",
+  "start": 155.04,
+  "end": 155.38
+ },
+ {
+  "word": "independent",
+  "start": 155.38,
+  "end": 155.64
+ },
+ {
+  "word": "communication",
+  "start": 155.64,
+  "end": 156.12
+ },
+ {
+  "word": "networks.",
+  "start": 156.12,
+  "end": 156.72
+ },
+ {
+  "word": "But",
+  "start": 157.6,
+  "end": 157.76
+ },
+ {
+  "word": "operations",
+  "start": 157.76,
+  "end": 158.08
+ },
+ {
+  "word": "would",
+  "start": 158.08,
+  "end": 158.32
+ },
+ {
+  "word": "become",
+  "start": 158.32,
+  "end": 158.6
+ },
+ {
+  "word": "slower,",
+  "start": 158.6,
+  "end": 158.88
+ },
+ {
+  "word": "more",
+  "start": 159.1,
+  "end": 159.24
+ },
+ {
+  "word": "difficult,",
+  "start": 159.24,
+  "end": 159.54
+ },
+ {
+  "word": "and",
+  "start": 159.62,
+  "end": 159.7
+ },
+ {
+  "word": "less",
+  "start": 159.7,
+  "end": 159.82
+ },
+ {
+  "word": "reliable.",
+  "start": 159.82,
+  "end": 160.14
+ },
+ {
+  "word": "Imagine",
+  "start": 161.3,
+  "end": 161.6
+ },
+ {
+  "word": "a",
+  "start": 161.6,
+  "end": 161.86
+ },
+ {
+  "word": "hospital",
+  "start": 161.86,
+  "end": 162.1
+ },
+ {
+  "word": "trying",
+  "start": 162.1,
+  "end": 162.4
+ },
+ {
+  "word": "to",
+  "start": 162.4,
+  "end": 162.4
+ },
+ {
+  "word": "find",
+  "start": 162.4,
+  "end": 162.64
+ },
+ {
+  "word": "a",
+  "start": 162.64,
+  "end": 162.88
+ },
+ {
+  "word": "patient's",
+  "start": 162.88,
+  "end": 163.18
+ },
+ {
+  "word": "mental",
+  "start": 163.18,
+  "end": 163.34
+ },
+ {
+  "word": "history",
+  "start": 163.34,
+  "end": 163.72
+ },
+ {
+  "word": "stored",
+  "start": 163.72,
+  "end": 164.02
+ },
+ {
+  "word": "in",
+  "start": 164.02,
+  "end": 164.18
+ },
+ {
+  "word": "a",
+  "start": 164.18,
+  "end": 164.26
+ },
+ {
+  "word": "cloud",
+  "start": 164.26,
+  "end": 164.48
+ },
+ {
+  "word": "system.",
+  "start": 164.48,
+  "end": 165.14
+ },
+ {
+  "word": "Imagine",
+  "start": 165.94,
+  "end": 166.2
+ },
+ {
+  "word": "a",
+  "start": 166.2,
+  "end": 166.44
+ },
+ {
+  "word": "supermarket",
+  "start": 166.44,
+  "end": 166.76
+ },
+ {
+  "word": "that",
+  "start": 166.76,
+  "end": 167.06
+ },
+ {
+  "word": "doesn't",
+  "start": 167.06,
+  "end": 167.28
+ },
+ {
+  "word": "know",
+  "start": 167.28,
+  "end": 167.52
+ },
+ {
+  "word": "when",
+  "start": 167.52,
+  "end": 167.64
+ },
+ {
+  "word": "its",
+  "start": 167.64,
+  "end": 167.74
+ },
+ {
+  "word": "next",
+  "start": 167.74,
+  "end": 167.94
+ },
+ {
+  "word": "food",
+  "start": 167.94,
+  "end": 168.16
+ },
+ {
+  "word": "delivery",
+  "start": 168.16,
+  "end": 168.34
+ },
+ {
+  "word": "will",
+  "start": 168.34,
+  "end": 168.56
+ },
+ {
+  "word": "arrive.",
+  "start": 168.56,
+  "end": 169.1
+ },
+ {
+  "word": "Imagine",
+  "start": 170.08,
+  "end": 170.3
+ },
+ {
+  "word": "a",
+  "start": 170.3,
+  "end": 170.54
+ },
+ {
+  "word": "factory",
+  "start": 170.54,
+  "end": 170.68
+ },
+ {
+  "word": "that",
+  "start": 170.68,
+  "end": 170.84
+ },
+ {
+  "word": "can't",
+  "start": 170.84,
+  "end": 171.08
+ },
+ {
+  "word": "talk",
+  "start": 171.08,
+  "end": 171.2
+ },
+ {
+  "word": "to",
+  "start": 171.2,
+  "end": 171.32
+ },
+ {
+  "word": "its",
+  "start": 171.32,
+  "end": 171.42
+ },
+ {
+  "word": "suppliers.",
+  "start": 171.42,
+  "end": 171.96
+ },
+ {
+  "word": "The",
+  "start": 172.92,
+  "end": 173.1
+ },
+ {
+  "word": "world",
+  "start": 173.1,
+  "end": 173.1
+ },
+ {
+  "word": "was",
+  "start": 173.1,
+  "end": 173.28
+ },
+ {
+  "word": "still",
+  "start": 173.28,
+  "end": 173.36
+ },
+ {
+  "word": "moving,",
+  "start": 173.36,
+  "end": 173.7
+ },
+ {
+  "word": "but",
+  "start": 174.48,
+  "end": 174.84
+ },
+ {
+  "word": "it",
+  "start": 174.84,
+  "end": 174.92
+ },
+ {
+  "word": "would",
+  "start": 174.92,
+  "end": 175.08
+ },
+ {
+  "word": "be",
+  "start": 175.08,
+  "end": 175.14
+ },
+ {
+  "word": "moving",
+  "start": 175.14,
+  "end": 175.44
+ },
+ {
+  "word": "almost",
+  "start": 175.44,
+  "end": 175.68
+ },
+ {
+  "word": "blindly.",
+  "start": 175.68,
+  "end": 175.96
+ },
+ {
+  "word": "Now",
+  "start": 177.72,
+  "end": 177.94
+ },
+ {
+  "word": "imagine",
+  "start": 177.94,
+  "end": 178.28
+ },
+ {
+  "word": "something",
+  "start": 178.28,
+  "end": 178.6
+ },
+ {
+  "word": "else.",
+  "start": 178.6,
+  "end": 179.24
+ },
+ {
+  "word": "No",
+  "start": 180.18,
+  "end": 180.42
+ },
+ {
+  "word": "Instagram.",
+  "start": 180.42,
+  "end": 180.8
+ },
+ {
+  "word": "No",
+  "start": 181.94,
+  "end": 182.16
+ },
+ {
+  "word": "YouTube.",
+  "start": 182.16,
+  "end": 182.58
+ },
+ {
+  "word": "No",
+  "start": 183.6,
+  "end": 183.8
+ },
+ {
+  "word": "TikTok.",
+  "start": 183.8,
+  "end": 184.34
+ },
+ {
+  "word": "No",
+  "start": 185.24,
+  "end": 185.44
+ },
+ {
+  "word": "WhatsApp.",
+  "start": 185.44,
+  "end": 185.88
+ },
+ {
+  "word": "No",
+  "start": 186.9,
+  "end": 187.04
+ },
+ {
+  "word": "Netflix.",
+  "start": 187.04,
+  "end": 187.48
+ },
+ {
+  "word": "No",
+  "start": 188.22,
+  "end": 188.66
+ },
+ {
+  "word": "online",
+  "start": 188.66,
+  "end": 189.02
+ },
+ {
+  "word": "gaming.",
+  "start": 189.02,
+  "end": 189.58
+ },
+ {
+  "word": "The",
+  "start": 190.64,
+  "end": 190.82
+ },
+ {
+  "word": "first",
+  "start": 190.82,
+  "end": 191.02
+ },
+ {
+  "word": "time",
+  "start": 191.02,
+  "end": 191.2
+ },
+ {
+  "word": "in",
+  "start": 191.2,
+  "end": 191.38
+ },
+ {
+  "word": "decades,",
+  "start": 191.38,
+  "end": 191.66
+ },
+ {
+  "word": "billions",
+  "start": 191.92,
+  "end": 192.1
+ },
+ {
+  "word": "of",
+  "start": 192.1,
+  "end": 192.32
+ },
+ {
+  "word": "people",
+  "start": 192.32,
+  "end": 192.54
+ },
+ {
+  "word": "would",
+  "start": 192.54,
+  "end": 192.74
+ },
+ {
+  "word": "lose",
+  "start": 192.74,
+  "end": 192.92
+ },
+ {
+  "word": "their",
+  "start": 192.92,
+  "end": 193.1
+ },
+ {
+  "word": "main",
+  "start": 193.1,
+  "end": 193.3
+ },
+ {
+  "word": "caption",
+  "start": 193.3,
+  "end": 193.54
+ },
+ {
+  "word": "to",
+  "start": 193.54,
+  "end": 193.76
+ },
+ {
+  "word": "the",
+  "start": 193.76,
+  "end": 193.88
+ },
+ {
+  "word": "digital",
+  "start": 193.88,
+  "end": 194.06
+ },
+ {
+  "word": "world.",
+  "start": 194.06,
+  "end": 195.1
+ },
+ {
+  "word": "Content",
+  "start": 195.66,
+  "end": 195.78
+ },
+ {
+  "word": "creators",
+  "start": 195.78,
+  "end": 196.12
+ },
+ {
+  "word": "would",
+  "start": 196.12,
+  "end": 196.36
+ },
+ {
+  "word": "lose",
+  "start": 196.36,
+  "end": 196.54
+ },
+ {
+  "word": "their",
+  "start": 196.54,
+  "end": 196.72
+ },
+ {
+  "word": "audiences",
+  "start": 196.72,
+  "end": 197.06
+ },
+ {
+  "word": "overnight.",
+  "start": 197.06,
+  "end": 197.78
+ },
+ {
+  "word": "Online",
+  "start": 198.76,
+  "end": 198.76
+ },
+ {
+  "word": "businesses",
+  "start": 198.76,
+  "end": 199.12
+ },
+ {
+  "word": "would",
+  "start": 199.12,
+  "end": 199.42
+ },
+ {
+  "word": "struggle.",
+  "start": 199.42,
+  "end": 200.0
+ },
+ {
+  "word": "Remote",
+  "start": 200.82,
+  "end": 200.92
+ },
+ {
+  "word": "workers",
+  "start": 200.92,
+  "end": 201.26
+ },
+ {
+  "word": "would",
+  "start": 201.26,
+  "end": 201.46
+ },
+ {
+  "word": "have",
+  "start": 201.46,
+  "end": 201.58
+ },
+ {
+  "word": "no",
+  "start": 201.58,
+  "end": 201.74
+ },
+ {
+  "word": "way",
+  "start": 201.74,
+  "end": 201.76
+ },
+ {
+  "word": "to",
+  "start": 201.76,
+  "end": 201.94
+ },
+ {
+  "word": "reach",
+  "start": 201.94,
+  "end": 202.06
+ },
+ {
+  "word": "their",
+  "start": 202.06,
+  "end": 202.24
+ },
+ {
+  "word": "teams.",
+  "start": 202.24,
+  "end": 202.68
+ },
+ {
+  "word": "But",
+  "start": 203.62,
+  "end": 203.74
+ },
+ {
+  "word": "something",
+  "start": 203.74,
+  "end": 203.96
+ },
+ {
+  "word": "unexpected",
+  "start": 203.96,
+  "end": 204.24
+ },
+ {
+  "word": "might",
+  "start": 204.24,
+  "end": 204.5
+ },
+ {
+  "word": "happen.",
+  "start": 204.5,
+  "end": 205.02
+ },
+ {
+  "word": "People",
+  "start": 205.9,
+  "end": 206.0
+ },
+ {
+  "word": "would",
+  "start": 206.0,
+  "end": 206.18
+ },
+ {
+  "word": "start",
+  "start": 206.18,
+  "end": 206.32
+ },
+ {
+  "word": "going",
+  "start": 206.32,
+  "end": 206.52
+ },
+ {
+  "word": "outside",
+  "start": 206.52,
+  "end": 206.82
+ },
+ {
+  "word": "more.",
+  "start": 206.82,
+  "end": 207.32
+ },
+ {
+  "word": "It",
+  "start": 208.14,
+  "end": 208.24
+ },
+ {
+  "word": "would",
+  "start": 208.24,
+  "end": 208.3
+ },
+ {
+  "word": "visit",
+  "start": 208.3,
+  "end": 208.52
+ },
+ {
+  "word": "friends",
+  "start": 208.52,
+  "end": 208.8
+ },
+ {
+  "word": "instead",
+  "start": 208.8,
+  "end": 209.06
+ },
+ {
+  "word": "of",
+  "start": 209.06,
+  "end": 209.28
+ },
+ {
+  "word": "texting",
+  "start": 209.28,
+  "end": 209.36
+ },
+ {
+  "word": "them.",
+  "start": 209.36,
+  "end": 210.02
+ },
+ {
+  "word": "People",
+  "start": 210.5,
+  "end": 210.76
+ },
+ {
+  "word": "instead",
+  "start": 210.76,
+  "end": 211.12
+ },
+ {
+  "word": "of",
+  "start": 211.12,
+  "end": 211.3
+ },
+ {
+  "word": "swiping",
+  "start": 211.3,
+  "end": 211.5
+ },
+ {
+  "word": "through",
+  "start": 211.5,
+  "end": 211.8
+ },
+ {
+  "word": "profiles.",
+  "start": 211.8,
+  "end": 212.16
+ },
+ {
+  "word": "We'd",
+  "start": 212.8,
+  "end": 213.28
+ },
+ {
+  "word": "fickle",
+  "start": 213.28,
+  "end": 213.42
+ },
+ {
+  "word": "newspapers",
+  "start": 213.42,
+  "end": 213.88
+ },
+ {
+  "word": "instead",
+  "start": 213.88,
+  "end": 214.26
+ },
+ {
+  "word": "of",
+  "start": 214.26,
+  "end": 214.44
+ },
+ {
+  "word": "scrolling",
+  "start": 214.44,
+  "end": 214.62
+ },
+ {
+  "word": "through",
+  "start": 214.62,
+  "end": 214.86
+ },
+ {
+  "word": "headlines.",
+  "start": 214.86,
+  "end": 215.6
+ },
+ {
+  "word": "Libraries,",
+  "start": 216.78,
+  "end": 216.78
+ },
+ {
+  "word": "radio",
+  "start": 217.24,
+  "end": 217.24
+ },
+ {
+  "word": "stations,",
+  "start": 217.24,
+  "end": 217.66
+ },
+ {
+  "word": "television",
+  "start": 217.88,
+  "end": 218.06
+ },
+ {
+  "word": "networks,",
+  "start": 218.06,
+  "end": 218.36
+ },
+ {
+  "word": "and",
+  "start": 218.48,
+  "end": 218.76
+ },
+ {
+  "word": "physical",
+  "start": 218.76,
+  "end": 218.8
+ },
+ {
+  "word": "communities",
+  "start": 218.8,
+  "end": 219.2
+ },
+ {
+  "word": "could",
+  "start": 219.2,
+  "end": 219.38
+ },
+ {
+  "word": "become",
+  "start": 219.38,
+  "end": 219.66
+ },
+ {
+  "word": "important",
+  "start": 219.66,
+  "end": 219.94
+ },
+ {
+  "word": "again.",
+  "start": 219.94,
+  "end": 220.18
+ },
+ {
+  "word": "We'll",
+  "start": 221.44,
+  "end": 221.6
+ },
+ {
+  "word": "might",
+  "start": 221.6,
+  "end": 221.74
+ },
+ {
+  "word": "be",
+  "start": 221.74,
+  "end": 221.92
+ },
+ {
+  "word": "complider,",
+  "start": 221.92,
+  "end": 222.28
+ },
+ {
+  "word": "but",
+  "start": 223.16,
+  "end": 223.46
+ },
+ {
+  "word": "it",
+  "start": 223.46,
+  "end": 223.58
+ },
+ {
+  "word": "wouldn't",
+  "start": 223.58,
+  "end": 223.74
+ },
+ {
+  "word": "necessarily",
+  "start": 223.74,
+  "end": 224.14
+ },
+ {
+  "word": "become",
+  "start": 224.14,
+  "end": 224.46
+ },
+ {
+  "word": "happier.",
+  "start": 224.46,
+  "end": 225.02
+ },
+ {
+  "word": "Because",
+  "start": 225.86,
+  "end": 226.02
+ },
+ {
+  "word": "for",
+  "start": 226.02,
+  "end": 226.16
+ },
+ {
+  "word": "many",
+  "start": 226.16,
+  "end": 226.3
+ },
+ {
+  "word": "people,",
+  "start": 226.3,
+  "end": 226.66
+ },
+ {
+  "word": "the",
+  "start": 226.74,
+  "end": 226.86
+ },
+ {
+  "word": "internet",
+  "start": 226.86,
+  "end": 227.1
+ },
+ {
+  "word": "isn't",
+  "start": 227.1,
+  "end": 227.36
+ },
+ {
+  "word": "just",
+  "start": 227.36,
+  "end": 227.64
+ },
+ {
+  "word": "entertainment.",
+  "start": 227.64,
+  "end": 228.06
+ },
+ {
+  "word": "It's",
+  "start": 229.02,
+  "end": 229.14
+ },
+ {
+  "word": "how",
+  "start": 229.14,
+  "end": 229.22
+ },
+ {
+  "word": "they",
+  "start": 229.22,
+  "end": 229.4
+ },
+ {
+  "word": "work,",
+  "start": 229.4,
+  "end": 229.7
+ },
+ {
+  "word": "learn,",
+  "start": 229.72,
+  "end": 230.14
+ },
+ {
+  "word": "communicate,",
+  "start": 230.14,
+  "end": 230.52
+ },
+ {
+  "word": "and",
+  "start": 230.66,
+  "end": 230.78
+ },
+ {
+  "word": "stay",
+  "start": 230.78,
+  "end": 230.96
+ },
+ {
+  "word": "connected",
+  "start": 230.96,
+  "end": 231.14
+ },
+ {
+  "word": "to",
+  "start": 231.14,
+  "end": 231.32
+ },
+ {
+  "word": "people",
+  "start": 231.32,
+  "end": 231.48
+ },
+ {
+  "word": "they",
+  "start": 231.48,
+  "end": 231.62
+ },
+ {
+  "word": "love.",
+  "start": 231.62,
+  "end": 232.1
+ },
+ {
+  "word": "After",
+  "start": 233.54,
+  "end": 233.72
+ },
+ {
+  "word": "a",
+  "start": 233.72,
+  "end": 233.82
+ },
+ {
+  "word": "month,",
+  "start": 233.82,
+  "end": 234.06
+ },
+ {
+  "word": "governments",
+  "start": 234.18,
+  "end": 234.3
+ },
+ {
+  "word": "and",
+  "start": 234.3,
+  "end": 234.58
+ },
+ {
+  "word": "businesses",
+  "start": 234.58,
+  "end": 234.86
+ },
+ {
+  "word": "would",
+  "start": 234.86,
+  "end": 235.16
+ },
+ {
+  "word": "be",
+  "start": 235.16,
+  "end": 235.24
+ },
+ {
+  "word": "forced",
+  "start": 235.24,
+  "end": 235.42
+ },
+ {
+  "word": "to",
+  "start": 235.42,
+  "end": 235.58
+ },
+ {
+  "word": "adapt.",
+  "start": 235.58,
+  "end": 236.06
+ },
+ {
+  "word": "Radio",
+  "start": 237.02,
+  "end": 237.14
+ },
+ {
+  "word": "would",
+  "start": 237.14,
+  "end": 237.36
+ },
+ {
+  "word": "become",
+  "start": 237.36,
+  "end": 237.6
+ },
+ {
+  "word": "incredibly",
+  "start": 237.6,
+  "end": 238.02
+ },
+ {
+  "word": "important.",
+  "start": 238.02,
+  "end": 238.54
+ },
+ {
+  "word": "Television",
+  "start": 239.4,
+  "end": 239.62
+ },
+ {
+  "word": "broadcasts,",
+  "start": 239.62,
+  "end": 240.14
+ },
+ {
+  "word": "telephone",
+  "start": 240.14,
+  "end": 240.52
+ },
+ {
+  "word": "networks,",
+  "start": 240.52,
+  "end": 241.02
+ },
+ {
+  "word": "postal",
+  "start": 241.18,
+  "end": 241.32
+ },
+ {
+  "word": "services,",
+  "start": 241.32,
+  "end": 241.74
+ },
+ {
+  "word": "and",
+  "start": 241.86,
+  "end": 241.98
+ },
+ {
+  "word": "printed",
+  "start": 241.98,
+  "end": 242.14
+ },
+ {
+  "word": "newspapers",
+  "start": 242.14,
+  "end": 242.52
+ },
+ {
+  "word": "would",
+  "start": 242.52,
+  "end": 242.82
+ },
+ {
+  "word": "help",
+  "start": 242.82,
+  "end": 242.96
+ },
+ {
+  "word": "fill",
+  "start": 242.96,
+  "end": 243.1
+ },
+ {
+  "word": "the",
+  "start": 243.1,
+  "end": 243.24
+ },
+ {
+  "word": "gap.",
+  "start": 243.24,
+  "end": 243.68
+ },
+ {
+  "word": "You",
+  "start": 244.6,
+  "end": 244.64
+ },
+ {
+  "word": "will",
+  "start": 244.64,
+  "end": 244.78
+ },
+ {
+  "word": "go",
+  "start": 244.78,
+  "end": 244.94
+ },
+ {
+  "word": "back",
+  "start": 244.94,
+  "end": 245.12
+ },
+ {
+  "word": "to",
+  "start": 245.12,
+  "end": 245.3
+ },
+ {
+  "word": "physical",
+  "start": 245.3,
+  "end": 245.46
+ },
+ {
+  "word": "maps,",
+  "start": 245.46,
+  "end": 245.86
+ },
+ {
+  "word": "cache,",
+  "start": 246.22,
+  "end": 246.28
+ },
+ {
+  "word": "paper",
+  "start": 246.5,
+  "end": 246.5
+ },
+ {
+  "word": "records,",
+  "start": 246.5,
+  "end": 246.74
+ },
+ {
+  "word": "and",
+  "start": 246.84,
+  "end": 246.96
+ },
+ {
+  "word": "face",
+  "start": 246.96,
+  "end": 247.12
+ },
+ {
+  "word": "-to",
+  "start": 247.12,
+  "end": 247.2
+ },
+ {
+  "word": "-face",
+  "start": 247.2,
+  "end": 247.32
+ },
+ {
+  "word": "meetings.",
+  "start": 247.32,
+  "end": 248.02
+ },
+ {
+  "word": "Businesses",
+  "start": 248.88,
+  "end": 249.2
+ },
+ {
+  "word": "would",
+  "start": 249.2,
+  "end": 249.32
+ },
+ {
+  "word": "rebuild",
+  "start": 249.32,
+  "end": 249.48
+ },
+ {
+  "word": "their",
+  "start": 249.48,
+  "end": 249.78
+ },
+ {
+  "word": "systems",
+  "start": 249.78,
+  "end": 249.98
+ },
+ {
+  "word": "around",
+  "start": 249.98,
+  "end": 250.32
+ },
+ {
+  "word": "local",
+  "start": 250.32,
+  "end": 250.5
+ },
+ {
+  "word": "networks",
+  "start": 250.5,
+  "end": 250.94
+ },
+ {
+  "word": "and",
+  "start": 250.94,
+  "end": 251.12
+ },
+ {
+  "word": "offline",
+  "start": 251.12,
+  "end": 251.38
+ },
+ {
+  "word": "processes.",
+  "start": 251.38,
+  "end": 252.04
+ },
+ {
+  "word": "Or",
+  "start": 253.08,
+  "end": 253.2
+ },
+ {
+  "word": "building",
+  "start": 253.2,
+  "end": 253.48
+ },
+ {
+  "word": "the",
+  "start": 253.48,
+  "end": 253.98
+ },
+ {
+  "word": "internet",
+  "start": 253.98,
+  "end": 253.98
+ },
+ {
+  "word": "wouldn't",
+  "start": 253.98,
+  "end": 254.18
+ },
+ {
+  "word": "be",
+  "start": 254.18,
+  "end": 254.32
+ },
+ {
+  "word": "as",
+  "start": 254.32,
+  "end": 254.52
+ },
+ {
+  "word": "simple",
+  "start": 254.52,
+  "end": 254.68
+ },
+ {
+  "word": "as",
+  "start": 254.68,
+  "end": 254.92
+ },
+ {
+  "word": "plugging",
+  "start": 254.92,
+  "end": 255.16
+ },
+ {
+  "word": "a",
+  "start": 255.16,
+  "end": 255.28
+ },
+ {
+  "word": "few",
+  "start": 255.28,
+  "end": 255.42
+ },
+ {
+  "word": "computers",
+  "start": 255.42,
+  "end": 255.68
+ },
+ {
+  "word": "back",
+  "start": 255.68,
+  "end": 255.96
+ },
+ {
+  "word": "in.",
+  "start": 255.96,
+  "end": 256.36
+ },
+ {
+  "word": "The",
+  "start": 257.28,
+  "end": 257.42
+ },
+ {
+  "word": "internet",
+  "start": 257.42,
+  "end": 257.54
+ },
+ {
+  "word": "is",
+  "start": 257.54,
+  "end": 257.78
+ },
+ {
+  "word": "a",
+  "start": 257.78,
+  "end": 257.88
+ },
+ {
+  "word": "global",
+  "start": 257.88,
+  "end": 258.04
+ },
+ {
+  "word": "network",
+  "start": 258.04,
+  "end": 258.26
+ },
+ {
+  "word": "of",
+  "start": 258.26,
+  "end": 258.86
+ },
+ {
+  "word": "cables,",
+  "start": 258.86,
+  "end": 258.86
+ },
+ {
+  "word": "data",
+  "start": 259.02,
+  "end": 259.12
+ },
+ {
+  "word": "centers,",
+  "start": 259.12,
+  "end": 259.48
+ },
+ {
+  "word": "servers,",
+  "start": 259.82,
+  "end": 259.82
+ },
+ {
+  "word": "and",
+  "start": 259.82,
+  "end": 260.1
+ },
+ {
+  "word": "software.",
+  "start": 260.1,
+  "end": 260.5
+ },
+ {
+  "word": "Very",
+  "start": 261.46,
+  "end": 261.72
+ },
+ {
+  "word": "large",
+  "start": 261.72,
+  "end": 262.04
+ },
+ {
+  "word": "share",
+  "start": 262.04,
+  "end": 262.22
+ },
+ {
+  "word": "of",
+  "start": 262.22,
+  "end": 262.4
+ },
+ {
+  "word": "international",
+  "start": 262.4,
+  "end": 262.72
+ },
+ {
+  "word": "data",
+  "start": 262.72,
+  "end": 263.14
+ },
+ {
+  "word": "travels",
+  "start": 263.14,
+  "end": 263.34
+ },
+ {
+  "word": "through",
+  "start": 263.34,
+  "end": 263.72
+ },
+ {
+  "word": "undersea",
+  "start": 263.72,
+  "end": 264.04
+ },
+ {
+  "word": "cables.",
+  "start": 264.04,
+  "end": 264.36
+ },
+ {
+  "word": "Even",
+  "start": 265.48,
+  "end": 265.66
+ },
+ {
+  "word": "if",
+  "start": 265.66,
+  "end": 265.88
+ },
+ {
+  "word": "the",
+  "start": 265.88,
+  "end": 265.98
+ },
+ {
+  "word": "internet",
+  "start": 265.98,
+  "end": 266.14
+ },
+ {
+  "word": "itself",
+  "start": 266.14,
+  "end": 266.5
+ },
+ {
+  "word": "disappeared,",
+  "start": 266.5,
+  "end": 266.9
+ },
+ {
+  "word": "much",
+  "start": 267.18,
+  "end": 267.3
+ },
+ {
+  "word": "of",
+  "start": 267.3,
+  "end": 267.4
+ },
+ {
+  "word": "that",
+  "start": 267.4,
+  "end": 267.66
+ },
+ {
+  "word": "physical",
+  "start": 267.66,
+  "end": 267.78
+ },
+ {
+  "word": "equipment",
+  "start": 267.78,
+  "end": 268.1
+ },
+ {
+  "word": "might",
+  "start": 268.1,
+  "end": 268.36
+ },
+ {
+  "word": "still",
+  "start": 268.36,
+  "end": 268.52
+ },
+ {
+  "word": "exist.",
+  "start": 268.52,
+  "end": 268.9
+ },
+ {
+  "word": "The",
+  "start": 269.64,
+  "end": 270.12
+ },
+ {
+  "word": "real",
+  "start": 270.12,
+  "end": 270.28
+ },
+ {
+  "word": "challenge",
+  "start": 270.28,
+  "end": 270.6
+ },
+ {
+  "word": "would",
+  "start": 270.6,
+  "end": 270.8
+ },
+ {
+  "word": "be",
+  "start": 270.8,
+  "end": 270.92
+ },
+ {
+  "word": "restoring",
+  "start": 270.92,
+  "end": 271.2
+ },
+ {
+  "word": "the",
+  "start": 271.2,
+  "end": 271.68
+ },
+ {
+  "word": "software,",
+  "start": 271.68,
+  "end": 271.72
+ },
+ {
+  "word": "the",
+  "start": 271.96,
+  "end": 272.08
+ },
+ {
+  "word": "agreements,",
+  "start": 272.08,
+  "end": 272.38
+ },
+ {
+  "word": "and",
+  "start": 272.5,
+  "end": 272.68
+ },
+ {
+  "word": "the",
+  "start": 272.68,
+  "end": 272.84
+ },
+ {
+  "word": "coordination",
+  "start": 272.84,
+  "end": 273.18
+ },
+ {
+  "word": "that",
+  "start": 273.18,
+  "end": 273.44
+ },
+ {
+  "word": "make",
+  "start": 273.44,
+  "end": 273.62
+ },
+ {
+  "word": "it",
+  "start": 273.62,
+  "end": 273.74
+ },
+ {
+  "word": "all",
+  "start": 273.74,
+  "end": 273.9
+ },
+ {
+  "word": "work.",
+  "start": 273.9,
+  "end": 274.46
+ },
+ {
+  "word": "Without",
+  "start": 275.32,
+  "end": 275.48
+ },
+ {
+  "word": "the",
+  "start": 275.48,
+  "end": 275.7
+ },
+ {
+  "word": "global",
+  "start": 275.7,
+  "end": 275.86
+ },
+ {
+  "word": "network,",
+  "start": 275.86,
+  "end": 276.24
+ },
+ {
+  "word": "the",
+  "start": 276.28,
+  "end": 276.42
+ },
+ {
+  "word": "world",
+  "start": 276.42,
+  "end": 276.6
+ },
+ {
+  "word": "would",
+  "start": 276.6,
+  "end": 276.78
+ },
+ {
+  "word": "become",
+  "start": 276.78,
+  "end": 277.04
+ },
+ {
+  "word": "far",
+  "start": 277.04,
+  "end": 277.26
+ },
+ {
+  "word": "less",
+  "start": 277.26,
+  "end": 277.46
+ },
+ {
+  "word": "connected.",
+  "start": 277.46,
+  "end": 277.86
+ },
+ {
+  "word": "When",
+  "start": 279.46,
+  "end": 279.6
+ },
+ {
+  "word": "your",
+  "start": 279.6,
+  "end": 279.74
+ },
+ {
+  "word": "later",
+  "start": 279.74,
+  "end": 280.04
+ },
+ {
+  "word": "humanity",
+  "start": 280.04,
+  "end": 280.38
+ },
+ {
+  "word": "would",
+  "start": 280.38,
+  "end": 280.72
+ },
+ {
+  "word": "probably",
+  "start": 280.72,
+  "end": 280.88
+ },
+ {
+  "word": "look",
+  "start": 280.88,
+  "end": 281.12
+ },
+ {
+  "word": "very",
+  "start": 281.12,
+  "end": 281.34
+ },
+ {
+  "word": "different.",
+  "start": 281.34,
+  "end": 281.9
+ },
+ {
+  "word": "Some",
+  "start": 282.84,
+  "end": 282.92
+ },
+ {
+  "word": "countries",
+  "start": 282.92,
+  "end": 283.1
+ },
+ {
+  "word": "would",
+  "start": 283.1,
+  "end": 283.28
+ },
+ {
+  "word": "adapt",
+  "start": 283.28,
+  "end": 283.48
+ },
+ {
+  "word": "faster",
+  "start": 283.48,
+  "end": 283.76
+ },
+ {
+  "word": "than",
+  "start": 283.76,
+  "end": 283.88
+ },
+ {
+  "word": "others.",
+  "start": 283.88,
+  "end": 284.42
+ },
+ {
+  "word": "Local",
+  "start": 285.36,
+  "end": 285.36
+ },
+ {
+  "word": "economies",
+  "start": 285.36,
+  "end": 285.76
+ },
+ {
+  "word": "would",
+  "start": 285.76,
+  "end": 286.0
+ },
+ {
+  "word": "become",
+  "start": 286.0,
+  "end": 286.18
+ },
+ {
+  "word": "more",
+  "start": 286.18,
+  "end": 286.44
+ },
+ {
+  "word": "important.",
+  "start": 286.44,
+  "end": 286.82
+ },
+ {
+  "word": "Their",
+  "start": 287.68,
+  "end": 287.82
+ },
+ {
+  "word": "national",
+  "start": 287.82,
+  "end": 288.12
+ },
+ {
+  "word": "trade",
+  "start": 288.12,
+  "end": 288.4
+ },
+ {
+  "word": "could",
+  "start": 288.4,
+  "end": 288.56
+ },
+ {
+  "word": "become",
+  "start": 288.56,
+  "end": 288.74
+ },
+ {
+  "word": "more",
+  "start": 288.74,
+  "end": 289.0
+ },
+ {
+  "word": "complicated.",
+  "start": 289.0,
+  "end": 289.36
+ },
+ {
+  "word": "Education",
+  "start": 290.36,
+  "end": 290.56
+ },
+ {
+  "word": "would",
+  "start": 290.56,
+  "end": 290.84
+ },
+ {
+  "word": "rely",
+  "start": 290.84,
+  "end": 291.02
+ },
+ {
+  "word": "more",
+  "start": 291.02,
+  "end": 291.32
+ },
+ {
+  "word": "heavily",
+  "start": 291.32,
+  "end": 291.52
+ },
+ {
+  "word": "on",
+  "start": 291.52,
+  "end": 291.74
+ },
+ {
+  "word": "classrooms,",
+  "start": 291.74,
+  "end": 292.06
+ },
+ {
+  "word": "textbooks,",
+  "start": 292.46,
+  "end": 292.6
+ },
+ {
+  "word": "and",
+  "start": 292.8,
+  "end": 292.98
+ },
+ {
+  "word": "physical",
+  "start": 292.98,
+  "end": 293.1
+ },
+ {
+  "word": "resources.",
+  "start": 293.1,
+  "end": 293.7
+ },
+ {
+  "word": "Science",
+  "start": 294.76,
+  "end": 295.06
+ },
+ {
+  "word": "and",
+  "start": 295.06,
+  "end": 295.3
+ },
+ {
+  "word": "research",
+  "start": 295.3,
+  "end": 295.58
+ },
+ {
+  "word": "would",
+  "start": 295.58,
+  "end": 295.8
+ },
+ {
+  "word": "slow",
+  "start": 295.8,
+  "end": 296.0
+ },
+ {
+  "word": "down",
+  "start": 296.0,
+  "end": 296.38
+ },
+ {
+  "word": "because",
+  "start": 296.38,
+  "end": 296.68
+ },
+ {
+  "word": "sharing",
+  "start": 296.68,
+  "end": 296.92
+ },
+ {
+  "word": "information",
+  "start": 296.92,
+  "end": 297.4
+ },
+ {
+  "word": "across",
+  "start": 297.4,
+  "end": 297.68
+ },
+ {
+  "word": "countries",
+  "start": 297.68,
+  "end": 298.0
+ },
+ {
+  "word": "would",
+  "start": 298.0,
+  "end": 298.24
+ },
+ {
+  "word": "become",
+  "start": 298.24,
+  "end": 298.4
+ },
+ {
+  "word": "much",
+  "start": 298.4,
+  "end": 298.6
+ },
+ {
+  "word": "harder.",
+  "start": 298.6,
+  "end": 298.94
+ },
+ {
+  "word": "Here's",
+  "start": 300.0,
+  "end": 300.36
+ },
+ {
+  "word": "something",
+  "start": 300.36,
+  "end": 300.58
+ },
+ {
+  "word": "interesting.",
+  "start": 300.58,
+  "end": 301.38
+ },
+ {
+  "word": "A",
+  "start": 302.46,
+  "end": 302.6
+ },
+ {
+  "word": "generation",
+  "start": 302.6,
+  "end": 302.86
+ },
+ {
+  "word": "that",
+  "start": 302.86,
+  "end": 303.1
+ },
+ {
+  "word": "grew",
+  "start": 303.1,
+  "end": 303.24
+ },
+ {
+  "word": "up",
+  "start": 303.24,
+  "end": 303.38
+ },
+ {
+  "word": "with",
+  "start": 303.38,
+  "end": 303.62
+ },
+ {
+  "word": "instant",
+  "start": 303.62,
+  "end": 303.84
+ },
+ {
+  "word": "access",
+  "start": 303.84,
+  "end": 304.18
+ },
+ {
+  "word": "to",
+  "start": 304.18,
+  "end": 304.42
+ },
+ {
+  "word": "almost",
+  "start": 304.42,
+  "end": 304.7
+ },
+ {
+  "word": "all",
+  "start": 304.7,
+  "end": 304.96
+ },
+ {
+  "word": "human",
+  "start": 304.96,
+  "end": 305.14
+ },
+ {
+  "word": "knowledge",
+  "start": 305.14,
+  "end": 305.4
+ },
+ {
+  "word": "would",
+  "start": 305.4,
+  "end": 305.68
+ },
+ {
+  "word": "suddenly",
+  "start": 305.68,
+  "end": 305.9
+ },
+ {
+  "word": "have",
+  "start": 305.9,
+  "end": 306.1
+ },
+ {
+  "word": "to",
+  "start": 306.1,
+  "end": 306.22
+ },
+ {
+  "word": "learn",
+  "start": 306.22,
+  "end": 306.44
+ },
+ {
+  "word": "how",
+  "start": 306.44,
+  "end": 306.64
+ },
+ {
+  "word": "to",
+  "start": 306.64,
+  "end": 306.76
+ },
+ {
+  "word": "live",
+  "start": 306.76,
+  "end": 306.9
+ },
+ {
+  "word": "without",
+  "start": 306.9,
+  "end": 307.16
+ },
+ {
+  "word": "it.",
+  "start": 307.16,
+  "end": 308.04
+ },
+ {
+  "word": "No",
+  "start": 308.44,
+  "end": 308.66
+ },
+ {
+  "word": "instant",
+  "start": 308.66,
+  "end": 308.92
+ },
+ {
+  "word": "answers,",
+  "start": 308.92,
+  "end": 309.34
+ },
+ {
+  "word": "no",
+  "start": 310.38,
+  "end": 310.6
+ },
+ {
+  "word": "online",
+  "start": 310.6,
+  "end": 310.9
+ },
+ {
+  "word": "tutorials,",
+  "start": 310.9,
+  "end": 311.36
+ },
+ {
+  "word": "no",
+  "start": 312.5,
+  "end": 312.7
+ },
+ {
+  "word": "searching",
+  "start": 312.7,
+  "end": 313.0
+ },
+ {
+  "word": "for",
+  "start": 313.0,
+  "end": 313.22
+ },
+ {
+  "word": "directions,",
+  "start": 313.22,
+  "end": 313.7
+ },
+ {
+  "word": "no",
+  "start": 314.76,
+  "end": 314.86
+ },
+ {
+  "word": "downloading",
+  "start": 314.86,
+  "end": 315.1
+ },
+ {
+  "word": "information",
+  "start": 315.1,
+  "end": 315.52
+ },
+ {
+  "word": "in",
+  "start": 315.52,
+  "end": 315.72
+ },
+ {
+  "word": "seconds.",
+  "start": 315.72,
+  "end": 316.14
+ },
+ {
+  "word": "Knowledge",
+  "start": 317.14,
+  "end": 317.38
+ },
+ {
+  "word": "would",
+  "start": 317.38,
+  "end": 317.64
+ },
+ {
+  "word": "still",
+  "start": 317.64,
+  "end": 317.78
+ },
+ {
+  "word": "exist,",
+  "start": 317.78,
+  "end": 318.3
+ },
+ {
+  "word": "but",
+  "start": 319.2,
+  "end": 319.3
+ },
+ {
+  "word": "finding",
+  "start": 319.3,
+  "end": 319.46
+ },
+ {
+  "word": "it",
+  "start": 319.46,
+  "end": 319.68
+ },
+ {
+  "word": "and",
+  "start": 319.68,
+  "end": 319.86
+ },
+ {
+  "word": "sharing",
+  "start": 319.86,
+  "end": 320.02
+ },
+ {
+  "word": "it",
+  "start": 320.02,
+  "end": 320.16
+ },
+ {
+  "word": "would",
+  "start": 320.16,
+  "end": 320.26
+ },
+ {
+  "word": "take",
+  "start": 320.26,
+  "end": 320.42
+ },
+ {
+  "word": "far",
+  "start": 320.42,
+  "end": 320.6
+ },
+ {
+  "word": "more",
+  "start": 320.6,
+  "end": 320.78
+ },
+ {
+  "word": "effort.",
+  "start": 320.78,
+  "end": 321.18
+ },
+ {
+  "word": "You",
+  "start": 322.14,
+  "end": 322.24
+ },
+ {
+  "word": "may",
+  "start": 322.24,
+  "end": 322.3
+ },
+ {
+  "word": "not",
+  "start": 322.3,
+  "end": 322.48
+ },
+ {
+  "word": "return",
+  "start": 322.48,
+  "end": 322.8
+ },
+ {
+  "word": "to",
+  "start": 322.8,
+  "end": 323.04
+ },
+ {
+  "word": "the",
+  "start": 323.04,
+  "end": 323.12
+ },
+ {
+  "word": "Stone",
+  "start": 323.12,
+  "end": 323.28
+ },
+ {
+  "word": "Age,",
+  "start": 323.28,
+  "end": 323.52
+ },
+ {
+  "word": "but",
+  "start": 324.4,
+  "end": 324.7
+ },
+ {
+  "word": "the",
+  "start": 324.7,
+  "end": 324.78
+ },
+ {
+  "word": "world",
+  "start": 324.78,
+  "end": 324.94
+ },
+ {
+  "word": "would",
+  "start": 324.94,
+  "end": 325.1
+ },
+ {
+  "word": "lose",
+  "start": 325.1,
+  "end": 325.32
+ },
+ {
+  "word": "one",
+  "start": 325.32,
+  "end": 325.5
+ },
+ {
+  "word": "of",
+  "start": 325.5,
+  "end": 325.56
+ },
+ {
+  "word": "its",
+  "start": 325.56,
+  "end": 325.68
+ },
+ {
+  "word": "most",
+  "start": 325.68,
+  "end": 325.92
+ },
+ {
+  "word": "powerful",
+  "start": 325.92,
+  "end": 326.18
+ },
+ {
+  "word": "tools",
+  "start": 326.18,
+  "end": 326.52
+ },
+ {
+  "word": "for",
+  "start": 326.52,
+  "end": 326.76
+ },
+ {
+  "word": "operation.",
+  "start": 326.76,
+  "end": 327.58
+ },
+ {
+  "word": "Here's",
+  "start": 328.94,
+  "end": 329.12
+ },
+ {
+  "word": "the",
+  "start": 329.12,
+  "end": 329.22
+ },
+ {
+  "word": "most",
+  "start": 329.22,
+  "end": 329.42
+ },
+ {
+  "word": "interesting",
+  "start": 329.42,
+  "end": 329.72
+ },
+ {
+  "word": "part.",
+  "start": 329.72,
+  "end": 330.34
+ },
+ {
+  "word": "Internet",
+  "start": 331.22,
+  "end": 331.36
+ },
+ {
+  "word": "is",
+  "start": 331.36,
+  "end": 331.56
+ },
+ {
+  "word": "not",
+  "start": 331.56,
+  "end": 331.74
+ },
+ {
+  "word": "humanity.",
+  "start": 331.74,
+  "end": 332.08
+ },
+ {
+  "word": "Existed",
+  "start": 333.26,
+  "end": 333.54
+ },
+ {
+  "word": "long",
+  "start": 333.54,
+  "end": 333.72
+ },
+ {
+  "word": "before",
+  "start": 333.72,
+  "end": 333.98
+ },
+ {
+  "word": "it.",
+  "start": 333.98,
+  "end": 334.48
+ },
+ {
+  "word": "You",
+  "start": 335.2,
+  "end": 335.28
+ },
+ {
+  "word": "built",
+  "start": 335.28,
+  "end": 335.48
+ },
+ {
+  "word": "cities,",
+  "start": 335.48,
+  "end": 335.8
+ },
+ {
+  "word": "discovered",
+  "start": 336.14,
+  "end": 336.16
+ },
+ {
+  "word": "medicines,",
+  "start": 336.16,
+  "end": 336.52
+ },
+ {
+  "word": "explored",
+  "start": 336.8,
+  "end": 337.0
+ },
+ {
+  "word": "space,",
+  "start": 337.0,
+  "end": 337.42
+ },
+ {
+  "word": "and",
+  "start": 337.5,
+  "end": 337.58
+ },
+ {
+  "word": "connected",
+  "start": 337.58,
+  "end": 337.76
+ },
+ {
+  "word": "continents",
+  "start": 337.76,
+  "end": 338.1
+ },
+ {
+  "word": "without",
+  "start": 338.1,
+  "end": 338.38
+ },
+ {
+  "word": "it.",
+  "start": 338.38,
+  "end": 338.92
+ },
+ {
+  "word": "You",
+  "start": 339.56,
+  "end": 339.7
+ },
+ {
+  "word": "would",
+  "start": 339.7,
+  "end": 339.8
+ },
+ {
+  "word": "find",
+  "start": 339.8,
+  "end": 339.94
+ },
+ {
+  "word": "ways",
+  "start": 339.94,
+  "end": 340.1
+ },
+ {
+  "word": "to",
+  "start": 340.1,
+  "end": 340.28
+ },
+ {
+  "word": "survive.",
+  "start": 340.28,
+  "end": 340.74
+ },
+ {
+  "word": "But",
+  "start": 341.64,
+  "end": 341.82
+ },
+ {
+  "word": "we",
+  "start": 341.82,
+  "end": 341.84
+ },
+ {
+  "word": "would",
+  "start": 341.84,
+  "end": 341.98
+ },
+ {
+  "word": "lose",
+  "start": 341.98,
+  "end": 342.16
+ },
+ {
+  "word": "something",
+  "start": 342.16,
+  "end": 342.4
+ },
+ {
+  "word": "extraordinary.",
+  "start": 342.4,
+  "end": 342.92
+ },
+ {
+  "word": "The",
+  "start": 344.12,
+  "end": 344.22
+ },
+ {
+  "word": "ability",
+  "start": 344.22,
+  "end": 344.4
+ },
+ {
+  "word": "to",
+  "start": 344.4,
+  "end": 344.56
+ },
+ {
+  "word": "communicate",
+  "start": 344.56,
+  "end": 344.84
+ },
+ {
+  "word": "with",
+  "start": 344.84,
+  "end": 345.04
+ },
+ {
+  "word": "almost",
+  "start": 345.04,
+  "end": 345.32
+ },
+ {
+  "word": "anyone",
+  "start": 345.32,
+  "end": 345.74
+ },
+ {
+  "word": "anywhere",
+  "start": 345.74,
+  "end": 346.08
+ },
+ {
+  "word": "in",
+  "start": 346.08,
+  "end": 346.36
+ },
+ {
+  "word": "seconds.",
+  "start": 346.36,
+  "end": 346.96
+ },
+ {
+  "word": "The",
+  "start": 347.84,
+  "end": 347.9
+ },
+ {
+  "word": "ability",
+  "start": 347.9,
+  "end": 348.06
+ },
+ {
+  "word": "to",
+  "start": 348.06,
+  "end": 348.22
+ },
+ {
+  "word": "find",
+  "start": 348.22,
+  "end": 348.44
+ },
+ {
+  "word": "decades",
+  "start": 348.44,
+  "end": 348.78
+ },
+ {
+  "word": "of",
+  "start": 348.78,
+  "end": 349.02
+ },
+ {
+  "word": "human",
+  "start": 349.02,
+  "end": 349.16
+ },
+ {
+  "word": "knowledge",
+  "start": 349.16,
+  "end": 349.46
+ },
+ {
+  "word": "with",
+  "start": 349.46,
+  "end": 349.66
+ },
+ {
+  "word": "a",
+  "start": 349.66,
+  "end": 349.82
+ },
+ {
+  "word": "simple",
+  "start": 349.82,
+  "end": 349.98
+ },
+ {
+  "word": "search.",
+  "start": 349.98,
+  "end": 350.6
+ },
+ {
+  "word": "The",
+  "start": 351.42,
+  "end": 351.48
+ },
+ {
+  "word": "ability",
+  "start": 351.48,
+  "end": 351.64
+ },
+ {
+  "word": "to",
+  "start": 351.64,
+  "end": 351.92
+ },
+ {
+  "word": "turn",
+  "start": 351.92,
+  "end": 351.96
+ },
+ {
+  "word": "an",
+  "start": 351.96,
+  "end": 352.14
+ },
+ {
+  "word": "idea",
+  "start": 352.14,
+  "end": 352.34
+ },
+ {
+  "word": "into",
+  "start": 352.34,
+  "end": 352.62
+ },
+ {
+  "word": "something",
+  "start": 352.62,
+  "end": 352.86
+ },
+ {
+  "word": "the",
+  "start": 352.86,
+  "end": 353.06
+ },
+ {
+  "word": "entire",
+  "start": 353.06,
+  "end": 353.28
+ },
+ {
+  "word": "world",
+  "start": 353.28,
+  "end": 353.48
+ },
+ {
+  "word": "can",
+  "start": 353.48,
+  "end": 353.66
+ },
+ {
+  "word": "see.",
+  "start": 353.66,
+  "end": 354.02
+ },
+ {
+  "word": "Though",
+  "start": 354.58,
+  "end": 355.08
+ },
+ {
+  "word": "perhaps",
+  "start": 355.08,
+  "end": 355.42
+ },
+ {
+  "word": "the",
+  "start": 355.42,
+  "end": 355.58
+ },
+ {
+  "word": "real",
+  "start": 355.58,
+  "end": 355.74
+ },
+ {
+  "word": "question",
+  "start": 355.74,
+  "end": 356.16
+ },
+ {
+  "word": "isn't",
+  "start": 356.16,
+  "end": 356.4
+ },
+ {
+  "word": "what",
+  "start": 356.4,
+  "end": 356.54
+ },
+ {
+  "word": "would",
+  "start": 356.54,
+  "end": 356.74
+ },
+ {
+  "word": "happen",
+  "start": 356.74,
+  "end": 356.92
+ },
+ {
+  "word": "if",
+  "start": 356.92,
+  "end": 357.24
+ },
+ {
+  "word": "the",
+  "start": 357.24,
+  "end": 357.38
+ },
+ {
+  "word": "internet",
+  "start": 357.38,
+  "end": 357.56
+ },
+ {
+  "word": "disappeared",
+  "start": 357.56,
+  "end": 357.96
+ },
+ {
+  "word": "forever.",
+  "start": 357.96,
+  "end": 358.56
+ },
+ {
+  "word": "It's",
+  "start": 359.7,
+  "end": 360.2
+ },
+ {
+  "word": "this.",
+  "start": 360.2,
+  "end": 360.7
+ },
+ {
+  "word": "We",
+  "start": 361.26,
+  "end": 361.42
+ },
+ {
+  "word": "built",
+  "start": 361.42,
+  "end": 361.62
+ },
+ {
+  "word": "a",
+  "start": 361.62,
+  "end": 361.82
+ },
+ {
+  "word": "world",
+  "start": 361.82,
+  "end": 362.08
+ },
+ {
+  "word": "that",
+  "start": 362.08,
+  "end": 362.28
+ },
+ {
+  "word": "can",
+  "start": 362.28,
+  "end": 362.44
+ },
+ {
+  "word": "no",
+  "start": 362.44,
+  "end": 362.72
+ },
+ {
+  "word": "longer",
+  "start": 362.72,
+  "end": 362.94
+ },
+ {
+  "word": "function",
+  "start": 362.94,
+  "end": 363.3
+ },
+ {
+  "word": "without",
+  "start": 363.3,
+  "end": 363.64
+ },
+ {
+  "word": "it.",
+  "start": 363.64,
+  "end": 363.89
+ },
+ {
+  "word": "If",
+  "start": 365.18,
+  "end": 365.38
+ },
+ {
+  "word": "the",
+  "start": 365.38,
+  "end": 365.64
+ },
+ {
+  "word": "internet",
+  "start": 365.64,
+  "end": 365.92
+ },
+ {
+  "word": "disappeared",
+  "start": 365.92,
+  "end": 366.34
+ },
+ {
+  "word": "tomorrow,",
+  "start": 366.34,
+  "end": 366.76
+ },
+ {
+  "word": "would",
+  "start": 367.0,
+  "end": 367.0
+ },
+ {
+  "word": "you",
+  "start": 367.0,
+  "end": 367.16
+ },
+ {
+  "word": "know",
+  "start": 367.16,
+  "end": 367.36
+ },
+ {
+  "word": "how",
+  "start": 367.36,
+  "end": 367.52
+ },
+ {
+  "word": "to",
+  "start": 367.52,
+  "end": 367.68
+ },
+ {
+  "word": "live",
+  "start": 367.68,
+  "end": 367.82
+ },
+ {
+  "word": "without",
+  "start": 367.82,
+  "end": 368.1
+ },
+ {
+  "word": "it?",
+  "start": 368.1,
+  "end": 368.74
+ }
+]

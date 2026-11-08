@@ -1,0 +1,760 @@
+[
+ {
+  "section": "HOOK",
+  "start": 0.0
+ },
+ {
+  "text": "Imagine waking up tomorrow morning.",
+  "section": "HOOK",
+  "start": 0.0,
+  "end": 1.75
+ },
+ {
+  "text": "You reach for your phone.",
+  "section": "HOOK",
+  "start": 2.25,
+  "end": 3.55
+ },
+ {
+  "text": "No notifications.",
+  "section": "HOOK",
+  "start": 3.9,
+  "end": 5.45
+ },
+ {
+  "text": "No messages.",
+  "section": "HOOK",
+  "start": 5.8,
+  "end": 7.1
+ },
+ {
+  "text": "You open Instagram.",
+  "section": "HOOK",
+  "start": 7.449999999999999,
+  "end": 8.975
+ },
+ {
+  "text": "Nothing.",
+  "section": "HOOK",
+  "start": 9.325,
+  "end": 10.35
+ },
+ {
+  "text": "You try Google.",
+  "section": "HOOK",
+  "start": 11.0,
+  "end": 12.35
+ },
+ {
+  "text": "It doesn't load.",
+  "section": "HOOK",
+  "start": 12.7,
+  "end": 13.975
+ },
+ {
+  "text": "You restart your Wi-Fi.",
+  "section": "HOOK",
+  "start": 14.625,
+  "end": 16.275
+ },
+ {
+  "text": "Still nothing.",
+  "section": "HOOK",
+  "start": 16.625,
+  "end": 17.85
+ },
+ {
+  "text": "At first, you think it's just a network problem.",
+  "section": "HOOK",
+  "start": 18.5,
+  "end": 20.65
+ },
+ {
+  "text": "But then you look outside.",
+  "section": "HOOK",
+  "start": 21.15,
+  "end": 22.599999999999998
+ },
+ {
+  "text": "Traffic lights are malfunctioning.",
+  "section": "HOOK",
+  "start": 23.099999999999998,
+  "end": 25.025
+ },
+ {
+  "text": "Shops aren't accepting digital payments.",
+  "section": "HOOK",
+  "start": 25.374999999999996,
+  "end": 27.174999999999997
+ },
+ {
+  "text": "Flights are being delayed.",
+  "section": "HOOK",
+  "start": 27.524999999999995,
+  "end": 29.099999999999994
+ },
+ {
+  "text": "Banks are struggling to operate.",
+  "section": "HOOK",
+  "start": 29.449999999999996,
+  "end": 30.974999999999994
+ },
+ {
+  "text": "And then you hear something terrifying on the radio.",
+  "section": "HOOK",
+  "start": 31.474999999999994,
+  "end": 33.77499999999999
+ },
+ {
+  "text": "The internet is gone.",
+  "section": "HOOK",
+  "start": 34.27499999999999,
+  "end": 35.82499999999999
+ },
+ {
+  "text": "Everywhere.",
+  "section": "HOOK",
+  "start": 36.17499999999999,
+  "end": 37.27499999999999
+ },
+ {
+  "text": "And it's never coming back.",
+  "section": "HOOK",
+  "start": 37.62499999999999,
+  "end": 38.92499999999999
+ },
+ {
+  "text": "No explanation.",
+  "section": "HOOK",
+  "start": 39.42499999999999,
+  "end": 40.87499999999999
+ },
+ {
+  "text": "No warning.",
+  "section": "HOOK",
+  "start": 41.22499999999999,
+  "end": 42.47499999999999
+ },
+ {
+  "text": "No way to fix it.",
+  "section": "HOOK",
+  "start": 42.82499999999999,
+  "end": 43.97499999999999
+ },
+ {
+  "text": "What happens to the world when humanity loses the technology it has depended on for decades?",
+  "section": "HOOK",
+  "start": 44.47499999999999,
+  "end": 49.399999999999984
+ },
+ {
+  "text": "Let's find out.",
+  "section": "HOOK",
+  "start": 50.19999999999999,
+  "end": 51.499999999999986
+ },
+ {
+  "section": "THE FIRST 24 HOURS",
+  "start": 52.59999999999999
+ },
+ {
+  "text": "The first few hours would be confusing.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 52.59999999999999,
+  "end": 54.54999999999999
+ },
+ {
+  "text": "Billions of people would try to reconnect.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 55.04999999999999,
+  "end": 57.02499999999999
+ },
+ {
+  "text": "Internet providers would be flooded with calls.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 57.37499999999999,
+  "end": 59.52499999999999
+ },
+ {
+  "text": "Governments would issue emergency announcements through television and radio.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 59.87499999999999,
+  "end": 63.17499999999999
+ },
+ {
+  "text": "But the biggest shock wouldn't be social media disappearing.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 63.67499999999999,
+  "end": 66.32499999999999
+ },
+ {
+  "text": "It would be money.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 66.82499999999999,
+  "end": 68.1
+ },
+ {
+  "text": "Most people don't carry much physical cash anymore.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 68.74999999999999,
+  "end": 71.12499999999999
+ },
+ {
+  "text": "Businesses depend on digital payment systems, online banking, and connected payment networks.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 71.47499999999998,
+  "end": 75.52499999999998
+ },
+ {
+  "text": "You walk into a supermarket, fill your shopping cart, and reach the checkout.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 76.02499999999998,
+  "end": 79.27499999999998
+ },
+ {
+  "text": "Your card doesn't work.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 79.77499999999998,
+  "end": 81.29999999999998
+ },
+ {
+  "text": "Neither does your payment app.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 81.94999999999997,
+  "end": 83.29999999999997
+ },
+ {
+  "text": "And the cashier tells you they can only accept cash.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 83.79999999999997,
+  "end": 86.14999999999996
+ },
+ {
+  "text": "For millions of people, this would be the first time they realise how dependent their daily lives have become on something they barely think about.",
+  "section": "THE FIRST 24 HOURS",
+  "start": 86.64999999999996,
+  "end": 92.57499999999996
+ },
+ {
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 93.67499999999997
+ },
+ {
+  "text": "Here's the part that surprises most people.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 93.67499999999997,
+  "end": 95.64999999999996
+ },
+ {
+  "text": "This isn't pure fantasy.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 95.99999999999997,
+  "end": 97.74999999999997
+ },
+ {
+  "text": "In October 2021, Facebook, Instagram and WhatsApp went down for about six hours.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 98.39999999999998,
+  "end": 103.32499999999997
+ },
+ {
+  "text": "Billions of people lost them at once.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 103.67499999999998,
+  "end": 105.42499999999998
+ },
+ {
+  "text": "Reports at the time said some engineers struggled to fix the problem because the systems they needed to get inside the buildings were affected too.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 105.77499999999998,
+  "end": 111.99999999999997
+ },
+ {
+  "text": "In January 2011, Egypt's government cut off the country's internet for about five days.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 112.49999999999997,
+  "end": 117.17499999999997
+ },
+ {
+  "text": "And in 2022, an undersea cable was cut after a volcanic eruption, and the island nation of Tonga was largely cut off for weeks.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 117.67499999999997,
+  "end": 124.54999999999997
+ },
+ {
+  "text": "Those were small outages, in small places, with the rest of the world still online to help.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 125.04999999999997,
+  "end": 129.17499999999995
+ },
+ {
+  "text": "Now take away the rest of the world.",
+  "section": "IT HAS ALREADY HAPPENED, IN MINIATURE",
+  "start": 129.67499999999995,
+  "end": 131.29999999999995
+ },
+ {
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 132.39999999999995
+ },
+ {
+  "text": "By the second day, things could get much worse.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 132.39999999999995,
+  "end": 134.39999999999995
+ },
+ {
+  "text": "Modern businesses depend on connected systems to communicate, manage inventory, process orders, and coordinate deliveries.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 134.89999999999995,
+  "end": 140.72499999999994
+ },
+ {
+  "text": "Airlines rely on digital networks.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 141.22499999999994,
+  "end": 143.02499999999995
+ },
+ {
+  "text": "Hospitals use connected systems to access records and coordinate care.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 143.37499999999994,
+  "end": 146.74999999999994
+ },
+ {
+  "text": "Supply chains depend on constant information exchange.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 147.09999999999994,
+  "end": 149.99999999999994
+ },
+ {
+  "text": "Without the internet, these systems wouldn't all instantly collapse.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 150.49999999999994,
+  "end": 153.44999999999993
+ },
+ {
+  "text": "Many have offline backups and independent communication networks.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 153.79999999999995,
+  "end": 156.89999999999995
+ },
+ {
+  "text": "But operations would become slower, more difficult, and less reliable.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 157.39999999999995,
+  "end": 160.54999999999995
+ },
+ {
+  "text": "Imagine a hospital trying to find a patient's medical history stored in a cloud system.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 161.04999999999995,
+  "end": 165.17499999999995
+ },
+ {
+  "text": "Imagine a supermarket that doesn't know when its next food delivery will arrive.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 165.67499999999995,
+  "end": 169.32499999999996
+ },
+ {
+  "text": "Imagine a factory that can't talk to its suppliers.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 169.82499999999996,
+  "end": 172.17499999999995
+ },
+ {
+  "text": "The world would still be moving.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 172.67499999999995,
+  "end": 174.04999999999995
+ },
+ {
+  "text": "But it would be moving almost blindly.",
+  "section": "THE WORLD STARTS SLOWING DOWN",
+  "start": 174.54999999999995,
+  "end": 176.39999999999995
+ },
+ {
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 177.49999999999994
+ },
+ {
+  "text": "Now imagine something else.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 177.49999999999994,
+  "end": 179.29999999999995
+ },
+ {
+  "text": "No Instagram.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 179.94999999999993,
+  "end": 181.32499999999993
+ },
+ {
+  "text": "No YouTube.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 181.67499999999993,
+  "end": 182.97499999999994
+ },
+ {
+  "text": "No TikTok.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 183.32499999999993,
+  "end": 184.67499999999993
+ },
+ {
+  "text": "No WhatsApp.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 185.02499999999992,
+  "end": 186.27499999999992
+ },
+ {
+  "text": "No Netflix.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 186.62499999999991,
+  "end": 187.87499999999991
+ },
+ {
+  "text": "No online gaming.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 188.2249999999999,
+  "end": 189.7999999999999
+ },
+ {
+  "text": "For the first time in decades, billions of people would lose their main connection to the digital world.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 190.4499999999999,
+  "end": 194.7999999999999
+ },
+ {
+  "text": "Content creators would lose their audiences overnight.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 195.2999999999999,
+  "end": 197.8999999999999
+ },
+ {
+  "text": "Online businesses would struggle.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 198.2499999999999,
+  "end": 200.1749999999999
+ },
+ {
+  "text": "Remote workers would have no way to reach their teams.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 200.5249999999999,
+  "end": 202.8999999999999
+ },
+ {
+  "text": "But something unexpected might happen.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 203.3999999999999,
+  "end": 205.1499999999999
+ },
+ {
+  "text": "People would start going outside more.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 205.6499999999999,
+  "end": 207.4249999999999
+ },
+ {
+  "text": "They would visit friends instead of texting them.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 207.9249999999999,
+  "end": 209.9249999999999
+ },
+ {
+  "text": "Meet people instead of swiping through profiles.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 210.2749999999999,
+  "end": 212.4999999999999
+ },
+ {
+  "text": "Read physical newspapers instead of scrolling through headlines.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 212.84999999999988,
+  "end": 215.6249999999999
+ },
+ {
+  "text": "Libraries, radio stations, television networks, and physical communities could become important again.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 216.1249999999999,
+  "end": 220.6499999999999
+ },
+ {
+  "text": "The world might become quieter.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 221.1499999999999,
+  "end": 222.6499999999999
+ },
+ {
+  "text": "But it wouldn't necessarily become happier.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 223.1499999999999,
+  "end": 225.1249999999999
+ },
+ {
+  "text": "Because for many people, the internet isn't just entertainment.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 225.6249999999999,
+  "end": 228.44999999999987
+ },
+ {
+  "text": "It's how they work, learn, communicate, and stay connected to people they love.",
+  "section": "A WORLD WITHOUT SOCIAL MEDIA",
+  "start": 228.7999999999999,
+  "end": 232.2249999999999
+ },
+ {
+  "section": "AFTER ONE MONTH",
+  "start": 233.3249999999999
+ },
+ {
+  "text": "After a month, governments and businesses would be forced to adapt.",
+  "section": "AFTER ONE MONTH",
+  "start": 233.3249999999999,
+  "end": 236.24999999999991
+ },
+ {
+  "text": "Radio would become incredibly important.",
+  "section": "AFTER ONE MONTH",
+  "start": 236.74999999999991,
+  "end": 238.79999999999993
+ },
+ {
+  "text": "Television broadcasts, telephone networks, postal services, and printed newspapers would help fill the gap.",
+  "section": "AFTER ONE MONTH",
+  "start": 239.14999999999992,
+  "end": 243.8499999999999
+ },
+ {
+  "text": "People would go back to physical maps, cash, paper records, and face-to-face meetings.",
+  "section": "AFTER ONE MONTH",
+  "start": 244.3499999999999,
+  "end": 248.0499999999999
+ },
+ {
+  "text": "Businesses would rebuild their systems around local networks and offline processes.",
+  "section": "AFTER ONE MONTH",
+  "start": 248.5499999999999,
+  "end": 252.3499999999999
+ },
+ {
+  "text": "But rebuilding the internet wouldn't be as simple as plugging a few computers back in.",
+  "section": "AFTER ONE MONTH",
+  "start": 252.8499999999999,
+  "end": 256.4999999999999
+ },
+ {
+  "text": "The internet is a global network of cables, data centres, servers, and software.",
+  "section": "AFTER ONE MONTH",
+  "start": 256.9999999999999,
+  "end": 260.8749999999999
+ },
+ {
+  "text": "A very large share of international data travels through undersea cables.",
+  "section": "AFTER ONE MONTH",
+  "start": 261.2249999999999,
+  "end": 264.7499999999999
+ },
+ {
+  "text": "Even if the internet itself disappeared, much of that physical equipment might still exist.",
+  "section": "AFTER ONE MONTH",
+  "start": 265.2499999999999,
+  "end": 269.27499999999986
+ },
+ {
+  "text": "The real challenge would be restoring the software, the agreements, and the coordination that make it all work.",
+  "section": "AFTER ONE MONTH",
+  "start": 269.77499999999986,
+  "end": 274.54999999999984
+ },
+ {
+  "text": "And without the global network, the world would become far less connected.",
+  "section": "AFTER ONE MONTH",
+  "start": 275.04999999999984,
+  "end": 278.14999999999986
+ },
+ {
+  "section": "AFTER ONE YEAR",
+  "start": 279.24999999999983
+ },
+ {
+  "text": "One year later, humanity would probably look very different.",
+  "section": "AFTER ONE YEAR",
+  "start": 279.24999999999983,
+  "end": 282.0749999999998
+ },
+ {
+  "text": "Some countries would adapt faster than others.",
+  "section": "AFTER ONE YEAR",
+  "start": 282.5749999999998,
+  "end": 284.49999999999983
+ },
+ {
+  "text": "Local economies would become more important.",
+  "section": "AFTER ONE YEAR",
+  "start": 284.99999999999983,
+  "end": 287.09999999999985
+ },
+ {
+  "text": "International trade could become more complicated.",
+  "section": "AFTER ONE YEAR",
+  "start": 287.4499999999998,
+  "end": 289.7249999999998
+ },
+ {
+  "text": "Education would rely more heavily on classrooms, textbooks, and physical resources.",
+  "section": "AFTER ONE YEAR",
+  "start": 290.0749999999998,
+  "end": 293.99999999999983
+ },
+ {
+  "text": "Science and research would slow down, because sharing information across countries would become much harder.",
+  "section": "AFTER ONE YEAR",
+  "start": 294.49999999999983,
+  "end": 299.24999999999983
+ },
+ {
+  "text": "And here's something interesting.",
+  "section": "AFTER ONE YEAR",
+  "start": 299.74999999999983,
+  "end": 301.54999999999984
+ },
+ {
+  "text": "A generation that grew up with instant access to almost all human knowledge would suddenly have to learn how to live without it.",
+  "section": "AFTER ONE YEAR",
+  "start": 302.1999999999998,
+  "end": 307.6999999999998
+ },
+ {
+  "text": "No instant answers.",
+  "section": "AFTER ONE YEAR",
+  "start": 308.1999999999998,
+  "end": 309.7749999999998
+ },
+ {
+  "text": "No online tutorials.",
+  "section": "AFTER ONE YEAR",
+  "start": 310.12499999999983,
+  "end": 311.8999999999998
+ },
+ {
+  "text": "No searching for directions.",
+  "section": "AFTER ONE YEAR",
+  "start": 312.24999999999983,
+  "end": 314.12499999999983
+ },
+ {
+  "text": "No downloading information in seconds.",
+  "section": "AFTER ONE YEAR",
+  "start": 314.47499999999985,
+  "end": 316.37499999999983
+ },
+ {
+  "text": "Knowledge would still exist.",
+  "section": "AFTER ONE YEAR",
+  "start": 316.87499999999983,
+  "end": 318.5749999999998
+ },
+ {
+  "text": "But finding it and sharing it would take far more effort.",
+  "section": "AFTER ONE YEAR",
+  "start": 318.92499999999984,
+  "end": 321.37499999999983
+ },
+ {
+  "text": "Humanity wouldn't return to the Stone Age.",
+  "section": "AFTER ONE YEAR",
+  "start": 321.87499999999983,
+  "end": 323.84999999999985
+ },
+ {
+  "text": "But the world would lose one of its most powerful tools for cooperation.",
+  "section": "AFTER ONE YEAR",
+  "start": 324.34999999999985,
+  "end": 327.64999999999986
+ },
+ {
+  "section": "THE ENDING",
+  "start": 328.74999999999983
+ },
+ {
+  "text": "Here's the most interesting part.",
+  "section": "THE ENDING",
+  "start": 328.74999999999983,
+  "end": 330.37499999999983
+ },
+ {
+  "text": "The internet is not humanity.",
+  "section": "THE ENDING",
+  "start": 330.87499999999983,
+  "end": 332.47499999999985
+ },
+ {
+  "text": "We existed long before it.",
+  "section": "THE ENDING",
+  "start": 332.97499999999985,
+  "end": 334.4499999999999
+ },
+ {
+  "text": "We built cities, discovered medicines, explored space, and connected continents without it.",
+  "section": "THE ENDING",
+  "start": 334.9499999999999,
+  "end": 338.89999999999986
+ },
+ {
+  "text": "We would find ways to survive.",
+  "section": "THE ENDING",
+  "start": 339.39999999999986,
+  "end": 340.97499999999985
+ },
+ {
+  "text": "But we would lose something extraordinary.",
+  "section": "THE ENDING",
+  "start": 341.47499999999985,
+  "end": 343.37499999999983
+ },
+ {
+  "text": "The ability to communicate with almost anyone, anywhere, in seconds.",
+  "section": "THE ENDING",
+  "start": 343.87499999999983,
+  "end": 347.0749999999998
+ },
+ {
+  "text": "The ability to find decades of human knowledge with a simple search.",
+  "section": "THE ENDING",
+  "start": 347.5749999999998,
+  "end": 350.62499999999983
+ },
+ {
+  "text": "The ability to turn an idea into something the entire world can see.",
+  "section": "THE ENDING",
+  "start": 351.12499999999983,
+  "end": 354.1999999999998
+ },
+ {
+  "text": "So perhaps the real question isn't what would happen if the internet disappeared forever.",
+  "section": "THE ENDING",
+  "start": 354.6999999999998,
+  "end": 358.7749999999998
+ },
+ {
+  "text": "It's this.",
+  "section": "THE ENDING",
+  "start": 359.2749999999998,
+  "end": 360.3499999999998
+ },
+ {
+  "text": "Have we built a world that can no longer function without it?",
+  "section": "THE ENDING",
+  "start": 360.99999999999983,
+  "end": 364.1499999999998
+ },
+ {
+  "text": "And if the internet disappeared tomorrow, would you know how to live without it?",
+  "section": "THE ENDING",
+  "start": 364.9499999999998,
+  "end": 368.6499999999998
+ }
+]
