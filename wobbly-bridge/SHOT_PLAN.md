@@ -65,22 +65,29 @@ DOF: close-ups cInf 12-16 px at 1080, wides/aerials 0, focus on the eyes. FOREGR
 2. Captions on/off.
 3. Whether to add a 15th "extended" shot to get closer to the skill's 55-70 s target (the script alone is ~46 s, fine for Shorts/Reels).
 
-## Locked timings from the real voice (voice/voice.wav, voice/words.json)
-Voice is 54.9 s, so TOTAL ~= 1650 frames (not 1390). Re-time the shots above proportionally to these section starts
-(seconds -> frames at 30 fps):
+## Locked timings from the final voice (voice/voice.wav = Kokoro "bm_george", voice/words.json)
+Voice is 60.3 s, so TOTAL ~= 1810 frames at 30 fps. Re-time the shot table above proportionally to these starts:
 
 | Section | Start (s) | Frame |
 |---------|-----------|-------|
 | Hook | 0.00 | 0 |
-| Setting ("London,") | 4.12 | 124 |
-| Action ("Step one") | 14.54 | 436 |
-| Snap ("The bridge wobbles harder") | ~25.9 | ~777 |
-| Luckily | 31.56 | 947 |
-| Unluckily | 33.14 | 994 |
-| Explanation ("Think of a swing") | 37.16 | 1115 |
-| "Here, the crowd..." | 42.02 | 1261 |
-| Twist ("Today it's rock solid") | 51.08 | 1532 |
-| End | 54.90 | 1647 |
+| Setting ("London") | 4.88 | 146 |
+| "The engineers are proud" | ~11.5 | ~345 |
+| "Nothing like it..." | 13.82 | 415 |
+| Action ("Step one") | 16.68 | 500 |
+| "Step two" | 19.18 | 575 |
+| "Step three" | 21.22 | 637 |
+| Snap ("The bridge wobbles harder") | ~27.3 | ~820 |
+| "So" (1st / 2nd) | 29.28 / ~30.9 | 878 / ~927 |
+| Luckily | 33.24 | 997 |
+| Unluckily | ~35.7 | ~1071 |
+| Explanation ("Think of a swing") | 39.84 | 1195 |
+| "Here, the crowd..." | 45.10 | 1353 |
+| "Two days later" | 48.58 | 1457 |
+| "Engineers added dampers" | 50.86 | 1526 |
+| Twist ("Today it's rock solid") | 56.16 | 1685 |
+| End | 60.30 | 1809 |
 
-Notes: words.json was made with a small speech-to-text model, so hand-check it (the first word is "2" for "Two";
-numbers and punctuation can be off). Voice is Piper "ryan-high" TTS.
+Notes: words.json comes from a small speech-to-text model, so hand-check it (first word is "2" for "Two thousand";
+numbers and punctuation can be off). Piper's earlier take is kept as voice_piper_old.wav.
+Voice settings: voice/synth_kokoro.py (per-line speed + pauses), run at global speed 1.3, pause x0.8, then ffmpeg atempo 1.18.
