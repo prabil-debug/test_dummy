@@ -1,6 +1,6 @@
 # What If Ram Setu Still Stood Today?
 Working title. Landscape 1920x1080, 2D stick-figure scenes, ~6.5 min. Neutral, respectful framing of faith and science. A curiosity loop about every 30-40 seconds.
-Status: LOCKED v1 (approved by user). Fact notes in FACTS.md; lines marked VERIFY there are lower-confidence.
+Status: LOCKED v2 (extended with the Boat Mail and 1964 storm sections, approved by user). Fact notes in FACTS.md; lines marked VERIFY there are lower-confidence.
 Markers: a line ending in [beat] gets a longer dramatic pause (use sparingly).
 
 ## THE HOOK
@@ -82,14 +82,35 @@ Arrests of fishermen who cross the maritime line are a recurring tension between
 A land link wouldn't end that. It would put a fixed structure right in the middle of it.
 Someone would have to decide who guards which side, who inspects which boat, and how the fishing fleets pass underneath.
 A bridge is stone and steel. A border is decisions.
-So, could we build all this today?
+But before we ask what we could build, ask what we already did.
+
+## THE TRAIN THAT WENT TO SEA
+Here's something most people don't know.
+We've already used this route.
+In 1914, the Boat Mail began running. A train left Madras Egmore, rolled all the way to the tip of India, and stopped at a pier in Dhanushkodi.
+Passengers stepped onto a ferry. A few hours later, they stepped off at Talaimannar, in Ceylon, and boarded another train to Colombo.
+Train, ship, train. Two countries, one journey.
+For half a century, that was one way to travel.
+Then, on a single December night, it was gone.
+
+## THE NIGHT OF THE STORM
+On the twenty-second of December, nineteen sixty-four, a cyclone struck Dhanushkodi.
+Winds of around two hundred and eighty kilometres an hour, by one account.
+The sea swallowed the town, the railway, and a passenger train. Estimates of how many people died run to about eighteen hundred, though the numbers vary.
+The government declared Dhanushkodi unfit to live in.
+Today, a few fishing families remain. Visitors come for the day, and sleep in Rameswaram.
+It is the exact place where Ram Setu begins.
+And it shows the real test for any causeway. Not the engineers. Not the border.
+The storm.
 
 ## CAN WE BUILD IT?
+So, could we build it today?
 Technically, yes.
 China's Hong Kong-Zhuhai-Macau link is fifty-five kilometres long, longer than this whole chain. About thirty of those kilometres cross open sea, with a tunnel for ships to pass over. It took nine years and about twenty billion dollars.
-Across shallow shoals, the engineering might be simpler. The storms, the sand and the sea would still be hard.
-Even if the old stones stood, nobody would drive on them. We'd build a modern road along the same path.
-And the idea isn't new. In 2023, the leaders of India and Sri Lanka agreed to study a land link, along with an oil pipeline.
+A crossing here would face storms like the one in nineteen sixty-four, so it would have to stand high, on strong pillars.
+Even if the old stones stood, nobody would drive on them. We'd build a modern road and railway along the same path.
+And the idea isn't new. A link of about twenty-three kilometres, from Dhanushkodi to Talaimannar, has been proposed, with estimates running from about three and a half billion dollars in 2015 to around five billion later.
+In 2023, the leaders of India and Sri Lanka agreed to study a land link, along with an oil pipeline.
 As far as I can find, nothing has been built.
 Which leaves the real question.
 

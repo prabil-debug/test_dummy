@@ -832,241 +832,429 @@
   "start": 228.635,
   "end": 229.576,
   "chunk": 81,
-  "pause_after": 0.237
+  "pause_after": 0.592
  },
  {
-  "text": "So, could we build all this today?",
+  "text": "But before we ask what we could build, ask what we already did.",
   "section": "THE FISHERMEN",
-  "start": 229.813,
-  "end": 231.042,
+  "start": 230.168,
+  "end": 232.514,
   "chunk": 82,
   "pause_after": 0.954
  },
  {
-  "section": "CAN WE BUILD IT?",
-  "start": 231.996
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 233.468
  },
  {
-  "text": "Technically, yes.",
-  "section": "CAN WE BUILD IT?",
-  "start": 231.996,
-  "end": 232.845,
+  "text": "Here's something most people don't know.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 233.468,
+  "end": 234.709,
+  "chunk": 83
+ },
+ {
+  "text": "We've already used this route.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 234.709,
+  "end": 235.743,
   "chunk": 83,
-  "pause_after": 0.479
+  "pause_after": 0.273
  },
  {
-  "text": "China's Hong Kong-Zhuhai-Macau link is fifty-five kilometres long, longer than this whole chain.",
-  "section": "CAN WE BUILD IT?",
-  "start": 233.324,
-  "end": 237.33,
+  "text": "In 1914, the Boat Mail began running.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 236.015,
+  "end": 237.659,
   "chunk": 84,
   "pause_after": 0.379
  },
  {
-  "text": "About thirty of those kilometres cross open sea, with a tunnel for ships to pass over.",
-  "section": "CAN WE BUILD IT?",
-  "start": 237.708,
-  "end": 241.108,
+  "text": "A train left Madras Egmore, rolled all the way to the tip of India, and stopped at a pier in Dhanushkodi.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 238.038,
+  "end": 242.454,
   "chunk": 85,
   "pause_after": 0.388
  },
  {
-  "text": "It took nine years and about twenty billion dollars.",
-  "section": "CAN WE BUILD IT?",
-  "start": 241.496,
-  "end": 243.724,
+  "text": "Passengers stepped onto a ferry.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 242.841,
+  "end": 244.033,
   "chunk": 86,
   "pause_after": 0.38
  },
  {
-  "text": "Across shallow shoals, the engineering might be simpler.",
-  "section": "CAN WE BUILD IT?",
-  "start": 244.104,
-  "end": 246.405,
+  "text": "A few hours later, they stepped off at Talaimannar, in Ceylon, and boarded another train to Colombo.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 244.413,
+  "end": 249.319,
   "chunk": 87,
   "pause_after": 0.25
  },
  {
-  "text": "The storms, the sand and the sea would still be hard.",
-  "section": "CAN WE BUILD IT?",
-  "start": 246.655,
-  "end": 248.693,
+  "text": "Train, ship, train.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 249.569,
+  "end": 250.338,
+  "chunk": 88
+ },
+ {
+  "text": "Two countries, one journey.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 250.338,
+  "end": 251.363,
   "chunk": 88,
   "pause_after": 0.278
  },
  {
-  "text": "Even if the old stones stood, nobody would drive on them.",
-  "section": "CAN WE BUILD IT?",
-  "start": 248.972,
-  "end": 251.114,
+  "text": "For half a century, that was one way to travel.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 251.642,
+  "end": 253.336,
   "chunk": 89,
   "pause_after": 0.206
  },
  {
-  "text": "We'd build a modern road along the same path.",
-  "section": "CAN WE BUILD IT?",
-  "start": 251.32,
-  "end": 253.047,
-  "chunk": 90
- },
- {
-  "text": "And the idea isn't new.",
-  "section": "CAN WE BUILD IT?",
-  "start": 253.047,
-  "end": 254.006,
+  "text": "Then, on a single December night, it was gone.",
+  "section": "THE TRAIN THAT WENT TO SEA",
+  "start": 253.542,
+  "end": 255.061,
   "chunk": 90,
-  "pause_after": 0.257
+  "pause_after": 0.773
  },
  {
-  "text": "In 2023, the leaders of India and Sri Lanka agreed to study a land link, along with an oil pipeline.",
-  "section": "CAN WE BUILD IT?",
-  "start": 254.263,
-  "end": 258.737,
+  "section": "THE NIGHT OF THE STORM",
+  "start": 255.835
+ },
+ {
+  "text": "On the twenty-second of December, nineteen sixty-four, a cyclone struck Dhanushkodi.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 255.835,
+  "end": 259.299,
   "chunk": 91,
   "pause_after": 0.41
  },
  {
-  "text": "As far as I can find, nothing has been built.",
-  "section": "CAN WE BUILD IT?",
-  "start": 259.148,
-  "end": 261.132,
-  "chunk": 92
- },
- {
-  "text": "Which leaves the real question.",
-  "section": "CAN WE BUILD IT?",
-  "start": 261.132,
-  "end": 262.124,
+  "text": "Winds of around two hundred and eighty kilometres an hour, by one account.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 259.71,
+  "end": 262.604,
   "chunk": 92,
-  "pause_after": 0.849
+  "pause_after": 0.406
  },
  {
-  "section": "THE REAL ANSWER",
-  "start": 262.973
- },
- {
-  "text": "So what changes if the bridge never broke?",
-  "section": "THE REAL ANSWER",
-  "start": 262.973,
-  "end": 264.869,
+  "text": "The sea swallowed the town, the railway, and a passenger train.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 263.01,
+  "end": 265.51,
   "chunk": 93,
-  "pause_after": 0.691
+  "pause_after": 0.41
  },
  {
-  "text": "The sea splits in two.",
-  "section": "THE REAL ANSWER",
-  "start": 265.56,
-  "end": 266.609,
+  "text": "Estimates of how many people died run to about eighteen hundred, though the numbers vary.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 265.92,
+  "end": 270.01,
   "chunk": 94,
   "pause_after": 0.249
  },
  {
-  "text": "Ships still go around, or through a lifting span.",
-  "section": "THE REAL ANSWER",
-  "start": 266.858,
-  "end": 269.083,
+  "text": "The government declared Dhanushkodi unfit to live in.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 270.258,
+  "end": 273.055,
   "chunk": 95
  },
  {
-  "text": "A border turns into a road.",
-  "section": "THE REAL ANSWER",
-  "start": 269.083,
-  "end": 270.567,
+  "text": "Today, a few fishing families remain.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 273.055,
+  "end": 275.153,
   "chunk": 95,
   "pause_after": 0.243
  },
  {
-  "text": "Trucks beat planes on cargo, but never on speed.",
-  "section": "THE REAL ANSWER",
-  "start": 270.81,
-  "end": 272.632,
+  "text": "Visitors come for the day, and sleep in Rameswaram.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 275.397,
+  "end": 277.485,
   "chunk": 96,
   "pause_after": 0.337
  },
  {
-  "text": "And the quiet water underneath has to be protected.",
-  "section": "THE REAL ANSWER",
-  "start": 272.969,
-  "end": 274.699,
+  "text": "It is the exact place where Ram Setu begins.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 277.822,
+  "end": 279.53,
   "chunk": 97,
   "pause_after": 0.385
  },
  {
-  "text": "For some people, it would be a place of faith you could walk.",
-  "section": "THE REAL ANSWER",
-  "start": 275.083,
-  "end": 277.058,
+  "text": "And it shows the real test for any causeway.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 279.915,
+  "end": 281.734,
+  "chunk": 98
+ },
+ {
+  "text": "Not the engineers.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 281.734,
+  "end": 282.34,
   "chunk": 98,
   "pause_after": 0.344
  },
  {
-  "text": "For others, a piece of infrastructure.",
-  "section": "THE REAL ANSWER",
-  "start": 277.402,
-  "end": 278.751,
+  "text": "Not the border.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 282.684,
+  "end": 283.217,
   "chunk": 99
  },
  {
-  "text": "For many, both.",
-  "section": "THE REAL ANSWER",
-  "start": 278.751,
-  "end": 279.425,
+  "text": "The storm.",
+  "section": "THE NIGHT OF THE STORM",
+  "start": 283.217,
+  "end": 283.573,
   "chunk": 99,
-  "pause_after": 0.219
+  "pause_after": 1.036
  },
  {
-  "text": "A connection is never only stone and steel.",
-  "section": "THE REAL ANSWER",
-  "start": 279.644,
-  "end": 281.484,
+  "section": "CAN WE BUILD IT?",
+  "start": 284.609
+ },
+ {
+  "text": "So, could we build it today?",
+  "section": "CAN WE BUILD IT?",
+  "start": 284.609,
+  "end": 285.719,
   "chunk": 100,
-  "pause_after": 0.4
+  "pause_after": 0.682
  },
  {
-  "text": "It's a choice, made again and again, by everyone who crosses it.",
-  "section": "THE REAL ANSWER",
-  "start": 281.885,
-  "end": 284.605,
+  "text": "Technically, yes.",
+  "section": "CAN WE BUILD IT?",
+  "start": 286.401,
+  "end": 287.29,
   "chunk": 101,
-  "pause_after": 0.365
+  "pause_after": 0.555
  },
  {
-  "text": "There was a time you could walk from India to Sri Lanka.",
-  "section": "THE REAL ANSWER",
-  "start": 284.97,
-  "end": 287.185,
+  "text": "China's Hong Kong-Zhuhai-Macau link is fifty-five kilometres long, longer than this whole chain.",
+  "section": "CAN WE BUILD IT?",
+  "start": 287.846,
+  "end": 292.562,
   "chunk": 102,
   "pause_after": 0.239
  },
  {
-  "text": "The stones are still there.",
-  "section": "THE REAL ANSWER",
-  "start": 287.424,
-  "end": 288.222,
+  "text": "About thirty of those kilometres cross open sea, with a tunnel for ships to pass over.",
+  "section": "CAN WE BUILD IT?",
+  "start": 292.801,
+  "end": 296.201,
   "chunk": 103,
-  "pause_after": 1.233
+  "pause_after": 0.273
  },
  {
-  "text": "The question was never whether we could build the way.",
-  "section": "THE REAL ANSWER",
-  "start": 289.455,
-  "end": 291.273,
-  "chunk": 104
- },
- {
-  "text": "It's whether we'd agree on how.",
-  "section": "THE REAL ANSWER",
-  "start": 291.273,
-  "end": 292.364,
+  "text": "It took nine years and about twenty billion dollars.",
+  "section": "CAN WE BUILD IT?",
+  "start": 296.474,
+  "end": 298.272,
   "chunk": 104,
   "pause_after": 0.414
  },
  {
+  "text": "A crossing here would face storms like the one in nineteen sixty-four, so it would have to stand high, on strong pillars.",
+  "section": "CAN WE BUILD IT?",
+  "start": 298.686,
+  "end": 303.105,
+  "chunk": 105,
+  "pause_after": 0.288
+ },
+ {
+  "text": "Even if the old stones stood, nobody would drive on them.",
+  "section": "CAN WE BUILD IT?",
+  "start": 303.393,
+  "end": 305.484,
+  "chunk": 106,
+  "pause_after": 0.359
+ },
+ {
+  "text": "We'd build a modern road and railway along the same path.",
+  "section": "CAN WE BUILD IT?",
+  "start": 305.843,
+  "end": 308.358,
+  "chunk": 107,
+  "pause_after": 0.228
+ },
+ {
+  "text": "And the idea isn't new.",
+  "section": "CAN WE BUILD IT?",
+  "start": 308.586,
+  "end": 309.621,
+  "chunk": 108,
+  "pause_after": 0.399
+ },
+ {
+  "text": "A link of about twenty-three kilometres, from Dhanushkodi to Talaimannar, has been proposed, with estimates running from about three and a half billion dollars in 2015 to around five billion later.",
+  "section": "CAN WE BUILD IT?",
+  "start": 310.02,
+  "end": 318.465,
+  "chunk": 109,
+  "pause_after": 0.232
+ },
+ {
+  "text": "In 2023, the leaders of India and Sri Lanka agreed to study a land link, along with an oil pipeline.",
+  "section": "CAN WE BUILD IT?",
+  "start": 318.697,
+  "end": 323.221,
+  "chunk": 110,
+  "pause_after": 0.416
+ },
+ {
+  "text": "As far as I can find, nothing has been built.",
+  "section": "CAN WE BUILD IT?",
+  "start": 323.636,
+  "end": 325.494,
+  "chunk": 111
+ },
+ {
+  "text": "Which leaves the real question.",
+  "section": "CAN WE BUILD IT?",
+  "start": 325.494,
+  "end": 326.423,
+  "chunk": 111,
+  "pause_after": 0.832
+ },
+ {
+  "section": "THE REAL ANSWER",
+  "start": 327.255
+ },
+ {
+  "text": "So what changes if the bridge never broke?",
+  "section": "THE REAL ANSWER",
+  "start": 327.255,
+  "end": 328.851,
+  "chunk": 112,
+  "pause_after": 0.526
+ },
+ {
+  "text": "The sea splits in two.",
+  "section": "THE REAL ANSWER",
+  "start": 329.377,
+  "end": 330.281,
+  "chunk": 113,
+  "pause_after": 0.414
+ },
+ {
+  "text": "Ships still go around, or through a lifting span.",
+  "section": "THE REAL ANSWER",
+  "start": 330.694,
+  "end": 332.92,
+  "chunk": 114
+ },
+ {
+  "text": "A border turns into a road.",
+  "section": "THE REAL ANSWER",
+  "start": 332.92,
+  "end": 334.403,
+  "chunk": 114,
+  "pause_after": 0.316
+ },
+ {
+  "text": "Trucks beat planes on cargo, but never on speed.",
+  "section": "THE REAL ANSWER",
+  "start": 334.719,
+  "end": 336.998,
+  "chunk": 115,
+  "pause_after": 0.295
+ },
+ {
+  "text": "And the quiet water underneath has to be protected.",
+  "section": "THE REAL ANSWER",
+  "start": 337.294,
+  "end": 339.135,
+  "chunk": 116,
+  "pause_after": 0.382
+ },
+ {
+  "text": "For some people, it would be a place of faith you could walk.",
+  "section": "THE REAL ANSWER",
+  "start": 339.517,
+  "end": 341.542,
+  "chunk": 117,
+  "pause_after": 0.255
+ },
+ {
+  "text": "For others, a piece of infrastructure.",
+  "section": "THE REAL ANSWER",
+  "start": 341.797,
+  "end": 343.113,
+  "chunk": 118
+ },
+ {
+  "text": "For many, both.",
+  "section": "THE REAL ANSWER",
+  "start": 343.113,
+  "end": 343.77,
+  "chunk": 118,
+  "pause_after": 0.253
+ },
+ {
+  "text": "A connection is never only stone and steel.",
+  "section": "THE REAL ANSWER",
+  "start": 344.023,
+  "end": 345.509,
+  "chunk": 119,
+  "pause_after": 0.257
+ },
+ {
+  "text": "It's a choice, made again and again, by everyone who crosses it.",
+  "section": "THE REAL ANSWER",
+  "start": 345.766,
+  "end": 348.161,
+  "chunk": 120,
+  "pause_after": 0.229
+ },
+ {
+  "text": "There was a time you could walk from India to Sri Lanka.",
+  "section": "THE REAL ANSWER",
+  "start": 348.39,
+  "end": 350.581,
+  "chunk": 121,
+  "pause_after": 0.278
+ },
+ {
+  "text": "The stones are still there.",
+  "section": "THE REAL ANSWER",
+  "start": 350.859,
+  "end": 351.919,
+  "chunk": 122,
+  "pause_after": 1.296
+ },
+ {
+  "text": "The question was never whether we could build the way.",
+  "section": "THE REAL ANSWER",
+  "start": 353.215,
+  "end": 355.175,
+  "chunk": 123
+ },
+ {
+  "text": "It's whether we'd agree on how.",
+  "section": "THE REAL ANSWER",
+  "start": 355.175,
+  "end": 356.351,
+  "chunk": 123,
+  "pause_after": 0.293
+ },
+ {
   "text": "If you could walk it tomorrow, would you?",
   "section": "THE REAL ANSWER",
-  "start": 292.778,
-  "end": 294.057,
-  "chunk": 105,
+  "start": 356.644,
+  "end": 357.923,
+  "chunk": 124,
   "pause_after": 2.0
  }
 ]

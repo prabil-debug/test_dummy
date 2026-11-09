@@ -50,12 +50,12 @@
  {
   "word": "India",
   "start": 1.14,
-  "end": 1.34,
+  "end": 1.32,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "to",
-  "start": 1.34,
+  "start": 1.32,
   "end": 1.58,
   "sentence": "There was a time you could walk from Ind"
  },
@@ -68,18 +68,18 @@
  {
   "word": "Lanka.",
   "start": 1.74,
-  "end": 2.06,
+  "end": 2.04,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "No",
-  "start": 2.46,
-  "end": 2.603,
+  "start": 2.48,
+  "end": 2.616,
   "sentence": "No boat."
  },
  {
   "word": "boat.",
-  "start": 2.603,
+  "start": 2.616,
   "end": 2.888,
   "sentence": "No boat."
  },
@@ -164,12 +164,12 @@
  {
   "word": "is",
   "start": 5.46,
-  "end": 5.72,
+  "end": 5.7,
   "sentence": "Then the sea rose, and what's left today"
  },
  {
   "word": "a",
-  "start": 5.72,
+  "start": 5.7,
   "end": 5.84,
   "sentence": "Then the sea rose, and what's left today"
  },
@@ -205,19 +205,19 @@
  },
  {
   "word": "about",
-  "start": 7.42,
-  "end": 7.72,
+  "start": 7.44,
+  "end": 7.74,
   "sentence": "Then the sea rose, and what's left today"
  },
  {
   "word": "forty-eight",
-  "start": 7.72,
-  "end": 8.02,
+  "start": 7.74,
+  "end": 8.04,
   "sentence": "Then the sea rose, and what's left today"
  },
  {
   "word": "kilometres",
-  "start": 8.02,
+  "start": 8.04,
   "end": 8.36,
   "sentence": "Then the sea rose, and what's left today"
  },
@@ -331,19 +331,19 @@
  },
  {
   "word": "That's",
-  "start": 13.7,
-  "end": 14.1,
+  "start": 13.66,
+  "end": 14.06,
   "sentence": "That's tradition, not a measurement."
  },
  {
   "word": "tradition,",
-  "start": 14.1,
+  "start": 14.06,
   "end": 14.18,
   "sentence": "That's tradition, not a measurement."
  },
  {
   "word": "not",
-  "start": 14.22,
+  "start": 14.24,
   "end": 14.4,
   "sentence": "That's tradition, not a measurement."
  },
@@ -380,85 +380,85 @@
  {
   "word": "never",
   "start": 15.82,
-  "end": 16.02,
+  "end": 16.04,
   "sentence": "Now imagine it never broke."
  },
  {
   "word": "broke.",
-  "start": 16.02,
+  "start": 16.04,
   "end": 16.4,
   "sentence": "Now imagine it never broke."
  },
  {
   "word": "Imagine",
   "start": 17.56,
-  "end": 17.983,
+  "end": 17.98,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "it",
-  "start": 17.983,
-  "end": 18.103,
+  "start": 17.98,
+  "end": 18.1,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "still",
-  "start": 18.103,
-  "end": 18.405,
+  "start": 18.1,
+  "end": 18.4,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "stood,",
-  "start": 18.405,
-  "end": 18.707,
+  "start": 18.4,
+  "end": 18.7,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "from",
-  "start": 18.707,
-  "end": 18.949,
+  "start": 18.7,
+  "end": 18.94,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "Rameswaram",
-  "start": 18.949,
-  "end": 19.553,
+  "start": 18.94,
+  "end": 19.54,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "all",
-  "start": 19.553,
-  "end": 19.734,
+  "start": 19.54,
+  "end": 19.72,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "the",
-  "start": 19.734,
-  "end": 19.915,
+  "start": 19.72,
+  "end": 19.9,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "way",
-  "start": 19.915,
-  "end": 20.096,
+  "start": 19.9,
+  "end": 20.08,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "to",
-  "start": 20.096,
-  "end": 20.217,
+  "start": 20.08,
+  "end": 20.2,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "Sri",
-  "start": 20.217,
-  "end": 20.398,
+  "start": 20.2,
+  "end": 20.38,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
   "word": "Lanka.",
-  "start": 20.398,
-  "end": 20.7,
+  "start": 20.38,
+  "end": 20.68,
   "sentence": "Imagine it still stood, from Rameswaram "
  },
  {
@@ -506,12 +506,12 @@
  {
   "word": "use",
   "start": 22.54,
-  "end": 22.66,
+  "end": 22.68,
   "sentence": "And could we use it tomorrow?"
  },
  {
   "word": "it",
-  "start": 22.66,
+  "start": 22.68,
   "end": 22.8,
   "sentence": "And could we use it tomorrow?"
  },
@@ -547,7 +547,7 @@
  },
  {
   "word": "what",
-  "start": 25.58,
+  "start": 25.6,
   "end": 25.74,
   "sentence": "First, what exactly are we talking about"
  },
@@ -578,7 +578,7 @@
  {
   "word": "about?",
   "start": 26.66,
-  "end": 27.26,
+  "end": 27.28,
   "sentence": "First, what exactly are we talking about"
  },
  {
@@ -752,12 +752,12 @@
  {
   "word": "the",
   "start": 36.16,
-  "end": 36.3,
+  "end": 36.32,
   "sentence": "In places it sits barely a metre under t"
  },
  {
   "word": "surface.",
-  "start": 36.3,
+  "start": 36.32,
   "end": 36.66,
   "sentence": "In places it sits barely a metre under t"
  },
@@ -800,24 +800,24 @@
  {
   "word": "2024,",
   "start": 38.42,
-  "end": 38.98,
+  "end": 38.96,
   "sentence": "India's space agency mapped it in 2024, "
  },
  {
   "word": "and",
-  "start": 38.98,
+  "start": 38.96,
   "end": 39.4,
   "sentence": "India's space agency mapped it in 2024, "
  },
  {
   "word": "almost",
   "start": 39.4,
-  "end": 39.7,
+  "end": 39.72,
   "sentence": "India's space agency mapped it in 2024, "
  },
  {
   "word": "all",
-  "start": 39.7,
+  "start": 39.72,
   "end": 39.88,
   "sentence": "India's space agency mapped it in 2024, "
  },
@@ -907,7 +907,7 @@
  },
  {
   "word": "In",
-  "start": 42.86,
+  "start": 42.88,
   "end": 43.08,
   "sentence": "In the Ramayana, Lord Ram's army builds "
  },
@@ -925,7 +925,7 @@
  },
  {
   "word": "Lord",
-  "start": 43.98,
+  "start": 43.96,
   "end": 44.12,
   "sentence": "In the Ramayana, Lord Ram's army builds "
  },
@@ -986,60 +986,60 @@
  {
   "word": "reach",
   "start": 45.86,
-  "end": 46.0,
+  "end": 46.02,
   "sentence": "In the Ramayana, Lord Ram's army builds "
  },
  {
   "word": "Lanka.",
-  "start": 46.0,
+  "start": 46.02,
   "end": 46.36,
   "sentence": "In the Ramayana, Lord Ram's army builds "
  },
  {
   "word": "On",
   "start": 46.78,
-  "end": 46.868,
+  "end": 46.87,
   "sentence": "On world maps, it's Adam's Bridge."
  },
  {
   "word": "world",
-  "start": 46.868,
-  "end": 47.088,
+  "start": 46.87,
+  "end": 47.094,
   "sentence": "On world maps, it's Adam's Bridge."
  },
  {
   "word": "maps,",
-  "start": 47.088,
-  "end": 47.264,
+  "start": 47.094,
+  "end": 47.273,
   "sentence": "On world maps, it's Adam's Bridge."
  },
  {
   "word": "it's",
-  "start": 47.264,
-  "end": 47.396,
+  "start": 47.273,
+  "end": 47.407,
   "sentence": "On world maps, it's Adam's Bridge."
  },
  {
   "word": "Adam's",
-  "start": 47.396,
-  "end": 47.616,
+  "start": 47.407,
+  "end": 47.631,
   "sentence": "On world maps, it's Adam's Bridge."
  },
  {
   "word": "Bridge.",
-  "start": 47.616,
-  "end": 47.88,
+  "start": 47.631,
+  "end": 47.9,
   "sentence": "On world maps, it's Adam's Bridge."
  },
  {
   "word": "Geologists",
-  "start": 48.24,
-  "end": 48.68,
+  "start": 48.26,
+  "end": 48.7,
   "sentence": "Geologists describe natural limestone sh"
  },
  {
   "word": "describe",
-  "start": 48.68,
+  "start": 48.7,
   "end": 49.3,
   "sentence": "Geologists describe natural limestone sh"
  },
@@ -1093,19 +1093,19 @@
  },
  {
   "word": "This",
-  "start": 52.42,
+  "start": 52.48,
   "end": 52.66,
   "sentence": "This video won't try to settle that."
  },
  {
   "word": "video",
   "start": 52.66,
-  "end": 52.92,
+  "end": 52.9,
   "sentence": "This video won't try to settle that."
  },
  {
   "word": "won't",
-  "start": 52.92,
+  "start": 52.9,
   "end": 53.22,
   "sentence": "This video won't try to settle that."
  },
@@ -1136,30 +1136,30 @@
  {
   "word": "Faith",
   "start": 54.14,
-  "end": 54.64,
+  "end": 54.56,
   "sentence": "Faith and science have been in that conv"
  },
  {
   "word": "and",
-  "start": 54.64,
+  "start": 54.56,
   "end": 54.76,
   "sentence": "Faith and science have been in that conv"
  },
  {
   "word": "science",
   "start": 54.76,
-  "end": 55.06,
+  "end": 55.02,
   "sentence": "Faith and science have been in that conv"
  },
  {
   "word": "have",
-  "start": 55.06,
-  "end": 55.28,
+  "start": 55.02,
+  "end": 55.26,
   "sentence": "Faith and science have been in that conv"
  },
  {
   "word": "been",
-  "start": 55.28,
+  "start": 55.26,
   "end": 55.42,
   "sentence": "Faith and science have been in that conv"
  },
@@ -1214,12 +1214,12 @@
  {
   "word": "asking",
   "start": 57.5,
-  "end": 57.76,
+  "end": 57.74,
   "sentence": "We're asking something else."
  },
  {
   "word": "something",
-  "start": 57.76,
+  "start": 57.74,
   "end": 58.12,
   "sentence": "We're asking something else."
  },
@@ -1231,7 +1231,7 @@
  },
  {
   "word": "What",
-  "start": 58.98,
+  "start": 59.0,
   "end": 59.1,
   "sentence": "What if a continuous causeway still stoo"
  },
@@ -1244,12 +1244,12 @@
  {
   "word": "a",
   "start": 59.2,
-  "end": 59.46,
+  "end": 59.44,
   "sentence": "What if a continuous causeway still stoo"
  },
  {
   "word": "continuous",
-  "start": 59.46,
+  "start": 59.44,
   "end": 59.7,
   "sentence": "What if a continuous causeway still stoo"
  },
@@ -1303,7 +1303,7 @@
  },
  {
   "word": "trucks",
-  "start": 61.96,
+  "start": 62.2,
   "end": 62.2,
   "sentence": "What if a continuous causeway still stoo"
  },
@@ -1321,55 +1321,55 @@
  },
  {
   "word": "The",
-  "start": 63.52,
-  "end": 63.643,
+  "start": 63.54,
+  "end": 63.662,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "first",
-  "start": 63.643,
-  "end": 63.849,
+  "start": 63.662,
+  "end": 63.864,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "thing",
-  "start": 63.849,
-  "end": 64.054,
+  "start": 63.864,
+  "end": 64.067,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "it",
-  "start": 64.054,
-  "end": 64.136,
+  "start": 64.067,
+  "end": 64.148,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "would",
-  "start": 64.136,
-  "end": 64.342,
+  "start": 64.148,
+  "end": 64.351,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "change",
-  "start": 64.342,
-  "end": 64.588,
+  "start": 64.351,
+  "end": 64.594,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "isn't",
-  "start": 64.588,
-  "end": 64.752,
+  "start": 64.594,
+  "end": 64.756,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "the",
-  "start": 64.752,
-  "end": 64.876,
+  "start": 64.756,
+  "end": 64.878,
   "sentence": "The first thing it would change isn't th"
  },
  {
   "word": "land.",
-  "start": 64.876,
+  "start": 64.878,
   "end": 65.04,
   "sentence": "The first thing it would change isn't th"
  },
@@ -1388,43 +1388,43 @@
  {
   "word": "sea.",
   "start": 65.28,
-  "end": 65.68,
+  "end": 65.66,
   "sentence": "It's the sea."
  },
  {
   "word": "On",
   "start": 66.42,
-  "end": 66.517,
+  "end": 66.519,
   "sentence": "On one side, the Palk Bay."
  },
  {
   "word": "one",
-  "start": 66.517,
-  "end": 66.662,
+  "start": 66.519,
+  "end": 66.667,
   "sentence": "On one side, the Palk Bay."
  },
  {
   "word": "side,",
-  "start": 66.662,
-  "end": 66.856,
+  "start": 66.667,
+  "end": 66.865,
   "sentence": "On one side, the Palk Bay."
  },
  {
   "word": "the",
-  "start": 66.856,
-  "end": 67.001,
+  "start": 66.865,
+  "end": 67.014,
   "sentence": "On one side, the Palk Bay."
  },
  {
   "word": "Palk",
-  "start": 67.001,
-  "end": 67.195,
+  "start": 67.014,
+  "end": 67.212,
   "sentence": "On one side, the Palk Bay."
  },
  {
   "word": "Bay.",
-  "start": 67.195,
-  "end": 67.34,
+  "start": 67.212,
+  "end": 67.36,
   "sentence": "On one side, the Palk Bay."
  },
  {
@@ -1466,18 +1466,18 @@
  {
   "word": "Mannar.",
   "start": 68.36,
-  "end": 68.82,
+  "end": 68.8,
   "sentence": "On the other, the Gulf of Mannar."
  },
  {
   "word": "Today,",
   "start": 69.1,
-  "end": 69.38,
+  "end": 69.4,
   "sentence": "Today, water slips between them across t"
  },
  {
   "word": "water",
-  "start": 69.38,
+  "start": 69.4,
   "end": 69.74,
   "sentence": "Today, water slips between them across t"
  },
@@ -1538,24 +1538,24 @@
  {
   "word": "and",
   "start": 72.42,
-  "end": 72.6,
+  "end": 72.58,
   "sentence": "Close that gap, and the currents have to"
  },
  {
   "word": "the",
-  "start": 72.6,
+  "start": 72.58,
   "end": 72.78,
   "sentence": "Close that gap, and the currents have to"
  },
  {
   "word": "currents",
   "start": 72.78,
-  "end": 72.96,
+  "end": 72.94,
   "sentence": "Close that gap, and the currents have to"
  },
  {
   "word": "have",
-  "start": 72.96,
+  "start": 72.94,
   "end": 73.2,
   "sentence": "Close that gap, and the currents have to"
  },
@@ -1568,24 +1568,24 @@
  {
   "word": "find",
   "start": 73.36,
-  "end": 73.54,
+  "end": 73.52,
   "sentence": "Close that gap, and the currents have to"
  },
  {
   "word": "a",
-  "start": 73.54,
+  "start": 73.52,
   "end": 73.64,
   "sentence": "Close that gap, and the currents have to"
  },
  {
   "word": "new",
   "start": 73.64,
-  "end": 73.78,
+  "end": 73.8,
   "sentence": "Close that gap, and the currents have to"
  },
  {
   "word": "way",
-  "start": 73.78,
+  "start": 73.8,
   "end": 73.96,
   "sentence": "Close that gap, and the currents have to"
  },
@@ -1598,18 +1598,18 @@
  {
   "word": "Ships",
   "start": 74.72,
-  "end": 74.86,
+  "end": 74.84,
   "sentence": "Ships would feel it too."
  },
  {
   "word": "would",
-  "start": 74.86,
-  "end": 74.98,
+  "start": 74.84,
+  "end": 74.96,
   "sentence": "Ships would feel it too."
  },
  {
   "word": "feel",
-  "start": 74.98,
+  "start": 74.96,
   "end": 75.08,
   "sentence": "Ships would feel it too."
  },
@@ -1622,72 +1622,72 @@
  {
   "word": "too.",
   "start": 75.24,
-  "end": 75.44,
+  "end": 75.52,
   "sentence": "Ships would feel it too."
  },
  {
   "word": "The",
-  "start": 75.84,
-  "end": 75.959,
+  "start": 75.86,
+  "end": 75.978,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "strait",
-  "start": 75.959,
-  "end": 76.197,
+  "start": 75.978,
+  "end": 76.213,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "is",
-  "start": 76.197,
-  "end": 76.277,
+  "start": 76.213,
+  "end": 76.292,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "so",
-  "start": 76.277,
-  "end": 76.356,
+  "start": 76.292,
+  "end": 76.37,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "shallow",
-  "start": 76.356,
-  "end": 76.634,
+  "start": 76.37,
+  "end": 76.645,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "that",
-  "start": 76.634,
-  "end": 76.793,
+  "start": 76.645,
+  "end": 76.802,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "large",
-  "start": 76.793,
-  "end": 76.991,
+  "start": 76.802,
+  "end": 76.998,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "ships",
-  "start": 76.991,
-  "end": 77.189,
+  "start": 76.998,
+  "end": 77.194,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "can't",
-  "start": 77.189,
-  "end": 77.348,
+  "start": 77.194,
+  "end": 77.351,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "cross",
-  "start": 77.348,
-  "end": 77.547,
+  "start": 77.351,
+  "end": 77.548,
   "sentence": "The strait is so shallow that large ship"
  },
  {
   "word": "it.",
-  "start": 77.547,
+  "start": 77.548,
   "end": 77.626,
   "sentence": "The strait is so shallow that large ship"
  },
@@ -1742,12 +1742,12 @@
  {
   "word": "instead.",
   "start": 78.98,
-  "end": 79.38,
+  "end": 79.4,
   "sentence": "They sail all the way around Sri Lanka i"
  },
  {
   "word": "India",
-  "start": 79.86,
+  "start": 79.88,
   "end": 79.98,
   "sentence": "India has argued about this for decades."
  },
@@ -1778,24 +1778,24 @@
  {
   "word": "for",
   "start": 80.74,
-  "end": 80.86,
+  "end": 80.84,
   "sentence": "India has argued about this for decades."
  },
  {
   "word": "decades.",
-  "start": 80.86,
+  "start": 80.84,
   "end": 81.2,
   "sentence": "India has argued about this for decades."
  },
  {
   "word": "A",
   "start": 81.74,
-  "end": 81.9,
+  "end": 81.88,
   "sentence": "A project called Sethusamudram planned a"
  },
  {
   "word": "project",
-  "start": 81.9,
+  "start": 81.88,
   "end": 82.06,
   "sentence": "A project called Sethusamudram planned a"
  },
@@ -1808,12 +1808,12 @@
  {
   "word": "Sethusamudram",
   "start": 82.4,
-  "end": 82.76,
+  "end": 82.74,
   "sentence": "A project called Sethusamudram planned a"
  },
  {
   "word": "planned",
-  "start": 82.76,
+  "start": 82.74,
   "end": 83.26,
   "sentence": "A project called Sethusamudram planned a"
  },
@@ -1880,24 +1880,24 @@
  {
   "word": "424",
   "start": 85.84,
-  "end": 86.2,
+  "end": 86.18,
   "sentence": "A project called Sethusamudram planned a"
  },
  {
   "word": "nautical",
-  "start": 86.2,
-  "end": 86.6,
+  "start": 86.18,
+  "end": 86.64,
   "sentence": "A project called Sethusamudram planned a"
  },
  {
   "word": "miles",
-  "start": 86.6,
-  "end": 86.86,
+  "start": 86.64,
+  "end": 86.84,
   "sentence": "A project called Sethusamudram planned a"
  },
  {
   "word": "from",
-  "start": 86.86,
+  "start": 86.84,
   "end": 87.08,
   "sentence": "A project called Sethusamudram planned a"
  },
@@ -1940,30 +1940,30 @@
  {
   "word": "in",
   "start": 89.3,
-  "end": 89.74,
+  "end": 89.72,
   "sentence": "Court challenges stopped it in 2007."
  },
  {
   "word": "2007.",
-  "start": 89.74,
+  "start": 89.72,
   "end": 90.24,
   "sentence": "Court challenges stopped it in 2007."
  },
  {
   "word": "Reports",
-  "start": 91.0,
-  "end": 91.0,
+  "start": 91.02,
+  "end": 91.02,
   "sentence": "Reports say only about a fifth of the dr"
  },
  {
   "word": "say",
-  "start": 91.0,
-  "end": 91.32,
+  "start": 91.02,
+  "end": 91.34,
   "sentence": "Reports say only about a fifth of the dr"
  },
  {
   "word": "only",
-  "start": 91.32,
+  "start": 91.34,
   "end": 91.6,
   "sentence": "Reports say only about a fifth of the dr"
  },
@@ -1982,18 +1982,18 @@
  {
   "word": "fifth",
   "start": 92.04,
-  "end": 92.22,
+  "end": 92.2,
   "sentence": "Reports say only about a fifth of the dr"
  },
  {
   "word": "of",
-  "start": 92.22,
-  "end": 92.36,
+  "start": 92.2,
+  "end": 92.34,
   "sentence": "Reports say only about a fifth of the dr"
  },
  {
   "word": "the",
-  "start": 92.36,
+  "start": 92.34,
   "end": 92.46,
   "sentence": "Reports say only about a fifth of the dr"
  },
@@ -2042,7 +2042,7 @@
  {
   "word": "done.",
   "start": 94.12,
-  "end": 94.48,
+  "end": 94.46,
   "sentence": "Reports say only about a fifth of the dr"
  },
  {
@@ -2053,26 +2053,26 @@
  },
  {
   "word": "here's",
-  "start": 94.92,
-  "end": 95.06,
+  "start": 94.94,
+  "end": 95.08,
   "sentence": "So here's the strange part."
  },
  {
   "word": "the",
-  "start": 95.06,
-  "end": 95.24,
+  "start": 95.08,
+  "end": 95.22,
   "sentence": "So here's the strange part."
  },
  {
   "word": "strange",
-  "start": 95.24,
+  "start": 95.22,
   "end": 95.34,
   "sentence": "So here's the strange part."
  },
  {
   "word": "part.",
   "start": 95.34,
-  "end": 95.74,
+  "end": 95.72,
   "sentence": "So here's the strange part."
  },
  {
@@ -2144,138 +2144,138 @@
  {
   "word": "But",
   "start": 98.84,
-  "end": 98.966,
+  "end": 98.965,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "it",
-  "start": 98.966,
-  "end": 99.05,
+  "start": 98.965,
+  "end": 99.048,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "would",
-  "start": 99.05,
-  "end": 99.259,
+  "start": 99.048,
+  "end": 99.256,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "shut",
-  "start": 99.259,
-  "end": 99.427,
+  "start": 99.256,
+  "end": 99.423,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "the",
-  "start": 99.427,
-  "end": 99.553,
+  "start": 99.423,
+  "end": 99.547,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "door",
-  "start": 99.553,
-  "end": 99.721,
+  "start": 99.547,
+  "end": 99.714,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "on",
-  "start": 99.721,
-  "end": 99.805,
+  "start": 99.714,
+  "end": 99.797,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "the",
-  "start": 99.805,
-  "end": 99.93,
+  "start": 99.797,
+  "end": 99.922,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "one",
-  "start": 99.93,
-  "end": 100.056,
+  "start": 99.922,
+  "end": 100.047,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "thing",
-  "start": 100.056,
-  "end": 100.266,
+  "start": 100.047,
+  "end": 100.255,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "everyone",
-  "start": 100.266,
-  "end": 100.601,
+  "start": 100.255,
+  "end": 100.588,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "has",
-  "start": 100.601,
-  "end": 100.727,
+  "start": 100.588,
+  "end": 100.713,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "wanted",
-  "start": 100.727,
-  "end": 100.979,
+  "start": 100.713,
+  "end": 100.962,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "for",
-  "start": 100.979,
-  "end": 101.105,
+  "start": 100.962,
+  "end": 101.087,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "a",
-  "start": 101.105,
-  "end": 101.146,
+  "start": 101.087,
+  "end": 101.129,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "century.",
-  "start": 101.146,
-  "end": 101.44,
+  "start": 101.129,
+  "end": 101.42,
   "sentence": "But it would shut the door on the one th"
  },
  {
   "word": "A",
   "start": 101.86,
-  "end": 102.22,
+  "end": 101.904,
   "sentence": "A shortcut."
  },
  {
   "word": "shortcut.",
-  "start": 102.22,
-  "end": 102.44,
+  "start": 101.904,
+  "end": 102.259,
   "sentence": "A shortcut."
  },
  {
   "word": "Unless",
-  "start": 102.22,
-  "end": 102.47,
+  "start": 102.109,
+  "end": 102.384,
   "sentence": "Unless the causeway could open."
  },
  {
   "word": "the",
-  "start": 102.47,
-  "end": 102.595,
+  "start": 102.384,
+  "end": 102.522,
   "sentence": "Unless the causeway could open."
  },
  {
   "word": "causeway",
-  "start": 102.595,
-  "end": 102.927,
+  "start": 102.522,
+  "end": 102.889,
   "sentence": "Unless the causeway could open."
  },
  {
   "word": "could",
-  "start": 102.927,
-  "end": 103.136,
+  "start": 102.889,
+  "end": 103.118,
   "sentence": "Unless the causeway could open."
  },
  {
   "word": "open.",
-  "start": 103.136,
+  "start": 103.118,
   "end": 103.302,
   "sentence": "Unless the causeway could open."
  },
@@ -2294,12 +2294,12 @@
  {
   "word": "not",
   "start": 104.4,
-  "end": 104.52,
+  "end": 104.54,
   "sentence": "And that's not a fantasy."
  },
  {
   "word": "a",
-  "start": 104.52,
+  "start": 104.54,
   "end": 104.64,
   "sentence": "And that's not a fantasy."
  },
@@ -2359,92 +2359,92 @@
  },
  {
   "word": "At",
-  "start": 107.84,
-  "end": 107.978,
+  "start": 107.86,
+  "end": 107.98,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "Pamban,",
-  "start": 107.978,
-  "end": 108.392,
+  "start": 107.98,
+  "end": 108.34,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "the",
-  "start": 108.392,
-  "end": 108.599,
+  "start": 108.4,
+  "end": 108.54,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "railway",
-  "start": 108.599,
-  "end": 109.082,
+  "start": 108.54,
+  "end": 108.76,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "reaches",
-  "start": 109.082,
-  "end": 109.564,
+  "start": 108.76,
+  "end": 109.26,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "Rameswaram",
-  "start": 109.564,
-  "end": 110.254,
+  "start": 109.26,
+  "end": 109.8,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "across",
-  "start": 110.254,
-  "end": 110.668,
+  "start": 109.8,
+  "end": 109.92,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "the",
-  "start": 110.668,
-  "end": 110.875,
+  "start": 109.92,
+  "end": 110.18,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "water.",
-  "start": 110.875,
-  "end": 111.22,
+  "start": 110.92,
+  "end": 111.4,
   "sentence": "At Pamban, the railway reaches Rameswara"
  },
  {
   "word": "The",
-  "start": 111.152,
-  "end": 111.438,
+  "start": 111.4,
+  "end": 111.657,
   "sentence": "The old bridge opened in 1914."
  },
  {
   "word": "old",
-  "start": 111.438,
-  "end": 111.724,
+  "start": 111.657,
+  "end": 111.915,
   "sentence": "The old bridge opened in 1914."
  },
  {
   "word": "bridge",
-  "start": 111.724,
-  "end": 112.296,
+  "start": 111.915,
+  "end": 112.43,
   "sentence": "The old bridge opened in 1914."
  },
  {
   "word": "opened",
-  "start": 112.296,
-  "end": 112.868,
+  "start": 112.43,
+  "end": 112.945,
   "sentence": "The old bridge opened in 1914."
  },
  {
   "word": "in",
-  "start": 112.868,
-  "end": 113.059,
+  "start": 112.945,
+  "end": 113.117,
   "sentence": "The old bridge opened in 1914."
  },
  {
   "word": "1914.",
-  "start": 113.059,
-  "end": 113.44,
+  "start": 113.117,
+  "end": 113.46,
   "sentence": "The old bridge opened in 1914."
  },
  {
@@ -2456,54 +2456,54 @@
  {
   "word": "middle",
   "start": 113.94,
-  "end": 114.0,
+  "end": 114.02,
   "sentence": "Its middle could swing open for ships."
  },
  {
   "word": "could",
-  "start": 114.0,
+  "start": 114.02,
   "end": 114.24,
   "sentence": "Its middle could swing open for ships."
  },
  {
   "word": "swing",
   "start": 114.24,
-  "end": 114.4,
+  "end": 114.42,
   "sentence": "Its middle could swing open for ships."
  },
  {
   "word": "open",
-  "start": 114.4,
-  "end": 114.6,
+  "start": 114.42,
+  "end": 114.58,
   "sentence": "Its middle could swing open for ships."
  },
  {
   "word": "for",
-  "start": 114.6,
+  "start": 114.58,
   "end": 114.76,
   "sentence": "Its middle could swing open for ships."
  },
  {
   "word": "ships.",
   "start": 114.76,
-  "end": 115.06,
+  "end": 115.04,
   "sentence": "Its middle could swing open for ships."
  },
  {
   "word": "In",
-  "start": 115.52,
-  "end": 115.52,
+  "start": 115.5,
+  "end": 115.5,
   "sentence": "In 2022, rust forced it to close."
  },
  {
   "word": "2022,",
-  "start": 115.52,
+  "start": 115.5,
   "end": 115.84,
   "sentence": "In 2022, rust forced it to close."
  },
  {
   "word": "rust",
-  "start": 116.18,
+  "start": 116.22,
   "end": 116.24,
   "sentence": "In 2022, rust forced it to close."
  },
@@ -2533,19 +2533,19 @@
  },
  {
   "word": "In",
-  "start": 117.34,
-  "end": 117.36,
+  "start": 117.28,
+  "end": 117.38,
   "sentence": "In April 2025, a new one opened."
  },
  {
   "word": "April",
-  "start": 117.36,
-  "end": 117.48,
+  "start": 117.38,
+  "end": 117.5,
   "sentence": "In April 2025, a new one opened."
  },
  {
   "word": "2025,",
-  "start": 117.48,
+  "start": 117.5,
   "end": 118.12,
   "sentence": "In April 2025, a new one opened."
  },
@@ -2570,102 +2570,102 @@
  {
   "word": "opened.",
   "start": 118.7,
-  "end": 119.02,
+  "end": 118.98,
   "sentence": "In April 2025, a new one opened."
  },
  {
   "word": "Its",
-  "start": 119.62,
-  "end": 119.758,
+  "start": 119.42,
+  "end": 119.566,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "centre",
-  "start": 119.758,
-  "end": 120.034,
+  "start": 119.566,
+  "end": 119.857,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "span,",
-  "start": 120.034,
-  "end": 120.218,
+  "start": 119.857,
+  "end": 120.051,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "seventy-two",
-  "start": 120.218,
-  "end": 120.677,
+  "start": 120.051,
+  "end": 120.537,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "metres",
-  "start": 120.677,
-  "end": 120.953,
+  "start": 120.537,
+  "end": 120.829,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "long,",
-  "start": 120.953,
-  "end": 121.137,
+  "start": 120.829,
+  "end": 121.023,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "lifts",
-  "start": 121.137,
-  "end": 121.367,
+  "start": 121.023,
+  "end": 121.266,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "seventeen",
-  "start": 121.367,
-  "end": 121.781,
+  "start": 121.266,
+  "end": 121.703,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "metres",
-  "start": 121.781,
-  "end": 122.057,
+  "start": 121.703,
+  "end": 121.994,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "into",
-  "start": 122.057,
-  "end": 122.241,
+  "start": 121.994,
+  "end": 122.189,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "the",
-  "start": 122.241,
-  "end": 122.378,
+  "start": 122.189,
+  "end": 122.334,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "air",
-  "start": 122.378,
-  "end": 122.516,
+  "start": 122.334,
+  "end": 122.48,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "so",
-  "start": 122.516,
-  "end": 122.608,
+  "start": 122.48,
+  "end": 122.577,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "ships",
-  "start": 122.608,
-  "end": 122.838,
+  "start": 122.577,
+  "end": 122.82,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "can",
-  "start": 122.838,
-  "end": 122.976,
+  "start": 122.82,
+  "end": 122.966,
   "sentence": "Its centre span, seventy-two metres long"
  },
  {
   "word": "pass.",
-  "start": 122.976,
+  "start": 122.966,
   "end": 123.16,
   "sentence": "Its centre span, seventy-two metres long"
  },
@@ -2713,50 +2713,50 @@
  },
  {
   "word": "A",
-  "start": 125.24,
-  "end": 125.288,
+  "start": 125.26,
+  "end": 125.308,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "road",
-  "start": 125.288,
-  "end": 125.48,
+  "start": 125.308,
+  "end": 125.5,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "that",
-  "start": 125.48,
-  "end": 125.672,
+  "start": 125.5,
+  "end": 125.692,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "opens",
-  "start": 125.672,
-  "end": 125.912,
+  "start": 125.692,
+  "end": 125.932,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "when",
-  "start": 125.912,
-  "end": 126.104,
+  "start": 125.932,
+  "end": 126.124,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "the",
-  "start": 126.104,
-  "end": 126.248,
+  "start": 126.124,
+  "end": 126.268,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "ocean",
-  "start": 126.248,
-  "end": 126.488,
+  "start": 126.268,
+  "end": 126.508,
   "sentence": "A road that opens when the ocean asks."
  },
  {
   "word": "asks.",
-  "start": 126.488,
-  "end": 126.68,
+  "start": 126.508,
+  "end": 126.7,
   "sentence": "A road that opens when the ocean asks."
  },
  {
@@ -2803,13 +2803,13 @@
  },
  {
   "word": "Who",
-  "start": 128.84,
-  "end": 129.02,
+  "start": 128.86,
+  "end": 129.04,
   "sentence": "Who would actually cross?"
  },
  {
   "word": "would",
-  "start": 129.02,
+  "start": 129.04,
   "end": 129.26,
   "sentence": "Who would actually cross?"
  },
@@ -2822,73 +2822,73 @@
  {
   "word": "cross?",
   "start": 129.58,
-  "end": 130.06,
+  "end": 130.08,
   "sentence": "Who would actually cross?"
  },
  {
   "word": "Picture",
-  "start": 131.12,
-  "end": 131.533,
+  "start": 131.14,
+  "end": 131.515,
   "sentence": "Picture the first morning."
  },
  {
   "word": "the",
-  "start": 131.533,
-  "end": 131.71,
+  "start": 131.515,
+  "end": 131.676,
   "sentence": "Picture the first morning."
  },
  {
   "word": "first",
-  "start": 131.71,
-  "end": 132.006,
+  "start": 131.676,
+  "end": 131.945,
   "sentence": "Picture the first morning."
  },
  {
   "word": "morning.",
-  "start": 132.006,
-  "end": 132.419,
+  "start": 131.945,
+  "end": 132.32,
   "sentence": "Picture the first morning."
  },
  {
   "word": "Pilgrims",
-  "start": 132.28,
-  "end": 132.686,
+  "start": 132.269,
+  "end": 132.678,
   "sentence": "Pilgrims arriving at Rameswaram."
  },
  {
   "word": "arriving",
-  "start": 132.686,
-  "end": 133.092,
+  "start": 132.678,
+  "end": 133.087,
   "sentence": "Pilgrims arriving at Rameswaram."
  },
  {
   "word": "at",
-  "start": 133.092,
-  "end": 133.194,
+  "start": 133.087,
+  "end": 133.19,
   "sentence": "Pilgrims arriving at Rameswaram."
  },
  {
   "word": "Rameswaram.",
-  "start": 133.194,
+  "start": 133.19,
   "end": 133.701,
   "sentence": "Pilgrims arriving at Rameswaram."
  },
  {
   "word": "Trucks",
-  "start": 133.551,
-  "end": 134.028,
+  "start": 133.58,
+  "end": 133.906,
   "sentence": "Trucks lining up."
  },
  {
   "word": "lining",
-  "start": 134.028,
-  "end": 134.504,
+  "start": 133.906,
+  "end": 134.231,
   "sentence": "Trucks lining up."
  },
  {
   "word": "up.",
-  "start": 134.504,
-  "end": 134.663,
+  "start": 134.231,
+  "end": 134.34,
   "sentence": "Trucks lining up."
  },
  {
@@ -2960,145 +2960,145 @@
  {
   "word": "border.",
   "start": 137.72,
-  "end": 138.02,
+  "end": 138.0,
   "sentence": "And then, a border."
  },
  {
   "word": "Customs.",
-  "start": 138.52,
-  "end": 138.68,
+  "start": 138.373,
+  "end": 138.64,
   "sentence": "Customs."
  },
  {
   "word": "Immigration.",
-  "start": 138.59,
-  "end": 139.007,
+  "start": 138.7,
+  "end": 139.14,
   "sentence": "Immigration."
  },
  {
   "word": "Two",
   "start": 138.857,
-  "end": 139.093,
+  "end": 139.098,
   "sentence": "Two sets of rules."
  },
  {
   "word": "sets",
-  "start": 139.093,
-  "end": 139.409,
+  "start": 139.098,
+  "end": 139.418,
   "sentence": "Two sets of rules."
  },
  {
   "word": "of",
-  "start": 139.409,
-  "end": 139.566,
+  "start": 139.418,
+  "end": 139.579,
   "sentence": "Two sets of rules."
  },
  {
   "word": "rules.",
-  "start": 139.566,
-  "end": 139.96,
+  "start": 139.579,
+  "end": 139.98,
   "sentence": "Two sets of rules."
  },
  {
   "word": "The",
-  "start": 140.52,
-  "end": 140.624,
+  "start": 140.4,
+  "end": 140.516,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "queue",
-  "start": 140.624,
-  "end": 140.796,
+  "start": 140.516,
+  "end": 140.71,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "wouldn't",
-  "start": 140.796,
-  "end": 141.038,
+  "start": 140.71,
+  "end": 140.98,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "end",
-  "start": 141.038,
-  "end": 141.142,
+  "start": 140.98,
+  "end": 141.096,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "at",
-  "start": 141.142,
-  "end": 141.211,
+  "start": 141.096,
+  "end": 141.174,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "the",
-  "start": 141.211,
-  "end": 141.315,
+  "start": 141.174,
+  "end": 141.29,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "bridge.",
-  "start": 141.315,
+  "start": 141.29,
   "end": 141.522,
   "sentence": "The queue wouldn't end at the bridge."
  },
  {
   "word": "It",
-  "start": 141.6,
-  "end": 141.6,
+  "start": 141.56,
+  "end": 141.58,
   "sentence": "It would begin there."
  },
  {
   "word": "would",
-  "start": 141.6,
-  "end": 141.68,
+  "start": 141.58,
+  "end": 141.7,
   "sentence": "It would begin there."
  },
  {
   "word": "begin",
-  "start": 141.68,
+  "start": 141.7,
   "end": 141.86,
   "sentence": "It would begin there."
  },
  {
   "word": "there.",
   "start": 141.86,
-  "end": 142.44,
+  "end": 142.32,
   "sentence": "It would begin there."
  },
  {
   "word": "A",
   "start": 142.78,
-  "end": 142.82,
+  "end": 142.819,
   "sentence": "A bridge doesn't remove a border."
  },
  {
   "word": "bridge",
-  "start": 142.82,
-  "end": 143.059,
+  "start": 142.819,
+  "end": 143.055,
   "sentence": "A bridge doesn't remove a border."
  },
  {
   "word": "doesn't",
-  "start": 143.059,
-  "end": 143.299,
+  "start": 143.055,
+  "end": 143.29,
   "sentence": "A bridge doesn't remove a border."
  },
  {
   "word": "remove",
-  "start": 143.299,
-  "end": 143.539,
+  "start": 143.29,
+  "end": 143.525,
   "sentence": "A bridge doesn't remove a border."
  },
  {
   "word": "a",
-  "start": 143.539,
-  "end": 143.578,
+  "start": 143.525,
+  "end": 143.565,
   "sentence": "A bridge doesn't remove a border."
  },
  {
   "word": "border.",
-  "start": 143.578,
-  "end": 143.818,
+  "start": 143.565,
+  "end": 143.8,
   "sentence": "A bridge doesn't remove a border."
  },
  {
@@ -3145,49 +3145,49 @@
  },
  {
   "word": "Today,",
-  "start": 145.66,
-  "end": 145.938,
+  "start": 145.6,
+  "end": 145.889,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "you",
-  "start": 145.938,
-  "end": 146.104,
+  "start": 145.889,
+  "end": 146.062,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "cross",
-  "start": 146.104,
-  "end": 146.382,
+  "start": 146.062,
+  "end": 146.351,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "by",
-  "start": 146.382,
-  "end": 146.493,
+  "start": 146.351,
+  "end": 146.467,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "air,",
-  "start": 146.493,
-  "end": 146.66,
+  "start": 146.467,
+  "end": 146.64,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "or",
-  "start": 146.66,
-  "end": 146.771,
+  "start": 146.64,
+  "end": 146.756,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "by",
-  "start": 146.771,
-  "end": 146.882,
+  "start": 146.756,
+  "end": 146.871,
   "sentence": "Today, you cross by air, or by ferry."
  },
  {
   "word": "ferry.",
-  "start": 146.882,
+  "start": 146.871,
   "end": 147.16,
   "sentence": "Today, you cross by air, or by ferry."
  },
@@ -3314,42 +3314,42 @@
  {
   "word": "So",
   "start": 153.08,
-  "end": 153.158,
+  "end": 153.2,
   "sentence": "So would a road be faster?"
  },
  {
   "word": "would",
-  "start": 153.158,
-  "end": 153.353,
+  "start": 153.2,
+  "end": 153.3,
   "sentence": "So would a road be faster?"
  },
  {
   "word": "a",
-  "start": 153.353,
-  "end": 153.392,
+  "start": 153.3,
+  "end": 153.34,
   "sentence": "So would a road be faster?"
  },
  {
   "word": "road",
-  "start": 153.392,
-  "end": 153.548,
+  "start": 153.34,
+  "end": 153.4,
   "sentence": "So would a road be faster?"
  },
  {
   "word": "be",
-  "start": 153.548,
-  "end": 153.626,
+  "start": 153.4,
+  "end": 153.56,
   "sentence": "So would a road be faster?"
  },
  {
   "word": "faster?",
-  "start": 153.626,
-  "end": 153.86,
+  "start": 153.56,
+  "end": 153.9,
   "sentence": "So would a road be faster?"
  },
  {
   "word": "For",
-  "start": 154.6,
+  "start": 154.62,
   "end": 154.78,
   "sentence": "For you, probably not."
  },
@@ -3361,91 +3361,91 @@
  },
  {
   "word": "probably",
-  "start": 155.2,
+  "start": 155.16,
   "end": 155.34,
   "sentence": "For you, probably not."
  },
  {
   "word": "not.",
   "start": 155.34,
-  "end": 155.94,
+  "end": 155.96,
   "sentence": "For you, probably not."
  },
  {
   "word": "A",
-  "start": 156.3,
-  "end": 156.348,
+  "start": 156.4,
+  "end": 156.446,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "flight",
-  "start": 156.348,
-  "end": 156.637,
+  "start": 156.446,
+  "end": 156.723,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "from",
-  "start": 156.637,
-  "end": 156.829,
+  "start": 156.723,
+  "end": 156.908,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "Chennai",
-  "start": 156.829,
-  "end": 157.166,
+  "start": 156.908,
+  "end": 157.232,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "to",
-  "start": 157.166,
-  "end": 157.262,
+  "start": 157.232,
+  "end": 157.324,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "Colombo",
-  "start": 157.262,
-  "end": 157.599,
+  "start": 157.324,
+  "end": 157.648,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "takes",
-  "start": 157.599,
-  "end": 157.839,
+  "start": 157.648,
+  "end": 157.879,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "roughly",
-  "start": 157.839,
-  "end": 158.176,
+  "start": 157.879,
+  "end": 158.202,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "an",
-  "start": 158.176,
-  "end": 158.272,
+  "start": 158.202,
+  "end": 158.295,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "hour",
-  "start": 158.272,
-  "end": 158.464,
+  "start": 158.295,
+  "end": 158.479,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "and",
-  "start": 158.464,
-  "end": 158.609,
+  "start": 158.479,
+  "end": 158.618,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "a",
-  "start": 158.609,
-  "end": 158.657,
+  "start": 158.618,
+  "end": 158.664,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
  {
   "word": "half.",
-  "start": 158.657,
+  "start": 158.664,
   "end": 158.849,
   "sentence": "A flight from Chennai to Colombo takes r"
  },
@@ -3511,38 +3511,38 @@
  },
  {
   "word": "For",
-  "start": 161.7,
-  "end": 161.76,
+  "start": 161.52,
+  "end": 161.78,
   "sentence": "For cargo, it's a different story."
  },
  {
   "word": "cargo,",
-  "start": 161.76,
-  "end": 162.06,
+  "start": 161.78,
+  "end": 162.04,
   "sentence": "For cargo, it's a different story."
  },
  {
   "word": "it's",
-  "start": 162.2,
-  "end": 162.3,
+  "start": 162.22,
+  "end": 162.36,
   "sentence": "For cargo, it's a different story."
  },
  {
   "word": "a",
-  "start": 162.3,
-  "end": 162.42,
+  "start": 162.36,
+  "end": 162.44,
   "sentence": "For cargo, it's a different story."
  },
  {
   "word": "different",
-  "start": 162.42,
+  "start": 162.44,
   "end": 162.7,
   "sentence": "For cargo, it's a different story."
  },
  {
   "word": "story.",
   "start": 162.7,
-  "end": 163.4,
+  "end": 163.34,
   "sentence": "For cargo, it's a different story."
  },
  {
@@ -3554,12 +3554,12 @@
  {
   "word": "and",
   "start": 164.26,
-  "end": 164.44,
+  "end": 164.46,
   "sentence": "Trucks and trains don't care about airpo"
  },
  {
   "word": "trains",
-  "start": 164.44,
+  "start": 164.46,
   "end": 164.7,
   "sentence": "Trucks and trains don't care about airpo"
  },
@@ -3589,194 +3589,194 @@
  },
  {
   "word": "A",
-  "start": 166.26,
-  "end": 166.36,
+  "start": 166.32,
+  "end": 166.367,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "road",
-  "start": 166.36,
-  "end": 166.52,
+  "start": 166.367,
+  "end": 166.556,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "could",
-  "start": 166.52,
-  "end": 166.68,
+  "start": 166.556,
+  "end": 166.791,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "carry",
-  "start": 166.68,
-  "end": 166.84,
+  "start": 166.791,
+  "end": 167.027,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "goods",
-  "start": 166.84,
-  "end": 167.12,
+  "start": 167.027,
+  "end": 167.262,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "from",
-  "start": 167.12,
-  "end": 167.34,
+  "start": 167.262,
+  "end": 167.451,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "Tamil",
-  "start": 167.34,
-  "end": 167.58,
+  "start": 167.451,
+  "end": 167.686,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "Nadu's",
-  "start": 167.58,
-  "end": 168.06,
+  "start": 167.686,
+  "end": 167.922,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "factories",
-  "start": 168.06,
-  "end": 168.18,
+  "start": 167.922,
+  "end": 168.346,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "to",
-  "start": 168.18,
-  "end": 168.46,
+  "start": 168.346,
+  "end": 168.44,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "Sri",
-  "start": 168.46,
-  "end": 168.64,
+  "start": 168.44,
+  "end": 168.581,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "Lanka's",
-  "start": 168.64,
-  "end": 169.1,
+  "start": 168.581,
+  "end": 168.864,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "ports",
-  "start": 169.1,
-  "end": 169.14,
+  "start": 168.864,
+  "end": 169.1,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "without",
-  "start": 169.14,
-  "end": 169.42,
+  "start": 169.1,
+  "end": 169.429,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "ever",
-  "start": 169.42,
-  "end": 169.56,
+  "start": 169.429,
+  "end": 169.618,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "being",
-  "start": 169.56,
-  "end": 169.76,
+  "start": 169.618,
+  "end": 169.853,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "lifted",
-  "start": 169.76,
-  "end": 169.94,
+  "start": 169.853,
+  "end": 170.136,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "onto",
-  "start": 169.94,
-  "end": 170.14,
+  "start": 170.136,
+  "end": 170.324,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "a",
-  "start": 170.14,
-  "end": 170.32,
+  "start": 170.324,
+  "end": 170.372,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "ship.",
-  "start": 170.32,
-  "end": 170.54,
+  "start": 170.372,
+  "end": 170.56,
   "sentence": "A road could carry goods from Tamil Nadu"
  },
  {
   "word": "Fewer",
-  "start": 170.78,
-  "end": 171.007,
+  "start": 170.8,
+  "end": 171.02,
   "sentence": "Fewer handovers."
  },
  {
   "word": "handovers.",
-  "start": 171.007,
+  "start": 171.02,
   "end": 171.417,
   "sentence": "Fewer handovers."
  },
  {
   "word": "Fewer",
-  "start": 171.44,
+  "start": 171.32,
   "end": 171.6,
   "sentence": "Fewer delays."
  },
  {
   "word": "delays.",
   "start": 171.6,
-  "end": 171.92,
+  "end": 171.96,
   "sentence": "Fewer delays."
  },
  {
   "word": "Possibly",
   "start": 172.26,
-  "end": 172.38,
+  "end": 172.684,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "lower",
-  "start": 172.38,
-  "end": 172.64,
+  "start": 172.684,
+  "end": 172.949,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "costs",
-  "start": 172.64,
-  "end": 172.92,
+  "start": 172.949,
+  "end": 173.214,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "for",
-  "start": 172.92,
-  "end": 173.12,
+  "start": 173.214,
+  "end": 173.374,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "heavy,",
-  "start": 173.12,
-  "end": 173.28,
+  "start": 173.374,
+  "end": 173.639,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "bulky",
-  "start": 173.28,
-  "end": 173.5,
+  "start": 173.639,
+  "end": 173.904,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "goods.",
-  "start": 173.5,
-  "end": 173.76,
+  "start": 173.904,
+  "end": 174.169,
   "sentence": "Possibly lower costs for heavy, bulky go"
  },
  {
   "word": "Possibly.",
-  "start": 174.46,
-  "end": 174.46,
+  "start": 174.4,
+  "end": 174.4,
   "sentence": "Possibly."
  },
  {
@@ -4040,19 +4040,19 @@
  {
   "word": "The",
   "start": 185.24,
-  "end": 185.403,
+  "end": 185.399,
   "sentence": "The water itself."
  },
  {
   "word": "water",
-  "start": 185.403,
-  "end": 185.674,
+  "start": 185.399,
+  "end": 185.663,
   "sentence": "The water itself."
  },
  {
   "word": "itself.",
-  "start": 185.674,
-  "end": 186.0,
+  "start": 185.663,
+  "end": 185.98,
   "sentence": "The water itself."
  },
  {
@@ -4183,7 +4183,7 @@
  },
  {
   "word": "More",
-  "start": 192.34,
+  "start": 192.32,
   "end": 192.44,
   "sentence": "More than a hundred kinds of coral."
  },
@@ -4208,13 +4208,13 @@
  {
   "word": "kinds",
   "start": 193.04,
-  "end": 193.24,
+  "end": 193.22,
   "sentence": "More than a hundred kinds of coral."
  },
  {
   "word": "of",
-  "start": 193.24,
-  "end": 193.42,
+  "start": 193.22,
+  "end": 193.52,
   "sentence": "More than a hundred kinds of coral."
  },
  {
@@ -4232,228 +4232,228 @@
  {
   "word": "meadows.",
   "start": 193.9,
-  "end": 194.26,
+  "end": 194.24,
   "sentence": "Seagrass meadows."
  },
  {
   "word": "And",
-  "start": 194.78,
-  "end": 194.913,
+  "start": 194.72,
+  "end": 194.86,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "dugongs,",
-  "start": 194.913,
-  "end": 195.222,
+  "start": 194.86,
+  "end": 195.185,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "among",
-  "start": 195.222,
-  "end": 195.443,
+  "start": 195.185,
+  "end": 195.418,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "the",
-  "start": 195.443,
-  "end": 195.575,
+  "start": 195.418,
+  "end": 195.558,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "most",
-  "start": 195.575,
-  "end": 195.752,
+  "start": 195.558,
+  "end": 195.744,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "endangered",
-  "start": 195.752,
-  "end": 196.194,
+  "start": 195.744,
+  "end": 196.209,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "marine",
-  "start": 196.194,
-  "end": 196.459,
+  "start": 196.209,
+  "end": 196.488,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "mammals",
-  "start": 196.459,
-  "end": 196.769,
+  "start": 196.488,
+  "end": 196.814,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "on",
-  "start": 196.769,
-  "end": 196.857,
+  "start": 196.814,
+  "end": 196.907,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "India's",
-  "start": 196.857,
-  "end": 197.122,
+  "start": 196.907,
+  "end": 197.186,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "east",
-  "start": 197.122,
-  "end": 197.299,
+  "start": 197.186,
+  "end": 197.372,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "coast.",
-  "start": 197.299,
-  "end": 197.52,
+  "start": 197.372,
+  "end": 197.605,
   "sentence": "And dugongs, among the most endangered m"
  },
  {
   "word": "In",
-  "start": 198.28,
-  "end": 198.346,
+  "start": 198.04,
+  "end": 198.122,
   "sentence": "In shallow seas, sand moves quickly."
  },
  {
   "word": "shallow",
-  "start": 198.346,
-  "end": 198.575,
+  "start": 198.122,
+  "end": 198.41,
   "sentence": "In shallow seas, sand moves quickly."
  },
  {
   "word": "seas,",
-  "start": 198.575,
-  "end": 198.706,
+  "start": 198.41,
+  "end": 198.574,
   "sentence": "In shallow seas, sand moves quickly."
  },
  {
   "word": "sand",
-  "start": 198.706,
-  "end": 198.837,
+  "start": 198.574,
+  "end": 198.738,
   "sentence": "In shallow seas, sand moves quickly."
  },
  {
   "word": "moves",
-  "start": 198.837,
-  "end": 199.001,
+  "start": 198.738,
+  "end": 198.944,
   "sentence": "In shallow seas, sand moves quickly."
  },
  {
   "word": "quickly.",
-  "start": 199.001,
+  "start": 198.944,
   "end": 199.231,
   "sentence": "In shallow seas, sand moves quickly."
  },
  {
   "word": "A",
-  "start": 199.74,
-  "end": 199.792,
+  "start": 199.92,
+  "end": 199.969,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "solid",
-  "start": 199.792,
-  "end": 200.049,
+  "start": 199.969,
+  "end": 200.213,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "wall",
-  "start": 200.049,
-  "end": 200.255,
+  "start": 200.213,
+  "end": 200.408,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "across",
-  "start": 200.255,
-  "end": 200.564,
+  "start": 200.408,
+  "end": 200.701,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "it",
-  "start": 200.564,
-  "end": 200.667,
+  "start": 200.701,
+  "end": 200.798,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "would",
-  "start": 200.667,
-  "end": 200.925,
+  "start": 200.798,
+  "end": 201.042,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "change",
-  "start": 200.925,
-  "end": 201.234,
+  "start": 201.042,
+  "end": 201.335,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "where",
-  "start": 201.234,
-  "end": 201.492,
+  "start": 201.335,
+  "end": 201.579,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "the",
-  "start": 201.492,
-  "end": 201.646,
+  "start": 201.579,
+  "end": 201.725,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "sand",
-  "start": 201.646,
-  "end": 201.852,
+  "start": 201.725,
+  "end": 201.92,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "goes,",
-  "start": 201.852,
-  "end": 202.058,
+  "start": 201.92,
+  "end": 202.115,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "and",
-  "start": 202.058,
-  "end": 202.213,
+  "start": 202.115,
+  "end": 202.262,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "where",
-  "start": 202.213,
-  "end": 202.47,
+  "start": 202.262,
+  "end": 202.506,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "the",
-  "start": 202.47,
-  "end": 202.625,
+  "start": 202.506,
+  "end": 202.652,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "water",
-  "start": 202.625,
-  "end": 202.882,
+  "start": 202.652,
+  "end": 202.896,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "flows.",
-  "start": 202.882,
+  "start": 202.896,
   "end": 203.14,
   "sentence": "A solid wall across it would change wher"
  },
  {
   "word": "So",
-  "start": 203.46,
+  "start": 203.44,
   "end": 203.6,
   "sentence": "So a modern crossing would almost certai"
  },
  {
   "word": "a",
   "start": 203.6,
-  "end": 203.7,
+  "end": 203.72,
   "sentence": "So a modern crossing would almost certai"
  },
  {
   "word": "modern",
-  "start": 203.7,
+  "start": 203.72,
   "end": 203.92,
   "sentence": "So a modern crossing would almost certai"
  },
@@ -4501,32 +4501,32 @@
  },
  {
   "word": "not",
-  "start": 206.46,
+  "start": 206.42,
   "end": 206.62,
   "sentence": "So a modern crossing would almost certai"
  },
  {
   "word": "on",
   "start": 206.62,
-  "end": 206.84,
+  "end": 206.82,
   "sentence": "So a modern crossing would almost certai"
  },
  {
   "word": "a",
-  "start": 206.84,
+  "start": 206.82,
   "end": 206.96,
   "sentence": "So a modern crossing would almost certai"
  },
  {
   "word": "solid",
   "start": 206.96,
-  "end": 207.18,
+  "end": 207.16,
   "sentence": "So a modern crossing would almost certai"
  },
  {
   "word": "bank.",
-  "start": 207.18,
-  "end": 207.54,
+  "start": 207.16,
+  "end": 207.5,
   "sentence": "So a modern crossing would almost certai"
  },
  {
@@ -4544,30 +4544,30 @@
  {
   "word": "keeps",
   "start": 208.3,
-  "end": 208.56,
+  "end": 208.54,
   "sentence": "The sea keeps breathing."
  },
  {
   "word": "breathing.",
   "start": 208.9,
-  "end": 209.0,
+  "end": 208.96,
   "sentence": "The sea keeps breathing."
  },
  {
   "word": "The",
   "start": 208.9,
-  "end": 209.0,
+  "end": 208.96,
   "sentence": "The animals keep moving."
  },
  {
   "word": "animals",
-  "start": 209.0,
-  "end": 209.18,
+  "start": 208.96,
+  "end": 209.16,
   "sentence": "The animals keep moving."
  },
  {
   "word": "keep",
-  "start": 209.18,
+  "start": 209.16,
   "end": 209.48,
   "sentence": "The animals keep moving."
  },
@@ -4604,18 +4604,18 @@
  {
   "word": "the",
   "start": 210.86,
-  "end": 210.96,
+  "end": 210.98,
   "sentence": "Which brings us to the people who live o"
  },
  {
   "word": "people",
-  "start": 210.96,
-  "end": 211.14,
+  "start": 210.98,
+  "end": 211.12,
   "sentence": "Which brings us to the people who live o"
  },
  {
   "word": "who",
-  "start": 211.14,
+  "start": 211.12,
   "end": 211.36,
   "sentence": "Which brings us to the people who live o"
  },
@@ -4640,150 +4640,150 @@
  {
   "word": "water.",
   "start": 211.8,
-  "end": 212.16,
+  "end": 212.12,
   "sentence": "Which brings us to the people who live o"
  },
  {
   "word": "Fishermen",
-  "start": 212.86,
-  "end": 213.177,
+  "start": 212.84,
+  "end": 213.182,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "from",
-  "start": 213.177,
-  "end": 213.318,
+  "start": 213.182,
+  "end": 213.334,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "both",
-  "start": 213.318,
-  "end": 213.459,
+  "start": 213.334,
+  "end": 213.486,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "countries",
-  "start": 213.459,
-  "end": 213.776,
+  "start": 213.486,
+  "end": 213.828,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "share",
-  "start": 213.776,
-  "end": 213.952,
+  "start": 213.828,
+  "end": 214.018,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "these",
-  "start": 213.952,
-  "end": 214.129,
+  "start": 214.018,
+  "end": 214.208,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "waters.",
-  "start": 214.129,
-  "end": 214.34,
+  "start": 214.208,
+  "end": 214.436,
   "sentence": "Fishermen from both countries share thes"
  },
  {
   "word": "Arrests",
-  "start": 214.78,
-  "end": 215.117,
+  "start": 214.5,
+  "end": 214.5,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "of",
-  "start": 215.117,
-  "end": 215.213,
+  "start": 214.78,
+  "end": 215.16,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "fishermen",
-  "start": 215.213,
-  "end": 215.646,
+  "start": 215.16,
+  "end": 215.36,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "who",
-  "start": 215.646,
-  "end": 215.79,
+  "start": 215.36,
+  "end": 215.38,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "cross",
-  "start": 215.79,
-  "end": 216.03,
+  "start": 215.38,
+  "end": 215.64,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "the",
-  "start": 216.03,
-  "end": 216.175,
+  "start": 215.64,
+  "end": 215.86,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "maritime",
-  "start": 216.175,
-  "end": 216.56,
+  "start": 215.86,
+  "end": 216.32,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "line",
-  "start": 216.56,
-  "end": 216.752,
+  "start": 216.32,
+  "end": 216.32,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "are",
-  "start": 216.752,
-  "end": 216.896,
+  "start": 216.32,
+  "end": 216.64,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "a",
-  "start": 216.896,
-  "end": 216.944,
+  "start": 216.64,
+  "end": 216.9,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "recurring",
-  "start": 216.944,
-  "end": 217.377,
+  "start": 216.9,
+  "end": 217.14,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "tension",
-  "start": 217.377,
-  "end": 217.714,
+  "start": 217.14,
+  "end": 217.46,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "between",
-  "start": 217.714,
-  "end": 218.05,
+  "start": 217.46,
+  "end": 217.82,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "India",
-  "start": 218.05,
-  "end": 218.291,
+  "start": 217.82,
+  "end": 218.1,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "and",
-  "start": 218.291,
-  "end": 218.435,
+  "start": 218.1,
+  "end": 218.42,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "Sri",
-  "start": 218.435,
-  "end": 218.58,
+  "start": 218.42,
+  "end": 218.56,
   "sentence": "Arrests of fishermen who cross the marit"
  },
  {
   "word": "Lanka.",
-  "start": 218.58,
+  "start": 218.56,
   "end": 218.82,
   "sentence": "Arrests of fishermen who cross the marit"
  },
@@ -4825,74 +4825,74 @@
  },
  {
   "word": "It",
-  "start": 220.56,
-  "end": 220.7,
+  "start": 220.6,
+  "end": 220.681,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "would",
-  "start": 220.7,
-  "end": 220.74,
+  "start": 220.681,
+  "end": 220.882,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "put",
-  "start": 220.74,
-  "end": 220.86,
+  "start": 220.882,
+  "end": 221.004,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "a",
-  "start": 220.86,
-  "end": 221.02,
+  "start": 221.004,
+  "end": 221.044,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "fixed",
-  "start": 221.02,
-  "end": 221.14,
+  "start": 221.044,
+  "end": 221.246,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "structure",
-  "start": 221.14,
-  "end": 221.46,
+  "start": 221.246,
+  "end": 221.609,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "right",
-  "start": 221.46,
-  "end": 221.8,
+  "start": 221.609,
+  "end": 221.811,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "in",
-  "start": 221.8,
-  "end": 221.9,
+  "start": 221.811,
+  "end": 221.891,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "the",
-  "start": 221.9,
-  "end": 221.98,
+  "start": 221.891,
+  "end": 222.012,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "middle",
-  "start": 221.98,
-  "end": 222.12,
+  "start": 222.012,
+  "end": 222.255,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "of",
-  "start": 222.12,
-  "end": 222.24,
+  "start": 222.255,
+  "end": 222.335,
   "sentence": "It would put a fixed structure right in "
  },
  {
   "word": "it.",
-  "start": 222.24,
-  "end": 222.54,
+  "start": 222.335,
+  "end": 222.416,
   "sentence": "It would put a fixed structure right in "
  },
  {
@@ -4904,12 +4904,12 @@
  {
   "word": "would",
   "start": 222.94,
-  "end": 223.12,
+  "end": 223.14,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "have",
-  "start": 223.12,
+  "start": 223.14,
   "end": 223.26,
   "sentence": "Someone would have to decide who guards "
  },
@@ -4922,18 +4922,18 @@
  {
   "word": "decide",
   "start": 223.36,
-  "end": 223.6,
+  "end": 223.58,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "who",
-  "start": 223.6,
-  "end": 223.84,
+  "start": 223.58,
+  "end": 223.8,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "guards",
-  "start": 223.84,
+  "start": 223.8,
   "end": 224.02,
   "sentence": "Someone would have to decide who guards "
  },
@@ -4946,18 +4946,18 @@
  {
   "word": "side,",
   "start": 224.26,
-  "end": 224.58,
+  "end": 224.54,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "who",
-  "start": 224.58,
-  "end": 224.74,
+  "start": 224.54,
+  "end": 224.72,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "inspects",
-  "start": 224.74,
+  "start": 224.72,
   "end": 225.14,
   "sentence": "Someone would have to decide who guards "
  },
@@ -4982,72 +4982,72 @@
  {
   "word": "how",
   "start": 225.66,
-  "end": 225.8,
+  "end": 225.82,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "the",
-  "start": 225.8,
-  "end": 226.02,
+  "start": 225.82,
+  "end": 226.04,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "fishing",
-  "start": 226.02,
-  "end": 226.12,
+  "start": 226.04,
+  "end": 226.1,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "fleets",
-  "start": 226.12,
-  "end": 226.36,
+  "start": 226.1,
+  "end": 226.38,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "pass",
-  "start": 226.36,
-  "end": 226.64,
+  "start": 226.38,
+  "end": 226.66,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "underneath.",
-  "start": 226.64,
-  "end": 227.02,
+  "start": 226.66,
+  "end": 227.04,
   "sentence": "Someone would have to decide who guards "
  },
  {
   "word": "A",
-  "start": 227.32,
-  "end": 227.384,
+  "start": 227.5,
+  "end": 227.556,
   "sentence": "A bridge is stone and steel."
  },
  {
   "word": "bridge",
-  "start": 227.384,
-  "end": 227.77,
+  "start": 227.556,
+  "end": 227.893,
   "sentence": "A bridge is stone and steel."
  },
  {
   "word": "is",
-  "start": 227.77,
-  "end": 227.899,
+  "start": 227.893,
+  "end": 228.005,
   "sentence": "A bridge is stone and steel."
  },
  {
   "word": "stone",
-  "start": 227.899,
-  "end": 228.22,
+  "start": 228.005,
+  "end": 228.286,
   "sentence": "A bridge is stone and steel."
  },
  {
   "word": "and",
-  "start": 228.22,
-  "end": 228.413,
+  "start": 228.286,
+  "end": 228.454,
   "sentence": "A bridge is stone and steel."
  },
  {
   "word": "steel.",
-  "start": 228.413,
+  "start": 228.454,
   "end": 228.735,
   "sentence": "A bridge is stone and steel."
  },
@@ -5066,1543 +5066,2947 @@
  {
   "word": "is",
   "start": 228.86,
-  "end": 229.16,
+  "end": 229.14,
   "sentence": "A border is decisions."
  },
  {
   "word": "decisions.",
-  "start": 229.16,
-  "end": 229.54,
+  "start": 229.14,
+  "end": 229.56,
   "sentence": "A border is decisions."
  },
  {
-  "word": "So,",
-  "start": 229.94,
-  "end": 229.98,
-  "sentence": "So, could we build all this today?"
+  "word": "But",
+  "start": 230.22,
+  "end": 230.36,
+  "sentence": "But before we ask what we could build, a"
  },
  {
-  "word": "could",
-  "start": 230.08,
-  "end": 230.1,
-  "sentence": "So, could we build all this today?"
+  "word": "before",
+  "start": 230.36,
+  "end": 230.56,
+  "sentence": "But before we ask what we could build, a"
  },
  {
   "word": "we",
-  "start": 230.1,
-  "end": 230.2,
-  "sentence": "So, could we build all this today?"
+  "start": 230.56,
+  "end": 230.7,
+  "sentence": "But before we ask what we could build, a"
  },
  {
-  "word": "build",
-  "start": 230.2,
-  "end": 230.4,
-  "sentence": "So, could we build all this today?"
+  "word": "ask",
+  "start": 230.7,
+  "end": 230.88,
+  "sentence": "But before we ask what we could build, a"
  },
  {
-  "word": "all",
-  "start": 230.4,
-  "end": 230.56,
-  "sentence": "So, could we build all this today?"
+  "word": "what",
+  "start": 230.88,
+  "end": 231.0,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "we",
+  "start": 231.0,
+  "end": 231.1,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "could",
+  "start": 231.1,
+  "end": 231.22,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "build,",
+  "start": 231.22,
+  "end": 231.6,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "ask",
+  "start": 231.62,
+  "end": 231.82,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "what",
+  "start": 231.82,
+  "end": 231.96,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "we",
+  "start": 231.96,
+  "end": 232.04,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "already",
+  "start": 232.04,
+  "end": 232.3,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "did.",
+  "start": 232.3,
+  "end": 232.72,
+  "sentence": "But before we ask what we could build, a"
+ },
+ {
+  "word": "Here's",
+  "start": 233.48,
+  "end": 233.688,
+  "sentence": "Here's something most people don't know."
+ },
+ {
+  "word": "something",
+  "start": 233.688,
+  "end": 234.061,
+  "sentence": "Here's something most people don't know."
+ },
+ {
+  "word": "most",
+  "start": 234.061,
+  "end": 234.228,
+  "sentence": "Here's something most people don't know."
+ },
+ {
+  "word": "people",
+  "start": 234.228,
+  "end": 234.477,
+  "sentence": "Here's something most people don't know."
+ },
+ {
+  "word": "don't",
+  "start": 234.477,
+  "end": 234.643,
+  "sentence": "Here's something most people don't know."
+ },
+ {
+  "word": "know.",
+  "start": 234.643,
+  "end": 234.809,
+  "sentence": "Here's something most people don't know."
+ },
+ {
+  "word": "We've",
+  "start": 234.659,
+  "end": 234.852,
+  "sentence": "We've already used this route."
+ },
+ {
+  "word": "already",
+  "start": 234.852,
+  "end": 235.191,
+  "sentence": "We've already used this route."
+ },
+ {
+  "word": "used",
+  "start": 235.191,
+  "end": 235.385,
+  "sentence": "We've already used this route."
  },
  {
   "word": "this",
-  "start": 230.56,
-  "end": 230.72,
-  "sentence": "So, could we build all this today?"
+  "start": 235.385,
+  "end": 235.578,
+  "sentence": "We've already used this route."
+ },
+ {
+  "word": "route.",
+  "start": 235.578,
+  "end": 235.82,
+  "sentence": "We've already used this route."
+ },
+ {
+  "word": "In",
+  "start": 236.4,
+  "end": 236.494,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "1914,",
+  "start": 236.494,
+  "end": 236.681,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "the",
+  "start": 236.681,
+  "end": 236.822,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "Boat",
+  "start": 236.822,
+  "end": 237.009,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "Mail",
+  "start": 237.009,
+  "end": 237.197,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "began",
+  "start": 237.197,
+  "end": 237.431,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "running.",
+  "start": 237.431,
+  "end": 237.759,
+  "sentence": "In 1914, the Boat Mail began running."
+ },
+ {
+  "word": "A",
+  "start": 238.24,
+  "end": 238.42,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "train",
+  "start": 238.42,
+  "end": 238.6,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "left",
+  "start": 238.6,
+  "end": 238.9,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "Madras",
+  "start": 238.9,
+  "end": 239.1,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "Egmore,",
+  "start": 239.1,
+  "end": 239.36,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "rolled",
+  "start": 239.52,
+  "end": 239.66,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "all",
+  "start": 239.66,
+  "end": 239.92,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "the",
+  "start": 239.92,
+  "end": 240.02,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "way",
+  "start": 240.02,
+  "end": 240.1,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "to",
+  "start": 240.1,
+  "end": 240.22,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "the",
+  "start": 240.22,
+  "end": 240.36,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "tip",
+  "start": 240.36,
+  "end": 240.44,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "of",
+  "start": 240.44,
+  "end": 240.58,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "India,",
+  "start": 240.58,
+  "end": 240.84,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "and",
+  "start": 240.84,
+  "end": 241.12,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "stopped",
+  "start": 241.12,
+  "end": 241.28,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "at",
+  "start": 241.28,
+  "end": 241.48,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "a",
+  "start": 241.48,
+  "end": 241.64,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "pier",
+  "start": 241.64,
+  "end": 241.86,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "in",
+  "start": 241.86,
+  "end": 241.96,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "Dhanushkodi.",
+  "start": 242.16,
+  "end": 242.56,
+  "sentence": "A train left Madras Egmore, rolled all t"
+ },
+ {
+  "word": "Passengers",
+  "start": 243.06,
+  "end": 243.24,
+  "sentence": "Passengers stepped onto a ferry."
+ },
+ {
+  "word": "stepped",
+  "start": 243.24,
+  "end": 243.46,
+  "sentence": "Passengers stepped onto a ferry."
+ },
+ {
+  "word": "onto",
+  "start": 243.46,
+  "end": 243.58,
+  "sentence": "Passengers stepped onto a ferry."
+ },
+ {
+  "word": "a",
+  "start": 243.58,
+  "end": 243.76,
+  "sentence": "Passengers stepped onto a ferry."
+ },
+ {
+  "word": "ferry.",
+  "start": 243.76,
+  "end": 243.98,
+  "sentence": "Passengers stepped onto a ferry."
+ },
+ {
+  "word": "A",
+  "start": 244.5,
+  "end": 244.72,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "few",
+  "start": 244.72,
+  "end": 244.98,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "hours",
+  "start": 244.98,
+  "end": 245.24,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "later,",
+  "start": 245.3,
+  "end": 245.48,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "they",
+  "start": 245.48,
+  "end": 245.64,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "stepped",
+  "start": 245.64,
+  "end": 245.86,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "off",
+  "start": 245.86,
+  "end": 246.06,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "at",
+  "start": 246.06,
+  "end": 246.34,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "Talaimannar,",
+  "start": 246.34,
+  "end": 246.72,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "in",
+  "start": 246.72,
+  "end": 247.06,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "Ceylon,",
+  "start": 247.06,
+  "end": 247.48,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "and",
+  "start": 247.48,
+  "end": 247.84,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "boarded",
+  "start": 247.84,
+  "end": 248.0,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "another",
+  "start": 248.0,
+  "end": 248.44,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "train",
+  "start": 248.44,
+  "end": 248.64,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "to",
+  "start": 248.64,
+  "end": 248.9,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "Colombo.",
+  "start": 248.9,
+  "end": 249.3,
+  "sentence": "A few hours later, they stepped off at T"
+ },
+ {
+  "word": "Train,",
+  "start": 249.66,
+  "end": 249.938,
+  "sentence": "Train, ship, train."
+ },
+ {
+  "word": "ship,",
+  "start": 249.938,
+  "end": 250.16,
+  "sentence": "Train, ship, train."
+ },
+ {
+  "word": "train.",
+  "start": 250.16,
+  "end": 250.438,
+  "sentence": "Train, ship, train."
+ },
+ {
+  "word": "Two",
+  "start": 250.288,
+  "end": 250.44,
+  "sentence": "Two countries, one journey."
+ },
+ {
+  "word": "countries,",
+  "start": 250.44,
+  "end": 250.895,
+  "sentence": "Two countries, one journey."
+ },
+ {
+  "word": "one",
+  "start": 250.895,
+  "end": 251.046,
+  "sentence": "Two countries, one journey."
+ },
+ {
+  "word": "journey.",
+  "start": 251.046,
+  "end": 251.4,
+  "sentence": "Two countries, one journey."
+ },
+ {
+  "word": "For",
+  "start": 251.72,
+  "end": 251.82,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "half",
+  "start": 251.82,
+  "end": 251.96,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "a",
+  "start": 251.96,
+  "end": 252.08,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "century,",
+  "start": 252.08,
+  "end": 252.26,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "that",
+  "start": 252.44,
+  "end": 252.54,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "was",
+  "start": 252.54,
+  "end": 252.7,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "one",
+  "start": 252.7,
+  "end": 252.84,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "way",
+  "start": 252.84,
+  "end": 252.98,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "to",
+  "start": 252.98,
+  "end": 253.1,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "travel.",
+  "start": 253.1,
+  "end": 253.36,
+  "sentence": "For half a century, that was one way to "
+ },
+ {
+  "word": "Then,",
+  "start": 253.36,
+  "end": 253.74,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "on",
+  "start": 253.74,
+  "end": 253.92,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "a",
+  "start": 253.92,
+  "end": 254.04,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "single",
+  "start": 254.04,
+  "end": 254.18,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "December",
+  "start": 254.18,
+  "end": 254.44,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "night,",
+  "start": 254.44,
+  "end": 254.6,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "it",
+  "start": 254.7,
+  "end": 254.7,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "was",
+  "start": 254.7,
+  "end": 254.84,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "gone.",
+  "start": 254.84,
+  "end": 255.4,
+  "sentence": "Then, on a single December night, it was"
+ },
+ {
+  "word": "On",
+  "start": 255.98,
+  "end": 256.077,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "the",
+  "start": 256.077,
+  "end": 256.223,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "twenty-second",
+  "start": 256.223,
+  "end": 256.808,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "of",
+  "start": 256.808,
+  "end": 256.905,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "December,",
+  "start": 256.905,
+  "end": 257.295,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "nineteen",
+  "start": 257.295,
+  "end": 257.684,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "sixty-four,",
+  "start": 257.684,
+  "end": 258.123,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "a",
+  "start": 258.123,
+  "end": 258.171,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "cyclone",
+  "start": 258.171,
+  "end": 258.512,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "struck",
+  "start": 258.512,
+  "end": 258.804,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "Dhanushkodi.",
+  "start": 258.804,
+  "end": 259.34,
+  "sentence": "On the twenty-second of December, ninete"
+ },
+ {
+  "word": "Winds",
+  "start": 259.98,
+  "end": 260.207,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "of",
+  "start": 260.207,
+  "end": 260.298,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "around",
+  "start": 260.298,
+  "end": 260.57,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "two",
+  "start": 260.57,
+  "end": 260.706,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "hundred",
+  "start": 260.706,
+  "end": 261.024,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "and",
+  "start": 261.024,
+  "end": 261.16,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "eighty",
+  "start": 261.16,
+  "end": 261.433,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "kilometres",
+  "start": 261.433,
+  "end": 261.887,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "an",
+  "start": 261.887,
+  "end": 261.978,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "hour,",
+  "start": 261.978,
+  "end": 262.159,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "by",
+  "start": 262.159,
+  "end": 262.25,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "one",
+  "start": 262.25,
+  "end": 262.386,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "account.",
+  "start": 262.386,
+  "end": 262.704,
+  "sentence": "Winds of around two hundred and eighty k"
+ },
+ {
+  "word": "The",
+  "start": 263.16,
+  "end": 263.307,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "sea",
+  "start": 263.307,
+  "end": 263.454,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "swallowed",
+  "start": 263.454,
+  "end": 263.895,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "the",
+  "start": 263.895,
+  "end": 264.042,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "town,",
+  "start": 264.042,
+  "end": 264.238,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "the",
+  "start": 264.238,
+  "end": 264.385,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "railway,",
+  "start": 264.385,
+  "end": 264.728,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "and",
+  "start": 264.728,
+  "end": 264.875,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "a",
+  "start": 264.875,
+  "end": 264.924,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "passenger",
+  "start": 264.924,
+  "end": 265.365,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "train.",
+  "start": 265.365,
+  "end": 265.61,
+  "sentence": "The sea swallowed the town, the railway,"
+ },
+ {
+  "word": "Estimates",
+  "start": 266.14,
+  "end": 266.613,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "of",
+  "start": 266.613,
+  "end": 266.719,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "how",
+  "start": 266.719,
+  "end": 266.876,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "many",
+  "start": 266.876,
+  "end": 267.087,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "people",
+  "start": 267.087,
+  "end": 267.402,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "died",
+  "start": 267.402,
+  "end": 267.613,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "run",
+  "start": 267.613,
+  "end": 267.771,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "to",
+  "start": 267.771,
+  "end": 267.876,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "about",
+  "start": 267.876,
+  "end": 268.139,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "eighteen",
+  "start": 268.139,
+  "end": 268.56,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "hundred,",
+  "start": 268.56,
+  "end": 268.928,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "though",
+  "start": 268.928,
+  "end": 269.244,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "the",
+  "start": 269.244,
+  "end": 269.401,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "numbers",
+  "start": 269.401,
+  "end": 269.77,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "vary.",
+  "start": 269.77,
+  "end": 269.98,
+  "sentence": "Estimates of how many people died run to"
+ },
+ {
+  "word": "The",
+  "start": 270.32,
+  "end": 270.509,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "government",
+  "start": 270.509,
+  "end": 271.139,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "declared",
+  "start": 271.139,
+  "end": 271.643,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "Dhanushkodi",
+  "start": 271.643,
+  "end": 272.336,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "unfit",
+  "start": 272.336,
+  "end": 272.651,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "to",
+  "start": 272.651,
+  "end": 272.777,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "live",
+  "start": 272.777,
+  "end": 273.029,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "in.",
+  "start": 273.029,
+  "end": 273.155,
+  "sentence": "The government declared Dhanushkodi unfi"
+ },
+ {
+  "word": "Today,",
+  "start": 273.005,
+  "end": 273.368,
+  "sentence": "Today, a few fishing families remain."
+ },
+ {
+  "word": "a",
+  "start": 273.368,
+  "end": 273.44,
+  "sentence": "Today, a few fishing families remain."
+ },
+ {
+  "word": "few",
+  "start": 273.44,
+  "end": 273.658,
+  "sentence": "Today, a few fishing families remain."
+ },
+ {
+  "word": "fishing",
+  "start": 273.658,
+  "end": 274.165,
+  "sentence": "Today, a few fishing families remain."
+ },
+ {
+  "word": "families",
+  "start": 274.165,
+  "end": 274.745,
+  "sentence": "Today, a few fishing families remain."
+ },
+ {
+  "word": "remain.",
+  "start": 274.745,
+  "end": 275.18,
+  "sentence": "Today, a few fishing families remain."
+ },
+ {
+  "word": "Visitors",
+  "start": 275.5,
+  "end": 275.907,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "come",
+  "start": 275.907,
+  "end": 276.11,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "for",
+  "start": 276.11,
+  "end": 276.263,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "the",
+  "start": 276.263,
+  "end": 276.415,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "day,",
+  "start": 276.415,
+  "end": 276.568,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "and",
+  "start": 276.568,
+  "end": 276.72,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "sleep",
+  "start": 276.72,
+  "end": 276.975,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "in",
+  "start": 276.975,
+  "end": 277.076,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "Rameswaram.",
+  "start": 277.076,
+  "end": 277.585,
+  "sentence": "Visitors come for the day, and sleep in "
+ },
+ {
+  "word": "It",
+  "start": 277.9,
+  "end": 277.989,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "is",
+  "start": 277.989,
+  "end": 278.078,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "the",
+  "start": 278.078,
+  "end": 278.212,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "exact",
+  "start": 278.212,
+  "end": 278.435,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "place",
+  "start": 278.435,
+  "end": 278.658,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "where",
+  "start": 278.658,
+  "end": 278.881,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "Ram",
+  "start": 278.881,
+  "end": 279.014,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "Setu",
+  "start": 279.014,
+  "end": 279.193,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "begins.",
+  "start": 279.193,
+  "end": 279.46,
+  "sentence": "It is the exact place where Ram Setu beg"
+ },
+ {
+  "word": "And",
+  "start": 279.92,
+  "end": 280.084,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "it",
+  "start": 280.084,
+  "end": 280.193,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "shows",
+  "start": 280.193,
+  "end": 280.467,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "the",
+  "start": 280.467,
+  "end": 280.631,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "real",
+  "start": 280.631,
+  "end": 280.85,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "test",
+  "start": 280.85,
+  "end": 281.068,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "for",
+  "start": 281.068,
+  "end": 281.232,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "any",
+  "start": 281.232,
+  "end": 281.397,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "causeway.",
+  "start": 281.397,
+  "end": 281.834,
+  "sentence": "And it shows the real test for any cause"
+ },
+ {
+  "word": "Not",
+  "start": 281.64,
+  "end": 281.82,
+  "sentence": "Not the engineers."
+ },
+ {
+  "word": "the",
+  "start": 281.82,
+  "end": 281.98,
+  "sentence": "Not the engineers."
+ },
+ {
+  "word": "engineers.",
+  "start": 281.98,
+  "end": 282.22,
+  "sentence": "Not the engineers."
+ },
+ {
+  "word": "Not",
+  "start": 282.84,
+  "end": 282.959,
+  "sentence": "Not the border."
+ },
+ {
+  "word": "the",
+  "start": 282.959,
+  "end": 283.078,
+  "sentence": "Not the border."
+ },
+ {
+  "word": "border.",
+  "start": 283.078,
+  "end": 283.317,
+  "sentence": "Not the border."
+ },
+ {
+  "word": "The",
+  "start": 283.167,
+  "end": 283.352,
+  "sentence": "The storm."
+ },
+ {
+  "word": "storm.",
+  "start": 283.352,
+  "end": 283.66,
+  "sentence": "The storm."
+ },
+ {
+  "word": "So,",
+  "start": 284.66,
+  "end": 284.82,
+  "sentence": "So, could we build it today?"
+ },
+ {
+  "word": "could",
+  "start": 284.82,
+  "end": 284.94,
+  "sentence": "So, could we build it today?"
+ },
+ {
+  "word": "we",
+  "start": 284.94,
+  "end": 285.08,
+  "sentence": "So, could we build it today?"
+ },
+ {
+  "word": "build",
+  "start": 285.08,
+  "end": 285.24,
+  "sentence": "So, could we build it today?"
+ },
+ {
+  "word": "it",
+  "start": 285.24,
+  "end": 285.4,
+  "sentence": "So, could we build it today?"
  },
  {
   "word": "today?",
-  "start": 230.72,
-  "end": 231.26,
-  "sentence": "So, could we build all this today?"
+  "start": 285.4,
+  "end": 285.88,
+  "sentence": "So, could we build it today?"
  },
  {
   "word": "Technically,",
-  "start": 232.1,
-  "end": 232.48,
+  "start": 286.58,
+  "end": 286.9,
   "sentence": "Technically, yes."
  },
  {
   "word": "yes.",
-  "start": 232.5,
-  "end": 232.88,
+  "start": 287.48,
+  "end": 287.48,
   "sentence": "Technically, yes."
  },
  {
   "word": "China's",
-  "start": 233.5,
-  "end": 233.8,
+  "start": 288.04,
+  "end": 288.392,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "Hong",
-  "start": 233.8,
-  "end": 234.0,
+  "start": 288.392,
+  "end": 288.627,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "Kong-Zhuhai-Macau",
-  "start": 234.0,
-  "end": 234.75,
+  "start": 288.627,
+  "end": 289.508,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "link",
-  "start": 234.75,
-  "end": 234.95,
+  "start": 289.508,
+  "end": 289.743,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "is",
-  "start": 234.95,
-  "end": 235.05,
+  "start": 289.743,
+  "end": 289.86,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "fifty-five",
-  "start": 235.05,
-  "end": 235.5,
+  "start": 289.86,
+  "end": 290.389,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "kilometres",
-  "start": 235.5,
-  "end": 236.0,
+  "start": 290.389,
+  "end": 290.976,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "long,",
-  "start": 236.0,
-  "end": 236.2,
+  "start": 290.976,
+  "end": 291.211,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "longer",
-  "start": 236.2,
-  "end": 236.5,
+  "start": 291.211,
+  "end": 291.563,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "than",
-  "start": 236.5,
-  "end": 236.7,
+  "start": 291.563,
+  "end": 291.798,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "this",
-  "start": 236.7,
-  "end": 236.9,
+  "start": 291.798,
+  "end": 292.033,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "whole",
-  "start": 236.9,
-  "end": 237.15,
+  "start": 292.033,
+  "end": 292.326,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "chain.",
-  "start": 237.15,
-  "end": 237.4,
+  "start": 292.326,
+  "end": 292.62,
   "sentence": "China's Hong Kong-Zhuhai-Macau link is f"
  },
  {
   "word": "About",
-  "start": 237.78,
-  "end": 237.98,
+  "start": 292.88,
+  "end": 293.08,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "thirty",
-  "start": 237.98,
-  "end": 238.2,
+  "start": 293.08,
+  "end": 293.3,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "of",
-  "start": 238.2,
-  "end": 238.3,
+  "start": 293.3,
+  "end": 293.38,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "those",
-  "start": 238.3,
-  "end": 238.52,
+  "start": 293.38,
+  "end": 293.6,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "kilometres",
-  "start": 238.52,
-  "end": 238.78,
+  "start": 293.6,
+  "end": 293.86,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "cross",
-  "start": 238.78,
-  "end": 239.2,
+  "start": 293.86,
+  "end": 294.28,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "open",
-  "start": 239.2,
-  "end": 239.46,
+  "start": 294.28,
+  "end": 294.56,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "sea,",
-  "start": 239.46,
-  "end": 239.8,
+  "start": 294.56,
+  "end": 294.9,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "with",
-  "start": 239.8,
-  "end": 239.98,
+  "start": 294.9,
+  "end": 295.06,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "a",
-  "start": 239.98,
-  "end": 240.08,
+  "start": 295.06,
+  "end": 295.16,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "tunnel",
-  "start": 240.08,
-  "end": 240.18,
+  "start": 295.16,
+  "end": 295.26,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "for",
-  "start": 240.18,
-  "end": 240.42,
+  "start": 295.26,
+  "end": 295.52,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "ships",
-  "start": 240.42,
-  "end": 240.56,
+  "start": 295.52,
+  "end": 295.64,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "to",
-  "start": 240.56,
-  "end": 240.72,
+  "start": 295.64,
+  "end": 295.8,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "pass",
-  "start": 240.72,
-  "end": 240.86,
+  "start": 295.8,
+  "end": 295.96,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "over.",
-  "start": 240.86,
-  "end": 241.32,
+  "start": 295.96,
+  "end": 296.34,
   "sentence": "About thirty of those kilometres cross o"
  },
  {
   "word": "It",
-  "start": 241.58,
-  "end": 241.664,
+  "start": 296.6,
+  "end": 296.665,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "took",
-  "start": 241.664,
-  "end": 241.831,
+  "start": 296.665,
+  "end": 296.795,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "nine",
-  "start": 241.831,
-  "end": 241.999,
+  "start": 296.795,
+  "end": 296.926,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "years",
-  "start": 241.999,
-  "end": 242.208,
+  "start": 296.926,
+  "end": 297.088,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "and",
-  "start": 242.208,
-  "end": 242.333,
+  "start": 297.088,
+  "end": 297.186,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "about",
-  "start": 242.333,
-  "end": 242.543,
+  "start": 297.186,
+  "end": 297.349,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "twenty",
-  "start": 242.543,
-  "end": 242.794,
+  "start": 297.349,
+  "end": 297.544,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "billion",
-  "start": 242.794,
-  "end": 243.087,
+  "start": 297.544,
+  "end": 297.772,
   "sentence": "It took nine years and about twenty bill"
  },
  {
   "word": "dollars.",
-  "start": 243.087,
-  "end": 243.38,
+  "start": 297.772,
+  "end": 298.0,
   "sentence": "It took nine years and about twenty bill"
  },
  {
-  "word": "Across",
-  "start": 244.2,
-  "end": 244.44,
-  "sentence": "Across shallow shoals, the engineering m"
+  "word": "A",
+  "start": 298.78,
+  "end": 298.824,
+  "sentence": "A crossing here would face storms like t"
  },
  {
-  "word": "shallow",
-  "start": 244.44,
-  "end": 244.72,
-  "sentence": "Across shallow shoals, the engineering m"
+  "word": "crossing",
+  "start": 298.824,
+  "end": 299.177,
+  "sentence": "A crossing here would face storms like t"
  },
  {
-  "word": "shoals,",
-  "start": 244.72,
-  "end": 245.06,
-  "sentence": "Across shallow shoals, the engineering m"
- },
- {
-  "word": "the",
-  "start": 245.24,
-  "end": 245.34,
-  "sentence": "Across shallow shoals, the engineering m"
- },
- {
-  "word": "engineering",
-  "start": 245.34,
-  "end": 245.64,
-  "sentence": "Across shallow shoals, the engineering m"
- },
- {
-  "word": "might",
-  "start": 245.64,
-  "end": 245.96,
-  "sentence": "Across shallow shoals, the engineering m"
- },
- {
-  "word": "be",
-  "start": 245.96,
-  "end": 246.16,
-  "sentence": "Across shallow shoals, the engineering m"
- },
- {
-  "word": "simpler.",
-  "start": 246.16,
-  "end": 246.44,
-  "sentence": "Across shallow shoals, the engineering m"
- },
- {
-  "word": "The",
-  "start": 246.84,
-  "end": 246.983,
-  "sentence": "The storms, the sand and the sea would s"
- },
- {
-  "word": "storms,",
-  "start": 246.983,
-  "end": 247.269,
-  "sentence": "The storms, the sand and the sea would s"
- },
- {
-  "word": "the",
-  "start": 247.269,
-  "end": 247.412,
-  "sentence": "The storms, the sand and the sea would s"
- },
- {
-  "word": "sand",
-  "start": 247.412,
-  "end": 247.602,
-  "sentence": "The storms, the sand and the sea would s"
- },
- {
-  "word": "and",
-  "start": 247.602,
-  "end": 247.745,
-  "sentence": "The storms, the sand and the sea would s"
- },
- {
-  "word": "the",
-  "start": 247.745,
-  "end": 247.888,
-  "sentence": "The storms, the sand and the sea would s"
- },
- {
-  "word": "sea",
-  "start": 247.888,
-  "end": 248.031,
-  "sentence": "The storms, the sand and the sea would s"
+  "word": "here",
+  "start": 299.177,
+  "end": 299.354,
+  "sentence": "A crossing here would face storms like t"
  },
  {
   "word": "would",
-  "start": 248.031,
-  "end": 248.269,
-  "sentence": "The storms, the sand and the sea would s"
+  "start": 299.354,
+  "end": 299.575,
+  "sentence": "A crossing here would face storms like t"
  },
  {
-  "word": "still",
-  "start": 248.269,
-  "end": 248.507,
-  "sentence": "The storms, the sand and the sea would s"
+  "word": "face",
+  "start": 299.575,
+  "end": 299.752,
+  "sentence": "A crossing here would face storms like t"
  },
  {
-  "word": "be",
-  "start": 248.507,
-  "end": 248.602,
-  "sentence": "The storms, the sand and the sea would s"
+  "word": "storms",
+  "start": 299.752,
+  "end": 300.017,
+  "sentence": "A crossing here would face storms like t"
  },
  {
-  "word": "hard.",
-  "start": 248.602,
-  "end": 248.793,
-  "sentence": "The storms, the sand and the sea would s"
+  "word": "like",
+  "start": 300.017,
+  "end": 300.193,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "the",
+  "start": 300.193,
+  "end": 300.326,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "one",
+  "start": 300.326,
+  "end": 300.458,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "in",
+  "start": 300.458,
+  "end": 300.547,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "nineteen",
+  "start": 300.547,
+  "end": 300.9,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "sixty-four,",
+  "start": 300.9,
+  "end": 301.297,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "so",
+  "start": 301.297,
+  "end": 301.386,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "it",
+  "start": 301.386,
+  "end": 301.474,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "would",
+  "start": 301.474,
+  "end": 301.695,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "have",
+  "start": 301.695,
+  "end": 301.872,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "to",
+  "start": 301.872,
+  "end": 301.96,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "stand",
+  "start": 301.96,
+  "end": 302.181,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "high,",
+  "start": 302.181,
+  "end": 302.357,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "on",
+  "start": 302.357,
+  "end": 302.446,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "strong",
+  "start": 302.446,
+  "end": 302.711,
+  "sentence": "A crossing here would face storms like t"
+ },
+ {
+  "word": "pillars.",
+  "start": 302.711,
+  "end": 303.02,
+  "sentence": "A crossing here would face storms like t"
  },
  {
   "word": "Even",
-  "start": 249.02,
-  "end": 249.215,
+  "start": 303.42,
+  "end": 303.58,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "if",
-  "start": 249.215,
-  "end": 249.313,
+  "start": 303.58,
+  "end": 303.7,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "the",
-  "start": 249.313,
-  "end": 249.459,
+  "start": 303.7,
+  "end": 303.8,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "old",
-  "start": 249.459,
-  "end": 249.605,
+  "start": 303.8,
+  "end": 303.96,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "stones",
-  "start": 249.605,
-  "end": 249.898,
+  "start": 303.96,
+  "end": 304.18,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "stood,",
-  "start": 249.898,
-  "end": 250.141,
+  "start": 304.18,
+  "end": 304.58,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "nobody",
-  "start": 250.141,
-  "end": 250.434,
+  "start": 304.62,
+  "end": 304.78,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "would",
-  "start": 250.434,
-  "end": 250.678,
+  "start": 304.78,
+  "end": 305.02,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "drive",
-  "start": 250.678,
-  "end": 250.921,
+  "start": 305.02,
+  "end": 305.2,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "on",
-  "start": 250.921,
-  "end": 251.019,
+  "start": 305.2,
+  "end": 305.38,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "them.",
-  "start": 251.019,
-  "end": 251.214,
+  "start": 305.38,
+  "end": 305.72,
   "sentence": "Even if the old stones stood, nobody wou"
  },
  {
   "word": "We'd",
-  "start": 251.4,
-  "end": 251.55,
-  "sentence": "We'd build a modern road along the same "
+  "start": 305.9,
+  "end": 306.08,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "build",
-  "start": 251.55,
-  "end": 251.799,
-  "sentence": "We'd build a modern road along the same "
+  "start": 306.08,
+  "end": 306.2,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "a",
-  "start": 251.799,
-  "end": 251.849,
-  "sentence": "We'd build a modern road along the same "
+  "start": 306.2,
+  "end": 306.62,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "modern",
-  "start": 251.849,
-  "end": 252.149,
-  "sentence": "We'd build a modern road along the same "
+  "start": 306.62,
+  "end": 306.64,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "road",
-  "start": 252.149,
-  "end": 252.348,
-  "sentence": "We'd build a modern road along the same "
+  "start": 306.64,
+  "end": 306.9,
+  "sentence": "We'd build a modern road and railway alo"
+ },
+ {
+  "word": "and",
+  "start": 306.9,
+  "end": 307.1,
+  "sentence": "We'd build a modern road and railway alo"
+ },
+ {
+  "word": "railway",
+  "start": 307.1,
+  "end": 307.36,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "along",
-  "start": 252.348,
-  "end": 252.598,
-  "sentence": "We'd build a modern road along the same "
+  "start": 307.36,
+  "end": 307.72,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "the",
-  "start": 252.598,
-  "end": 252.748,
-  "sentence": "We'd build a modern road along the same "
+  "start": 307.72,
+  "end": 307.94,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "same",
-  "start": 252.748,
-  "end": 252.947,
-  "sentence": "We'd build a modern road along the same "
+  "start": 307.94,
+  "end": 308.18,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "path.",
-  "start": 252.947,
-  "end": 253.147,
-  "sentence": "We'd build a modern road along the same "
+  "start": 308.18,
+  "end": 308.44,
+  "sentence": "We'd build a modern road and railway alo"
  },
  {
   "word": "And",
-  "start": 252.98,
-  "end": 253.24,
+  "start": 308.68,
+  "end": 308.864,
   "sentence": "And the idea isn't new."
  },
  {
   "word": "the",
-  "start": 253.24,
-  "end": 253.42,
+  "start": 308.864,
+  "end": 309.047,
   "sentence": "And the idea isn't new."
  },
  {
   "word": "idea",
-  "start": 253.42,
-  "end": 253.58,
+  "start": 309.047,
+  "end": 309.292,
   "sentence": "And the idea isn't new."
  },
  {
   "word": "isn't",
-  "start": 253.58,
-  "end": 253.82,
+  "start": 309.292,
+  "end": 309.536,
   "sentence": "And the idea isn't new."
  },
  {
   "word": "new.",
-  "start": 253.82,
-  "end": 254.12,
+  "start": 309.536,
+  "end": 309.72,
   "sentence": "And the idea isn't new."
  },
  {
+  "word": "A",
+  "start": 310.2,
+  "end": 310.251,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "link",
+  "start": 310.251,
+  "end": 310.457,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "of",
+  "start": 310.457,
+  "end": 310.56,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "about",
+  "start": 310.56,
+  "end": 310.816,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "twenty-three",
+  "start": 310.816,
+  "end": 311.381,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "kilometres,",
+  "start": 311.381,
+  "end": 311.895,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "from",
+  "start": 311.895,
+  "end": 312.1,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "Dhanushkodi",
+  "start": 312.1,
+  "end": 312.665,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "to",
+  "start": 312.665,
+  "end": 312.768,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "Talaimannar,",
+  "start": 312.768,
+  "end": 313.333,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "has",
+  "start": 313.333,
+  "end": 313.487,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "been",
+  "start": 313.487,
+  "end": 313.692,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "proposed,",
+  "start": 313.692,
+  "end": 314.103,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "with",
+  "start": 314.103,
+  "end": 314.309,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "estimates",
+  "start": 314.309,
+  "end": 314.771,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "running",
+  "start": 314.771,
+  "end": 315.13,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "from",
+  "start": 315.13,
+  "end": 315.336,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "about",
+  "start": 315.336,
+  "end": 315.593,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "three",
+  "start": 315.593,
+  "end": 315.849,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "and",
+  "start": 315.849,
+  "end": 316.003,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "a",
+  "start": 316.003,
+  "end": 316.055,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "half",
+  "start": 316.055,
+  "end": 316.26,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "billion",
+  "start": 316.26,
+  "end": 316.62,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "dollars",
+  "start": 316.62,
+  "end": 316.979,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "in",
+  "start": 316.979,
+  "end": 317.082,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "2015",
+  "start": 317.082,
+  "end": 317.287,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "to",
+  "start": 317.287,
+  "end": 317.39,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "around",
+  "start": 317.39,
+  "end": 317.698,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "five",
+  "start": 317.698,
+  "end": 317.904,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "billion",
+  "start": 317.904,
+  "end": 318.263,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
+  "word": "later.",
+  "start": 318.263,
+  "end": 318.52,
+  "sentence": "A link of about twenty-three kilometres,"
+ },
+ {
   "word": "In",
-  "start": 254.213,
-  "end": 254.329,
+  "start": 318.86,
+  "end": 319.0,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "2023,",
-  "start": 254.329,
-  "end": 254.56,
+  "start": 319.0,
+  "end": 319.42,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "the",
-  "start": 254.56,
-  "end": 254.733,
+  "start": 319.52,
+  "end": 319.64,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "leaders",
-  "start": 254.733,
-  "end": 255.138,
+  "start": 319.64,
+  "end": 319.82,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "of",
-  "start": 255.138,
-  "end": 255.253,
+  "start": 319.82,
+  "end": 320.04,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "India",
-  "start": 255.253,
-  "end": 255.542,
+  "start": 320.04,
+  "end": 320.26,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "and",
-  "start": 255.542,
-  "end": 255.715,
+  "start": 320.26,
+  "end": 320.52,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "Sri",
-  "start": 255.715,
-  "end": 255.889,
+  "start": 320.52,
+  "end": 320.66,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "Lanka",
-  "start": 255.889,
-  "end": 256.178,
+  "start": 320.66,
+  "end": 320.88,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "agreed",
-  "start": 256.178,
-  "end": 256.524,
+  "start": 320.88,
+  "end": 321.18,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "to",
-  "start": 256.524,
-  "end": 256.64,
+  "start": 321.18,
+  "end": 321.34,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "study",
-  "start": 256.64,
-  "end": 256.929,
+  "start": 321.34,
+  "end": 321.48,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "a",
-  "start": 256.929,
-  "end": 256.987,
+  "start": 321.48,
+  "end": 321.68,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "land",
-  "start": 256.987,
-  "end": 257.218,
+  "start": 321.68,
+  "end": 321.74,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "link,",
-  "start": 257.218,
-  "end": 257.449,
+  "start": 321.74,
+  "end": 322.02,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "along",
-  "start": 257.449,
-  "end": 257.738,
+  "start": 322.18,
+  "end": 322.3,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "with",
-  "start": 257.738,
-  "end": 257.969,
+  "start": 322.3,
+  "end": 322.42,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "an",
-  "start": 257.969,
-  "end": 258.084,
+  "start": 322.42,
+  "end": 322.6,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "oil",
-  "start": 258.084,
-  "end": 258.258,
+  "start": 322.6,
+  "end": 322.8,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "pipeline.",
-  "start": 258.258,
-  "end": 258.72,
+  "start": 322.8,
+  "end": 323.18,
   "sentence": "In 2023, the leaders of India and Sri La"
  },
  {
   "word": "As",
-  "start": 259.26,
-  "end": 259.376,
+  "start": 323.72,
+  "end": 323.83,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "far",
-  "start": 259.376,
-  "end": 259.55,
+  "start": 323.83,
+  "end": 323.996,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "as",
-  "start": 259.55,
-  "end": 259.666,
+  "start": 323.996,
+  "end": 324.106,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "I",
-  "start": 259.666,
-  "end": 259.724,
+  "start": 324.106,
+  "end": 324.161,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "can",
-  "start": 259.724,
-  "end": 259.898,
+  "start": 324.161,
+  "end": 324.326,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "find,",
-  "start": 259.898,
-  "end": 260.13,
+  "start": 324.326,
+  "end": 324.547,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "nothing",
-  "start": 260.13,
-  "end": 260.536,
+  "start": 324.547,
+  "end": 324.933,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "has",
-  "start": 260.536,
-  "end": 260.71,
+  "start": 324.933,
+  "end": 325.098,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "been",
-  "start": 260.71,
-  "end": 260.942,
+  "start": 325.098,
+  "end": 325.318,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "built.",
-  "start": 260.942,
-  "end": 261.232,
+  "start": 325.318,
+  "end": 325.594,
   "sentence": "As far as I can find, nothing has been b"
  },
  {
   "word": "Which",
-  "start": 261.08,
-  "end": 261.24,
+  "start": 325.46,
+  "end": 325.6,
   "sentence": "Which leaves the real question."
  },
  {
   "word": "leaves",
-  "start": 261.24,
-  "end": 261.44,
+  "start": 325.6,
+  "end": 325.8,
   "sentence": "Which leaves the real question."
  },
  {
   "word": "the",
-  "start": 261.44,
-  "end": 261.62,
+  "start": 325.8,
+  "end": 325.96,
   "sentence": "Which leaves the real question."
  },
  {
   "word": "real",
-  "start": 261.62,
-  "end": 261.78,
+  "start": 325.96,
+  "end": 326.08,
   "sentence": "Which leaves the real question."
  },
  {
   "word": "question.",
-  "start": 261.78,
-  "end": 262.3,
+  "start": 326.08,
+  "end": 326.52,
   "sentence": "Which leaves the real question."
  },
  {
   "word": "So",
-  "start": 263.1,
-  "end": 263.16,
+  "start": 327.34,
+  "end": 327.435,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "what",
-  "start": 263.16,
-  "end": 263.34,
+  "start": 327.435,
+  "end": 327.624,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "changes",
-  "start": 263.34,
-  "end": 263.66,
+  "start": 327.624,
+  "end": 327.956,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "if",
-  "start": 263.66,
-  "end": 263.92,
+  "start": 327.956,
+  "end": 328.051,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "the",
-  "start": 263.92,
-  "end": 264.08,
+  "start": 328.051,
+  "end": 328.193,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "bridge",
-  "start": 264.08,
-  "end": 264.24,
+  "start": 328.193,
+  "end": 328.477,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "never",
-  "start": 264.24,
-  "end": 264.56,
+  "start": 328.477,
+  "end": 328.714,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "broke?",
-  "start": 264.56,
-  "end": 264.96,
+  "start": 328.714,
+  "end": 328.951,
   "sentence": "So what changes if the bridge never brok"
  },
  {
   "word": "The",
-  "start": 265.7,
-  "end": 265.841,
+  "start": 329.52,
+  "end": 329.672,
   "sentence": "The sea splits in two."
  },
  {
   "word": "sea",
-  "start": 265.841,
-  "end": 265.982,
+  "start": 329.672,
+  "end": 329.824,
   "sentence": "The sea splits in two."
  },
  {
   "word": "splits",
-  "start": 265.982,
-  "end": 266.265,
+  "start": 329.824,
+  "end": 330.128,
   "sentence": "The sea splits in two."
  },
  {
   "word": "in",
-  "start": 266.265,
-  "end": 266.359,
+  "start": 330.128,
+  "end": 330.229,
   "sentence": "The sea splits in two."
  },
  {
   "word": "two.",
-  "start": 266.359,
-  "end": 266.5,
+  "start": 330.229,
+  "end": 330.381,
   "sentence": "The sea splits in two."
  },
  {
   "word": "Ships",
-  "start": 266.96,
-  "end": 267.245,
+  "start": 330.92,
+  "end": 331.189,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "still",
-  "start": 267.245,
-  "end": 267.53,
+  "start": 331.189,
+  "end": 331.458,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "go",
-  "start": 267.53,
-  "end": 267.644,
+  "start": 331.458,
+  "end": 331.566,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "around,",
-  "start": 267.644,
-  "end": 267.986,
+  "start": 331.566,
+  "end": 331.889,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "or",
-  "start": 267.986,
-  "end": 268.1,
+  "start": 331.889,
+  "end": 331.997,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "through",
-  "start": 268.1,
-  "end": 268.499,
+  "start": 331.997,
+  "end": 332.374,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "a",
-  "start": 268.499,
-  "end": 268.556,
+  "start": 332.374,
+  "end": 332.428,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "lifting",
-  "start": 268.556,
-  "end": 268.955,
+  "start": 332.428,
+  "end": 332.805,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "span.",
-  "start": 268.955,
-  "end": 269.183,
+  "start": 332.805,
+  "end": 333.02,
   "sentence": "Ships still go around, or through a lift"
  },
  {
   "word": "A",
-  "start": 269.3,
-  "end": 269.38,
+  "start": 333.14,
+  "end": 333.22,
   "sentence": "A border turns into a road."
  },
  {
   "word": "border",
-  "start": 269.38,
-  "end": 269.56,
+  "start": 333.22,
+  "end": 333.38,
   "sentence": "A border turns into a road."
  },
  {
   "word": "turns",
-  "start": 269.56,
-  "end": 269.92,
+  "start": 333.38,
+  "end": 333.74,
   "sentence": "A border turns into a road."
  },
  {
   "word": "into",
-  "start": 269.92,
-  "end": 270.14,
+  "start": 333.74,
+  "end": 333.98,
   "sentence": "A border turns into a road."
  },
  {
   "word": "a",
-  "start": 270.14,
-  "end": 270.3,
+  "start": 333.98,
+  "end": 334.14,
   "sentence": "A border turns into a road."
  },
  {
   "word": "road.",
-  "start": 270.3,
-  "end": 270.62,
+  "start": 334.14,
+  "end": 334.44,
   "sentence": "A border turns into a road."
  },
  {
   "word": "Trucks",
-  "start": 270.86,
-  "end": 271.0,
+  "start": 335.02,
+  "end": 335.02,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "beat",
-  "start": 271.0,
-  "end": 271.16,
+  "start": 335.02,
+  "end": 335.26,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "planes",
-  "start": 271.16,
-  "end": 271.36,
+  "start": 335.26,
+  "end": 335.54,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "on",
-  "start": 271.36,
-  "end": 271.56,
+  "start": 335.54,
+  "end": 335.78,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "cargo,",
-  "start": 271.56,
-  "end": 271.76,
+  "start": 335.78,
+  "end": 336.04,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "but",
-  "start": 271.76,
-  "end": 272.02,
+  "start": 336.26,
+  "end": 336.3,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "never",
-  "start": 272.02,
-  "end": 272.2,
+  "start": 336.3,
+  "end": 336.54,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "on",
-  "start": 272.2,
-  "end": 272.38,
+  "start": 336.54,
+  "end": 336.72,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "speed.",
-  "start": 272.38,
-  "end": 272.66,
+  "start": 336.72,
+  "end": 337.04,
   "sentence": "Trucks beat planes on cargo, but never o"
  },
  {
   "word": "And",
-  "start": 273.02,
-  "end": 273.18,
+  "start": 337.34,
+  "end": 337.5,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "the",
-  "start": 273.18,
-  "end": 273.26,
+  "start": 337.5,
+  "end": 337.6,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "quiet",
-  "start": 273.26,
-  "end": 273.44,
+  "start": 337.6,
+  "end": 337.78,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "water",
-  "start": 273.44,
-  "end": 273.68,
+  "start": 337.78,
+  "end": 338.02,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "underneath",
-  "start": 273.68,
-  "end": 273.96,
+  "start": 338.02,
+  "end": 338.42,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "has",
-  "start": 273.96,
-  "end": 274.22,
+  "start": 338.42,
+  "end": 338.62,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "to",
-  "start": 274.22,
-  "end": 274.3,
+  "start": 338.62,
+  "end": 338.74,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "be",
-  "start": 274.3,
-  "end": 274.68,
+  "start": 338.74,
+  "end": 339.12,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "protected.",
-  "start": 274.68,
-  "end": 274.68,
+  "start": 339.12,
+  "end": 339.12,
   "sentence": "And the quiet water underneath has to be"
  },
  {
   "word": "For",
-  "start": 275.12,
-  "end": 275.24,
+  "start": 339.66,
+  "end": 339.786,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "some",
-  "start": 275.24,
-  "end": 275.38,
+  "start": 339.786,
+  "end": 339.955,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "people,",
-  "start": 275.38,
-  "end": 275.64,
+  "start": 339.955,
+  "end": 340.208,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "it",
-  "start": 275.82,
-  "end": 275.82,
+  "start": 340.208,
+  "end": 340.292,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "would",
-  "start": 275.82,
-  "end": 275.96,
+  "start": 340.292,
+  "end": 340.503,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "be",
-  "start": 275.96,
-  "end": 275.98,
+  "start": 340.503,
+  "end": 340.587,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "a",
-  "start": 275.98,
-  "end": 276.1,
+  "start": 340.587,
+  "end": 340.629,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "place",
-  "start": 276.1,
-  "end": 276.2,
+  "start": 340.629,
+  "end": 340.84,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "of",
-  "start": 276.2,
-  "end": 276.4,
+  "start": 340.84,
+  "end": 340.924,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "faith",
-  "start": 276.4,
-  "end": 276.56,
+  "start": 340.924,
+  "end": 341.134,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "you",
-  "start": 276.56,
-  "end": 276.7,
+  "start": 341.134,
+  "end": 341.261,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "could",
-  "start": 276.7,
-  "end": 276.82,
+  "start": 341.261,
+  "end": 341.471,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "walk.",
-  "start": 276.82,
-  "end": 277.12,
+  "start": 341.471,
+  "end": 341.64,
   "sentence": "For some people, it would be a place of "
  },
  {
   "word": "For",
-  "start": 277.42,
-  "end": 277.558,
+  "start": 341.84,
+  "end": 341.973,
   "sentence": "For others, a piece of infrastructure."
  },
  {
   "word": "others,",
-  "start": 277.558,
-  "end": 277.835,
+  "start": 341.973,
+  "end": 342.239,
   "sentence": "For others, a piece of infrastructure."
  },
  {
   "word": "a",
-  "start": 277.835,
-  "end": 277.882,
+  "start": 342.239,
+  "end": 342.283,
   "sentence": "For others, a piece of infrastructure."
  },
  {
   "word": "piece",
-  "start": 277.882,
-  "end": 278.112,
+  "start": 342.283,
+  "end": 342.504,
   "sentence": "For others, a piece of infrastructure."
  },
  {
   "word": "of",
-  "start": 278.112,
-  "end": 278.205,
+  "start": 342.504,
+  "end": 342.593,
   "sentence": "For others, a piece of infrastructure."
  },
  {
   "word": "infrastructure.",
-  "start": 278.205,
-  "end": 278.851,
+  "start": 342.593,
+  "end": 343.213,
   "sentence": "For others, a piece of infrastructure."
  },
  {
   "word": "For",
-  "start": 278.54,
-  "end": 278.96,
+  "start": 343.22,
+  "end": 343.3,
   "sentence": "For many, both."
  },
  {
   "word": "many,",
-  "start": 278.96,
-  "end": 279.12,
+  "start": 343.3,
+  "end": 343.48,
   "sentence": "For many, both."
  },
  {
   "word": "both.",
-  "start": 279.12,
-  "end": 279.72,
+  "start": 343.48,
+  "end": 343.92,
   "sentence": "For many, both."
  },
  {
   "word": "A",
-  "start": 280.1,
-  "end": 280.142,
+  "start": 344.32,
+  "end": 344.354,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "connection",
-  "start": 280.142,
-  "end": 280.565,
+  "start": 344.354,
+  "end": 344.697,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "is",
-  "start": 280.565,
-  "end": 280.65,
+  "start": 344.697,
+  "end": 344.766,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "never",
-  "start": 280.65,
-  "end": 280.861,
+  "start": 344.766,
+  "end": 344.937,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "only",
-  "start": 280.861,
-  "end": 281.03,
+  "start": 344.937,
+  "end": 345.074,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "stone",
-  "start": 281.03,
-  "end": 281.242,
+  "start": 345.074,
+  "end": 345.246,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "and",
-  "start": 281.242,
-  "end": 281.369,
+  "start": 345.246,
+  "end": 345.349,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "steel.",
-  "start": 281.369,
-  "end": 281.58,
+  "start": 345.349,
+  "end": 345.52,
   "sentence": "A connection is never only stone and ste"
  },
  {
   "word": "It's",
-  "start": 282.12,
-  "end": 282.278,
+  "start": 345.84,
+  "end": 346.02,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "a",
-  "start": 282.278,
-  "end": 282.331,
+  "start": 346.02,
+  "end": 346.06,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "choice,",
-  "start": 282.331,
-  "end": 282.648,
+  "start": 346.06,
+  "end": 346.3,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "made",
-  "start": 282.648,
-  "end": 282.859,
+  "start": 346.3,
+  "end": 346.48,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "again",
-  "start": 282.859,
-  "end": 283.122,
+  "start": 346.48,
+  "end": 346.78,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "and",
-  "start": 283.122,
-  "end": 283.281,
+  "start": 346.78,
+  "end": 346.86,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "again,",
-  "start": 283.281,
-  "end": 283.544,
+  "start": 346.86,
+  "end": 347.14,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "by",
-  "start": 283.544,
-  "end": 283.65,
+  "start": 347.14,
+  "end": 347.38,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "everyone",
-  "start": 283.65,
-  "end": 284.072,
+  "start": 347.38,
+  "end": 347.62,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "who",
-  "start": 284.072,
-  "end": 284.23,
+  "start": 347.62,
+  "end": 347.88,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "crosses",
-  "start": 284.23,
-  "end": 284.599,
+  "start": 347.88,
+  "end": 348.0,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "it.",
-  "start": 284.599,
-  "end": 284.705,
+  "start": 348.0,
+  "end": 348.32,
   "sentence": "It's a choice, made again and again, by "
  },
  {
   "word": "There",
-  "start": 285.06,
-  "end": 285.12,
+  "start": 348.46,
+  "end": 348.54,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "was",
-  "start": 285.12,
-  "end": 285.22,
+  "start": 348.54,
+  "end": 348.64,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "a",
-  "start": 285.22,
-  "end": 285.38,
+  "start": 348.64,
+  "end": 348.8,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "time",
-  "start": 285.38,
-  "end": 285.52,
+  "start": 348.8,
+  "end": 348.94,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "you",
-  "start": 285.52,
-  "end": 285.66,
+  "start": 348.94,
+  "end": 349.08,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "could",
-  "start": 285.66,
-  "end": 285.8,
+  "start": 349.08,
+  "end": 349.2,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "walk",
-  "start": 285.8,
-  "end": 286.0,
+  "start": 349.2,
+  "end": 349.38,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "from",
-  "start": 286.0,
-  "end": 286.24,
+  "start": 349.38,
+  "end": 349.62,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "India",
-  "start": 286.24,
-  "end": 286.42,
+  "start": 349.62,
+  "end": 349.82,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "to",
-  "start": 286.42,
-  "end": 286.72,
+  "start": 349.82,
+  "end": 350.12,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "Sri",
-  "start": 286.72,
-  "end": 286.9,
+  "start": 350.12,
+  "end": 350.28,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "Lanka.",
-  "start": 286.9,
-  "end": 287.34,
+  "start": 350.28,
+  "end": 350.58,
   "sentence": "There was a time you could walk from Ind"
  },
  {
   "word": "The",
-  "start": 287.68,
-  "end": 287.768,
+  "start": 351.26,
+  "end": 351.32,
   "sentence": "The stones are still there."
  },
  {
   "word": "stones",
-  "start": 287.768,
-  "end": 287.943,
+  "start": 351.32,
+  "end": 351.44,
   "sentence": "The stones are still there."
  },
  {
   "word": "are",
-  "start": 287.943,
-  "end": 288.03,
+  "start": 351.44,
+  "end": 351.5,
   "sentence": "The stones are still there."
  },
  {
   "word": "still",
-  "start": 288.03,
-  "end": 288.176,
+  "start": 351.5,
+  "end": 351.6,
   "sentence": "The stones are still there."
  },
  {
   "word": "there.",
-  "start": 288.176,
-  "end": 288.322,
+  "start": 351.6,
+  "end": 351.7,
   "sentence": "The stones are still there."
  },
  {
   "word": "The",
-  "start": 289.56,
-  "end": 289.684,
+  "start": 353.44,
+  "end": 353.6,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "question",
-  "start": 289.684,
-  "end": 290.013,
+  "start": 353.6,
+  "end": 353.88,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "was",
-  "start": 290.013,
-  "end": 290.137,
+  "start": 353.88,
+  "end": 354.14,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "never",
-  "start": 290.137,
-  "end": 290.343,
+  "start": 354.14,
+  "end": 354.32,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "whether",
-  "start": 290.343,
-  "end": 290.631,
+  "start": 354.32,
+  "end": 354.44,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "we",
-  "start": 290.631,
-  "end": 290.714,
+  "start": 354.44,
+  "end": 354.56,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "could",
-  "start": 290.714,
-  "end": 290.92,
+  "start": 354.56,
+  "end": 354.74,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "build",
-  "start": 290.92,
-  "end": 291.126,
+  "start": 354.74,
+  "end": 354.92,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "the",
-  "start": 291.126,
-  "end": 291.249,
+  "start": 354.92,
+  "end": 355.22,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "way.",
-  "start": 291.249,
-  "end": 291.373,
+  "start": 355.22,
+  "end": 355.42,
   "sentence": "The question was never whether we could "
  },
  {
   "word": "It's",
-  "start": 291.26,
-  "end": 291.48,
+  "start": 355.22,
+  "end": 355.42,
   "sentence": "It's whether we'd agree on how."
  },
  {
   "word": "whether",
-  "start": 291.48,
-  "end": 291.62,
+  "start": 355.42,
+  "end": 355.56,
   "sentence": "It's whether we'd agree on how."
  },
  {
   "word": "we'd",
-  "start": 291.62,
-  "end": 291.8,
+  "start": 355.56,
+  "end": 355.74,
   "sentence": "It's whether we'd agree on how."
  },
  {
   "word": "agree",
-  "start": 291.8,
-  "end": 291.98,
+  "start": 355.74,
+  "end": 355.94,
   "sentence": "It's whether we'd agree on how."
  },
  {
   "word": "on",
-  "start": 291.98,
-  "end": 292.18,
+  "start": 355.94,
+  "end": 356.16,
   "sentence": "It's whether we'd agree on how."
  },
  {
   "word": "how.",
-  "start": 292.18,
-  "end": 292.52,
+  "start": 356.16,
+  "end": 356.46,
   "sentence": "It's whether we'd agree on how."
  },
  {
   "word": "If",
-  "start": 292.82,
-  "end": 292.98,
+  "start": 356.68,
+  "end": 356.82,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "you",
-  "start": 292.98,
-  "end": 293.0,
+  "start": 356.82,
+  "end": 356.86,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "could",
-  "start": 293.0,
-  "end": 293.12,
+  "start": 356.86,
+  "end": 357.0,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "walk",
-  "start": 293.12,
-  "end": 293.26,
+  "start": 357.0,
+  "end": 357.12,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "it",
-  "start": 293.26,
-  "end": 293.38,
+  "start": 357.12,
+  "end": 357.26,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "tomorrow,",
-  "start": 293.38,
-  "end": 293.6,
+  "start": 357.26,
+  "end": 357.48,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "would",
-  "start": 293.6,
-  "end": 293.88,
+  "start": 357.74,
+  "end": 357.74,
   "sentence": "If you could walk it tomorrow, would you"
  },
  {
   "word": "you?",
-  "start": 293.88,
-  "end": 294.12,
+  "start": 357.74,
+  "end": 357.9,
   "sentence": "If you could walk it tomorrow, would you"
  }
 ]

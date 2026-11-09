@@ -27,6 +27,15 @@
 | 23 | 2023: leaders agreed to study a land link and a pipeline | July 2023 Modi / Wickremesinghe statement. CHECKED. A later 2025 Sri Lankan statement was found only on a wiki-style site, so the script says only "nothing has been built" |
 | 24 | "Nothing has been built" | Based on searches; no published feasibility report found. Reasonable but check current status |
 
+| 25 | Boat Mail from 1914: Madras Egmore to Dhanushkodi, ferry to Talaimannar, train to Colombo | Wikipedia (Dhanushkodi) and India Water Portal coverage: introduced 1914 (British), rail link to Dhanushkodi pier, ferry to Talaimannar, then train to Colombo. CHECKED. "Two countries, one journey" is a framing, not a ticketing claim |
+| 26 | "For half a century" (1914 to 1964) | Derived from the 1914 start and the December 1964 cyclone, which destroyed the Pamban-Dhanushkodi line. The ferry may have continued in other forms later; not checked |
+| 27 | 22 Dec 1964 cyclone; ~280 km/h winds by one account | Sources agree on the night of 22 Dec 1964; wind speed ~280 km/h given by one source. CHECKED, hedged ("by one account") |
+| 28 | Death toll about 1,800 ("estimates vary") | One source gives ~1,800 including 115 passengers on the train; others differ. Hedged. Handle respectfully |
+| 29 | Government declared the town unfit to live in; a few fishing families remain; day visitors; people sleep in Rameswaram | Wikipedia / news coverage: Government of Madras declared it a ghost town; fishing families; most visitors stay in Rameswaram. CHECKED |
+| 30 | "Exact place where Ram Setu begins" | Dhanushkodi is described as the starting point of Ram Setu on the Indian side. CHECKED (tourism sources; some sources differ on the exact start) |
+| 31 | Proposed link ~23 km Dhanushkodi to Talaimannar; about $3.5B (2015) to about $5B later | World Highways / Ada Derana / Sunday Observer: Gadkari 2015 estimate $3.6B (Rs 23,000 crore); later reports ~$5.1-5.18B. CHECKED. ADB funding claim NOT used (unconfirmed) |
+| 32 | Modern crossing would stand high on pillars because of storms | Engineering reasoning, hedged |
+
 ## Sensitivity notes
 - Faith is treated respectfully; the script states both views and explicitly does not decide between them.
 - No claim that anyone built or did not build the structure.
