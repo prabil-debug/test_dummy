@@ -51,6 +51,14 @@ Typical time: script/voice/plan ~1-2 h, build ~1-2 h of Claude Code (about 4-7 m
 8. Ending: reframe + one big question + callback to the hook.
 
 **Style rules:** short lines, lists as quick fragments, one idea per line, deadpan humour only where it is true, no on-screen text that repeats the voice, one analogy per video.
+**Storytelling rules (added after video #2):**
+- Open with a concrete image or surprising number, not a definition; no more than 2 lines before the first hook.
+- Vary sentence length: mix short punches with longer lines that carry an idea; avoid 6+ short lines in a row unless it is a deliberate list.
+- Don't repeat the same device. Video #2 used "Now..." to start 7 sentences and "But there's a catch/trap" three times; allow each device at most twice per video.
+- Cut signposting ("Here's something that surprises people", "Now the part that worries economists"): show the surprise instead.
+- Every section should end on a small payoff or an open question that pulls into the next one (a re-hook about every 60-90 s).
+- Prefer specific, tangible detail (a number, a place, a person) over general statements; one analogy per video, used well.
+- Read the script aloud once before locking: if you run out of breath or hear a rhythm repeating, rewrite that stretch.
 
 **Prompt (cloud Claude):**
 ```
@@ -80,17 +88,19 @@ Generator script: `internet-video/voice/narrate_kokoro.py` (reads `SCRIPT.md`; h
 
 **Settings used:** speed factor 1.35, pitch shift `asetrate=24000*0.89,aresample=24000,atempo=1.1236`, loudness normalise to about -16 LUFS.
 
-**Pause rules (this is what removes the robotic "metronome" sound):**
-| Where | Pause |
-|-------|-------|
-| Inside lists ("No notifications. No messages.") | 0.2-0.3 s |
-| Between ideas | 0.5-0.7 s |
-| Before a dramatic line ("The internet is gone.") | 0.8-1.0 s |
-| Section break | up to 1.6 s |
-| Hold after the final question | about 2.5 s |
-
-Result: about 2.85 words per second, about 21 pauses over 0.4 s per minute (a natural narrator is 13-21).
-Never use one fixed gap after every sentence.
+**Narration v3 rules (from video #2 feedback: "templated silence", gaps after only 3-4 words).**
+Audit of video #2: only 7 distinct pause lengths in the whole video, 82 of 155 sentences paused exactly 0.45 s, 12 section breaks were all exactly 1.65 s, and 24% of the narration was silence. That is the "template" feel. v3 fixes it:
+| Rule | v3 behaviour |
+|------|--------------|
+| Phrase groups | consecutive short sentences (6 words or fewer, up to 3) are spoken in ONE pass, so lists flow ("No notifications. No messages. You open Instagram.") |
+| Pauses | never fixed; each is drawn from a range with jitter: between phrases 0.20-0.42 s, after a question 0.5-0.7 s, before a turn ("But...") 0.55-0.8 s, after a very short punch line 0.42-0.6 s |
+| Section breaks | rotate 0.75 / 0.95 / 0.80 / 1.10 / 0.85 / 1.00 s (with +/-7% jitter), never 1.6 s |
+| Dramatic beats | only where the script line ends with `[beat]` (1.15-1.4 s); use 1-3 per video |
+| Ending hold | 2.0 s |
+| Prosody | speed varies slowly (+/-4%) and per line: questions slower, short punch lines slower, long sentences slightly faster |
+| Silence budget | target 14-16% silence (video #2 was 24%); no gap over 1.2 s except the final hold and tagged beats |
+Generator: `whatif-kit/narrate_kokoro_v3.py` (usage: `narrate_kokoro_v3.py SCRIPT.md am_fenrir out.wav`, then the pitch/loudness step in section 4). Always run a silence audit before approving: `ffmpeg -i narration.wav -af silencedetect=noise=-38dB:d=0.7 -f null -`.
+Silent stretches are also a VISUAL problem: whenever a pause is 0.7 s or longer, something on screen should still move (push-in, a counter, a small shake) and the music bed or a soft effect should carry it, so it never feels like dead air.
 
 **Outputs to keep:** `narration_final.wav`, `timeline.json` (sentence start/end), `words.json` (word times, **corrected to the script's spelling**; the speech-to-text mishears words such as "card" and "medical").
 
