@@ -1,6 +1,6 @@
 # What If India Had Only 200 Million People?
 Working title. Landscape 1920x1080, 2D stick-figure scenes, ~6 min. Gradual scenario, balanced tone.
-Status: DRAFT 1 for approval. Lines marked VERIFY need a source check before recording (see FACTS.md).
+Status: LOCKED v2 (approved by user). Fact notes in FACTS.md.
 
 ## THE QUESTION
 Right now, almost one in every six people on Earth lives in India.

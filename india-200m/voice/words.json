@@ -1,0 +1,7232 @@
+[
+ {
+  "word": "Right",
+  "start": 0.0,
+  "end": 0.2,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "now,",
+  "start": 0.2,
+  "end": 0.5,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "almost",
+  "start": 0.78,
+  "end": 0.82,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "one",
+  "start": 0.82,
+  "end": 0.96,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "in",
+  "start": 0.96,
+  "end": 1.06,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "every",
+  "start": 1.06,
+  "end": 1.26,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "six",
+  "start": 1.26,
+  "end": 1.42,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "people",
+  "start": 1.42,
+  "end": 1.6,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "on",
+  "start": 1.6,
+  "end": 1.78,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "Earth",
+  "start": 1.78,
+  "end": 1.94,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "lives",
+  "start": 1.94,
+  "end": 2.2,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "in",
+  "start": 2.2,
+  "end": 2.32,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "India.",
+  "start": 2.32,
+  "end": 2.62,
+  "sentence": "Right now, almost one in every six peopl"
+ },
+ {
+  "word": "That's",
+  "start": 3.16,
+  "end": 3.395,
+  "sentence": "That's about 1.46 billion people."
+ },
+ {
+  "word": "about",
+  "start": 3.395,
+  "end": 3.629,
+  "sentence": "That's about 1.46 billion people."
+ },
+ {
+  "word": "1.46",
+  "start": 3.629,
+  "end": 3.77,
+  "sentence": "That's about 1.46 billion people."
+ },
+ {
+  "word": "billion",
+  "start": 3.77,
+  "end": 4.098,
+  "sentence": "That's about 1.46 billion people."
+ },
+ {
+  "word": "people.",
+  "start": 4.098,
+  "end": 4.38,
+  "sentence": "That's about 1.46 billion people."
+ },
+ {
+  "word": "Now",
+  "start": 5.6,
+  "end": 5.74,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "imagine",
+  "start": 5.74,
+  "end": 5.96,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "only",
+  "start": 5.96,
+  "end": 6.24,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "one",
+  "start": 6.24,
+  "end": 6.32,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "in",
+  "start": 6.32,
+  "end": 6.5,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "forty",
+  "start": 6.5,
+  "end": 6.64,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "did.",
+  "start": 6.64,
+  "end": 7.12,
+  "sentence": "Now imagine only one in forty did."
+ },
+ {
+  "word": "Same",
+  "start": 7.38,
+  "end": 7.64,
+  "sentence": "Same country."
+ },
+ {
+  "word": "country.",
+  "start": 7.64,
+  "end": 8.04,
+  "sentence": "Same country."
+ },
+ {
+  "word": "Same",
+  "start": 8.44,
+  "end": 8.7,
+  "sentence": "Same rivers."
+ },
+ {
+  "word": "rivers.",
+  "start": 8.7,
+  "end": 9.0,
+  "sentence": "Same rivers."
+ },
+ {
+  "word": "Same",
+  "start": 9.44,
+  "end": 9.7,
+  "sentence": "Same borders."
+ },
+ {
+  "word": "borders.",
+  "start": 9.7,
+  "end": 10.08,
+  "sentence": "Same borders."
+ },
+ {
+  "word": "Just",
+  "start": 10.46,
+  "end": 10.68,
+  "sentence": "Just 200 million people instead."
+ },
+ {
+  "word": "200",
+  "start": 10.68,
+  "end": 10.94,
+  "sentence": "Just 200 million people instead."
+ },
+ {
+  "word": "million",
+  "start": 10.94,
+  "end": 11.16,
+  "sentence": "Just 200 million people instead."
+ },
+ {
+  "word": "people",
+  "start": 11.16,
+  "end": 11.44,
+  "sentence": "Just 200 million people instead."
+ },
+ {
+  "word": "instead.",
+  "start": 11.44,
+  "end": 11.76,
+  "sentence": "Just 200 million people instead."
+ },
+ {
+  "word": "Would",
+  "start": 12.1,
+  "end": 12.24,
+  "sentence": "Would life be calmer?"
+ },
+ {
+  "word": "life",
+  "start": 12.24,
+  "end": 12.46,
+  "sentence": "Would life be calmer?"
+ },
+ {
+  "word": "be",
+  "start": 12.46,
+  "end": 12.7,
+  "sentence": "Would life be calmer?"
+ },
+ {
+  "word": "calmer?",
+  "start": 12.7,
+  "end": 12.98,
+  "sentence": "Would life be calmer?"
+ },
+ {
+  "word": "Would",
+  "start": 13.86,
+  "end": 14.0,
+  "sentence": "Would everyone be richer?"
+ },
+ {
+  "word": "everyone",
+  "start": 14.0,
+  "end": 14.24,
+  "sentence": "Would everyone be richer?"
+ },
+ {
+  "word": "be",
+  "start": 14.24,
+  "end": 14.5,
+  "sentence": "Would everyone be richer?"
+ },
+ {
+  "word": "richer?",
+  "start": 14.5,
+  "end": 14.78,
+  "sentence": "Would everyone be richer?"
+ },
+ {
+  "word": "Would",
+  "start": 15.7,
+  "end": 15.84,
+  "sentence": "Would the trains finally be empty?"
+ },
+ {
+  "word": "the",
+  "start": 15.84,
+  "end": 15.98,
+  "sentence": "Would the trains finally be empty?"
+ },
+ {
+  "word": "trains",
+  "start": 15.98,
+  "end": 16.26,
+  "sentence": "Would the trains finally be empty?"
+ },
+ {
+  "word": "finally",
+  "start": 16.26,
+  "end": 16.6,
+  "sentence": "Would the trains finally be empty?"
+ },
+ {
+  "word": "be",
+  "start": 16.6,
+  "end": 16.82,
+  "sentence": "Would the trains finally be empty?"
+ },
+ {
+  "word": "empty?",
+  "start": 16.82,
+  "end": 17.04,
+  "sentence": "Would the trains finally be empty?"
+ },
+ {
+  "word": "The",
+  "start": 17.94,
+  "end": 18.063,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "answer",
+  "start": 18.063,
+  "end": 18.308,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "is",
+  "start": 18.308,
+  "end": 18.39,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "more",
+  "start": 18.39,
+  "end": 18.553,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "surprising",
+  "start": 18.553,
+  "end": 18.962,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "than",
+  "start": 18.962,
+  "end": 19.126,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "you'd",
+  "start": 19.126,
+  "end": 19.29,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "think.",
+  "start": 19.29,
+  "end": 19.494,
+  "sentence": "The answer is more surprising than you'd"
+ },
+ {
+  "word": "Let's",
+  "start": 19.94,
+  "end": 20.1,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "find",
+  "start": 20.1,
+  "end": 20.26,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "out.",
+  "start": 20.26,
+  "end": 20.38,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "First,",
+  "start": 22.26,
+  "end": 22.52,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "the",
+  "start": 22.7,
+  "end": 22.7,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "rules.",
+  "start": 22.7,
+  "end": 22.98,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "Nobody",
+  "start": 23.4,
+  "end": 23.68,
+  "sentence": "Nobody disappears."
+ },
+ {
+  "word": "disappears.",
+  "start": 23.68,
+  "end": 24.08,
+  "sentence": "Nobody disappears."
+ },
+ {
+  "word": "Nothing",
+  "start": 24.68,
+  "end": 24.88,
+  "sentence": "Nothing terrible happens."
+ },
+ {
+  "word": "terrible",
+  "start": 24.88,
+  "end": 25.2,
+  "sentence": "Nothing terrible happens."
+ },
+ {
+  "word": "happens.",
+  "start": 25.2,
+  "end": 25.82,
+  "sentence": "Nothing terrible happens."
+ },
+ {
+  "word": "Instead,",
+  "start": 26.32,
+  "end": 26.8,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "India's",
+  "start": 27.0,
+  "end": 27.18,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "population",
+  "start": 27.18,
+  "end": 27.46,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "simply",
+  "start": 27.46,
+  "end": 27.94,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "stopped",
+  "start": 27.94,
+  "end": 28.14,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "growing,",
+  "start": 28.14,
+  "end": 28.5,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "long",
+  "start": 28.5,
+  "end": 28.8,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "ago,",
+  "start": 28.8,
+  "end": 29.1,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "at",
+  "start": 29.1,
+  "end": 29.26,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "around",
+  "start": 29.26,
+  "end": 29.5,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "200",
+  "start": 29.5,
+  "end": 29.86,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "million.",
+  "start": 29.86,
+  "end": 30.38,
+  "sentence": "Instead, India's population simply stopp"
+ },
+ {
+  "word": "For",
+  "start": 30.6,
+  "end": 30.8,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "comparison,",
+  "start": 30.8,
+  "end": 31.12,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "India",
+  "start": 31.44,
+  "end": 31.52,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "had",
+  "start": 31.52,
+  "end": 31.74,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "about",
+  "start": 31.74,
+  "end": 32.28,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "238",
+  "start": 32.28,
+  "end": 32.76,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "million",
+  "start": 32.76,
+  "end": 33.16,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "people",
+  "start": 33.16,
+  "end": 33.4,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "back",
+  "start": 33.4,
+  "end": 33.66,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "in",
+  "start": 33.66,
+  "end": 33.86,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "1901.",
+  "start": 33.86,
+  "end": 34.36,
+  "sentence": "For comparison, India had about 238 mill"
+ },
+ {
+  "word": "Everything",
+  "start": 35.02,
+  "end": 35.08,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "else",
+  "start": 35.08,
+  "end": 35.28,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "stays",
+  "start": 35.28,
+  "end": 35.48,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "the",
+  "start": 35.48,
+  "end": 35.88,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "same:",
+  "start": 35.88,
+  "end": 35.88,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "the",
+  "start": 36.04,
+  "end": 36.14,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "land,",
+  "start": 36.14,
+  "end": 36.32,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "the",
+  "start": 36.4,
+  "end": 36.5,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "rivers,",
+  "start": 36.5,
+  "end": 36.68,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "the",
+  "start": 36.82,
+  "end": 36.88,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "monsoon,",
+  "start": 36.88,
+  "end": 37.24,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "the",
+  "start": 37.42,
+  "end": 37.44,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "borders.",
+  "start": 37.44,
+  "end": 37.76,
+  "sentence": "Everything else stays the same: the land"
+ },
+ {
+  "word": "So",
+  "start": 38.36,
+  "end": 38.46,
+  "sentence": "So what changes?"
+ },
+ {
+  "word": "what",
+  "start": 38.46,
+  "end": 38.66,
+  "sentence": "So what changes?"
+ },
+ {
+  "word": "changes?",
+  "start": 38.66,
+  "end": 39.22,
+  "sentence": "So what changes?"
+ },
+ {
+  "word": "Start",
+  "start": 40.84,
+  "end": 41.02,
+  "sentence": "Start with space."
+ },
+ {
+  "word": "with",
+  "start": 41.02,
+  "end": 41.24,
+  "sentence": "Start with space."
+ },
+ {
+  "word": "space.",
+  "start": 41.24,
+  "end": 41.74,
+  "sentence": "Start with space."
+ },
+ {
+  "word": "Today,",
+  "start": 42.34,
+  "end": 42.7,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "India",
+  "start": 42.94,
+  "end": 42.94,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "has",
+  "start": 42.94,
+  "end": 43.18,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "about",
+  "start": 43.18,
+  "end": 43.7,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "490",
+  "start": 43.7,
+  "end": 43.88,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "people",
+  "start": 43.88,
+  "end": 44.34,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "for",
+  "start": 44.34,
+  "end": 44.62,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "every",
+  "start": 44.62,
+  "end": 44.82,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "square",
+  "start": 44.82,
+  "end": 45.04,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "kilometre.",
+  "start": 45.04,
+  "end": 45.62,
+  "sentence": "Today, India has about 490 people for ev"
+ },
+ {
+  "word": "At",
+  "start": 46.08,
+  "end": 46.183,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "200",
+  "start": 46.183,
+  "end": 46.337,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "million,",
+  "start": 46.337,
+  "end": 46.696,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "that",
+  "start": 46.696,
+  "end": 46.901,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "drops",
+  "start": 46.901,
+  "end": 47.158,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "to",
+  "start": 47.158,
+  "end": 47.261,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "about",
+  "start": 47.261,
+  "end": 47.517,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "67.",
+  "start": 47.517,
+  "end": 47.62,
+  "sentence": "At 200 million, that drops to about 67."
+ },
+ {
+  "word": "That's",
+  "start": 48.28,
+  "end": 48.54,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "roughly",
+  "start": 48.54,
+  "end": 48.54,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "the",
+  "start": 48.54,
+  "end": 48.7,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "same",
+  "start": 48.7,
+  "end": 48.78,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "as",
+  "start": 48.78,
+  "end": 49.08,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "Mexico",
+  "start": 49.08,
+  "end": 49.18,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "today.",
+  "start": 49.18,
+  "end": 49.62,
+  "sentence": "That's roughly the same as Mexico today."
+ },
+ {
+  "word": "Now",
+  "start": 50.02,
+  "end": 50.16,
+  "sentence": "Now think about an ordinary morning."
+ },
+ {
+  "word": "think",
+  "start": 50.16,
+  "end": 50.32,
+  "sentence": "Now think about an ordinary morning."
+ },
+ {
+  "word": "about",
+  "start": 50.32,
+  "end": 50.48,
+  "sentence": "Now think about an ordinary morning."
+ },
+ {
+  "word": "an",
+  "start": 50.48,
+  "end": 50.66,
+  "sentence": "Now think about an ordinary morning."
+ },
+ {
+  "word": "ordinary",
+  "start": 50.66,
+  "end": 50.92,
+  "sentence": "Now think about an ordinary morning."
+ },
+ {
+  "word": "morning.",
+  "start": 50.92,
+  "end": 51.36,
+  "sentence": "Now think about an ordinary morning."
+ },
+ {
+  "word": "Mumbai",
+  "start": 51.82,
+  "end": 52.139,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "packs",
+  "start": 52.139,
+  "end": 52.406,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "in",
+  "start": 52.406,
+  "end": 52.512,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "around",
+  "start": 52.512,
+  "end": 52.832,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "20,000",
+  "start": 52.832,
+  "end": 53.098,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "people",
+  "start": 53.098,
+  "end": 53.418,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "per",
+  "start": 53.418,
+  "end": 53.577,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "square",
+  "start": 53.577,
+  "end": 53.897,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "kilometre.",
+  "start": 53.897,
+  "end": 54.376,
+  "sentence": "Mumbai packs in around 20,000 people per"
+ },
+ {
+  "word": "Packed",
+  "start": 54.5,
+  "end": 55.06,
+  "sentence": "Packed trains."
+ },
+ {
+  "word": "trains.",
+  "start": 55.06,
+  "end": 55.42,
+  "sentence": "Packed trains."
+ },
+ {
+  "word": "Packed",
+  "start": 55.8,
+  "end": 56.0,
+  "sentence": "Packed buses."
+ },
+ {
+  "word": "buses.",
+  "start": 56.0,
+  "end": 56.28,
+  "sentence": "Packed buses."
+ },
+ {
+  "word": "Packed",
+  "start": 56.84,
+  "end": 57.04,
+  "sentence": "Packed classrooms."
+ },
+ {
+  "word": "classrooms.",
+  "start": 57.04,
+  "end": 57.48,
+  "sentence": "Packed classrooms."
+ },
+ {
+  "word": "In",
+  "start": 58.28,
+  "end": 58.383,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "a",
+  "start": 58.383,
+  "end": 58.434,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "200",
+  "start": 58.434,
+  "end": 58.588,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "million",
+  "start": 58.588,
+  "end": 58.947,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "India,",
+  "start": 58.947,
+  "end": 59.203,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "the",
+  "start": 59.203,
+  "end": 59.357,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "same",
+  "start": 59.357,
+  "end": 59.563,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "morning",
+  "start": 59.563,
+  "end": 59.922,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "looks",
+  "start": 59.922,
+  "end": 60.178,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "different.",
+  "start": 60.178,
+  "end": 60.64,
+  "sentence": "In a 200 million India, the same morning"
+ },
+ {
+  "word": "A",
+  "start": 61.18,
+  "end": 61.24,
+  "sentence": "A seat on the train."
+ },
+ {
+  "word": "seat",
+  "start": 61.24,
+  "end": 61.32,
+  "sentence": "A seat on the train."
+ },
+ {
+  "word": "on",
+  "start": 61.32,
+  "end": 61.36,
+  "sentence": "A seat on the train."
+ },
+ {
+  "word": "the",
+  "start": 61.36,
+  "end": 61.5,
+  "sentence": "A seat on the train."
+ },
+ {
+  "word": "train.",
+  "start": 61.5,
+  "end": 61.88,
+  "sentence": "A seat on the train."
+ },
+ {
+  "word": "A",
+  "start": 62.32,
+  "end": 62.357,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "shorter",
+  "start": 62.357,
+  "end": 62.617,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "queue",
+  "start": 62.617,
+  "end": 62.803,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "at",
+  "start": 62.803,
+  "end": 62.877,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "the",
+  "start": 62.877,
+  "end": 62.989,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "school",
+  "start": 62.989,
+  "end": 63.211,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "gate.",
+  "start": 63.211,
+  "end": 63.36,
+  "sentence": "A shorter queue at the school gate."
+ },
+ {
+  "word": "A",
+  "start": 63.82,
+  "end": 63.863,
+  "sentence": "A flat with a spare room."
+ },
+ {
+  "word": "flat",
+  "start": 63.863,
+  "end": 64.033,
+  "sentence": "A flat with a spare room."
+ },
+ {
+  "word": "with",
+  "start": 64.033,
+  "end": 64.204,
+  "sentence": "A flat with a spare room."
+ },
+ {
+  "word": "a",
+  "start": 64.204,
+  "end": 64.247,
+  "sentence": "A flat with a spare room."
+ },
+ {
+  "word": "spare",
+  "start": 64.247,
+  "end": 64.46,
+  "sentence": "A flat with a spare room."
+ },
+ {
+  "word": "room.",
+  "start": 64.46,
+  "end": 64.631,
+  "sentence": "A flat with a spare room."
+ },
+ {
+  "word": "Cities",
+  "start": 65.14,
+  "end": 65.32,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "would",
+  "start": 65.32,
+  "end": 65.52,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "likely",
+  "start": 65.52,
+  "end": 65.66,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "be",
+  "start": 65.66,
+  "end": 65.88,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "smaller,",
+  "start": 65.88,
+  "end": 66.14,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "with",
+  "start": 66.14,
+  "end": 66.44,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "more",
+  "start": 66.44,
+  "end": 66.64,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "space",
+  "start": 66.64,
+  "end": 66.84,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "between",
+  "start": 66.84,
+  "end": 67.02,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "the",
+  "start": 67.02,
+  "end": 67.18,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "buildings.",
+  "start": 67.18,
+  "end": 67.46,
+  "sentence": "Cities would likely be smaller, with mor"
+ },
+ {
+  "word": "But",
+  "start": 68.38,
+  "end": 68.5,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "there's",
+  "start": 68.5,
+  "end": 68.7,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "a",
+  "start": 68.7,
+  "end": 68.86,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "catch.",
+  "start": 68.86,
+  "end": 69.14,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "Fewer",
+  "start": 69.88,
+  "end": 70.16,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "people",
+  "start": 70.16,
+  "end": 70.42,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "also",
+  "start": 70.42,
+  "end": 70.76,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "means",
+  "start": 70.76,
+  "end": 71.04,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "fewer",
+  "start": 71.04,
+  "end": 71.28,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "taxpayers",
+  "start": 71.28,
+  "end": 71.68,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "to",
+  "start": 71.68,
+  "end": 72.0,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "build",
+  "start": 72.0,
+  "end": 72.16,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "and",
+  "start": 72.16,
+  "end": 72.3,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "run",
+  "start": 72.3,
+  "end": 72.46,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "the",
+  "start": 72.46,
+  "end": 72.62,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "railways,",
+  "start": 72.62,
+  "end": 72.88,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "the",
+  "start": 73.12,
+  "end": 73.2,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "roads",
+  "start": 73.2,
+  "end": 73.42,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "and",
+  "start": 73.42,
+  "end": 73.58,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "the",
+  "start": 73.58,
+  "end": 73.74,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "schools,",
+  "start": 73.74,
+  "end": 74.1,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "across",
+  "start": 74.1,
+  "end": 74.4,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "the",
+  "start": 74.4,
+  "end": 74.64,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "same",
+  "start": 74.64,
+  "end": 74.86,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "enormous",
+  "start": 74.86,
+  "end": 75.2,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "country.",
+  "start": 75.2,
+  "end": 75.78,
+  "sentence": "Fewer people also means fewer taxpayers "
+ },
+ {
+  "word": "Luckily,",
+  "start": 76.24,
+  "end": 76.36,
+  "sentence": "Luckily, there's more room."
+ },
+ {
+  "word": "there's",
+  "start": 76.46,
+  "end": 76.64,
+  "sentence": "Luckily, there's more room."
+ },
+ {
+  "word": "more",
+  "start": 76.64,
+  "end": 76.82,
+  "sentence": "Luckily, there's more room."
+ },
+ {
+  "word": "room.",
+  "start": 76.82,
+  "end": 77.3,
+  "sentence": "Luckily, there's more room."
+ },
+ {
+  "word": "Unluckily,",
+  "start": 77.9,
+  "end": 78.164,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "there's",
+  "start": 78.164,
+  "end": 78.341,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "less",
+  "start": 78.341,
+  "end": 78.458,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "money",
+  "start": 78.458,
+  "end": 78.605,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "to",
+  "start": 78.605,
+  "end": 78.664,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "fill",
+  "start": 78.664,
+  "end": 78.781,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "it.",
+  "start": 78.781,
+  "end": 78.84,
+  "sentence": "Unluckily, there's less money to fill it"
+ },
+ {
+  "word": "Now,",
+  "start": 80.6,
+  "end": 80.76,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "the",
+  "start": 80.76,
+  "end": 80.88,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "things",
+  "start": 80.88,
+  "end": 81.04,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "you",
+  "start": 81.04,
+  "end": 81.2,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "can't",
+  "start": 81.2,
+  "end": 81.34,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "make",
+  "start": 81.34,
+  "end": 81.48,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "more",
+  "start": 81.48,
+  "end": 81.68,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "of:",
+  "start": 81.68,
+  "end": 81.96,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "water,",
+  "start": 81.98,
+  "end": 82.24,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "land",
+  "start": 82.32,
+  "end": 82.48,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "and",
+  "start": 82.58,
+  "end": 83.22,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "food.",
+  "start": 83.22,
+  "end": 83.22,
+  "sentence": "Now, the things you can't make more of: "
+ },
+ {
+  "word": "Official",
+  "start": 83.318,
+  "end": 83.79,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "figures",
+  "start": 83.79,
+  "end": 84.203,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "put",
+  "start": 84.203,
+  "end": 84.38,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "India",
+  "start": 84.38,
+  "end": 84.675,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "at",
+  "start": 84.675,
+  "end": 84.793,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "roughly",
+  "start": 84.793,
+  "end": 85.206,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "1,500",
+  "start": 85.206,
+  "end": 85.443,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "cubic",
+  "start": 85.443,
+  "end": 85.738,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "metres",
+  "start": 85.738,
+  "end": 86.092,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "of",
+  "start": 86.092,
+  "end": 86.21,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "water",
+  "start": 86.21,
+  "end": 86.505,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "per",
+  "start": 86.505,
+  "end": 86.682,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "person",
+  "start": 86.682,
+  "end": 87.036,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "each",
+  "start": 87.036,
+  "end": 87.272,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "year.",
+  "start": 87.272,
+  "end": 87.508,
+  "sentence": "Official figures put India at roughly 1,"
+ },
+ {
+  "word": "Below",
+  "start": 88.02,
+  "end": 88.08,
+  "sentence": "Below 1,700 counts as water stressed."
+ },
+ {
+  "word": "1,700",
+  "start": 88.08,
+  "end": 88.46,
+  "sentence": "Below 1,700 counts as water stressed."
+ },
+ {
+  "word": "counts",
+  "start": 88.46,
+  "end": 88.86,
+  "sentence": "Below 1,700 counts as water stressed."
+ },
+ {
+  "word": "as",
+  "start": 88.86,
+  "end": 89.2,
+  "sentence": "Below 1,700 counts as water stressed."
+ },
+ {
+  "word": "water",
+  "start": 89.2,
+  "end": 89.38,
+  "sentence": "Below 1,700 counts as water stressed."
+ },
+ {
+  "word": "stressed.",
+  "start": 89.38,
+  "end": 89.76,
+  "sentence": "Below 1,700 counts as water stressed."
+ },
+ {
+  "word": "With",
+  "start": 90.2,
+  "end": 90.24,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "about",
+  "start": 90.24,
+  "end": 90.48,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "seven",
+  "start": 90.48,
+  "end": 90.68,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "times",
+  "start": 90.68,
+  "end": 91.02,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "fewer",
+  "start": 91.02,
+  "end": 91.26,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "people",
+  "start": 91.26,
+  "end": 91.6,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "sharing",
+  "start": 91.6,
+  "end": 91.86,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "the",
+  "start": 91.86,
+  "end": 92.06,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "same",
+  "start": 92.06,
+  "end": 92.26,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "rivers",
+  "start": 92.26,
+  "end": 92.52,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "and",
+  "start": 92.52,
+  "end": 92.74,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "groundwater,",
+  "start": 92.74,
+  "end": 93.08,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "each",
+  "start": 93.48,
+  "end": 93.58,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "person",
+  "start": 93.58,
+  "end": 93.74,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "would",
+  "start": 93.74,
+  "end": 93.88,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "have",
+  "start": 93.88,
+  "end": 94.0,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "about",
+  "start": 94.0,
+  "end": 94.24,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "seven",
+  "start": 94.24,
+  "end": 94.38,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "times",
+  "start": 94.38,
+  "end": 94.68,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "as",
+  "start": 94.68,
+  "end": 94.86,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "much.",
+  "start": 94.86,
+  "end": 95.26,
+  "sentence": "With about seven times fewer people shar"
+ },
+ {
+  "word": "More",
+  "start": 95.62,
+  "end": 95.8,
+  "sentence": "More farmland per person."
+ },
+ {
+  "word": "farmland",
+  "start": 95.8,
+  "end": 96.08,
+  "sentence": "More farmland per person."
+ },
+ {
+  "word": "per",
+  "start": 96.08,
+  "end": 96.38,
+  "sentence": "More farmland per person."
+ },
+ {
+  "word": "person.",
+  "start": 96.38,
+  "end": 96.78,
+  "sentence": "More farmland per person."
+ },
+ {
+  "word": "Less",
+  "start": 97.1,
+  "end": 97.3,
+  "sentence": "Less pressure on forests."
+ },
+ {
+  "word": "pressure",
+  "start": 97.3,
+  "end": 97.56,
+  "sentence": "Less pressure on forests."
+ },
+ {
+  "word": "on",
+  "start": 97.56,
+  "end": 97.86,
+  "sentence": "Less pressure on forests."
+ },
+ {
+  "word": "forests.",
+  "start": 97.86,
+  "end": 98.14,
+  "sentence": "Less pressure on forests."
+ },
+ {
+  "word": "Fewer",
+  "start": 98.54,
+  "end": 98.72,
+  "sentence": "Fewer vehicles and factories."
+ },
+ {
+  "word": "vehicles",
+  "start": 98.72,
+  "end": 99.04,
+  "sentence": "Fewer vehicles and factories."
+ },
+ {
+  "word": "and",
+  "start": 99.04,
+  "end": 99.28,
+  "sentence": "Fewer vehicles and factories."
+ },
+ {
+  "word": "factories.",
+  "start": 99.28,
+  "end": 99.76,
+  "sentence": "Fewer vehicles and factories."
+ },
+ {
+  "word": "But",
+  "start": 100.8,
+  "end": 100.9,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "pollution",
+  "start": 100.9,
+  "end": 101.14,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "isn't",
+  "start": 101.14,
+  "end": 101.48,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "only",
+  "start": 101.48,
+  "end": 101.66,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "about",
+  "start": 101.66,
+  "end": 101.92,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "how",
+  "start": 101.92,
+  "end": 102.08,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "many",
+  "start": 102.08,
+  "end": 102.16,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "people",
+  "start": 102.16,
+  "end": 102.4,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "there",
+  "start": 102.4,
+  "end": 102.6,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "are.",
+  "start": 102.6,
+  "end": 103.02,
+  "sentence": "But pollution isn't only about how many "
+ },
+ {
+  "word": "It's",
+  "start": 103.32,
+  "end": 103.36,
+  "sentence": "It's about how they live."
+ },
+ {
+  "word": "about",
+  "start": 103.36,
+  "end": 103.5,
+  "sentence": "It's about how they live."
+ },
+ {
+  "word": "how",
+  "start": 103.5,
+  "end": 103.64,
+  "sentence": "It's about how they live."
+ },
+ {
+  "word": "they",
+  "start": 103.64,
+  "end": 103.78,
+  "sentence": "It's about how they live."
+ },
+ {
+  "word": "live.",
+  "start": 103.78,
+  "end": 104.08,
+  "sentence": "It's about how they live."
+ },
+ {
+  "word": "A",
+  "start": 104.64,
+  "end": 104.691,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "smaller,",
+  "start": 104.691,
+  "end": 105.051,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "richer",
+  "start": 105.051,
+  "end": 105.36,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "India",
+  "start": 105.36,
+  "end": 105.617,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "might",
+  "start": 105.617,
+  "end": 105.874,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "drive",
+  "start": 105.874,
+  "end": 106.131,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "more",
+  "start": 106.131,
+  "end": 106.336,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "cars",
+  "start": 106.336,
+  "end": 106.542,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "and",
+  "start": 106.542,
+  "end": 106.696,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "use",
+  "start": 106.696,
+  "end": 106.85,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "more",
+  "start": 106.85,
+  "end": 107.056,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "electricity",
+  "start": 107.056,
+  "end": 107.621,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "per",
+  "start": 107.621,
+  "end": 107.776,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "person.",
+  "start": 107.776,
+  "end": 108.084,
+  "sentence": "A smaller, richer India might drive more"
+ },
+ {
+  "word": "Fewer",
+  "start": 108.52,
+  "end": 108.66,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "people",
+  "start": 108.66,
+  "end": 108.82,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "don't",
+  "start": 108.82,
+  "end": 109.08,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "automatically",
+  "start": 109.08,
+  "end": 109.38,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "mean",
+  "start": 109.38,
+  "end": 109.72,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "cleaner",
+  "start": 109.72,
+  "end": 109.94,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "air.",
+  "start": 109.94,
+  "end": 110.32,
+  "sentence": "Fewer people don't automatically mean cl"
+ },
+ {
+  "word": "They",
+  "start": 110.66,
+  "end": 110.78,
+  "sentence": "They just change the maths."
+ },
+ {
+  "word": "just",
+  "start": 110.78,
+  "end": 110.96,
+  "sentence": "They just change the maths."
+ },
+ {
+  "word": "change",
+  "start": 110.96,
+  "end": 111.12,
+  "sentence": "They just change the maths."
+ },
+ {
+  "word": "the",
+  "start": 111.12,
+  "end": 111.32,
+  "sentence": "They just change the maths."
+ },
+ {
+  "word": "maths.",
+  "start": 111.32,
+  "end": 111.6,
+  "sentence": "They just change the maths."
+ },
+ {
+  "word": "Farms",
+  "start": 113.4,
+  "end": 113.581,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "are",
+  "start": 113.581,
+  "end": 113.69,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "a",
+  "start": 113.69,
+  "end": 113.726,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "good",
+  "start": 113.726,
+  "end": 113.871,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "place",
+  "start": 113.871,
+  "end": 114.052,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "to",
+  "start": 114.052,
+  "end": 114.125,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "see",
+  "start": 114.125,
+  "end": 114.234,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "it.",
+  "start": 114.234,
+  "end": 114.306,
+  "sentence": "Farms are a good place to see it."
+ },
+ {
+  "word": "In",
+  "start": 115.08,
+  "end": 115.24,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "1970,",
+  "start": 115.54,
+  "end": 115.64,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "the",
+  "start": 115.64,
+  "end": 115.82,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "average",
+  "start": 115.82,
+  "end": 116.08,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "farm",
+  "start": 116.08,
+  "end": 116.18,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "in",
+  "start": 116.18,
+  "end": 116.38,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "India",
+  "start": 116.38,
+  "end": 116.58,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "was",
+  "start": 116.58,
+  "end": 116.78,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "about",
+  "start": 116.78,
+  "end": 117.08,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "2.3",
+  "start": 117.08,
+  "end": 117.4,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "hectares.",
+  "start": 117.4,
+  "end": 117.92,
+  "sentence": "In 1970, the average farm in India was a"
+ },
+ {
+  "word": "By",
+  "start": 118.56,
+  "end": 118.86,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "2015,",
+  "start": 119.06,
+  "end": 119.1,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "it",
+  "start": 119.1,
+  "end": 119.3,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "had",
+  "start": 119.3,
+  "end": 119.42,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "shrunk",
+  "start": 119.42,
+  "end": 119.56,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "to",
+  "start": 119.56,
+  "end": 119.8,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "about",
+  "start": 119.8,
+  "end": 120.04,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "1.08.",
+  "start": 120.04,
+  "end": 120.42,
+  "sentence": "By 2015, it had shrunk to about 1.08."
+ },
+ {
+  "word": "Why?",
+  "start": 121.1,
+  "end": 121.38,
+  "sentence": "Why?"
+ },
+ {
+  "word": "Land",
+  "start": 122.3,
+  "end": 122.46,
+  "sentence": "Land gets divided as families grow."
+ },
+ {
+  "word": "gets",
+  "start": 122.46,
+  "end": 122.64,
+  "sentence": "Land gets divided as families grow."
+ },
+ {
+  "word": "divided",
+  "start": 122.64,
+  "end": 122.84,
+  "sentence": "Land gets divided as families grow."
+ },
+ {
+  "word": "as",
+  "start": 122.84,
+  "end": 123.1,
+  "sentence": "Land gets divided as families grow."
+ },
+ {
+  "word": "families",
+  "start": 123.1,
+  "end": 123.26,
+  "sentence": "Land gets divided as families grow."
+ },
+ {
+  "word": "grow.",
+  "start": 123.26,
+  "end": 123.62,
+  "sentence": "Land gets divided as families grow."
+ },
+ {
+  "word": "Today,",
+  "start": 124.06,
+  "end": 124.36,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "around",
+  "start": 124.5,
+  "end": 124.76,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "86",
+  "start": 124.76,
+  "end": 125.02,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "percent",
+  "start": 125.02,
+  "end": 125.44,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "of",
+  "start": 125.44,
+  "end": 125.54,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "Indian",
+  "start": 125.54,
+  "end": 125.74,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "farms",
+  "start": 125.74,
+  "end": 126.02,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "are",
+  "start": 126.02,
+  "end": 126.26,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "smaller",
+  "start": 126.26,
+  "end": 126.52,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "than",
+  "start": 126.52,
+  "end": 126.68,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "two",
+  "start": 126.68,
+  "end": 126.82,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "hectares.",
+  "start": 126.82,
+  "end": 127.2,
+  "sentence": "Today, around 86 percent of Indian farms"
+ },
+ {
+  "word": "In",
+  "start": 127.78,
+  "end": 127.877,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "a",
+  "start": 127.877,
+  "end": 127.925,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "country",
+  "start": 127.925,
+  "end": 128.264,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "whose",
+  "start": 128.264,
+  "end": 128.507,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "population",
+  "start": 128.507,
+  "end": 128.991,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "stopped",
+  "start": 128.991,
+  "end": 129.33,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "growing,",
+  "start": 129.33,
+  "end": 129.669,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "farms",
+  "start": 129.669,
+  "end": 129.911,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "would",
+  "start": 129.911,
+  "end": 130.154,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "be",
+  "start": 130.154,
+  "end": 130.25,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "split",
+  "start": 130.25,
+  "end": 130.493,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "far",
+  "start": 130.493,
+  "end": 130.638,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "less",
+  "start": 130.638,
+  "end": 130.832,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "often.",
+  "start": 130.832,
+  "end": 131.074,
+  "sentence": "In a country whose population stopped gr"
+ },
+ {
+  "word": "Bigger",
+  "start": 131.54,
+  "end": 131.72,
+  "sentence": "Bigger farms."
+ },
+ {
+  "word": "farms.",
+  "start": 131.72,
+  "end": 132.06,
+  "sentence": "Bigger farms."
+ },
+ {
+  "word": "More",
+  "start": 132.46,
+  "end": 132.6,
+  "sentence": "More machines per field."
+ },
+ {
+  "word": "machines",
+  "start": 132.6,
+  "end": 132.92,
+  "sentence": "More machines per field."
+ },
+ {
+  "word": "per",
+  "start": 132.92,
+  "end": 133.16,
+  "sentence": "More machines per field."
+ },
+ {
+  "word": "field.",
+  "start": 133.16,
+  "end": 133.54,
+  "sentence": "More machines per field."
+ },
+ {
+  "word": "Maybe",
+  "start": 134.22,
+  "end": 134.42,
+  "sentence": "Maybe higher earnings for each farmer."
+ },
+ {
+  "word": "higher",
+  "start": 134.42,
+  "end": 134.6,
+  "sentence": "Maybe higher earnings for each farmer."
+ },
+ {
+  "word": "earnings",
+  "start": 134.6,
+  "end": 134.8,
+  "sentence": "Maybe higher earnings for each farmer."
+ },
+ {
+  "word": "for",
+  "start": 134.8,
+  "end": 134.88,
+  "sentence": "Maybe higher earnings for each farmer."
+ },
+ {
+  "word": "each",
+  "start": 134.88,
+  "end": 135.14,
+  "sentence": "Maybe higher earnings for each farmer."
+ },
+ {
+  "word": "farmer.",
+  "start": 135.14,
+  "end": 135.32,
+  "sentence": "Maybe higher earnings for each farmer."
+ },
+ {
+  "word": "Maybe.",
+  "start": 135.9,
+  "end": 136.3,
+  "sentence": "Maybe."
+ },
+ {
+  "word": "A",
+  "start": 137.1,
+  "end": 137.144,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "bigger",
+  "start": 137.144,
+  "end": 137.409,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "farm",
+  "start": 137.409,
+  "end": 137.586,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "isn't",
+  "start": 137.586,
+  "end": 137.762,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "automatically",
+  "start": 137.762,
+  "end": 138.336,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "a",
+  "start": 138.336,
+  "end": 138.381,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "better",
+  "start": 138.381,
+  "end": 138.646,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "one.",
+  "start": 138.646,
+  "end": 138.778,
+  "sentence": "A bigger farm isn't automatically a bett"
+ },
+ {
+  "word": "But",
+  "start": 139.7,
+  "end": 139.817,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "a",
+  "start": 139.817,
+  "end": 139.856,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "farmer",
+  "start": 139.856,
+  "end": 140.089,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "with",
+  "start": 140.089,
+  "end": 140.245,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "more",
+  "start": 140.245,
+  "end": 140.4,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "land",
+  "start": 140.4,
+  "end": 140.556,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "and",
+  "start": 140.556,
+  "end": 140.673,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "fewer",
+  "start": 140.673,
+  "end": 140.867,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "people",
+  "start": 140.867,
+  "end": 141.101,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "to",
+  "start": 141.101,
+  "end": 141.178,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "share",
+  "start": 141.178,
+  "end": 141.373,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "it",
+  "start": 141.373,
+  "end": 141.451,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "with",
+  "start": 141.451,
+  "end": 141.606,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "starts",
+  "start": 141.606,
+  "end": 141.84,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "from",
+  "start": 141.84,
+  "end": 141.995,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "a",
+  "start": 141.995,
+  "end": 142.034,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "stronger",
+  "start": 142.034,
+  "end": 142.345,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "place.",
+  "start": 142.345,
+  "end": 142.54,
+  "sentence": "But a farmer with more land and fewer pe"
+ },
+ {
+  "word": "Now,",
+  "start": 144.54,
+  "end": 144.7,
+  "sentence": "Now, the money question."
+ },
+ {
+  "word": "the",
+  "start": 144.7,
+  "end": 144.84,
+  "sentence": "Now, the money question."
+ },
+ {
+  "word": "money",
+  "start": 144.84,
+  "end": 145.02,
+  "sentence": "Now, the money question."
+ },
+ {
+  "word": "question.",
+  "start": 145.02,
+  "end": 145.74,
+  "sentence": "Now, the money question."
+ },
+ {
+  "word": "India's",
+  "start": 146.38,
+  "end": 146.74,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "economy",
+  "start": 146.74,
+  "end": 146.8,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "is",
+  "start": 146.8,
+  "end": 147.12,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "worth",
+  "start": 147.12,
+  "end": 147.3,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "about",
+  "start": 147.3,
+  "end": 147.7,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "4.3",
+  "start": 147.7,
+  "end": 147.88,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "trillion",
+  "start": 147.88,
+  "end": 148.26,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "dollars",
+  "start": 148.26,
+  "end": 148.6,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "a",
+  "start": 148.6,
+  "end": 148.9,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "year.",
+  "start": 148.9,
+  "end": 149.4,
+  "sentence": "India's economy is worth about 4.3 trill"
+ },
+ {
+  "word": "Divide",
+  "start": 149.6,
+  "end": 150.028,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "that",
+  "start": 150.028,
+  "end": 150.314,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "by",
+  "start": 150.314,
+  "end": 150.456,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "1.46",
+  "start": 150.456,
+  "end": 150.671,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "billion",
+  "start": 150.671,
+  "end": 151.17,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "people,",
+  "start": 151.17,
+  "end": 151.598,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "and",
+  "start": 151.598,
+  "end": 151.813,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "you",
+  "start": 151.813,
+  "end": 152.027,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "get",
+  "start": 152.027,
+  "end": 152.241,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "roughly",
+  "start": 152.241,
+  "end": 152.74,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "2,800",
+  "start": 152.74,
+  "end": 153.026,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "dollars",
+  "start": 153.026,
+  "end": 153.526,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "each.",
+  "start": 153.526,
+  "end": 153.811,
+  "sentence": "Divide that by 1.46 billion people, and "
+ },
+ {
+  "word": "Now",
+  "start": 154.28,
+  "end": 154.36,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "divide",
+  "start": 154.36,
+  "end": 154.58,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "the",
+  "start": 154.58,
+  "end": 154.78,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "same",
+  "start": 154.78,
+  "end": 154.9,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "economy",
+  "start": 154.9,
+  "end": 155.2,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "by",
+  "start": 155.2,
+  "end": 155.42,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "200",
+  "start": 155.42,
+  "end": 155.82,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "million.",
+  "start": 155.82,
+  "end": 156.2,
+  "sentence": "Now divide the same economy by 200 milli"
+ },
+ {
+  "word": "That's",
+  "start": 156.56,
+  "end": 156.72,
+  "sentence": "That's about 21,500 dollars each."
+ },
+ {
+  "word": "about",
+  "start": 156.72,
+  "end": 156.92,
+  "sentence": "That's about 21,500 dollars each."
+ },
+ {
+  "word": "21,500",
+  "start": 156.92,
+  "end": 157.12,
+  "sentence": "That's about 21,500 dollars each."
+ },
+ {
+  "word": "dollars",
+  "start": 157.12,
+  "end": 157.56,
+  "sentence": "That's about 21,500 dollars each."
+ },
+ {
+  "word": "each.",
+  "start": 157.56,
+  "end": 158.2,
+  "sentence": "That's about 21,500 dollars each."
+ },
+ {
+  "word": "More",
+  "start": 158.54,
+  "end": 158.64,
+  "sentence": "More than seven times richer."
+ },
+ {
+  "word": "than",
+  "start": 158.64,
+  "end": 158.76,
+  "sentence": "More than seven times richer."
+ },
+ {
+  "word": "seven",
+  "start": 158.76,
+  "end": 158.96,
+  "sentence": "More than seven times richer."
+ },
+ {
+  "word": "times",
+  "start": 158.96,
+  "end": 159.14,
+  "sentence": "More than seven times richer."
+ },
+ {
+  "word": "richer.",
+  "start": 159.14,
+  "end": 159.42,
+  "sentence": "More than seven times richer."
+ },
+ {
+  "word": "Sounds",
+  "start": 159.8,
+  "end": 160.04,
+  "sentence": "Sounds perfect, right?"
+ },
+ {
+  "word": "perfect,",
+  "start": 160.04,
+  "end": 160.42,
+  "sentence": "Sounds perfect, right?"
+ },
+ {
+  "word": "right?",
+  "start": 160.42,
+  "end": 160.88,
+  "sentence": "Sounds perfect, right?"
+ },
+ {
+  "word": "Here's",
+  "start": 161.54,
+  "end": 161.82,
+  "sentence": "Here's the trap."
+ },
+ {
+  "word": "the",
+  "start": 161.82,
+  "end": 161.98,
+  "sentence": "Here's the trap."
+ },
+ {
+  "word": "trap.",
+  "start": 161.98,
+  "end": 162.24,
+  "sentence": "Here's the trap."
+ },
+ {
+  "word": "The",
+  "start": 163.02,
+  "end": 163.149,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "economy",
+  "start": 163.149,
+  "end": 163.451,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "wouldn't",
+  "start": 163.451,
+  "end": 163.753,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "stay",
+  "start": 163.753,
+  "end": 163.926,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "the",
+  "start": 163.926,
+  "end": 164.055,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "same",
+  "start": 164.055,
+  "end": 164.228,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "size.",
+  "start": 164.228,
+  "end": 164.4,
+  "sentence": "The economy wouldn't stay the same size."
+ },
+ {
+  "word": "An",
+  "start": 164.92,
+  "end": 165.004,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "economy",
+  "start": 165.004,
+  "end": 165.299,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "isn't",
+  "start": 165.299,
+  "end": 165.467,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "a",
+  "start": 165.467,
+  "end": 165.509,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "pie",
+  "start": 165.509,
+  "end": 165.636,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "that",
+  "start": 165.636,
+  "end": 165.804,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "gets",
+  "start": 165.804,
+  "end": 165.973,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "sliced",
+  "start": 165.973,
+  "end": 166.225,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "thinner.",
+  "start": 166.225,
+  "end": 166.52,
+  "sentence": "An economy isn't a pie that gets sliced "
+ },
+ {
+  "word": "It's",
+  "start": 167.08,
+  "end": 167.22,
+  "sentence": "It's made by people."
+ },
+ {
+  "word": "made",
+  "start": 167.22,
+  "end": 167.4,
+  "sentence": "It's made by people."
+ },
+ {
+  "word": "by",
+  "start": 167.4,
+  "end": 167.62,
+  "sentence": "It's made by people."
+ },
+ {
+  "word": "people.",
+  "start": 167.62,
+  "end": 168.0,
+  "sentence": "It's made by people."
+ },
+ {
+  "word": "Workers.",
+  "start": 168.0,
+  "end": 168.64,
+  "sentence": "Workers."
+ },
+ {
+  "word": "Customers.",
+  "start": 169.24,
+  "end": 169.48,
+  "sentence": "Customers."
+ },
+ {
+  "word": "Engineers.",
+  "start": 170.16,
+  "end": 170.46,
+  "sentence": "Engineers."
+ },
+ {
+  "word": "Farmers.",
+  "start": 171.02,
+  "end": 171.4,
+  "sentence": "Farmers."
+ },
+ {
+  "word": "Shop",
+  "start": 171.94,
+  "end": 172.06,
+  "sentence": "Shop owners."
+ },
+ {
+  "word": "owners.",
+  "start": 172.06,
+  "end": 172.56,
+  "sentence": "Shop owners."
+ },
+ {
+  "word": "Take",
+  "start": 173.2,
+  "end": 173.32,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "most",
+  "start": 173.32,
+  "end": 173.56,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "of",
+  "start": 173.56,
+  "end": 173.68,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "them",
+  "start": 173.68,
+  "end": 173.78,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "away,",
+  "start": 173.78,
+  "end": 174.06,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "and",
+  "start": 174.06,
+  "end": 174.2,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "you",
+  "start": 174.2,
+  "end": 174.3,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "don't",
+  "start": 174.3,
+  "end": 174.48,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "just",
+  "start": 174.48,
+  "end": 174.68,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "have",
+  "start": 174.68,
+  "end": 174.84,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "fewer",
+  "start": 174.84,
+  "end": 175.04,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "mouths.",
+  "start": 175.04,
+  "end": 175.46,
+  "sentence": "Take most of them away, and you don't ju"
+ },
+ {
+  "word": "You",
+  "start": 176.04,
+  "end": 176.04,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "have",
+  "start": 176.04,
+  "end": 176.22,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "far",
+  "start": 176.22,
+  "end": 176.36,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "fewer",
+  "start": 176.36,
+  "end": 176.58,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "hands,",
+  "start": 176.58,
+  "end": 176.78,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "and",
+  "start": 176.78,
+  "end": 177.06,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "far",
+  "start": 177.06,
+  "end": 177.2,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "fewer",
+  "start": 177.2,
+  "end": 177.34,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "buyers.",
+  "start": 177.34,
+  "end": 177.78,
+  "sentence": "You have far fewer hands, and far fewer "
+ },
+ {
+  "word": "India's",
+  "start": 178.28,
+  "end": 178.34,
+  "sentence": "India's median age is about 29."
+ },
+ {
+  "word": "median",
+  "start": 178.34,
+  "end": 178.6,
+  "sentence": "India's median age is about 29."
+ },
+ {
+  "word": "age",
+  "start": 178.6,
+  "end": 179.0,
+  "sentence": "India's median age is about 29."
+ },
+ {
+  "word": "is",
+  "start": 179.0,
+  "end": 179.2,
+  "sentence": "India's median age is about 29."
+ },
+ {
+  "word": "about",
+  "start": 179.2,
+  "end": 179.4,
+  "sentence": "India's median age is about 29."
+ },
+ {
+  "word": "29.",
+  "start": 179.4,
+  "end": 179.94,
+  "sentence": "India's median age is about 29."
+ },
+ {
+  "word": "In",
+  "start": 180.36,
+  "end": 180.48,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "the",
+  "start": 180.48,
+  "end": 180.48,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "United",
+  "start": 180.48,
+  "end": 180.7,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "States,",
+  "start": 180.7,
+  "end": 180.94,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "it's",
+  "start": 180.94,
+  "end": 181.16,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "about",
+  "start": 181.16,
+  "end": 181.28,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "39.",
+  "start": 181.28,
+  "end": 181.7,
+  "sentence": "In the United States, it's about 39."
+ },
+ {
+  "word": "In",
+  "start": 182.3,
+  "end": 182.4,
+  "sentence": "In China, about 40."
+ },
+ {
+  "word": "China,",
+  "start": 182.4,
+  "end": 182.64,
+  "sentence": "In China, about 40."
+ },
+ {
+  "word": "about",
+  "start": 182.64,
+  "end": 182.92,
+  "sentence": "In China, about 40."
+ },
+ {
+  "word": "40.",
+  "start": 182.92,
+  "end": 183.44,
+  "sentence": "In China, about 40."
+ },
+ {
+  "word": "That's",
+  "start": 183.68,
+  "end": 183.82,
+  "sentence": "That's an enormous young workforce."
+ },
+ {
+  "word": "an",
+  "start": 183.82,
+  "end": 183.86,
+  "sentence": "That's an enormous young workforce."
+ },
+ {
+  "word": "enormous",
+  "start": 183.86,
+  "end": 184.06,
+  "sentence": "That's an enormous young workforce."
+ },
+ {
+  "word": "young",
+  "start": 184.06,
+  "end": 184.26,
+  "sentence": "That's an enormous young workforce."
+ },
+ {
+  "word": "workforce.",
+  "start": 184.26,
+  "end": 184.62,
+  "sentence": "That's an enormous young workforce."
+ },
+ {
+  "word": "A",
+  "start": 185.46,
+  "end": 185.509,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "200",
+  "start": 185.509,
+  "end": 185.657,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "million",
+  "start": 185.657,
+  "end": 186.001,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "India",
+  "start": 186.001,
+  "end": 186.247,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "would",
+  "start": 186.247,
+  "end": 186.493,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "have",
+  "start": 186.493,
+  "end": 186.689,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "a",
+  "start": 186.689,
+  "end": 186.739,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "smaller",
+  "start": 186.739,
+  "end": 187.083,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "market,",
+  "start": 187.083,
+  "end": 187.378,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "a",
+  "start": 187.378,
+  "end": 187.427,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "smaller",
+  "start": 187.427,
+  "end": 187.771,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "workforce,",
+  "start": 187.771,
+  "end": 188.214,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "and",
+  "start": 188.214,
+  "end": 188.361,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "less",
+  "start": 188.361,
+  "end": 188.558,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "weight",
+  "start": 188.558,
+  "end": 188.853,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "in",
+  "start": 188.853,
+  "end": 188.952,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "the",
+  "start": 188.952,
+  "end": 189.099,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "world.",
+  "start": 189.099,
+  "end": 189.345,
+  "sentence": "A 200 million India would have a smaller"
+ },
+ {
+  "word": "So",
+  "start": 190.16,
+  "end": 190.26,
+  "sentence": "So would people be richer?"
+ },
+ {
+  "word": "would",
+  "start": 190.26,
+  "end": 190.42,
+  "sentence": "So would people be richer?"
+ },
+ {
+  "word": "people",
+  "start": 190.42,
+  "end": 190.6,
+  "sentence": "So would people be richer?"
+ },
+ {
+  "word": "be",
+  "start": 190.6,
+  "end": 190.84,
+  "sentence": "So would people be richer?"
+ },
+ {
+  "word": "richer?",
+  "start": 190.84,
+  "end": 191.12,
+  "sentence": "So would people be richer?"
+ },
+ {
+  "word": "Maybe.",
+  "start": 192.04,
+  "end": 192.52,
+  "sentence": "Maybe."
+ },
+ {
+  "word": "It",
+  "start": 193.26,
+  "end": 193.339,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "depends",
+  "start": 193.339,
+  "end": 193.617,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "on",
+  "start": 193.617,
+  "end": 193.696,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "whether",
+  "start": 193.696,
+  "end": 193.974,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "the",
+  "start": 193.974,
+  "end": 194.093,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "economy",
+  "start": 194.093,
+  "end": 194.37,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "shrinks",
+  "start": 194.37,
+  "end": 194.648,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "faster",
+  "start": 194.648,
+  "end": 194.886,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "than",
+  "start": 194.886,
+  "end": 195.044,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "the",
+  "start": 195.044,
+  "end": 195.163,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "population.",
+  "start": 195.163,
+  "end": 195.56,
+  "sentence": "It depends on whether the economy shrink"
+ },
+ {
+  "word": "History",
+  "start": 196.3,
+  "end": 196.614,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "has",
+  "start": 196.614,
+  "end": 196.749,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "both:",
+  "start": 196.749,
+  "end": 196.928,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "small",
+  "start": 196.928,
+  "end": 197.152,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "countries",
+  "start": 197.152,
+  "end": 197.556,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "that",
+  "start": 197.556,
+  "end": 197.735,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "are",
+  "start": 197.735,
+  "end": 197.87,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "very",
+  "start": 197.87,
+  "end": 198.049,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "rich,",
+  "start": 198.049,
+  "end": 198.229,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "and",
+  "start": 198.229,
+  "end": 198.363,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "small",
+  "start": 198.363,
+  "end": 198.588,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "countries",
+  "start": 198.588,
+  "end": 198.991,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "that",
+  "start": 198.991,
+  "end": 199.171,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "are",
+  "start": 199.171,
+  "end": 199.305,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "very",
+  "start": 199.305,
+  "end": 199.485,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "poor.",
+  "start": 199.485,
+  "end": 199.664,
+  "sentence": "History has both: small countries that a"
+ },
+ {
+  "word": "Size",
+  "start": 200.2,
+  "end": 200.311,
+  "sentence": "Size alone doesn't decide it."
+ },
+ {
+  "word": "alone",
+  "start": 200.311,
+  "end": 200.45,
+  "sentence": "Size alone doesn't decide it."
+ },
+ {
+  "word": "doesn't",
+  "start": 200.45,
+  "end": 200.617,
+  "sentence": "Size alone doesn't decide it."
+ },
+ {
+  "word": "decide",
+  "start": 200.617,
+  "end": 200.784,
+  "sentence": "Size alone doesn't decide it."
+ },
+ {
+  "word": "it.",
+  "start": 200.784,
+  "end": 200.84,
+  "sentence": "Size alone doesn't decide it."
+ },
+ {
+  "word": "Now",
+  "start": 202.7,
+  "end": 202.76,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "the",
+  "start": 202.76,
+  "end": 202.88,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "part",
+  "start": 202.88,
+  "end": 203.04,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "that",
+  "start": 203.04,
+  "end": 203.18,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "worries",
+  "start": 203.18,
+  "end": 203.34,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "economists",
+  "start": 203.34,
+  "end": 203.66,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "most:",
+  "start": 203.66,
+  "end": 204.04,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "jobs.",
+  "start": 204.04,
+  "end": 204.66,
+  "sentence": "Now the part that worries economists mos"
+ },
+ {
+  "word": "Every",
+  "start": 205.22,
+  "end": 205.451,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "year,",
+  "start": 205.451,
+  "end": 205.636,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "millions",
+  "start": 205.636,
+  "end": 206.006,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "of",
+  "start": 206.006,
+  "end": 206.099,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "young",
+  "start": 206.099,
+  "end": 206.33,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "Indians",
+  "start": 206.33,
+  "end": 206.654,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "reach",
+  "start": 206.654,
+  "end": 206.885,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "working",
+  "start": 206.885,
+  "end": 207.209,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "age",
+  "start": 207.209,
+  "end": 207.347,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "and",
+  "start": 207.347,
+  "end": 207.486,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "look",
+  "start": 207.486,
+  "end": 207.671,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "for",
+  "start": 207.671,
+  "end": 207.81,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "work.",
+  "start": 207.81,
+  "end": 207.995,
+  "sentence": "Every year, millions of young Indians re"
+ },
+ {
+  "word": "Estimates",
+  "start": 208.58,
+  "end": 208.66,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "of",
+  "start": 208.66,
+  "end": 208.92,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "how",
+  "start": 208.92,
+  "end": 209.1,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "many",
+  "start": 209.1,
+  "end": 209.26,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "new",
+  "start": 209.26,
+  "end": 209.48,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "jobs",
+  "start": 209.48,
+  "end": 209.86,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "India",
+  "start": 209.86,
+  "end": 210.1,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "needs",
+  "start": 210.1,
+  "end": 210.42,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "each",
+  "start": 210.42,
+  "end": 210.64,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "year",
+  "start": 210.64,
+  "end": 210.82,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "range",
+  "start": 210.82,
+  "end": 211.08,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "from",
+  "start": 211.08,
+  "end": 211.24,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "about",
+  "start": 211.24,
+  "end": 211.5,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "8",
+  "start": 211.5,
+  "end": 211.74,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "million",
+  "start": 211.74,
+  "end": 211.96,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "to",
+  "start": 211.96,
+  "end": 212.12,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "over",
+  "start": 212.12,
+  "end": 212.26,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "20",
+  "start": 212.26,
+  "end": 212.58,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "million,",
+  "start": 212.58,
+  "end": 213.0,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "depending",
+  "start": 213.0,
+  "end": 213.24,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "on",
+  "start": 213.24,
+  "end": 213.4,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "who's",
+  "start": 213.4,
+  "end": 213.62,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "counting.",
+  "start": 213.62,
+  "end": 214.0,
+  "sentence": "Estimates of how many new jobs India nee"
+ },
+ {
+  "word": "Creating",
+  "start": 214.48,
+  "end": 214.7,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "that",
+  "start": 214.7,
+  "end": 214.96,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "many",
+  "start": 214.96,
+  "end": 215.16,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "jobs,",
+  "start": 215.16,
+  "end": 215.6,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "year",
+  "start": 215.6,
+  "end": 215.82,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "after",
+  "start": 215.82,
+  "end": 216.02,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "year,",
+  "start": 216.02,
+  "end": 216.22,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "is",
+  "start": 216.22,
+  "end": 216.44,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "one",
+  "start": 216.44,
+  "end": 216.54,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "of",
+  "start": 216.54,
+  "end": 216.64,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "the",
+  "start": 216.64,
+  "end": 216.98,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "hardest",
+  "start": 216.98,
+  "end": 216.98,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "problems",
+  "start": 216.98,
+  "end": 217.34,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "the",
+  "start": 217.34,
+  "end": 217.54,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "country",
+  "start": 217.54,
+  "end": 217.66,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "faces.",
+  "start": 217.66,
+  "end": 218.08,
+  "sentence": "Creating that many jobs, year after year"
+ },
+ {
+  "word": "In",
+  "start": 218.66,
+  "end": 218.769,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "a",
+  "start": 218.769,
+  "end": 218.824,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "200",
+  "start": 218.824,
+  "end": 218.987,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "million",
+  "start": 218.987,
+  "end": 219.369,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "India,",
+  "start": 219.369,
+  "end": 219.641,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "far",
+  "start": 219.641,
+  "end": 219.805,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "fewer",
+  "start": 219.805,
+  "end": 220.077,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "young",
+  "start": 220.077,
+  "end": 220.35,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "people",
+  "start": 220.35,
+  "end": 220.677,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "would",
+  "start": 220.677,
+  "end": 220.95,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "arrive",
+  "start": 220.95,
+  "end": 221.277,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "each",
+  "start": 221.277,
+  "end": 221.495,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "year.",
+  "start": 221.495,
+  "end": 221.713,
+  "sentence": "In a 200 million India, far fewer young "
+ },
+ {
+  "word": "Less",
+  "start": 222.16,
+  "end": 222.342,
+  "sentence": "Less competition for each job."
+ },
+ {
+  "word": "competition",
+  "start": 222.342,
+  "end": 222.844,
+  "sentence": "Less competition for each job."
+ },
+ {
+  "word": "for",
+  "start": 222.844,
+  "end": 222.981,
+  "sentence": "Less competition for each job."
+ },
+ {
+  "word": "each",
+  "start": 222.981,
+  "end": 223.163,
+  "sentence": "Less competition for each job."
+ },
+ {
+  "word": "job.",
+  "start": 223.163,
+  "end": 223.3,
+  "sentence": "Less competition for each job."
+ },
+ {
+  "word": "Wages",
+  "start": 223.6,
+  "end": 223.86,
+  "sentence": "Wages might rise."
+ },
+ {
+  "word": "might",
+  "start": 223.86,
+  "end": 224.12,
+  "sentence": "Wages might rise."
+ },
+ {
+  "word": "rise.",
+  "start": 224.12,
+  "end": 224.52,
+  "sentence": "Wages might rise."
+ },
+ {
+  "word": "But",
+  "start": 225.44,
+  "end": 225.596,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "there's",
+  "start": 225.596,
+  "end": 225.908,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "a",
+  "start": 225.908,
+  "end": 225.96,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "catch.",
+  "start": 225.96,
+  "end": 226.22,
+  "sentence": "But there's a catch."
+ },
+ {
+  "word": "Fewer",
+  "start": 226.88,
+  "end": 227.1,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "people",
+  "start": 227.1,
+  "end": 227.38,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "also",
+  "start": 227.38,
+  "end": 227.66,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "means",
+  "start": 227.66,
+  "end": 227.9,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "fewer",
+  "start": 227.9,
+  "end": 228.1,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "customers",
+  "start": 228.1,
+  "end": 228.4,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "to",
+  "start": 228.4,
+  "end": 228.66,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "hire",
+  "start": 228.66,
+  "end": 228.86,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "for,",
+  "start": 228.86,
+  "end": 229.22,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "fewer",
+  "start": 229.22,
+  "end": 229.42,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "new",
+  "start": 229.42,
+  "end": 229.6,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "businesses,",
+  "start": 229.6,
+  "end": 229.94,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "and",
+  "start": 229.94,
+  "end": 230.26,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "fewer",
+  "start": 230.26,
+  "end": 230.48,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "ideas.",
+  "start": 230.48,
+  "end": 230.98,
+  "sentence": "Fewer people also means fewer customers "
+ },
+ {
+  "word": "Jobs",
+  "start": 231.5,
+  "end": 231.64,
+  "sentence": "Jobs aren't a fixed number."
+ },
+ {
+  "word": "aren't",
+  "start": 231.64,
+  "end": 231.8,
+  "sentence": "Jobs aren't a fixed number."
+ },
+ {
+  "word": "a",
+  "start": 231.8,
+  "end": 231.96,
+  "sentence": "Jobs aren't a fixed number."
+ },
+ {
+  "word": "fixed",
+  "start": 231.96,
+  "end": 232.08,
+  "sentence": "Jobs aren't a fixed number."
+ },
+ {
+  "word": "number.",
+  "start": 232.08,
+  "end": 232.44,
+  "sentence": "Jobs aren't a fixed number."
+ },
+ {
+  "word": "They're",
+  "start": 232.94,
+  "end": 233.175,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "created",
+  "start": 233.175,
+  "end": 233.448,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "by",
+  "start": 233.448,
+  "end": 233.527,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "demand,",
+  "start": 233.527,
+  "end": 233.761,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "and",
+  "start": 233.761,
+  "end": 233.879,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "demand",
+  "start": 233.879,
+  "end": 234.113,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "comes",
+  "start": 234.113,
+  "end": 234.309,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "from",
+  "start": 234.309,
+  "end": 234.465,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "people.",
+  "start": 234.465,
+  "end": 234.7,
+  "sentence": "They're created by demand, and demand co"
+ },
+ {
+  "word": "Here's",
+  "start": 236.52,
+  "end": 236.72,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "a",
+  "start": 236.72,
+  "end": 236.86,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "deeper",
+  "start": 236.86,
+  "end": 237.0,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "reason",
+  "start": 237.0,
+  "end": 237.24,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "a",
+  "start": 237.24,
+  "end": 237.4,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "big",
+  "start": 237.4,
+  "end": 237.52,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "population",
+  "start": 237.52,
+  "end": 237.88,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "matters.",
+  "start": 237.88,
+  "end": 238.26,
+  "sentence": "Here's a deeper reason a big population "
+ },
+ {
+  "word": "Economists",
+  "start": 238.98,
+  "end": 239.14,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "have",
+  "start": 239.14,
+  "end": 239.34,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "long",
+  "start": 239.34,
+  "end": 239.64,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "argued",
+  "start": 239.64,
+  "end": 239.9,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "that",
+  "start": 239.9,
+  "end": 240.16,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "ideas",
+  "start": 240.16,
+  "end": 240.38,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "work",
+  "start": 240.38,
+  "end": 240.7,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "differently",
+  "start": 240.7,
+  "end": 240.96,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "from",
+  "start": 240.96,
+  "end": 241.22,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "everything",
+  "start": 241.22,
+  "end": 241.4,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "else.",
+  "start": 241.4,
+  "end": 242.0,
+  "sentence": "Economists have long argued that ideas w"
+ },
+ {
+  "word": "If",
+  "start": 242.32,
+  "end": 242.397,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "you",
+  "start": 242.397,
+  "end": 242.514,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "eat",
+  "start": 242.514,
+  "end": 242.63,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "a",
+  "start": 242.63,
+  "end": 242.668,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "meal,",
+  "start": 242.668,
+  "end": 242.823,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "nobody",
+  "start": 242.823,
+  "end": 243.055,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "else",
+  "start": 243.055,
+  "end": 243.21,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "can",
+  "start": 243.21,
+  "end": 243.326,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "eat",
+  "start": 243.326,
+  "end": 243.443,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "it.",
+  "start": 243.443,
+  "end": 243.52,
+  "sentence": "If you eat a meal, nobody else can eat i"
+ },
+ {
+  "word": "But",
+  "start": 244.54,
+  "end": 244.68,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "if",
+  "start": 244.68,
+  "end": 244.78,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "someone",
+  "start": 244.78,
+  "end": 244.98,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "invents",
+  "start": 244.98,
+  "end": 245.26,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "a",
+  "start": 245.26,
+  "end": 245.4,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "better",
+  "start": 245.4,
+  "end": 245.56,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "engine,",
+  "start": 245.56,
+  "end": 245.78,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "or",
+  "start": 245.78,
+  "end": 246.14,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "a",
+  "start": 246.14,
+  "end": 246.28,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "new",
+  "start": 246.28,
+  "end": 246.38,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "way",
+  "start": 246.38,
+  "end": 246.5,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "to",
+  "start": 246.5,
+  "end": 246.64,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "farm,",
+  "start": 246.64,
+  "end": 246.88,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "everyone",
+  "start": 247.12,
+  "end": 247.16,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "can",
+  "start": 247.16,
+  "end": 247.36,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "use",
+  "start": 247.36,
+  "end": 247.62,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "it",
+  "start": 247.62,
+  "end": 247.7,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "at",
+  "start": 247.7,
+  "end": 247.86,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "once.",
+  "start": 247.86,
+  "end": 248.22,
+  "sentence": "But if someone invents a better engine, "
+ },
+ {
+  "word": "That",
+  "start": 248.64,
+  "end": 248.82,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "insight",
+  "start": 248.82,
+  "end": 249.1,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "helped",
+  "start": 249.1,
+  "end": 249.34,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "earn",
+  "start": 249.34,
+  "end": 249.54,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "economist",
+  "start": 249.54,
+  "end": 250.02,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "Paul",
+  "start": 250.02,
+  "end": 250.26,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "Romer",
+  "start": 250.26,
+  "end": 250.52,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "a",
+  "start": 250.52,
+  "end": 250.74,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "share",
+  "start": 250.74,
+  "end": 250.88,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "of",
+  "start": 250.88,
+  "end": 251.02,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "the",
+  "start": 251.02,
+  "end": 251.56,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "2018",
+  "start": 251.56,
+  "end": 251.56,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "Nobel",
+  "start": 251.56,
+  "end": 251.8,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "Prize.",
+  "start": 251.8,
+  "end": 252.32,
+  "sentence": "That insight helped earn economist Paul "
+ },
+ {
+  "word": "In",
+  "start": 252.96,
+  "end": 253.055,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "many",
+  "start": 253.055,
+  "end": 253.244,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "economic",
+  "start": 253.244,
+  "end": 253.623,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "models,",
+  "start": 253.623,
+  "end": 253.907,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "more",
+  "start": 253.907,
+  "end": 254.096,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "people",
+  "start": 254.096,
+  "end": 254.38,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "means",
+  "start": 254.38,
+  "end": 254.616,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "more",
+  "start": 254.616,
+  "end": 254.806,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "minds",
+  "start": 254.806,
+  "end": 255.042,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "working",
+  "start": 255.042,
+  "end": 255.374,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "on",
+  "start": 255.374,
+  "end": 255.468,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "problems,",
+  "start": 255.468,
+  "end": 255.847,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "and",
+  "start": 255.847,
+  "end": 255.989,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "every",
+  "start": 255.989,
+  "end": 256.226,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "good",
+  "start": 256.226,
+  "end": 256.415,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "idea",
+  "start": 256.415,
+  "end": 256.604,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "can",
+  "start": 256.604,
+  "end": 256.746,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "be",
+  "start": 256.746,
+  "end": 256.841,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "shared",
+  "start": 256.841,
+  "end": 257.125,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "with",
+  "start": 257.125,
+  "end": 257.314,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "all",
+  "start": 257.314,
+  "end": 257.456,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "of",
+  "start": 257.456,
+  "end": 257.551,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "them.",
+  "start": 257.551,
+  "end": 257.74,
+  "sentence": "In many economic models, more people mea"
+ },
+ {
+  "word": "A",
+  "start": 258.62,
+  "end": 258.665,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "200",
+  "start": 258.665,
+  "end": 258.801,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "million",
+  "start": 258.801,
+  "end": 259.117,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "India",
+  "start": 259.117,
+  "end": 259.343,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "would",
+  "start": 259.343,
+  "end": 259.569,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "still",
+  "start": 259.569,
+  "end": 259.795,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "have",
+  "start": 259.795,
+  "end": 259.975,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "plenty",
+  "start": 259.975,
+  "end": 260.246,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "of",
+  "start": 260.246,
+  "end": 260.337,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "talented",
+  "start": 260.337,
+  "end": 260.698,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "people.",
+  "start": 260.698,
+  "end": 260.969,
+  "sentence": "A 200 million India would still have ple"
+ },
+ {
+  "word": "But",
+  "start": 261.72,
+  "end": 261.88,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "it",
+  "start": 261.88,
+  "end": 261.94,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "would",
+  "start": 261.94,
+  "end": 262.1,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "have",
+  "start": 262.1,
+  "end": 262.22,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "far",
+  "start": 262.22,
+  "end": 262.38,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "fewer",
+  "start": 262.38,
+  "end": 262.56,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "of",
+  "start": 262.56,
+  "end": 262.7,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "them.",
+  "start": 262.7,
+  "end": 263.12,
+  "sentence": "But it would have far fewer of them."
+ },
+ {
+  "word": "Fewer",
+  "start": 263.38,
+  "end": 263.62,
+  "sentence": "Fewer scientists."
+ },
+ {
+  "word": "scientists.",
+  "start": 263.62,
+  "end": 264.08,
+  "sentence": "Fewer scientists."
+ },
+ {
+  "word": "Fewer",
+  "start": 264.56,
+  "end": 264.66,
+  "sentence": "Fewer engineers."
+ },
+ {
+  "word": "engineers.",
+  "start": 264.66,
+  "end": 265.12,
+  "sentence": "Fewer engineers."
+ },
+ {
+  "word": "Fewer",
+  "start": 265.62,
+  "end": 265.82,
+  "sentence": "Fewer founders."
+ },
+ {
+  "word": "founders.",
+  "start": 265.82,
+  "end": 266.32,
+  "sentence": "Fewer founders."
+ },
+ {
+  "word": "Progress",
+  "start": 267.12,
+  "end": 267.3,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "isn't",
+  "start": 267.3,
+  "end": 267.62,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "only",
+  "start": 267.62,
+  "end": 267.8,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "about",
+  "start": 267.8,
+  "end": 268.0,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "how",
+  "start": 268.0,
+  "end": 268.12,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "much",
+  "start": 268.12,
+  "end": 268.24,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "you",
+  "start": 268.24,
+  "end": 268.4,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "have.",
+  "start": 268.4,
+  "end": 268.84,
+  "sentence": "Progress isn't only about how much you h"
+ },
+ {
+  "word": "It's",
+  "start": 269.12,
+  "end": 269.239,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "about",
+  "start": 269.239,
+  "end": 269.437,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "how",
+  "start": 269.437,
+  "end": 269.556,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "many",
+  "start": 269.556,
+  "end": 269.714,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "people",
+  "start": 269.714,
+  "end": 269.951,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "are",
+  "start": 269.951,
+  "end": 270.07,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "finding",
+  "start": 270.07,
+  "end": 270.347,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "ways",
+  "start": 270.347,
+  "end": 270.506,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "to",
+  "start": 270.506,
+  "end": 270.585,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "do",
+  "start": 270.585,
+  "end": 270.664,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "more",
+  "start": 270.664,
+  "end": 270.822,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "with",
+  "start": 270.822,
+  "end": 270.981,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "it.",
+  "start": 270.981,
+  "end": 271.06,
+  "sentence": "It's about how many people are finding w"
+ },
+ {
+  "word": "There's",
+  "start": 272.76,
+  "end": 272.92,
+  "sentence": "There's a way to check this."
+ },
+ {
+  "word": "a",
+  "start": 272.92,
+  "end": 272.94,
+  "sentence": "There's a way to check this."
+ },
+ {
+  "word": "way",
+  "start": 272.94,
+  "end": 273.02,
+  "sentence": "There's a way to check this."
+ },
+ {
+  "word": "to",
+  "start": 273.02,
+  "end": 273.14,
+  "sentence": "There's a way to check this."
+ },
+ {
+  "word": "check",
+  "start": 273.14,
+  "end": 273.26,
+  "sentence": "There's a way to check this."
+ },
+ {
+  "word": "this.",
+  "start": 273.26,
+  "end": 273.48,
+  "sentence": "There's a way to check this."
+ },
+ {
+  "word": "Countries",
+  "start": 274.16,
+  "end": 274.34,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "of",
+  "start": 274.34,
+  "end": 274.5,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "around",
+  "start": 274.5,
+  "end": 274.8,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "200",
+  "start": 274.8,
+  "end": 275.18,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "million",
+  "start": 275.18,
+  "end": 275.36,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "people",
+  "start": 275.36,
+  "end": 275.72,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "already",
+  "start": 275.72,
+  "end": 276.0,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "exist.",
+  "start": 276.0,
+  "end": 276.58,
+  "sentence": "Countries of around 200 million people a"
+ },
+ {
+  "word": "Brazil,",
+  "start": 277.28,
+  "end": 277.28,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "Nigeria",
+  "start": 277.46,
+  "end": 277.72,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "and",
+  "start": 277.72,
+  "end": 278.02,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "Pakistan",
+  "start": 278.02,
+  "end": 278.32,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "each",
+  "start": 278.32,
+  "end": 278.68,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "have",
+  "start": 278.68,
+  "end": 278.86,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "well",
+  "start": 278.86,
+  "end": 279.02,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "over",
+  "start": 279.02,
+  "end": 279.24,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "200",
+  "start": 279.24,
+  "end": 279.66,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "million.",
+  "start": 279.66,
+  "end": 280.18,
+  "sentence": "Brazil, Nigeria and Pakistan each have w"
+ },
+ {
+  "word": "A",
+  "start": 280.18,
+  "end": 280.8,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "200",
+  "start": 280.8,
+  "end": 281.18,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "million",
+  "start": 281.18,
+  "end": 281.44,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "India",
+  "start": 281.44,
+  "end": 281.7,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "would",
+  "start": 281.7,
+  "end": 281.88,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "still",
+  "start": 281.88,
+  "end": 282.04,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "rank",
+  "start": 282.04,
+  "end": 282.14,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "among",
+  "start": 282.14,
+  "end": 282.24,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "the",
+  "start": 282.24,
+  "end": 282.36,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "ten",
+  "start": 282.36,
+  "end": 282.52,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "biggest",
+  "start": 282.52,
+  "end": 282.76,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "countries",
+  "start": 282.76,
+  "end": 283.04,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "on",
+  "start": 283.04,
+  "end": 283.28,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "Earth.",
+  "start": 283.28,
+  "end": 283.82,
+  "sentence": "A 200 million India would still rank amo"
+ },
+ {
+  "word": "That's",
+  "start": 284.06,
+  "end": 284.12,
+  "sentence": "That's what most people miss."
+ },
+ {
+  "word": "what",
+  "start": 284.12,
+  "end": 284.22,
+  "sentence": "That's what most people miss."
+ },
+ {
+  "word": "most",
+  "start": 284.22,
+  "end": 284.4,
+  "sentence": "That's what most people miss."
+ },
+ {
+  "word": "people",
+  "start": 284.4,
+  "end": 284.56,
+  "sentence": "That's what most people miss."
+ },
+ {
+  "word": "miss.",
+  "start": 284.56,
+  "end": 284.92,
+  "sentence": "That's what most people miss."
+ },
+ {
+  "word": "It",
+  "start": 285.52,
+  "end": 285.592,
+  "sentence": "It wouldn't be a small country."
+ },
+ {
+  "word": "wouldn't",
+  "start": 285.592,
+  "end": 285.842,
+  "sentence": "It wouldn't be a small country."
+ },
+ {
+  "word": "be",
+  "start": 285.842,
+  "end": 285.914,
+  "sentence": "It wouldn't be a small country."
+ },
+ {
+  "word": "a",
+  "start": 285.914,
+  "end": 285.95,
+  "sentence": "It wouldn't be a small country."
+ },
+ {
+  "word": "small",
+  "start": 285.95,
+  "end": 286.129,
+  "sentence": "It wouldn't be a small country."
+ },
+ {
+  "word": "country.",
+  "start": 286.129,
+  "end": 286.38,
+  "sentence": "It wouldn't be a small country."
+ },
+ {
+  "word": "It",
+  "start": 286.88,
+  "end": 286.971,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "would",
+  "start": 286.971,
+  "end": 287.198,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "just",
+  "start": 287.198,
+  "end": 287.379,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "be",
+  "start": 287.379,
+  "end": 287.47,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "a",
+  "start": 287.47,
+  "end": 287.515,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "smaller",
+  "start": 287.515,
+  "end": 287.833,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "giant.",
+  "start": 287.833,
+  "end": 288.06,
+  "sentence": "It would just be a smaller giant."
+ },
+ {
+  "word": "Here's",
+  "start": 289.66,
+  "end": 289.78,
+  "sentence": "Here's something that surprises people."
+ },
+ {
+  "word": "something",
+  "start": 289.78,
+  "end": 289.96,
+  "sentence": "Here's something that surprises people."
+ },
+ {
+  "word": "that",
+  "start": 289.96,
+  "end": 290.2,
+  "sentence": "Here's something that surprises people."
+ },
+ {
+  "word": "surprises",
+  "start": 290.2,
+  "end": 290.4,
+  "sentence": "Here's something that surprises people."
+ },
+ {
+  "word": "people.",
+  "start": 290.4,
+  "end": 290.94,
+  "sentence": "Here's something that surprises people."
+ },
+ {
+  "word": "India's",
+  "start": 291.38,
+  "end": 291.5,
+  "sentence": "India's population is already slowing do"
+ },
+ {
+  "word": "population",
+  "start": 291.5,
+  "end": 291.84,
+  "sentence": "India's population is already slowing do"
+ },
+ {
+  "word": "is",
+  "start": 291.84,
+  "end": 292.18,
+  "sentence": "India's population is already slowing do"
+ },
+ {
+  "word": "already",
+  "start": 292.18,
+  "end": 292.44,
+  "sentence": "India's population is already slowing do"
+ },
+ {
+  "word": "slowing",
+  "start": 292.44,
+  "end": 292.6,
+  "sentence": "India's population is already slowing do"
+ },
+ {
+  "word": "down.",
+  "start": 292.6,
+  "end": 293.14,
+  "sentence": "India's population is already slowing do"
+ },
+ {
+  "word": "According",
+  "start": 293.4,
+  "end": 293.959,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "to",
+  "start": 293.959,
+  "end": 294.083,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "the",
+  "start": 294.083,
+  "end": 294.269,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "UN,",
+  "start": 294.269,
+  "end": 294.393,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "the",
+  "start": 294.393,
+  "end": 294.579,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "average",
+  "start": 294.579,
+  "end": 295.014,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "Indian",
+  "start": 295.014,
+  "end": 295.386,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "woman",
+  "start": 295.386,
+  "end": 295.697,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "now",
+  "start": 295.697,
+  "end": 295.883,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "has",
+  "start": 295.883,
+  "end": 296.069,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "about",
+  "start": 296.069,
+  "end": 296.379,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "1.9",
+  "start": 296.379,
+  "end": 296.504,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "children,",
+  "start": 296.504,
+  "end": 297.0,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "below",
+  "start": 297.0,
+  "end": 297.311,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "the",
+  "start": 297.311,
+  "end": 297.497,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "2.1",
+  "start": 297.497,
+  "end": 297.621,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "needed",
+  "start": 297.621,
+  "end": 297.993,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "to",
+  "start": 297.993,
+  "end": 298.117,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "keep",
+  "start": 298.117,
+  "end": 298.366,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "a",
+  "start": 298.366,
+  "end": 298.428,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "population",
+  "start": 298.428,
+  "end": 299.049,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "steady.",
+  "start": 299.049,
+  "end": 299.421,
+  "sentence": "According to the UN, the average Indian "
+ },
+ {
+  "word": "Growth",
+  "start": 299.9,
+  "end": 300.06,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "continues",
+  "start": 300.06,
+  "end": 300.38,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "for",
+  "start": 300.38,
+  "end": 300.62,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "now,",
+  "start": 300.62,
+  "end": 300.78,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "because",
+  "start": 300.78,
+  "end": 301.06,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "so",
+  "start": 301.06,
+  "end": 301.24,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "many",
+  "start": 301.24,
+  "end": 301.36,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "people",
+  "start": 301.36,
+  "end": 301.64,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "are",
+  "start": 301.64,
+  "end": 301.84,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "young",
+  "start": 301.84,
+  "end": 302.06,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "and",
+  "start": 302.06,
+  "end": 302.3,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "still",
+  "start": 302.3,
+  "end": 302.48,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "starting",
+  "start": 302.48,
+  "end": 302.72,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "families.",
+  "start": 302.72,
+  "end": 303.1,
+  "sentence": "Growth continues for now, because so man"
+ },
+ {
+  "word": "But",
+  "start": 304.04,
+  "end": 304.247,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "the",
+  "start": 304.247,
+  "end": 304.454,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "UN",
+  "start": 304.454,
+  "end": 304.593,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "expects",
+  "start": 304.593,
+  "end": 305.076,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "India",
+  "start": 305.076,
+  "end": 305.421,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "to",
+  "start": 305.421,
+  "end": 305.559,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "peak",
+  "start": 305.559,
+  "end": 305.836,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "at",
+  "start": 305.836,
+  "end": 305.974,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "about",
+  "start": 305.974,
+  "end": 306.319,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "1.7",
+  "start": 306.319,
+  "end": 306.457,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "billion",
+  "start": 306.457,
+  "end": 306.941,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "in",
+  "start": 306.941,
+  "end": 307.079,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "the",
+  "start": 307.079,
+  "end": 307.286,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "early",
+  "start": 307.286,
+  "end": 307.631,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "2060s,",
+  "start": 307.631,
+  "end": 307.977,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "and",
+  "start": 307.977,
+  "end": 308.184,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "then",
+  "start": 308.184,
+  "end": 308.46,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "begin",
+  "start": 308.46,
+  "end": 308.806,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "to",
+  "start": 308.806,
+  "end": 308.944,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "fall.",
+  "start": 308.944,
+  "end": 309.22,
+  "sentence": "But the UN expects India to peak at abou"
+ },
+ {
+  "word": "So",
+  "start": 309.72,
+  "end": 309.81,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "the",
+  "start": 309.81,
+  "end": 309.945,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "real",
+  "start": 309.945,
+  "end": 310.126,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "question",
+  "start": 310.126,
+  "end": 310.486,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "isn't",
+  "start": 310.486,
+  "end": 310.667,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "whether",
+  "start": 310.667,
+  "end": 310.982,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "India's",
+  "start": 310.982,
+  "end": 311.253,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "population",
+  "start": 311.253,
+  "end": 311.704,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "will",
+  "start": 311.704,
+  "end": 311.884,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "stop",
+  "start": 311.884,
+  "end": 312.064,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "growing.",
+  "start": 312.064,
+  "end": 312.38,
+  "sentence": "So the real question isn't whether India"
+ },
+ {
+  "word": "It's",
+  "start": 312.9,
+  "end": 313.013,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "when,",
+  "start": 313.013,
+  "end": 313.163,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "how",
+  "start": 313.163,
+  "end": 313.276,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "fast,",
+  "start": 313.276,
+  "end": 313.426,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "and",
+  "start": 313.426,
+  "end": 313.539,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "what",
+  "start": 313.539,
+  "end": 313.69,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "the",
+  "start": 313.69,
+  "end": 313.802,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "country",
+  "start": 313.802,
+  "end": 314.066,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "looks",
+  "start": 314.066,
+  "end": 314.254,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "like",
+  "start": 314.254,
+  "end": 314.404,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "when",
+  "start": 314.404,
+  "end": 314.554,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "it",
+  "start": 314.554,
+  "end": 314.63,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "does.",
+  "start": 314.63,
+  "end": 314.78,
+  "sentence": "It's when, how fast, and what the countr"
+ },
+ {
+  "word": "Now",
+  "start": 316.74,
+  "end": 316.928,
+  "sentence": "Now fast-forward fifty years."
+ },
+ {
+  "word": "fast-forward",
+  "start": 316.928,
+  "end": 317.617,
+  "sentence": "Now fast-forward fifty years."
+ },
+ {
+  "word": "fifty",
+  "start": 317.617,
+  "end": 317.93,
+  "sentence": "Now fast-forward fifty years."
+ },
+ {
+  "word": "years.",
+  "start": 317.93,
+  "end": 318.243,
+  "sentence": "Now fast-forward fifty years."
+ },
+ {
+  "word": "A",
+  "start": 318.98,
+  "end": 319.027,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "country",
+  "start": 319.027,
+  "end": 319.356,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "that",
+  "start": 319.356,
+  "end": 319.545,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "stops",
+  "start": 319.545,
+  "end": 319.78,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "growing",
+  "start": 319.78,
+  "end": 320.109,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "early",
+  "start": 320.109,
+  "end": 320.344,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "also",
+  "start": 320.344,
+  "end": 320.533,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "ages",
+  "start": 320.533,
+  "end": 320.721,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "early.",
+  "start": 320.721,
+  "end": 320.956,
+  "sentence": "A country that stops growing early also "
+ },
+ {
+  "word": "Fewer",
+  "start": 321.4,
+  "end": 321.52,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "young",
+  "start": 321.52,
+  "end": 321.62,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "people",
+  "start": 321.62,
+  "end": 321.88,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "supporting",
+  "start": 321.88,
+  "end": 322.16,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "more",
+  "start": 322.16,
+  "end": 322.4,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "older",
+  "start": 322.4,
+  "end": 322.56,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "people,",
+  "start": 322.56,
+  "end": 322.84,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "sooner.",
+  "start": 322.84,
+  "end": 323.24,
+  "sentence": "Fewer young people supporting more older"
+ },
+ {
+  "word": "So",
+  "start": 323.7,
+  "end": 323.82,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "the",
+  "start": 323.82,
+  "end": 324.08,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "real",
+  "start": 324.08,
+  "end": 324.14,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "India",
+  "start": 324.14,
+  "end": 324.4,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "faces",
+  "start": 324.4,
+  "end": 324.7,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "the",
+  "start": 324.7,
+  "end": 324.88,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "pressure",
+  "start": 324.88,
+  "end": 325.08,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "of",
+  "start": 325.08,
+  "end": 325.26,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "more",
+  "start": 325.26,
+  "end": 325.42,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "people.",
+  "start": 325.42,
+  "end": 325.9,
+  "sentence": "So the real India faces the pressure of "
+ },
+ {
+  "word": "A",
+  "start": 326.38,
+  "end": 326.422,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "200",
+  "start": 326.422,
+  "end": 326.549,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "million",
+  "start": 326.549,
+  "end": 326.846,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "India",
+  "start": 326.846,
+  "end": 327.057,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "would",
+  "start": 327.057,
+  "end": 327.269,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "face",
+  "start": 327.269,
+  "end": 327.438,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "the",
+  "start": 327.438,
+  "end": 327.565,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "pressure",
+  "start": 327.565,
+  "end": 327.904,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "of",
+  "start": 327.904,
+  "end": 327.988,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "fewer.",
+  "start": 327.988,
+  "end": 328.2,
+  "sentence": "A 200 million India would face the press"
+ },
+ {
+  "word": "Neither",
+  "start": 328.74,
+  "end": 328.9,
+  "sentence": "Neither is easy."
+ },
+ {
+  "word": "is",
+  "start": 328.9,
+  "end": 329.14,
+  "sentence": "Neither is easy."
+ },
+ {
+  "word": "easy.",
+  "start": 329.14,
+  "end": 329.48,
+  "sentence": "Neither is easy."
+ },
+ {
+  "word": "They're",
+  "start": 329.78,
+  "end": 329.98,
+  "sentence": "They're just different problems."
+ },
+ {
+  "word": "just",
+  "start": 329.98,
+  "end": 330.18,
+  "sentence": "They're just different problems."
+ },
+ {
+  "word": "different",
+  "start": 330.18,
+  "end": 330.48,
+  "sentence": "They're just different problems."
+ },
+ {
+  "word": "problems.",
+  "start": 330.48,
+  "end": 331.08,
+  "sentence": "They're just different problems."
+ },
+ {
+  "word": "Picture",
+  "start": 332.68,
+  "end": 332.969,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "two",
+  "start": 332.969,
+  "end": 333.093,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "children",
+  "start": 333.093,
+  "end": 333.423,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "walking",
+  "start": 333.423,
+  "end": 333.713,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "to",
+  "start": 333.713,
+  "end": 333.795,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "school",
+  "start": 333.795,
+  "end": 334.043,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "in",
+  "start": 334.043,
+  "end": 334.126,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "the",
+  "start": 334.126,
+  "end": 334.25,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "same",
+  "start": 334.25,
+  "end": 334.415,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "city.",
+  "start": 334.415,
+  "end": 334.58,
+  "sentence": "Picture two children walking to school i"
+ },
+ {
+  "word": "In",
+  "start": 335.04,
+  "end": 335.141,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "today's",
+  "start": 335.141,
+  "end": 335.443,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "India,",
+  "start": 335.443,
+  "end": 335.694,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "she",
+  "start": 335.694,
+  "end": 335.845,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "squeezes",
+  "start": 335.845,
+  "end": 336.248,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "onto",
+  "start": 336.248,
+  "end": 336.449,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "a",
+  "start": 336.449,
+  "end": 336.499,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "crowded",
+  "start": 336.499,
+  "end": 336.852,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "bus",
+  "start": 336.852,
+  "end": 337.003,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "and",
+  "start": 337.003,
+  "end": 337.154,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "sits",
+  "start": 337.154,
+  "end": 337.355,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "in",
+  "start": 337.355,
+  "end": 337.455,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "a",
+  "start": 337.455,
+  "end": 337.506,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "full",
+  "start": 337.506,
+  "end": 337.707,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "classroom.",
+  "start": 337.707,
+  "end": 338.16,
+  "sentence": "In today's India, she squeezes onto a cr"
+ },
+ {
+  "word": "In",
+  "start": 338.76,
+  "end": 338.871,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "a",
+  "start": 338.871,
+  "end": 338.927,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "200",
+  "start": 338.927,
+  "end": 339.094,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "million",
+  "start": 339.094,
+  "end": 339.485,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "India,",
+  "start": 339.485,
+  "end": 339.763,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "she",
+  "start": 339.763,
+  "end": 339.931,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "probably",
+  "start": 339.931,
+  "end": 340.376,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "gets",
+  "start": 340.376,
+  "end": 340.599,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "a",
+  "start": 340.599,
+  "end": 340.655,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "seat,",
+  "start": 340.655,
+  "end": 340.878,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "and",
+  "start": 340.878,
+  "end": 341.045,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "a",
+  "start": 341.045,
+  "end": 341.101,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "smaller",
+  "start": 341.101,
+  "end": 341.491,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "class.",
+  "start": 341.491,
+  "end": 341.77,
+  "sentence": "In a 200 million India, she probably get"
+ },
+ {
+  "word": "But",
+  "start": 342.62,
+  "end": 342.68,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "her",
+  "start": 342.68,
+  "end": 342.84,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "school",
+  "start": 342.84,
+  "end": 342.98,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "might",
+  "start": 342.98,
+  "end": 343.16,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "be",
+  "start": 343.16,
+  "end": 343.34,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "further",
+  "start": 343.34,
+  "end": 343.5,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "away,",
+  "start": 343.5,
+  "end": 343.78,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "because",
+  "start": 343.78,
+  "end": 344.02,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "fewer",
+  "start": 344.02,
+  "end": 344.26,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "children",
+  "start": 344.26,
+  "end": 344.52,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "means",
+  "start": 344.52,
+  "end": 344.8,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "fewer",
+  "start": 344.8,
+  "end": 345.04,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "schools.",
+  "start": 345.04,
+  "end": 345.54,
+  "sentence": "But her school might be further away, be"
+ },
+ {
+  "word": "And",
+  "start": 346.04,
+  "end": 346.12,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "her",
+  "start": 346.12,
+  "end": 346.24,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "parents",
+  "start": 346.24,
+  "end": 346.46,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "might",
+  "start": 346.46,
+  "end": 346.62,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "earn",
+  "start": 346.62,
+  "end": 346.78,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "less,",
+  "start": 346.78,
+  "end": 347.02,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "because",
+  "start": 347.02,
+  "end": 347.24,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "the",
+  "start": 347.24,
+  "end": 347.54,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "economy",
+  "start": 347.54,
+  "end": 347.6,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "around",
+  "start": 347.6,
+  "end": 347.9,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "them",
+  "start": 347.9,
+  "end": 348.06,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "is",
+  "start": 348.06,
+  "end": 348.28,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "smaller.",
+  "start": 348.28,
+  "end": 348.66,
+  "sentence": "And her parents might earn less, because"
+ },
+ {
+  "word": "Same",
+  "start": 349.1,
+  "end": 349.38,
+  "sentence": "Same child."
+ },
+ {
+  "word": "child.",
+  "start": 349.38,
+  "end": 349.8,
+  "sentence": "Same child."
+ },
+ {
+  "word": "Same",
+  "start": 350.08,
+  "end": 350.36,
+  "sentence": "Same city."
+ },
+ {
+  "word": "city.",
+  "start": 350.36,
+  "end": 350.68,
+  "sentence": "Same city."
+ },
+ {
+  "word": "Different",
+  "start": 351.08,
+  "end": 351.46,
+  "sentence": "Different trade-offs."
+ },
+ {
+  "word": "trade-offs.",
+  "start": 351.46,
+  "end": 351.84,
+  "sentence": "Different trade-offs."
+ },
+ {
+  "word": "Nobody",
+  "start": 352.18,
+  "end": 352.42,
+  "sentence": "Nobody wins everything."
+ },
+ {
+  "word": "wins",
+  "start": 352.42,
+  "end": 352.78,
+  "sentence": "Nobody wins everything."
+ },
+ {
+  "word": "everything.",
+  "start": 352.78,
+  "end": 353.46,
+  "sentence": "Nobody wins everything."
+ },
+ {
+  "word": "So,",
+  "start": 354.9,
+  "end": 355.033,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "would",
+  "start": 355.033,
+  "end": 355.365,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "India",
+  "start": 355.365,
+  "end": 355.696,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "be",
+  "start": 355.696,
+  "end": 355.829,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "better",
+  "start": 355.829,
+  "end": 356.227,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "off",
+  "start": 356.227,
+  "end": 356.427,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "with",
+  "start": 356.427,
+  "end": 356.692,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "200",
+  "start": 356.692,
+  "end": 356.891,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "million",
+  "start": 356.891,
+  "end": 357.356,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "people?",
+  "start": 357.356,
+  "end": 357.754,
+  "sentence": "So, would India be better off with 200 m"
+ },
+ {
+  "word": "Not",
+  "start": 358.48,
+  "end": 358.7,
+  "sentence": "Not automatically."
+ },
+ {
+  "word": "automatically.",
+  "start": 358.7,
+  "end": 359.16,
+  "sentence": "Not automatically."
+ },
+ {
+  "word": "More",
+  "start": 360.0,
+  "end": 360.2,
+  "sentence": "More space, more water, shorter queues."
+ },
+ {
+  "word": "space,",
+  "start": 360.2,
+  "end": 360.44,
+  "sentence": "More space, more water, shorter queues."
+ },
+ {
+  "word": "more",
+  "start": 360.44,
+  "end": 360.62,
+  "sentence": "More space, more water, shorter queues."
+ },
+ {
+  "word": "water,",
+  "start": 360.62,
+  "end": 360.88,
+  "sentence": "More space, more water, shorter queues."
+ },
+ {
+  "word": "shorter",
+  "start": 360.9,
+  "end": 361.06,
+  "sentence": "More space, more water, shorter queues."
+ },
+ {
+  "word": "queues.",
+  "start": 361.06,
+  "end": 361.38,
+  "sentence": "More space, more water, shorter queues."
+ },
+ {
+  "word": "Yes.",
+  "start": 361.92,
+  "end": 362.34,
+  "sentence": "Yes."
+ },
+ {
+  "word": "But",
+  "start": 363.2,
+  "end": 363.36,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "also",
+  "start": 363.36,
+  "end": 363.6,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "fewer",
+  "start": 363.6,
+  "end": 363.82,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "workers,",
+  "start": 363.82,
+  "end": 364.1,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "a",
+  "start": 364.4,
+  "end": 364.48,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "smaller",
+  "start": 364.48,
+  "end": 364.68,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "market,",
+  "start": 364.68,
+  "end": 364.98,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "and",
+  "start": 364.98,
+  "end": 365.24,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "a",
+  "start": 365.24,
+  "end": 365.32,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "smaller",
+  "start": 365.32,
+  "end": 365.48,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "voice",
+  "start": 365.48,
+  "end": 365.76,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "in",
+  "start": 365.76,
+  "end": 365.88,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "the",
+  "start": 365.88,
+  "end": 366.0,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "world.",
+  "start": 366.0,
+  "end": 366.48,
+  "sentence": "But also fewer workers, a smaller market"
+ },
+ {
+  "word": "A",
+  "start": 366.624,
+  "end": 366.677,
+  "sentence": "A big population is a strain."
+ },
+ {
+  "word": "big",
+  "start": 366.677,
+  "end": 366.835,
+  "sentence": "A big population is a strain."
+ },
+ {
+  "word": "population",
+  "start": 366.835,
+  "end": 367.364,
+  "sentence": "A big population is a strain."
+ },
+ {
+  "word": "is",
+  "start": 367.364,
+  "end": 367.47,
+  "sentence": "A big population is a strain."
+ },
+ {
+  "word": "a",
+  "start": 367.47,
+  "end": 367.523,
+  "sentence": "A big population is a strain."
+ },
+ {
+  "word": "strain.",
+  "start": 367.523,
+  "end": 367.84,
+  "sentence": "A big population is a strain."
+ },
+ {
+  "word": "It's",
+  "start": 368.34,
+  "end": 368.54,
+  "sentence": "It's also a strength."
+ },
+ {
+  "word": "also",
+  "start": 368.54,
+  "end": 368.72,
+  "sentence": "It's also a strength."
+ },
+ {
+  "word": "a",
+  "start": 368.72,
+  "end": 368.88,
+  "sentence": "It's also a strength."
+ },
+ {
+  "word": "strength.",
+  "start": 368.88,
+  "end": 369.32,
+  "sentence": "It's also a strength."
+ },
+ {
+  "word": "The",
+  "start": 369.88,
+  "end": 370.01,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "real",
+  "start": 370.01,
+  "end": 370.184,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "lesson",
+  "start": 370.184,
+  "end": 370.445,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "isn't",
+  "start": 370.445,
+  "end": 370.619,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "about",
+  "start": 370.619,
+  "end": 370.836,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "a",
+  "start": 370.836,
+  "end": 370.879,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "number.",
+  "start": 370.879,
+  "end": 371.14,
+  "sentence": "The real lesson isn't about a number."
+ },
+ {
+  "word": "It's",
+  "start": 371.62,
+  "end": 371.746,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "about",
+  "start": 371.746,
+  "end": 371.955,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "what",
+  "start": 371.955,
+  "end": 372.123,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "a",
+  "start": 372.123,
+  "end": 372.165,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "country",
+  "start": 372.165,
+  "end": 372.458,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "does",
+  "start": 372.458,
+  "end": 372.626,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "with",
+  "start": 372.626,
+  "end": 372.793,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "the",
+  "start": 372.793,
+  "end": 372.919,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "people",
+  "start": 372.919,
+  "end": 373.17,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "it",
+  "start": 373.17,
+  "end": 373.254,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "has.",
+  "start": 373.254,
+  "end": 373.38,
+  "sentence": "It's about what a country does with the "
+ },
+ {
+  "word": "Right",
+  "start": 373.78,
+  "end": 373.94,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "now,",
+  "start": 373.94,
+  "end": 374.2,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "one",
+  "start": 374.32,
+  "end": 374.32,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "in",
+  "start": 374.32,
+  "end": 374.5,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "six",
+  "start": 374.5,
+  "end": 374.62,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "humans",
+  "start": 374.62,
+  "end": 374.76,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "lives",
+  "start": 374.76,
+  "end": 375.04,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "in",
+  "start": 375.04,
+  "end": 375.16,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "India.",
+  "start": 375.16,
+  "end": 375.38,
+  "sentence": "Right now, one in six humans lives in In"
+ },
+ {
+  "word": "Would",
+  "start": 375.96,
+  "end": 376.06,
+  "sentence": "Would you want one in forty?"
+ },
+ {
+  "word": "you",
+  "start": 376.06,
+  "end": 376.16,
+  "sentence": "Would you want one in forty?"
+ },
+ {
+  "word": "want",
+  "start": 376.16,
+  "end": 376.32,
+  "sentence": "Would you want one in forty?"
+ },
+ {
+  "word": "one",
+  "start": 376.32,
+  "end": 376.42,
+  "sentence": "Would you want one in forty?"
+ },
+ {
+  "word": "in",
+  "start": 376.42,
+  "end": 376.62,
+  "sentence": "Would you want one in forty?"
+ },
+ {
+  "word": "forty?",
+  "start": 376.62,
+  "end": 376.86,
+  "sentence": "Would you want one in forty?"
+ }
+]
