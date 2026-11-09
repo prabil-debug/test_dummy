@@ -12,7 +12,7 @@ So what do you do with a secret that big?
 Your first problem is almost funny. You can't buy anything without someone noticing.
 A new car gets questions. A new house gets louder questions. Even a fancier lunch starts a rumour, if you've eaten the same sandwich for years.
 The money isn't loud. The spending is.
-And you don't need to spend. A billion dollars earning a careful four percent a year makes forty million dollars. Every year. That's over a hundred thousand dollars a day, and the billion never shrinks.
+And you don't need to spend. A billion dollars earning a careful four percent a year makes forty million dollars. Every year. That's over a hundred thousand dollars a day, and the billion stays untouched.
 So day one is about restraint. You go to work. You say "fine" when someone asks how you are. You walk past the nice watch in the window.
 You test it, of course. A small thing first. A coffee you don't price-check. Then a bigger one: you take the better seat on the train. Nobody reacts. That's the unsettling part. The biggest change in your life, and the world doesn't blink.
 Then, around midnight, you notice something worse. Hiding the money is easy. Hiding what it does to you is harder.
@@ -21,7 +21,7 @@ Then, around midnight, you notice something worse. Hiding the money is easy. Hid
 Two real stories show both sides of this.
 In November twenty twenty-two, a single ticket in California won a Powerball jackpot of two point oh four billion dollars. The winner took the cash option. Just under a billion dollars. Almost exactly your situation.
 Anonymous? No. In California, a lottery winner's name is public record. A few months later, the state announced it: Edwin Castro. He turned down every interview.
-Some rules don't care how private you want to be. And someone, somewhere, always has to know: the bank, the lawyer, the tax office. Secret from the world is not the same as secret from the system.
+Some rules don't care how private you want to be.
 Now the other story. [beat]
 Chuck Feeney helped build a duty-free shopping empire. Then he gave away more than eight billion dollars, mostly in secret.
 His foundation didn't carry his name. For years, its staff couldn't tell their families where they worked. His name only came out in nineteen ninety-seven.
@@ -29,7 +29,7 @@ He kept giving while he was alive, until the money was gone. The foundation clos
 So a secret billion can be put to work. The harder question is what it does to the person holding it.
 
 ## WHO ALREADY KNOWS
-"No one knows" is almost never literally true.
+"No one knows" is almost never literally true. Secret from the world is not the same as secret from the system.
 In the United States, banks must verify who their customers are, and watch accounts for unusual activity. A billion dollars is exactly the kind of number a compliance team reads twice. So the bank knows. Your accountant knows. A lawyer knows, the moment you give anything away through a fund. The tax authority will want a word too, because a billion dollars doesn't file itself.
 Call it a circle of five or six people. Paid to stay quiet, bound by confidentiality, and not one of them invited to your birthday.
 That's the shape of a secret fortune. A wall of professionals who know everything, and a crowd of people you love who know nothing.
@@ -45,9 +45,8 @@ Their daily happiness and mental health moved far less. Wealth made people rate 
 Treat that as a clue, not a prediction. A billion is a different animal.
 
 ## AFTER ONE MONTH
-By week four, the novelty has worn thin. You've checked the balance more times than you'd admit.
 Week two, you leave a huge tip on a small bill. The waiter stares at the receipt, then at you. You shrug and leave. It's the best part of your month, and he'll be telling that story for years.
-So you try a bigger experiment. A lawyer sets up a fund, and your parents' mortgage vanishes. They think the bank made a mistake. You watch them find out they were wrong, and you say nothing.
+By week four, the novelty has worn thin. You've checked the balance more times than you'd admit. So you try a bigger experiment. A lawyer sets up a fund, and your parents' mortgage vanishes. They assume the bank made a mistake. You let them.
 A stranger's surgery gets paid for. A stranger who never learns who did it.
 It feels better than any purchase. That's the problem, because now you want more of it.
 And you discover the limit of secret giving. The more you give, the harder it is to stay invisible. People ask where help came from. Paperwork leaves trails.
