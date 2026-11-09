@@ -1,0 +1,136 @@
+<!doctype html><meta charset=utf-8><style>*{margin:0}body{width:1920px;height:1080px;overflow:hidden;background:#fff3cf}text{font-family:'Inter',sans-serif;font-weight:900;paint-order:stroke;stroke-linejoin:round}</style>
+<svg id="s" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+const INK='#14142b', CREAM='#fff3cf', Y='#ffd34d', RED='#e8504a', BLUE='#4aa3ff', PINK='#f4a6b7';
+let WORDS=[];
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const easeOut=x=>1-Math.pow(1-x,3);
+const back=x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const pop=(t,t0,d=0.35)=>t<t0?0:back(clamp((t-t0)/d));
+const win=(t,a,b,f=0.3)=>clamp((t-a)/f)*clamp((b-t)/f);
+const G=(x,y,s,o,body,rot=0)=>o<=0.001?'':`<g transform="translate(${x} ${y}) rotate(${rot}) scale(${s})" opacity="${o}">${body}</g>`;
+const TX=(x,y,sz,fill,txt,anchor='middle',sw=null)=>`<text x="${x}" y="${y}" font-size="${sz}" fill="${fill}" stroke="${INK}" stroke-width="${sw??sz*0.16}" text-anchor="${anchor}">${txt}</text>`;
+const star=(r,fill=Y)=>{let p=[];for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5,rr=i%2?r*0.45:r;p.push((rr*Math.cos(a)).toFixed(1)+','+(rr*Math.sin(a)).toFixed(1))}return `<polygon points="${p.join(' ')}" fill="${fill}" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/>`};
+const face=(expr,t)=>{
+  const blink=(Math.floor(t*1.3)%4===0&&(t*1.3)%1<0.1);
+  let eyes=blink?`<line x1="-26" y1="-4" x2="-10" y2="-4" stroke="${INK}" stroke-width="7" stroke-linecap="round"/><line x1="10" y1="-4" x2="26" y2="-4" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`:`<circle cx="-18" cy="-4" r="8" fill="${INK}"/><circle cx="18" cy="-4" r="8" fill="${INK}"/>`;
+  let mouth=`<line x1="-14" y1="26" x2="14" y2="26" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;
+  let brows='';
+  if(expr==='smile') mouth=`<path d="M -20 20 Q 0 42 20 20" fill="none" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;
+  if(expr==='worried'){brows=`<line x1="-32" y1="-26" x2="-10" y2="-34" stroke="${INK}" stroke-width="7" stroke-linecap="round"/><line x1="32" y1="-26" x2="10" y2="-34" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;mouth=`<path d="M -18 32 Q 0 18 18 32" fill="none" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`}
+  if(expr==='shock'){eyes=`<circle cx="-20" cy="-6" r="13" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="20" cy="-6" r="13" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="-20" cy="-5" r="5" fill="${INK}"/><circle cx="20" cy="-5" r="5" fill="${INK}"/>`;brows=`<line x1="-34" y1="-30" x2="-8" y2="-30" stroke="${INK}" stroke-width="7" stroke-linecap="round"/><line x1="34" y1="-30" x2="8" y2="-30" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;mouth=`<ellipse cx="0" cy="32" rx="10" ry="13" fill="${INK}"/>`}
+  if(expr==='think'){brows=`<line x1="-32" y1="-30" x2="-8" y2="-30" stroke="${INK}" stroke-width="7" stroke-linecap="round"/><line x1="8" y1="-36" x2="32" y2="-28" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;mouth=`<path d="M -14 28 Q 0 22 14 30" fill="none" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`}
+  return eyes+brows+mouth;
+};
+const stick=(expr,t,phone=true,armUp=0)=>{
+  const bob=Math.sin(t*3)*3;
+  return `<g stroke-linecap="round" stroke-linejoin="round">
+   <line x1="0" y1="0" x2="120" y2="12" stroke="${INK}" stroke-width="22"/><line x1="120" y1="12" x2="140" y2="110" stroke="${INK}" stroke-width="22"/>
+   <rect x="-44" y="-140" width="88" height="150" rx="40" fill="${BLUE}" stroke="${INK}" stroke-width="10"/>
+   <line x1="-4" y1="-112" x2="64" y2="-50" stroke="${INK}" stroke-width="18"/><line x1="64" y1="-50" x2="${120-armUp*20}" y2="${-96-armUp*60}" stroke="${INK}" stroke-width="18"/>
+   ${phone?`<g transform="translate(${126-armUp*20} ${-118-armUp*60}) rotate(-18)"><rect x="-26" y="-48" width="52" height="96" rx="10" fill="#222a4a" stroke="${INK}" stroke-width="7"/><rect x="-19" y="-40" width="38" height="78" rx="6" fill="#8fd3ff"/></g>`:''}
+   <g transform="translate(0 ${-205+bob})"><circle r="68" fill="#ffe3bf" stroke="${INK}" stroke-width="10"/>${face(expr,t)}</g></g>`;
+};
+const brain=(expr,t)=>{
+  let f='';
+  const eye=(x)=>expr==='heart'?`<path d="M ${x} -2 c -10 -14 -26 0 0 18 c 26 -18 10 -32 0 -18 z" fill="${RED}" stroke="${INK}" stroke-width="4"/>`:(expr==='wink'&&x>0?`<line x1="${x-9}" y1="0" x2="${x+9}" y2="0" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`:`<circle cx="${x}" cy="0" r="8" fill="${INK}"/>`);
+  f=eye(-26)+eye(26)+`<path d="M -22 30 Q 0 52 22 30" fill="none" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;
+  return `<g stroke-linecap="round"><ellipse cx="0" cy="0" rx="120" ry="92" fill="${PINK}" stroke="${INK}" stroke-width="10"/><path d="M -60 -70 Q -30 -40 -64 -22 M 62 -72 Q 30 -42 66 -22 M 0 -88 Q 14 -50 0 -26" fill="none" stroke="#d37590" stroke-width="7"/>${f}</g>`;
+};
+const sofa=()=>`<rect x="260" y="690" width="760" height="210" rx="60" fill="#e08a6b" stroke="${INK}" stroke-width="12"/><rect x="230" y="640" width="150" height="260" rx="50" fill="#d37a5b" stroke="${INK}" stroke-width="12"/><rect x="900" y="640" width="150" height="260" rx="50" fill="#d37a5b" stroke="${INK}" stroke-width="12"/><rect x="330" y="640" width="600" height="110" rx="40" fill="#e9987a" stroke="${INK}" stroke-width="12"/>`;
+const calendar=()=>`<rect x="0" y="0" width="300" height="320" rx="26" fill="#fff" stroke="${INK}" stroke-width="10"/><rect x="0" y="0" width="300" height="86" rx="26" fill="${RED}" stroke="${INK}" stroke-width="10"/><rect x="0" y="50" width="300" height="36" fill="${RED}"/><text x="150" y="62" font-size="46" fill="#fff" text-anchor="middle" stroke="none" style="font-weight:900">EXAM</text><text x="150" y="230" font-size="140" fill="${INK}" text-anchor="middle" stroke="none" style="font-weight:900">14</text><text x="150" y="290" font-size="44" fill="${INK}" text-anchor="middle" stroke="none" style="font-weight:900">DAYS</text>`;
+const card=(title,sub,col)=>`<rect x="-300" y="-120" width="600" height="240" rx="36" fill="#fff" stroke="${INK}" stroke-width="10"/><rect x="-300" y="-120" width="600" height="84" rx="36" fill="${col}" stroke="${INK}" stroke-width="10"/><rect x="-300" y="-80" width="600" height="44" fill="${col}"/>${TX(0,-62,48,'#fff',title,'middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}${TX(0,50,54,INK,sub,'middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}`;
+function scene(t){
+  let o=`<rect width="1920" height="1080" fill="${CREAM}"/><rect y="900" width="1920" height="180" fill="#f1e1a8"/>`;
+  // ROOM scene 0 - 7.7
+  const room=1-clamp((t-7.3)/0.4);
+  if(room>0){
+    let r='';
+    r+=G(1380,130,pop(t,0.2),1,calendar());
+    r+=G(0,0,1,1,sofa());
+    const ex= t<4.5?'flat':(t<7.3?'smile':'flat');
+    r+=G(640,790,1,1,stick(t<4.5?'flat':'smile',t,true));
+    // floating icons from phone
+    if(t<7.3){for(let i=0;i<5;i++){const ph=((t*0.9+i*0.2)%1);const x=760+ph*40+i*18,y=640-ph*260;r+=`<g opacity="${1-ph}" transform="translate(${x} ${y}) scale(${0.6+ph*0.5})"><path d="M 0 -4 c -12 -18 -34 0 0 24 c 34 -24 12 -42 0 -24 z" fill="${i%2?RED:'#fff'}" stroke="${INK}" stroke-width="6"/></g>`}}
+    // name tag
+    r+=G(560,560,pop(t,1.5),win(t,1.5,5.6,0.2),`<rect x="-80" y="-40" width="160" height="70" rx="20" fill="#fff" stroke="${INK}" stroke-width="8"/>${TX(0,12,44,INK,'Stick','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}<path d="M 0 30 L 20 58 L -20 58 Z" fill="#fff" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/>`,-4);
+    // thought bubble plan
+    r+=G(950,300,pop(t,3.15),win(t,3.15,7.3,0.25),`<ellipse cx="0" cy="0" rx="300" ry="120" fill="#fff" stroke="${INK}" stroke-width="10"/><circle cx="-190" cy="150" r="26" fill="#fff" stroke="${INK}" stroke-width="8"/><circle cx="-230" cy="210" r="14" fill="#fff" stroke="${INK}" stroke-width="8"/>${TX(0,16,46,INK,'STUDY TONIGHT','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}`);
+    // honestly check
+    r+=G(1285,205,pop(t,4.84),win(t,4.84,7.3,0.2),`<circle r="52" fill="#6fcf97" stroke="${INK}" stroke-width="10"/><path d="M -24 2 L -6 22 L 28 -20" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>`);
+    // schedule paper
+    r+=G(1480,640,pop(t,5.16,0.4),win(t,5.16,7.3,0.25),`<rect x="-170" y="-200" width="340" height="400" rx="16" fill="#fff" stroke="${INK}" stroke-width="10" transform="rotate(4)"/><g transform="rotate(4)">${TX(0,-140,44,INK,'SCHEDULE','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}<line x1="-120" y1="-90" x2="120" y2="-90" stroke="${INK}" stroke-width="6"/><line x1="-120" y1="-30" x2="120" y2="-30" stroke="#b8c2d9" stroke-width="6"/><line x1="-120" y1="30" x2="120" y2="30" stroke="#b8c2d9" stroke-width="6"/><line x1="-120" y1="90" x2="120" y2="90" stroke="#b8c2d9" stroke-width="6"/></g>`);
+    const st=pop(t,6.72,0.25);
+    r+=G(1480+ (t>6.72&&t<6.95?Math.sin(t*90)*6:0),640,st,win(t,6.72,7.3,0.2),`<rect x="-150" y="-50" width="300" height="100" rx="14" fill="none" stroke="${RED}" stroke-width="12"/>${TX(0,20,52,RED,'TOMORROW','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}`,-12);
+    o+=G(0,0,1,room,r);
+  }
+  // DEAL board 7.7 - 17.0
+  const deal=clamp((t-7.6)/0.4)*(1-clamp((t-17.0)/0.3));
+  if(deal>0){
+    let d='';
+    d+=G(960,130,pop(t,7.92),1,TX(0,0,96,INK,'THE DEAL','middle',0).replace(/stroke="[^"]*"/,'stroke="none"'));
+    // timeline arrow
+    d+=`<line x1="260" y1="780" x2="1660" y2="780" stroke="${INK}" stroke-width="14" stroke-linecap="round"/><path d="M 1660 760 L 1700 780 L 1660 800" fill="none" stroke="${INK}" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>`;
+    d+=TX(260,860,52,INK,'NOW','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')+TX(1560,860,52,INK,'2 WEEKS','middle',0).replace(/stroke="[^"]*"/,'stroke="none"');
+    // card A
+    const pulseA=(t>15.1&&t<17)?1+Math.sin(t*10)*0.02:1;
+    d+=G(600,380,pop(t,9.78)*pulseA,1,card('DEAL 1','STUDY NOW',BLUE));
+    d+=G(1560,700,pop(t,10.6),1,star(34));
+    d+=G(1560,610,pop(t,10.9),win(t,10.9,17,0.2),TX(0,0,40,INK,'reward later','middle',0).replace(/stroke="[^"]*"/,'stroke="none"'));
+    // card B
+    const win2=t>16.9?1+clamp((t-16.9)/0.3)*0.12:1;
+    d+=G(1320,380,pop(t,12.71)*win2,1,card('DEAL 2','SCROLL NOW',RED));
+    d+=G(340,690,pop(t,13.5)*(t>16.9?1.25:1),1,star(86));
+    d+=G(340,590,pop(t,13.9),win(t,13.9,17,0.2),TX(0,0,40,INK,'reward NOW','middle',0).replace(/stroke="[^"]*"/,'stroke="none"'));
+    // question marks suspense
+    if(t>15.1&&t<17){for(let i=0;i<3;i++)d+=G(760+i*200,300+Math.sin(t*6+i)*14,1,1,TX(0,0,120,Y,'?','middle',14))}
+    // mini stick reacting
+    d+=G(1800,890,0.4,1,stick(t<15.1?'worried':'shock',t,false,0.0));
+    if(t>16.9&&t<17.4){for(let i=0;i<10;i++){const a=i*0.63,rr=(t-16.9)*600;d+=`<circle cx="${340+Math.cos(a)*rr}" cy="${690+Math.sin(a)*rr}" r="9" fill="${i%2?Y:RED}" stroke="${INK}" stroke-width="3"/>`}}
+    o+=G(0,0,1,deal,d);
+  }
+  // PRESENT BIAS 17.2 - 24.0
+  const pb=clamp((t-17.2)/0.3)*(1-clamp((t-24.0)/0.3));
+  if(pb>0){
+    let p='';
+    p+=G(960,150,pop(t,17.34,0.4),1,`<rect x="-520" y="-80" width="1040" height="150" rx="36" fill="${INK}"/>${TX(0,38,100,Y,'PRESENT BIAS','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}`);
+    const tilt=-14*easeOut(clamp((t-18.8)/0.6));
+    p+=`<g transform="translate(960 560)"><path d="M -60 340 L 0 100 L 60 340 Z" fill="#c9b27a" stroke="${INK}" stroke-width="10" stroke-linejoin="round"/><g transform="rotate(${tilt})"><line x1="-380" y1="0" x2="380" y2="0" stroke="${INK}" stroke-width="18" stroke-linecap="round"/><g transform="translate(-380 20) rotate(${-tilt})"><path d="M 0 0 L -90 60 M 0 0 L 90 60" stroke="${INK}" stroke-width="8"/><rect x="-100" y="60" width="200" height="24" rx="12" fill="#fff" stroke="${INK}" stroke-width="8"/><g transform="translate(0 20)">${star(70)}</g></g><g transform="translate(380 20) rotate(${-tilt})"><path d="M 0 0 L -90 60 M 0 0 L 90 60" stroke="${INK}" stroke-width="8"/><rect x="-100" y="60" width="200" height="24" rx="12" fill="#fff" stroke="${INK}" stroke-width="8"/><g transform="translate(0 40)">${star(22)}</g></g></g></g>`;
+    p+=G(580,430,pop(t,18.81),1,TX(0,0,60,INK,'NOW','middle',0).replace(/stroke="[^"]*"/,'stroke="none"'));
+    p+=G(1290,430,pop(t,19.6),1,TX(0,0,60,INK,'LATER','middle',0).replace(/stroke="[^"]*"/,'stroke="none"'));
+    // lazy crossed
+    p+=G(1650,350,pop(t,20.8),win(t,20.8,24,0.25),`${TX(0,0,110,INK,'LAZY','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}<line x1="-160" y1="-40" x2="160" y2="30" stroke="${RED}" stroke-width="18" stroke-linecap="round"/><line x1="160" y1="-40" x2="-160" y2="30" stroke="${RED}" stroke-width="18" stroke-linecap="round"/>`);
+    p+=G(330,330,pop(t,22.34),win(t,22.34,24,0.25),`${brain('heart',t)}${G(0,-150,1,1,TX(0,0,46,INK,'BRAIN','middle',0).replace(/stroke="[^"]*"/,'stroke="none"'))}`);
+    o+=G(0,0,1,pb,p);
+  }
+  // CLOSING 24 - end
+  const cl=clamp((t-23.9)/0.3);
+  if(cl>0){
+    let c='';
+    c+=G(1350,520,pop(t,24.07,0.45),1,brain(t>26.3?'wink':'heart',t));
+    c+=G(1350,330,pop(t,24.2),1,TX(0,0,150,Y,'?','middle',16));
+    c+=G(560,780,1,1,stick('think',t,false,0));
+    c+=G(960,170,pop(t,24.07,0.4),1,`<rect x="-640" y="-70" width="1280" height="130" rx="34" fill="${INK}"/>${TX(0,30,70,'#fff','How do you trick your own brain?','middle',0).replace(/stroke="[^"]*"/,'stroke="none"')}`);
+    c+=G(1230,860,pop(t,26.36,0.4),1,TX(0,0,96,INK,"LET'S FIND OUT &gt;&gt;",'middle',0).replace(/stroke="[^"]*"/,'stroke="none"'));
+    o+=G(0,0,1,cl,c);
+  }
+  // fade out
+  if(t>28.7) o+=`<rect width="1920" height="1080" fill="#000" opacity="${clamp((t-28.7)/0.55)}"/>`;
+  // captions
+  const cur=WORDS.findIndex(w=>t>=w.start&&t<w.end+0.12);
+  let idx=cur;
+  if(idx<0){let last=-1;WORDS.forEach((w,i)=>{if(w.start<=t)last=i});idx=last}
+  if(idx>=0 && t<28.9){
+    const sid=WORDS[idx].sentence, grp=WORDS.map((w,i)=>[w,i]).filter(([w])=>w.sentence===sid);
+    if(t<=WORDS[grp[grp.length-1][1]].end+0.25){
+      const txt=grp.map(([w])=>w.word).join(' ');const wch=txt.length*30+80;
+      let x=960-wch/2+40, spans='';
+      grp.forEach(([w,i])=>{const act=i===idx;spans+=`<tspan fill="${act?Y:'#fffdf7'}">${w.word} </tspan>`});
+      o+=`<g><rect x="${960-wch/2}" y="936" width="${wch}" height="96" rx="28" fill="#14142b" opacity="0.88"/><text x="960" y="1006" font-size="56" text-anchor="middle" stroke="none" style="font-weight:800">${spans}</text></g>`;
+    }
+  }
+  return o;
+}
+window.render=(t)=>{document.getElementById('s').innerHTML=scene(t)};
+window.setWords=(w)=>{WORDS=w};
+</script>

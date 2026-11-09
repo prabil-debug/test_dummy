@@ -1,0 +1,129 @@
+[
+ {
+  "section": "THE DEAL",
+  "start": 0.0
+ },
+ {
+  "text": "Two weeks until the exam.",
+  "section": "THE DEAL",
+  "start": 0.0,
+  "end": 1.124,
+  "chunk": 0,
+  "pause_after": 0.343
+ },
+ {
+  "text": "And Stick is on the sofa, scrolling.",
+  "section": "THE DEAL",
+  "start": 1.467,
+  "end": 3.115,
+  "chunk": 1
+ },
+ {
+  "text": "Stick has a plan: study tonight.",
+  "section": "THE DEAL",
+  "start": 3.115,
+  "end": 4.527,
+  "chunk": 1,
+  "pause_after": 0.318
+ },
+ {
+  "text": "Honestly.",
+  "section": "THE DEAL",
+  "start": 4.844,
+  "end": 5.158,
+  "chunk": 2
+ },
+ {
+  "text": "Stick even made a schedule.",
+  "section": "THE DEAL",
+  "start": 5.158,
+  "end": 6.724,
+  "chunk": 2
+ },
+ {
+  "text": "For tomorrow.",
+  "section": "THE DEAL",
+  "start": 6.724,
+  "end": 7.35,
+  "chunk": 2,
+  "pause_after": 0.564
+ },
+ {
+  "text": "But then Stick's brain offers a deal.",
+  "section": "THE DEAL",
+  "start": 7.915,
+  "end": 9.573,
+  "chunk": 3,
+  "pause_after": 0.208
+ },
+ {
+  "text": "Deal one: study now, and get your reward in two weeks.",
+  "section": "THE DEAL",
+  "start": 9.781,
+  "end": 12.491,
+  "chunk": 4,
+  "pause_after": 0.215
+ },
+ {
+  "text": "Deal two: scroll now, and get your reward right now.",
+  "section": "THE DEAL",
+  "start": 12.706,
+  "end": 15.122,
+  "chunk": 5
+ },
+ {
+  "text": "Guess which one wins.",
+  "section": "THE DEAL",
+  "start": 15.122,
+  "end": 16.088,
+  "chunk": 5,
+  "pause_after": 1.256
+ },
+ {
+  "text": "Scientists call it present bias.",
+  "section": "THE DEAL",
+  "start": 17.344,
+  "end": 18.812,
+  "chunk": 6
+ },
+ {
+  "text": "We overvalue now, and undervalue later.",
+  "section": "THE DEAL",
+  "start": 18.812,
+  "end": 20.572,
+  "chunk": 6,
+  "pause_after": 0.227
+ },
+ {
+  "text": "It isn't laziness.",
+  "section": "THE DEAL",
+  "start": 20.799,
+  "end": 21.811,
+  "chunk": 7,
+  "pause_after": 0.533
+ },
+ {
+  "text": "Brains are wired to love right now.",
+  "section": "THE DEAL",
+  "start": 22.344,
+  "end": 23.744,
+  "chunk": 8,
+  "pause_after": 0.327
+ },
+ {
+  "text": "So how do you trick your own brain?",
+  "section": "THE DEAL",
+  "start": 24.071,
+  "end": 25.669,
+  "chunk": 9,
+  "pause_after": 0.695
+ },
+ {
+  "text": "Let's find out.",
+  "section": "THE DEAL",
+  "start": 26.364,
+  "end": 27.259,
+  "chunk": 10,
+  "pause_after": 2.0
+ }
+]

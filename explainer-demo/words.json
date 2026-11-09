@@ -1,0 +1,542 @@
+[
+ {
+  "word": "Two",
+  "start": 0.0,
+  "end": 0.24,
+  "sentence": "Two weeks until the exam."
+ },
+ {
+  "word": "weeks",
+  "start": 0.24,
+  "end": 0.42,
+  "sentence": "Two weeks until the exam."
+ },
+ {
+  "word": "until",
+  "start": 0.42,
+  "end": 0.66,
+  "sentence": "Two weeks until the exam."
+ },
+ {
+  "word": "the",
+  "start": 0.66,
+  "end": 0.86,
+  "sentence": "Two weeks until the exam."
+ },
+ {
+  "word": "exam.",
+  "start": 0.86,
+  "end": 1.16,
+  "sentence": "Two weeks until the exam."
+ },
+ {
+  "word": "And",
+  "start": 1.72,
+  "end": 1.88,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "Stick",
+  "start": 1.88,
+  "end": 2.147,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "is",
+  "start": 2.147,
+  "end": 2.254,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "on",
+  "start": 2.254,
+  "end": 2.361,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "the",
+  "start": 2.361,
+  "end": 2.521,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "sofa,",
+  "start": 2.521,
+  "end": 2.734,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "scrolling.",
+  "start": 2.734,
+  "end": 3.215,
+  "sentence": "And Stick is on the sofa, scrolling."
+ },
+ {
+  "word": "Stick",
+  "start": 3.32,
+  "end": 3.32,
+  "sentence": "Stick has a plan: study tonight."
+ },
+ {
+  "word": "has",
+  "start": 3.32,
+  "end": 3.46,
+  "sentence": "Stick has a plan: study tonight."
+ },
+ {
+  "word": "a",
+  "start": 3.46,
+  "end": 3.6,
+  "sentence": "Stick has a plan: study tonight."
+ },
+ {
+  "word": "plan:",
+  "start": 3.6,
+  "end": 3.94,
+  "sentence": "Stick has a plan: study tonight."
+ },
+ {
+  "word": "study",
+  "start": 4.16,
+  "end": 4.2,
+  "sentence": "Stick has a plan: study tonight."
+ },
+ {
+  "word": "tonight.",
+  "start": 4.2,
+  "end": 4.7,
+  "sentence": "Stick has a plan: study tonight."
+ },
+ {
+  "word": "Honestly.",
+  "start": 5.14,
+  "end": 5.24,
+  "sentence": "Honestly."
+ },
+ {
+  "word": "Stick",
+  "start": 5.14,
+  "end": 5.523,
+  "sentence": "Stick even made a schedule."
+ },
+ {
+  "word": "even",
+  "start": 5.523,
+  "end": 5.829,
+  "sentence": "Stick even made a schedule."
+ },
+ {
+  "word": "made",
+  "start": 5.829,
+  "end": 6.135,
+  "sentence": "Stick even made a schedule."
+ },
+ {
+  "word": "a",
+  "start": 6.135,
+  "end": 6.212,
+  "sentence": "Stick even made a schedule."
+ },
+ {
+  "word": "schedule.",
+  "start": 6.212,
+  "end": 6.824,
+  "sentence": "Stick even made a schedule."
+ },
+ {
+  "word": "For",
+  "start": 6.52,
+  "end": 6.88,
+  "sentence": "For tomorrow."
+ },
+ {
+  "word": "tomorrow.",
+  "start": 6.88,
+  "end": 7.28,
+  "sentence": "For tomorrow."
+ },
+ {
+  "word": "But",
+  "start": 7.98,
+  "end": 8.12,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "then",
+  "start": 8.12,
+  "end": 8.32,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "Stick's",
+  "start": 8.46,
+  "end": 8.66,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "brain",
+  "start": 8.66,
+  "end": 8.92,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "offers",
+  "start": 8.92,
+  "end": 9.18,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "a",
+  "start": 9.18,
+  "end": 9.36,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "deal.",
+  "start": 9.36,
+  "end": 9.58,
+  "sentence": "But then Stick's brain offers a deal."
+ },
+ {
+  "word": "Deal",
+  "start": 9.88,
+  "end": 10.04,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "one:",
+  "start": 10.04,
+  "end": 10.46,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "study",
+  "start": 10.48,
+  "end": 10.68,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "now,",
+  "start": 10.68,
+  "end": 11.04,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "and",
+  "start": 11.04,
+  "end": 11.22,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "get",
+  "start": 11.22,
+  "end": 11.36,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "your",
+  "start": 11.36,
+  "end": 11.56,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "reward",
+  "start": 11.56,
+  "end": 11.8,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "in",
+  "start": 11.8,
+  "end": 11.98,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "two",
+  "start": 11.98,
+  "end": 12.18,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "weeks.",
+  "start": 12.18,
+  "end": 12.58,
+  "sentence": "Deal one: study now, and get your reward"
+ },
+ {
+  "word": "Deal",
+  "start": 12.96,
+  "end": 13.186,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "two:",
+  "start": 13.186,
+  "end": 13.356,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "scroll",
+  "start": 13.356,
+  "end": 13.695,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "now,",
+  "start": 13.695,
+  "end": 13.865,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "and",
+  "start": 13.865,
+  "end": 14.034,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "get",
+  "start": 14.034,
+  "end": 14.204,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "your",
+  "start": 14.204,
+  "end": 14.43,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "reward",
+  "start": 14.43,
+  "end": 14.77,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "right",
+  "start": 14.77,
+  "end": 15.052,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "now.",
+  "start": 15.052,
+  "end": 15.222,
+  "sentence": "Deal two: scroll now, and get your rewar"
+ },
+ {
+  "word": "Guess",
+  "start": 15.34,
+  "end": 15.34,
+  "sentence": "Guess which one wins."
+ },
+ {
+  "word": "which",
+  "start": 15.34,
+  "end": 15.54,
+  "sentence": "Guess which one wins."
+ },
+ {
+  "word": "one",
+  "start": 15.54,
+  "end": 15.76,
+  "sentence": "Guess which one wins."
+ },
+ {
+  "word": "wins.",
+  "start": 15.76,
+  "end": 16.08,
+  "sentence": "Guess which one wins."
+ },
+ {
+  "word": "Scientists",
+  "start": 17.44,
+  "end": 17.78,
+  "sentence": "Scientists call it present bias."
+ },
+ {
+  "word": "call",
+  "start": 17.78,
+  "end": 18.0,
+  "sentence": "Scientists call it present bias."
+ },
+ {
+  "word": "it",
+  "start": 18.0,
+  "end": 18.16,
+  "sentence": "Scientists call it present bias."
+ },
+ {
+  "word": "present",
+  "start": 18.16,
+  "end": 18.34,
+  "sentence": "Scientists call it present bias."
+ },
+ {
+  "word": "bias.",
+  "start": 18.34,
+  "end": 18.7,
+  "sentence": "Scientists call it present bias."
+ },
+ {
+  "word": "We",
+  "start": 19.08,
+  "end": 19.18,
+  "sentence": "We overvalue now, and undervalue later."
+ },
+ {
+  "word": "overvalue",
+  "start": 19.18,
+  "end": 19.54,
+  "sentence": "We overvalue now, and undervalue later."
+ },
+ {
+  "word": "now,",
+  "start": 19.54,
+  "end": 19.84,
+  "sentence": "We overvalue now, and undervalue later."
+ },
+ {
+  "word": "and",
+  "start": 19.84,
+  "end": 20.0,
+  "sentence": "We overvalue now, and undervalue later."
+ },
+ {
+  "word": "undervalue",
+  "start": 20.0,
+  "end": 20.36,
+  "sentence": "We overvalue now, and undervalue later."
+ },
+ {
+  "word": "later.",
+  "start": 20.36,
+  "end": 20.58,
+  "sentence": "We overvalue now, and undervalue later."
+ },
+ {
+  "word": "It",
+  "start": 20.88,
+  "end": 21.0,
+  "sentence": "It isn't laziness."
+ },
+ {
+  "word": "isn't",
+  "start": 21.0,
+  "end": 21.28,
+  "sentence": "It isn't laziness."
+ },
+ {
+  "word": "laziness.",
+  "start": 21.28,
+  "end": 21.74,
+  "sentence": "It isn't laziness."
+ },
+ {
+  "word": "Brains",
+  "start": 22.46,
+  "end": 22.64,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "are",
+  "start": 22.64,
+  "end": 22.86,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "wired",
+  "start": 22.86,
+  "end": 23.0,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "to",
+  "start": 23.0,
+  "end": 23.18,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "love",
+  "start": 23.18,
+  "end": 23.32,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "right",
+  "start": 23.32,
+  "end": 23.52,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "now.",
+  "start": 23.52,
+  "end": 23.9,
+  "sentence": "Brains are wired to love right now."
+ },
+ {
+  "word": "So",
+  "start": 24.14,
+  "end": 24.34,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "how",
+  "start": 24.34,
+  "end": 24.48,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "do",
+  "start": 24.48,
+  "end": 24.58,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "you",
+  "start": 24.58,
+  "end": 24.76,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "trick",
+  "start": 24.76,
+  "end": 24.92,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "your",
+  "start": 24.92,
+  "end": 25.14,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "own",
+  "start": 25.14,
+  "end": 25.36,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "brain?",
+  "start": 25.36,
+  "end": 25.88,
+  "sentence": "So how do you trick your own brain?"
+ },
+ {
+  "word": "Let's",
+  "start": 26.46,
+  "end": 26.76,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "find",
+  "start": 26.76,
+  "end": 27.06,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "out.",
+  "start": 27.06,
+  "end": 27.32,
+  "sentence": "Let's find out."
+ }
+]
