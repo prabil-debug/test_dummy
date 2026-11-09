@@ -27,7 +27,16 @@ Status key: OK = supported by a source I found this session. VERIFY = needs a pr
 | 21 | "A lawyer sets up a fund, and your parents' mortgage vanishes" | NOTE | Hypothetical scene. The mechanics (giving through a fund) are plausible but unverified. |
 | 22 | "Feeney needed decades and a whole organisation to move eight billion dollars" | VERIFY | Plausible (Atlantic ran roughly 1982-2020) but the start year was not in my sources. |
 
-## Items I want your decision on
+## Decisions applied (user said "go with your picks", script v1.2)
+- Row 1: wording changed to "The latest Forbes list counted..." so it does not go stale. Still VERIFY the 3,428 figure on forbes.com before publishing.
+- Row 6: Castro's name removed ("the state named him publicly. He declined every interview"). Row 5 stays OK.
+- Row 7: now "co-founded". Confirmed: DFS co-founded 1960 with Robert Miller (Wikipedia, trbusiness.com). OK.
+- Row 10: softened to "staff reportedly couldn't tell their families". Still single-sourced.
+- Row 12: confirmed. Foundation closed 14 Sep 2020; Feeney died 9 Oct 2023 aged 92.
+- Row 22: "decades" confirmed. Atlantic founded 1982, closed 2020.
+- Row 15 (tax line): kept; it is a general statement, not advice.
+
+## Original open items (resolved above)
 - Row 1: the Forbes number will date quickly. Keep "this year" or switch to "Forbes's latest list"?
 - Row 15: keep the tax line, or cut it to avoid anything that sounds like advice?
 - Sensitivity: the video uses a real person (Feeney, positively) and a real lottery winner (Castro, who is only named because California publishes winners). I show no faces or likenesses, only the character. If you prefer, I can drop Castro's name and say "a California winner".
