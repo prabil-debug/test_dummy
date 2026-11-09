@@ -1,6 +1,6 @@
 # What If COVID-19 Never Ended?
 Working title. Landscape 1920x1080, 2D stick-figure scenes, ~6 min. Scenario: the EMERGENCY never ended (not the virus staying deadly). Calm, curious, balanced; no blame, no politics, no medical advice.
-Status: DRAFT 1 for approval. Fact notes in FACTS.md (lines marked VERIFY there are lower-confidence).
+Status: LOCKED v1 (approved by user). Fact notes in FACTS.md; lines marked VERIFY there are lower-confidence.
 Markers: a line ending in [beat] gets a longer dramatic pause (use sparingly).
 
 ## THE FIFTEEN DAYS

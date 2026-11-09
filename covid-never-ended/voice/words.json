@@ -1,0 +1,6890 @@
+[
+ {
+  "word": "In",
+  "start": 0.0,
+  "end": 0.099,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "March",
+  "start": 0.099,
+  "end": 0.347,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "twenty",
+  "start": 0.347,
+  "end": 0.644,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "twenty,",
+  "start": 0.644,
+  "end": 0.942,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "the",
+  "start": 0.942,
+  "end": 1.09,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "United",
+  "start": 1.09,
+  "end": 1.388,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "States",
+  "start": 1.388,
+  "end": 1.685,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "launched",
+  "start": 1.685,
+  "end": 2.081,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "a",
+  "start": 2.081,
+  "end": 2.131,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "campaign",
+  "start": 2.131,
+  "end": 2.527,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "with",
+  "start": 2.527,
+  "end": 2.726,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "a",
+  "start": 2.726,
+  "end": 2.775,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "very",
+  "start": 2.775,
+  "end": 2.973,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "specific",
+  "start": 2.973,
+  "end": 3.37,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "name.",
+  "start": 3.37,
+  "end": 3.568,
+  "sentence": "In March twenty twenty, the United State"
+ },
+ {
+  "word": "Fifteen",
+  "start": 3.96,
+  "end": 4.256,
+  "sentence": "Fifteen Days to Slow the Spread."
+ },
+ {
+  "word": "Days",
+  "start": 4.256,
+  "end": 4.425,
+  "sentence": "Fifteen Days to Slow the Spread."
+ },
+ {
+  "word": "to",
+  "start": 4.425,
+  "end": 4.509,
+  "sentence": "Fifteen Days to Slow the Spread."
+ },
+ {
+  "word": "Slow",
+  "start": 4.509,
+  "end": 4.679,
+  "sentence": "Fifteen Days to Slow the Spread."
+ },
+ {
+  "word": "the",
+  "start": 4.679,
+  "end": 4.805,
+  "sentence": "Fifteen Days to Slow the Spread."
+ },
+ {
+  "word": "Spread.",
+  "start": 4.805,
+  "end": 5.059,
+  "sentence": "Fifteen Days to Slow the Spread."
+ },
+ {
+  "word": "Work",
+  "start": 4.909,
+  "end": 5.168,
+  "sentence": "Work from home if you can."
+ },
+ {
+  "word": "from",
+  "start": 5.168,
+  "end": 5.428,
+  "sentence": "Work from home if you can."
+ },
+ {
+  "word": "home",
+  "start": 5.428,
+  "end": 5.687,
+  "sentence": "Work from home if you can."
+ },
+ {
+  "word": "if",
+  "start": 5.687,
+  "end": 5.817,
+  "sentence": "Work from home if you can."
+ },
+ {
+  "word": "you",
+  "start": 5.817,
+  "end": 6.011,
+  "sentence": "Work from home if you can."
+ },
+ {
+  "word": "can.",
+  "start": 6.011,
+  "end": 6.206,
+  "sentence": "Work from home if you can."
+ },
+ {
+  "word": "Skip",
+  "start": 6.58,
+  "end": 6.64,
+  "sentence": "Skip gatherings of ten or more."
+ },
+ {
+  "word": "gatherings",
+  "start": 6.64,
+  "end": 6.9,
+  "sentence": "Skip gatherings of ten or more."
+ },
+ {
+  "word": "of",
+  "start": 6.9,
+  "end": 7.12,
+  "sentence": "Skip gatherings of ten or more."
+ },
+ {
+  "word": "ten",
+  "start": 7.12,
+  "end": 7.3,
+  "sentence": "Skip gatherings of ten or more."
+ },
+ {
+  "word": "or",
+  "start": 7.3,
+  "end": 7.48,
+  "sentence": "Skip gatherings of ten or more."
+ },
+ {
+  "word": "more.",
+  "start": 7.48,
+  "end": 7.82,
+  "sentence": "Skip gatherings of ten or more."
+ },
+ {
+  "word": "Fifteen",
+  "start": 8.04,
+  "end": 8.18,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "days,",
+  "start": 8.18,
+  "end": 8.62,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "and",
+  "start": 8.76,
+  "end": 8.76,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "it",
+  "start": 8.76,
+  "end": 8.84,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "would",
+  "start": 8.84,
+  "end": 8.98,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "be",
+  "start": 8.98,
+  "end": 9.08,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "over.",
+  "start": 9.08,
+  "end": 9.44,
+  "sentence": "Fifteen days, and it would be over."
+ },
+ {
+  "word": "Within",
+  "start": 9.64,
+  "end": 9.78,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "two",
+  "start": 9.78,
+  "end": 10.08,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "weeks,",
+  "start": 10.08,
+  "end": 10.32,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "it",
+  "start": 10.4,
+  "end": 10.44,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "was",
+  "start": 10.44,
+  "end": 10.66,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "extended",
+  "start": 10.66,
+  "end": 10.96,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "to",
+  "start": 10.96,
+  "end": 11.3,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "forty-five.",
+  "start": 11.3,
+  "end": 11.84,
+  "sentence": "Within two weeks, it was extended to for"
+ },
+ {
+  "word": "Now",
+  "start": 12.08,
+  "end": 12.36,
+  "sentence": "Now imagine it never ended."
+ },
+ {
+  "word": "imagine",
+  "start": 12.36,
+  "end": 12.7,
+  "sentence": "Now imagine it never ended."
+ },
+ {
+  "word": "it",
+  "start": 12.7,
+  "end": 12.92,
+  "sentence": "Now imagine it never ended."
+ },
+ {
+  "word": "never",
+  "start": 12.92,
+  "end": 13.12,
+  "sentence": "Now imagine it never ended."
+ },
+ {
+  "word": "ended.",
+  "start": 13.12,
+  "end": 13.54,
+  "sentence": "Now imagine it never ended."
+ },
+ {
+  "word": "Not",
+  "start": 14.66,
+  "end": 14.84,
+  "sentence": "Not the virus."
+ },
+ {
+  "word": "the",
+  "start": 14.84,
+  "end": 15.02,
+  "sentence": "Not the virus."
+ },
+ {
+  "word": "virus.",
+  "start": 15.02,
+  "end": 15.32,
+  "sentence": "Not the virus."
+ },
+ {
+  "word": "The",
+  "start": 15.24,
+  "end": 15.32,
+  "sentence": "The emergency."
+ },
+ {
+  "word": "emergency.",
+  "start": 15.32,
+  "end": 15.66,
+  "sentence": "The emergency."
+ },
+ {
+  "word": "The",
+  "start": 16.18,
+  "end": 16.303,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "rules,",
+  "start": 16.303,
+  "end": 16.507,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "the",
+  "start": 16.507,
+  "end": 16.63,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "empty",
+  "start": 16.63,
+  "end": 16.834,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "offices,",
+  "start": 16.834,
+  "end": 17.12,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "the",
+  "start": 17.12,
+  "end": 17.243,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "screens.",
+  "start": 17.243,
+  "end": 17.529,
+  "sentence": "The rules, the empty offices, the screen"
+ },
+ {
+  "word": "All",
+  "start": 17.379,
+  "end": 17.593,
+  "sentence": "All of it, staying on."
+ },
+ {
+  "word": "of",
+  "start": 17.593,
+  "end": 17.736,
+  "sentence": "All of it, staying on."
+ },
+ {
+  "word": "it,",
+  "start": 17.736,
+  "end": 17.879,
+  "sentence": "All of it, staying on."
+ },
+ {
+  "word": "staying",
+  "start": 17.879,
+  "end": 18.379,
+  "sentence": "All of it, staying on."
+ },
+ {
+  "word": "on.",
+  "start": 18.379,
+  "end": 18.522,
+  "sentence": "All of it, staying on."
+ },
+ {
+  "word": "What",
+  "start": 18.72,
+  "end": 18.82,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "would",
+  "start": 18.82,
+  "end": 18.94,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "the",
+  "start": 18.94,
+  "end": 19.04,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "world",
+  "start": 19.04,
+  "end": 19.16,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "look",
+  "start": 19.16,
+  "end": 19.32,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "like",
+  "start": 19.32,
+  "end": 19.5,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "today?",
+  "start": 19.5,
+  "end": 19.92,
+  "sentence": "What would the world look like today?"
+ },
+ {
+  "word": "Let's",
+  "start": 20.48,
+  "end": 20.655,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "find",
+  "start": 20.655,
+  "end": 20.829,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "out.",
+  "start": 20.829,
+  "end": 20.96,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "First,",
+  "start": 21.98,
+  "end": 22.26,
+  "sentence": "First, an important difference."
+ },
+ {
+  "word": "an",
+  "start": 22.42,
+  "end": 22.42,
+  "sentence": "First, an important difference."
+ },
+ {
+  "word": "important",
+  "start": 22.42,
+  "end": 22.72,
+  "sentence": "First, an important difference."
+ },
+ {
+  "word": "difference.",
+  "start": 22.72,
+  "end": 23.2,
+  "sentence": "First, an important difference."
+ },
+ {
+  "word": "This",
+  "start": 23.9,
+  "end": 24.06,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "isn't",
+  "start": 24.06,
+  "end": 24.24,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "about",
+  "start": 24.24,
+  "end": 24.48,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "a",
+  "start": 24.48,
+  "end": 24.7,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "virus",
+  "start": 24.7,
+  "end": 24.86,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "that",
+  "start": 24.86,
+  "end": 25.12,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "stays",
+  "start": 25.12,
+  "end": 25.34,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "as",
+  "start": 25.34,
+  "end": 25.6,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "deadly",
+  "start": 25.6,
+  "end": 25.84,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "as",
+  "start": 25.84,
+  "end": 26.02,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "it",
+  "start": 26.02,
+  "end": 26.2,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "was.",
+  "start": 26.2,
+  "end": 26.52,
+  "sentence": "This isn't about a virus that stays as d"
+ },
+ {
+  "word": "It's",
+  "start": 26.96,
+  "end": 27.16,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "about",
+  "start": 27.16,
+  "end": 27.34,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "an",
+  "start": 27.34,
+  "end": 27.78,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "emergency",
+  "start": 27.78,
+  "end": 28.08,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "that",
+  "start": 28.08,
+  "end": 28.4,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "never",
+  "start": 28.4,
+  "end": 28.64,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "switches",
+  "start": 28.64,
+  "end": 29.12,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "off.",
+  "start": 29.4,
+  "end": 29.4,
+  "sentence": "It's about an emergency that never switc"
+ },
+ {
+  "word": "People",
+  "start": 29.4,
+  "end": 29.4,
+  "sentence": "People still learn."
+ },
+ {
+  "word": "still",
+  "start": 29.4,
+  "end": 29.78,
+  "sentence": "People still learn."
+ },
+ {
+  "word": "learn.",
+  "start": 29.78,
+  "end": 30.08,
+  "sentence": "People still learn."
+ },
+ {
+  "word": "People",
+  "start": 30.36,
+  "end": 30.618,
+  "sentence": "People still adapt."
+ },
+ {
+  "word": "still",
+  "start": 30.618,
+  "end": 30.833,
+  "sentence": "People still adapt."
+ },
+ {
+  "word": "adapt.",
+  "start": 30.833,
+  "end": 31.048,
+  "sentence": "People still adapt."
+ },
+ {
+  "word": "But",
+  "start": 31.0,
+  "end": 31.2,
+  "sentence": "But nobody ever says, \"It's over.\""
+ },
+ {
+  "word": "nobody",
+  "start": 31.2,
+  "end": 31.44,
+  "sentence": "But nobody ever says, \"It's over.\""
+ },
+ {
+  "word": "ever",
+  "start": 31.44,
+  "end": 31.72,
+  "sentence": "But nobody ever says, \"It's over.\""
+ },
+ {
+  "word": "says,",
+  "start": 31.72,
+  "end": 31.84,
+  "sentence": "But nobody ever says, \"It's over.\""
+ },
+ {
+  "word": "\"It's",
+  "start": 31.84,
+  "end": 32.1,
+  "sentence": "But nobody ever says, \"It's over.\""
+ },
+ {
+  "word": "over.\"",
+  "start": 32.1,
+  "end": 32.46,
+  "sentence": "But nobody ever says, \"It's over.\""
+ },
+ {
+  "word": "And",
+  "start": 32.66,
+  "end": 32.792,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "to",
+  "start": 32.792,
+  "end": 32.88,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "be",
+  "start": 32.88,
+  "end": 32.967,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "fair,",
+  "start": 32.967,
+  "end": 33.143,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "an",
+  "start": 33.143,
+  "end": 33.231,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "emergency",
+  "start": 33.231,
+  "end": 33.626,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "isn't",
+  "start": 33.626,
+  "end": 33.801,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "declared",
+  "start": 33.801,
+  "end": 34.153,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "lightly.",
+  "start": 34.153,
+  "end": 34.46,
+  "sentence": "And to be fair, an emergency isn't decla"
+ },
+ {
+  "word": "The",
+  "start": 34.78,
+  "end": 34.907,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "World",
+  "start": 34.907,
+  "end": 35.12,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "Health",
+  "start": 35.12,
+  "end": 35.375,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "Organization",
+  "start": 35.375,
+  "end": 35.885,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "estimates",
+  "start": 35.885,
+  "end": 36.267,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "the",
+  "start": 36.267,
+  "end": 36.394,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "pandemic",
+  "start": 36.394,
+  "end": 36.734,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "was",
+  "start": 36.734,
+  "end": 36.862,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "linked",
+  "start": 36.862,
+  "end": 37.117,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "to",
+  "start": 37.117,
+  "end": 37.202,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "about",
+  "start": 37.202,
+  "end": 37.414,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "fifteen",
+  "start": 37.414,
+  "end": 37.711,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "million",
+  "start": 37.711,
+  "end": 38.009,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "deaths",
+  "start": 38.009,
+  "end": 38.264,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "in",
+  "start": 38.264,
+  "end": 38.349,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "twenty",
+  "start": 38.349,
+  "end": 38.603,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "twenty",
+  "start": 38.603,
+  "end": 38.858,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "and",
+  "start": 38.858,
+  "end": 38.986,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "twenty",
+  "start": 38.986,
+  "end": 39.241,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "twenty-one,",
+  "start": 39.241,
+  "end": 39.623,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "counting",
+  "start": 39.623,
+  "end": 39.963,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "those",
+  "start": 39.963,
+  "end": 40.175,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "it",
+  "start": 40.175,
+  "end": 40.26,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "caused",
+  "start": 40.26,
+  "end": 40.515,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "indirectly.",
+  "start": 40.515,
+  "end": 40.94,
+  "sentence": "The World Health Organization estimates "
+ },
+ {
+  "word": "The",
+  "start": 41.48,
+  "end": 41.613,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "official",
+  "start": 41.613,
+  "end": 41.967,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "count",
+  "start": 41.967,
+  "end": 42.188,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "of",
+  "start": 42.188,
+  "end": 42.276,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "deaths",
+  "start": 42.276,
+  "end": 42.542,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "from",
+  "start": 42.542,
+  "end": 42.719,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "Covid",
+  "start": 42.719,
+  "end": 42.94,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "itself",
+  "start": 42.94,
+  "end": 43.205,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "was",
+  "start": 43.205,
+  "end": 43.338,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "about",
+  "start": 43.338,
+  "end": 43.559,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "five",
+  "start": 43.559,
+  "end": 43.736,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "and",
+  "start": 43.736,
+  "end": 43.869,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "a",
+  "start": 43.869,
+  "end": 43.913,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "half",
+  "start": 43.913,
+  "end": 44.09,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "million.",
+  "start": 44.09,
+  "end": 44.4,
+  "sentence": "The official count of deaths from Covid "
+ },
+ {
+  "word": "That",
+  "start": 44.68,
+  "end": 44.8,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "is",
+  "start": 44.8,
+  "end": 44.9,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "why",
+  "start": 44.9,
+  "end": 45.02,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "the",
+  "start": 45.02,
+  "end": 45.16,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "world",
+  "start": 45.16,
+  "end": 45.36,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "took",
+  "start": 45.36,
+  "end": 45.52,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "it",
+  "start": 45.52,
+  "end": 45.66,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "so",
+  "start": 45.66,
+  "end": 45.88,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "seriously.",
+  "start": 45.88,
+  "end": 46.24,
+  "sentence": "That is why the world took it so serious"
+ },
+ {
+  "word": "The",
+  "start": 46.66,
+  "end": 46.812,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "harder",
+  "start": 46.812,
+  "end": 47.116,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "question",
+  "start": 47.116,
+  "end": 47.521,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "is",
+  "start": 47.521,
+  "end": 47.622,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "how",
+  "start": 47.622,
+  "end": 47.774,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "long",
+  "start": 47.774,
+  "end": 47.977,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "a",
+  "start": 47.977,
+  "end": 48.027,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "world",
+  "start": 48.027,
+  "end": 48.28,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "can",
+  "start": 48.28,
+  "end": 48.432,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "live",
+  "start": 48.432,
+  "end": 48.635,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "like",
+  "start": 48.635,
+  "end": 48.837,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "that.",
+  "start": 48.837,
+  "end": 49.04,
+  "sentence": "The harder question is how long a world "
+ },
+ {
+  "word": "Melbourne",
+  "start": 50.32,
+  "end": 50.54,
+  "sentence": "Melbourne gives us a clue."
+ },
+ {
+  "word": "gives",
+  "start": 50.54,
+  "end": 50.72,
+  "sentence": "Melbourne gives us a clue."
+ },
+ {
+  "word": "us",
+  "start": 50.72,
+  "end": 50.94,
+  "sentence": "Melbourne gives us a clue."
+ },
+ {
+  "word": "a",
+  "start": 50.94,
+  "end": 51.0,
+  "sentence": "Melbourne gives us a clue."
+ },
+ {
+  "word": "clue.",
+  "start": 51.0,
+  "end": 51.26,
+  "sentence": "Melbourne gives us a clue."
+ },
+ {
+  "word": "Across",
+  "start": 51.58,
+  "end": 51.829,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "six",
+  "start": 51.829,
+  "end": 51.953,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "separate",
+  "start": 51.953,
+  "end": 52.285,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "lockdowns,",
+  "start": 52.285,
+  "end": 52.659,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "the",
+  "start": 52.659,
+  "end": 52.783,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "city",
+  "start": 52.783,
+  "end": 52.95,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "spent",
+  "start": 52.95,
+  "end": 53.157,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "two",
+  "start": 53.157,
+  "end": 53.282,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "hundred",
+  "start": 53.282,
+  "end": 53.572,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "and",
+  "start": 53.572,
+  "end": 53.697,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "sixty-two",
+  "start": 53.697,
+  "end": 54.029,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "days",
+  "start": 54.029,
+  "end": 54.194,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "under",
+  "start": 54.194,
+  "end": 54.402,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "restrictions.",
+  "start": 54.402,
+  "end": 54.9,
+  "sentence": "Across six separate lockdowns, the city "
+ },
+ {
+  "word": "At",
+  "start": 55.5,
+  "end": 55.587,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "the",
+  "start": 55.587,
+  "end": 55.719,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "time,",
+  "start": 55.719,
+  "end": 55.894,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "that",
+  "start": 55.894,
+  "end": 56.069,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "was",
+  "start": 56.069,
+  "end": 56.2,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "the",
+  "start": 56.2,
+  "end": 56.331,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "most",
+  "start": 56.331,
+  "end": 56.506,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "of",
+  "start": 56.506,
+  "end": 56.593,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "any",
+  "start": 56.593,
+  "end": 56.725,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "city",
+  "start": 56.725,
+  "end": 56.9,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "in",
+  "start": 56.9,
+  "end": 56.987,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "the",
+  "start": 56.987,
+  "end": 57.118,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "world.",
+  "start": 57.118,
+  "end": 57.337,
+  "sentence": "At the time, that was the most of any ci"
+ },
+ {
+  "word": "Shops",
+  "start": 57.78,
+  "end": 58.018,
+  "sentence": "Shops shut."
+ },
+ {
+  "word": "shut.",
+  "start": 58.018,
+  "end": 58.208,
+  "sentence": "Shops shut."
+ },
+ {
+  "word": "Streets",
+  "start": 58.058,
+  "end": 58.349,
+  "sentence": "Streets emptied."
+ },
+ {
+  "word": "emptied.",
+  "start": 58.349,
+  "end": 58.64,
+  "sentence": "Streets emptied."
+ },
+ {
+  "word": "Neighbours",
+  "start": 59.06,
+  "end": 59.06,
+  "sentence": "Neighbours became faces on a screen."
+ },
+ {
+  "word": "became",
+  "start": 59.06,
+  "end": 59.3,
+  "sentence": "Neighbours became faces on a screen."
+ },
+ {
+  "word": "faces",
+  "start": 59.3,
+  "end": 59.56,
+  "sentence": "Neighbours became faces on a screen."
+ },
+ {
+  "word": "on",
+  "start": 59.56,
+  "end": 59.72,
+  "sentence": "Neighbours became faces on a screen."
+ },
+ {
+  "word": "a",
+  "start": 59.72,
+  "end": 59.86,
+  "sentence": "Neighbours became faces on a screen."
+ },
+ {
+  "word": "screen.",
+  "start": 59.86,
+  "end": 60.2,
+  "sentence": "Neighbours became faces on a screen."
+ },
+ {
+  "word": "When",
+  "start": 60.42,
+  "end": 60.599,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "it",
+  "start": 60.599,
+  "end": 60.688,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "finally",
+  "start": 60.688,
+  "end": 61.002,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "lifted",
+  "start": 61.002,
+  "end": 61.27,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "in",
+  "start": 61.27,
+  "end": 61.36,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "October",
+  "start": 61.36,
+  "end": 61.673,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "twenty",
+  "start": 61.673,
+  "end": 61.941,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "twenty-one,",
+  "start": 61.941,
+  "end": 62.344,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "people",
+  "start": 62.344,
+  "end": 62.613,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "celebrated.",
+  "start": 62.613,
+  "end": 63.06,
+  "sentence": "When it finally lifted in October twenty"
+ },
+ {
+  "word": "But",
+  "start": 63.74,
+  "end": 63.9,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "that",
+  "start": 63.9,
+  "end": 64.0,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "was",
+  "start": 64.0,
+  "end": 64.18,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "months,",
+  "start": 64.18,
+  "end": 64.46,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "with",
+  "start": 64.46,
+  "end": 64.62,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "an",
+  "start": 64.62,
+  "end": 64.76,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "end",
+  "start": 64.76,
+  "end": 64.88,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "in",
+  "start": 64.88,
+  "end": 65.08,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "sight.",
+  "start": 65.08,
+  "end": 65.28,
+  "sentence": "But that was months, with an end in sigh"
+ },
+ {
+  "word": "What",
+  "start": 65.64,
+  "end": 65.78,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "happens",
+  "start": 65.78,
+  "end": 66.04,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "when",
+  "start": 66.04,
+  "end": 66.2,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "there's",
+  "start": 66.2,
+  "end": 66.4,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "no",
+  "start": 66.4,
+  "end": 66.64,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "end",
+  "start": 66.64,
+  "end": 66.84,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "in",
+  "start": 66.84,
+  "end": 67.02,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "sight?",
+  "start": 67.02,
+  "end": 67.32,
+  "sentence": "What happens when there's no end in sigh"
+ },
+ {
+  "word": "Some",
+  "start": 68.04,
+  "end": 68.26,
+  "sentence": "Some places went much longer."
+ },
+ {
+  "word": "places",
+  "start": 68.26,
+  "end": 68.5,
+  "sentence": "Some places went much longer."
+ },
+ {
+  "word": "went",
+  "start": 68.5,
+  "end": 68.7,
+  "sentence": "Some places went much longer."
+ },
+ {
+  "word": "much",
+  "start": 68.7,
+  "end": 68.92,
+  "sentence": "Some places went much longer."
+ },
+ {
+  "word": "longer.",
+  "start": 68.92,
+  "end": 69.34,
+  "sentence": "Some places went much longer."
+ },
+ {
+  "word": "China",
+  "start": 69.76,
+  "end": 70.001,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "locked",
+  "start": 70.001,
+  "end": 70.29,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "down",
+  "start": 70.29,
+  "end": 70.483,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "Wuhan",
+  "start": 70.483,
+  "end": 70.723,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "in",
+  "start": 70.723,
+  "end": 70.82,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "January",
+  "start": 70.82,
+  "end": 71.157,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "twenty",
+  "start": 71.157,
+  "end": 71.446,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "twenty,",
+  "start": 71.446,
+  "end": 71.735,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "and",
+  "start": 71.735,
+  "end": 71.88,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "kept",
+  "start": 71.88,
+  "end": 72.072,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "strict",
+  "start": 72.072,
+  "end": 72.361,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "versions",
+  "start": 72.361,
+  "end": 72.747,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "of",
+  "start": 72.747,
+  "end": 72.843,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "those",
+  "start": 72.843,
+  "end": 73.084,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "rules",
+  "start": 73.084,
+  "end": 73.325,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "for",
+  "start": 73.325,
+  "end": 73.469,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "almost",
+  "start": 73.469,
+  "end": 73.758,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "three",
+  "start": 73.758,
+  "end": 73.999,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "years.",
+  "start": 73.999,
+  "end": 74.24,
+  "sentence": "China locked down Wuhan in January twent"
+ },
+ {
+  "word": "In",
+  "start": 74.54,
+  "end": 74.636,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "spring",
+  "start": 74.636,
+  "end": 74.925,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "twenty",
+  "start": 74.925,
+  "end": 75.214,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "twenty-two,",
+  "start": 75.214,
+  "end": 75.647,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "Shanghai",
+  "start": 75.647,
+  "end": 76.033,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "locked",
+  "start": 76.033,
+  "end": 76.321,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "down",
+  "start": 76.321,
+  "end": 76.514,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "twenty-five",
+  "start": 76.514,
+  "end": 76.996,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "million",
+  "start": 76.996,
+  "end": 77.333,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "people",
+  "start": 77.333,
+  "end": 77.621,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "for",
+  "start": 77.621,
+  "end": 77.766,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "about",
+  "start": 77.766,
+  "end": 78.007,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "two",
+  "start": 78.007,
+  "end": 78.151,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "months.",
+  "start": 78.151,
+  "end": 78.44,
+  "sentence": "In spring twenty twenty-two, Shanghai lo"
+ },
+ {
+  "word": "Then,",
+  "start": 78.7,
+  "end": 78.875,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "in",
+  "start": 78.875,
+  "end": 78.963,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "December",
+  "start": 78.963,
+  "end": 79.312,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "twenty",
+  "start": 79.312,
+  "end": 79.575,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "twenty-two,",
+  "start": 79.575,
+  "end": 79.969,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "the",
+  "start": 79.969,
+  "end": 80.1,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "rules",
+  "start": 80.1,
+  "end": 80.319,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "were",
+  "start": 80.319,
+  "end": 80.494,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "dropped.",
+  "start": 80.494,
+  "end": 80.8,
+  "sentence": "Then, in December twenty twenty-two, the"
+ },
+ {
+  "word": "Reports",
+  "start": 81.48,
+  "end": 81.48,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "linked",
+  "start": 81.48,
+  "end": 81.68,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "the",
+  "start": 81.68,
+  "end": 81.88,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "change",
+  "start": 81.88,
+  "end": 82.04,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "to",
+  "start": 82.04,
+  "end": 82.24,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "protests",
+  "start": 82.24,
+  "end": 82.54,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "and",
+  "start": 82.54,
+  "end": 82.84,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "to",
+  "start": 82.84,
+  "end": 82.94,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "a",
+  "start": 82.94,
+  "end": 83.04,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "more",
+  "start": 83.04,
+  "end": 83.2,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "contagious",
+  "start": 83.2,
+  "end": 83.52,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "variant.",
+  "start": 83.52,
+  "end": 83.9,
+  "sentence": "Reports linked the change to protests an"
+ },
+ {
+  "word": "Three",
+  "start": 84.52,
+  "end": 84.774,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "years",
+  "start": 84.774,
+  "end": 85.028,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "is",
+  "start": 85.028,
+  "end": 85.13,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "a",
+  "start": 85.13,
+  "end": 85.181,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "long",
+  "start": 85.181,
+  "end": 85.384,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "time",
+  "start": 85.384,
+  "end": 85.587,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "for",
+  "start": 85.587,
+  "end": 85.739,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "a",
+  "start": 85.739,
+  "end": 85.79,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "world",
+  "start": 85.79,
+  "end": 86.044,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "on",
+  "start": 86.044,
+  "end": 86.146,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "pause.",
+  "start": 86.146,
+  "end": 86.4,
+  "sentence": "Three years is a long time for a world o"
+ },
+ {
+  "word": "It",
+  "start": 86.9,
+  "end": 86.98,
+  "sentence": "It shows two things."
+ },
+ {
+  "word": "shows",
+  "start": 86.98,
+  "end": 87.18,
+  "sentence": "It shows two things."
+ },
+ {
+  "word": "two",
+  "start": 87.18,
+  "end": 87.46,
+  "sentence": "It shows two things."
+ },
+ {
+  "word": "things.",
+  "start": 87.46,
+  "end": 88.0,
+  "sentence": "It shows two things."
+ },
+ {
+  "word": "An",
+  "start": 88.5,
+  "end": 88.617,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "emergency",
+  "start": 88.617,
+  "end": 89.146,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "can",
+  "start": 89.146,
+  "end": 89.322,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "last",
+  "start": 89.322,
+  "end": 89.557,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "far",
+  "start": 89.557,
+  "end": 89.733,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "longer",
+  "start": 89.733,
+  "end": 90.085,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "than",
+  "start": 90.085,
+  "end": 90.32,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "anyone",
+  "start": 90.32,
+  "end": 90.672,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "plans.",
+  "start": 90.672,
+  "end": 90.966,
+  "sentence": "An emergency can last far longer than an"
+ },
+ {
+  "word": "And",
+  "start": 91.46,
+  "end": 91.46,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "ending",
+  "start": 91.46,
+  "end": 91.6,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "one",
+  "start": 91.6,
+  "end": 91.84,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "may",
+  "start": 91.84,
+  "end": 91.98,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "be",
+  "start": 91.98,
+  "end": 92.16,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "harder",
+  "start": 92.16,
+  "end": 92.3,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "than",
+  "start": 92.3,
+  "end": 92.54,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "starting",
+  "start": 92.54,
+  "end": 92.7,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "one.",
+  "start": 92.7,
+  "end": 93.18,
+  "sentence": "And ending one may be harder than starti"
+ },
+ {
+  "word": "Either",
+  "start": 93.24,
+  "end": 93.38,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "way,",
+  "start": 93.38,
+  "end": 93.56,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "the",
+  "start": 93.66,
+  "end": 93.7,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "first",
+  "start": 93.7,
+  "end": 93.86,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "thing",
+  "start": 93.86,
+  "end": 94.0,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "to",
+  "start": 94.0,
+  "end": 94.12,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "change",
+  "start": 94.12,
+  "end": 94.32,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "would",
+  "start": 94.32,
+  "end": 94.44,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "be",
+  "start": 94.44,
+  "end": 94.58,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "work.",
+  "start": 94.58,
+  "end": 94.94,
+  "sentence": "Either way, the first thing to change wo"
+ },
+ {
+  "word": "Before",
+  "start": 95.9,
+  "end": 96.164,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "the",
+  "start": 96.164,
+  "end": 96.297,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "pandemic,",
+  "start": 96.297,
+  "end": 96.649,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "only",
+  "start": 96.649,
+  "end": 96.826,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "about",
+  "start": 96.826,
+  "end": 97.046,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "five",
+  "start": 97.046,
+  "end": 97.222,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "to",
+  "start": 97.222,
+  "end": 97.31,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "seven",
+  "start": 97.31,
+  "end": 97.531,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "percent",
+  "start": 97.531,
+  "end": 97.839,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "of",
+  "start": 97.839,
+  "end": 97.928,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "paid",
+  "start": 97.928,
+  "end": 98.104,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "workdays",
+  "start": 98.104,
+  "end": 98.456,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "in",
+  "start": 98.456,
+  "end": 98.545,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "the",
+  "start": 98.545,
+  "end": 98.677,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "United",
+  "start": 98.677,
+  "end": 98.941,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "States",
+  "start": 98.941,
+  "end": 99.206,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "were",
+  "start": 99.206,
+  "end": 99.382,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "done",
+  "start": 99.382,
+  "end": 99.558,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "from",
+  "start": 99.558,
+  "end": 99.735,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "home.",
+  "start": 99.735,
+  "end": 99.911,
+  "sentence": "Before the pandemic, only about five to "
+ },
+ {
+  "word": "Then,",
+  "start": 100.22,
+  "end": 100.32,
+  "sentence": "Then, almost overnight, kitchens became "
+ },
+ {
+  "word": "almost",
+  "start": 100.32,
+  "end": 100.54,
+  "sentence": "Then, almost overnight, kitchens became "
+ },
+ {
+  "word": "overnight,",
+  "start": 100.54,
+  "end": 100.92,
+  "sentence": "Then, almost overnight, kitchens became "
+ },
+ {
+  "word": "kitchens",
+  "start": 101.04,
+  "end": 101.22,
+  "sentence": "Then, almost overnight, kitchens became "
+ },
+ {
+  "word": "became",
+  "start": 101.22,
+  "end": 101.5,
+  "sentence": "Then, almost overnight, kitchens became "
+ },
+ {
+  "word": "offices.",
+  "start": 101.5,
+  "end": 101.94,
+  "sentence": "Then, almost overnight, kitchens became "
+ },
+ {
+  "word": "Today,",
+  "start": 102.46,
+  "end": 102.727,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "even",
+  "start": 102.727,
+  "end": 102.94,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "with",
+  "start": 102.94,
+  "end": 103.153,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "the",
+  "start": 103.153,
+  "end": 103.313,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "emergency",
+  "start": 103.313,
+  "end": 103.793,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "long",
+  "start": 103.793,
+  "end": 104.006,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "over,",
+  "start": 104.006,
+  "end": 104.22,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "about",
+  "start": 104.22,
+  "end": 104.486,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "one",
+  "start": 104.486,
+  "end": 104.646,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "paid",
+  "start": 104.646,
+  "end": 104.859,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "workday",
+  "start": 104.859,
+  "end": 105.233,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "in",
+  "start": 105.233,
+  "end": 105.339,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "four",
+  "start": 105.339,
+  "end": 105.553,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "is",
+  "start": 105.553,
+  "end": 105.659,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "still",
+  "start": 105.659,
+  "end": 105.926,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "done",
+  "start": 105.926,
+  "end": 106.139,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "at",
+  "start": 106.139,
+  "end": 106.246,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "home.",
+  "start": 106.246,
+  "end": 106.459,
+  "sentence": "Today, even with the emergency long over"
+ },
+ {
+  "word": "So",
+  "start": 106.72,
+  "end": 106.94,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "in",
+  "start": 106.94,
+  "end": 107.04,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "a",
+  "start": 107.04,
+  "end": 107.24,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "world",
+  "start": 107.24,
+  "end": 107.46,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "where",
+  "start": 107.46,
+  "end": 107.68,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "the",
+  "start": 107.68,
+  "end": 108.0,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "emergency",
+  "start": 108.0,
+  "end": 108.26,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "never",
+  "start": 108.26,
+  "end": 108.64,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "ended,",
+  "start": 108.64,
+  "end": 108.92,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "that",
+  "start": 109.12,
+  "end": 109.34,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "number",
+  "start": 109.34,
+  "end": 109.52,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "wouldn't",
+  "start": 109.52,
+  "end": 109.86,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "stay",
+  "start": 109.86,
+  "end": 110.06,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "a",
+  "start": 110.06,
+  "end": 110.22,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "quarter.",
+  "start": 110.22,
+  "end": 110.42,
+  "sentence": "So in a world where the emergency never "
+ },
+ {
+  "word": "It",
+  "start": 110.88,
+  "end": 110.963,
+  "sentence": "It could become most of it."
+ },
+ {
+  "word": "could",
+  "start": 110.963,
+  "end": 111.171,
+  "sentence": "It could become most of it."
+ },
+ {
+  "word": "become",
+  "start": 111.171,
+  "end": 111.42,
+  "sentence": "It could become most of it."
+ },
+ {
+  "word": "most",
+  "start": 111.42,
+  "end": 111.587,
+  "sentence": "It could become most of it."
+ },
+ {
+  "word": "of",
+  "start": 111.587,
+  "end": 111.67,
+  "sentence": "It could become most of it."
+ },
+ {
+  "word": "it.",
+  "start": 111.67,
+  "end": 111.753,
+  "sentence": "It could become most of it."
+ },
+ {
+  "word": "Cities",
+  "start": 111.94,
+  "end": 112.214,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "built",
+  "start": 112.214,
+  "end": 112.442,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "around",
+  "start": 112.442,
+  "end": 112.715,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "commuting",
+  "start": 112.715,
+  "end": 113.126,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "would",
+  "start": 113.126,
+  "end": 113.354,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "have",
+  "start": 113.354,
+  "end": 113.536,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "to",
+  "start": 113.536,
+  "end": 113.627,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "become",
+  "start": 113.627,
+  "end": 113.901,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "something",
+  "start": 113.901,
+  "end": 114.312,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "else.",
+  "start": 114.312,
+  "end": 114.494,
+  "sentence": "Cities built around commuting would have"
+ },
+ {
+  "word": "Rush",
+  "start": 114.48,
+  "end": 114.54,
+  "sentence": "Rush hour, gone."
+ },
+ {
+  "word": "hour,",
+  "start": 114.54,
+  "end": 114.84,
+  "sentence": "Rush hour, gone."
+ },
+ {
+  "word": "gone.",
+  "start": 114.84,
+  "end": 115.22,
+  "sentence": "Rush hour, gone."
+ },
+ {
+  "word": "Lunch",
+  "start": 115.52,
+  "end": 115.6,
+  "sentence": "Lunch spots downtown, empty."
+ },
+ {
+  "word": "spots",
+  "start": 115.6,
+  "end": 115.8,
+  "sentence": "Lunch spots downtown, empty."
+ },
+ {
+  "word": "downtown,",
+  "start": 115.8,
+  "end": 116.18,
+  "sentence": "Lunch spots downtown, empty."
+ },
+ {
+  "word": "empty.",
+  "start": 116.18,
+  "end": 116.52,
+  "sentence": "Lunch spots downtown, empty."
+ },
+ {
+  "word": "Some",
+  "start": 117.06,
+  "end": 117.18,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "people",
+  "start": 117.18,
+  "end": 117.32,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "would",
+  "start": 117.32,
+  "end": 117.5,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "save",
+  "start": 117.5,
+  "end": 117.62,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "hours",
+  "start": 117.62,
+  "end": 117.9,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "every",
+  "start": 117.9,
+  "end": 118.12,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "day.",
+  "start": 118.12,
+  "end": 118.62,
+  "sentence": "Some people would save hours every day."
+ },
+ {
+  "word": "Others",
+  "start": 118.86,
+  "end": 118.86,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "would",
+  "start": 118.86,
+  "end": 119.0,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "never",
+  "start": 119.0,
+  "end": 119.1,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "meet",
+  "start": 119.1,
+  "end": 119.24,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "their",
+  "start": 119.24,
+  "end": 119.44,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "colleagues",
+  "start": 119.44,
+  "end": 119.66,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "in",
+  "start": 119.66,
+  "end": 119.82,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "person.",
+  "start": 119.82,
+  "end": 120.14,
+  "sentence": "Others would never meet their colleagues"
+ },
+ {
+  "word": "It's",
+  "start": 120.46,
+  "end": 120.54,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "freedom",
+  "start": 120.54,
+  "end": 120.74,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "and",
+  "start": 120.74,
+  "end": 121.04,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "loneliness",
+  "start": 121.04,
+  "end": 121.3,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "in",
+  "start": 121.3,
+  "end": 121.56,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "the",
+  "start": 121.56,
+  "end": 121.72,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "same",
+  "start": 121.72,
+  "end": 121.96,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "package.",
+  "start": 121.96,
+  "end": 122.28,
+  "sentence": "It's freedom and loneliness in the same "
+ },
+ {
+  "word": "And",
+  "start": 122.66,
+  "end": 122.825,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "it",
+  "start": 122.825,
+  "end": 122.935,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "wasn't",
+  "start": 122.935,
+  "end": 123.21,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "only",
+  "start": 123.21,
+  "end": 123.43,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "adults",
+  "start": 123.43,
+  "end": 123.759,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "who",
+  "start": 123.759,
+  "end": 123.924,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "stayed",
+  "start": 123.924,
+  "end": 124.254,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "home.",
+  "start": 124.254,
+  "end": 124.474,
+  "sentence": "And it wasn't only adults who stayed hom"
+ },
+ {
+  "word": "When",
+  "start": 125.3,
+  "end": 125.46,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "schools",
+  "start": 125.46,
+  "end": 125.68,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "closed,",
+  "start": 125.68,
+  "end": 126.12,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "children",
+  "start": 126.22,
+  "end": 126.34,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "moved",
+  "start": 126.34,
+  "end": 126.6,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "to",
+  "start": 126.6,
+  "end": 126.78,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "screens.",
+  "start": 126.78,
+  "end": 127.06,
+  "sentence": "When schools closed, children moved to s"
+ },
+ {
+  "word": "In",
+  "start": 127.46,
+  "end": 127.549,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "the",
+  "start": 127.549,
+  "end": 127.682,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "United",
+  "start": 127.682,
+  "end": 127.948,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "States,",
+  "start": 127.948,
+  "end": 128.214,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "the",
+  "start": 128.214,
+  "end": 128.347,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "twenty",
+  "start": 128.347,
+  "end": 128.613,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "twenty-two",
+  "start": 128.613,
+  "end": 129.012,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "Nation's",
+  "start": 129.012,
+  "end": 129.322,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "Report",
+  "start": 129.322,
+  "end": 129.588,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "Card",
+  "start": 129.588,
+  "end": 129.765,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "showed",
+  "start": 129.765,
+  "end": 130.031,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "the",
+  "start": 130.031,
+  "end": 130.164,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "biggest",
+  "start": 130.164,
+  "end": 130.474,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "drop",
+  "start": 130.474,
+  "end": 130.652,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "in",
+  "start": 130.652,
+  "end": 130.74,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "maths",
+  "start": 130.74,
+  "end": 130.962,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "scores",
+  "start": 130.962,
+  "end": 131.228,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "ever",
+  "start": 131.228,
+  "end": 131.405,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "recorded.",
+  "start": 131.405,
+  "end": 131.76,
+  "sentence": "In the United States, the twenty twenty-"
+ },
+ {
+  "word": "Eighth",
+  "start": 132.1,
+  "end": 132.16,
+  "sentence": "Eighth graders lost eight points."
+ },
+ {
+  "word": "graders",
+  "start": 132.16,
+  "end": 132.4,
+  "sentence": "Eighth graders lost eight points."
+ },
+ {
+  "word": "lost",
+  "start": 132.4,
+  "end": 132.56,
+  "sentence": "Eighth graders lost eight points."
+ },
+ {
+  "word": "eight",
+  "start": 132.56,
+  "end": 132.74,
+  "sentence": "Eighth graders lost eight points."
+ },
+ {
+  "word": "points.",
+  "start": 132.74,
+  "end": 133.0,
+  "sentence": "Eighth graders lost eight points."
+ },
+ {
+  "word": "By",
+  "start": 133.48,
+  "end": 133.566,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "the",
+  "start": 133.566,
+  "end": 133.695,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "usual",
+  "start": 133.695,
+  "end": 133.909,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "rule",
+  "start": 133.909,
+  "end": 134.081,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "of",
+  "start": 134.081,
+  "end": 134.167,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "thumb,",
+  "start": 134.167,
+  "end": 134.381,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "that's",
+  "start": 134.381,
+  "end": 134.596,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "close",
+  "start": 134.596,
+  "end": 134.81,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "to",
+  "start": 134.81,
+  "end": 134.896,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "a",
+  "start": 134.896,
+  "end": 134.939,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "year",
+  "start": 134.939,
+  "end": 135.111,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "of",
+  "start": 135.111,
+  "end": 135.197,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "learning.",
+  "start": 135.197,
+  "end": 135.54,
+  "sentence": "By the usual rule of thumb, that's close"
+ },
+ {
+  "word": "Researchers",
+  "start": 135.8,
+  "end": 136.255,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "warn",
+  "start": 136.255,
+  "end": 136.42,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "that",
+  "start": 136.42,
+  "end": 136.585,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "closures",
+  "start": 136.585,
+  "end": 136.916,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "weren't",
+  "start": 136.916,
+  "end": 137.164,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "the",
+  "start": 137.164,
+  "end": 137.288,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "only",
+  "start": 137.288,
+  "end": 137.453,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "cause.",
+  "start": 137.453,
+  "end": 137.66,
+  "sentence": "Researchers warn that closures weren't t"
+ },
+ {
+  "word": "But",
+  "start": 138.28,
+  "end": 138.46,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "the",
+  "start": 138.46,
+  "end": 138.6,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "pattern",
+  "start": 138.6,
+  "end": 138.72,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "was",
+  "start": 138.72,
+  "end": 138.98,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "hard",
+  "start": 138.98,
+  "end": 139.18,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "to",
+  "start": 139.18,
+  "end": 139.28,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "miss.",
+  "start": 139.28,
+  "end": 139.52,
+  "sentence": "But the pattern was hard to miss."
+ },
+ {
+  "word": "In",
+  "start": 139.94,
+  "end": 140.057,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "a",
+  "start": 140.057,
+  "end": 140.115,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "world",
+  "start": 140.115,
+  "end": 140.407,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "with",
+  "start": 140.407,
+  "end": 140.641,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "no",
+  "start": 140.641,
+  "end": 140.757,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "end,",
+  "start": 140.757,
+  "end": 140.933,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "a",
+  "start": 140.933,
+  "end": 140.991,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "whole",
+  "start": 140.991,
+  "end": 141.283,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "generation",
+  "start": 141.283,
+  "end": 141.867,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "grows",
+  "start": 141.867,
+  "end": 142.159,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "up",
+  "start": 142.159,
+  "end": 142.275,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "learning",
+  "start": 142.275,
+  "end": 142.743,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "through",
+  "start": 142.743,
+  "end": 143.151,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "a",
+  "start": 143.151,
+  "end": 143.21,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "window.",
+  "start": 143.21,
+  "end": 143.56,
+  "sentence": "In a world with no end, a whole generati"
+ },
+ {
+  "word": "Some",
+  "start": 143.78,
+  "end": 143.968,
+  "sentence": "Some children thrive that way."
+ },
+ {
+  "word": "children",
+  "start": 143.968,
+  "end": 144.344,
+  "sentence": "Some children thrive that way."
+ },
+ {
+  "word": "thrive",
+  "start": 144.344,
+  "end": 144.627,
+  "sentence": "Some children thrive that way."
+ },
+ {
+  "word": "that",
+  "start": 144.627,
+  "end": 144.815,
+  "sentence": "Some children thrive that way."
+ },
+ {
+  "word": "way.",
+  "start": 144.815,
+  "end": 144.956,
+  "sentence": "Some children thrive that way."
+ },
+ {
+  "word": "Many",
+  "start": 144.806,
+  "end": 145.093,
+  "sentence": "Many don't."
+ },
+ {
+  "word": "don't.",
+  "start": 145.093,
+  "end": 145.38,
+  "sentence": "Many don't."
+ },
+ {
+  "word": "And",
+  "start": 145.66,
+  "end": 145.78,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "what",
+  "start": 145.78,
+  "end": 145.9,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "about",
+  "start": 145.9,
+  "end": 146.08,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "the",
+  "start": 146.08,
+  "end": 146.28,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "people",
+  "start": 146.28,
+  "end": 146.52,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "who",
+  "start": 146.52,
+  "end": 146.7,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "weren't",
+  "start": 146.7,
+  "end": 146.94,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "sick",
+  "start": 146.94,
+  "end": 147.12,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "with",
+  "start": 147.12,
+  "end": 147.38,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "Covid",
+  "start": 147.38,
+  "end": 147.6,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "at",
+  "start": 147.6,
+  "end": 147.8,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "all?",
+  "start": 147.8,
+  "end": 148.18,
+  "sentence": "And what about the people who weren't si"
+ },
+ {
+  "word": "Hospitals",
+  "start": 149.08,
+  "end": 149.42,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "filled",
+  "start": 149.42,
+  "end": 149.64,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "up",
+  "start": 149.64,
+  "end": 149.76,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "with",
+  "start": 149.76,
+  "end": 149.9,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "one",
+  "start": 149.9,
+  "end": 150.06,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "disease,",
+  "start": 150.06,
+  "end": 150.38,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "and",
+  "start": 150.38,
+  "end": 150.64,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "everything",
+  "start": 150.64,
+  "end": 150.86,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "else",
+  "start": 150.86,
+  "end": 151.08,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "had",
+  "start": 151.08,
+  "end": 151.24,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "to",
+  "start": 151.24,
+  "end": 151.34,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "wait.",
+  "start": 151.34,
+  "end": 151.52,
+  "sentence": "Hospitals filled up with one disease, an"
+ },
+ {
+  "word": "Early",
+  "start": 151.86,
+  "end": 152.04,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "in",
+  "start": 152.04,
+  "end": 152.16,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "the",
+  "start": 152.16,
+  "end": 152.28,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "pandemic,",
+  "start": 152.28,
+  "end": 152.6,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "researchers",
+  "start": 153.08,
+  "end": 153.08,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "estimated",
+  "start": 153.08,
+  "end": 153.42,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "that",
+  "start": 153.42,
+  "end": 153.68,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "tens",
+  "start": 153.68,
+  "end": 153.82,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "of",
+  "start": 153.82,
+  "end": 154.0,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "millions",
+  "start": 154.0,
+  "end": 154.2,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "of",
+  "start": 154.2,
+  "end": 154.42,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "operations",
+  "start": 154.42,
+  "end": 154.74,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "around",
+  "start": 154.74,
+  "end": 155.08,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "the",
+  "start": 155.08,
+  "end": 155.24,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "world",
+  "start": 155.24,
+  "end": 155.38,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "were",
+  "start": 155.38,
+  "end": 155.58,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "cancelled",
+  "start": 155.58,
+  "end": 155.82,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "or",
+  "start": 155.82,
+  "end": 156.22,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "postponed",
+  "start": 156.22,
+  "end": 156.52,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "in",
+  "start": 156.52,
+  "end": 156.76,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "just",
+  "start": 156.76,
+  "end": 156.92,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "twelve",
+  "start": 156.92,
+  "end": 157.1,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "weeks.",
+  "start": 157.1,
+  "end": 157.6,
+  "sentence": "Early in the pandemic, researchers estim"
+ },
+ {
+  "word": "Check-ups",
+  "start": 157.88,
+  "end": 158.197,
+  "sentence": "Check-ups were skipped."
+ },
+ {
+  "word": "were",
+  "start": 158.197,
+  "end": 158.355,
+  "sentence": "Check-ups were skipped."
+ },
+ {
+  "word": "skipped.",
+  "start": 158.355,
+  "end": 158.632,
+  "sentence": "Check-ups were skipped."
+ },
+ {
+  "word": "Screenings",
+  "start": 158.482,
+  "end": 158.891,
+  "sentence": "Screenings were missed."
+ },
+ {
+  "word": "were",
+  "start": 158.891,
+  "end": 159.055,
+  "sentence": "Screenings were missed."
+ },
+ {
+  "word": "missed.",
+  "start": 159.055,
+  "end": 159.3,
+  "sentence": "Screenings were missed."
+ },
+ {
+  "word": "Many",
+  "start": 159.74,
+  "end": 160.013,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "people",
+  "start": 160.013,
+  "end": 160.422,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "stayed",
+  "start": 160.422,
+  "end": 160.831,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "away",
+  "start": 160.831,
+  "end": 161.104,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "from",
+  "start": 161.104,
+  "end": 161.377,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "hospitals",
+  "start": 161.377,
+  "end": 161.991,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "out",
+  "start": 161.991,
+  "end": 162.196,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "of",
+  "start": 162.196,
+  "end": 162.332,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "fear.",
+  "start": 162.332,
+  "end": 162.605,
+  "sentence": "Many people stayed away from hospitals o"
+ },
+ {
+  "word": "Postponed",
+  "start": 162.455,
+  "end": 162.862,
+  "sentence": "Postponed care doesn't disappear."
+ },
+ {
+  "word": "care",
+  "start": 162.862,
+  "end": 163.042,
+  "sentence": "Postponed care doesn't disappear."
+ },
+ {
+  "word": "doesn't",
+  "start": 163.042,
+  "end": 163.313,
+  "sentence": "Postponed care doesn't disappear."
+ },
+ {
+  "word": "disappear.",
+  "start": 163.313,
+  "end": 163.72,
+  "sentence": "Postponed care doesn't disappear."
+ },
+ {
+  "word": "It",
+  "start": 164.3,
+  "end": 164.392,
+  "sentence": "It builds up like a queue."
+ },
+ {
+  "word": "builds",
+  "start": 164.392,
+  "end": 164.668,
+  "sentence": "It builds up like a queue."
+ },
+ {
+  "word": "up",
+  "start": 164.668,
+  "end": 164.76,
+  "sentence": "It builds up like a queue."
+ },
+ {
+  "word": "like",
+  "start": 164.76,
+  "end": 164.944,
+  "sentence": "It builds up like a queue."
+ },
+ {
+  "word": "a",
+  "start": 164.944,
+  "end": 164.99,
+  "sentence": "It builds up like a queue."
+ },
+ {
+  "word": "queue.",
+  "start": 164.99,
+  "end": 165.22,
+  "sentence": "It builds up like a queue."
+ },
+ {
+  "word": "In",
+  "start": 165.52,
+  "end": 165.7,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "a",
+  "start": 165.7,
+  "end": 165.7,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "world",
+  "start": 165.7,
+  "end": 165.84,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "with",
+  "start": 165.84,
+  "end": 166.0,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "no",
+  "start": 166.0,
+  "end": 166.2,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "end,",
+  "start": 166.2,
+  "end": 166.44,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "the",
+  "start": 166.56,
+  "end": 166.68,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "queue",
+  "start": 166.68,
+  "end": 166.72,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "only",
+  "start": 166.72,
+  "end": 166.98,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "grows.",
+  "start": 166.98,
+  "end": 167.34,
+  "sentence": "In a world with no end, the queue only g"
+ },
+ {
+  "word": "But",
+  "start": 168.038,
+  "end": 168.179,
+  "sentence": "But care found a workaround."
+ },
+ {
+  "word": "care",
+  "start": 168.179,
+  "end": 168.367,
+  "sentence": "But care found a workaround."
+ },
+ {
+  "word": "found",
+  "start": 168.367,
+  "end": 168.603,
+  "sentence": "But care found a workaround."
+ },
+ {
+  "word": "a",
+  "start": 168.603,
+  "end": 168.65,
+  "sentence": "But care found a workaround."
+ },
+ {
+  "word": "workaround.",
+  "start": 168.65,
+  "end": 169.12,
+  "sentence": "But care found a workaround."
+ },
+ {
+  "word": "In",
+  "start": 169.4,
+  "end": 169.44,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "February",
+  "start": 169.44,
+  "end": 169.64,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "twenty",
+  "start": 169.64,
+  "end": 170.2,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "twenty,",
+  "start": 170.44,
+  "end": 170.64,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "about",
+  "start": 170.64,
+  "end": 170.86,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "one",
+  "start": 170.86,
+  "end": 170.98,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "in",
+  "start": 170.98,
+  "end": 171.1,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "a",
+  "start": 171.1,
+  "end": 171.4,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "thousand",
+  "start": 171.4,
+  "end": 171.66,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "primary-care",
+  "start": 171.66,
+  "end": 171.82,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "visits",
+  "start": 171.82,
+  "end": 172.06,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "for",
+  "start": 172.06,
+  "end": 172.24,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "Medicare",
+  "start": 172.24,
+  "end": 172.42,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "patients",
+  "start": 172.42,
+  "end": 172.78,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "happened",
+  "start": 172.78,
+  "end": 173.04,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "by",
+  "start": 173.04,
+  "end": 173.3,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "video",
+  "start": 173.3,
+  "end": 173.52,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "or",
+  "start": 173.52,
+  "end": 173.74,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "phone.",
+  "start": 173.74,
+  "end": 174.02,
+  "sentence": "In February twenty twenty, about one in "
+ },
+ {
+  "word": "By",
+  "start": 174.4,
+  "end": 174.494,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "April,",
+  "start": 174.494,
+  "end": 174.728,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "it",
+  "start": 174.728,
+  "end": 174.821,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "was",
+  "start": 174.821,
+  "end": 174.962,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "more",
+  "start": 174.962,
+  "end": 175.149,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "than",
+  "start": 175.149,
+  "end": 175.337,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "four",
+  "start": 175.337,
+  "end": 175.524,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "in",
+  "start": 175.524,
+  "end": 175.618,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "ten.",
+  "start": 175.618,
+  "end": 175.758,
+  "sentence": "By April, it was more than four in ten."
+ },
+ {
+  "word": "Across",
+  "start": 176.0,
+  "end": 176.3,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "the",
+  "start": 176.3,
+  "end": 176.45,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "whole",
+  "start": 176.45,
+  "end": 176.7,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "of",
+  "start": 176.7,
+  "end": 176.8,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "twenty",
+  "start": 176.8,
+  "end": 177.1,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "twenty,",
+  "start": 177.1,
+  "end": 177.4,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "Medicare",
+  "start": 177.4,
+  "end": 177.8,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "telehealth",
+  "start": 177.8,
+  "end": 178.3,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "visits",
+  "start": 178.3,
+  "end": 178.6,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "rose",
+  "start": 178.6,
+  "end": 178.8,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "about",
+  "start": 178.8,
+  "end": 179.05,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "sixty-three",
+  "start": 179.05,
+  "end": 179.55,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "times",
+  "start": 179.55,
+  "end": 179.8,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "over.",
+  "start": 179.8,
+  "end": 180.0,
+  "sentence": "Across the whole of twenty twenty, Medic"
+ },
+ {
+  "word": "A",
+  "start": 180.18,
+  "end": 180.52,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "patient",
+  "start": 180.52,
+  "end": 180.72,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "in",
+  "start": 180.72,
+  "end": 180.86,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "a",
+  "start": 180.86,
+  "end": 181.06,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "remote",
+  "start": 181.06,
+  "end": 181.42,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "village",
+  "start": 181.42,
+  "end": 181.7,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "could",
+  "start": 181.7,
+  "end": 181.82,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "see",
+  "start": 181.82,
+  "end": 182.16,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "a",
+  "start": 182.16,
+  "end": 182.4,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "specialist",
+  "start": 182.4,
+  "end": 182.74,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "without",
+  "start": 182.74,
+  "end": 182.96,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "a",
+  "start": 182.96,
+  "end": 183.18,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "four-hour",
+  "start": 183.18,
+  "end": 183.36,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "drive.",
+  "start": 183.36,
+  "end": 183.76,
+  "sentence": "A patient in a remote village could see "
+ },
+ {
+  "word": "A",
+  "start": 184.08,
+  "end": 184.13,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "busy",
+  "start": 184.13,
+  "end": 184.328,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "parent",
+  "start": 184.328,
+  "end": 184.625,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "could",
+  "start": 184.625,
+  "end": 184.872,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "talk",
+  "start": 184.872,
+  "end": 185.07,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "to",
+  "start": 185.07,
+  "end": 185.169,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "a",
+  "start": 185.169,
+  "end": 185.219,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "doctor",
+  "start": 185.219,
+  "end": 185.516,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "from",
+  "start": 185.516,
+  "end": 185.714,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "the",
+  "start": 185.714,
+  "end": 185.862,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "sofa.",
+  "start": 185.862,
+  "end": 186.06,
+  "sentence": "A busy parent could talk to a doctor fro"
+ },
+ {
+  "word": "In",
+  "start": 186.38,
+  "end": 186.473,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "a",
+  "start": 186.473,
+  "end": 186.519,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "world",
+  "start": 186.519,
+  "end": 186.752,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "with",
+  "start": 186.752,
+  "end": 186.938,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "no",
+  "start": 186.938,
+  "end": 187.031,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "end,",
+  "start": 187.031,
+  "end": 187.171,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "that",
+  "start": 187.171,
+  "end": 187.357,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "becomes",
+  "start": 187.357,
+  "end": 187.682,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "the",
+  "start": 187.682,
+  "end": 187.822,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "new",
+  "start": 187.822,
+  "end": 187.961,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "normal.",
+  "start": 187.961,
+  "end": 188.24,
+  "sentence": "In a world with no end, that becomes the"
+ },
+ {
+  "word": "In",
+  "start": 188.66,
+  "end": 188.82,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "the",
+  "start": 188.82,
+  "end": 188.98,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "real",
+  "start": 188.98,
+  "end": 189.26,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "world,",
+  "start": 189.28,
+  "end": 189.4,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "some",
+  "start": 189.4,
+  "end": 189.46,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "of",
+  "start": 189.46,
+  "end": 189.6,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "it",
+  "start": 189.6,
+  "end": 189.92,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "stayed.",
+  "start": 190.0,
+  "end": 190.14,
+  "sentence": "In the real world, some of it stayed."
+ },
+ {
+  "word": "Which",
+  "start": 190.0,
+  "end": 190.14,
+  "sentence": "Which brings us to the sky."
+ },
+ {
+  "word": "brings",
+  "start": 190.14,
+  "end": 190.3,
+  "sentence": "Which brings us to the sky."
+ },
+ {
+  "word": "us",
+  "start": 190.3,
+  "end": 190.48,
+  "sentence": "Which brings us to the sky."
+ },
+ {
+  "word": "to",
+  "start": 190.48,
+  "end": 190.6,
+  "sentence": "Which brings us to the sky."
+ },
+ {
+  "word": "the",
+  "start": 190.6,
+  "end": 190.7,
+  "sentence": "Which brings us to the sky."
+ },
+ {
+  "word": "sky.",
+  "start": 190.7,
+  "end": 190.98,
+  "sentence": "Which brings us to the sky."
+ },
+ {
+  "word": "In",
+  "start": 191.92,
+  "end": 192.015,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "twenty",
+  "start": 192.015,
+  "end": 192.301,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "twenty,",
+  "start": 192.301,
+  "end": 192.587,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "the",
+  "start": 192.587,
+  "end": 192.73,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "number",
+  "start": 192.73,
+  "end": 193.016,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "of",
+  "start": 193.016,
+  "end": 193.111,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "air",
+  "start": 193.111,
+  "end": 193.254,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "passengers",
+  "start": 193.254,
+  "end": 193.731,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "fell",
+  "start": 193.731,
+  "end": 193.921,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "by",
+  "start": 193.921,
+  "end": 194.016,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "about",
+  "start": 194.016,
+  "end": 194.255,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "sixty",
+  "start": 194.255,
+  "end": 194.493,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "percent,",
+  "start": 194.493,
+  "end": 194.826,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "according",
+  "start": 194.826,
+  "end": 195.255,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "to",
+  "start": 195.255,
+  "end": 195.351,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "the",
+  "start": 195.351,
+  "end": 195.494,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "United",
+  "start": 195.494,
+  "end": 195.779,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "Nations'",
+  "start": 195.779,
+  "end": 196.113,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "aviation",
+  "start": 196.113,
+  "end": 196.494,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "agency.",
+  "start": 196.494,
+  "end": 196.78,
+  "sentence": "In twenty twenty, the number of air pass"
+ },
+ {
+  "word": "Planes",
+  "start": 197.26,
+  "end": 197.46,
+  "sentence": "Planes sat parked."
+ },
+ {
+  "word": "sat",
+  "start": 197.46,
+  "end": 197.7,
+  "sentence": "Planes sat parked."
+ },
+ {
+  "word": "parked.",
+  "start": 197.7,
+  "end": 197.9,
+  "sentence": "Planes sat parked."
+ },
+ {
+  "word": "Borders",
+  "start": 197.7,
+  "end": 197.9,
+  "sentence": "Borders closed."
+ },
+ {
+  "word": "closed.",
+  "start": 197.9,
+  "end": 198.52,
+  "sentence": "Borders closed."
+ },
+ {
+  "word": "Weddings,",
+  "start": 198.76,
+  "end": 199.04,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "funerals",
+  "start": 199.18,
+  "end": 199.38,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "and",
+  "start": 199.48,
+  "end": 199.56,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "reunions",
+  "start": 199.56,
+  "end": 199.94,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "moved",
+  "start": 199.94,
+  "end": 200.14,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "to",
+  "start": 200.14,
+  "end": 200.32,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "screens.",
+  "start": 200.32,
+  "end": 200.64,
+  "sentence": "Weddings, funerals and reunions moved to"
+ },
+ {
+  "word": "In",
+  "start": 201.02,
+  "end": 201.113,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "April",
+  "start": 201.113,
+  "end": 201.347,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "twenty",
+  "start": 201.347,
+  "end": 201.627,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "twenty,",
+  "start": 201.627,
+  "end": 201.907,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "the",
+  "start": 201.907,
+  "end": 202.047,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "International",
+  "start": 202.047,
+  "end": 202.653,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "Monetary",
+  "start": 202.653,
+  "end": 203.027,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "Fund",
+  "start": 203.027,
+  "end": 203.213,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "projected",
+  "start": 203.213,
+  "end": 203.633,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "that",
+  "start": 203.633,
+  "end": 203.82,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "the",
+  "start": 203.82,
+  "end": 203.96,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "world",
+  "start": 203.96,
+  "end": 204.193,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "economy",
+  "start": 204.193,
+  "end": 204.52,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "would",
+  "start": 204.52,
+  "end": 204.753,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "shrink",
+  "start": 204.753,
+  "end": 205.033,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "by",
+  "start": 205.033,
+  "end": 205.127,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "about",
+  "start": 205.127,
+  "end": 205.36,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "three",
+  "start": 205.36,
+  "end": 205.593,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "percent",
+  "start": 205.593,
+  "end": 205.92,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "that",
+  "start": 205.92,
+  "end": 206.107,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "year,",
+  "start": 206.107,
+  "end": 206.293,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "the",
+  "start": 206.293,
+  "end": 206.433,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "worst",
+  "start": 206.433,
+  "end": 206.667,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "since",
+  "start": 206.667,
+  "end": 206.9,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "the",
+  "start": 206.9,
+  "end": 207.04,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "Great",
+  "start": 207.04,
+  "end": 207.273,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "Depression.",
+  "start": 207.273,
+  "end": 207.74,
+  "sentence": "In April twenty twenty, the Internationa"
+ },
+ {
+  "word": "A",
+  "start": 208.16,
+  "end": 208.218,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "short",
+  "start": 208.218,
+  "end": 208.509,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "emergency",
+  "start": 208.509,
+  "end": 209.032,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "is",
+  "start": 209.032,
+  "end": 209.148,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "survivable",
+  "start": 209.148,
+  "end": 209.729,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "for",
+  "start": 209.729,
+  "end": 209.904,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "businesses",
+  "start": 209.904,
+  "end": 210.485,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "that",
+  "start": 210.485,
+  "end": 210.718,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "depend",
+  "start": 210.718,
+  "end": 211.066,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "on",
+  "start": 211.066,
+  "end": 211.183,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "people",
+  "start": 211.183,
+  "end": 211.531,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "moving.",
+  "start": 211.531,
+  "end": 211.88,
+  "sentence": "A short emergency is survivable for busi"
+ },
+ {
+  "word": "A",
+  "start": 212.44,
+  "end": 212.44,
+  "sentence": "A permanent one is not."
+ },
+ {
+  "word": "permanent",
+  "start": 212.44,
+  "end": 212.6,
+  "sentence": "A permanent one is not."
+ },
+ {
+  "word": "one",
+  "start": 212.6,
+  "end": 212.78,
+  "sentence": "A permanent one is not."
+ },
+ {
+  "word": "is",
+  "start": 212.78,
+  "end": 213.14,
+  "sentence": "A permanent one is not."
+ },
+ {
+  "word": "not.",
+  "start": 213.14,
+  "end": 213.82,
+  "sentence": "A permanent one is not."
+ },
+ {
+  "word": "Airlines.",
+  "start": 213.82,
+  "end": 214.06,
+  "sentence": "Airlines."
+ },
+ {
+  "word": "Restaurants.",
+  "start": 213.82,
+  "end": 214.06,
+  "sentence": "Restaurants."
+ },
+ {
+  "word": "Small",
+  "start": 214.6,
+  "end": 214.96,
+  "sentence": "Small shops."
+ },
+ {
+  "word": "shops.",
+  "start": 214.96,
+  "end": 215.16,
+  "sentence": "Small shops."
+ },
+ {
+  "word": "Tourist",
+  "start": 214.96,
+  "end": 215.16,
+  "sentence": "Tourist towns."
+ },
+ {
+  "word": "towns.",
+  "start": 215.16,
+  "end": 215.54,
+  "sentence": "Tourist towns."
+ },
+ {
+  "word": "All",
+  "start": 215.86,
+  "end": 216.02,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "of",
+  "start": 216.02,
+  "end": 216.06,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "them",
+  "start": 216.06,
+  "end": 216.24,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "would",
+  "start": 216.24,
+  "end": 216.4,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "need",
+  "start": 216.4,
+  "end": 216.56,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "to",
+  "start": 216.56,
+  "end": 216.6,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "become",
+  "start": 216.6,
+  "end": 216.82,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "different",
+  "start": 216.82,
+  "end": 217.02,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "businesses.",
+  "start": 217.02,
+  "end": 217.52,
+  "sentence": "All of them would need to become differe"
+ },
+ {
+  "word": "But",
+  "start": 218.22,
+  "end": 218.4,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "the",
+  "start": 218.4,
+  "end": 218.5,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "biggest",
+  "start": 218.5,
+  "end": 218.74,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "cost",
+  "start": 218.74,
+  "end": 219.02,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "may",
+  "start": 219.02,
+  "end": 219.16,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "be",
+  "start": 219.16,
+  "end": 219.28,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "one",
+  "start": 219.28,
+  "end": 219.42,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "you",
+  "start": 219.42,
+  "end": 219.52,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "can't",
+  "start": 219.52,
+  "end": 219.72,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "see",
+  "start": 219.72,
+  "end": 219.86,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "on",
+  "start": 219.86,
+  "end": 219.96,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "a",
+  "start": 219.96,
+  "end": 220.18,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "balance",
+  "start": 220.18,
+  "end": 220.26,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "sheet.",
+  "start": 220.26,
+  "end": 220.56,
+  "sentence": "But the biggest cost may be one you can'"
+ },
+ {
+  "word": "In",
+  "start": 221.24,
+  "end": 221.34,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "its",
+  "start": 221.34,
+  "end": 221.48,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "first",
+  "start": 221.48,
+  "end": 221.7,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "year,",
+  "start": 221.7,
+  "end": 221.86,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "the",
+  "start": 221.94,
+  "end": 222.08,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "pandemic",
+  "start": 222.08,
+  "end": 222.4,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "raised",
+  "start": 222.4,
+  "end": 222.64,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "anxiety",
+  "start": 222.64,
+  "end": 223.18,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "and",
+  "start": 223.18,
+  "end": 223.38,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "depression",
+  "start": 223.38,
+  "end": 223.7,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "worldwide",
+  "start": 223.7,
+  "end": 224.1,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "by",
+  "start": 224.1,
+  "end": 224.3,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "about",
+  "start": 224.3,
+  "end": 224.54,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "twenty-five",
+  "start": 224.54,
+  "end": 225.0,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "percent,",
+  "start": 225.0,
+  "end": 225.52,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "according",
+  "start": 225.52,
+  "end": 225.7,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "to",
+  "start": 225.7,
+  "end": 225.86,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "the",
+  "start": 225.86,
+  "end": 225.98,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "World",
+  "start": 225.98,
+  "end": 226.14,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "Health",
+  "start": 226.14,
+  "end": 226.34,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "Organization.",
+  "start": 226.34,
+  "end": 226.82,
+  "sentence": "In its first year, the pandemic raised a"
+ },
+ {
+  "word": "Young",
+  "start": 227.24,
+  "end": 227.546,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "people",
+  "start": 227.546,
+  "end": 227.913,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "and",
+  "start": 227.913,
+  "end": 228.097,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "women",
+  "start": 228.097,
+  "end": 228.403,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "were",
+  "start": 228.403,
+  "end": 228.648,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "hit",
+  "start": 228.648,
+  "end": 228.832,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "hardest.",
+  "start": 228.832,
+  "end": 229.26,
+  "sentence": "Young people and women were hit hardest."
+ },
+ {
+  "word": "Humans",
+  "start": 229.26,
+  "end": 229.26,
+  "sentence": "Humans are social animals."
+ },
+ {
+  "word": "are",
+  "start": 229.26,
+  "end": 229.58,
+  "sentence": "Humans are social animals."
+ },
+ {
+  "word": "social",
+  "start": 229.58,
+  "end": 229.9,
+  "sentence": "Humans are social animals."
+ },
+ {
+  "word": "animals.",
+  "start": 229.9,
+  "end": 230.36,
+  "sentence": "Humans are social animals."
+ },
+ {
+  "word": "Remove",
+  "start": 230.84,
+  "end": 231.04,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "the",
+  "start": 231.04,
+  "end": 231.28,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "handshake,",
+  "start": 231.28,
+  "end": 231.56,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "the",
+  "start": 231.8,
+  "end": 231.92,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "shared",
+  "start": 231.92,
+  "end": 232.18,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "table",
+  "start": 232.18,
+  "end": 232.54,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "and",
+  "start": 232.54,
+  "end": 232.72,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "the",
+  "start": 232.72,
+  "end": 232.82,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "crowded",
+  "start": 232.82,
+  "end": 233.12,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "room,",
+  "start": 233.12,
+  "end": 233.38,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "and",
+  "start": 233.38,
+  "end": 233.6,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "something",
+  "start": 233.6,
+  "end": 233.88,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "wears",
+  "start": 233.88,
+  "end": 234.12,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "down.",
+  "start": 234.12,
+  "end": 234.5,
+  "sentence": "Remove the handshake, the shared table a"
+ },
+ {
+  "word": "Yet",
+  "start": 234.72,
+  "end": 234.887,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "some",
+  "start": 234.887,
+  "end": 235.111,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "people",
+  "start": 235.111,
+  "end": 235.446,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "found",
+  "start": 235.446,
+  "end": 235.725,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "things",
+  "start": 235.725,
+  "end": 236.06,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "they",
+  "start": 236.06,
+  "end": 236.283,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "hadn't",
+  "start": 236.283,
+  "end": 236.562,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "expected.",
+  "start": 236.562,
+  "end": 237.009,
+  "sentence": "Yet some people found things they hadn't"
+ },
+ {
+  "word": "Time",
+  "start": 237.04,
+  "end": 237.18,
+  "sentence": "Time with family."
+ },
+ {
+  "word": "with",
+  "start": 237.18,
+  "end": 237.4,
+  "sentence": "Time with family."
+ },
+ {
+  "word": "family.",
+  "start": 237.4,
+  "end": 237.76,
+  "sentence": "Time with family."
+ },
+ {
+  "word": "Quiet.",
+  "start": 238.04,
+  "end": 238.345,
+  "sentence": "Quiet."
+ },
+ {
+  "word": "Flexibility.",
+  "start": 238.195,
+  "end": 238.58,
+  "sentence": "Flexibility."
+ },
+ {
+  "word": "Both",
+  "start": 238.456,
+  "end": 238.785,
+  "sentence": "Both are true."
+ },
+ {
+  "word": "are",
+  "start": 238.785,
+  "end": 239.031,
+  "sentence": "Both are true."
+ },
+ {
+  "word": "true.",
+  "start": 239.031,
+  "end": 239.36,
+  "sentence": "Both are true."
+ },
+ {
+  "word": "That's",
+  "start": 239.66,
+  "end": 239.8,
+  "sentence": "That's what makes this so hard."
+ },
+ {
+  "word": "what",
+  "start": 239.8,
+  "end": 239.9,
+  "sentence": "That's what makes this so hard."
+ },
+ {
+  "word": "makes",
+  "start": 239.9,
+  "end": 240.06,
+  "sentence": "That's what makes this so hard."
+ },
+ {
+  "word": "this",
+  "start": 240.06,
+  "end": 240.24,
+  "sentence": "That's what makes this so hard."
+ },
+ {
+  "word": "so",
+  "start": 240.24,
+  "end": 240.36,
+  "sentence": "That's what makes this so hard."
+ },
+ {
+  "word": "hard.",
+  "start": 240.36,
+  "end": 240.58,
+  "sentence": "That's what makes this so hard."
+ },
+ {
+  "word": "So",
+  "start": 240.88,
+  "end": 241.08,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "how",
+  "start": 241.08,
+  "end": 241.2,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "did",
+  "start": 241.2,
+  "end": 241.34,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "the",
+  "start": 241.34,
+  "end": 241.48,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "real",
+  "start": 241.48,
+  "end": 241.64,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "world",
+  "start": 241.64,
+  "end": 241.86,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "get",
+  "start": 241.86,
+  "end": 241.98,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "out?",
+  "start": 241.98,
+  "end": 242.36,
+  "sentence": "So how did the real world get out?"
+ },
+ {
+  "word": "Faster",
+  "start": 243.38,
+  "end": 243.608,
+  "sentence": "Faster than almost anyone expected."
+ },
+ {
+  "word": "than",
+  "start": 243.608,
+  "end": 243.76,
+  "sentence": "Faster than almost anyone expected."
+ },
+ {
+  "word": "almost",
+  "start": 243.76,
+  "end": 243.988,
+  "sentence": "Faster than almost anyone expected."
+ },
+ {
+  "word": "anyone",
+  "start": 243.988,
+  "end": 244.216,
+  "sentence": "Faster than almost anyone expected."
+ },
+ {
+  "word": "expected.",
+  "start": 244.216,
+  "end": 244.52,
+  "sentence": "Faster than almost anyone expected."
+ },
+ {
+  "word": "The",
+  "start": 245.1,
+  "end": 245.279,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "virus's",
+  "start": 245.279,
+  "end": 245.637,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "genetic",
+  "start": 245.637,
+  "end": 246.054,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "code",
+  "start": 246.054,
+  "end": 246.292,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "was",
+  "start": 246.292,
+  "end": 246.471,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "published",
+  "start": 246.471,
+  "end": 247.008,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "in",
+  "start": 247.008,
+  "end": 247.127,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "January",
+  "start": 247.127,
+  "end": 247.545,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "twenty",
+  "start": 247.545,
+  "end": 247.902,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "twenty.",
+  "start": 247.902,
+  "end": 248.26,
+  "sentence": "The virus's genetic code was published i"
+ },
+ {
+  "word": "On",
+  "start": 248.66,
+  "end": 248.82,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "the",
+  "start": 248.82,
+  "end": 248.86,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "second",
+  "start": 248.86,
+  "end": 249.14,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "of",
+  "start": 249.14,
+  "end": 249.18,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "December",
+  "start": 249.18,
+  "end": 249.38,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "that",
+  "start": 249.38,
+  "end": 249.62,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "year,",
+  "start": 249.62,
+  "end": 249.86,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "less",
+  "start": 250.04,
+  "end": 250.1,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "than",
+  "start": 250.1,
+  "end": 250.2,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "eleven",
+  "start": 250.2,
+  "end": 250.34,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "months",
+  "start": 250.34,
+  "end": 250.62,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "later,",
+  "start": 250.62,
+  "end": 250.78,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "the",
+  "start": 250.86,
+  "end": 250.98,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "first",
+  "start": 250.98,
+  "end": 251.18,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "vaccine",
+  "start": 251.18,
+  "end": 251.5,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "was",
+  "start": 251.5,
+  "end": 251.74,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "authorised,",
+  "start": 251.74,
+  "end": 252.22,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "in",
+  "start": 252.22,
+  "end": 252.48,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "the",
+  "start": 252.48,
+  "end": 252.56,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "United",
+  "start": 252.56,
+  "end": 252.74,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "Kingdom.",
+  "start": 252.74,
+  "end": 253.16,
+  "sentence": "On the second of December that year, les"
+ },
+ {
+  "word": "Then",
+  "start": 253.48,
+  "end": 253.56,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "came",
+  "start": 253.56,
+  "end": 253.78,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "more",
+  "start": 253.78,
+  "end": 253.98,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "vaccines,",
+  "start": 253.98,
+  "end": 254.46,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "new",
+  "start": 254.82,
+  "end": 254.92,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "treatments,",
+  "start": 254.92,
+  "end": 255.24,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "and,",
+  "start": 255.48,
+  "end": 255.64,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "slowly,",
+  "start": 255.64,
+  "end": 256.02,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "immunity",
+  "start": 256.02,
+  "end": 256.44,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "built",
+  "start": 256.44,
+  "end": 256.68,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "up",
+  "start": 256.68,
+  "end": 256.84,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "from",
+  "start": 256.84,
+  "end": 257.16,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "vaccination",
+  "start": 257.16,
+  "end": 257.52,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "and",
+  "start": 257.52,
+  "end": 257.82,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "from",
+  "start": 257.82,
+  "end": 257.96,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "infection.",
+  "start": 257.96,
+  "end": 258.44,
+  "sentence": "Then came more vaccines, new treatments,"
+ },
+ {
+  "word": "In",
+  "start": 258.66,
+  "end": 258.758,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "May",
+  "start": 258.758,
+  "end": 258.904,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "twenty",
+  "start": 258.904,
+  "end": 259.198,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "twenty-three,",
+  "start": 259.198,
+  "end": 259.735,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "the",
+  "start": 259.735,
+  "end": 259.882,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "World",
+  "start": 259.882,
+  "end": 260.127,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "Health",
+  "start": 260.127,
+  "end": 260.42,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "Organization",
+  "start": 260.42,
+  "end": 261.006,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "declared",
+  "start": 261.006,
+  "end": 261.398,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "the",
+  "start": 261.398,
+  "end": 261.544,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "global",
+  "start": 261.544,
+  "end": 261.838,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "emergency",
+  "start": 261.838,
+  "end": 262.277,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "over.",
+  "start": 262.277,
+  "end": 262.473,
+  "sentence": "In May twenty twenty-three, the World He"
+ },
+ {
+  "word": "But",
+  "start": 263.04,
+  "end": 263.1,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "listen",
+  "start": 263.1,
+  "end": 263.28,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "carefully",
+  "start": 263.28,
+  "end": 263.54,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "to",
+  "start": 263.54,
+  "end": 263.74,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "what",
+  "start": 263.74,
+  "end": 263.78,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "it",
+  "start": 263.78,
+  "end": 263.92,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "said.",
+  "start": 263.92,
+  "end": 264.44,
+  "sentence": "But listen carefully to what it said."
+ },
+ {
+  "word": "The",
+  "start": 265.2,
+  "end": 265.34,
+  "sentence": "The emergency ended."
+ },
+ {
+  "word": "emergency",
+  "start": 265.34,
+  "end": 265.74,
+  "sentence": "The emergency ended."
+ },
+ {
+  "word": "ended.",
+  "start": 265.86,
+  "end": 265.9,
+  "sentence": "The emergency ended."
+ },
+ {
+  "word": "The",
+  "start": 265.86,
+  "end": 265.9,
+  "sentence": "The virus didn't."
+ },
+ {
+  "word": "virus",
+  "start": 265.9,
+  "end": 266.16,
+  "sentence": "The virus didn't."
+ },
+ {
+  "word": "didn't.",
+  "start": 266.16,
+  "end": 266.46,
+  "sentence": "The virus didn't."
+ },
+ {
+  "word": "The",
+  "start": 266.84,
+  "end": 266.98,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "World",
+  "start": 266.98,
+  "end": 267.214,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "Health",
+  "start": 267.214,
+  "end": 267.494,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "Organization",
+  "start": 267.494,
+  "end": 268.055,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "stressed",
+  "start": 268.055,
+  "end": 268.429,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "that",
+  "start": 268.429,
+  "end": 268.616,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "Covid-nineteen",
+  "start": 268.616,
+  "end": 269.223,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "was",
+  "start": 269.223,
+  "end": 269.363,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "still",
+  "start": 269.363,
+  "end": 269.597,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "a",
+  "start": 269.597,
+  "end": 269.644,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "global",
+  "start": 269.644,
+  "end": 269.924,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "health",
+  "start": 269.924,
+  "end": 270.204,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "threat,",
+  "start": 270.204,
+  "end": 270.485,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "still",
+  "start": 270.485,
+  "end": 270.719,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "circulating,",
+  "start": 270.719,
+  "end": 271.233,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "still",
+  "start": 271.233,
+  "end": 271.466,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "changing.",
+  "start": 271.466,
+  "end": 271.84,
+  "sentence": "The World Health Organization stressed t"
+ },
+ {
+  "word": "It",
+  "start": 272.36,
+  "end": 272.469,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "simply",
+  "start": 272.469,
+  "end": 272.794,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "no",
+  "start": 272.794,
+  "end": 272.903,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "longer",
+  "start": 272.903,
+  "end": 273.229,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "needed",
+  "start": 273.229,
+  "end": 273.554,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "emergency",
+  "start": 273.554,
+  "end": 274.043,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "mode.",
+  "start": 274.043,
+  "end": 274.26,
+  "sentence": "It simply no longer needed emergency mod"
+ },
+ {
+  "word": "So",
+  "start": 274.64,
+  "end": 274.765,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "in",
+  "start": 274.765,
+  "end": 274.89,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "a",
+  "start": 274.89,
+  "end": 274.953,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "way,",
+  "start": 274.953,
+  "end": 275.141,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "Covid",
+  "start": 275.141,
+  "end": 275.454,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "never",
+  "start": 275.454,
+  "end": 275.767,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "ended.",
+  "start": 275.767,
+  "end": 276.08,
+  "sentence": "So in a way, Covid never ended."
+ },
+ {
+  "word": "We",
+  "start": 276.3,
+  "end": 276.42,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "just",
+  "start": 276.42,
+  "end": 276.66,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "stopped",
+  "start": 276.66,
+  "end": 277.08,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "treating",
+  "start": 277.08,
+  "end": 277.56,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "it",
+  "start": 277.56,
+  "end": 277.68,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "as",
+  "start": 277.68,
+  "end": 277.8,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "an",
+  "start": 277.8,
+  "end": 277.92,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "emergency.",
+  "start": 277.92,
+  "end": 278.46,
+  "sentence": "We just stopped treating it as an emerge"
+ },
+ {
+  "word": "Some",
+  "start": 278.46,
+  "end": 278.66,
+  "sentence": "Some things never went back, either."
+ },
+ {
+  "word": "things",
+  "start": 278.66,
+  "end": 278.92,
+  "sentence": "Some things never went back, either."
+ },
+ {
+  "word": "never",
+  "start": 278.92,
+  "end": 279.22,
+  "sentence": "Some things never went back, either."
+ },
+ {
+  "word": "went",
+  "start": 279.22,
+  "end": 279.4,
+  "sentence": "Some things never went back, either."
+ },
+ {
+  "word": "back,",
+  "start": 279.4,
+  "end": 279.66,
+  "sentence": "Some things never went back, either."
+ },
+ {
+  "word": "either.",
+  "start": 279.66,
+  "end": 280.02,
+  "sentence": "Some things never went back, either."
+ },
+ {
+  "word": "About",
+  "start": 280.11,
+  "end": 280.347,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "one",
+  "start": 280.347,
+  "end": 280.489,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "paid",
+  "start": 280.489,
+  "end": 280.679,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "workday",
+  "start": 280.679,
+  "end": 281.01,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "in",
+  "start": 281.01,
+  "end": 281.105,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "four",
+  "start": 281.105,
+  "end": 281.295,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "is",
+  "start": 281.295,
+  "end": 281.389,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "still",
+  "start": 281.389,
+  "end": 281.626,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "done",
+  "start": 281.626,
+  "end": 281.816,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "at",
+  "start": 281.816,
+  "end": 281.91,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "home.",
+  "start": 281.91,
+  "end": 282.1,
+  "sentence": "About one paid workday in four is still "
+ },
+ {
+  "word": "Schools",
+  "start": 282.42,
+  "end": 282.56,
+  "sentence": "Schools learned to teach online."
+ },
+ {
+  "word": "learned",
+  "start": 282.56,
+  "end": 282.7,
+  "sentence": "Schools learned to teach online."
+ },
+ {
+  "word": "to",
+  "start": 282.7,
+  "end": 282.86,
+  "sentence": "Schools learned to teach online."
+ },
+ {
+  "word": "teach",
+  "start": 282.86,
+  "end": 283.02,
+  "sentence": "Schools learned to teach online."
+ },
+ {
+  "word": "online.",
+  "start": 283.02,
+  "end": 283.52,
+  "sentence": "Schools learned to teach online."
+ },
+ {
+  "word": "The",
+  "start": 283.8,
+  "end": 284.08,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "question",
+  "start": 284.08,
+  "end": 284.36,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "isn't",
+  "start": 284.36,
+  "end": 284.52,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "whether",
+  "start": 284.52,
+  "end": 284.64,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "we",
+  "start": 284.64,
+  "end": 284.74,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "can",
+  "start": 284.74,
+  "end": 284.86,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "live",
+  "start": 284.86,
+  "end": 285.16,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "alongside",
+  "start": 285.16,
+  "end": 285.52,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "it.",
+  "start": 285.56,
+  "end": 285.64,
+  "sentence": "The question isn't whether we can live a"
+ },
+ {
+  "word": "We",
+  "start": 285.56,
+  "end": 285.64,
+  "sentence": "We already do."
+ },
+ {
+  "word": "already",
+  "start": 285.64,
+  "end": 285.92,
+  "sentence": "We already do."
+ },
+ {
+  "word": "do.",
+  "start": 285.92,
+  "end": 286.42,
+  "sentence": "We already do."
+ },
+ {
+  "word": "So",
+  "start": 287.24,
+  "end": 287.34,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "what",
+  "start": 287.34,
+  "end": 287.44,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "if",
+  "start": 287.44,
+  "end": 287.58,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "the",
+  "start": 287.58,
+  "end": 287.7,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "emergency",
+  "start": 287.7,
+  "end": 288.08,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "had",
+  "start": 288.08,
+  "end": 288.34,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "never",
+  "start": 288.34,
+  "end": 288.6,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "ended?",
+  "start": 288.6,
+  "end": 288.92,
+  "sentence": "So what if the emergency had never ended"
+ },
+ {
+  "word": "Offices",
+  "start": 289.5,
+  "end": 289.78,
+  "sentence": "Offices would be museums."
+ },
+ {
+  "word": "would",
+  "start": 289.78,
+  "end": 289.96,
+  "sentence": "Offices would be museums."
+ },
+ {
+  "word": "be",
+  "start": 289.96,
+  "end": 290.08,
+  "sentence": "Offices would be museums."
+ },
+ {
+  "word": "museums.",
+  "start": 290.08,
+  "end": 290.42,
+  "sentence": "Offices would be museums."
+ },
+ {
+  "word": "Classrooms",
+  "start": 290.7,
+  "end": 290.96,
+  "sentence": "Classrooms would be windows."
+ },
+ {
+  "word": "would",
+  "start": 290.96,
+  "end": 291.22,
+  "sentence": "Classrooms would be windows."
+ },
+ {
+  "word": "be",
+  "start": 291.22,
+  "end": 291.4,
+  "sentence": "Classrooms would be windows."
+ },
+ {
+  "word": "windows.",
+  "start": 291.4,
+  "end": 291.7,
+  "sentence": "Classrooms would be windows."
+ },
+ {
+  "word": "Hospital",
+  "start": 292.34,
+  "end": 292.54,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "queues",
+  "start": 292.54,
+  "end": 292.88,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "would",
+  "start": 292.88,
+  "end": 293.02,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "be",
+  "start": 293.02,
+  "end": 293.18,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "longer,",
+  "start": 293.18,
+  "end": 293.42,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "and",
+  "start": 293.42,
+  "end": 293.74,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "the",
+  "start": 293.74,
+  "end": 293.9,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "sky",
+  "start": 293.9,
+  "end": 294.1,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "would",
+  "start": 294.1,
+  "end": 294.24,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "be",
+  "start": 294.24,
+  "end": 294.46,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "quieter.",
+  "start": 294.46,
+  "end": 294.72,
+  "sentence": "Hospital queues would be longer, and the"
+ },
+ {
+  "word": "But",
+  "start": 295.58,
+  "end": 295.735,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "the",
+  "start": 295.735,
+  "end": 295.891,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "real",
+  "start": 295.891,
+  "end": 296.098,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "world",
+  "start": 296.098,
+  "end": 296.357,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "landed",
+  "start": 296.357,
+  "end": 296.668,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "somewhere",
+  "start": 296.668,
+  "end": 297.134,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "in",
+  "start": 297.134,
+  "end": 297.237,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "between.",
+  "start": 297.237,
+  "end": 297.6,
+  "sentence": "But the real world landed somewhere in b"
+ },
+ {
+  "word": "Some",
+  "start": 297.84,
+  "end": 298.035,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "would",
+  "start": 298.035,
+  "end": 298.279,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "say",
+  "start": 298.279,
+  "end": 298.425,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "we",
+  "start": 298.425,
+  "end": 298.522,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "kept",
+  "start": 298.522,
+  "end": 298.717,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "the",
+  "start": 298.717,
+  "end": 298.863,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "best",
+  "start": 298.863,
+  "end": 299.058,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "parts:",
+  "start": 299.058,
+  "end": 299.302,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "flexibility,",
+  "start": 299.302,
+  "end": 299.838,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "science",
+  "start": 299.838,
+  "end": 300.179,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "that",
+  "start": 300.179,
+  "end": 300.374,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "moves",
+  "start": 300.374,
+  "end": 300.617,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "fast,",
+  "start": 300.617,
+  "end": 300.812,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "and",
+  "start": 300.812,
+  "end": 300.958,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "an",
+  "start": 300.958,
+  "end": 301.056,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "alarm",
+  "start": 301.056,
+  "end": 301.299,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "that",
+  "start": 301.299,
+  "end": 301.494,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "can",
+  "start": 301.494,
+  "end": 301.64,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "be",
+  "start": 301.64,
+  "end": 301.738,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "switched",
+  "start": 301.738,
+  "end": 302.128,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "on.",
+  "start": 302.128,
+  "end": 302.225,
+  "sentence": "Some would say we kept the best parts: f"
+ },
+ {
+  "word": "And",
+  "start": 302.54,
+  "end": 302.654,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "we",
+  "start": 302.654,
+  "end": 302.729,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "let",
+  "start": 302.729,
+  "end": 302.843,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "go",
+  "start": 302.843,
+  "end": 302.919,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "of",
+  "start": 302.919,
+  "end": 302.995,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "the",
+  "start": 302.995,
+  "end": 303.108,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "rest.",
+  "start": 303.108,
+  "end": 303.26,
+  "sentence": "And we let go of the rest."
+ },
+ {
+  "word": "In",
+  "start": 303.8,
+  "end": 303.896,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "March",
+  "start": 303.896,
+  "end": 304.134,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "twenty",
+  "start": 304.134,
+  "end": 304.421,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "twenty,",
+  "start": 304.421,
+  "end": 304.708,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "we",
+  "start": 304.708,
+  "end": 304.803,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "were",
+  "start": 304.803,
+  "end": 304.994,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "asked",
+  "start": 304.994,
+  "end": 305.233,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "to",
+  "start": 305.233,
+  "end": 305.329,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "stay",
+  "start": 305.329,
+  "end": 305.52,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "home",
+  "start": 305.52,
+  "end": 305.711,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "for",
+  "start": 305.711,
+  "end": 305.854,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "fifteen",
+  "start": 305.854,
+  "end": 306.189,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "days.",
+  "start": 306.189,
+  "end": 306.38,
+  "sentence": "In March twenty twenty, we were asked to"
+ },
+ {
+  "word": "The",
+  "start": 306.72,
+  "end": 306.9,
+  "sentence": "The emergency ended."
+ },
+ {
+  "word": "emergency",
+  "start": 306.9,
+  "end": 307.2,
+  "sentence": "The emergency ended."
+ },
+ {
+  "word": "ended.",
+  "start": 307.2,
+  "end": 307.66,
+  "sentence": "The emergency ended."
+ },
+ {
+  "word": "Which",
+  "start": 308.88,
+  "end": 309.24,
+  "sentence": "Which parts of it would you keep?"
+ },
+ {
+  "word": "parts",
+  "start": 309.24,
+  "end": 309.48,
+  "sentence": "Which parts of it would you keep?"
+ },
+ {
+  "word": "of",
+  "start": 309.48,
+  "end": 309.56,
+  "sentence": "Which parts of it would you keep?"
+ },
+ {
+  "word": "it",
+  "start": 309.56,
+  "end": 309.68,
+  "sentence": "Which parts of it would you keep?"
+ },
+ {
+  "word": "would",
+  "start": 309.68,
+  "end": 309.78,
+  "sentence": "Which parts of it would you keep?"
+ },
+ {
+  "word": "you",
+  "start": 309.78,
+  "end": 309.92,
+  "sentence": "Which parts of it would you keep?"
+ },
+ {
+  "word": "keep?",
+  "start": 309.92,
+  "end": 310.14,
+  "sentence": "Which parts of it would you keep?"
+ }
+]

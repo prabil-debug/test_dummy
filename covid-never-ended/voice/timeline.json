@@ -1,0 +1,1093 @@
+[
+ {
+  "section": "THE FIFTEEN DAYS",
+  "start": 0.0
+ },
+ {
+  "text": "In March twenty twenty, the United States launched a campaign with a very specific name.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 0.0,
+  "end": 3.468,
+  "chunk": 0,
+  "pause_after": 0.343
+ },
+ {
+  "text": "Fifteen Days to Slow the Spread.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 3.812,
+  "end": 4.959,
+  "chunk": 1
+ },
+ {
+  "text": "Work from home if you can.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 4.959,
+  "end": 6.106,
+  "chunk": 1,
+  "pause_after": 0.318
+ },
+ {
+  "text": "Skip gatherings of ten or more.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 6.423,
+  "end": 7.687,
+  "chunk": 2,
+  "pause_after": 0.213
+ },
+ {
+  "text": "Fifteen days, and it would be over.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 7.899,
+  "end": 9.359,
+  "chunk": 3,
+  "pause_after": 0.208
+ },
+ {
+  "text": "Within two weeks, it was extended to forty-five.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 9.567,
+  "end": 11.941,
+  "chunk": 4
+ },
+ {
+  "text": "Now imagine it never ended.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 11.941,
+  "end": 13.425,
+  "chunk": 4,
+  "pause_after": 1.167
+ },
+ {
+  "text": "Not the virus.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 14.592,
+  "end": 15.284,
+  "chunk": 5
+ },
+ {
+  "text": "The emergency.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 15.284,
+  "end": 15.745,
+  "chunk": 5,
+  "pause_after": 0.293
+ },
+ {
+  "text": "The rules, the empty offices, the screens.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 16.038,
+  "end": 17.429,
+  "chunk": 6
+ },
+ {
+  "text": "All of it, staying on.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 17.429,
+  "end": 18.422,
+  "chunk": 6,
+  "pause_after": 0.227
+ },
+ {
+  "text": "What would the world look like today?",
+  "section": "THE FIFTEEN DAYS",
+  "start": 18.649,
+  "end": 19.822,
+  "chunk": 7,
+  "pause_after": 0.625
+ },
+ {
+  "text": "Let's find out.",
+  "section": "THE FIFTEEN DAYS",
+  "start": 20.448,
+  "end": 21.187,
+  "chunk": 8,
+  "pause_after": 0.758
+ },
+ {
+  "section": "THE RULES",
+  "start": 21.945
+ },
+ {
+  "text": "First, an important difference.",
+  "section": "THE RULES",
+  "start": 21.945,
+  "end": 23.216,
+  "chunk": 9,
+  "pause_after": 0.596
+ },
+ {
+  "text": "This isn't about a virus that stays as deadly as it was.",
+  "section": "THE RULES",
+  "start": 23.812,
+  "end": 26.435,
+  "chunk": 10,
+  "pause_after": 0.389
+ },
+ {
+  "text": "It's about an emergency that never switches off.",
+  "section": "THE RULES",
+  "start": 26.824,
+  "end": 29.158,
+  "chunk": 11
+ },
+ {
+  "text": "People still learn.",
+  "section": "THE RULES",
+  "start": 29.158,
+  "end": 30.034,
+  "chunk": 11,
+  "pause_after": 0.232
+ },
+ {
+  "text": "People still adapt.",
+  "section": "THE RULES",
+  "start": 30.265,
+  "end": 30.948,
+  "chunk": 12
+ },
+ {
+  "text": "But nobody ever says, \"It's over.\"",
+  "section": "THE RULES",
+  "start": 30.948,
+  "end": 32.314,
+  "chunk": 12,
+  "pause_after": 0.268
+ },
+ {
+  "text": "And to be fair, an emergency isn't declared lightly.",
+  "section": "THE RULES",
+  "start": 32.582,
+  "end": 34.479,
+  "chunk": 13,
+  "pause_after": 0.24
+ },
+ {
+  "text": "The World Health Organization estimates the pandemic was linked to about fifteen million deaths in twenty twenty and twenty twenty-one, counting those it caused indirectly.",
+  "section": "THE RULES",
+  "start": 34.718,
+  "end": 41.018,
+  "chunk": 14,
+  "pause_after": 0.341
+ },
+ {
+  "text": "The official count of deaths from Covid itself was about five and a half million.",
+  "section": "THE RULES",
+  "start": 41.359,
+  "end": 44.328,
+  "chunk": 15,
+  "pause_after": 0.321
+ },
+ {
+  "text": "That is why the world took it so seriously.",
+  "section": "THE RULES",
+  "start": 44.648,
+  "end": 46.33,
+  "chunk": 16,
+  "pause_after": 0.213
+ },
+ {
+  "text": "The harder question is how long a world can live like that.",
+  "section": "THE RULES",
+  "start": 46.543,
+  "end": 49.181,
+  "chunk": 17,
+  "pause_after": 0.974
+ },
+ {
+  "section": "A CITY THAT TRIED",
+  "start": 50.155
+ },
+ {
+  "text": "Melbourne gives us a clue.",
+  "section": "A CITY THAT TRIED",
+  "start": 50.155,
+  "end": 51.197,
+  "chunk": 18,
+  "pause_after": 0.269
+ },
+ {
+  "text": "Across six separate lockdowns, the city spent two hundred and sixty-two days under restrictions.",
+  "section": "A CITY THAT TRIED",
+  "start": 51.466,
+  "end": 55.06,
+  "chunk": 19,
+  "pause_after": 0.3
+ },
+ {
+  "text": "At the time, that was the most of any city in the world.",
+  "section": "A CITY THAT TRIED",
+  "start": 55.359,
+  "end": 57.237,
+  "chunk": 20,
+  "pause_after": 0.375
+ },
+ {
+  "text": "Shops shut.",
+  "section": "A CITY THAT TRIED",
+  "start": 57.612,
+  "end": 58.108,
+  "chunk": 21
+ },
+ {
+  "text": "Streets emptied.",
+  "section": "A CITY THAT TRIED",
+  "start": 58.108,
+  "end": 58.604,
+  "chunk": 21
+ },
+ {
+  "text": "Neighbours became faces on a screen.",
+  "section": "A CITY THAT TRIED",
+  "start": 58.604,
+  "end": 60.093,
+  "chunk": 21,
+  "pause_after": 0.254
+ },
+ {
+  "text": "When it finally lifted in October twenty twenty-one, people celebrated.",
+  "section": "A CITY THAT TRIED",
+  "start": 60.346,
+  "end": 63.061,
+  "chunk": 22,
+  "pause_after": 0.681
+ },
+ {
+  "text": "But that was months, with an end in sight.",
+  "section": "A CITY THAT TRIED",
+  "start": 63.742,
+  "end": 65.237,
+  "chunk": 23,
+  "pause_after": 0.36
+ },
+ {
+  "text": "What happens when there's no end in sight?",
+  "section": "A CITY THAT TRIED",
+  "start": 65.597,
+  "end": 67.17,
+  "chunk": 24,
+  "pause_after": 0.854
+ },
+ {
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 68.024
+ },
+ {
+  "text": "Some places went much longer.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 68.024,
+  "end": 69.299,
+  "chunk": 25,
+  "pause_after": 0.292
+ },
+ {
+  "text": "China locked down Wuhan in January twenty twenty, and kept strict versions of those rules for almost three years.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 69.591,
+  "end": 74.24,
+  "chunk": 26,
+  "pause_after": 0.233
+ },
+ {
+  "text": "In spring twenty twenty-two, Shanghai locked down twenty-five million people for about two months.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 74.473,
+  "end": 78.402,
+  "chunk": 27,
+  "pause_after": 0.209
+ },
+ {
+  "text": "Then, in December twenty twenty-two, the rules were dropped.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 78.611,
+  "end": 80.762,
+  "chunk": 28,
+  "pause_after": 0.368
+ },
+ {
+  "text": "Reports linked the change to protests and to a more contagious variant.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 81.131,
+  "end": 83.899,
+  "chunk": 29,
+  "pause_after": 0.393
+ },
+ {
+  "text": "Three years is a long time for a world on pause.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 84.291,
+  "end": 86.431,
+  "chunk": 30,
+  "pause_after": 0.353
+ },
+ {
+  "text": "It shows two things.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 86.784,
+  "end": 87.808,
+  "chunk": 31,
+  "pause_after": 0.524
+ },
+ {
+  "text": "An emergency can last far longer than anyone plans.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 88.332,
+  "end": 90.866,
+  "chunk": 32,
+  "pause_after": 0.385
+ },
+ {
+  "text": "And ending one may be harder than starting one.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 91.25,
+  "end": 92.867,
+  "chunk": 33,
+  "pause_after": 0.304
+ },
+ {
+  "text": "Either way, the first thing to change would be work.",
+  "section": "THE COUNTRY THAT STAYED CLOSED",
+  "start": 93.171,
+  "end": 94.791,
+  "chunk": 34,
+  "pause_after": 1.032
+ },
+ {
+  "section": "THE END OF THE COMMUTE",
+  "start": 95.824
+ },
+ {
+  "text": "Before the pandemic, only about five to seven percent of paid workdays in the United States were done from home.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 95.824,
+  "end": 99.811,
+  "chunk": 35,
+  "pause_after": 0.342
+ },
+ {
+  "text": "Then, almost overnight, kitchens became offices.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 100.154,
+  "end": 102.039,
+  "chunk": 36,
+  "pause_after": 0.381
+ },
+ {
+  "text": "Today, even with the emergency long over, about one paid workday in four is still done at home.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 102.42,
+  "end": 106.359,
+  "chunk": 37,
+  "pause_after": 0.285
+ },
+ {
+  "text": "So in a world where the emergency never ended, that number wouldn't stay a quarter.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 106.644,
+  "end": 110.473,
+  "chunk": 38,
+  "pause_after": 0.205
+ },
+ {
+  "text": "It could become most of it.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 110.678,
+  "end": 111.653,
+  "chunk": 39,
+  "pause_after": 0.237
+ },
+ {
+  "text": "Cities built around commuting would have to become something else.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 111.89,
+  "end": 114.394,
+  "chunk": 40
+ },
+ {
+  "text": "Rush hour, gone.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 114.394,
+  "end": 115.145,
+  "chunk": 40,
+  "pause_after": 0.213
+ },
+ {
+  "text": "Lunch spots downtown, empty.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 115.358,
+  "end": 116.572,
+  "chunk": 41,
+  "pause_after": 0.443
+ },
+ {
+  "text": "Some people would save hours every day.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 117.015,
+  "end": 118.333,
+  "chunk": 42,
+  "pause_after": 0.286
+ },
+ {
+  "text": "Others would never meet their colleagues in person.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 118.619,
+  "end": 120.087,
+  "chunk": 43,
+  "pause_after": 0.218
+ },
+ {
+  "text": "It's freedom and loneliness in the same package.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 120.304,
+  "end": 122.32,
+  "chunk": 44,
+  "pause_after": 0.321
+ },
+ {
+  "text": "And it wasn't only adults who stayed home.",
+  "section": "THE END OF THE COMMUTE",
+  "start": 122.641,
+  "end": 124.374,
+  "chunk": 45,
+  "pause_after": 0.888
+ },
+ {
+  "section": "THE EMPTY CLASSROOM",
+  "start": 125.262
+ },
+ {
+  "text": "When schools closed, children moved to screens.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 125.262,
+  "end": 127.133,
+  "chunk": 46,
+  "pause_after": 0.261
+ },
+ {
+  "text": "In the United States, the twenty twenty-two Nation's Report Card showed the biggest drop in maths scores ever recorded.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 127.395,
+  "end": 131.685,
+  "chunk": 47,
+  "pause_after": 0.279
+ },
+ {
+  "text": "Eighth graders lost eight points.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 131.964,
+  "end": 133.034,
+  "chunk": 48,
+  "pause_after": 0.411
+ },
+ {
+  "text": "By the usual rule of thumb, that's close to a year of learning.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 133.445,
+  "end": 135.448,
+  "chunk": 49,
+  "pause_after": 0.239
+ },
+ {
+  "text": "Researchers warn that closures weren't the only cause.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 135.687,
+  "end": 137.668,
+  "chunk": 50,
+  "pause_after": 0.608
+ },
+ {
+  "text": "But the pattern was hard to miss.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 138.277,
+  "end": 139.489,
+  "chunk": 51,
+  "pause_after": 0.33
+ },
+ {
+  "text": "In a world with no end, a whole generation grows up learning through a window.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 139.819,
+  "end": 143.513,
+  "chunk": 52,
+  "pause_after": 0.201
+ },
+ {
+  "text": "Some children thrive that way.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 143.714,
+  "end": 144.856,
+  "chunk": 53
+ },
+ {
+  "text": "Many don't.",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 144.856,
+  "end": 145.313,
+  "chunk": 53,
+  "pause_after": 0.281
+ },
+ {
+  "text": "And what about the people who weren't sick with Covid at all?",
+  "section": "THE EMPTY CLASSROOM",
+  "start": 145.594,
+  "end": 147.965,
+  "chunk": 54,
+  "pause_after": 1.063
+ },
+ {
+  "section": "THE QUEUE FOR CARE",
+  "start": 149.028
+ },
+ {
+  "text": "Hospitals filled up with one disease, and everything else had to wait.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 149.028,
+  "end": 151.446,
+  "chunk": 55,
+  "pause_after": 0.313
+ },
+ {
+  "text": "Early in the pandemic, researchers estimated that tens of millions of operations around the world were cancelled or postponed in just twelve weeks.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 151.76,
+  "end": 157.445,
+  "chunk": 56,
+  "pause_after": 0.349
+ },
+ {
+  "text": "Check-ups were skipped.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 157.794,
+  "end": 158.532,
+  "chunk": 57
+ },
+ {
+  "text": "Screenings were missed.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 158.532,
+  "end": 159.269,
+  "chunk": 57,
+  "pause_after": 0.398
+ },
+ {
+  "text": "Many people stayed away from hospitals out of fear.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 159.667,
+  "end": 162.505,
+  "chunk": 58
+ },
+ {
+  "text": "Postponed care doesn't disappear.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 162.505,
+  "end": 163.766,
+  "chunk": 58,
+  "pause_after": 0.392
+ },
+ {
+  "text": "It builds up like a queue.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 164.158,
+  "end": 165.174,
+  "chunk": 59,
+  "pause_after": 0.286
+ },
+ {
+  "text": "In a world with no end, the queue only grows.",
+  "section": "THE QUEUE FOR CARE",
+  "start": 165.461,
+  "end": 167.38,
+  "chunk": 60,
+  "pause_after": 0.708
+ },
+ {
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 168.088
+ },
+ {
+  "text": "But care found a workaround.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 168.088,
+  "end": 169.065,
+  "chunk": 61,
+  "pause_after": 0.214
+ },
+ {
+  "text": "In February twenty twenty, about one in a thousand primary-care visits for Medicare patients happened by video or phone.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 169.279,
+  "end": 173.97,
+  "chunk": 62,
+  "pause_after": 0.246
+ },
+ {
+  "text": "By April, it was more than four in ten.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 174.216,
+  "end": 175.658,
+  "chunk": 63,
+  "pause_after": 0.275
+ },
+ {
+  "text": "Across the whole of twenty twenty, Medicare telehealth visits rose about sixty-three times over.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 175.933,
+  "end": 179.916,
+  "chunk": 64,
+  "pause_after": 0.2
+ },
+ {
+  "text": "A patient in a remote village could see a specialist without a four-hour drive.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 180.116,
+  "end": 183.687,
+  "chunk": 65,
+  "pause_after": 0.222
+ },
+ {
+  "text": "A busy parent could talk to a doctor from the sofa.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 183.909,
+  "end": 186.101,
+  "chunk": 66,
+  "pause_after": 0.206
+ },
+ {
+  "text": "In a world with no end, that becomes the new normal.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 186.307,
+  "end": 188.275,
+  "chunk": 67,
+  "pause_after": 0.335
+ },
+ {
+  "text": "In the real world, some of it stayed.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 188.61,
+  "end": 189.949,
+  "chunk": 68
+ },
+ {
+  "text": "Which brings us to the sky.",
+  "section": "THE DOCTOR ON THE SCREEN",
+  "start": 189.949,
+  "end": 190.953,
+  "chunk": 68,
+  "pause_after": 0.917
+ },
+ {
+  "section": "THE EMPTY SKY",
+  "start": 191.87
+ },
+ {
+  "text": "In twenty twenty, the number of air passengers fell by about sixty percent, according to the United Nations' aviation agency.",
+  "section": "THE EMPTY SKY",
+  "start": 191.87,
+  "end": 196.769,
+  "chunk": 69,
+  "pause_after": 0.28
+ },
+ {
+  "text": "Planes sat parked.",
+  "section": "THE EMPTY SKY",
+  "start": 197.049,
+  "end": 197.794,
+  "chunk": 70
+ },
+ {
+  "text": "Borders closed.",
+  "section": "THE EMPTY SKY",
+  "start": 197.794,
+  "end": 198.291,
+  "chunk": 70,
+  "pause_after": 0.387
+ },
+ {
+  "text": "Weddings, funerals and reunions moved to screens.",
+  "section": "THE EMPTY SKY",
+  "start": 198.678,
+  "end": 200.655,
+  "chunk": 71,
+  "pause_after": 0.303
+ },
+ {
+  "text": "In April twenty twenty, the International Monetary Fund projected that the world economy would shrink by about three percent that year, the worst since the Great Depression.",
+  "section": "THE EMPTY SKY",
+  "start": 200.958,
+  "end": 207.778,
+  "chunk": 72,
+  "pause_after": 0.219
+ },
+ {
+  "text": "A short emergency is survivable for businesses that depend on people moving.",
+  "section": "THE EMPTY SKY",
+  "start": 207.997,
+  "end": 211.81,
+  "chunk": 73,
+  "pause_after": 0.275
+ },
+ {
+  "text": "A permanent one is not.",
+  "section": "THE EMPTY SKY",
+  "start": 212.085,
+  "end": 213.534,
+  "chunk": 74
+ },
+ {
+  "text": "Airlines.",
+  "section": "THE EMPTY SKY",
+  "start": 213.534,
+  "end": 213.824,
+  "chunk": 74
+ },
+ {
+  "text": "Restaurants.",
+  "section": "THE EMPTY SKY",
+  "start": 213.824,
+  "end": 214.113,
+  "chunk": 74,
+  "pause_after": 0.382
+ },
+ {
+  "text": "Small shops.",
+  "section": "THE EMPTY SKY",
+  "start": 214.496,
+  "end": 215.044,
+  "chunk": 75
+ },
+ {
+  "text": "Tourist towns.",
+  "section": "THE EMPTY SKY",
+  "start": 215.044,
+  "end": 215.593,
+  "chunk": 75,
+  "pause_after": 0.205
+ },
+ {
+  "text": "All of them would need to become different businesses.",
+  "section": "THE EMPTY SKY",
+  "start": 215.798,
+  "end": 217.53,
+  "chunk": 76,
+  "pause_after": 0.682
+ },
+ {
+  "text": "But the biggest cost may be one you can't see on a balance sheet.",
+  "section": "THE EMPTY SKY",
+  "start": 218.212,
+  "end": 220.397,
+  "chunk": 77,
+  "pause_after": 0.805
+ },
+ {
+  "section": "THE QUIET COST",
+  "start": 221.201
+ },
+ {
+  "text": "In its first year, the pandemic raised anxiety and depression worldwide by about twenty-five percent, according to the World Health Organization.",
+  "section": "THE QUIET COST",
+  "start": 221.201,
+  "end": 226.821,
+  "chunk": 78,
+  "pause_after": 0.316
+ },
+ {
+  "text": "Young people and women were hit hardest.",
+  "section": "THE QUIET COST",
+  "start": 227.137,
+  "end": 229.177,
+  "chunk": 79
+ },
+ {
+  "text": "Humans are social animals.",
+  "section": "THE QUIET COST",
+  "start": 229.177,
+  "end": 230.344,
+  "chunk": 79,
+  "pause_after": 0.39
+ },
+ {
+  "text": "Remove the handshake, the shared table and the crowded room, and something wears down.",
+  "section": "THE QUIET COST",
+  "start": 230.733,
+  "end": 234.417,
+  "chunk": 80,
+  "pause_after": 0.257
+ },
+ {
+  "text": "Yet some people found things they hadn't expected.",
+  "section": "THE QUIET COST",
+  "start": 234.674,
+  "end": 236.909,
+  "chunk": 81
+ },
+ {
+  "text": "Time with family.",
+  "section": "THE QUIET COST",
+  "start": 236.909,
+  "end": 237.748,
+  "chunk": 81,
+  "pause_after": 0.237
+ },
+ {
+  "text": "Quiet.",
+  "section": "THE QUIET COST",
+  "start": 237.984,
+  "end": 238.245,
+  "chunk": 82
+ },
+ {
+  "text": "Flexibility.",
+  "section": "THE QUIET COST",
+  "start": 238.245,
+  "end": 238.506,
+  "chunk": 82
+ },
+ {
+  "text": "Both are true.",
+  "section": "THE QUIET COST",
+  "start": 238.506,
+  "end": 239.289,
+  "chunk": 82,
+  "pause_after": 0.317
+ },
+ {
+  "text": "That's what makes this so hard.",
+  "section": "THE QUIET COST",
+  "start": 239.607,
+  "end": 240.556,
+  "chunk": 83,
+  "pause_after": 0.273
+ },
+ {
+  "text": "So how did the real world get out?",
+  "section": "THE QUIET COST",
+  "start": 240.829,
+  "end": 242.197,
+  "chunk": 84,
+  "pause_after": 1.148
+ },
+ {
+  "section": "THE WAY OUT",
+  "start": 243.345
+ },
+ {
+  "text": "Faster than almost anyone expected.",
+  "section": "THE WAY OUT",
+  "start": 243.345,
+  "end": 244.624,
+  "chunk": 85,
+  "pause_after": 0.388
+ },
+ {
+  "text": "The virus's genetic code was published in January twenty twenty.",
+  "section": "THE WAY OUT",
+  "start": 245.011,
+  "end": 248.255,
+  "chunk": 86,
+  "pause_after": 0.38
+ },
+ {
+  "text": "On the second of December that year, less than eleven months later, the first vaccine was authorised, in the United Kingdom.",
+  "section": "THE WAY OUT",
+  "start": 248.635,
+  "end": 253.028,
+  "chunk": 87,
+  "pause_after": 0.25
+ },
+ {
+  "text": "Then came more vaccines, new treatments, and, slowly, immunity built up from vaccination and from infection.",
+  "section": "THE WAY OUT",
+  "start": 253.278,
+  "end": 258.344,
+  "chunk": 88,
+  "pause_after": 0.278
+ },
+ {
+  "text": "In May twenty twenty-three, the World Health Organization declared the global emergency over.",
+  "section": "THE WAY OUT",
+  "start": 258.622,
+  "end": 262.373,
+  "chunk": 89,
+  "pause_after": 0.557
+ },
+ {
+  "text": "But listen carefully to what it said.",
+  "section": "THE WAY OUT",
+  "start": 262.93,
+  "end": 264.111,
+  "chunk": 90,
+  "pause_after": 0.821
+ },
+ {
+  "section": "THE REAL TWIST",
+  "start": 264.932
+ },
+ {
+  "text": "The emergency ended.",
+  "section": "THE REAL TWIST",
+  "start": 264.932,
+  "end": 265.664,
+  "chunk": 91
+ },
+ {
+  "text": "The virus didn't.",
+  "section": "THE REAL TWIST",
+  "start": 265.664,
+  "end": 266.396,
+  "chunk": 91,
+  "pause_after": 0.41
+ },
+ {
+  "text": "The World Health Organization stressed that Covid-nineteen was still a global health threat, still circulating, still changing.",
+  "section": "THE REAL TWIST",
+  "start": 266.806,
+  "end": 271.807,
+  "chunk": 92,
+  "pause_after": 0.406
+ },
+ {
+  "text": "It simply no longer needed emergency mode.",
+  "section": "THE REAL TWIST",
+  "start": 272.214,
+  "end": 274.166,
+  "chunk": 93,
+  "pause_after": 0.41
+ },
+ {
+  "text": "So in a way, Covid never ended.",
+  "section": "THE REAL TWIST",
+  "start": 274.576,
+  "end": 276.036,
+  "chunk": 94,
+  "pause_after": 0.249
+ },
+ {
+  "text": "We just stopped treating it as an emergency.",
+  "section": "THE REAL TWIST",
+  "start": 276.285,
+  "end": 278.36,
+  "chunk": 95
+ },
+ {
+  "text": "Some things never went back, either.",
+  "section": "THE REAL TWIST",
+  "start": 278.36,
+  "end": 279.917,
+  "chunk": 95,
+  "pause_after": 0.243
+ },
+ {
+  "text": "About one paid workday in four is still done at home.",
+  "section": "THE REAL TWIST",
+  "start": 280.16,
+  "end": 282.0,
+  "chunk": 96,
+  "pause_after": 0.337
+ },
+ {
+  "text": "Schools learned to teach online.",
+  "section": "THE REAL TWIST",
+  "start": 282.338,
+  "end": 283.342,
+  "chunk": 97,
+  "pause_after": 0.385
+ },
+ {
+  "text": "The question isn't whether we can live alongside it.",
+  "section": "THE REAL TWIST",
+  "start": 283.727,
+  "end": 285.522,
+  "chunk": 98
+ },
+ {
+  "text": "We already do.",
+  "section": "THE REAL TWIST",
+  "start": 285.522,
+  "end": 286.12,
+  "chunk": 98,
+  "pause_after": 1.021
+ },
+ {
+  "section": "THE REAL ANSWER",
+  "start": 287.141
+ },
+ {
+  "text": "So what if the emergency had never ended?",
+  "section": "THE REAL ANSWER",
+  "start": 287.141,
+  "end": 288.845,
+  "chunk": 99,
+  "pause_after": 0.517
+ },
+ {
+  "text": "Offices would be museums.",
+  "section": "THE REAL ANSWER",
+  "start": 289.362,
+  "end": 290.562,
+  "chunk": 100
+ },
+ {
+  "text": "Classrooms would be windows.",
+  "section": "THE REAL ANSWER",
+  "start": 290.562,
+  "end": 291.761,
+  "chunk": 100,
+  "pause_after": 0.4
+ },
+ {
+  "text": "Hospital queues would be longer, and the sky would be quieter.",
+  "section": "THE REAL ANSWER",
+  "start": 292.161,
+  "end": 294.785,
+  "chunk": 101,
+  "pause_after": 0.738
+ },
+ {
+  "text": "But the real world landed somewhere in between.",
+  "section": "THE REAL ANSWER",
+  "start": 295.523,
+  "end": 297.515,
+  "chunk": 102,
+  "pause_after": 0.239
+ },
+ {
+  "text": "Some would say we kept the best parts: flexibility, science that moves fast, and an alarm that can be switched on.",
+  "section": "THE REAL ANSWER",
+  "start": 297.755,
+  "end": 302.125,
+  "chunk": 103,
+  "pause_after": 0.273
+ },
+ {
+  "text": "And we let go of the rest.",
+  "section": "THE REAL ANSWER",
+  "start": 302.398,
+  "end": 303.29,
+  "chunk": 104,
+  "pause_after": 0.414
+ },
+ {
+  "text": "In March twenty twenty, we were asked to stay home for fifteen days.",
+  "section": "THE REAL ANSWER",
+  "start": 303.704,
+  "end": 306.381,
+  "chunk": 105,
+  "pause_after": 0.288
+ },
+ {
+  "text": "The emergency ended.",
+  "section": "THE REAL ANSWER",
+  "start": 306.669,
+  "end": 307.619,
+  "chunk": 106,
+  "pause_after": 1.331
+ },
+ {
+  "text": "Which parts of it would you keep?",
+  "section": "THE REAL ANSWER",
+  "start": 308.95,
+  "end": 310.163,
+  "chunk": 107,
+  "pause_after": 2.0
+ }
+]
