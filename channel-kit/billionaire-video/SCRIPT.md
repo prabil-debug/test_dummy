@@ -1,11 +1,11 @@
 Working title: What If You Became a Billionaire and No One Knew?
-Status: DRAFT v1 for approval. Fact lines are tracked in FACTS.md (VERIFY marks there). Numbers are written as words for the narration engine.
+Status: APPROVED by user (v1.2). Fact lines are tracked in FACTS.md (VERIFY marks there). Numbers are written as words for the narration engine.
 Markers: [beat] at the end of a line = one long dramatic pause (used twice).
 
 ## HOOK
 You wake up and check your bank app. One billion dollars. [beat]
 Nobody knows. Not your boss. Not your family. Not even the cashier who just smiled at you.
-This year, Forbes counted three thousand four hundred and twenty-eight billionaires. You would be the one missing from the list.
+The latest Forbes list counted three thousand four hundred and twenty-eight billionaires. You would be the one missing from the list.
 So what do you do with a secret that big?
 
 ## THE FIRST DAY
@@ -20,11 +20,11 @@ Then, around midnight, you notice something worse. Hiding the money is easy. Hid
 ## IT HAS HAPPENED, IN MINIATURE
 Two real stories show both sides of this.
 In November twenty twenty-two, a single ticket in California won a Powerball jackpot of two point oh four billion dollars. The winner took the cash option. Just under a billion dollars. Almost exactly your situation.
-Anonymous? No. In California, a lottery winner's name is public record. A few months later, the state announced it: Edwin Castro. He turned down every interview.
+Anonymous? No. In California, a lottery winner's name is public record. A few months later, the state named him publicly. He declined every interview.
 Some rules don't care how private you want to be.
 Now the other story. [beat]
-Chuck Feeney helped build a duty-free shopping empire. Then he gave away more than eight billion dollars, mostly in secret.
-His foundation didn't carry his name. For years, its staff couldn't tell their families where they worked. His name only came out in nineteen ninety-seven.
+Chuck Feeney co-founded a duty-free shopping empire. Then he gave away more than eight billion dollars, mostly in secret.
+His foundation didn't carry his name. For years, staff reportedly couldn't tell their families where they worked. His name only came out in nineteen ninety-seven.
 He kept giving while he was alive, until the money was gone. The foundation closed in twenty twenty. He died three years later, at ninety-two.
 So a secret billion can be put to work. The harder question is what it does to the person holding it.
 

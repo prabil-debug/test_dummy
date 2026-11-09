@@ -1,0 +1,1042 @@
+[
+ {
+  "section": "HOOK",
+  "start": 0.0
+ },
+ {
+  "text": "You wake up and check your bank app.",
+  "section": "HOOK",
+  "start": 0.0,
+  "end": 1.74,
+  "chunk": 0
+ },
+ {
+  "text": "One billion dollars.",
+  "section": "HOOK",
+  "start": 1.74,
+  "end": 2.393,
+  "chunk": 0,
+  "pause_after": 1.313
+ },
+ {
+  "text": "Nobody knows.",
+  "section": "HOOK",
+  "start": 3.705,
+  "end": 4.281,
+  "chunk": 1
+ },
+ {
+  "text": "Not your boss.",
+  "section": "HOOK",
+  "start": 4.281,
+  "end": 5.144,
+  "chunk": 1
+ },
+ {
+  "text": "Not your family.",
+  "section": "HOOK",
+  "start": 5.144,
+  "end": 6.008,
+  "chunk": 1,
+  "pause_after": 0.318
+ },
+ {
+  "text": "Not even the cashier who just smiled at you.",
+  "section": "HOOK",
+  "start": 6.326,
+  "end": 8.561,
+  "chunk": 2,
+  "pause_after": 0.213
+ },
+ {
+  "text": "The latest Forbes list counted three thousand four hundred and twenty-eight billionaires.",
+  "section": "HOOK",
+  "start": 8.774,
+  "end": 13.253,
+  "chunk": 3,
+  "pause_after": 0.208
+ },
+ {
+  "text": "You would be the one missing from the list.",
+  "section": "HOOK",
+  "start": 13.461,
+  "end": 15.387,
+  "chunk": 4,
+  "pause_after": 0.215
+ },
+ {
+  "text": "So what do you do with a secret that big?",
+  "section": "HOOK",
+  "start": 15.602,
+  "end": 17.889,
+  "chunk": 5,
+  "pause_after": 0.742
+ },
+ {
+  "section": "THE FIRST DAY",
+  "start": 18.631
+ },
+ {
+  "text": "Your first problem is almost funny.",
+  "section": "THE FIRST DAY",
+  "start": 18.631,
+  "end": 20.244,
+  "chunk": 6,
+  "pause_after": 0.227
+ },
+ {
+  "text": "You can't buy anything without someone noticing.",
+  "section": "THE FIRST DAY",
+  "start": 20.471,
+  "end": 22.418,
+  "chunk": 7
+ },
+ {
+  "text": "A new car gets questions.",
+  "section": "THE FIRST DAY",
+  "start": 22.418,
+  "end": 23.809,
+  "chunk": 7,
+  "pause_after": 0.338
+ },
+ {
+  "text": "A new house gets louder questions.",
+  "section": "THE FIRST DAY",
+  "start": 24.147,
+  "end": 25.708,
+  "chunk": 8,
+  "pause_after": 0.327
+ },
+ {
+  "text": "Even a fancier lunch starts a rumour, if you've eaten the same sandwich for years.",
+  "section": "THE FIRST DAY",
+  "start": 26.035,
+  "end": 30.154,
+  "chunk": 9,
+  "pause_after": 0.415
+ },
+ {
+  "text": "The money isn't loud.",
+  "section": "THE FIRST DAY",
+  "start": 30.569,
+  "end": 31.625,
+  "chunk": 10
+ },
+ {
+  "text": "The spending is.",
+  "section": "THE FIRST DAY",
+  "start": 31.625,
+  "end": 32.417,
+  "chunk": 10
+ },
+ {
+  "text": "And you don't need to spend.",
+  "section": "THE FIRST DAY",
+  "start": 32.417,
+  "end": 34.002,
+  "chunk": 10,
+  "pause_after": 0.389
+ },
+ {
+  "text": "A billion dollars earning a careful four percent a year makes forty million dollars.",
+  "section": "THE FIRST DAY",
+  "start": 34.391,
+  "end": 38.806,
+  "chunk": 11,
+  "pause_after": 0.232
+ },
+ {
+  "text": "Every year.",
+  "section": "THE FIRST DAY",
+  "start": 39.038,
+  "end": 39.84,
+  "chunk": 12,
+  "pause_after": 0.476
+ },
+ {
+  "text": "That's over a hundred thousand dollars a day, and the billion stays untouched.",
+  "section": "THE FIRST DAY",
+  "start": 40.316,
+  "end": 43.441,
+  "chunk": 13,
+  "pause_after": 0.24
+ },
+ {
+  "text": "So day one is about restraint.",
+  "section": "THE FIRST DAY",
+  "start": 43.681,
+  "end": 44.867,
+  "chunk": 14
+ },
+ {
+  "text": "You go to work.",
+  "section": "THE FIRST DAY",
+  "start": 44.867,
+  "end": 45.657,
+  "chunk": 14,
+  "pause_after": 0.341
+ },
+ {
+  "text": "You say \"fine\" when someone asks how you are.",
+  "section": "THE FIRST DAY",
+  "start": 45.998,
+  "end": 48.068,
+  "chunk": 15,
+  "pause_after": 0.321
+ },
+ {
+  "text": "You walk past the nice watch in the window.",
+  "section": "THE FIRST DAY",
+  "start": 48.388,
+  "end": 50.483,
+  "chunk": 16
+ },
+ {
+  "text": "You test it, of course.",
+  "section": "THE FIRST DAY",
+  "start": 50.483,
+  "end": 51.646,
+  "chunk": 16,
+  "pause_after": 0.213
+ },
+ {
+  "text": "A small thing first.",
+  "section": "THE FIRST DAY",
+  "start": 51.859,
+  "end": 53.069,
+  "chunk": 17
+ },
+ {
+  "text": "A coffee you don't price-check.",
+  "section": "THE FIRST DAY",
+  "start": 53.069,
+  "end": 54.582,
+  "chunk": 17,
+  "pause_after": 0.35
+ },
+ {
+  "text": "Then a bigger one: you take the better seat on the train.",
+  "section": "THE FIRST DAY",
+  "start": 54.932,
+  "end": 57.58,
+  "chunk": 18,
+  "pause_after": 0.269
+ },
+ {
+  "text": "Nobody reacts.",
+  "section": "THE FIRST DAY",
+  "start": 57.849,
+  "end": 58.547,
+  "chunk": 19
+ },
+ {
+  "text": "That's the unsettling part.",
+  "section": "THE FIRST DAY",
+  "start": 58.547,
+  "end": 59.944,
+  "chunk": 19,
+  "pause_after": 0.3
+ },
+ {
+  "text": "The biggest change in your life, and the world doesn't blink.",
+  "section": "THE FIRST DAY",
+  "start": 60.244,
+  "end": 62.555,
+  "chunk": 20,
+  "pause_after": 0.375
+ },
+ {
+  "text": "Then, around midnight, you notice something worse.",
+  "section": "THE FIRST DAY",
+  "start": 62.929,
+  "end": 64.825,
+  "chunk": 21
+ },
+ {
+  "text": "Hiding the money is easy.",
+  "section": "THE FIRST DAY",
+  "start": 64.825,
+  "end": 66.179,
+  "chunk": 21,
+  "pause_after": 0.254
+ },
+ {
+  "text": "Hiding what it does to you is harder.",
+  "section": "THE FIRST DAY",
+  "start": 66.433,
+  "end": 68.116,
+  "chunk": 22,
+  "pause_after": 0.953
+ },
+ {
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 69.07
+ },
+ {
+  "text": "Two real stories show both sides of this.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 69.07,
+  "end": 71.448,
+  "chunk": 23,
+  "pause_after": 0.36
+ },
+ {
+  "text": "In November twenty twenty-two, a single ticket in California won a Powerball jackpot of two point oh four billion dollars.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 71.808,
+  "end": 77.929,
+  "chunk": 24,
+  "pause_after": 0.416
+ },
+ {
+  "text": "The winner took the cash option.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 78.345,
+  "end": 79.988,
+  "chunk": 25
+ },
+ {
+  "text": "Just under a billion dollars.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 79.988,
+  "end": 81.357,
+  "chunk": 25,
+  "pause_after": 0.292
+ },
+ {
+  "text": "Almost exactly your situation.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 81.649,
+  "end": 83.699,
+  "chunk": 26
+ },
+ {
+  "text": "Anonymous?",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 83.699,
+  "end": 84.211,
+  "chunk": 26,
+  "pause_after": 0.53
+ },
+ {
+  "text": "No.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 84.742,
+  "end": 85.31,
+  "chunk": 27,
+  "pause_after": 0.427
+ },
+ {
+  "text": "In California, a lottery winner's name is public record.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 85.737,
+  "end": 88.261,
+  "chunk": 28,
+  "pause_after": 0.368
+ },
+ {
+  "text": "A few months later, the state named him publicly.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 88.629,
+  "end": 91.006,
+  "chunk": 29
+ },
+ {
+  "text": "He declined every interview.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 91.006,
+  "end": 92.062,
+  "chunk": 29,
+  "pause_after": 0.393
+ },
+ {
+  "text": "Some rules don't care how private you want to be.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 92.455,
+  "end": 95.182,
+  "chunk": 30
+ },
+ {
+  "text": "Now the other story.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 95.182,
+  "end": 96.274,
+  "chunk": 30,
+  "pause_after": 1.324
+ },
+ {
+  "text": "Chuck Feeney co-founded a duty-free shopping empire.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 97.597,
+  "end": 100.628,
+  "chunk": 31,
+  "pause_after": 0.328
+ },
+ {
+  "text": "Then he gave away more than eight billion dollars, mostly in secret.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 100.956,
+  "end": 104.479,
+  "chunk": 32,
+  "pause_after": 0.385
+ },
+ {
+  "text": "His foundation didn't carry his name.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 104.864,
+  "end": 106.737,
+  "chunk": 33,
+  "pause_after": 0.304
+ },
+ {
+  "text": "For years, staff reportedly couldn't tell their families where they worked.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 107.042,
+  "end": 109.912,
+  "chunk": 34,
+  "pause_after": 0.213
+ },
+ {
+  "text": "His name only came out in nineteen ninety-seven.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 110.125,
+  "end": 112.312,
+  "chunk": 35,
+  "pause_after": 0.342
+ },
+ {
+  "text": "He kept giving while he was alive, until the money was gone.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 112.654,
+  "end": 115.176,
+  "chunk": 36,
+  "pause_after": 0.381
+ },
+ {
+  "text": "The foundation closed in twenty twenty.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 115.556,
+  "end": 117.743,
+  "chunk": 37,
+  "pause_after": 0.285
+ },
+ {
+  "text": "He died three years later, at ninety-two.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 118.028,
+  "end": 120.318,
+  "chunk": 38,
+  "pause_after": 0.205
+ },
+ {
+  "text": "So a secret billion can be put to work.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 120.523,
+  "end": 122.636,
+  "chunk": 39,
+  "pause_after": 0.237
+ },
+ {
+  "text": "The harder question is what it does to the person holding it.",
+  "section": "IT HAS HAPPENED, IN MINIATURE",
+  "start": 122.873,
+  "end": 125.514,
+  "chunk": 40,
+  "pause_after": 0.751
+ },
+ {
+  "section": "WHO ALREADY KNOWS",
+  "start": 126.265
+ },
+ {
+  "text": "\"No one knows\" is almost never literally true.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 126.265,
+  "end": 128.441,
+  "chunk": 41,
+  "pause_after": 0.228
+ },
+ {
+  "text": "Secret from the world is not the same as secret from the system.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 128.669,
+  "end": 131.348,
+  "chunk": 42,
+  "pause_after": 0.286
+ },
+ {
+  "text": "In the United States, banks must verify who their customers are, and watch accounts for unusual activity.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 131.634,
+  "end": 136.097,
+  "chunk": 43,
+  "pause_after": 0.218
+ },
+ {
+  "text": "A billion dollars is exactly the kind of number a compliance team reads twice.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 136.315,
+  "end": 140.677,
+  "chunk": 44,
+  "pause_after": 0.321
+ },
+ {
+  "text": "So the bank knows.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 140.998,
+  "end": 142.282,
+  "chunk": 45
+ },
+ {
+  "text": "Your accountant knows.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 142.282,
+  "end": 143.246,
+  "chunk": 45,
+  "pause_after": 0.38
+ },
+ {
+  "text": "A lawyer knows, the moment you give anything away through a fund.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 143.626,
+  "end": 146.466,
+  "chunk": 46,
+  "pause_after": 0.261
+ },
+ {
+  "text": "The tax authority will want a word too, because a billion dollars doesn't file itself.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 146.728,
+  "end": 150.561,
+  "chunk": 47,
+  "pause_after": 0.279
+ },
+ {
+  "text": "Call it a circle of five or six people.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 150.84,
+  "end": 152.725,
+  "chunk": 48,
+  "pause_after": 0.411
+ },
+ {
+  "text": "Paid to stay quiet, bound by confidentiality, and not one of them invited to your birthday.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 153.135,
+  "end": 157.319,
+  "chunk": 49,
+  "pause_after": 0.239
+ },
+ {
+  "text": "That's the shape of a secret fortune.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 157.557,
+  "end": 159.337,
+  "chunk": 50,
+  "pause_after": 0.251
+ },
+ {
+  "text": "A wall of professionals who know everything, and a crowd of people you love who know nothing.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 159.588,
+  "end": 164.232,
+  "chunk": 51,
+  "pause_after": 0.33
+ },
+ {
+  "text": "And then there are the tells.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 164.561,
+  "end": 166.096,
+  "chunk": 52
+ },
+ {
+  "text": "You stop glancing at prices.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 166.096,
+  "end": 167.375,
+  "chunk": 52,
+  "pause_after": 0.201
+ },
+ {
+  "text": "You say \"whatever's fine\" a little too quickly.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 167.576,
+  "end": 170.091,
+  "chunk": 53
+ },
+ {
+  "text": "Secrets rarely leak through the paperwork.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 170.091,
+  "end": 171.978,
+  "chunk": 53,
+  "pause_after": 0.281
+ },
+ {
+  "text": "They leak through habits.",
+  "section": "WHO ALREADY KNOWS",
+  "start": 172.259,
+  "end": 173.538,
+  "chunk": 54,
+  "pause_after": 1.17
+ },
+ {
+  "section": "THE PEOPLE PROBLEM",
+  "start": 174.708
+ },
+ {
+  "text": "The strange gift is this.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 174.708,
+  "end": 176.008,
+  "chunk": 55,
+  "pause_after": 0.313
+ },
+ {
+  "text": "If nobody knows, nobody treats you differently.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 176.321,
+  "end": 178.435,
+  "chunk": 56,
+  "pause_after": 0.349
+ },
+ {
+  "text": "Your friends are exactly who they were yesterday.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 178.784,
+  "end": 180.85,
+  "chunk": 57
+ },
+ {
+  "text": "But you aren't.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 180.85,
+  "end": 181.624,
+  "chunk": 57,
+  "pause_after": 0.398
+ },
+ {
+  "text": "You're carrying a fact you can't share, and a secret is heavy in a particular way.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 182.022,
+  "end": 185.938,
+  "chunk": 58,
+  "pause_after": 0.392
+ },
+ {
+  "text": "Tell one person, and it stops being a secret.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 186.331,
+  "end": 188.764,
+  "chunk": 59
+ },
+ {
+  "text": "It becomes a risk.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 188.764,
+  "end": 189.846,
+  "chunk": 59,
+  "pause_after": 0.286
+ },
+ {
+  "text": "So you start doing the maths on everyone you love.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 190.132,
+  "end": 192.833,
+  "chunk": 60
+ },
+ {
+  "text": "Who'd be thrilled?",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 192.833,
+  "end": 193.644,
+  "chunk": 60,
+  "pause_after": 0.521
+ },
+ {
+  "text": "Who'd ask for a loan?",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 194.164,
+  "end": 195.301,
+  "chunk": 61,
+  "pause_after": 0.512
+ },
+ {
+  "text": "Who would quietly go cold?",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 195.814,
+  "end": 197.272,
+  "chunk": 62,
+  "pause_after": 0.542
+ },
+ {
+  "text": "Researchers have a clue about what money does to a mind.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 197.814,
+  "end": 200.381,
+  "chunk": 63,
+  "pause_after": 0.275
+ },
+ {
+  "text": "Swedish economists followed lottery winners for years, because lotteries hand out wealth at random.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 200.656,
+  "end": 205.271,
+  "chunk": 64,
+  "pause_after": 0.2
+ },
+ {
+  "text": "Winners worked a little less.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 205.471,
+  "end": 206.951,
+  "chunk": 65,
+  "pause_after": 0.575
+ },
+ {
+  "text": "But their satisfaction with life stayed higher for more than a decade.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 207.526,
+  "end": 210.946,
+  "chunk": 66,
+  "pause_after": 0.206
+ },
+ {
+  "text": "Their daily happiness and mental health moved far less.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 211.152,
+  "end": 213.807,
+  "chunk": 67,
+  "pause_after": 0.335
+ },
+ {
+  "text": "Wealth made people rate their lives better.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 214.142,
+  "end": 215.945,
+  "chunk": 68,
+  "pause_after": 0.255
+ },
+ {
+  "text": "It didn't make every morning feel better.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 216.201,
+  "end": 217.842,
+  "chunk": 69,
+  "pause_after": 0.28
+ },
+ {
+  "text": "Treat that as a clue, not a prediction.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 218.122,
+  "end": 219.88,
+  "chunk": 70
+ },
+ {
+  "text": "A billion is a different animal.",
+  "section": "THE PEOPLE PROBLEM",
+  "start": 219.88,
+  "end": 221.198,
+  "chunk": 70,
+  "pause_after": 0.892
+ },
+ {
+  "section": "AFTER ONE MONTH",
+  "start": 222.09
+ },
+ {
+  "text": "Week two, you leave a huge tip on a small bill.",
+  "section": "AFTER ONE MONTH",
+  "start": 222.09,
+  "end": 224.166,
+  "chunk": 71,
+  "pause_after": 0.303
+ },
+ {
+  "text": "The waiter stares at the receipt, then at you.",
+  "section": "AFTER ONE MONTH",
+  "start": 224.468,
+  "end": 226.787,
+  "chunk": 72
+ },
+ {
+  "text": "You shrug and leave.",
+  "section": "AFTER ONE MONTH",
+  "start": 226.787,
+  "end": 227.818,
+  "chunk": 72,
+  "pause_after": 0.219
+ },
+ {
+  "text": "It's the best part of your month, and he'll be telling that story for years.",
+  "section": "AFTER ONE MONTH",
+  "start": 228.036,
+  "end": 231.434,
+  "chunk": 73,
+  "pause_after": 0.275
+ },
+ {
+  "text": "By week four, the novelty has worn thin.",
+  "section": "AFTER ONE MONTH",
+  "start": 231.709,
+  "end": 234.109,
+  "chunk": 74,
+  "pause_after": 0.382
+ },
+ {
+  "text": "You've checked the balance more times than you'd admit.",
+  "section": "AFTER ONE MONTH",
+  "start": 234.491,
+  "end": 236.591,
+  "chunk": 75
+ },
+ {
+  "text": "So you try a bigger experiment.",
+  "section": "AFTER ONE MONTH",
+  "start": 236.591,
+  "end": 237.991,
+  "chunk": 75,
+  "pause_after": 0.205
+ },
+ {
+  "text": "A lawyer sets up a fund, and your parents' mortgage vanishes.",
+  "section": "AFTER ONE MONTH",
+  "start": 238.197,
+  "end": 240.848,
+  "chunk": 76,
+  "pause_after": 0.316
+ },
+ {
+  "text": "They assume the bank made a mistake.",
+  "section": "AFTER ONE MONTH",
+  "start": 241.164,
+  "end": 242.717,
+  "chunk": 77
+ },
+ {
+  "text": "You let them.",
+  "section": "AFTER ONE MONTH",
+  "start": 242.717,
+  "end": 243.383,
+  "chunk": 77
+ },
+ {
+  "text": "A stranger's surgery gets paid for.",
+  "section": "AFTER ONE MONTH",
+  "start": 243.383,
+  "end": 244.715,
+  "chunk": 77,
+  "pause_after": 0.319
+ },
+ {
+  "text": "A stranger who never learns who did it.",
+  "section": "AFTER ONE MONTH",
+  "start": 245.034,
+  "end": 247.035,
+  "chunk": 78
+ },
+ {
+  "text": "It feels better than any purchase.",
+  "section": "AFTER ONE MONTH",
+  "start": 247.035,
+  "end": 248.535,
+  "chunk": 78,
+  "pause_after": 0.316
+ },
+ {
+  "text": "That's the problem, because now you want more of it.",
+  "section": "AFTER ONE MONTH",
+  "start": 248.851,
+  "end": 251.18,
+  "chunk": 79,
+  "pause_after": 0.39
+ },
+ {
+  "text": "And you discover the limit of secret giving.",
+  "section": "AFTER ONE MONTH",
+  "start": 251.57,
+  "end": 253.913,
+  "chunk": 80,
+  "pause_after": 0.257
+ },
+ {
+  "text": "The more you give, the harder it is to stay invisible.",
+  "section": "AFTER ONE MONTH",
+  "start": 254.17,
+  "end": 256.776,
+  "chunk": 81,
+  "pause_after": 0.237
+ },
+ {
+  "text": "People ask where help came from.",
+  "section": "AFTER ONE MONTH",
+  "start": 257.012,
+  "end": 258.61,
+  "chunk": 82
+ },
+ {
+  "text": "Paperwork leaves trails.",
+  "section": "AFTER ONE MONTH",
+  "start": 258.61,
+  "end": 259.409,
+  "chunk": 82,
+  "pause_after": 1.005
+ },
+ {
+  "section": "AFTER ONE YEAR",
+  "start": 260.414
+ },
+ {
+  "text": "A year in, the numbers are stubborn.",
+  "section": "AFTER ONE YEAR",
+  "start": 260.414,
+  "end": 261.924,
+  "chunk": 83,
+  "pause_after": 0.273
+ },
+ {
+  "text": "At a careful four percent, your billion has earned another forty million, even after everything you've given.",
+  "section": "AFTER ONE YEAR",
+  "start": 262.197,
+  "end": 266.422,
+  "chunk": 84,
+  "pause_after": 0.379
+ },
+ {
+  "text": "The pile grew while you were busy giving it away.",
+  "section": "AFTER ONE YEAR",
+  "start": 266.801,
+  "end": 268.962,
+  "chunk": 85,
+  "pause_after": 0.388
+ },
+ {
+  "text": "Feeney needed decades and a whole organisation to move eight billion dollars out the door.",
+  "section": "AFTER ONE YEAR",
+  "start": 269.35,
+  "end": 273.905,
+  "chunk": 86,
+  "pause_after": 0.38
+ },
+ {
+  "text": "You are one person with a lawyer and a lunch break.",
+  "section": "AFTER ONE YEAR",
+  "start": 274.285,
+  "end": 276.919,
+  "chunk": 87,
+  "pause_after": 0.25
+ },
+ {
+  "text": "Around month eleven, you realise you haven't felt rich once.",
+  "section": "AFTER ONE YEAR",
+  "start": 277.168,
+  "end": 280.291,
+  "chunk": 88
+ },
+ {
+  "text": "You've only felt careful.",
+  "section": "AFTER ONE YEAR",
+  "start": 280.291,
+  "end": 281.541,
+  "chunk": 88,
+  "pause_after": 0.278
+ },
+ {
+  "text": "So the real choice shows up.",
+  "section": "AFTER ONE YEAR",
+  "start": 281.819,
+  "end": 283.196,
+  "chunk": 89,
+  "pause_after": 0.206
+ },
+ {
+  "text": "You can stay the quiet, ordinary person you are, with a very large number you rarely mention.",
+  "section": "AFTER ONE YEAR",
+  "start": 283.402,
+  "end": 287.367,
+  "chunk": 90,
+  "pause_after": 0.257
+ },
+ {
+  "text": "Or you can tell someone, accept the risk, and build something bigger than the secret.",
+  "section": "AFTER ONE YEAR",
+  "start": 287.624,
+  "end": 290.98,
+  "chunk": 91,
+  "pause_after": 0.41
+ },
+ {
+  "text": "Both are honest answers.",
+  "section": "AFTER ONE YEAR",
+  "start": 291.39,
+  "end": 292.424,
+  "chunk": 92
+ },
+ {
+  "text": "Only one of them is lonely.",
+  "section": "AFTER ONE YEAR",
+  "start": 292.424,
+  "end": 293.975,
+  "chunk": 92,
+  "pause_after": 0.796
+ },
+ {
+  "section": "THE QUESTION",
+  "start": 294.771
+ },
+ {
+  "text": "Back at the till, the cashier smiles again.",
+  "section": "THE QUESTION",
+  "start": 294.771,
+  "end": 296.852,
+  "chunk": 93,
+  "pause_after": 0.41
+ },
+ {
+  "text": "This time you smile back, and you're the only person in the shop who knows why.",
+  "section": "THE QUESTION",
+  "start": 297.262,
+  "end": 301.282,
+  "chunk": 94,
+  "pause_after": 0.249
+ },
+ {
+  "text": "Maybe that's the point.",
+  "section": "THE QUESTION",
+  "start": 301.531,
+  "end": 302.623,
+  "chunk": 95
+ },
+ {
+  "text": "Money changes what you can do.",
+  "section": "THE QUESTION",
+  "start": 302.623,
+  "end": 304.262,
+  "chunk": 95,
+  "pause_after": 0.243
+ },
+ {
+  "text": "It doesn't tell you who to be.",
+  "section": "THE QUESTION",
+  "start": 304.505,
+  "end": 305.902,
+  "chunk": 96
+ },
+ {
+  "text": "So here is the real question.",
+  "section": "THE QUESTION",
+  "start": 305.902,
+  "end": 307.099,
+  "chunk": 96,
+  "pause_after": 0.337
+ },
+ {
+  "text": "If money changed nothing anyone could see, what would you change?",
+  "section": "THE QUESTION",
+  "start": 307.436,
+  "end": 310.158,
+  "chunk": 97,
+  "pause_after": 2.0
+ }
+]
