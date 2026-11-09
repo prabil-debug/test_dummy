@@ -36,3 +36,16 @@
 - The script blames no group, caste or religion for population levels. Keep it that way.
 - The scenario is gradual and unexplained, so no real-world tragedy is implied.
 - Avoid stating that fewer people would clearly be better or worse.
+
+## Update after the extension (searches run, further verification stopped at your request)
+| Item | Result | Script change |
+|------|--------|---------------|
+| Mumbai density | Census 2011: Mumbai City district about 19,652 per km2; Mumbai Suburban about 20,000-21,000. Other city-limits figures run 26,000-32,000. Secondary sources | "around 20,000 per square kilometre" |
+| Median ages | US Census Bureau 2024: 39.1. China (UN-based, 2025): about 40-41 | "about 39 (US), about 40 (China)" |
+| Countries near 200 million | Brazil about 212.8M, Nigeria about 235M, Pakistan about 255M (secondary sources; Pakistan single-sourced) | "well over 200 million" |
+| Rank at 200 million | Brazil about 212M is 7th; Bangladesh (about 176M) and Russia (about 144M) are below, so 200M would rank about 8th | "among the ten biggest" |
+| Fertility rate | UNFPA 2025: 1.9 births per woman, below 2.1 (several outlets). One survey says 2.0 (NFHS-5, earlier) | "about 1.9" |
+| UN peak | About 1.7 billion in the early 2060s (UNFPA 2025) | "early 2060s" |
+| "Ages earlier" | Demographers: persistently low fertility shrinks the working-age share and raises the older share (UN document; secondary summaries) | kept |
+| New: ideas are non-rival | Paul Romer shared the 2018 Nobel for integrating technological innovation into growth theory; non-rivalry of ideas is central to his models (admirer-written sources) | new section, hedged ("in many economic models") |
+Still not independently confirmed by a primary source: Brazil/Nigeria/Pakistan exact populations, Mumbai current density, and the reasoning-only claims (taxes, farm size effects, wages, pollution).

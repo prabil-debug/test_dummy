@@ -25,7 +25,7 @@ Today, India has about 490 people for every square kilometre.
 At 200 million, that drops to about 67.
 That's roughly the same as Mexico today.
 Now think about an ordinary morning.
-Mumbai packs in more than 25,000 people per square kilometre. Packed trains. Packed buses. Packed classrooms.
+Mumbai packs in around 20,000 people per square kilometre. Packed trains. Packed buses. Packed classrooms.
 In a 200 million India, the same morning looks different.
 A seat on the train. A shorter queue at the school gate. A flat with a spare room.
 Cities would likely be smaller, with more space between the buildings.
@@ -63,7 +63,7 @@ Here's the trap.
 The economy wouldn't stay the same size.
 An economy isn't a pie that gets sliced thinner. It's made by people. Workers. Customers. Engineers. Farmers. Shop owners.
 Take most of them away, and you don't just have fewer mouths. You have far fewer hands, and far fewer buyers.
-India's median age is about 29. In the United States and China, it's about 38.
+India's median age is about 29. In the United States, it's about 39. In China, about 40.
 That's an enormous young workforce.
 A 200 million India would have a smaller market, a smaller workforce, and less weight in the world.
 So would people be richer? Maybe.
@@ -82,11 +82,24 @@ But there's a catch.
 Fewer people also means fewer customers to hire for, fewer new businesses, and fewer ideas.
 Jobs aren't a fixed number. They're created by demand, and demand comes from people.
 
+## MORE PEOPLE, MORE IDEAS
+Here's a deeper reason a big population matters.
+Economists have long argued that ideas work differently from everything else.
+If you eat a meal, nobody else can eat it.
+But if someone invents a better engine, or a new way to farm, everyone can use it at once.
+That insight helped earn economist Paul Romer a share of the 2018 Nobel Prize.
+In many economic models, more people means more minds working on problems, and every good idea can be shared with all of them.
+A 200 million India would still have plenty of talented people.
+But it would have far fewer of them.
+Fewer scientists. Fewer engineers. Fewer founders.
+Progress isn't only about how much you have.
+It's about how many people are finding ways to do more with it.
+
 ## A SMALLER GIANT
 There's a way to check this.
 Countries of around 200 million people already exist.
-Brazil, Pakistan and Nigeria each have somewhere between 200 and 250 million.
-A 200 million India would still be one of the biggest countries on Earth.
+Brazil, Nigeria and Pakistan each have well over 200 million.
+A 200 million India would still rank among the ten biggest countries on Earth.
 That's what most people miss.
 It wouldn't be a small country.
 It would just be a smaller giant.
@@ -94,9 +107,9 @@ It would just be a smaller giant.
 ## THE SLOWDOWN
 Here's something that surprises people.
 India's population is already slowing down.
-According to UN estimates, the average Indian woman now has fewer than the 2.1 children needed to keep a population steady.
+According to the UN, the average Indian woman now has about 1.9 children, below the 2.1 needed to keep a population steady.
 Growth continues for now, because so many people are young and still starting families.
-But the UN expects India to reach about 1.7 billion, and then begin to fall.
+But the UN expects India to peak at about 1.7 billion in the early 2060s, and then begin to fall.
 So the real question isn't whether India's population will stop growing.
 It's when, how fast, and what the country looks like when it does.
 
