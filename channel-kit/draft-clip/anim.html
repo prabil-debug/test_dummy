@@ -1,0 +1,234 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;background:#000}svg{display:block}
+text{font-family:Inter,Helvetica,Arial,sans-serif}
+</style></head><body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"></svg>
+<script>
+const NAVY="#1d1a3a", SKIN="#f6f3fa";
+let TL=[]; // sentences {text,start,end}
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const eo=x=>1-Math.pow(1-clamp(x),3), eio=x=>{x=clamp(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const bounce=x=>{x=clamp(x);return x<1?1+Math.sin(x*Math.PI*1.6)*0.25*(1-x):1};
+const rnd=(i)=>{const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x)};
+const lerp=(a,b,t)=>a+(b-a)*t;
+
+// ---------- character parts ----------
+function limb(pts,color,w){const d="M"+pts.map(p=>p.join(",")).join(" L");
+ return `<path d="${d}" fill="none" stroke="${NAVY}" stroke-width="${w+9}" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" fill="none" stroke="${color}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`}
+function face(f,t){ // origin = head centre
+ f=f||{}; let eye=f.eye||"open", mouth=f.mouth||"smile", brow=f.brow||0, lx=f.lookX||0, ly=f.lookY||0;
+ const blink=(t%3.4)>3.28; if(blink&&eye==="open") eye="closed";
+ let o="";
+ for(const sx of[-1,1]){const ex=sx*21+lx*4, ey=-2+ly*3;
+  if(eye==="closed")o+=`<path d="M${ex-9},${ey} Q${ex},${ey+7} ${ex+9},${ey}" fill="none" stroke="${NAVY}" stroke-width="4" stroke-linecap="round"/>`;
+  else if(eye==="dollar")o+=`<text x="${ex}" y="${ey+8}" font-size="26" font-weight="900" text-anchor="middle" fill="#e0a800" stroke="${NAVY}" stroke-width="1">$</text>`;
+  else if(eye==="q")o+=`<text x="${ex}" y="${ey+8}" font-size="24" font-weight="900" text-anchor="middle" fill="${NAVY}">?</text>`;
+  else{const ry=eye==="wide"?11:8, rx=eye==="wide"?8:6.5;
+   o+=`<ellipse cx="${ex}" cy="${ey}" rx="${rx}" ry="${ry}" fill="${NAVY}"/><circle cx="${ex-2}" cy="${ey-3}" r="2.4" fill="#fff"/>`;
+   if(eye==="half")o+=`<path d="M${ex-11},${ey-3} L${ex+11},${ey-3}" stroke="${NAVY}" stroke-width="5" stroke-linecap="round"/><rect x="${ex-11}" y="${ey-10}" width="22" height="7" fill="${SKIN}"/>`;}
+  const by=-22-(eye==="wide"?5:0)-(brow>0?brow*4:0), a=sx*brow*6;
+  o+=`<path d="M${sx*10},${by+a*0.2} L${sx*32},${by-a*0.6+(brow<0?-brow*5:0)}" stroke="${NAVY}" stroke-width="4.5" stroke-linecap="round"/>`;}
+ const M={smile:`<path d="M-14,26 Q0,40 14,26" fill="none" stroke="${NAVY}" stroke-width="4.5" stroke-linecap="round"/>`,
+  flat:`<path d="M-11,30 L11,30" stroke="${NAVY}" stroke-width="4.5" stroke-linecap="round"/>`,
+  o:`<ellipse cx="0" cy="31" rx="7" ry="9" fill="#5a1d2b" stroke="${NAVY}" stroke-width="3.5"/>`,
+  smirk:`<path d="M-12,32 Q4,40 16,24" fill="none" stroke="${NAVY}" stroke-width="4.5" stroke-linecap="round"/>`,
+  sad:`<path d="M-12,36 Q0,26 12,36" fill="none" stroke="${NAVY}" stroke-width="4.5" stroke-linecap="round"/>`,
+  grin:`<path d="M-16,24 Q0,46 16,24 Z" fill="#fff" stroke="${NAVY}" stroke-width="4" stroke-linejoin="round"/>`};
+ return o+M[mouth];
+}
+// head: origin centre, scale s, rotation r
+function head(x,y,s,r,f,t,o={}){o=o||{};const hair=o.hair||"#3b2a24", back=o.back;
+ let h=`<g transform="translate(${x},${y}) rotate(${r||0}) scale(${s})">`;
+ h+=`<ellipse cx="0" cy="0" rx="52" ry="57" fill="${o.skin||SKIN}" stroke="${NAVY}" stroke-width="6"/>`;
+ if(back) h+=`<ellipse cx="0" cy="-2" rx="52" ry="57" fill="${hair}" stroke="${NAVY}" stroke-width="6"/>`;
+ else{ h+=face(f,t);
+  if(o.hairStyle==="bun")h+=`<circle cx="0" cy="-66" r="20" fill="${hair}" stroke="${NAVY}" stroke-width="5"/><path d="M-51,-8 C-56,-62 56,-62 51,-8 C36,-32 -30,-34 -51,-8Z" fill="${hair}" stroke="${NAVY}" stroke-width="5" stroke-linejoin="round"/>`;
+  else if(o.hairStyle==="bald"){}
+  else if(o.hairStyle==="grey")h+=`<path d="M-51,-8 C-56,-62 56,-62 51,-8 C36,-32 -30,-34 -51,-8Z" fill="#c9c7d4" stroke="${NAVY}" stroke-width="5" stroke-linejoin="round"/>`;
+  else h+=`<path d="M-51,-10 C-58,-64 58,-64 51,-10 C34,-36 -30,-32 -51,-10Z" fill="${hair}" stroke="${NAVY}" stroke-width="5" stroke-linejoin="round"/><path d="M-8,-57 L-14,-76 M4,-58 L12,-74" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/><path d="M-8,-57 L-14,-76 M4,-58 L12,-74" stroke="${hair}" stroke-width="2.5" stroke-linecap="round"/>`;
+  if(o.cap)h+=`<path d="M-52,-14 C-56,-70 56,-70 52,-14 L74,-12 L50,-4 Z" fill="${o.cap}" stroke="${NAVY}" stroke-width="5" stroke-linejoin="round"/>`;
+  if(o.glasses)h+=`<circle cx="-21" cy="-2" r="17" fill="none" stroke="${NAVY}" stroke-width="3.5"/><circle cx="21" cy="-2" r="17" fill="none" stroke="${NAVY}" stroke-width="3.5"/><path d="M-4,-2 L4,-2" stroke="${NAVY}" stroke-width="3.5"/>`;}
+ return h+"</g>";}
+// full person: feet at (0,0)
+function person(x,y,s,o,t){o=o||{};const shirt=o.shirt||"#2fa39b", pants=o.pants||"#3d4d8f", back=o.back;
+ const bob=Math.sin(t*2.2+(o.ph||0))*2.2;
+ const aL=o.armL||[-66,-150,-60,-100], aR=o.armR||[66,-150,60,-100];
+ let g=`<g transform="translate(${x},${y}) scale(${s})" style="filter:drop-shadow(0 0 ${o.glowR||7}px ${o.glow||"rgba(255,255,255,.55)"})">`;
+ g+=limb([[-22,-100],[-22,-6]],pants,26)+limb([[22,-100],[22,-6]],pants,26);
+ g+=`<ellipse cx="-24" cy="-2" rx="24" ry="9" fill="${NAVY}"/><ellipse cx="24" cy="-2" rx="24" ry="9" fill="${NAVY}"/>`;
+ g+=limb([[-48,-198],[aL[0],aL[1]],[aL[2],aL[3]]],shirt,22)+limb([[48,-198],[aR[0],aR[1]],[aR[2],aR[3]]],shirt,22);
+ g+=`<circle cx="${aL[2]}" cy="${aL[3]}" r="11" fill="${SKIN}" stroke="${NAVY}" stroke-width="5"/><circle cx="${aR[2]}" cy="${aR[3]}" r="11" fill="${SKIN}" stroke="${NAVY}" stroke-width="5"/>`;
+ g+=`<path d="M-52,-206 Q-60,-102 -50,-96 L50,-96 Q60,-102 52,-206 Q0,-190 -52,-206Z" fill="${shirt}" stroke="${NAVY}" stroke-width="6" stroke-linejoin="round"/>`;
+ if(o.tie)g+=`<path d="M-8,-200 L8,-200 L12,-150 L0,-130 L-12,-150Z" fill="${o.tie}" stroke="${NAVY}" stroke-width="4"/>`;
+ else if(!back)g+=`<path d="M-30,-204 Q0,-178 30,-204" fill="none" stroke="${NAVY}" stroke-width="5"/><path d="M-9,-186 L-11,-158 M9,-186 L11,-158" stroke="${NAVY}" stroke-width="4" stroke-linecap="round"/><path d="M-30,-128 L30,-128 L36,-100 L-36,-100Z" fill="none" stroke="${NAVY}" stroke-width="4" stroke-linejoin="round" opacity=".7"/>`;
+ g+=`<rect x="-9" y="-224" width="18" height="22" fill="${SKIN}" stroke="${NAVY}" stroke-width="5"/>`;
+ g+=head(0,-272+bob,1,o.tilt||0,o.face,t,{hair:o.hair,hairStyle:o.hairStyle,back,cap:o.cap,glasses:o.glasses,skin:o.skin});
+ return g+"</g>";}
+function Q(x,y,s,t){return `<g transform="translate(${x},${y}) scale(${s})"><circle r="22" fill="#ffffff" stroke="${NAVY}" stroke-width="5"/><text y="9" font-size="28" font-weight="900" text-anchor="middle" fill="${NAVY}">?</text></g>`}
+function phone(x,y,w,h,r,screen){return `<g transform="translate(${x},${y}) rotate(${r})"><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="${w*.12}" fill="#15131f" stroke="${NAVY}" stroke-width="6"/><rect x="${-w/2+8}" y="${-h/2+8}" width="${w-16}" height="${h-16}" rx="${w*.09}" fill="${screen||"#7fd0ff"}"/></g>`}
+function coin(x,y,r,rot){return `<g transform="translate(${x},${y}) rotate(${rot})"><ellipse rx="${r}" ry="${r}" fill="#f2b705" stroke="${NAVY}" stroke-width="4"/><text y="${r*.38}" font-size="${r*1.2}" font-weight="900" text-anchor="middle" fill="#b57e00">$</text></g>`}
+function dust(t,col){let o="";for(let i=0;i<26;i++){const x=(rnd(i)*1280+t*(6+rnd(i+9)*10))%1280,y=(rnd(i+3)*720-t*(4+rnd(i+5)*8)+1440)%720,r=1+rnd(i+7)*2.2;o+=`<circle cx="${x}" cy="${y}" r="${r}" fill="${col||"#fff"}" opacity="${.18+.3*rnd(i+1)}"/>`}return o}
+function grad(id,a,b,dir){dir=dir||[0,0,0,1];return `<linearGradient id="${id}" x1="${dir[0]}" y1="${dir[1]}" x2="${dir[2]}" y2="${dir[3]}"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient>`}
+const bg=(id,a,b)=>`<defs>${grad(id,a,b)}</defs><rect x="-700" y="-500" width="2700" height="1700" fill="url(#${id})"/>`;
+const blur=(inner,px)=>`<g style="filter:blur(${px||3}px)">${inner}</g>`;
+
+// ---------- scenes: return {svg, cam:[cx,cy,z], shake} ----------
+function sc_bed(lt,d,t){
+ const dawn=eo(lt/d);
+ const eye=lt<1.0?"closed":(lt<1.5?"half":"wide");
+ let s=bg("bA","#2b2450","#4a3b72")+`<rect x="-700" y="540" width="2700" height="180" fill="#1d1838"/>`;
+ s+=blur(`<rect x="860" y="110" width="250" height="250" rx="14" fill="#f6c98a" opacity="${.25+.6*dawn}" stroke="${NAVY}" stroke-width="6"/><path d="M860,360 L1110,360 L900,720 L560,720Z" fill="#f6c98a" opacity="${.08+.14*dawn}"/><path d="M985,110 V360 M860,235 H1110" stroke="${NAVY}" stroke-width="6"/>`,2.5);
+ s+=`<rect x="150" y="440" width="860" height="170" rx="18" fill="#3a3262" stroke="${NAVY}" stroke-width="6"/><rect x="190" y="380" width="190" height="80" rx="30" fill="#e9e6f5" stroke="${NAVY}" stroke-width="6"/>`;
+ s+=`<circle cx="400" cy="420" r="${140+30*Math.min(1,lt)}" fill="#7fd0ff" opacity="${lt>0.9?.22:.04}"/>`;
+ s+=head(300,400,1.0,-12,{eye,mouth:lt>1.5?"o":"flat",brow:lt>1.5?1:0},t,{});
+ s+=`<rect x="140" y="470" width="880" height="140" rx="26" fill="#2f7f86" stroke="${NAVY}" stroke-width="6"/><path d="M200,480 V600 M380,480 V600" stroke="${NAVY}" stroke-width="4" opacity=".4"/>`;
+ const hy=lerp(470,370,eo((lt-.7)/.6));
+ s+=limb([[430,480],[470,hy+40],[500,hy]],"#2fa39b",22)+`<circle cx="500" cy="${hy}" r="11" fill="${SKIN}" stroke="${NAVY}" stroke-width="5"/>`;
+ if(lt>.7)s+=phone(525,hy-35,92,160,12,"#a8e6ff");
+ s+=dust(t,"#ffe9b0");
+ return {svg:s,cam:[430,400,1.0+0.22*eio(lt/d)],shake:0};
+}
+function fmt(n){return "$"+Math.round(n).toLocaleString("en-US")}
+function sc_phone(lt,d,t){
+ const k=eo((lt-.1)/.6), val=1e9*Math.pow(k,3), landed=lt>0.72;
+ let s=bg("bB","#101a2e","#1f2f52");
+ s+=`<circle cx="640" cy="360" r="${300+40*Math.sin(t*3)}" fill="#f2b705" opacity="${landed?.16:.05}"/>`;
+ s+=phone(640,372,360,600,0,"#0d2a3a");
+ s+=`<text x="640" y="190" font-size="22" font-weight="600" text-anchor="middle" fill="#7ba9bf" letter-spacing="3">BALANCE</text>`;
+ s+=`<text x="640" y="300" font-size="${landed?50:46}" font-weight="900" text-anchor="middle" fill="${landed?"#ffd24a":"#ffffff"}">${fmt(val)}</text>`;
+ s+=`<rect x="520" y="330" width="240" height="10" rx="5" fill="#1e5a6e"/><rect x="520" y="330" width="${240*k}" height="10" rx="5" fill="#ffd24a"/>`;
+ if(landed)for(let i=0;i<9;i++){const p=((lt-.72+i*.23)%2)/2;s+=coin(300+rnd(i)*680,620-p*520,14+rnd(i+4)*10,p*360)}
+ s+=dust(t,"#9fd6ff");
+ return {svg:s,cam:[640,380,1.0+0.12*lt/d],shake:landed&&lt<1.0?7*(1.0-lt):0};
+}
+function sc_street(lt,d,t,ctx){
+ const tl=ctx.TL;
+ const a3=ctx.t-tl[3].start, a4=ctx.t-tl[4].start, a5=ctx.t-tl[5].start;
+ let s=bg("bC","#f1b7a3","#f7ddb8")+blur(`<rect x="40" y="200" width="200" height="380" fill="#8a6f8f"/><rect x="270" y="130" width="260" height="450" fill="#6e5a7a"/><rect x="820" y="170" width="220" height="410" fill="#7d6788"/><rect x="1060" y="240" width="200" height="340" fill="#6e5a7a"/>`,4);
+ s+=`<rect x="-700" y="560" width="2700" height="160" fill="#4b4560"/><rect x="-700" y="560" width="2700" height="16" fill="#6a6385"/>`;
+ const look=Math.sin(lt*2.4)*1;
+ if(a3>-0.05)s+=person(170,602,.9*bounce(a3*1.4),{shirt:"#34406f",pants:"#2a2f55",tie:"#d1495b",hair:"#2b2b2b",face:{eye:"open",mouth:"flat"},armR:[70,-160,64,-110],ph:1},t)+Q(170,300-12*Math.max(0,1-a3*3),clamp(a3*4),t);
+ if(a4>-0.05)s+=person(395,602,.9*bounce(a4*1.4),{shirt:"#e8627a",pants:"#5a4a7a",hair:"#8b4a2b",hairStyle:"bun",face:{eye:"open",mouth:"smile"},armR:[78,-190,86,-250],ph:2},t)+Q(395,300,clamp(a4*4),t);
+ if(a5>-0.05){s+=person(1000,600,.8*bounce(a5*1.4),{shirt:"#f2a03d",pants:"#3a3a3a",hair:"#2b2b2b",cap:"#f2a03d",face:{eye:"open",mouth:"grin"},ph:3},t)+`<rect x="900" y="480" width="210" height="130" rx="8" fill="#8a5a3a" stroke="${NAVY}" stroke-width="6"/><rect x="940" y="430" width="80" height="60" rx="6" fill="#cfd6e0" stroke="${NAVY}" stroke-width="5"/>`+Q(1000,300,clamp(a5*4),t)}
+ const f=lt<1.2?{eye:"wide",mouth:"o",lookX:Math.sin(lt*4)*1.5,brow:1}:{eye:"open",mouth:"smirk",brow:0};
+ s+=person(700,610,1.0,{face:f,armR:[70,-170,40,-205],glow:"rgba(255,220,120,.7)",ph:0},t);
+ s+=phone(742,402,30,50,10,"#7fd0ff")+dust(t,"#fff");
+ return {svg:s,cam:[640+lerp(-20,20,lt/d),380,1.0+0.05*lt/d],shake:lt<.35?5*(.35-lt):0};
+}
+function sc_office(lt,d,t,ctx){
+ const zoomSw=eio((ctx.t-ctx.TL[8].start+.2)/1.6);
+ let s=bg("bD","#cdd6c8","#e4dfcd");
+ s+=blur(`<rect x="880" y="90" width="300" height="230" fill="#aab8c8" stroke="${NAVY}" stroke-width="6"/><path d="M980,90 V320 M1080,90 V320 M880,205 H1180" stroke="${NAVY}" stroke-width="5"/>`,2.5);
+ s+=`<rect x="-700" y="560" width="2700" height="160" fill="#b9b39d"/>`;
+ const ty=Math.sin(t*14)*2;
+ s+=person(470,575,1.05,{shirt:"#7a8f8a",pants:"#555",hair:"#3b2a24",face:{eye:"half",mouth:"flat",brow:-.5},armL:[-60,-130,-34+0,-92+ty],armR:[60,-130,34,-92-ty],glow:"rgba(255,255,255,.25)",glowR:3},t);
+ s+=`<rect x="330" y="468" width="760" height="34" rx="6" fill="#8a6a4a" stroke="${NAVY}" stroke-width="6"/><rect x="330" y="500" width="30" height="130" fill="#7a5c3e" stroke="${NAVY}" stroke-width="5"/><rect x="1060" y="500" width="30" height="130" fill="#7a5c3e" stroke="${NAVY}" stroke-width="5"/>`;
+ s+=`<rect x="600" y="290" width="200" height="140" rx="8" fill="#2d3640" stroke="${NAVY}" stroke-width="6"/><rect x="612" y="302" width="176" height="116" fill="#d7e3dd"/><path d="M626,330 H770 M626,352 H750 M626,374 H774 M626,396 H730" stroke="#8aa09a" stroke-width="6"/><rect x="690" y="430" width="20" height="38" fill="#2d3640"/>`;
+ s+=`<g transform="translate(900,466)"><path d="M-50,-4 Q0,-46 50,-4 Z" fill="#d9a35a" stroke="${NAVY}" stroke-width="5"/><path d="M-56,-4 q14,-12 28,0 q14,-12 28,0 q14,-12 28,0 q14,-12 28,0" fill="#6aa84f" stroke="${NAVY}" stroke-width="4" transform="translate(0,4)"/><rect x="-50" y="2" width="100" height="14" rx="6" fill="#d9a35a" stroke="${NAVY}" stroke-width="5"/></g>`;
+ s+=dust(t,"#fff");
+ return {svg:s,cam:[lerp(640,820,zoomSw),lerp(380,430,zoomSw),1.0+0.45*zoomSw],shake:0};
+}
+function sc_number(lt,d,t,ctx){
+ const a10=ctx.t-ctx.TL[10].start, a9=lt;
+ let s=bg("bE","#161230","#2b2350")+`<path d="M640,0 L360,720 H920Z" fill="#fff" opacity=".05"/>`;
+ const slide=eo(a9/.8);
+ const eyeO=a10>0?"dollar":"q";
+ s+=person(lerp(-100,230,slide),610,.78,{shirt:"#e8627a",pants:"#3d3a5a",hair:"#8b4a2b",hairStyle:"bun",face:{eye:eyeO,mouth:a10>0?"grin":"flat"},ph:2,glow:"rgba(160,140,255,.35)"},t);
+ s+=person(lerp(1380,1050,slide),610,.78,{shirt:"#34406f",pants:"#2a2f55",tie:"#d1495b",hair:"#2b2b2b",face:{eye:eyeO,mouth:a10>0?"grin":"flat"},ph:4,glow:"rgba(160,140,255,.35)"},t);
+ const gl=a10>0?"rgba(255,210,90,.15)":"rgba(255,255,255,.55)";
+ s+=person(640,615,1.0,{face:{eye:a10>0?"half":"open",mouth:a10>0?"sad":"smirk",brow:a10>0?-.6:0},glow:gl,ph:0},t);
+ if(a10>0){const k=bounce(a10*1.6);s+=`<g transform="translate(640,${150+Math.sin(t*3)*5}) scale(${k})"><rect x="-180" y="-34" width="360" height="68" rx="34" fill="#ffd24a" stroke="${NAVY}" stroke-width="6"/><text y="14" font-size="34" font-weight="900" text-anchor="middle" fill="${NAVY}">$1,000,000,000</text></g>`}
+ s+=dust(t,"#c9b8ff");
+ return {svg:s,cam:[640,400,1.0+0.06*lt/d],shake:0};
+}
+function sc_shh(lt,d,t){
+ let s=bg("bF1","#3a2a45","#7a4a3a")+`<circle cx="640" cy="360" r="330" fill="#ffb15c" opacity=".14"/>`;
+ s+=head(640,400,2.6,0,{eye:"half",mouth:"smirk",brow:.8},t,{});
+ s+=`<g transform="translate(700,490)">${limb([[210,260],[120,120],[20,-4]],"#2fa39b",34)}<circle cx="20" cy="0" r="24" fill="${SKIN}" stroke="${NAVY}" stroke-width="6"/></g>`;
+ s+=dust(t,"#ffd9a0");
+ return {svg:s,cam:[640,360,1.0+0.06*lt/d],shake:0};
+}
+function sc_house(lt,d,t){
+ const k=eo(lt/1.2), ck=bounce((lt-1.2)*1.6);
+ let s=bg("bF2","#8fcbe8","#d5ecf3")+`<rect x="-700" y="540" width="2700" height="180" fill="#7ab36a"/>`;
+ s+=blur(`<circle cx="1050" cy="150" r="70" fill="#ffe28a"/>`,2);
+ s+=`<rect x="380" y="290" width="360" height="270" fill="#e7b98a" stroke="${NAVY}" stroke-width="7"/><path d="M350,300 L560,150 L770,300Z" fill="#c0564f" stroke="${NAVY}" stroke-width="7" stroke-linejoin="round"/><rect x="520" y="400" width="80" height="160" fill="#7a4a2e" stroke="${NAVY}" stroke-width="6"/><rect x="420" y="350" width="70" height="70" fill="#cfe8f5" stroke="${NAVY}" stroke-width="6"/><rect x="630" y="350" width="70" height="70" fill="#cfe8f5" stroke="${NAVY}" stroke-width="6"/>`;
+ s+=person(300,600,.62,{shirt:"#8a6a9a",pants:"#555",hair:"#c9c7d4",hairStyle:"grey",face:{eye:"open",mouth:"grin"},armR:[70,-190,78,-250],ph:1},t)+person(830,600,.62,{shirt:"#d98a4a",pants:"#555",hairStyle:"grey",face:{eye:"open",mouth:"grin"},armL:[-70,-190,-78,-250],ph:3},t);
+ s+=`<g transform="translate(${lerp(1000,620,k)},${lerp(520,300,k)-Math.sin(lt*4)*6}) rotate(${-20+lt*10})"><circle r="26" fill="none" stroke="${NAVY}" stroke-width="16"/><circle r="26" fill="none" stroke="#ffd24a" stroke-width="8"/><rect x="22" y="-6" width="76" height="12" fill="#ffd24a" stroke="${NAVY}" stroke-width="4"/><rect x="70" y="6" width="10" height="22" fill="#ffd24a" stroke="${NAVY}" stroke-width="4"/></g>`;
+ if(lt>1.2)s+=`<g transform="translate(1050,330) scale(${ck})"><circle r="54" fill="#4caf50" stroke="${NAVY}" stroke-width="6"/><path d="M-26,2 L-8,22 L28,-20" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+ s+=dust(t,"#fff");
+ return {svg:s,cam:[640,380,1.0+0.06*lt/d],shake:0};
+}
+function sc_hospital(lt,d,t){
+ const ck=bounce((lt-1.0)*1.6), steady=lt>1.0;
+ let s=bg("bF3","#d4ede6","#eef7f3");
+ s+=blur(`<rect x="60" y="80" width="240" height="320" fill="#bcd9d0"/>`,3);
+ s+=`<rect x="-700" y="560" width="2700" height="160" fill="#a9cbc0"/>`;
+ s+=`<rect x="240" y="400" width="620" height="120" rx="14" fill="#fff" stroke="${NAVY}" stroke-width="6"/><rect x="220" y="350" width="40" height="230" fill="#9fb3c8" stroke="${NAVY}" stroke-width="6"/><rect x="840" y="430" width="40" height="150" fill="#9fb3c8" stroke="${NAVY}" stroke-width="6"/>`;
+ s+=head(330,380,.8,-6,{eye:steady?"closed":"half",mouth:steady?"smile":"flat"},t,{hair:"#8b4a2b"});
+ s+=`<rect x="300" y="420" width="560" height="100" rx="30" fill="#7fb7d9" stroke="${NAVY}" stroke-width="6"/>`;
+ s+=`<rect x="900" y="200" width="260" height="190" rx="12" fill="#10202b" stroke="${NAVY}" stroke-width="7"/>`;
+ let pts="";for(let i=0;i<=40;i++){const x=916+i*6,ph=(i*6+ t*180)%90;let y=295;if(steady){y-= ph>38&&ph<46?50:(ph>46&&ph<54?-24:0)}else y+=Math.sin(i*.9+t*9)*(14+rnd(Math.floor(i/3))*30);pts+=`${i?"L":"M"}${x},${y} `}
+ s+=`<path d="${pts}" fill="none" stroke="${steady?"#5cf08a":"#ff6b6b"}" stroke-width="5" stroke-linejoin="round"/>`;
+ if(lt>1.0)s+=`<g transform="translate(640,230) scale(${ck})"><circle r="54" fill="#4caf50" stroke="${NAVY}" stroke-width="6"/><path d="M-26,2 L-8,22 L28,-20" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+ s+=dust(t,"#fff");
+ return {svg:s,cam:[640,380,1.0+0.05*lt/d],shake:0};
+}
+function sc_clock(lt,d,t){
+ const k=eio(lt/1.6), a=k*360*-1/12*12; // minute hand rewinds one full turn
+ const mAng=-k*360, hAng=-k*30;
+ let s=bg("bF4","#ffd9a0","#f5a36b")+blur(`<circle cx="640" cy="620" r="260" fill="#ffefc2" opacity="${.35+.4*k}"/>`,6);
+ s+=`<circle cx="640" cy="360" r="230" fill="#fff8e8" stroke="${NAVY}" stroke-width="12"/>`;
+ for(let i=0;i<12;i++){const an=i*30*Math.PI/180;s+=`<path d="M${640+Math.sin(an)*196},${360-Math.cos(an)*196} L${640+Math.sin(an)*214},${360-Math.cos(an)*214}" stroke="${NAVY}" stroke-width="8" stroke-linecap="round"/>`}
+ s+=`<g transform="translate(640,360) rotate(${hAng})"><path d="M0,0 L0,-110" stroke="${NAVY}" stroke-width="16" stroke-linecap="round"/></g><g transform="translate(640,360) rotate(${mAng})"><path d="M0,0 L0,-170" stroke="#e8627a" stroke-width="10" stroke-linecap="round"/></g><circle cx="640" cy="360" r="14" fill="${NAVY}"/>`;
+ s+=`<g transform="translate(640,360) rotate(${-k*300})" opacity="${.9*(1-k*.5)}"><path d="M0,-262 A262,262 0 0 0 -262,0" fill="none" stroke="#2fa39b" stroke-width="14" stroke-linecap="round"/><path d="M-262,0 l-18,-26 M-262,0 l26,-18" stroke="#2fa39b" stroke-width="14" stroke-linecap="round"/></g>`;
+ for(let i=0;i<10;i++){const p=((lt*.8+i*.17)%1);s+=`<circle cx="${640+Math.cos(i*2.1)*320}" cy="${360+Math.sin(i*1.3)*220-p*60}" r="${3+rnd(i)*5}" fill="#fff" opacity="${(1-p)*.8*k}"/>`}
+ s+=dust(t,"#fff");
+ return {svg:s,cam:[640,360,1.0+0.05*lt/d],shake:0};
+}
+function sc_roof(lt,d,t,ctx){
+ const a16=ctx.t-ctx.TL[16].start;
+ let s=bg("bG","#241d4a","#f08a6b")+`<circle cx="860" cy="470" r="110" fill="#ffd9a0" opacity=".35"/>`;
+ let b="";
+ for(let i=0;i<14;i++){const x=i*100-10,h=160+rnd(i+20)*260,w=90;b+=`<rect x="${x}" y="${600-h}" width="${w}" height="${h+130}" fill="#2a2150" stroke="#161233" stroke-width="3"/>`;
+  for(let r=0;r<Math.floor(h/36);r++)for(let c=0;c<3;c++){const on=rnd(i*50+r*3+c)<clamp(.06+a16/3.4*.7);b+=`<rect x="${x+12+c*26}" y="${600-h+14+r*34}" width="14" height="18" fill="${on?"#ffd24a":"#3b3068"}"/>`}}
+ s+=blur(b,2.5);
+ s+=`<rect x="-700" y="600" width="2700" height="120" fill="#17132e" stroke="${NAVY}" stroke-width="6"/>`;
+ s+=person(470,612,1.1,{back:true,hair:"#3b2a24",glow:"rgba(255,190,130,.55)",glowR:10,armR:[70,-170,56,-120]},t);
+ for(let i=0;i<22;i++)s+=`<circle cx="${rnd(i)*1280}" cy="${rnd(i+9)*260}" r="${1+rnd(i+3)*1.8}" fill="#fff" opacity="${.4+.5*Math.abs(Math.sin(t*2+i))}"/>`;
+ return {svg:s,cam:[lerp(520,600,lt/d),420,1.0+0.16*lt/d],shake:0};
+}
+
+// ---------- composition ----------
+const SCENES=[ // [first sentence idx, fn]
+ [0,sc_bed],[1,sc_phone],[2,sc_street],[6,sc_office],[9,sc_number],[11,sc_shh],[12,sc_house],[13,sc_hospital],[14,sc_clock],[15,sc_roof]];
+let TOTAL=30;
+function render(t){
+ const lead=0.07; let si=0;
+ for(let i=0;i<SCENES.length;i++) if(t>=TL[SCENES[i][0]].start-(i?lead:0)) si=i;
+ const [first,fn]=SCENES[si];
+ const st=(si?TL[first].start-lead:0), nxt=SCENES[si+1]?TL[SCENES[si+1][0]].start-lead:TOTAL;
+ const lt=t-st, d=nxt-st;
+ const r=fn(lt,d,t,{TL,t});
+ const [cx,cy,z]=r.cam, sh=r.shake||0;
+ const sx=(Math.sin(t*91)*sh), sy=(Math.cos(t*77)*sh);
+ let out=`<g transform="translate(${640+sx},${360+sy}) scale(${z}) translate(${-cx},${-cy})">${r.svg}</g>`;
+ out+=`<defs><radialGradient id="vg"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></radialGradient></defs><rect width="1280" height="720" fill="url(#vg)"/>`;
+ // captions
+ const sIdx=TL.findIndex((q,i)=>t>=q.start-.05&&t<=(TL[i+1]?TL[i+1].start:TOTAL));
+ if(sIdx>=0&&t<=TL[sIdx].end+.5){
+  const q=TL[sIdx], W=q.text.split(" "), tot=W.reduce((a,w)=>a+w.length+2,0); let acc=0, cur=0;
+  const fr=clamp((t-q.start)/(q.end-q.start));
+  W.forEach((w,i)=>{const a=acc/tot,b=(acc+w.length+2)/tot; if(fr>=a)cur=i; acc+=w.length+2});
+  const lo=Math.max(0,Math.min(cur-2,W.length-5)), hi=Math.min(W.length,lo+5), win=W.slice(lo,hi);
+  const fs=40, width=win.join(" ").length*fs*.56+56;
+  const ts=win.map((w,i)=>`<tspan fill="${lo+i===cur?"#ffd24a":"#fff"}">${w.replace(/&/g,"&amp;")}${i<win.length-1?" ":""}</tspan>`).join("");
+  out+=`<rect x="${640-width/2}" y="632" width="${width}" height="72" rx="22" fill="#0b0a1a" opacity=".78"/><text x="640" y="684" font-size="${fs}" font-weight="800" text-anchor="middle" xml:space="preserve">${ts}</text>`;
+ }
+ const fade=clamp((TOTAL-t)/0.7), fin=clamp(t/0.25);
+ out+=`<rect width="1280" height="720" fill="#000" opacity="${1-Math.min(fade,fin)}"/>`;
+ document.getElementById("s").innerHTML=out;
+}
+window.setup=(tl,total)=>{TL=tl;TOTAL=total;render(0)};
+window.render=render;
+</script></body></html>
