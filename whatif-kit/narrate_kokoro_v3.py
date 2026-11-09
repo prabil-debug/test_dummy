@@ -9,8 +9,11 @@ GS = 1.35; sr = 24000
 tok = Tokenizer(); sess = ort.InferenceSession("model.onnx")
 vs = np.fromfile(f"{voice}.bin", dtype=np.float32).reshape(-1,1,256)
 SPOKEN = [("$21,500","twenty-one thousand five hundred dollars"),("1901","nineteen oh one"),("1970","nineteen seventy"),("2015","twenty fifteen"),("2018","twenty eighteen"),("2060s","twenty sixties"),("1.08","one point oh eight"),("1,700","seventeen hundred"),("1,500","fifteen hundred"),("1.46","one point four six"),("4.3","four point three"),("2,800","twenty-eight hundred"),("21,500","twenty-one thousand five hundred"),("20,000","twenty thousand"),("1.7","one point seven"),("2.3","two point three"),("2.1","two point one"),("1.9","one point nine")]
+SPOKEN += [("1914","nineteen fourteen"),("2022","twenty twenty-two"),("2025","twenty twenty-five"),("2007","two thousand seven"),("2023","twenty twenty-three"),("2024","twenty twenty-four"),("424","four hundred and twenty-four")]
+NAMES = [(r"\bRamayana\b","Raa-maa-yuh-nuh"),(r"\bRameswaram\b","Raa-may-shwuh-rum"),(r"\bSethusamudram\b","Say-too-suh-mood-rum"),(r"\bNagapattinam\b","Naa-guh-puh-ti-num"),(r"\bRam Setu\b","Raam Say-too"),(r"\bLord Ram\b","Lord Raam"),(r"\bPamban\b","Paam-bun"),(r"\bMannar\b","Muh-naar"),(r"\bChennai\b","Chen-eye"),(r"\bDhanushkodi\b","Dhuh-noosh-ko-dee"),(r"\bPalk\b","Pawk")]
 def spoken(t):
     for a,b in SPOKEN: t=t.replace(a,b)
+    for a,b in NAMES: t=re.sub(a,b,t)
     return t
 def synth(text, sp):
     ph=tok.phonemize(spoken(text),"en-us"); ids=tok.tokenize(ph)[:500]
@@ -22,7 +25,8 @@ items=[]; section=None
 for raw in open(script):
     line=raw.rstrip("\n")
     if line.startswith("## "): section=line[3:].strip(); items.append(("SECTION",section)); continue
-    if line.startswith("#") or line.startswith(("Working title","Status")) or not line.strip(): continue
+    if line.startswith("#") or line.startswith(("Working title","Status","Markers")) or not line.strip(): continue
+    if section is None: continue  # ignore any header notes before the first ## section
     beat=line.rstrip().endswith("[beat]"); line=line.replace("[beat]","").strip()
     ss=[x.strip() for x in re.split(r"(?<=[.!?])\s+",line) if x.strip()]
     for j,p in enumerate(ss): items.append(("S",p,section,beat and j==len(ss)-1))

@@ -1,6 +1,6 @@
 # What If Ram Setu Still Stood Today?
 Working title. Landscape 1920x1080, 2D stick-figure scenes, ~6.5 min. Neutral, respectful framing of faith and science. A curiosity loop about every 30-40 seconds.
-Status: DRAFT 1 for approval. Fact notes in FACTS.md (lines marked VERIFY are lower-confidence).
+Status: LOCKED v1 (approved by user). Fact notes in FACTS.md; lines marked VERIFY there are lower-confidence.
 Markers: a line ending in [beat] gets a longer dramatic pause (use sparingly).
 
 ## THE HOOK
