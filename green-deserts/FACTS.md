@@ -7,7 +7,7 @@
 | 3 | Rains left around 5,000 years ago; "some studies say it happened fast" | Sediment cores suggest abrupt end ~5,000 years ago; a 2016 review is more cautious (5,000-4,000 years ago, abrupt vs gradual unresolved). CHECKED, hedged |
 | 4 | Drylands ~40% of land outside Antarctica | UNCCD 2024: drylands 40.6% of land excluding Antarctica (https://www.eurekalert.org/news-releases/1066674). CHECKED |
 | 5 | True deserts roughly a sixth of land | A UNCCD-style breakdown: hyper-arid ("deserts") 6.6% + arid 10.6% = ~17% (secondary source; definitions vary). CHECKED, hedged ("roughly") |
-| 6 | A large tree can pull up to ~300 litres of water a day | Flying Rivers Project figure (up to ~300 litres/day for a large tree); other sources give different values (264 gallons, 1,000 litres). LOW-MEDIUM. VERIFY or say "hundreds of litres" |
+| 6 | A large tree can pull hundreds of litres of water a day | Flying Rivers Project figure (up to ~300 litres/day for a large tree); other sources give different values. Script now says "hundreds of litres". FIXED |
 | 7 | In the Amazon, some research suggests about half the rain comes from the trees | Salati (1980s) and later work: roughly half; varies by place (almost zero to ~50%). CHECKED, hedged |
 | 8 | Young trees in dry ground die easily; many real attempts hit the same wall | China program criticism (low survival, water limits); general statement, hedged ("many") |
 | 9 | Soil: one inch of fertile topsoil takes hundreds of years, up to a thousand | Soil Science Society of America; Landcare Research NZ (1-10 cm up to 1,000 years); varies by climate. CHECKED. Desert-specific 5,000-10,000 yr claim NOT used (weak source) |
@@ -32,7 +32,7 @@
 | 28 | China: tree-planting programme began 1978, still running | Three-North Shelter Forest Program (since 1978). CHECKED |
 | 29 | Critics: many trees died; too many of the same species; groundwater fell by up to 19 metres in places | Beijing Forestry University 2025 water-constraints study; critics on survival and monoculture; Minqin groundwater up to 19 m. CHECKED (some sources secondary) |
 | 30 | Solar panels with plants beneath, long-term results still being tested | Kubuqi photovoltaic-sand-control practice, >RMB 3 billion invested since 2010 (2026 Nature comment); outcomes unverified. Hedged |
-| 31 | Nature already ran this experiment; it was physics, not mainly people | Orbital forcing is the main driver; a 2017 hypothesis blamed pastoralists, a 2018 model found the opposite. Script says "not people" in the sense of orbital cause; consider "mostly physics". VERIFY wording |
+| 31 | Nature already ran this experiment; it was physics, not mainly people | Orbital forcing is the main driver; a 2017 hypothesis blamed pastoralists, a 2018 model found the opposite. Script now says "Mostly, that wasn't people. It was physics." FIXED |
 | 32 | "A state the planet has been in before. And a state it can leave." | Interpretation of the green Sahara record |
 
 ## Sensitivity notes

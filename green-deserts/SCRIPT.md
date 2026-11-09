@@ -1,6 +1,6 @@
 # What If All Deserts on Earth Turned Completely Green?
 Working title. Landscape 1920x1080, 2D stick-figure scenes, ~6 min. Gradual scenario, balanced scientific tone ("scientists think", "models suggest"). A curiosity loop about every 30-40 seconds.
-Status: DRAFT 1 for approval. Fact notes in FACTS.md (lines marked VERIFY there are lower-confidence).
+Status: LOCKED v1 (approved by user; two soft lines fixed). Fact notes in FACTS.md (lines marked VERIFY there are lower-confidence).
 Markers: a line ending in [beat] gets a longer dramatic pause (use sparingly).
 
 ## THE GREEN SAHARA
@@ -23,7 +23,7 @@ The interesting question is what happens next.
 Start with the one thing every forest needs. Water.
 
 ## THE WATER
-A large tree can pull up to three hundred litres of water out of the ground in a single day, and release it into the air.
+A large tree can pull hundreds of litres of water out of the ground in a single day, and release it into the air.
 Now multiply that by billions of trees.
 In the Amazon, some research suggests about half the rain comes from the trees themselves. The forest waters itself.
 That's the good news. Once a forest is established, it makes its own weather.
@@ -113,7 +113,7 @@ The lesson is simple. Green only lasts where the water does.
 So here's the strangest part.
 Nature has already run this experiment.
 The Sahara turned green on its own, pushed by a wobble in Earth's orbit, and then it turned back.
-That wasn't people. It was physics.
+Mostly, that wasn't people. It was physics.
 Which means a green desert isn't only a dream. It's a state the planet has been in before.
 And a state it can leave.
 

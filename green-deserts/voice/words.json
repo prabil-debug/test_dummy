@@ -1,0 +1,7808 @@
+[
+ {
+  "word": "As",
+  "start": 0.0,
+  "end": 0.22,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "recently",
+  "start": 0.22,
+  "end": 0.5,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "as",
+  "start": 0.5,
+  "end": 0.8,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "six",
+  "start": 0.8,
+  "end": 0.92,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "thousand",
+  "start": 0.92,
+  "end": 1.04,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "years",
+  "start": 1.04,
+  "end": 1.32,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "ago,",
+  "start": 1.32,
+  "end": 1.5,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "the",
+  "start": 1.68,
+  "end": 1.72,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "Sahara",
+  "start": 1.72,
+  "end": 1.88,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "was",
+  "start": 1.88,
+  "end": 2.08,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "green.",
+  "start": 2.08,
+  "end": 2.48,
+  "sentence": "As recently as six thousand years ago, t"
+ },
+ {
+  "word": "Grass.",
+  "start": 2.78,
+  "end": 3.06,
+  "sentence": "Grass."
+ },
+ {
+  "word": "Lakes.",
+  "start": 2.883,
+  "end": 3.311,
+  "sentence": "Lakes."
+ },
+ {
+  "word": "Rivers.",
+  "start": 3.06,
+  "end": 3.4,
+  "sentence": "Rivers."
+ },
+ {
+  "word": "Herds",
+  "start": 4.0,
+  "end": 4.294,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "of",
+  "start": 4.294,
+  "end": 4.411,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "animals,",
+  "start": 4.411,
+  "end": 4.823,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "where",
+  "start": 4.823,
+  "end": 5.117,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "today",
+  "start": 5.117,
+  "end": 5.41,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "there",
+  "start": 5.41,
+  "end": 5.704,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "is",
+  "start": 5.704,
+  "end": 5.822,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "only",
+  "start": 5.822,
+  "end": 6.057,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "sand.",
+  "start": 6.057,
+  "end": 6.292,
+  "sentence": "Herds of animals, where today there is o"
+ },
+ {
+  "word": "It",
+  "start": 6.32,
+  "end": 6.32,
+  "sentence": "It wasn't magic."
+ },
+ {
+  "word": "wasn't",
+  "start": 6.32,
+  "end": 6.56,
+  "sentence": "It wasn't magic."
+ },
+ {
+  "word": "magic.",
+  "start": 6.56,
+  "end": 6.96,
+  "sentence": "It wasn't magic."
+ },
+ {
+  "word": "Slow",
+  "start": 7.34,
+  "end": 7.5,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "wobbles",
+  "start": 7.5,
+  "end": 7.86,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "in",
+  "start": 7.86,
+  "end": 8.1,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "Earth's",
+  "start": 8.1,
+  "end": 8.66,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "orbit",
+  "start": 8.66,
+  "end": 8.66,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "shifted",
+  "start": 8.66,
+  "end": 8.98,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "the",
+  "start": 8.98,
+  "end": 9.18,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "monsoon,",
+  "start": 9.18,
+  "end": 9.56,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "and",
+  "start": 9.56,
+  "end": 9.8,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "the",
+  "start": 9.8,
+  "end": 9.98,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "rains",
+  "start": 9.98,
+  "end": 10.16,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "moved",
+  "start": 10.16,
+  "end": 10.48,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "north.",
+  "start": 10.48,
+  "end": 10.82,
+  "sentence": "Slow wobbles in Earth's orbit shifted th"
+ },
+ {
+  "word": "Then,",
+  "start": 11.04,
+  "end": 11.24,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "around",
+  "start": 11.24,
+  "end": 11.56,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "five",
+  "start": 11.56,
+  "end": 11.94,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "thousand",
+  "start": 11.94,
+  "end": 12.12,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "years",
+  "start": 12.12,
+  "end": 12.42,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "ago,",
+  "start": 12.42,
+  "end": 12.68,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "the",
+  "start": 12.88,
+  "end": 12.88,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "rains",
+  "start": 12.88,
+  "end": 13.12,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "left.",
+  "start": 13.12,
+  "end": 13.46,
+  "sentence": "Then, around five thousand years ago, th"
+ },
+ {
+  "word": "Some",
+  "start": 13.72,
+  "end": 13.96,
+  "sentence": "Some studies say it happened fast."
+ },
+ {
+  "word": "studies",
+  "start": 13.96,
+  "end": 14.22,
+  "sentence": "Some studies say it happened fast."
+ },
+ {
+  "word": "say",
+  "start": 14.22,
+  "end": 14.42,
+  "sentence": "Some studies say it happened fast."
+ },
+ {
+  "word": "it",
+  "start": 14.42,
+  "end": 14.56,
+  "sentence": "Some studies say it happened fast."
+ },
+ {
+  "word": "happened",
+  "start": 14.56,
+  "end": 14.8,
+  "sentence": "Some studies say it happened fast."
+ },
+ {
+  "word": "fast.",
+  "start": 14.8,
+  "end": 15.3,
+  "sentence": "Some studies say it happened fast."
+ },
+ {
+  "word": "Now",
+  "start": 15.84,
+  "end": 15.98,
+  "sentence": "Now imagine they came back."
+ },
+ {
+  "word": "imagine",
+  "start": 15.98,
+  "end": 16.16,
+  "sentence": "Now imagine they came back."
+ },
+ {
+  "word": "they",
+  "start": 16.16,
+  "end": 16.34,
+  "sentence": "Now imagine they came back."
+ },
+ {
+  "word": "came",
+  "start": 16.34,
+  "end": 16.48,
+  "sentence": "Now imagine they came back."
+ },
+ {
+  "word": "back.",
+  "start": 16.48,
+  "end": 16.96,
+  "sentence": "Now imagine they came back."
+ },
+ {
+  "word": "Not",
+  "start": 18.0,
+  "end": 18.174,
+  "sentence": "Not just to the Sahara."
+ },
+ {
+  "word": "just",
+  "start": 18.174,
+  "end": 18.405,
+  "sentence": "Not just to the Sahara."
+ },
+ {
+  "word": "to",
+  "start": 18.405,
+  "end": 18.52,
+  "sentence": "Not just to the Sahara."
+ },
+ {
+  "word": "the",
+  "start": 18.52,
+  "end": 18.694,
+  "sentence": "Not just to the Sahara."
+ },
+ {
+  "word": "Sahara.",
+  "start": 18.694,
+  "end": 19.041,
+  "sentence": "Not just to the Sahara."
+ },
+ {
+  "word": "To",
+  "start": 19.04,
+  "end": 19.137,
+  "sentence": "To every desert on Earth."
+ },
+ {
+  "word": "every",
+  "start": 19.137,
+  "end": 19.38,
+  "sentence": "To every desert on Earth."
+ },
+ {
+  "word": "desert",
+  "start": 19.38,
+  "end": 19.672,
+  "sentence": "To every desert on Earth."
+ },
+ {
+  "word": "on",
+  "start": 19.672,
+  "end": 19.769,
+  "sentence": "To every desert on Earth."
+ },
+ {
+  "word": "Earth.",
+  "start": 19.769,
+  "end": 20.012,
+  "sentence": "To every desert on Earth."
+ },
+ {
+  "word": "All",
+  "start": 19.862,
+  "end": 20.014,
+  "sentence": "All of them, covered in forest."
+ },
+ {
+  "word": "of",
+  "start": 20.014,
+  "end": 20.116,
+  "sentence": "All of them, covered in forest."
+ },
+ {
+  "word": "them,",
+  "start": 20.116,
+  "end": 20.319,
+  "sentence": "All of them, covered in forest."
+ },
+ {
+  "word": "covered",
+  "start": 20.319,
+  "end": 20.674,
+  "sentence": "All of them, covered in forest."
+ },
+ {
+  "word": "in",
+  "start": 20.674,
+  "end": 20.775,
+  "sentence": "All of them, covered in forest."
+ },
+ {
+  "word": "forest.",
+  "start": 20.775,
+  "end": 21.08,
+  "sentence": "All of them, covered in forest."
+ },
+ {
+  "word": "What",
+  "start": 21.34,
+  "end": 21.48,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "would",
+  "start": 21.48,
+  "end": 21.58,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "that",
+  "start": 21.58,
+  "end": 21.74,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "do",
+  "start": 21.74,
+  "end": 21.84,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "to",
+  "start": 21.84,
+  "end": 21.98,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "the",
+  "start": 21.98,
+  "end": 22.12,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "planet?",
+  "start": 22.12,
+  "end": 22.34,
+  "sentence": "What would that do to the planet?"
+ },
+ {
+  "word": "Let's",
+  "start": 23.04,
+  "end": 23.32,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "find",
+  "start": 23.32,
+  "end": 23.54,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "out.",
+  "start": 23.54,
+  "end": 24.04,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "First,",
+  "start": 24.56,
+  "end": 24.82,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "the",
+  "start": 25.02,
+  "end": 25.02,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "rules.",
+  "start": 25.02,
+  "end": 25.34,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "Drylands",
+  "start": 26.14,
+  "end": 26.62,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "cover",
+  "start": 26.62,
+  "end": 26.76,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "about",
+  "start": 26.76,
+  "end": 27.16,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "forty",
+  "start": 27.16,
+  "end": 27.52,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "percent",
+  "start": 27.52,
+  "end": 27.78,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "of",
+  "start": 27.78,
+  "end": 27.88,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "the",
+  "start": 27.88,
+  "end": 28.04,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "land",
+  "start": 28.04,
+  "end": 28.3,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "outside",
+  "start": 28.3,
+  "end": 28.74,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "Antarctica.",
+  "start": 28.74,
+  "end": 29.24,
+  "sentence": "Drylands cover about forty percent of th"
+ },
+ {
+  "word": "The",
+  "start": 29.96,
+  "end": 30.107,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "driest",
+  "start": 30.107,
+  "end": 30.4,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "of",
+  "start": 30.4,
+  "end": 30.498,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "them,",
+  "start": 30.498,
+  "end": 30.694,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "the",
+  "start": 30.694,
+  "end": 30.841,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "true",
+  "start": 30.841,
+  "end": 31.037,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "deserts,",
+  "start": 31.037,
+  "end": 31.379,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "cover",
+  "start": 31.379,
+  "end": 31.624,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "roughly",
+  "start": 31.624,
+  "end": 31.966,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "a",
+  "start": 31.966,
+  "end": 32.015,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "sixth.",
+  "start": 32.015,
+  "end": 32.26,
+  "sentence": "The driest of them, the true deserts, co"
+ },
+ {
+  "word": "In",
+  "start": 32.52,
+  "end": 32.6,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "our",
+  "start": 32.6,
+  "end": 32.76,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "story,",
+  "start": 32.76,
+  "end": 33.06,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "every",
+  "start": 33.14,
+  "end": 33.34,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "hot",
+  "start": 33.34,
+  "end": 33.54,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "desert",
+  "start": 33.54,
+  "end": 33.76,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "turns",
+  "start": 33.76,
+  "end": 34.12,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "green",
+  "start": 34.12,
+  "end": 34.34,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "with",
+  "start": 34.34,
+  "end": 34.54,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "real",
+  "start": 34.54,
+  "end": 34.84,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "forest,",
+  "start": 34.84,
+  "end": 35.2,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "slowly,",
+  "start": 35.2,
+  "end": 35.6,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "over",
+  "start": 35.6,
+  "end": 35.84,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "decades.",
+  "start": 35.84,
+  "end": 36.26,
+  "sentence": "In our story, every hot desert turns gre"
+ },
+ {
+  "word": "The",
+  "start": 36.76,
+  "end": 36.885,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "polar",
+  "start": 36.885,
+  "end": 37.094,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "deserts",
+  "start": 37.094,
+  "end": 37.386,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "stay",
+  "start": 37.386,
+  "end": 37.553,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "as",
+  "start": 37.553,
+  "end": 37.637,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "they",
+  "start": 37.637,
+  "end": 37.804,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "are.",
+  "start": 37.804,
+  "end": 37.929,
+  "sentence": "The polar deserts stay as they are."
+ },
+ {
+  "word": "Ice",
+  "start": 37.84,
+  "end": 37.88,
+  "sentence": "Ice stays ice."
+ },
+ {
+  "word": "stays",
+  "start": 37.88,
+  "end": 38.08,
+  "sentence": "Ice stays ice."
+ },
+ {
+  "word": "ice.",
+  "start": 38.08,
+  "end": 38.38,
+  "sentence": "Ice stays ice."
+ },
+ {
+  "word": "And",
+  "start": 38.66,
+  "end": 38.811,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "we",
+  "start": 38.811,
+  "end": 38.912,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "won't",
+  "start": 38.912,
+  "end": 39.114,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "explain",
+  "start": 39.114,
+  "end": 39.466,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "where",
+  "start": 39.466,
+  "end": 39.719,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "the",
+  "start": 39.719,
+  "end": 39.87,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "rain",
+  "start": 39.87,
+  "end": 40.071,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "comes",
+  "start": 40.071,
+  "end": 40.323,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "from.",
+  "start": 40.323,
+  "end": 40.525,
+  "sentence": "And we won't explain where the rain come"
+ },
+ {
+  "word": "It",
+  "start": 40.46,
+  "end": 40.46,
+  "sentence": "It simply arrives."
+ },
+ {
+  "word": "simply",
+  "start": 40.46,
+  "end": 40.6,
+  "sentence": "It simply arrives."
+ },
+ {
+  "word": "arrives.",
+  "start": 40.6,
+  "end": 40.98,
+  "sentence": "It simply arrives."
+ },
+ {
+  "word": "The",
+  "start": 41.56,
+  "end": 41.668,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "interesting",
+  "start": 41.668,
+  "end": 42.064,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "question",
+  "start": 42.064,
+  "end": 42.351,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "is",
+  "start": 42.351,
+  "end": 42.423,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "what",
+  "start": 42.423,
+  "end": 42.567,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "happens",
+  "start": 42.567,
+  "end": 42.819,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "next.",
+  "start": 42.819,
+  "end": 42.963,
+  "sentence": "The interesting question is what happens"
+ },
+ {
+  "word": "Start",
+  "start": 43.22,
+  "end": 43.522,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "with",
+  "start": 43.522,
+  "end": 43.764,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "the",
+  "start": 43.764,
+  "end": 43.946,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "one",
+  "start": 43.946,
+  "end": 44.127,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "thing",
+  "start": 44.127,
+  "end": 44.429,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "every",
+  "start": 44.429,
+  "end": 44.732,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "forest",
+  "start": 44.732,
+  "end": 45.095,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "needs.",
+  "start": 45.095,
+  "end": 45.397,
+  "sentence": "Start with the one thing every forest ne"
+ },
+ {
+  "word": "Water.",
+  "start": 45.32,
+  "end": 45.5,
+  "sentence": "Water."
+ },
+ {
+  "word": "A",
+  "start": 46.58,
+  "end": 46.68,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "large",
+  "start": 46.68,
+  "end": 46.96,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "tree",
+  "start": 46.96,
+  "end": 47.18,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "can",
+  "start": 47.18,
+  "end": 47.32,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "pull",
+  "start": 47.32,
+  "end": 47.52,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "hundreds",
+  "start": 47.52,
+  "end": 47.78,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "of",
+  "start": 47.78,
+  "end": 47.96,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "litres",
+  "start": 47.96,
+  "end": 48.18,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "of",
+  "start": 48.18,
+  "end": 48.38,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "water",
+  "start": 48.38,
+  "end": 48.54,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "out",
+  "start": 48.54,
+  "end": 48.72,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "of",
+  "start": 48.72,
+  "end": 48.82,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "the",
+  "start": 48.82,
+  "end": 48.94,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "ground",
+  "start": 48.94,
+  "end": 49.16,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "in",
+  "start": 49.16,
+  "end": 49.32,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "a",
+  "start": 49.32,
+  "end": 49.44,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "single",
+  "start": 49.44,
+  "end": 49.62,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "day,",
+  "start": 49.62,
+  "end": 50.02,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "and",
+  "start": 50.02,
+  "end": 50.26,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "release",
+  "start": 50.26,
+  "end": 50.5,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "it",
+  "start": 50.5,
+  "end": 50.72,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "into",
+  "start": 50.72,
+  "end": 50.9,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "the",
+  "start": 50.9,
+  "end": 51.08,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "air.",
+  "start": 51.08,
+  "end": 51.4,
+  "sentence": "A large tree can pull hundreds of litres"
+ },
+ {
+  "word": "Now",
+  "start": 51.68,
+  "end": 51.82,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "multiply",
+  "start": 51.82,
+  "end": 52.12,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "that",
+  "start": 52.12,
+  "end": 52.38,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "by",
+  "start": 52.38,
+  "end": 52.58,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "billions",
+  "start": 52.58,
+  "end": 52.8,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "of",
+  "start": 52.8,
+  "end": 53.06,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "trees.",
+  "start": 53.06,
+  "end": 53.34,
+  "sentence": "Now multiply that by billions of trees."
+ },
+ {
+  "word": "In",
+  "start": 53.74,
+  "end": 53.831,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "the",
+  "start": 53.831,
+  "end": 53.968,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "Amazon,",
+  "start": 53.968,
+  "end": 54.242,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "some",
+  "start": 54.242,
+  "end": 54.425,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "research",
+  "start": 54.425,
+  "end": 54.791,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "suggests",
+  "start": 54.791,
+  "end": 55.156,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "about",
+  "start": 55.156,
+  "end": 55.384,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "half",
+  "start": 55.384,
+  "end": 55.567,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "the",
+  "start": 55.567,
+  "end": 55.704,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "rain",
+  "start": 55.704,
+  "end": 55.887,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "comes",
+  "start": 55.887,
+  "end": 56.115,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "from",
+  "start": 56.115,
+  "end": 56.298,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "the",
+  "start": 56.298,
+  "end": 56.435,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "trees",
+  "start": 56.435,
+  "end": 56.663,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "themselves.",
+  "start": 56.663,
+  "end": 57.12,
+  "sentence": "In the Amazon, some research suggests ab"
+ },
+ {
+  "word": "The",
+  "start": 57.31,
+  "end": 57.449,
+  "sentence": "The forest waters itself."
+ },
+ {
+  "word": "forest",
+  "start": 57.449,
+  "end": 57.727,
+  "sentence": "The forest waters itself."
+ },
+ {
+  "word": "waters",
+  "start": 57.727,
+  "end": 58.005,
+  "sentence": "The forest waters itself."
+ },
+ {
+  "word": "itself.",
+  "start": 58.005,
+  "end": 58.283,
+  "sentence": "The forest waters itself."
+ },
+ {
+  "word": "That's",
+  "start": 58.133,
+  "end": 58.404,
+  "sentence": "That's the good news."
+ },
+ {
+  "word": "the",
+  "start": 58.404,
+  "end": 58.567,
+  "sentence": "That's the good news."
+ },
+ {
+  "word": "good",
+  "start": 58.567,
+  "end": 58.783,
+  "sentence": "That's the good news."
+ },
+ {
+  "word": "news.",
+  "start": 58.783,
+  "end": 59.0,
+  "sentence": "That's the good news."
+ },
+ {
+  "word": "Once",
+  "start": 59.48,
+  "end": 59.652,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "a",
+  "start": 59.652,
+  "end": 59.695,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "forest",
+  "start": 59.695,
+  "end": 59.952,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "is",
+  "start": 59.952,
+  "end": 60.038,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "established,",
+  "start": 60.038,
+  "end": 60.51,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "it",
+  "start": 60.51,
+  "end": 60.596,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "makes",
+  "start": 60.596,
+  "end": 60.81,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "its",
+  "start": 60.81,
+  "end": 60.939,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "own",
+  "start": 60.939,
+  "end": 61.068,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "weather.",
+  "start": 61.068,
+  "end": 61.368,
+  "sentence": "Once a forest is established, it makes i"
+ },
+ {
+  "word": "The",
+  "start": 61.218,
+  "end": 61.371,
+  "sentence": "The bad news is the beginning."
+ },
+ {
+  "word": "bad",
+  "start": 61.371,
+  "end": 61.523,
+  "sentence": "The bad news is the beginning."
+ },
+ {
+  "word": "news",
+  "start": 61.523,
+  "end": 61.727,
+  "sentence": "The bad news is the beginning."
+ },
+ {
+  "word": "is",
+  "start": 61.727,
+  "end": 61.829,
+  "sentence": "The bad news is the beginning."
+ },
+ {
+  "word": "the",
+  "start": 61.829,
+  "end": 61.982,
+  "sentence": "The bad news is the beginning."
+ },
+ {
+  "word": "beginning.",
+  "start": 61.982,
+  "end": 62.44,
+  "sentence": "The bad news is the beginning."
+ },
+ {
+  "word": "Young",
+  "start": 62.78,
+  "end": 62.84,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "trees",
+  "start": 62.84,
+  "end": 62.98,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "in",
+  "start": 62.98,
+  "end": 63.16,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "dry",
+  "start": 63.16,
+  "end": 63.28,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "ground",
+  "start": 63.28,
+  "end": 63.46,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "die",
+  "start": 63.46,
+  "end": 63.64,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "easily.",
+  "start": 63.64,
+  "end": 64.06,
+  "sentence": "Young trees in dry ground die easily."
+ },
+ {
+  "word": "That's",
+  "start": 64.44,
+  "end": 64.64,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "why",
+  "start": 64.64,
+  "end": 64.84,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "many",
+  "start": 64.84,
+  "end": 65.08,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "real",
+  "start": 65.08,
+  "end": 65.26,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "attempts",
+  "start": 65.26,
+  "end": 65.54,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "to",
+  "start": 65.54,
+  "end": 65.76,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "green",
+  "start": 65.76,
+  "end": 65.88,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "a",
+  "start": 65.88,
+  "end": 66.08,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "desert",
+  "start": 66.08,
+  "end": 66.22,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "have",
+  "start": 66.22,
+  "end": 66.54,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "hit",
+  "start": 66.54,
+  "end": 66.7,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "the",
+  "start": 66.7,
+  "end": 66.82,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "same",
+  "start": 66.82,
+  "end": 67.04,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "wall.",
+  "start": 67.04,
+  "end": 67.4,
+  "sentence": "That's why many real attempts to green a"
+ },
+ {
+  "word": "And",
+  "start": 67.66,
+  "end": 67.78,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "there's",
+  "start": 67.78,
+  "end": 67.96,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "a",
+  "start": 67.96,
+  "end": 68.16,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "second",
+  "start": 68.16,
+  "end": 68.36,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "wall,",
+  "start": 68.36,
+  "end": 68.72,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "right",
+  "start": 68.72,
+  "end": 69.0,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "under",
+  "start": 69.0,
+  "end": 69.14,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "the",
+  "start": 69.14,
+  "end": 69.34,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "trees'",
+  "start": 69.34,
+  "end": 69.58,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "feet.",
+  "start": 69.58,
+  "end": 70.0,
+  "sentence": "And there's a second wall, right under t"
+ },
+ {
+  "word": "Forests",
+  "start": 70.74,
+  "end": 70.9,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "need",
+  "start": 70.9,
+  "end": 71.2,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "soil,",
+  "start": 71.2,
+  "end": 71.48,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "and",
+  "start": 71.48,
+  "end": 71.66,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "desert",
+  "start": 71.66,
+  "end": 71.96,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "soil",
+  "start": 71.96,
+  "end": 72.16,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "is",
+  "start": 72.16,
+  "end": 72.4,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "thin,",
+  "start": 72.4,
+  "end": 72.72,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "dry",
+  "start": 72.76,
+  "end": 73.02,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "and",
+  "start": 73.22,
+  "end": 73.22,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "poor.",
+  "start": 73.22,
+  "end": 73.54,
+  "sentence": "Forests need soil, and desert soil is th"
+ },
+ {
+  "word": "Soil",
+  "start": 73.8,
+  "end": 74.017,
+  "sentence": "Soil forms painfully slowly."
+ },
+ {
+  "word": "forms",
+  "start": 74.017,
+  "end": 74.287,
+  "sentence": "Soil forms painfully slowly."
+ },
+ {
+  "word": "painfully",
+  "start": 74.287,
+  "end": 74.775,
+  "sentence": "Soil forms painfully slowly."
+ },
+ {
+  "word": "slowly.",
+  "start": 74.775,
+  "end": 75.1,
+  "sentence": "Soil forms painfully slowly."
+ },
+ {
+  "word": "Depending",
+  "start": 75.54,
+  "end": 75.952,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "on",
+  "start": 75.952,
+  "end": 76.044,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "the",
+  "start": 76.044,
+  "end": 76.181,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "climate,",
+  "start": 76.181,
+  "end": 76.502,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "one",
+  "start": 76.502,
+  "end": 76.639,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "inch",
+  "start": 76.639,
+  "end": 76.822,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "of",
+  "start": 76.822,
+  "end": 76.914,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "fertile",
+  "start": 76.914,
+  "end": 77.235,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "topsoil",
+  "start": 77.235,
+  "end": 77.555,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "can",
+  "start": 77.555,
+  "end": 77.693,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "take",
+  "start": 77.693,
+  "end": 77.876,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "hundreds",
+  "start": 77.876,
+  "end": 78.242,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "of",
+  "start": 78.242,
+  "end": 78.334,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "years",
+  "start": 78.334,
+  "end": 78.563,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "to",
+  "start": 78.563,
+  "end": 78.654,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "form,",
+  "start": 78.654,
+  "end": 78.838,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "and",
+  "start": 78.838,
+  "end": 78.975,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "in",
+  "start": 78.975,
+  "end": 79.067,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "some",
+  "start": 79.067,
+  "end": 79.25,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "places",
+  "start": 79.25,
+  "end": 79.525,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "up",
+  "start": 79.525,
+  "end": 79.616,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "to",
+  "start": 79.616,
+  "end": 79.708,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "a",
+  "start": 79.708,
+  "end": 79.754,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "thousand.",
+  "start": 79.754,
+  "end": 80.12,
+  "sentence": "Depending on the climate, one inch of fe"
+ },
+ {
+  "word": "So",
+  "start": 80.32,
+  "end": 80.46,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "in",
+  "start": 80.46,
+  "end": 80.52,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "our",
+  "start": 80.52,
+  "end": 80.68,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "story,",
+  "start": 80.68,
+  "end": 80.9,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "the",
+  "start": 81.08,
+  "end": 81.16,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "forests",
+  "start": 81.16,
+  "end": 81.32,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "wouldn't",
+  "start": 81.32,
+  "end": 81.56,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "grow",
+  "start": 81.56,
+  "end": 81.74,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "in",
+  "start": 81.74,
+  "end": 81.84,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "a",
+  "start": 81.84,
+  "end": 81.96,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "day.",
+  "start": 81.96,
+  "end": 82.2,
+  "sentence": "So in our story, the forests wouldn't gr"
+ },
+ {
+  "word": "They",
+  "start": 82.46,
+  "end": 82.643,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "would",
+  "start": 82.643,
+  "end": 82.872,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "have",
+  "start": 82.872,
+  "end": 83.055,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "to",
+  "start": 83.055,
+  "end": 83.147,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "build",
+  "start": 83.147,
+  "end": 83.375,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "their",
+  "start": 83.375,
+  "end": 83.604,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "own",
+  "start": 83.604,
+  "end": 83.742,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "ground",
+  "start": 83.742,
+  "end": 84.016,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "first.",
+  "start": 84.016,
+  "end": 84.245,
+  "sentence": "They would have to build their own groun"
+ },
+ {
+  "word": "Fallen",
+  "start": 84.12,
+  "end": 84.12,
+  "sentence": "Fallen leaves."
+ },
+ {
+  "word": "leaves.",
+  "start": 84.12,
+  "end": 84.46,
+  "sentence": "Fallen leaves."
+ },
+ {
+  "word": "Roots.",
+  "start": 84.96,
+  "end": 85.353,
+  "sentence": "Roots."
+ },
+ {
+  "word": "Fungi.",
+  "start": 85.28,
+  "end": 85.695,
+  "sentence": "Fungi."
+ },
+ {
+  "word": "Insects.",
+  "start": 85.48,
+  "end": 85.94,
+  "sentence": "Insects."
+ },
+ {
+  "word": "Soil",
+  "start": 86.48,
+  "end": 86.6,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "is",
+  "start": 86.6,
+  "end": 86.78,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "something",
+  "start": 86.78,
+  "end": 86.94,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "a",
+  "start": 86.94,
+  "end": 87.18,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "forest",
+  "start": 87.18,
+  "end": 87.44,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "slowly",
+  "start": 87.44,
+  "end": 87.8,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "makes",
+  "start": 87.8,
+  "end": 88.12,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "for",
+  "start": 88.12,
+  "end": 88.24,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "itself.",
+  "start": 88.24,
+  "end": 88.7,
+  "sentence": "Soil is something a forest slowly makes "
+ },
+ {
+  "word": "It's",
+  "start": 88.9,
+  "end": 88.98,
+  "sentence": "It's a slow start."
+ },
+ {
+  "word": "a",
+  "start": 88.98,
+  "end": 89.08,
+  "sentence": "It's a slow start."
+ },
+ {
+  "word": "slow",
+  "start": 89.08,
+  "end": 89.3,
+  "sentence": "It's a slow start."
+ },
+ {
+  "word": "start.",
+  "start": 89.3,
+  "end": 89.88,
+  "sentence": "It's a slow start."
+ },
+ {
+  "word": "But",
+  "start": 90.34,
+  "end": 90.48,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "once",
+  "start": 90.48,
+  "end": 90.6,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "it",
+  "start": 90.6,
+  "end": 90.7,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "gets",
+  "start": 90.7,
+  "end": 90.9,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "going,",
+  "start": 90.9,
+  "end": 91.2,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "it",
+  "start": 91.3,
+  "end": 91.38,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "feeds",
+  "start": 91.38,
+  "end": 91.6,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "itself.",
+  "start": 91.6,
+  "end": 92.26,
+  "sentence": "But once it gets going, it feeds itself."
+ },
+ {
+  "word": "And",
+  "start": 92.42,
+  "end": 92.54,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "once",
+  "start": 92.54,
+  "end": 92.68,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "the",
+  "start": 92.68,
+  "end": 92.84,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "forest",
+  "start": 92.84,
+  "end": 93.02,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "starts",
+  "start": 93.02,
+  "end": 93.26,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "breathing",
+  "start": 93.26,
+  "end": 93.48,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "out",
+  "start": 93.48,
+  "end": 93.72,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "water,",
+  "start": 93.72,
+  "end": 94.02,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "the",
+  "start": 94.12,
+  "end": 94.22,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "sky",
+  "start": 94.22,
+  "end": 94.4,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "begins",
+  "start": 94.4,
+  "end": 94.56,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "to",
+  "start": 94.56,
+  "end": 94.74,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "change.",
+  "start": 94.74,
+  "end": 95.3,
+  "sentence": "And once the forest starts breathing out"
+ },
+ {
+  "word": "Forests",
+  "start": 96.3,
+  "end": 96.54,
+  "sentence": "Forests don't only drink."
+ },
+ {
+  "word": "don't",
+  "start": 96.54,
+  "end": 96.8,
+  "sentence": "Forests don't only drink."
+ },
+ {
+  "word": "only",
+  "start": 96.8,
+  "end": 97.04,
+  "sentence": "Forests don't only drink."
+ },
+ {
+  "word": "drink.",
+  "start": 97.04,
+  "end": 97.38,
+  "sentence": "Forests don't only drink."
+ },
+ {
+  "word": "They",
+  "start": 97.9,
+  "end": 97.98,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "send",
+  "start": 97.98,
+  "end": 98.12,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "water",
+  "start": 98.12,
+  "end": 98.28,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "up",
+  "start": 98.28,
+  "end": 98.44,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "into",
+  "start": 98.44,
+  "end": 98.58,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "the",
+  "start": 98.58,
+  "end": 98.7,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "air.",
+  "start": 98.7,
+  "end": 98.98,
+  "sentence": "They send water up into the air."
+ },
+ {
+  "word": "Winds",
+  "start": 99.48,
+  "end": 99.48,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "carry",
+  "start": 99.48,
+  "end": 99.68,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "that",
+  "start": 99.68,
+  "end": 99.88,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "vapour",
+  "start": 99.88,
+  "end": 100.02,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "for",
+  "start": 100.02,
+  "end": 100.24,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "hundreds,",
+  "start": 100.24,
+  "end": 100.56,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "even",
+  "start": 100.82,
+  "end": 100.86,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "thousands,",
+  "start": 100.86,
+  "end": 101.18,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "of",
+  "start": 101.18,
+  "end": 101.44,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "kilometres.",
+  "start": 101.44,
+  "end": 101.88,
+  "sentence": "Winds carry that vapour for hundreds, ev"
+ },
+ {
+  "word": "Scientists",
+  "start": 102.52,
+  "end": 102.68,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "call",
+  "start": 102.68,
+  "end": 102.98,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "these",
+  "start": 102.98,
+  "end": 103.28,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "invisible",
+  "start": 103.28,
+  "end": 103.64,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "streams",
+  "start": 103.64,
+  "end": 104.1,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "flying",
+  "start": 104.1,
+  "end": 104.48,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "rivers.",
+  "start": 104.48,
+  "end": 104.8,
+  "sentence": "Scientists call these invisible streams "
+ },
+ {
+  "word": "A",
+  "start": 105.32,
+  "end": 105.378,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "green",
+  "start": 105.378,
+  "end": 105.67,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "Sahara",
+  "start": 105.67,
+  "end": 106.019,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "could",
+  "start": 106.019,
+  "end": 106.31,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "shift",
+  "start": 106.31,
+  "end": 106.602,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "the",
+  "start": 106.602,
+  "end": 106.777,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "winds",
+  "start": 106.777,
+  "end": 107.068,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "and",
+  "start": 107.068,
+  "end": 107.243,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "the",
+  "start": 107.243,
+  "end": 107.417,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "monsoon",
+  "start": 107.417,
+  "end": 107.825,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "rains",
+  "start": 107.825,
+  "end": 108.117,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "across",
+  "start": 108.117,
+  "end": 108.466,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "Africa,",
+  "start": 108.466,
+  "end": 108.816,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "and",
+  "start": 108.816,
+  "end": 108.99,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "beyond.",
+  "start": 108.99,
+  "end": 109.34,
+  "sentence": "A green Sahara could shift the winds and"
+ },
+ {
+  "word": "Some",
+  "start": 109.64,
+  "end": 109.92,
+  "sentence": "Some regions might get wetter."
+ },
+ {
+  "word": "regions",
+  "start": 109.92,
+  "end": 110.24,
+  "sentence": "Some regions might get wetter."
+ },
+ {
+  "word": "might",
+  "start": 110.24,
+  "end": 110.52,
+  "sentence": "Some regions might get wetter."
+ },
+ {
+  "word": "get",
+  "start": 110.52,
+  "end": 110.72,
+  "sentence": "Some regions might get wetter."
+ },
+ {
+  "word": "wetter.",
+  "start": 110.72,
+  "end": 111.0,
+  "sentence": "Some regions might get wetter."
+ },
+ {
+  "word": "Others,",
+  "start": 111.52,
+  "end": 111.645,
+  "sentence": "Others, drier."
+ },
+ {
+  "word": "drier.",
+  "start": 111.645,
+  "end": 111.749,
+  "sentence": "Others, drier."
+ },
+ {
+  "word": "Nobody",
+  "start": 111.599,
+  "end": 112.11,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "can",
+  "start": 112.11,
+  "end": 112.366,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "say",
+  "start": 112.366,
+  "end": 112.622,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "for",
+  "start": 112.622,
+  "end": 112.877,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "sure.",
+  "start": 112.877,
+  "end": 113.218,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "But",
+  "start": 113.7,
+  "end": 113.84,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "there's",
+  "start": 113.84,
+  "end": 114.02,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "one",
+  "start": 114.02,
+  "end": 114.18,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "effect",
+  "start": 114.18,
+  "end": 114.34,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "we",
+  "start": 114.34,
+  "end": 114.54,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "can",
+  "start": 114.54,
+  "end": 114.72,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "already",
+  "start": 114.72,
+  "end": 114.88,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "estimate.",
+  "start": 114.88,
+  "end": 115.22,
+  "sentence": "But there's one effect we can already es"
+ },
+ {
+  "word": "And",
+  "start": 115.379,
+  "end": 115.504,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "it",
+  "start": 115.504,
+  "end": 115.587,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "lands",
+  "start": 115.587,
+  "end": 115.795,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "on",
+  "start": 115.795,
+  "end": 115.879,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "the",
+  "start": 115.879,
+  "end": 116.004,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "other",
+  "start": 116.004,
+  "end": 116.212,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "side",
+  "start": 116.212,
+  "end": 116.379,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "of",
+  "start": 116.379,
+  "end": 116.462,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "the",
+  "start": 116.462,
+  "end": 116.587,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "Atlantic.",
+  "start": 116.587,
+  "end": 116.92,
+  "sentence": "And it lands on the other side of the At"
+ },
+ {
+  "word": "Every",
+  "start": 117.78,
+  "end": 117.92,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "year,",
+  "start": 117.92,
+  "end": 118.0,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "wind",
+  "start": 118.0,
+  "end": 118.16,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "lifts",
+  "start": 118.4,
+  "end": 118.68,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "dust",
+  "start": 118.68,
+  "end": 118.9,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "from",
+  "start": 118.9,
+  "end": 119.06,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "the",
+  "start": 119.06,
+  "end": 119.2,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "Sahara",
+  "start": 119.2,
+  "end": 119.42,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "and",
+  "start": 119.42,
+  "end": 119.78,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "carries",
+  "start": 119.78,
+  "end": 119.96,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "it",
+  "start": 119.96,
+  "end": 120.1,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "across",
+  "start": 120.1,
+  "end": 120.28,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "the",
+  "start": 120.28,
+  "end": 120.4,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "ocean.",
+  "start": 120.4,
+  "end": 120.84,
+  "sentence": "Every year, wind lifts dust from the Sah"
+ },
+ {
+  "word": "About",
+  "start": 121.06,
+  "end": 121.22,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "twenty-eight",
+  "start": 121.22,
+  "end": 121.54,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "million",
+  "start": 121.54,
+  "end": 121.82,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "tonnes",
+  "start": 121.82,
+  "end": 122.04,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "of",
+  "start": 122.04,
+  "end": 122.16,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "it",
+  "start": 122.16,
+  "end": 122.32,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "fall",
+  "start": 122.32,
+  "end": 122.44,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "on",
+  "start": 122.44,
+  "end": 122.62,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "the",
+  "start": 122.62,
+  "end": 122.78,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "Amazon.",
+  "start": 122.78,
+  "end": 123.06,
+  "sentence": "About twenty-eight million tonnes of it "
+ },
+ {
+  "word": "Inside",
+  "start": 123.54,
+  "end": 123.76,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "that",
+  "start": 123.76,
+  "end": 124.0,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "dust",
+  "start": 124.0,
+  "end": 124.18,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "is",
+  "start": 124.18,
+  "end": 124.36,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "phosphorus,",
+  "start": 124.36,
+  "end": 124.8,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "a",
+  "start": 125.22,
+  "end": 125.26,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "nutrient",
+  "start": 125.26,
+  "end": 125.56,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "the",
+  "start": 125.56,
+  "end": 125.8,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "rainforest",
+  "start": 125.8,
+  "end": 126.34,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "soil",
+  "start": 126.34,
+  "end": 126.68,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "badly",
+  "start": 126.68,
+  "end": 126.98,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "needs.",
+  "start": 126.98,
+  "end": 127.4,
+  "sentence": "Inside that dust is phosphorus, a nutrie"
+ },
+ {
+  "word": "NASA",
+  "start": 127.88,
+  "end": 128.06,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "satellite",
+  "start": 128.06,
+  "end": 128.4,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "data",
+  "start": 128.4,
+  "end": 128.74,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "suggest",
+  "start": 128.74,
+  "end": 129.18,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "around",
+  "start": 129.18,
+  "end": 129.62,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "twenty-two",
+  "start": 129.62,
+  "end": 130.08,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "thousand",
+  "start": 130.08,
+  "end": 130.36,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "tonnes",
+  "start": 130.36,
+  "end": 130.68,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "arrive",
+  "start": 130.68,
+  "end": 131.06,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "each",
+  "start": 131.06,
+  "end": 131.38,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "year.",
+  "start": 131.38,
+  "end": 131.7,
+  "sentence": "NASA satellite data suggest around twent"
+ },
+ {
+  "word": "Much",
+  "start": 132.04,
+  "end": 132.264,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "of",
+  "start": 132.264,
+  "end": 132.376,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "it",
+  "start": 132.376,
+  "end": 132.488,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "comes",
+  "start": 132.488,
+  "end": 132.768,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "from",
+  "start": 132.768,
+  "end": 132.992,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "one",
+  "start": 132.992,
+  "end": 133.16,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "place,",
+  "start": 133.16,
+  "end": 133.44,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "the",
+  "start": 133.44,
+  "end": 133.608,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "Bod\u00e9l\u00e9",
+  "start": 133.608,
+  "end": 133.944,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "Depression,",
+  "start": 133.944,
+  "end": 134.504,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "the",
+  "start": 134.504,
+  "end": 134.672,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "bed",
+  "start": 134.672,
+  "end": 134.84,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "of",
+  "start": 134.84,
+  "end": 134.952,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "an",
+  "start": 134.952,
+  "end": 135.064,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "ancient",
+  "start": 135.064,
+  "end": 135.456,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "lake.",
+  "start": 135.456,
+  "end": 135.68,
+  "sentence": "Much of it comes from one place, the Bod"
+ },
+ {
+  "word": "These",
+  "start": 135.92,
+  "end": 136.08,
+  "sentence": "These numbers are estimates."
+ },
+ {
+  "word": "numbers",
+  "start": 136.08,
+  "end": 136.28,
+  "sentence": "These numbers are estimates."
+ },
+ {
+  "word": "are",
+  "start": 136.28,
+  "end": 136.58,
+  "sentence": "These numbers are estimates."
+ },
+ {
+  "word": "estimates.",
+  "start": 136.58,
+  "end": 136.92,
+  "sentence": "These numbers are estimates."
+ },
+ {
+  "word": "Some",
+  "start": 137.56,
+  "end": 137.7,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "years",
+  "start": 137.7,
+  "end": 137.82,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "bring",
+  "start": 137.82,
+  "end": 138.08,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "five",
+  "start": 138.08,
+  "end": 138.36,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "times",
+  "start": 138.36,
+  "end": 138.56,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "more",
+  "start": 138.56,
+  "end": 138.7,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "than",
+  "start": 138.7,
+  "end": 138.8,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "others,",
+  "start": 138.8,
+  "end": 139.08,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "and",
+  "start": 139.08,
+  "end": 139.24,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "not",
+  "start": 139.24,
+  "end": 139.38,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "all",
+  "start": 139.38,
+  "end": 139.52,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "the",
+  "start": 139.52,
+  "end": 139.66,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "phosphorus",
+  "start": 139.66,
+  "end": 139.9,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "is",
+  "start": 139.9,
+  "end": 140.2,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "usable",
+  "start": 140.2,
+  "end": 140.36,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "by",
+  "start": 140.36,
+  "end": 140.58,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "plants.",
+  "start": 140.58,
+  "end": 140.94,
+  "sentence": "Some years bring five times more than ot"
+ },
+ {
+  "word": "But",
+  "start": 141.68,
+  "end": 141.86,
+  "sentence": "But the idea holds."
+ },
+ {
+  "word": "the",
+  "start": 141.86,
+  "end": 142.0,
+  "sentence": "But the idea holds."
+ },
+ {
+  "word": "idea",
+  "start": 142.0,
+  "end": 142.18,
+  "sentence": "But the idea holds."
+ },
+ {
+  "word": "holds.",
+  "start": 142.18,
+  "end": 142.66,
+  "sentence": "But the idea holds."
+ },
+ {
+  "word": "The",
+  "start": 143.24,
+  "end": 143.375,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "Amazon",
+  "start": 143.375,
+  "end": 143.646,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "is",
+  "start": 143.646,
+  "end": 143.737,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "partly",
+  "start": 143.737,
+  "end": 144.008,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "fed",
+  "start": 144.008,
+  "end": 144.143,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "by",
+  "start": 144.143,
+  "end": 144.234,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "the",
+  "start": 144.234,
+  "end": 144.369,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "Sahara.",
+  "start": 144.369,
+  "end": 144.64,
+  "sentence": "The Amazon is partly fed by the Sahara."
+ },
+ {
+  "word": "Green",
+  "start": 145.16,
+  "end": 145.416,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "the",
+  "start": 145.416,
+  "end": 145.569,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "Sahara,",
+  "start": 145.569,
+  "end": 145.876,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "and",
+  "start": 145.876,
+  "end": 146.03,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "that",
+  "start": 146.03,
+  "end": 146.235,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "dust",
+  "start": 146.235,
+  "end": 146.439,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "would",
+  "start": 146.439,
+  "end": 146.695,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "likely",
+  "start": 146.695,
+  "end": 147.002,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "slow",
+  "start": 147.002,
+  "end": 147.207,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "or",
+  "start": 147.207,
+  "end": 147.309,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "stop.",
+  "start": 147.309,
+  "end": 147.514,
+  "sentence": "Green the Sahara, and that dust would li"
+ },
+ {
+  "word": "A",
+  "start": 148.1,
+  "end": 148.143,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "forest",
+  "start": 148.143,
+  "end": 148.398,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "that",
+  "start": 148.398,
+  "end": 148.569,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "grows",
+  "start": 148.569,
+  "end": 148.782,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "in",
+  "start": 148.782,
+  "end": 148.867,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "one",
+  "start": 148.867,
+  "end": 148.995,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "desert",
+  "start": 148.995,
+  "end": 149.25,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "could",
+  "start": 149.25,
+  "end": 149.463,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "starve",
+  "start": 149.463,
+  "end": 149.719,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "a",
+  "start": 149.719,
+  "end": 149.762,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "forest",
+  "start": 149.762,
+  "end": 150.017,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "on",
+  "start": 150.017,
+  "end": 150.103,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "the",
+  "start": 150.103,
+  "end": 150.23,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "other",
+  "start": 150.23,
+  "end": 150.443,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "side",
+  "start": 150.443,
+  "end": 150.614,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "of",
+  "start": 150.614,
+  "end": 150.699,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "the",
+  "start": 150.699,
+  "end": 150.827,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "world.",
+  "start": 150.827,
+  "end": 151.04,
+  "sentence": "A forest that grows in one desert could "
+ },
+ {
+  "word": "Forests",
+  "start": 152.3,
+  "end": 152.649,
+  "sentence": "Forests are dark."
+ },
+ {
+  "word": "are",
+  "start": 152.649,
+  "end": 152.798,
+  "sentence": "Forests are dark."
+ },
+ {
+  "word": "dark.",
+  "start": 152.798,
+  "end": 152.997,
+  "sentence": "Forests are dark."
+ },
+ {
+  "word": "Sand",
+  "start": 153.04,
+  "end": 153.2,
+  "sentence": "Sand is bright."
+ },
+ {
+  "word": "is",
+  "start": 153.2,
+  "end": 153.4,
+  "sentence": "Sand is bright."
+ },
+ {
+  "word": "bright.",
+  "start": 153.4,
+  "end": 153.74,
+  "sentence": "Sand is bright."
+ },
+ {
+  "word": "Desert",
+  "start": 154.06,
+  "end": 154.24,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "sand",
+  "start": 154.24,
+  "end": 154.52,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "reflects",
+  "start": 154.52,
+  "end": 154.82,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "roughly",
+  "start": 154.82,
+  "end": 155.2,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "thirty",
+  "start": 155.2,
+  "end": 155.46,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "to",
+  "start": 155.46,
+  "end": 155.58,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "forty",
+  "start": 155.58,
+  "end": 155.76,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "percent",
+  "start": 155.76,
+  "end": 156.08,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "of",
+  "start": 156.08,
+  "end": 156.18,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "sunlight",
+  "start": 156.18,
+  "end": 156.4,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "back",
+  "start": 156.4,
+  "end": 156.66,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "into",
+  "start": 156.66,
+  "end": 156.82,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "space.",
+  "start": 156.82,
+  "end": 157.26,
+  "sentence": "Desert sand reflects roughly thirty to f"
+ },
+ {
+  "word": "A",
+  "start": 157.86,
+  "end": 157.896,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "forest",
+  "start": 157.896,
+  "end": 158.11,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "reflects",
+  "start": 158.11,
+  "end": 158.396,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "only",
+  "start": 158.396,
+  "end": 158.539,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "about",
+  "start": 158.539,
+  "end": 158.718,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "eight",
+  "start": 158.718,
+  "end": 158.896,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "to",
+  "start": 158.896,
+  "end": 158.968,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "fifteen",
+  "start": 158.968,
+  "end": 159.218,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "percent.",
+  "start": 159.218,
+  "end": 159.468,
+  "sentence": "A forest reflects only about eight to fi"
+ },
+ {
+  "word": "Swap",
+  "start": 159.76,
+  "end": 159.937,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "sand",
+  "start": 159.937,
+  "end": 160.113,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "for",
+  "start": 160.113,
+  "end": 160.246,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "forest,",
+  "start": 160.246,
+  "end": 160.511,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "and",
+  "start": 160.511,
+  "end": 160.643,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "the",
+  "start": 160.643,
+  "end": 160.776,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "ground",
+  "start": 160.776,
+  "end": 161.041,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "absorbs",
+  "start": 161.041,
+  "end": 161.35,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "more",
+  "start": 161.35,
+  "end": 161.527,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "sunlight.",
+  "start": 161.527,
+  "end": 161.88,
+  "sentence": "Swap sand for forest, and the ground abs"
+ },
+ {
+  "word": "Trees",
+  "start": 162.24,
+  "end": 162.44,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "also",
+  "start": 162.44,
+  "end": 162.78,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "cool",
+  "start": 162.78,
+  "end": 162.96,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "the",
+  "start": 162.96,
+  "end": 163.12,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "air",
+  "start": 163.12,
+  "end": 163.28,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "by",
+  "start": 163.28,
+  "end": 163.44,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "releasing",
+  "start": 163.44,
+  "end": 163.72,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "water",
+  "start": 163.72,
+  "end": 163.94,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "vapour,",
+  "start": 163.94,
+  "end": 164.26,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "a",
+  "start": 164.44,
+  "end": 164.52,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "little",
+  "start": 164.52,
+  "end": 164.64,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "like",
+  "start": 164.64,
+  "end": 164.88,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "sweating.",
+  "start": 164.88,
+  "end": 165.12,
+  "sentence": "Trees also cool the air by releasing wat"
+ },
+ {
+  "word": "Which",
+  "start": 165.54,
+  "end": 165.76,
+  "sentence": "Which effect wins?"
+ },
+ {
+  "word": "effect",
+  "start": 165.76,
+  "end": 166.06,
+  "sentence": "Which effect wins?"
+ },
+ {
+  "word": "wins?",
+  "start": 166.06,
+  "end": 166.48,
+  "sentence": "Which effect wins?"
+ },
+ {
+  "word": "It",
+  "start": 167.18,
+  "end": 167.283,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "depends",
+  "start": 167.283,
+  "end": 167.642,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "on",
+  "start": 167.642,
+  "end": 167.745,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "where,",
+  "start": 167.745,
+  "end": 168.002,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "and",
+  "start": 168.002,
+  "end": 168.156,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "scientists",
+  "start": 168.156,
+  "end": 168.67,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "argue",
+  "start": 168.67,
+  "end": 168.926,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "about",
+  "start": 168.926,
+  "end": 169.183,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "it.",
+  "start": 169.183,
+  "end": 169.286,
+  "sentence": "It depends on where, and scientists argu"
+ },
+ {
+  "word": "What's",
+  "start": 169.5,
+  "end": 169.8,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "clear",
+  "start": 169.8,
+  "end": 169.96,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "is",
+  "start": 169.96,
+  "end": 170.18,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "that",
+  "start": 170.18,
+  "end": 170.3,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "you",
+  "start": 170.3,
+  "end": 170.44,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "can't",
+  "start": 170.44,
+  "end": 170.82,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "simply",
+  "start": 170.82,
+  "end": 170.98,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "paint",
+  "start": 170.98,
+  "end": 171.16,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "the",
+  "start": 171.16,
+  "end": 171.36,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "planet",
+  "start": 171.36,
+  "end": 171.58,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "green",
+  "start": 171.58,
+  "end": 171.88,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "and",
+  "start": 171.88,
+  "end": 172.14,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "expect",
+  "start": 172.14,
+  "end": 172.3,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "it",
+  "start": 172.3,
+  "end": 172.48,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "to",
+  "start": 172.48,
+  "end": 172.7,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "cool.",
+  "start": 172.7,
+  "end": 172.98,
+  "sentence": "What's clear is that you can't simply pa"
+ },
+ {
+  "word": "Of",
+  "start": 173.56,
+  "end": 173.665,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "course,",
+  "start": 173.665,
+  "end": 173.979,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "trees",
+  "start": 173.979,
+  "end": 174.241,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "also",
+  "start": 174.241,
+  "end": 174.45,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "pull",
+  "start": 174.45,
+  "end": 174.659,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "carbon",
+  "start": 174.659,
+  "end": 174.974,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "dioxide",
+  "start": 174.974,
+  "end": 175.34,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "out",
+  "start": 175.34,
+  "end": 175.497,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "of",
+  "start": 175.497,
+  "end": 175.602,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "the",
+  "start": 175.602,
+  "end": 175.759,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "air.",
+  "start": 175.759,
+  "end": 175.916,
+  "sentence": "Of course, trees also pull carbon dioxid"
+ },
+ {
+  "word": "New",
+  "start": 176.18,
+  "end": 176.3,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "forests",
+  "start": 176.3,
+  "end": 176.54,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "across",
+  "start": 176.54,
+  "end": 176.8,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "a",
+  "start": 176.8,
+  "end": 177.04,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "sixth",
+  "start": 177.04,
+  "end": 177.28,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "of",
+  "start": 177.28,
+  "end": 177.28,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "the",
+  "start": 177.28,
+  "end": 177.38,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "world's",
+  "start": 177.38,
+  "end": 177.74,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "land",
+  "start": 177.74,
+  "end": 177.78,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "could",
+  "start": 177.78,
+  "end": 177.96,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "lock",
+  "start": 177.96,
+  "end": 178.16,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "away",
+  "start": 178.16,
+  "end": 178.32,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "a",
+  "start": 178.32,
+  "end": 178.5,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "great",
+  "start": 178.5,
+  "end": 178.64,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "deal",
+  "start": 178.64,
+  "end": 178.78,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "of",
+  "start": 178.78,
+  "end": 178.98,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "carbon,",
+  "start": 178.98,
+  "end": 179.2,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "if",
+  "start": 179.2,
+  "end": 179.44,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "the",
+  "start": 179.44,
+  "end": 179.62,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "trees",
+  "start": 179.62,
+  "end": 179.78,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "survive",
+  "start": 179.78,
+  "end": 180.2,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "and",
+  "start": 180.2,
+  "end": 180.38,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "keep",
+  "start": 180.38,
+  "end": 180.52,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "growing.",
+  "start": 180.52,
+  "end": 180.92,
+  "sentence": "New forests across a sixth of the world'"
+ },
+ {
+  "word": "But",
+  "start": 181.56,
+  "end": 181.68,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "carbon",
+  "start": 181.68,
+  "end": 181.84,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "stored",
+  "start": 181.84,
+  "end": 182.1,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "in",
+  "start": 182.1,
+  "end": 182.26,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "a",
+  "start": 182.26,
+  "end": 182.38,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "forest",
+  "start": 182.38,
+  "end": 182.54,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "can",
+  "start": 182.54,
+  "end": 182.7,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "return",
+  "start": 182.7,
+  "end": 182.88,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "to",
+  "start": 182.88,
+  "end": 183.08,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "the",
+  "start": 183.08,
+  "end": 183.18,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "air",
+  "start": 183.18,
+  "end": 183.32,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "if",
+  "start": 183.32,
+  "end": 183.44,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "it",
+  "start": 183.44,
+  "end": 183.74,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "burns",
+  "start": 183.74,
+  "end": 183.74,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "or",
+  "start": 183.74,
+  "end": 183.94,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "dies.",
+  "start": 183.94,
+  "end": 184.3,
+  "sentence": "But carbon stored in a forest can return"
+ },
+ {
+  "word": "And",
+  "start": 184.78,
+  "end": 184.84,
+  "sentence": "And forests in dry places burn."
+ },
+ {
+  "word": "forests",
+  "start": 184.84,
+  "end": 184.98,
+  "sentence": "And forests in dry places burn."
+ },
+ {
+  "word": "in",
+  "start": 184.98,
+  "end": 185.12,
+  "sentence": "And forests in dry places burn."
+ },
+ {
+  "word": "dry",
+  "start": 185.12,
+  "end": 185.26,
+  "sentence": "And forests in dry places burn."
+ },
+ {
+  "word": "places",
+  "start": 185.26,
+  "end": 185.52,
+  "sentence": "And forests in dry places burn."
+ },
+ {
+  "word": "burn.",
+  "start": 185.52,
+  "end": 185.86,
+  "sentence": "And forests in dry places burn."
+ },
+ {
+  "word": "So",
+  "start": 186.06,
+  "end": 186.2,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "the",
+  "start": 186.2,
+  "end": 186.34,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "climate",
+  "start": 186.34,
+  "end": 186.52,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "maths",
+  "start": 186.52,
+  "end": 186.82,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "comes",
+  "start": 186.82,
+  "end": 187.14,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "with",
+  "start": 187.14,
+  "end": 187.32,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "a",
+  "start": 187.32,
+  "end": 187.44,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "long",
+  "start": 187.44,
+  "end": 187.66,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "list",
+  "start": 187.66,
+  "end": 187.86,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "of",
+  "start": 187.86,
+  "end": 187.98,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "ifs.",
+  "start": 187.98,
+  "end": 188.44,
+  "sentence": "So the climate maths comes with a long l"
+ },
+ {
+  "word": "Is",
+  "start": 189.18,
+  "end": 189.32,
+  "sentence": "Is there a shortcut?"
+ },
+ {
+  "word": "there",
+  "start": 189.32,
+  "end": 189.5,
+  "sentence": "Is there a shortcut?"
+ },
+ {
+  "word": "a",
+  "start": 189.5,
+  "end": 189.6,
+  "sentence": "Is there a shortcut?"
+ },
+ {
+  "word": "shortcut?",
+  "start": 189.6,
+  "end": 189.86,
+  "sentence": "Is there a shortcut?"
+ },
+ {
+  "word": "One",
+  "start": 190.56,
+  "end": 190.76,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "surprising",
+  "start": 190.76,
+  "end": 191.14,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "answer",
+  "start": 191.14,
+  "end": 191.42,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "comes",
+  "start": 191.42,
+  "end": 191.7,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "from",
+  "start": 191.7,
+  "end": 191.86,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "a",
+  "start": 191.86,
+  "end": 192.0,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "computer",
+  "start": 192.0,
+  "end": 192.18,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "model.",
+  "start": 192.18,
+  "end": 192.56,
+  "sentence": "One surprising answer comes from a compu"
+ },
+ {
+  "word": "In",
+  "start": 192.94,
+  "end": 193.041,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "twenty",
+  "start": 193.041,
+  "end": 193.346,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "eighteen,",
+  "start": 193.346,
+  "end": 193.751,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "scientists",
+  "start": 193.751,
+  "end": 194.259,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "simulated",
+  "start": 194.259,
+  "end": 194.715,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "covering",
+  "start": 194.715,
+  "end": 195.121,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "a",
+  "start": 195.121,
+  "end": 195.171,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "huge",
+  "start": 195.171,
+  "end": 195.374,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "part",
+  "start": 195.374,
+  "end": 195.577,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "of",
+  "start": 195.577,
+  "end": 195.679,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "the",
+  "start": 195.679,
+  "end": 195.831,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "Sahara",
+  "start": 195.831,
+  "end": 196.135,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "with",
+  "start": 196.135,
+  "end": 196.338,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "wind",
+  "start": 196.338,
+  "end": 196.541,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "and",
+  "start": 196.541,
+  "end": 196.693,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "solar",
+  "start": 196.693,
+  "end": 196.946,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "farms.",
+  "start": 196.946,
+  "end": 197.2,
+  "sentence": "In twenty eighteen, scientists simulated"
+ },
+ {
+  "word": "Dark",
+  "start": 197.72,
+  "end": 197.78,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "panels",
+  "start": 197.78,
+  "end": 198.02,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "absorb",
+  "start": 198.02,
+  "end": 198.36,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "more",
+  "start": 198.36,
+  "end": 198.62,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "sunlight",
+  "start": 198.62,
+  "end": 198.84,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "than",
+  "start": 198.84,
+  "end": 199.06,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "pale",
+  "start": 199.06,
+  "end": 199.3,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "sand,",
+  "start": 199.3,
+  "end": 199.6,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "and",
+  "start": 199.74,
+  "end": 199.86,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "that",
+  "start": 199.86,
+  "end": 200.02,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "warms",
+  "start": 200.02,
+  "end": 200.18,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "the",
+  "start": 200.18,
+  "end": 200.32,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "ground.",
+  "start": 200.32,
+  "end": 200.64,
+  "sentence": "Dark panels absorb more sunlight than pa"
+ },
+ {
+  "word": "Turbines",
+  "start": 201.36,
+  "end": 201.641,
+  "sentence": "Turbines stir the air."
+ },
+ {
+  "word": "stir",
+  "start": 201.641,
+  "end": 201.781,
+  "sentence": "Turbines stir the air."
+ },
+ {
+  "word": "the",
+  "start": 201.781,
+  "end": 201.887,
+  "sentence": "Turbines stir the air."
+ },
+ {
+  "word": "air.",
+  "start": 201.887,
+  "end": 201.992,
+  "sentence": "Turbines stir the air."
+ },
+ {
+  "word": "In",
+  "start": 202.54,
+  "end": 202.615,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "the",
+  "start": 202.615,
+  "end": 202.728,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "model,",
+  "start": 202.728,
+  "end": 202.915,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "together",
+  "start": 202.915,
+  "end": 203.216,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "they",
+  "start": 203.216,
+  "end": 203.366,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "pushed",
+  "start": 203.366,
+  "end": 203.591,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "the",
+  "start": 203.591,
+  "end": 203.704,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "rainfall",
+  "start": 203.704,
+  "end": 204.004,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "up.",
+  "start": 204.004,
+  "end": 204.079,
+  "sentence": "In the model, together they pushed the r"
+ },
+ {
+  "word": "Across",
+  "start": 204.56,
+  "end": 204.6,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "the",
+  "start": 204.6,
+  "end": 204.8,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "Sahara,",
+  "start": 204.8,
+  "end": 205.04,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "rain",
+  "start": 205.04,
+  "end": 205.5,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "more",
+  "start": 205.5,
+  "end": 205.66,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "than",
+  "start": 205.66,
+  "end": 205.8,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "doubled.",
+  "start": 205.8,
+  "end": 206.1,
+  "sentence": "Across the Sahara, rain more than double"
+ },
+ {
+  "word": "In",
+  "start": 206.4,
+  "end": 206.517,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "the",
+  "start": 206.517,
+  "end": 206.692,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "Sahel,",
+  "start": 206.692,
+  "end": 206.983,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "the",
+  "start": 206.983,
+  "end": 207.158,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "dry",
+  "start": 207.158,
+  "end": 207.333,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "belt",
+  "start": 207.333,
+  "end": 207.567,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "to",
+  "start": 207.567,
+  "end": 207.683,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "the",
+  "start": 207.683,
+  "end": 207.858,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "south,",
+  "start": 207.858,
+  "end": 208.15,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "it",
+  "start": 208.15,
+  "end": 208.267,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "rose",
+  "start": 208.267,
+  "end": 208.5,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "by",
+  "start": 208.5,
+  "end": 208.617,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "roughly",
+  "start": 208.617,
+  "end": 209.025,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "two",
+  "start": 209.025,
+  "end": 209.2,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "hundred",
+  "start": 209.2,
+  "end": 209.608,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "to",
+  "start": 209.608,
+  "end": 209.725,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "five",
+  "start": 209.725,
+  "end": 209.958,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "hundred",
+  "start": 209.958,
+  "end": 210.367,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "millimetres",
+  "start": 210.367,
+  "end": 211.008,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "a",
+  "start": 211.008,
+  "end": 211.067,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "year.",
+  "start": 211.067,
+  "end": 211.3,
+  "sentence": "In the Sahel, the dry belt to the south,"
+ },
+ {
+  "word": "More",
+  "start": 211.56,
+  "end": 211.76,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "rain",
+  "start": 211.76,
+  "end": 212.0,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "meant",
+  "start": 212.0,
+  "end": 212.18,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "more",
+  "start": 212.18,
+  "end": 212.44,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "plants,",
+  "start": 212.44,
+  "end": 212.76,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "and",
+  "start": 212.76,
+  "end": 212.96,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "more",
+  "start": 212.96,
+  "end": 213.2,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "plants",
+  "start": 213.2,
+  "end": 213.5,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "meant",
+  "start": 213.5,
+  "end": 213.72,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "even",
+  "start": 213.72,
+  "end": 214.0,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "more",
+  "start": 214.0,
+  "end": 214.22,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "rain.",
+  "start": 214.22,
+  "end": 214.62,
+  "sentence": "More rain meant more plants, and more pl"
+ },
+ {
+  "word": "A",
+  "start": 214.98,
+  "end": 215.021,
+  "sentence": "A loop that feeds itself."
+ },
+ {
+  "word": "loop",
+  "start": 215.021,
+  "end": 215.185,
+  "sentence": "A loop that feeds itself."
+ },
+ {
+  "word": "that",
+  "start": 215.185,
+  "end": 215.349,
+  "sentence": "A loop that feeds itself."
+ },
+ {
+  "word": "feeds",
+  "start": 215.349,
+  "end": 215.554,
+  "sentence": "A loop that feeds itself."
+ },
+ {
+  "word": "itself.",
+  "start": 215.554,
+  "end": 215.8,
+  "sentence": "A loop that feeds itself."
+ },
+ {
+  "word": "It's",
+  "start": 216.1,
+  "end": 216.18,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "a",
+  "start": 216.18,
+  "end": 216.24,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "model,",
+  "start": 216.24,
+  "end": 216.42,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "not",
+  "start": 216.42,
+  "end": 216.64,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "a",
+  "start": 216.64,
+  "end": 216.78,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "measurement,",
+  "start": 216.78,
+  "end": 216.96,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "and",
+  "start": 216.96,
+  "end": 217.24,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "the",
+  "start": 217.24,
+  "end": 217.36,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "scale",
+  "start": 217.36,
+  "end": 217.5,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "was",
+  "start": 217.5,
+  "end": 217.7,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "enormous,",
+  "start": 217.7,
+  "end": 217.96,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "about",
+  "start": 218.26,
+  "end": 218.44,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "nine",
+  "start": 218.44,
+  "end": 218.8,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "million",
+  "start": 218.8,
+  "end": 219.0,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "square",
+  "start": 219.0,
+  "end": 219.26,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "kilometres.",
+  "start": 219.26,
+  "end": 219.54,
+  "sentence": "It's a model, not a measurement, and the"
+ },
+ {
+  "word": "But",
+  "start": 220.42,
+  "end": 220.56,
+  "sentence": "But it shows something remarkable."
+ },
+ {
+  "word": "it",
+  "start": 220.56,
+  "end": 220.66,
+  "sentence": "But it shows something remarkable."
+ },
+ {
+  "word": "shows",
+  "start": 220.66,
+  "end": 220.84,
+  "sentence": "But it shows something remarkable."
+ },
+ {
+  "word": "something",
+  "start": 220.84,
+  "end": 221.08,
+  "sentence": "But it shows something remarkable."
+ },
+ {
+  "word": "remarkable.",
+  "start": 221.08,
+  "end": 221.46,
+  "sentence": "But it shows something remarkable."
+ },
+ {
+  "word": "Deserts",
+  "start": 221.92,
+  "end": 222.222,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "and",
+  "start": 222.222,
+  "end": 222.351,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "rain",
+  "start": 222.351,
+  "end": 222.524,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "can",
+  "start": 222.524,
+  "end": 222.653,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "talk",
+  "start": 222.653,
+  "end": 222.826,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "to",
+  "start": 222.826,
+  "end": 222.912,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "each",
+  "start": 222.912,
+  "end": 223.084,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "other.",
+  "start": 223.084,
+  "end": 223.3,
+  "sentence": "Deserts and rain can talk to each other."
+ },
+ {
+  "word": "Then",
+  "start": 224.1,
+  "end": 224.24,
+  "sentence": "Then there are the people."
+ },
+ {
+  "word": "there",
+  "start": 224.24,
+  "end": 224.34,
+  "sentence": "Then there are the people."
+ },
+ {
+  "word": "are",
+  "start": 224.34,
+  "end": 224.44,
+  "sentence": "Then there are the people."
+ },
+ {
+  "word": "the",
+  "start": 224.44,
+  "end": 224.58,
+  "sentence": "Then there are the people."
+ },
+ {
+  "word": "people.",
+  "start": 224.58,
+  "end": 225.08,
+  "sentence": "Then there are the people."
+ },
+ {
+  "word": "Deserts",
+  "start": 225.44,
+  "end": 225.76,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "are",
+  "start": 225.76,
+  "end": 225.92,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "hot",
+  "start": 225.92,
+  "end": 226.12,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "and",
+  "start": 226.12,
+  "end": 226.32,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "dry,",
+  "start": 226.32,
+  "end": 226.66,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "but",
+  "start": 226.72,
+  "end": 226.88,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "the",
+  "start": 226.88,
+  "end": 227.04,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "lands",
+  "start": 227.04,
+  "end": 227.2,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "around",
+  "start": 227.2,
+  "end": 227.48,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "them",
+  "start": 227.48,
+  "end": 227.72,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "aren't",
+  "start": 227.72,
+  "end": 227.94,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "empty.",
+  "start": 227.94,
+  "end": 228.24,
+  "sentence": "Deserts are hot and dry, but the lands a"
+ },
+ {
+  "word": "About",
+  "start": 228.72,
+  "end": 228.998,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "two",
+  "start": 228.998,
+  "end": 229.165,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "point",
+  "start": 229.165,
+  "end": 229.443,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "three",
+  "start": 229.443,
+  "end": 229.721,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "billion",
+  "start": 229.721,
+  "end": 230.11,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "people",
+  "start": 230.11,
+  "end": 230.444,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "live",
+  "start": 230.444,
+  "end": 230.666,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "in",
+  "start": 230.666,
+  "end": 230.777,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "drylands,",
+  "start": 230.777,
+  "end": 231.222,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "which",
+  "start": 231.222,
+  "end": 231.5,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "include",
+  "start": 231.5,
+  "end": 231.889,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "the",
+  "start": 231.889,
+  "end": 232.056,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "semi-arid",
+  "start": 232.056,
+  "end": 232.501,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "regions",
+  "start": 232.501,
+  "end": 232.89,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "bordering",
+  "start": 232.89,
+  "end": 233.391,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "deserts.",
+  "start": 233.391,
+  "end": 233.78,
+  "sentence": "About two point three billion people liv"
+ },
+ {
+  "word": "That's",
+  "start": 234.22,
+  "end": 234.3,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "roughly",
+  "start": 234.3,
+  "end": 234.46,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "three",
+  "start": 234.46,
+  "end": 234.8,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "in",
+  "start": 234.8,
+  "end": 234.84,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "ten",
+  "start": 234.84,
+  "end": 234.96,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "of",
+  "start": 234.96,
+  "end": 235.06,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "all",
+  "start": 235.06,
+  "end": 235.2,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "people",
+  "start": 235.2,
+  "end": 235.36,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "on",
+  "start": 235.36,
+  "end": 235.54,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "Earth.",
+  "start": 235.54,
+  "end": 235.94,
+  "sentence": "That's roughly three in ten of all peopl"
+ },
+ {
+  "word": "Greener",
+  "start": 236.16,
+  "end": 236.472,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "land",
+  "start": 236.472,
+  "end": 236.65,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "could",
+  "start": 236.65,
+  "end": 236.872,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "bring",
+  "start": 236.872,
+  "end": 237.095,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "more",
+  "start": 237.095,
+  "end": 237.273,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "water,",
+  "start": 237.273,
+  "end": 237.496,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "more",
+  "start": 237.496,
+  "end": 237.674,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "grazing",
+  "start": 237.674,
+  "end": 237.986,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "and",
+  "start": 237.986,
+  "end": 238.119,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "more",
+  "start": 238.119,
+  "end": 238.297,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "farms.",
+  "start": 238.297,
+  "end": 238.52,
+  "sentence": "Greener land could bring more water, mor"
+ },
+ {
+  "word": "But",
+  "start": 239.24,
+  "end": 239.401,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "for",
+  "start": 239.401,
+  "end": 239.563,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "nomadic",
+  "start": 239.563,
+  "end": 239.939,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "herding",
+  "start": 239.939,
+  "end": 240.316,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "peoples,",
+  "start": 240.316,
+  "end": 240.692,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "whose",
+  "start": 240.692,
+  "end": 240.961,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "way",
+  "start": 240.961,
+  "end": 241.122,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "of",
+  "start": 241.122,
+  "end": 241.23,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "life",
+  "start": 241.23,
+  "end": 241.445,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "depends",
+  "start": 241.445,
+  "end": 241.821,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "on",
+  "start": 241.821,
+  "end": 241.929,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "open,",
+  "start": 241.929,
+  "end": 242.144,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "dry",
+  "start": 242.144,
+  "end": 242.305,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "land,",
+  "start": 242.305,
+  "end": 242.52,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "a",
+  "start": 242.52,
+  "end": 242.574,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "forest",
+  "start": 242.574,
+  "end": 242.897,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "isn't",
+  "start": 242.897,
+  "end": 243.112,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "automatically",
+  "start": 243.112,
+  "end": 243.811,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "a",
+  "start": 243.811,
+  "end": 243.865,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "gift.",
+  "start": 243.865,
+  "end": 244.08,
+  "sentence": "But for nomadic herding peoples, whose w"
+ },
+ {
+  "word": "Some",
+  "start": 244.52,
+  "end": 244.697,
+  "sentence": "Some would gain."
+ },
+ {
+  "word": "would",
+  "start": 244.697,
+  "end": 244.918,
+  "sentence": "Some would gain."
+ },
+ {
+  "word": "gain.",
+  "start": 244.918,
+  "end": 245.095,
+  "sentence": "Some would gain."
+ },
+ {
+  "word": "Some",
+  "start": 244.945,
+  "end": 245.157,
+  "sentence": "Some would lose."
+ },
+ {
+  "word": "would",
+  "start": 245.157,
+  "end": 245.423,
+  "sentence": "Some would lose."
+ },
+ {
+  "word": "lose.",
+  "start": 245.423,
+  "end": 245.635,
+  "sentence": "Some would lose."
+ },
+ {
+  "word": "And",
+  "start": 245.58,
+  "end": 245.78,
+  "sentence": "And so would the animals."
+ },
+ {
+  "word": "so",
+  "start": 245.78,
+  "end": 245.92,
+  "sentence": "And so would the animals."
+ },
+ {
+  "word": "would",
+  "start": 245.92,
+  "end": 246.04,
+  "sentence": "And so would the animals."
+ },
+ {
+  "word": "the",
+  "start": 246.04,
+  "end": 246.18,
+  "sentence": "And so would the animals."
+ },
+ {
+  "word": "animals.",
+  "start": 246.18,
+  "end": 246.4,
+  "sentence": "And so would the animals."
+ },
+ {
+  "word": "Deserts",
+  "start": 247.04,
+  "end": 247.26,
+  "sentence": "Deserts aren't empty."
+ },
+ {
+  "word": "aren't",
+  "start": 247.26,
+  "end": 247.46,
+  "sentence": "Deserts aren't empty."
+ },
+ {
+  "word": "empty.",
+  "start": 247.46,
+  "end": 247.74,
+  "sentence": "Deserts aren't empty."
+ },
+ {
+  "word": "Plants",
+  "start": 247.633,
+  "end": 248.016,
+  "sentence": "Plants that store water for years."
+ },
+ {
+  "word": "that",
+  "start": 248.016,
+  "end": 248.271,
+  "sentence": "Plants that store water for years."
+ },
+ {
+  "word": "store",
+  "start": 248.271,
+  "end": 248.59,
+  "sentence": "Plants that store water for years."
+ },
+ {
+  "word": "water",
+  "start": 248.59,
+  "end": 248.909,
+  "sentence": "Plants that store water for years."
+ },
+ {
+  "word": "for",
+  "start": 248.909,
+  "end": 249.101,
+  "sentence": "Plants that store water for years."
+ },
+ {
+  "word": "years.",
+  "start": 249.101,
+  "end": 249.42,
+  "sentence": "Plants that store water for years."
+ },
+ {
+  "word": "Insects,",
+  "start": 250.22,
+  "end": 250.66,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "reptiles",
+  "start": 250.66,
+  "end": 250.66,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "and",
+  "start": 250.66,
+  "end": 250.88,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "mammals",
+  "start": 250.88,
+  "end": 251.16,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "built",
+  "start": 251.16,
+  "end": 251.48,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "for",
+  "start": 251.48,
+  "end": 251.66,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "heat",
+  "start": 251.66,
+  "end": 251.88,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "and",
+  "start": 251.88,
+  "end": 252.12,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "very",
+  "start": 252.12,
+  "end": 252.3,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "little",
+  "start": 252.3,
+  "end": 252.54,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "rain.",
+  "start": 252.54,
+  "end": 252.82,
+  "sentence": "Insects, reptiles and mammals built for "
+ },
+ {
+  "word": "They",
+  "start": 253.04,
+  "end": 253.287,
+  "sentence": "They would lose their home."
+ },
+ {
+  "word": "would",
+  "start": 253.287,
+  "end": 253.595,
+  "sentence": "They would lose their home."
+ },
+ {
+  "word": "lose",
+  "start": 253.595,
+  "end": 253.842,
+  "sentence": "They would lose their home."
+ },
+ {
+  "word": "their",
+  "start": 253.842,
+  "end": 254.15,
+  "sentence": "They would lose their home."
+ },
+ {
+  "word": "home.",
+  "start": 254.15,
+  "end": 254.397,
+  "sentence": "They would lose their home."
+ },
+ {
+  "word": "A",
+  "start": 254.28,
+  "end": 254.346,
+  "sentence": "A desert isn't a wasteland."
+ },
+ {
+  "word": "desert",
+  "start": 254.346,
+  "end": 254.744,
+  "sentence": "A desert isn't a wasteland."
+ },
+ {
+  "word": "isn't",
+  "start": 254.744,
+  "end": 255.01,
+  "sentence": "A desert isn't a wasteland."
+ },
+ {
+  "word": "a",
+  "start": 255.01,
+  "end": 255.076,
+  "sentence": "A desert isn't a wasteland."
+ },
+ {
+  "word": "wasteland.",
+  "start": 255.076,
+  "end": 255.673,
+  "sentence": "A desert isn't a wasteland."
+ },
+ {
+  "word": "It's",
+  "start": 255.6,
+  "end": 255.66,
+  "sentence": "It's an ecosystem."
+ },
+ {
+  "word": "an",
+  "start": 255.66,
+  "end": 255.84,
+  "sentence": "It's an ecosystem."
+ },
+ {
+  "word": "ecosystem.",
+  "start": 255.84,
+  "end": 256.26,
+  "sentence": "It's an ecosystem."
+ },
+ {
+  "word": "So",
+  "start": 256.74,
+  "end": 256.851,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "has",
+  "start": 256.851,
+  "end": 257.017,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "anyone",
+  "start": 257.017,
+  "end": 257.35,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "actually",
+  "start": 257.35,
+  "end": 257.794,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "tried",
+  "start": 257.794,
+  "end": 258.071,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "to",
+  "start": 258.071,
+  "end": 258.182,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "green",
+  "start": 258.182,
+  "end": 258.46,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "one?",
+  "start": 258.46,
+  "end": 258.626,
+  "sentence": "So has anyone actually tried to green on"
+ },
+ {
+  "word": "Africa",
+  "start": 259.68,
+  "end": 260.12,
+  "sentence": "Africa has."
+ },
+ {
+  "word": "has.",
+  "start": 260.12,
+  "end": 260.56,
+  "sentence": "Africa has."
+ },
+ {
+  "word": "The",
+  "start": 260.92,
+  "end": 261.057,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "Great",
+  "start": 261.057,
+  "end": 261.284,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "Green",
+  "start": 261.284,
+  "end": 261.512,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "Wall",
+  "start": 261.512,
+  "end": 261.694,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "aims",
+  "start": 261.694,
+  "end": 261.877,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "to",
+  "start": 261.877,
+  "end": 261.968,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "restore",
+  "start": 261.968,
+  "end": 262.287,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "one",
+  "start": 262.287,
+  "end": 262.423,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "hundred",
+  "start": 262.423,
+  "end": 262.742,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "million",
+  "start": 262.742,
+  "end": 263.061,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "hectares",
+  "start": 263.061,
+  "end": 263.425,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "across",
+  "start": 263.425,
+  "end": 263.699,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "the",
+  "start": 263.699,
+  "end": 263.835,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "Sahel",
+  "start": 263.835,
+  "end": 264.063,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "by",
+  "start": 264.063,
+  "end": 264.154,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "twenty",
+  "start": 264.154,
+  "end": 264.428,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "thirty.",
+  "start": 264.428,
+  "end": 264.701,
+  "sentence": "The Great Green Wall aims to restore one"
+ },
+ {
+  "word": "It",
+  "start": 265.08,
+  "end": 265.3,
+  "sentence": "It isn't really a wall."
+ },
+ {
+  "word": "isn't",
+  "start": 265.3,
+  "end": 265.3,
+  "sentence": "It isn't really a wall."
+ },
+ {
+  "word": "really",
+  "start": 265.3,
+  "end": 265.52,
+  "sentence": "It isn't really a wall."
+ },
+ {
+  "word": "a",
+  "start": 265.52,
+  "end": 265.98,
+  "sentence": "It isn't really a wall."
+ },
+ {
+  "word": "wall.",
+  "start": 265.98,
+  "end": 265.98,
+  "sentence": "It isn't really a wall."
+ },
+ {
+  "word": "It's",
+  "start": 266.173,
+  "end": 266.35,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "a",
+  "start": 266.35,
+  "end": 266.408,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "patchwork",
+  "start": 266.408,
+  "end": 266.938,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "of",
+  "start": 266.938,
+  "end": 267.056,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "projects:",
+  "start": 267.056,
+  "end": 267.527,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "trees,",
+  "start": 267.527,
+  "end": 267.821,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "grasses",
+  "start": 267.821,
+  "end": 268.233,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "and",
+  "start": 268.233,
+  "end": 268.409,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "better",
+  "start": 268.409,
+  "end": 268.762,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "farming,",
+  "start": 268.762,
+  "end": 269.174,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "along",
+  "start": 269.174,
+  "end": 269.469,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "a",
+  "start": 269.469,
+  "end": 269.527,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "belt",
+  "start": 269.527,
+  "end": 269.763,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "thousands",
+  "start": 269.763,
+  "end": 270.292,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "of",
+  "start": 270.292,
+  "end": 270.41,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "kilometres",
+  "start": 270.41,
+  "end": 270.999,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "long.",
+  "start": 270.999,
+  "end": 271.234,
+  "sentence": "It's a patchwork of projects: trees, gra"
+ },
+ {
+  "word": "How",
+  "start": 271.6,
+  "end": 271.78,
+  "sentence": "How far along is it?"
+ },
+ {
+  "word": "far",
+  "start": 271.78,
+  "end": 271.96,
+  "sentence": "How far along is it?"
+ },
+ {
+  "word": "along",
+  "start": 271.96,
+  "end": 272.16,
+  "sentence": "How far along is it?"
+ },
+ {
+  "word": "is",
+  "start": 272.16,
+  "end": 272.36,
+  "sentence": "How far along is it?"
+ },
+ {
+  "word": "it?",
+  "start": 272.36,
+  "end": 272.76,
+  "sentence": "How far along is it?"
+ },
+ {
+  "word": "The",
+  "start": 273.02,
+  "end": 273.188,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "official",
+  "start": 273.188,
+  "end": 273.636,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "count",
+  "start": 273.636,
+  "end": 273.916,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "in",
+  "start": 273.916,
+  "end": 274.028,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "twenty",
+  "start": 274.028,
+  "end": 274.364,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "twenty",
+  "start": 274.364,
+  "end": 274.701,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "put",
+  "start": 274.701,
+  "end": 274.869,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "it",
+  "start": 274.869,
+  "end": 274.981,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "at",
+  "start": 274.981,
+  "end": 275.093,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "about",
+  "start": 275.093,
+  "end": 275.373,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "four",
+  "start": 275.373,
+  "end": 275.597,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "percent.",
+  "start": 275.597,
+  "end": 275.989,
+  "sentence": "The official count in twenty twenty put "
+ },
+ {
+  "word": "Counting",
+  "start": 276.16,
+  "end": 276.486,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "the",
+  "start": 276.486,
+  "end": 276.608,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "wider",
+  "start": 276.608,
+  "end": 276.811,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "region,",
+  "start": 276.811,
+  "end": 277.056,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "about",
+  "start": 277.056,
+  "end": 277.259,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "eighteen",
+  "start": 277.259,
+  "end": 277.585,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "percent.",
+  "start": 277.585,
+  "end": 277.87,
+  "sentence": "Counting the wider region, about eightee"
+ },
+ {
+  "word": "To",
+  "start": 278.12,
+  "end": 278.28,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "hit",
+  "start": 278.28,
+  "end": 278.34,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "the",
+  "start": 278.34,
+  "end": 278.52,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "target,",
+  "start": 278.52,
+  "end": 278.66,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "the",
+  "start": 278.88,
+  "end": 278.96,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "countries",
+  "start": 278.96,
+  "end": 279.1,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "involved",
+  "start": 279.1,
+  "end": 279.48,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "would",
+  "start": 279.48,
+  "end": 279.66,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "need",
+  "start": 279.66,
+  "end": 279.8,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "to",
+  "start": 279.8,
+  "end": 279.92,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "restore",
+  "start": 279.92,
+  "end": 280.18,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "about",
+  "start": 280.18,
+  "end": 280.46,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "eight",
+  "start": 280.46,
+  "end": 280.72,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "million",
+  "start": 280.72,
+  "end": 280.88,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "hectares",
+  "start": 280.88,
+  "end": 281.18,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "every",
+  "start": 281.18,
+  "end": 281.56,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "single",
+  "start": 281.56,
+  "end": 281.78,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "year.",
+  "start": 281.78,
+  "end": 282.16,
+  "sentence": "To hit the target, the countries involve"
+ },
+ {
+  "word": "It's",
+  "start": 282.48,
+  "end": 282.62,
+  "sentence": "It's slow."
+ },
+ {
+  "word": "slow.",
+  "start": 282.62,
+  "end": 282.98,
+  "sentence": "It's slow."
+ },
+ {
+  "word": "But",
+  "start": 283.5,
+  "end": 283.78,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "it",
+  "start": 283.78,
+  "end": 283.88,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "has",
+  "start": 283.88,
+  "end": 284.02,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "turned",
+  "start": 284.02,
+  "end": 284.16,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "some",
+  "start": 284.16,
+  "end": 284.36,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "dry",
+  "start": 284.36,
+  "end": 284.6,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "land",
+  "start": 284.6,
+  "end": 284.82,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "into",
+  "start": 284.82,
+  "end": 285.04,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "land",
+  "start": 285.04,
+  "end": 285.26,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "that",
+  "start": 285.26,
+  "end": 285.4,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "can",
+  "start": 285.4,
+  "end": 285.54,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "feed",
+  "start": 285.54,
+  "end": 285.64,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "people.",
+  "start": 285.64,
+  "end": 286.0,
+  "sentence": "But it has turned some dry land into lan"
+ },
+ {
+  "word": "China",
+  "start": 286.0,
+  "end": 286.44,
+  "sentence": "China tried something even bigger."
+ },
+ {
+  "word": "tried",
+  "start": 286.44,
+  "end": 286.7,
+  "sentence": "China tried something even bigger."
+ },
+ {
+  "word": "something",
+  "start": 286.7,
+  "end": 287.04,
+  "sentence": "China tried something even bigger."
+ },
+ {
+  "word": "even",
+  "start": 287.04,
+  "end": 287.34,
+  "sentence": "China tried something even bigger."
+ },
+ {
+  "word": "bigger.",
+  "start": 287.34,
+  "end": 287.78,
+  "sentence": "China tried something even bigger."
+ },
+ {
+  "word": "In",
+  "start": 288.6,
+  "end": 288.72,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "nineteen",
+  "start": 288.72,
+  "end": 289.32,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "seventy-eight,",
+  "start": 289.32,
+  "end": 289.74,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "China",
+  "start": 289.74,
+  "end": 289.98,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "began",
+  "start": 289.98,
+  "end": 290.18,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "a",
+  "start": 290.18,
+  "end": 290.46,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "huge",
+  "start": 290.46,
+  "end": 290.68,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "tree-planting",
+  "start": 290.68,
+  "end": 290.86,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "programme",
+  "start": 290.86,
+  "end": 291.18,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "across",
+  "start": 291.18,
+  "end": 291.46,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "its",
+  "start": 291.46,
+  "end": 291.68,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "dry",
+  "start": 291.68,
+  "end": 291.92,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "north,",
+  "start": 291.92,
+  "end": 292.3,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "and",
+  "start": 292.3,
+  "end": 292.44,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "it",
+  "start": 292.44,
+  "end": 292.62,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "is",
+  "start": 292.62,
+  "end": 292.8,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "still",
+  "start": 292.8,
+  "end": 293.0,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "running.",
+  "start": 293.0,
+  "end": 293.4,
+  "sentence": "In nineteen seventy-eight, China began a"
+ },
+ {
+  "word": "It",
+  "start": 293.68,
+  "end": 293.799,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "helped",
+  "start": 293.799,
+  "end": 294.157,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "hold",
+  "start": 294.157,
+  "end": 294.396,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "some",
+  "start": 294.396,
+  "end": 294.634,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "sand",
+  "start": 294.634,
+  "end": 294.873,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "in",
+  "start": 294.873,
+  "end": 294.992,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "place.",
+  "start": 294.992,
+  "end": 295.29,
+  "sentence": "It helped hold some sand in place."
+ },
+ {
+  "word": "It",
+  "start": 295.26,
+  "end": 295.3,
+  "sentence": "It also ran into limits."
+ },
+ {
+  "word": "also",
+  "start": 295.3,
+  "end": 295.6,
+  "sentence": "It also ran into limits."
+ },
+ {
+  "word": "ran",
+  "start": 295.6,
+  "end": 295.78,
+  "sentence": "It also ran into limits."
+ },
+ {
+  "word": "into",
+  "start": 295.78,
+  "end": 296.0,
+  "sentence": "It also ran into limits."
+ },
+ {
+  "word": "limits.",
+  "start": 296.0,
+  "end": 296.3,
+  "sentence": "It also ran into limits."
+ },
+ {
+  "word": "Critics",
+  "start": 296.68,
+  "end": 296.78,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "say",
+  "start": 296.78,
+  "end": 297.0,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "many",
+  "start": 297.0,
+  "end": 297.26,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "of",
+  "start": 297.26,
+  "end": 297.34,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "the",
+  "start": 297.34,
+  "end": 297.5,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "planted",
+  "start": 297.5,
+  "end": 297.72,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "trees",
+  "start": 297.72,
+  "end": 298.0,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "died,",
+  "start": 298.0,
+  "end": 298.38,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "and",
+  "start": 298.38,
+  "end": 298.58,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "that",
+  "start": 298.58,
+  "end": 298.74,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "too",
+  "start": 298.74,
+  "end": 298.84,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "many",
+  "start": 298.84,
+  "end": 299.02,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "were",
+  "start": 299.02,
+  "end": 299.18,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "the",
+  "start": 299.18,
+  "end": 299.26,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "same",
+  "start": 299.26,
+  "end": 299.38,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "species.",
+  "start": 299.38,
+  "end": 299.8,
+  "sentence": "Critics say many of the planted trees di"
+ },
+ {
+  "word": "And",
+  "start": 300.28,
+  "end": 300.4,
+  "sentence": "And the trees needed water."
+ },
+ {
+  "word": "the",
+  "start": 300.4,
+  "end": 300.52,
+  "sentence": "And the trees needed water."
+ },
+ {
+  "word": "trees",
+  "start": 300.52,
+  "end": 300.72,
+  "sentence": "And the trees needed water."
+ },
+ {
+  "word": "needed",
+  "start": 300.72,
+  "end": 300.96,
+  "sentence": "And the trees needed water."
+ },
+ {
+  "word": "water.",
+  "start": 300.96,
+  "end": 301.16,
+  "sentence": "And the trees needed water."
+ },
+ {
+  "word": "In",
+  "start": 301.62,
+  "end": 301.708,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "some",
+  "start": 301.708,
+  "end": 301.884,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "places,",
+  "start": 301.884,
+  "end": 302.147,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "groundwater",
+  "start": 302.147,
+  "end": 302.63,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "fell",
+  "start": 302.63,
+  "end": 302.806,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "by",
+  "start": 302.806,
+  "end": 302.894,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "as",
+  "start": 302.894,
+  "end": 302.982,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "much",
+  "start": 302.982,
+  "end": 303.157,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "as",
+  "start": 303.157,
+  "end": 303.245,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "nineteen",
+  "start": 303.245,
+  "end": 303.596,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "metres.",
+  "start": 303.596,
+  "end": 303.86,
+  "sentence": "In some places, groundwater fell by as m"
+ },
+ {
+  "word": "More",
+  "start": 304.3,
+  "end": 304.46,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "recently,",
+  "start": 304.46,
+  "end": 304.78,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "some",
+  "start": 304.78,
+  "end": 305.12,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "areas",
+  "start": 305.12,
+  "end": 305.34,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "have",
+  "start": 305.34,
+  "end": 305.62,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "tried",
+  "start": 305.62,
+  "end": 305.82,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "solar",
+  "start": 305.82,
+  "end": 306.0,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "panels",
+  "start": 306.0,
+  "end": 306.32,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "with",
+  "start": 306.32,
+  "end": 306.6,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "plants",
+  "start": 306.6,
+  "end": 306.82,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "growing",
+  "start": 306.82,
+  "end": 307.06,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "beneath",
+  "start": 307.06,
+  "end": 307.28,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "them.",
+  "start": 307.28,
+  "end": 307.76,
+  "sentence": "More recently, some areas have tried sol"
+ },
+ {
+  "word": "Whether",
+  "start": 307.88,
+  "end": 307.98,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "that",
+  "start": 307.98,
+  "end": 308.18,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "works",
+  "start": 308.18,
+  "end": 308.4,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "in",
+  "start": 308.4,
+  "end": 308.52,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "the",
+  "start": 308.52,
+  "end": 308.64,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "long",
+  "start": 308.64,
+  "end": 308.88,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "run",
+  "start": 308.88,
+  "end": 309.08,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "is",
+  "start": 309.08,
+  "end": 309.28,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "still",
+  "start": 309.28,
+  "end": 309.44,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "being",
+  "start": 309.44,
+  "end": 309.66,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "tested.",
+  "start": 309.66,
+  "end": 309.96,
+  "sentence": "Whether that works in the long run is st"
+ },
+ {
+  "word": "The",
+  "start": 310.4,
+  "end": 310.4,
+  "sentence": "The lesson is simple."
+ },
+ {
+  "word": "lesson",
+  "start": 310.4,
+  "end": 310.56,
+  "sentence": "The lesson is simple."
+ },
+ {
+  "word": "is",
+  "start": 310.56,
+  "end": 310.9,
+  "sentence": "The lesson is simple."
+ },
+ {
+  "word": "simple.",
+  "start": 310.9,
+  "end": 311.34,
+  "sentence": "The lesson is simple."
+ },
+ {
+  "word": "Green",
+  "start": 311.8,
+  "end": 311.96,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "only",
+  "start": 311.96,
+  "end": 312.2,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "lasts",
+  "start": 312.2,
+  "end": 312.42,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "where",
+  "start": 312.42,
+  "end": 312.58,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "the",
+  "start": 312.58,
+  "end": 312.8,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "water",
+  "start": 312.8,
+  "end": 312.8,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "does.",
+  "start": 312.8,
+  "end": 313.16,
+  "sentence": "Green only lasts where the water does."
+ },
+ {
+  "word": "So",
+  "start": 313.92,
+  "end": 314.28,
+  "sentence": "So here's the strangest part."
+ },
+ {
+  "word": "here's",
+  "start": 314.28,
+  "end": 314.54,
+  "sentence": "So here's the strangest part."
+ },
+ {
+  "word": "the",
+  "start": 314.54,
+  "end": 314.68,
+  "sentence": "So here's the strangest part."
+ },
+ {
+  "word": "strangest",
+  "start": 314.68,
+  "end": 314.98,
+  "sentence": "So here's the strangest part."
+ },
+ {
+  "word": "part.",
+  "start": 314.98,
+  "end": 315.36,
+  "sentence": "So here's the strangest part."
+ },
+ {
+  "word": "Nature",
+  "start": 315.6,
+  "end": 315.7,
+  "sentence": "Nature has already run this experiment."
+ },
+ {
+  "word": "has",
+  "start": 315.7,
+  "end": 316.12,
+  "sentence": "Nature has already run this experiment."
+ },
+ {
+  "word": "already",
+  "start": 316.12,
+  "end": 316.16,
+  "sentence": "Nature has already run this experiment."
+ },
+ {
+  "word": "run",
+  "start": 316.16,
+  "end": 316.32,
+  "sentence": "Nature has already run this experiment."
+ },
+ {
+  "word": "this",
+  "start": 316.32,
+  "end": 316.52,
+  "sentence": "Nature has already run this experiment."
+ },
+ {
+  "word": "experiment.",
+  "start": 316.52,
+  "end": 316.96,
+  "sentence": "Nature has already run this experiment."
+ },
+ {
+  "word": "The",
+  "start": 317.44,
+  "end": 317.571,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "Sahara",
+  "start": 317.571,
+  "end": 317.833,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "turned",
+  "start": 317.833,
+  "end": 318.095,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "green",
+  "start": 318.095,
+  "end": 318.313,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "on",
+  "start": 318.313,
+  "end": 318.4,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "its",
+  "start": 318.4,
+  "end": 318.531,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "own,",
+  "start": 318.531,
+  "end": 318.662,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "pushed",
+  "start": 318.662,
+  "end": 318.924,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "by",
+  "start": 318.924,
+  "end": 319.012,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "a",
+  "start": 319.012,
+  "end": 319.055,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "wobble",
+  "start": 319.055,
+  "end": 319.317,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "in",
+  "start": 319.317,
+  "end": 319.404,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "Earth's",
+  "start": 319.404,
+  "end": 319.666,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "orbit,",
+  "start": 319.666,
+  "end": 319.885,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "and",
+  "start": 319.885,
+  "end": 320.016,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "then",
+  "start": 320.016,
+  "end": 320.19,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "it",
+  "start": 320.19,
+  "end": 320.277,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "turned",
+  "start": 320.277,
+  "end": 320.539,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "back.",
+  "start": 320.539,
+  "end": 320.714,
+  "sentence": "The Sahara turned green on its own, push"
+ },
+ {
+  "word": "Mostly,",
+  "start": 321.02,
+  "end": 321.257,
+  "sentence": "Mostly, that wasn't people."
+ },
+ {
+  "word": "that",
+  "start": 321.257,
+  "end": 321.416,
+  "sentence": "Mostly, that wasn't people."
+ },
+ {
+  "word": "wasn't",
+  "start": 321.416,
+  "end": 321.614,
+  "sentence": "Mostly, that wasn't people."
+ },
+ {
+  "word": "people.",
+  "start": 321.614,
+  "end": 321.851,
+  "sentence": "Mostly, that wasn't people."
+ },
+ {
+  "word": "It",
+  "start": 321.92,
+  "end": 321.92,
+  "sentence": "It was physics."
+ },
+ {
+  "word": "was",
+  "start": 321.92,
+  "end": 322.06,
+  "sentence": "It was physics."
+ },
+ {
+  "word": "physics.",
+  "start": 322.06,
+  "end": 322.36,
+  "sentence": "It was physics."
+ },
+ {
+  "word": "Which",
+  "start": 322.72,
+  "end": 322.82,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "means",
+  "start": 322.82,
+  "end": 322.96,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "a",
+  "start": 322.96,
+  "end": 323.12,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "green",
+  "start": 323.12,
+  "end": 323.3,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "desert",
+  "start": 323.3,
+  "end": 323.54,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "isn't",
+  "start": 323.54,
+  "end": 323.98,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "only",
+  "start": 323.98,
+  "end": 324.12,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "a",
+  "start": 324.12,
+  "end": 324.3,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "dream.",
+  "start": 324.3,
+  "end": 324.5,
+  "sentence": "Which means a green desert isn't only a "
+ },
+ {
+  "word": "It's",
+  "start": 324.94,
+  "end": 325.108,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "a",
+  "start": 325.108,
+  "end": 325.164,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "state",
+  "start": 325.164,
+  "end": 325.444,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "the",
+  "start": 325.444,
+  "end": 325.612,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "planet",
+  "start": 325.612,
+  "end": 325.948,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "has",
+  "start": 325.948,
+  "end": 326.116,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "been",
+  "start": 326.116,
+  "end": 326.34,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "in",
+  "start": 326.34,
+  "end": 326.452,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "before.",
+  "start": 326.452,
+  "end": 326.788,
+  "sentence": "It's a state the planet has been in befo"
+ },
+ {
+  "word": "And",
+  "start": 326.74,
+  "end": 327.0,
+  "sentence": "And a state it can leave."
+ },
+ {
+  "word": "a",
+  "start": 327.0,
+  "end": 327.1,
+  "sentence": "And a state it can leave."
+ },
+ {
+  "word": "state",
+  "start": 327.1,
+  "end": 327.28,
+  "sentence": "And a state it can leave."
+ },
+ {
+  "word": "it",
+  "start": 327.28,
+  "end": 327.44,
+  "sentence": "And a state it can leave."
+ },
+ {
+  "word": "can",
+  "start": 327.44,
+  "end": 327.58,
+  "sentence": "And a state it can leave."
+ },
+ {
+  "word": "leave.",
+  "start": 327.58,
+  "end": 327.96,
+  "sentence": "And a state it can leave."
+ },
+ {
+  "word": "So",
+  "start": 328.68,
+  "end": 328.82,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "what",
+  "start": 328.82,
+  "end": 328.94,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "if",
+  "start": 328.94,
+  "end": 329.1,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "every",
+  "start": 329.1,
+  "end": 329.34,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "desert",
+  "start": 329.34,
+  "end": 329.54,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "turned",
+  "start": 329.54,
+  "end": 329.92,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "green?",
+  "start": 329.92,
+  "end": 330.42,
+  "sentence": "So what if every desert turned green?"
+ },
+ {
+  "word": "The",
+  "start": 330.92,
+  "end": 331.05,
+  "sentence": "The Amazon might lose its dust."
+ },
+ {
+  "word": "Amazon",
+  "start": 331.05,
+  "end": 331.309,
+  "sentence": "The Amazon might lose its dust."
+ },
+ {
+  "word": "might",
+  "start": 331.309,
+  "end": 331.525,
+  "sentence": "The Amazon might lose its dust."
+ },
+ {
+  "word": "lose",
+  "start": 331.525,
+  "end": 331.698,
+  "sentence": "The Amazon might lose its dust."
+ },
+ {
+  "word": "its",
+  "start": 331.698,
+  "end": 331.827,
+  "sentence": "The Amazon might lose its dust."
+ },
+ {
+  "word": "dust.",
+  "start": 331.827,
+  "end": 332.0,
+  "sentence": "The Amazon might lose its dust."
+ },
+ {
+  "word": "The",
+  "start": 332.6,
+  "end": 332.681,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "winds",
+  "start": 332.681,
+  "end": 332.815,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "and",
+  "start": 332.815,
+  "end": 332.896,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "the",
+  "start": 332.896,
+  "end": 332.977,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "rains",
+  "start": 332.977,
+  "end": 333.111,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "would",
+  "start": 333.111,
+  "end": 333.246,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "shift.",
+  "start": 333.246,
+  "end": 333.38,
+  "sentence": "The winds and the rains would shift."
+ },
+ {
+  "word": "The",
+  "start": 333.78,
+  "end": 333.86,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "planet",
+  "start": 333.86,
+  "end": 333.98,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "could",
+  "start": 333.98,
+  "end": 334.14,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "store",
+  "start": 334.14,
+  "end": 334.28,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "more",
+  "start": 334.28,
+  "end": 334.52,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "carbon,",
+  "start": 334.52,
+  "end": 334.72,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "and",
+  "start": 334.72,
+  "end": 335.14,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "also",
+  "start": 335.14,
+  "end": 335.26,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "absorb",
+  "start": 335.26,
+  "end": 335.56,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "more",
+  "start": 335.56,
+  "end": 335.8,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "sunlight.",
+  "start": 335.8,
+  "end": 336.02,
+  "sentence": "The planet could store more carbon, and "
+ },
+ {
+  "word": "And",
+  "start": 336.36,
+  "end": 336.482,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "the",
+  "start": 336.482,
+  "end": 336.603,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "animals",
+  "start": 336.603,
+  "end": 336.887,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "and",
+  "start": 336.887,
+  "end": 337.009,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "people",
+  "start": 337.009,
+  "end": 337.252,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "of",
+  "start": 337.252,
+  "end": 337.333,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "the",
+  "start": 337.333,
+  "end": 337.455,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "desert",
+  "start": 337.455,
+  "end": 337.698,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "would",
+  "start": 337.698,
+  "end": 337.901,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "lose",
+  "start": 337.901,
+  "end": 338.063,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "their",
+  "start": 338.063,
+  "end": 338.266,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "home.",
+  "start": 338.266,
+  "end": 338.428,
+  "sentence": "And the animals and people of the desert"
+ },
+ {
+  "word": "Maybe",
+  "start": 338.72,
+  "end": 338.82,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "the",
+  "start": 338.82,
+  "end": 338.92,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "lesson",
+  "start": 338.92,
+  "end": 339.12,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "isn't",
+  "start": 339.12,
+  "end": 339.42,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "how",
+  "start": 339.42,
+  "end": 339.54,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "to",
+  "start": 339.54,
+  "end": 339.66,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "remove",
+  "start": 339.66,
+  "end": 339.84,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "deserts.",
+  "start": 339.84,
+  "end": 340.14,
+  "sentence": "Maybe the lesson isn't how to remove des"
+ },
+ {
+  "word": "It's",
+  "start": 340.64,
+  "end": 340.808,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "that",
+  "start": 340.808,
+  "end": 341.031,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "every",
+  "start": 341.031,
+  "end": 341.31,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "landscape",
+  "start": 341.31,
+  "end": 341.813,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "is",
+  "start": 341.813,
+  "end": 341.925,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "a",
+  "start": 341.925,
+  "end": 341.981,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "balance,",
+  "start": 341.981,
+  "end": 342.371,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "and",
+  "start": 342.371,
+  "end": 342.539,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "every",
+  "start": 342.539,
+  "end": 342.818,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "balance",
+  "start": 342.818,
+  "end": 343.209,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "has",
+  "start": 343.209,
+  "end": 343.377,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "a",
+  "start": 343.377,
+  "end": 343.433,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "price.",
+  "start": 343.433,
+  "end": 343.712,
+  "sentence": "It's that every landscape is a balance, "
+ },
+ {
+  "word": "Six",
+  "start": 343.98,
+  "end": 344.159,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "thousand",
+  "start": 344.159,
+  "end": 344.637,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "years",
+  "start": 344.637,
+  "end": 344.935,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "ago,",
+  "start": 344.935,
+  "end": 345.114,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "the",
+  "start": 345.114,
+  "end": 345.293,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "Sahara",
+  "start": 345.293,
+  "end": 345.651,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "was",
+  "start": 345.651,
+  "end": 345.831,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "green.",
+  "start": 345.831,
+  "end": 346.129,
+  "sentence": "Six thousand years ago, the Sahara was g"
+ },
+ {
+  "word": "The",
+  "start": 346.18,
+  "end": 346.26,
+  "sentence": "The rains left."
+ },
+ {
+  "word": "rains",
+  "start": 346.26,
+  "end": 346.48,
+  "sentence": "The rains left."
+ },
+ {
+  "word": "left.",
+  "start": 346.48,
+  "end": 346.96,
+  "sentence": "The rains left."
+ },
+ {
+  "word": "Would",
+  "start": 348.2,
+  "end": 348.28,
+  "sentence": "Would you bring them back?"
+ },
+ {
+  "word": "you",
+  "start": 348.28,
+  "end": 348.38,
+  "sentence": "Would you bring them back?"
+ },
+ {
+  "word": "bring",
+  "start": 348.38,
+  "end": 348.52,
+  "sentence": "Would you bring them back?"
+ },
+ {
+  "word": "them",
+  "start": 348.52,
+  "end": 348.7,
+  "sentence": "Would you bring them back?"
+ },
+ {
+  "word": "back?",
+  "start": 348.7,
+  "end": 349.24,
+  "sentence": "Would you bring them back?"
+ }
+]
