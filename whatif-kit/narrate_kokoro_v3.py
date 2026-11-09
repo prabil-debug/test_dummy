@@ -1,10 +1,11 @@
 """WHAT IF narration v3: phrase-group synthesis, variable (non-templated) pauses, prosody variation, silence budget.
 usage: narrate3.py SCRIPT.md voice out.wav
 Script markers: a line ending with [beat] gets a longer dramatic pause (use sparingly, 1-3 per video)."""
-import sys, re, json, random, numpy as np, onnxruntime as ort, soundfile as sf
+import os, sys, re, json, random, numpy as np, onnxruntime as ort, soundfile as sf
 from kokoro_onnx.tokenizer import Tokenizer
 script, voice, out = sys.argv[1], sys.argv[2], sys.argv[3]
 rnd = random.Random(7)
+PS = float(os.environ.get('PAUSE_SCALE','1.0'))  # optional: scale all non-final pauses (1.0 = original v3)
 GS = 1.35; sr = 24000
 tok = Tokenizer(); sess = ort.InferenceSession("model.onnx")
 vs = np.fromfile(f"{voice}.bin", dtype=np.float32).reshape(-1,1,256)
@@ -75,6 +76,7 @@ for idx,c in enumerate(chunks):
         d=dur*len(s.split())/tot
         timeline.append({"text":s,"section":c["section"],"start":round(tt,3),"end":round(tt+d,3),"chunk":k}); tt+=d
     timeline[-1]["pause_after"]=round(pause,3)
+    if nxt is not None: pause*=PS
     audio+=[a,np.zeros(int(pause*sr),dtype=np.float32)]; t+=dur+pause; pauses.append(pause); k+=1
 a=np.concatenate(audio); sf.write(out,a/max(1,abs(a).max()),sr)
 json.dump(timeline,open(out.replace(".wav","_timeline.json"),"w"),indent=1)

@@ -25,9 +25,9 @@ Legend: [PICK] = my default because you said "go with your picks"; [LOCKED] = yo
 - Rules: no real logos, flags, borders or brand colours; no religious or political symbols; no victims shown for tragedy topics; vary hair and colours for diversity; the narrator character does not lip-sync (voice-over only).
 
 ## Voice
-- Voice type: [LOCKED] male, British, calm documentary tone. Kokoro `bm_george`.
+- Voice type: [LOCKED by user] same voice and tone as channel #1 video #2: Kokoro `am_fenrir`, pitched down about 2 semitones (asetrate 0.89 + atempo 1.1236), -16 LUFS. One voice across all videos and channels; do not change it per video.
 - Engine: [LOCKED] Kokoro stock voice. No cloning.
-- Pace and pauses: narration engine v3 unchanged. Loudness normalised to -16 LUFS. No pitch shift (that was tuned for `am_fenrir`).
+- Pace and pauses: narration engine v3 unchanged. Loudness normalised to -16 LUFS. Optional `PAUSE_SCALE` env var in the v3 engine (this video: 1.1) to hit the 14-16% silence budget.
 
 ## Branding
 - Profile picture: [PICK] the character's head on an indigo circle with a faint gold glow.
