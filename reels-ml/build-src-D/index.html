@@ -113,7 +113,7 @@ function render(t){
     if(lt>sh){const a=back((lt-sh)/0.4); fg+=`<g transform="translate(760,800) scale(${a})"><path d="M0,-190 L150,-130 L150,20 Q150,150 0,210 Q-150,150 -150,20 L-150,-130 Z" fill="${TEAL}" stroke="${NAVY}" stroke-width="10"/><path d="M-22,-70 H22 V-22 H70 V22 H22 V70 H-22 V22 H-70 V-22 H-22 Z" fill="#fff"/></g>`}
     EV.coins.forEach(c=>{const p=(t-c)/0.6; if(p>0&&p<1){fg+=coin(lerp(480,740,ease(p)),lerp(930,780,ease(p))-Math.sin(p*Math.PI)*140,24,1-clamp(p-0.8)*5)}});
     const cl=S("s3",2).start-sc.t0;
-    if(lt>cl){const a=ease((lt-cl)/0.5); fg+=`<g transform="translate(${lerp(1100,520,a)},610)" opacity="${a}"><ellipse cx="0" cy="0" rx="130" ry="60" fill="#5B6B80" stroke="${NAVY}" stroke-width="7"/><ellipse cx="-70" cy="30" rx="80" ry="48" fill="#5B6B80"/><ellipse cx="70" cy="30" rx="80" ry="48" fill="#5B6B80"/><path d="M0,60 L-24,130 L10,120 L-14,190" fill="none" stroke="${YEL}" stroke-width="14" stroke-linejoin="round"/></g>`}
+    if(lt>cl){const a=ease((lt-cl)/0.5); fg+=`<g transform="translate(${lerp(1100,500,a)},720)" opacity="${a}"><ellipse cx="0" cy="0" rx="130" ry="60" fill="#5B6B80" stroke="${NAVY}" stroke-width="7"/><ellipse cx="-70" cy="30" rx="80" ry="48" fill="#5B6B80"/><ellipse cx="70" cy="30" rx="80" ry="48" fill="#5B6B80"/><path d="M0,60 L-24,130 L10,120 L-14,190" fill="none" stroke="${YEL}" stroke-width="14" stroke-linejoin="round"/></g>`}
     fg+=stickman(220,gy,{al:35,ar:-35,bob:idle,look:1,mood:lt<sh?"sad":"smile"});
     top+=pill("ഹെൽത്ത് ഇൻഷുറൻസ്",540,350,CORAL,40)+outlined("കുറച്ച് മാറ്റി വെച്ചു",540,470,64);
   } else if(id==="s4"){
