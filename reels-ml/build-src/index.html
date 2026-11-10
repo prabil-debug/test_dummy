@@ -1,0 +1,166 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"ML";src:url("fonts/noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0;background:#000}
+svg{display:block}
+text{font-family:"ML",sans-serif;font-weight:800}
+</style></head>
+<body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+const NAVY="#1B2A41", YEL="#F2B705", TEAL="#1B9AAA", CORAL="#EF476F", CREAM="#FFF4E0", SKIN="#E8B98A";
+let TL=null, EV=null;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+const easeOut=x=>{x=clamp(x);return 1-Math.pow(1-x,3)};
+const back=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+
+function stickman(x,gy,o={}){
+  const s=o.scale||1, look=o.look||0, mood=o.mood||"smile", al=o.al??18, ar=o.ar??-18, walk=o.walk||0, bob=o.bob||0;
+  const arm=(sx,sy,deg)=>{const r=deg*Math.PI/180;return `M${sx},${sy} L${sx+Math.sin(r)*150},${sy+Math.cos(r)*150}`};
+  const hipY=-190, shY=-362;
+  const legA=Math.sin(walk)*22+9, legB=-Math.sin(walk)*22-9;
+  const leg=(d)=>`M0,${hipY} L${Math.sin(d*Math.PI/180)*95+0},${hipY+Math.cos(d*Math.PI/180)*190}`;
+  const mouth = mood==="smile"?`<path d="M-16,-410 Q0,-390 16,-410" fill="none" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/>`
+    : mood==="open"?`<ellipse cx="0" cy="-404" rx="11" ry="14" fill="${NAVY}"/>`
+    : mood==="sad"?`<path d="M-14,-398 Q0,-412 14,-398" fill="none" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/>`
+    : `<path d="M-12,-402 L12,-402" stroke="${NAVY}" stroke-width="6" stroke-linecap="round"/>`;
+  const ex=look*7;
+  return `<g transform="translate(${x},${gy+bob}) scale(${s})" stroke-linecap="round" stroke-linejoin="round">
+   <path d="${leg(legA)}" stroke="${NAVY}" stroke-width="13" fill="none"/>
+   <path d="${leg(legB)}" stroke="${NAVY}" stroke-width="13" fill="none"/>
+   <path d="M0,${hipY} L0,${shY}" stroke="${NAVY}" stroke-width="13" fill="none"/>
+   <path d="${arm(0,shY+6,al)}" stroke="${NAVY}" stroke-width="12" fill="none"/>
+   <path d="${arm(0,shY+6,ar)}" stroke="${NAVY}" stroke-width="12" fill="none"/>
+   <path d="M-34,${shY-4} L36,${shY+52}" stroke="${YEL}" stroke-width="26" fill="none"/>
+   <path d="M30,${shY+44} L44,${shY+96}" stroke="${YEL}" stroke-width="20" fill="none"/>
+   <circle cx="0" cy="-452" r="52" fill="${SKIN}" stroke="${NAVY}" stroke-width="10"/>
+   <circle cx="0" cy="-516" r="17" fill="${NAVY}"/>
+   <path d="M-8,-504 L0,-500 L8,-504" stroke="${NAVY}" stroke-width="8" fill="none"/>
+   <circle cx="${-21}" cy="-454" r="15" fill="#fff" stroke="${NAVY}" stroke-width="5"/>
+   <circle cx="${21}" cy="-454" r="15" fill="#fff" stroke="${NAVY}" stroke-width="5"/>
+   <path d="M-6,-454 L6,-454" stroke="${NAVY}" stroke-width="5"/>
+   <circle cx="${-21+ex}" cy="-454" r="5" fill="${NAVY}"/><circle cx="${21+ex}" cy="-454" r="5" fill="${NAVY}"/>
+   <g transform="translate(0,-4)">${mouth}</g>
+  </g>`;
+}
+function handPos(x,gy,scale,deg,side){ // approx hand position of an arm
+  const r=deg*Math.PI/180, s=scale||1;
+  return {x:x+Math.sin(r)*150*s, y:gy+(-362+6+Math.cos(r)*150)*s};
+}
+function coin(x,y,r=22,a=1){return `<g opacity="${a}"><circle cx="${x}" cy="${y}" r="${r}" fill="${YEL}" stroke="#B8860B" stroke-width="5"/><text x="${x}" y="${y+r*0.35}" font-size="${r*1.1}" text-anchor="middle" fill="#B8860B" stroke="none">₹</text></g>`}
+function phone(x,y,w=130,h=250,rot=0,col=CORAL){return `<g transform="translate(${x},${y}) rotate(${rot})"><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="22" fill="${NAVY}"/><rect x="${-w/2+8}" y="${-h/2+14}" width="${w-16}" height="${h-28}" rx="14" fill="${col}"/><circle cx="0" cy="${-h/2+7}" r="3" fill="#fff"/><rect x="${-w/4}" y="${-h/6}" width="${w/2}" height="${h/6}" rx="10" fill="#ffffff55"/></g>`}
+function bubbleQ(x,y,sc=1){return `<g transform="translate(${x},${y}) scale(${sc})"><circle r="52" fill="#fff" stroke="${NAVY}" stroke-width="8"/><text y="26" font-size="76" text-anchor="middle" fill="${CORAL}" stroke="none">?</text></g>`}
+function pill(text,x,y,col=CORAL,fs=44){const w=text.length*fs*0.5+60;return `<g transform="translate(${x},${y})"><rect x="${-w/2}" y="-38" width="${w}" height="76" rx="26" fill="${col}" stroke="${NAVY}" stroke-width="6"/><text y="15" font-size="${fs}" text-anchor="middle" fill="#fff" stroke="none">${text}</text></g>`}
+function outlined(text,x,y,fs,fill="#fff",sw=14,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="${NAVY}" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round">${text}</text>`}
+
+function sceneOf(t){
+  const first={}; TL.items.forEach(i=>{if(first[i.sec]===undefined) first[i.sec]=i.start});
+  const order=["hook","s1","s2","s3","s4","close","disc"];
+  let cur="hook";
+  for(const k of order){ if(t>=first[k]-0.15) cur=k; }
+  return {id:cur,t0:first[cur]};
+}
+
+function bg(id,t){
+  const pal={hook:["#9ED8F2","#E6F4FA"],s1:["#CDEAF5","#FFF4E0"],s2:["#FFE9B8","#FFF4E0"],s3:["#BFE8E2","#FFF4E0"],s4:["#FFD3DE","#FFF4E0"],close:["#C9C2F0","#F3E9FF"],disc:["#1B2A41","#2E4463"]}[id];
+  let o=`<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${pal[0]}"/><stop offset="1" stop-color="${pal[1]}"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#g)"/>`;
+  if(id!=="disc"){
+    o+=`<circle cx="900" cy="470" r="70" fill="#FFE27A" opacity=".9"/>`;
+    o+=`<rect x="0" y="1180" width="1080" height="740" fill="#8C4A2F"/><rect x="0" y="1180" width="1080" height="18" fill="#A85D3B"/>`;
+  }
+  return o;
+}
+
+function render(t){
+  const sc=sceneOf(t), id=sc.id, lt=t-sc.t0, svg=document.getElementById("s");
+  const zoom=1+0.035*clamp((t-sc.t0)/6);
+  let b=bg(id,t), fg="", top="", gy=1180;
+  const idle=Math.sin(t*3)*4;
+  if(id==="hook"){
+    // shop on the right
+    fg+=`<rect x="560" y="700" width="480" height="480" fill="${TEAL}" stroke="${NAVY}" stroke-width="8"/><rect x="560" y="700" width="480" height="90" fill="${CORAL}" stroke="${NAVY}" stroke-width="8"/>${outlined("മൊബൈൽസ്",800,768,56,"#fff",10)}<rect x="600" y="820" width="400" height="260" rx="10" fill="#BFE3F5" stroke="${NAVY}" stroke-width="8"/>`;
+    fg+=phone(800,950,120,220,Math.sin(t*2)*6);
+    const walkOff = lt>2.7?ease((lt-2.7)/0.5):0;
+    const x=lerp(260,150,walkOff);
+    const look = lt>2.7? -1:1;
+    const mood = lt<2.7?"open":(lt<4.2?"sad":"smile");
+    fg+=stickman(x,gy,{look,mood,al:lt<2.7?60:10,ar:-12,bob:idle});
+    if(lt>2.9&&lt<4.5){const a=back((lt-2.9)/0.3);fg+=`<g transform="translate(800,950) scale(${a})"><circle r="70" fill="none"/><path d="M-60,-60 L60,60 M60,-60 L-60,60" stroke="${CORAL}" stroke-width="22" stroke-linecap="round"/></g>`}
+    if(lt>4.3){fg+=bubbleQ(x+230,gy-430,back((lt-4.3)/0.35))}
+    // coins raining first 2 s
+    for(let i=0;i<7;i++){const st=0.15+i*0.18; if(lt>st&&lt<st+1.4){const p=(lt-st)/1.4;fg+=coin(160+i*60,lerp(430,1000,p*p),20,1-p*0.4)}}
+    top+=outlined("ആദ്യ ശമ്പളം കിട്ടി",540,345,72);
+    top+=outlined("ഫോൺ വാങ്ങിയില്ല,",540,440,64,"#9BE564");top+=outlined("എന്തിന്?",540,505,64,"#9BE564");
+  } else if(id==="s1"){
+    const popA=back(lt/0.4);
+    fg+=`<g transform="translate(720,780) scale(${popA})"><path d="M0,-190 L150,-130 L150,20 Q150,150 0,210 Q-150,150 -150,20 L-150,-130 Z" fill="${TEAL}" stroke="${NAVY}" stroke-width="10"/><path d="M-22,-70 H22 V-22 H70 V22 H22 V70 H-22 V22 H-70 V-22 H-22 Z" fill="#fff"/></g>`;
+    const cs=EV.coinsS1; const hand=handPos(330,gy,1,60);
+    cs.forEach(c=>{const p=(t-c)/0.7; if(p>0&&p<1){fg+=coin(lerp(hand.x,700,ease(p)),lerp(hand.y,720,ease(p))-Math.sin(p*Math.PI)*120,24,1-clamp(p-0.8)*5)}});
+    const bt=t-EV.bill;
+    if(bt>0&&bt<1.6){const px=bt<0.7?lerp(1060,860,ease(bt/0.7)):lerp(860,1100,ease((bt-0.7)/0.9)); const rot=bt<0.7?-6:(bt-0.7)*40;
+      fg+=`<g transform="translate(${px},960) rotate(${rot})"><rect x="-80" y="-100" width="160" height="200" rx="8" fill="#fff" stroke="${NAVY}" stroke-width="7"/><text y="-30" font-size="40" text-anchor="middle" fill="${CORAL}" stroke="none">ബിൽ</text><path d="M-50,10 H50 M-50,45 H50" stroke="#999" stroke-width="7"/></g>`;
+      if(bt>0.6&&bt<1.0) fg+=`<circle cx="720" cy="800" r="${200+ (bt-0.6)*80}" fill="none" stroke="#fff" stroke-width="12" opacity="${1-(bt-0.6)/0.4}"/>`}
+    fg+=stickman(300,gy,{al:60,ar:-14,bob:idle,look:1});
+    top+=pill("ഘട്ടം 1",540,350)+outlined("ഹെൽത്ത് ഇൻഷുറൻസ്",540,470,70);
+  } else if(id==="s2"){
+    const mi=clamp(Math.floor(EV.coinsS2.filter(c=>t>c+0.5).length),0,6);
+    fg+=`<g transform="translate(790,745) scale(0.85)"><rect x="-130" y="-120" width="260" height="250" rx="22" fill="#fff" stroke="${NAVY}" stroke-width="8"/><rect x="-130" y="-120" width="260" height="70" rx="22" fill="${CORAL}" stroke="${NAVY}" stroke-width="8"/>${outlined("മാസം",0,-68,44,"#fff",8)}<text y="90" font-size="120" text-anchor="middle" fill="${NAVY}" stroke="none">${Math.max(1,mi)}</text></g>`;
+    // jar
+    fg+=`<g transform="translate(790,1050)"><path d="M-90,-150 L-90,100 Q-90,140 -50,140 L50,140 Q90,140 90,100 L90,-150 Z" fill="#ffffff66" stroke="${NAVY}" stroke-width="8"/><rect x="-100" y="-170" width="200" height="26" rx="8" fill="${NAVY}"/></g>`;
+    EV.coinsS2.forEach((c,i)=>{const p=(t-c)/0.45; const fy=1190-(i+1)*20; if(p>=1){fg+=coin(790+((i%2)?18:-18),fy,22)} else if(p>0){fg+=coin(790,lerp(820,fy,ease(p)),22)}});
+    const mood="smile";
+    fg+=stickman(300,gy,{al:40,ar:-14,bob:idle,look:1,mood});
+    top+=pill("ഘട്ടം 2",540,350)+outlined("ഓരോ മാസവും ചെറിയ തുക",540,470,62);
+  } else if(id==="s3"){
+    const full=t>EV.lock+0.6;
+    fg+=`<g transform="translate(760,980)"><path d="M-110,-190 L-110,110 Q-110,160 -60,160 L60,160 Q110,160 110,110 L110,-190 Z" fill="#ffffff66" stroke="${NAVY}" stroke-width="9"/><rect x="-122" y="-212" width="244" height="30" rx="8" fill="${NAVY}"/>`;
+    for(let i=0;i<7;i++){fg+=""}
+    for(let r=0;r<6;r++)for(let c=0;c<3;c++){fg+=coin(-52+c*52,130-r*50,22)}
+    fg+=`</g>`;
+    const lp=clamp((t-EV.lock)/0.4);
+    fg+=`<g transform="translate(760,${lerp(740,830,ease(lp))})"><path d="M-40,0 V-40 Q-40,-90 0,-90 Q40,-90 40,-40 V0" fill="none" stroke="${NAVY}" stroke-width="14"/><rect x="-62" y="0" width="124" height="96" rx="14" fill="${YEL}" stroke="${NAVY}" stroke-width="8"/><circle cx="0" cy="44" r="12" fill="${NAVY}"/></g>`;
+    if(lp>=1){const sp=(t-EV.lock-0.4); fg+=`<circle cx="760" cy="880" r="${90+sp*180}" fill="none" stroke="#fff" stroke-width="10" opacity="${clamp(1-sp*1.6)}"/>`}
+    if(t>20.2){const a=back((t-20.2)/0.4);fg+=`<g transform="translate(520,650) rotate(-5) scale(${a*0.85})"><rect x="-200" y="-70" width="400" height="140" rx="22" fill="#fff" stroke="${NAVY}" stroke-width="8"/>${`<text y="-8" font-size="40" text-anchor="middle" fill="${NAVY}" stroke="none">2–3 മാസത്തെ ശമ്പളം</text><text y="42" font-size="36" text-anchor="middle" fill="${CORAL}" stroke="none">എൻ്റെ ഉദാഹരണം</text>`}</g>`}
+    fg+=stickman(190,gy,{al:full?25:50,ar:-25,bob:idle,look:1,mood:"smile"});
+    top+=pill("ഘട്ടം 3",540,350)+outlined("എമർജൻസി ഫണ്ട്",540,470,72);
+  } else if(id==="s4"){
+    const a=back(lt/0.4);
+    fg+=`<g transform="translate(640,830) scale(${a}) rotate(${Math.sin(t*4)*6})">${phone(0,0,200,380,0,TEAL)}</g>`;
+    for(let i=0;i<14;i++){const cx=100+i*70+((i*37)%30), p=((t*0.6+i*0.13)%1); fg+=`<circle cx="${cx}" cy="${lerp(380,1100,p)}" r="9" fill="${[YEL,CORAL,TEAL][i%3]}"/>`}
+    fg+=stickman(300,gy,{al:70,ar:-20,bob:idle,look:1,mood:"smile",scale:1});
+    top+=outlined("ഫോൺ? വേണം!",540,400,84)+outlined("പക്ഷേ ഇതിന് ശേഷം",540,500,64,"#9BE564");
+  } else if(id==="close"){
+    const a=back(lt/0.4);
+    for(let i=0;i<5;i++){const p=((t*0.35+i*0.2)%1); fg+=coin(160+i*190,lerp(1100,520,p),30,1-Math.abs(p-0.5))}
+    fg+=bubbleQ(780,800,a*1.5);
+    fg+=stickman(330,gy,{al:105,ar:-105,bob:idle,look:1,mood:"smile"});
+    top+=outlined("ബാക്കി പണം",540,400,84)+outlined("എന്ത് ചെയ്യും?",540,505,84,"#9BE564");
+  } else {
+    const a=ease(lt/0.5);
+    fg+=`<g opacity="${a}">`+outlined("ഒരു ഉദാഹരണം മാത്രം",540,800,76,"#fff",10)+outlined("ഉപദേശമല്ല",540,910,76,YEL,10)+outlined("അടുത്ത വീഡിയോ:",540,1060,56,"#fff",8)+outlined("ബാക്കി പണം എന്ത് ചെയ്യും?",540,1140,58,"#9BE564",8)+outlined("ഫോളോ ചെയ്യൂ",540,1260,60,"#fff",8)+`</g>`;
+  }
+  // tag (small disclaimer, top safe area) except end card
+  let tag="";
+  if(id!=="disc") tag=`<g transform="translate(540,560)">${`<rect x="-290" y="-30" width="580" height="58" rx="29" fill="#00000077"/><text y="10" font-size="32" text-anchor="middle" fill="#fff" stroke="none">ഒരു ഉദാഹരണം · ഉപദേശമല്ല</text>`}</g>`;
+  // captions
+  let cap="";
+  const cur=id==='disc'?null:TL.items.find(i=>t>=i.start-0.02&&t<=i.end+0.12);
+  if(cur){
+    const words=cur.text.replace(/[.?]/g,"").trim().split(/\s+/);
+    const chunks=[]; let c=[];
+    for(const w of words){const next=[...c,w].join(" "); if(c.length&&(next.length>22||c.length>=3)){chunks.push(c.join(" "));c=[w]} else c.push(w)}
+    if(c.length) chunks.push(c.join(" "));
+    const tot=chunks.reduce((s,x)=>s+x.length,0); let acc=0, idx=chunks.length-1;
+    const p=clamp((t-cur.start)/(cur.end-cur.start));
+    for(let i=0;i<chunks.length;i++){acc+=chunks[i].length/tot; if(p<=acc){idx=i;break}}
+    const txt=chunks[idx]+(cur.text.endsWith("?")&&idx===chunks.length-1?"?":"");
+    cap=outlined(txt,540,1300,60,"#fff",15);
+  }
+  svg.innerHTML=`<g transform="translate(540,960) scale(${zoom}) translate(-540,-960)">${b}${fg}</g>${top}${tag}${cap}`;
+}
+window.init=async(tl,ev)=>{TL=tl;EV=ev;await document.fonts.load('800 60px ML','ആദ്യ');await document.fonts.ready;};
+window.render=render;
+</script></body></html>
