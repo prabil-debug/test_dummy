@@ -57,3 +57,38 @@ VISUAL: jar with a lock icon; "ഒരു ഉദാഹരണം" tag. VERIFY: wor
 ## CLOSE
 ഇനി അടുത്ത ഘട്ടം: പണം ഇൻവെസ്റ്റ് ചെയ്യുന്നത് എന്തിന്? കമന്റിൽ പറയൂ.
 (Next step: why put money into investments? Tell us in the comments.)
+
+---
+# VERSION C (60 s, standalone, curiosity hook; agreed 2026-11-10: every Reel about 60 s, series Parts only if the first performs)
+STATUS: DRAFT, not reviewed by the user. About 105 spoken words, about 55-60 s with gaps. NO "Part 1" tag. Tags on screen: "ഒരു ഉദാഹരണം" and "പൊതുവായ അറിവ് മാത്രം, ഉപദേശമല്ല". Fictional character speaks in first person.
+
+## HOOK (key phrase in green: "വാങ്ങിയില്ല")
+ആദ്യത്തെ ശമ്പളം കിട്ടി. പുതിയ ഫോൺ വാങ്ങാൻ തോന്നി. പക്ഷേ ഞാൻ വാങ്ങിയില്ല. എന്തിനെന്ന് അറിയാമോ?
+(First salary came. I felt like buying a new phone. But I didn't. Know why?)
+VISUAL: stickman at a phone shop window, a shiny phone; he turns away.
+
+## 1
+ശമ്പളത്തിൽ നിന്ന് കുറച്ച് മാറ്റി വെച്ച് ഞാൻ ഒരു ഹെൽത്ത് ഇൻഷുറൻസ് എടുത്തു. ആശുപത്രി ബിൽ പറഞ്ഞിട്ട് വരില്ലല്ലോ.
+(I set a little aside and took health insurance. A hospital bill does not give notice.)
+VISUAL: coins slide into a shield; a bill pops up and bounces off.
+
+## 2
+പിന്നെ ഓരോ മാസവും ചെറിയൊരു തുക മാറ്റി വെച്ചു. ചെറിയ തുകയാണ്, പക്ഷേ മുടക്കില്ല.
+(Then I set aside a small amount every month. Small, but never skipped.)
+VISUAL: calendar flips, jar fills coin by coin.
+
+## 3
+രണ്ട് മൂന്ന് മാസത്തെ ശമ്പളത്തിന് തുല്യമായപ്പോൾ അത് എൻ്റെ എമർജൻസി ഫണ്ട് ആയി. ഇനി അത്യാവശ്യം വന്നാൽ ആരുടെയും മുന്നിൽ കൈ നീട്ടേണ്ട.
+(When it reached about two to three months of salary, it became my emergency fund. If an urgent need comes, I don't have to ask anyone.) VERIFY: "my example" only; common rule of thumb three to six months.
+VISUAL: jar gets a lock; phone in a friend's hand asks "ഒരു 5000 തരുമോ?" -> NO (avoid showing real money amounts as advice; remove if unsure).
+
+## 4 (payoff of the hook)
+ഫോൺ വേണ്ടേ? വേണം. പക്ഷേ ഇതിന് ശേഷം.
+(Don't I want the phone? I do. But after this.)
+VISUAL: stickman finally holds the phone, smiles.
+
+## CLOSE (question to the next topic, still standalone)
+ഇനിയാണ് ശരിക്കുള്ള ചോദ്യം: ബാക്കി പണം എന്ത് ചെയ്യും? അടുത്ത വീഡിയോയിൽ പറയാം.
+(Now the real question: what to do with the rest of the money? Next video.)
+ഇത് ഒരു ഉദാഹരണം മാത്രം, ഉപദേശമല്ല.
+(This is only an example, not advice.)
