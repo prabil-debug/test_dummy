@@ -5,7 +5,7 @@ Folder rule: everything for this page lives in `reels-ml/`. Nothing here is shar
 
 ## Basics
 - Page name / handle: ASK
-- Niche / content type: ASK
+- Niche / content type: KNOWN (2026-11-10) money, insurance and investing education for Malayalis, curiosity-led "what if" hooks; see NICHE_FINANCE_PLAN.md. Goal: sponsorship income, so education-only and compliant.
 - Target audience and language: KNOWN Malayali audience, Malayalam. ASK register (colloquial vs formal), dialect (central / Malabar / southern), Malayalam-only on screen or some English words.
 - Length and format: KNOWN 1080x1920 (9:16), 30 fps, MP4. DRAFT 20-35 s per Reel (verify Meta's current maximum).
 - Posting plan (not promised publicly): DRAFT 3 Reels a week to start. ASK what the user can sustain, because the user reviews every script.
