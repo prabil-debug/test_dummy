@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:"ML";src:url("/tmp/claude-0/-home-user-test-dummy/47e1ffcc-1af7-5e8e-bef1-43b065556665/scratchpad/fonts_noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0}svg{display:block}text{font-family:"ML",sans-serif;font-weight:800}
+</style></head><body><div id="o"></div><script>
+const NAVY="#1B2A41",YEL="#F2B705",TEAL="#1B9AAA",CORAL="#EF476F",CREAM="#FFF4E0",SKIN="#E8B98A";
+function face(cx,cy,r,mood){ // head with top-knot, glasses, thorthu hint
+  const k=r/52;
+  const mouth=mood==="open"?`<ellipse cx="0" cy="${12*k}" rx="${12*k}" ry="${15*k}" fill="${NAVY}"/>`:`<path d="M${-18*k},${8*k} Q0,${30*k} ${18*k},${8*k}" fill="none" stroke="${NAVY}" stroke-width="${6*k}" stroke-linecap="round"/>`;
+  return `<g transform="translate(${cx},${cy})" stroke-linecap="round" stroke-linejoin="round">
+   <circle cx="0" cy="${-r*1.28}" r="${r*0.34}" fill="${NAVY}"/>
+   <circle cx="0" cy="0" r="${r}" fill="${SKIN}" stroke="${NAVY}" stroke-width="${r*0.19}"/>
+   <circle cx="${-0.4*r}" cy="${-0.04*r}" r="${0.29*r}" fill="#fff" stroke="${NAVY}" stroke-width="${r*0.1}"/>
+   <circle cx="${0.4*r}" cy="${-0.04*r}" r="${0.29*r}" fill="#fff" stroke="${NAVY}" stroke-width="${r*0.1}"/>
+   <path d="M${-0.11*r},${-0.04*r} L${0.11*r},${-0.04*r}" stroke="${NAVY}" stroke-width="${r*0.1}"/>
+   <circle cx="${-0.36*r}" cy="${-0.02*r}" r="${0.1*r}" fill="${NAVY}"/><circle cx="${0.44*r}" cy="${-0.02*r}" r="${0.1*r}" fill="${NAVY}"/>
+   <g transform="translate(0,${r*0.3})">${mouth}</g></g>`;
+}
+function coin(x,y,r){return `<circle cx="${x}" cy="${y}" r="${r}" fill="${YEL}" stroke="#B8860B" stroke-width="${r*0.15}"/><text x="${x}" y="${y+r*0.36}" font-size="${r*1.1}" text-anchor="middle" fill="#B8860B">₹</text>`}
+const V={
+ a:()=>`<svg width="1080" height="1080"><rect width="1080" height="1080" fill="${YEL}"/>${face(540,520,250,"smile")}</svg>`,
+ b:()=>`<svg width="1080" height="1080"><rect width="1080" height="1080" fill="${TEAL}"/><circle cx="540" cy="540" r="470" fill="${CREAM}"/>${face(540,520,230,"smile")}${coin(820,300,80)}</svg>`,
+ c:()=>`<svg width="1080" height="1080"><rect width="1080" height="1080" fill="${NAVY}"/>${coin(540,540,420)}${face(540,560,190,"smile")}</svg>`,
+ // highlight covers 1080x1920 (icon centred, circle-safe)
+ h1:()=>hl(CORAL,`<rect x="-170" y="-110" width="340" height="220" rx="20" fill="${CREAM}" stroke="${NAVY}" stroke-width="12"/><path d="M-170,-110 L0,20 L170,-110" fill="#F8E2B0" stroke="${NAVY}" stroke-width="12"/>`),
+ h2:()=>hl(TEAL,`<path d="M0,-210 L170,-140 L170,30 Q170,170 0,230 Q-170,170 -170,30 L-170,-140 Z" fill="#fff" stroke="${NAVY}" stroke-width="12"/><path d="M-26,-80 H26 V-26 H80 V26 H26 V80 H-26 V26 H-80 V-26 H-26 Z" fill="${CORAL}"/>`),
+ h3:()=>hl(YEL,`<path d="M-120,-170 L-120,130 Q-120,190 -60,190 L60,190 Q120,190 120,130 L120,-170 Z" fill="#ffffffaa" stroke="${NAVY}" stroke-width="12"/><rect x="-136" y="-200" width="272" height="36" rx="10" fill="${NAVY}"/>${[0,1,2].map(i=>coin(-60+i*60,150,28)).join("")}${[0,1,2].map(i=>coin(-30+i*60,100,28)).join("")}`),
+ h4:()=>hl("#6A4C93",`<path d="M-200,160 L-80,20 L0,90 L140,-110 L200,-70" fill="none" stroke="${YEL}" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><path d="M110,-130 L210,-100 L180,-5 Z" fill="${YEL}"/>${coin(-140,-110,60)}`),
+ h5:()=>hl(NAVY,`<path d="M0,-200 L210,170 L-210,170 Z" fill="${YEL}" stroke="#fff" stroke-width="12" stroke-linejoin="round"/><rect x="-14" y="-90" width="28" height="140" rx="12" fill="${NAVY}"/><circle cy="110" r="18" fill="${NAVY}"/>`),
+};
+function hl(bg,inner){return `<svg width="1080" height="1920"><rect width="1080" height="1920" fill="${bg}"/><g transform="translate(540,960) scale(1.7)">${inner}</g></svg>`}
+window.show=id=>{document.getElementById("o").innerHTML=V[id]()};
+</script></body></html>
