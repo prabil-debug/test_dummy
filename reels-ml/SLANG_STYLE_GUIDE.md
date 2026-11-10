@@ -20,5 +20,5 @@ Goal: scripts that sound like the user talking, read by the stock male voice. Th
 ഹെൽത്ത് ഇൻഷുറൻസ്, എമർജൻസി ഫണ്ട്, ഇൻവെസ്റ്റ്മെന്റ്, ഫ്രണ്ട്സ്, ഐഡിയ, സൈബർ പാർക്ക്, പതിനായിരം, chillu words (അച്ഛൻ്റെ), colloquial contractions (എപ്പോഴാ, എന്താ).
 Respelling map (empty until the user reports errors): word -> respelling
 
-## Voice processing (decision pending the user's A/B listen)
+## Voice processing (DECIDED 2026-11-10: user prefers v1, the voice already posted; v2 deeper is NOT used)
 v1 = current. v2 = about 1 semitone deeper (asetrate 0.9439 + atempo 1.0594), +2.5 dB at 140 Hz, -1.5 dB at 300 Hz, +2.5 dB at 3.2 kHz, light compression, -16 LUFS.
