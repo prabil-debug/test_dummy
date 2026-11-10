@@ -1,0 +1,162 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"ML";src:url("fonts/noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0;background:#000}
+svg{display:block}
+text{font-family:"ML",sans-serif;font-weight:800}
+</style></head>
+<body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+const NAVY="#1B2A41", YEL="#F2B705", TEAL="#1B9AAA", CORAL="#EF476F", CREAM="#FFF4E0", SKIN="#E8B98A";
+let TL=null, EV=null;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+const easeOut=x=>{x=clamp(x);return 1-Math.pow(1-x,3)};
+const back=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+
+function stickman(x,gy,o={}){
+  const INK=o.ink||NAVY, TOWEL=o.towel!==false, SK=o.skin||SKIN, s=o.scale||1, look=o.look||0, mood=o.mood||"smile", al=o.al??18, ar=o.ar??-18, walk=o.walk||0, bob=o.bob||0;
+  const arm=(sx,sy,deg)=>{const r=deg*Math.PI/180;return `M${sx},${sy} L${sx+Math.sin(r)*150},${sy+Math.cos(r)*150}`};
+  const hipY=-190, shY=-362;
+  const legA=Math.sin(walk)*22+9, legB=-Math.sin(walk)*22-9;
+  const leg=(d)=>`M0,${hipY} L${Math.sin(d*Math.PI/180)*95+0},${hipY+Math.cos(d*Math.PI/180)*190}`;
+  const mouth = mood==="smile"?`<path d="M-16,-410 Q0,-390 16,-410" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`
+    : mood==="open"?`<ellipse cx="0" cy="-404" rx="11" ry="14" fill="${INK}"/>`
+    : mood==="sad"?`<path d="M-14,-398 Q0,-412 14,-398" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`
+    : `<path d="M-12,-402 L12,-402" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;
+  const ex=look*7;
+  return `<g transform="translate(${x},${gy+bob}) scale(${s})" stroke-linecap="round" stroke-linejoin="round">
+   <path d="${leg(legA)}" stroke="${INK}" stroke-width="13" fill="none"/>
+   <path d="${leg(legB)}" stroke="${INK}" stroke-width="13" fill="none"/>
+   <path d="M0,${hipY} L0,${shY}" stroke="${INK}" stroke-width="13" fill="none"/>
+   <path d="${arm(0,shY+6,al)}" stroke="${INK}" stroke-width="12" fill="none"/>
+   <path d="${arm(0,shY+6,ar)}" stroke="${INK}" stroke-width="12" fill="none"/>
+   ${TOWEL?`<path d="M-34,${shY-4} L36,${shY+52}" stroke="${YEL}" stroke-width="26" fill="none"/>`:""}
+   ${TOWEL?`<path d="M30,${shY+44} L44,${shY+96}" stroke="${YEL}" stroke-width="20" fill="none"/>`:""}
+   <circle cx="0" cy="-452" r="52" fill="${SK}" stroke="${INK}" stroke-width="10"/>
+   <circle cx="0" cy="-516" r="17" fill="${INK}"/>
+   <path d="M-8,-504 L0,-500 L8,-504" stroke="${INK}" stroke-width="8" fill="none"/>
+   <circle cx="${-21}" cy="-454" r="15" fill="#fff" stroke="${INK}" stroke-width="5"/>
+   <circle cx="${21}" cy="-454" r="15" fill="#fff" stroke="${INK}" stroke-width="5"/>
+   <path d="M-6,-454 L6,-454" stroke="${INK}" stroke-width="5"/>
+   <circle cx="${-21+ex}" cy="-454" r="5" fill="${INK}"/><circle cx="${21+ex}" cy="-454" r="5" fill="${INK}"/>
+   <g transform="translate(0,-4)">${mouth}</g>
+  </g>`;
+}
+function handPos(x,gy,scale,deg,side){ // approx hand position of an arm
+  const r=deg*Math.PI/180, s=scale||1;
+  return {x:x+Math.sin(r)*150*s, y:gy+(-362+6+Math.cos(r)*150)*s};
+}
+function coin(x,y,r=22,a=1){return `<g opacity="${a}"><circle cx="${x}" cy="${y}" r="${r}" fill="${YEL}" stroke="#B8860B" stroke-width="5"/><text x="${x}" y="${y+r*0.35}" font-size="${r*1.1}" text-anchor="middle" fill="#B8860B" stroke="none">₹</text></g>`}
+function phone(x,y,w=130,h=250,rot=0,col=CORAL){return `<g transform="translate(${x},${y}) rotate(${rot})"><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="22" fill="${NAVY}"/><rect x="${-w/2+8}" y="${-h/2+14}" width="${w-16}" height="${h-28}" rx="14" fill="${col}"/><circle cx="0" cy="${-h/2+7}" r="3" fill="#fff"/><rect x="${-w/4}" y="${-h/6}" width="${w/2}" height="${h/6}" rx="10" fill="#ffffff55"/></g>`}
+function bubbleQ(x,y,sc=1){return `<g transform="translate(${x},${y}) scale(${sc})"><circle r="52" fill="#fff" stroke="${NAVY}" stroke-width="8"/><text y="26" font-size="76" text-anchor="middle" fill="${CORAL}" stroke="none">?</text></g>`}
+function pill(text,x,y,col=CORAL,fs=44){const w=text.length*fs*0.72+70;return `<g transform="translate(${x},${y})"><rect x="${-w/2}" y="-38" width="${w}" height="76" rx="26" fill="${col}" stroke="${NAVY}" stroke-width="6"/><text y="15" font-size="${fs}" text-anchor="middle" fill="#fff" stroke="none">${text}</text></g>`}
+function outlined(text,x,y,fs,fill="#fff",sw=14,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="${NAVY}" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round">${text}</text>`}
+
+function S(sec,k){return TL.items.filter(i=>i.sec===sec)[k]}
+function sceneOf(t){
+  const first={}; TL.items.forEach(i=>{if(first[i.sec]===undefined) first[i.sec]=i.start});
+  const order=["hook","s1","s2","s3","s4","s5","close","disc"];
+  let cur="hook";
+  for(const k of order){ if(t>=first[k]-0.15) cur=k; }
+  return {id:cur,t0:first[cur]};
+}
+
+function bg(id,t){
+  const pal={hook:["#9ED8F2","#E6F4FA"],s1:["#CDEAF5","#FFF4E0"],s2:["#FFE9B8","#FFF4E0"],s3:["#BFE8E2","#FFF4E0"],s4:["#E3DCF5","#FFF4E0"],s5:["#FFD3DE","#FFF4E0"],close:["#C9C2F0","#F3E9FF"],disc:["#1B2A41","#2E4463"]}[id];
+  let o=`<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${pal[0]}"/><stop offset="1" stop-color="${pal[1]}"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#g)"/>`;
+  if(id!=="disc"){
+    o+=`<circle cx="900" cy="470" r="70" fill="#FFE27A" opacity=".9"/>`;
+    o+=`<rect x="0" y="1180" width="1080" height="740" fill="#8C4A2F"/><rect x="0" y="1180" width="1080" height="18" fill="#A85D3B"/>`;
+  }
+  return o;
+}
+
+function render(t){
+  const sc=sceneOf(t), id=sc.id, lt=t-sc.t0, svg=document.getElementById("s");
+  const zoom=1+0.035*clamp((t-sc.t0)/6);
+  let b=bg(id,t), fg="", top="", gy=1180;
+  const idle=Math.sin(t*3)*4;
+
+  if(id==="hook"){
+    const st=S("hook",1).start-sc.t0;
+    fg+=`<g transform="translate(720,900)"><rect x="-170" y="-100" width="340" height="210" rx="14" fill="${CREAM}" stroke="${NAVY}" stroke-width="8"/><path d="M-170,-100 L0,20 L170,-100" fill="#F8E2B0" stroke="${NAVY}" stroke-width="8"/>${outlined("₹10,000",0,80,70,"#fff",10)}</g>`;
+    for(let i=0;i<8;i++){const q=lt-(st+0.1+i*0.12); if(q>0&&q<1.6){const p=q/1.6;fg+=coin(720+(i-4)*45+p*320,lerp(900,420,p)+Math.sin(p*6+i)*30,20,1-p*0.7)}}
+    const look=1, mood=lt<st?"open":"sad";
+    fg+=stickman(260,gy,{look,mood,al:lt<st?40:150,ar:-14,bob:idle});
+    if(lt>st+0.9) fg+=bubbleQ(440,gy-470,back((lt-st-0.9)/0.35));
+    top+=outlined("ആദ്യ ശമ്പളം",540,345,72);
+    top+=outlined("എവിടെ പോയി?",540,450,72,"#9BE564");
+  } else if(id==="s1"){
+    const st2=S("s1",1).start-sc.t0;
+    fg+=`<rect x="540" y="600" width="500" height="580" fill="#9FB8D4" stroke="${NAVY}" stroke-width="8"/><rect x="540" y="600" width="500" height="90" fill="${TEAL}" stroke="${NAVY}" stroke-width="8"/>${outlined("സൈബർ പാർക്ക്",790,668,50,"#fff",9)}`;
+    for(let r=0;r<4;r++)for(let c=0;c<4;c++){fg+=`<rect x="${575+c*112}" y="${720+r*105}" width="80" height="70" fill="#E8F4FA" stroke="${NAVY}" stroke-width="5"/>`}
+    const wk=lt<1.4?lt*6:0; const x=lt<1.4?lerp(80,300,ease(lt/1.4)):300;
+    fg+=stickman(x,gy,{al:40,ar:-14,bob:idle,look:1,walk:wk});
+    if(lt>st2){fg+=bubbleQ(450,gy-470,back((lt-st2)/0.35)*0.8)}
+    if(lt>S("s1",1).end-sc.t0-1.6){const a=back((lt-(S("s1",1).end-sc.t0-1.6))/0.4);fg+=`<g transform="translate(450,${gy-470}) scale(${a})"><circle r="52" fill="#FFE27A" stroke="${NAVY}" stroke-width="8"/><path d="M-14,20 H14 M-10,34 H10" stroke="${NAVY}" stroke-width="7"/><path d="M0,-30 L0,4" stroke="${NAVY}" stroke-width="7"/></g>`}
+    top+=pill("ആദ്യ ജോലി",540,350)+outlined("കോഴിക്കോട് സൈബർ പാർക്ക്",540,470,56);
+  } else if(id==="s2"){
+    const gi=EV.gifts;
+    const it=(i,draw,x,label)=>{const q=(t-gi[i]); if(q<0) return ""; const a=back(q/0.4); return `<g transform="translate(${x},900) scale(${a})">${draw}</g>`+ (label?`<g transform="translate(${x},${700}) scale(${a})">${pill(label,0,0,TEAL,36)}</g>`:"")};
+    fg+=it(0,`<rect x="-100" y="-70" width="200" height="140" rx="10" fill="${CREAM}" stroke="${NAVY}" stroke-width="8"/><rect x="-100" y="40" width="200" height="30" fill="${YEL}" stroke="${NAVY}" stroke-width="6"/>`,450,"അച്ഛന്");
+    fg+=it(1,`<path d="M-80,-20 L80,-20 L100,90 L-100,90 Z" fill="${CORAL}" stroke="${NAVY}" stroke-width="8"/><path d="M-50,-20 Q-50,-90 0,-90 Q50,-90 50,-20" fill="none" stroke="${NAVY}" stroke-width="10"/>`,700,"അമ്മയ്ക്ക്");
+    fg+=it(2,`<path d="M-90,-80 Q0,-120 90,-80 L110,90 L-110,90 Z" fill="#B5179E" stroke="${NAVY}" stroke-width="8"/><path d="M-100,10 H100 M-104,50 H104" stroke="${YEL}" stroke-width="10"/>`,940,null);
+    fg+=stickman(190,gy,{al:60,ar:-14,bob:idle,look:1,mood:"smile"});
+    top+=pill("ശമ്പളം കിട്ടി",540,350)+outlined("അച്ഛനും അമ്മയ്ക്കും",540,470,64);
+  } else if(id==="s3"){
+    const sh=S("s3",1).start-sc.t0;
+    fg+=`<g transform="translate(470,1000)"><rect x="-90" y="-60" width="180" height="120" rx="14" fill="#7B4B2A" stroke="${NAVY}" stroke-width="8"/><path d="M-90,-60 Q0,-110 90,-60" fill="#8E5A33" stroke="${NAVY}" stroke-width="8"/></g>`;
+    if(lt>sh){const a=back((lt-sh)/0.4); fg+=`<g transform="translate(760,800) scale(${a})"><path d="M0,-190 L150,-130 L150,20 Q150,150 0,210 Q-150,150 -150,20 L-150,-130 Z" fill="${TEAL}" stroke="${NAVY}" stroke-width="10"/><path d="M-22,-70 H22 V-22 H70 V22 H22 V70 H-22 V22 H-70 V-22 H-22 Z" fill="#fff"/></g>`}
+    EV.coins.forEach(c=>{const p=(t-c)/0.6; if(p>0&&p<1){fg+=coin(lerp(480,740,ease(p)),lerp(930,780,ease(p))-Math.sin(p*Math.PI)*140,24,1-clamp(p-0.8)*5)}});
+    const cl=S("s3",2).start-sc.t0;
+    if(lt>cl){const a=ease((lt-cl)/0.5); fg+=`<g transform="translate(${lerp(1100,520,a)},610)" opacity="${a}"><ellipse cx="0" cy="0" rx="130" ry="60" fill="#5B6B80" stroke="${NAVY}" stroke-width="7"/><ellipse cx="-70" cy="30" rx="80" ry="48" fill="#5B6B80"/><ellipse cx="70" cy="30" rx="80" ry="48" fill="#5B6B80"/><path d="M0,60 L-24,130 L10,120 L-14,190" fill="none" stroke="${YEL}" stroke-width="14" stroke-linejoin="round"/></g>`}
+    fg+=stickman(220,gy,{al:35,ar:-35,bob:idle,look:1,mood:lt<sh?"sad":"smile"});
+    top+=pill("ഹെൽത്ത് ഇൻഷുറൻസ്",540,350,CORAL,40)+outlined("കുറച്ച് മാറ്റി വെച്ചു",540,470,64);
+  } else if(id==="s4"){
+    for(let i=0;i<5;i++){const p=((t*0.3+i*0.2)%1); fg+=coin(500+i*120,lerp(1000,520,p),30,1-Math.abs(p-0.5)*1.4)}
+    fg+=bubbleQ(780,820,back(lt/0.4)*1.4);
+    fg+=stickman(280,gy,{al:158,ar:-14,bob:idle,look:1,mood:"neutral"});
+    top+=outlined("ഒരു ഐഡിയയും",540,400,76)+outlined("ഇല്ല",540,500,76,"#9BE564");
+  } else if(id==="s5"){
+    const a=back(lt/0.4);
+    fg+=`<rect x="520" y="1040" width="520" height="26" fill="#7B4B2A" stroke="${NAVY}" stroke-width="6"/><rect x="560" y="1066" width="26" height="114" fill="#7B4B2A"/><rect x="980" y="1066" width="26" height="114" fill="#7B4B2A"/>`;
+    fg+=`<g transform="translate(780,1030) scale(${a})"><ellipse cx="0" cy="0" rx="200" ry="46" fill="#fff" stroke="${NAVY}" stroke-width="8"/><path d="M-150,-4 Q-130,-150 0,-170 Q130,-150 150,-4 Z" fill="#F2A33A" stroke="${NAVY}" stroke-width="8"/><ellipse cx="-50" cy="-90" rx="34" ry="24" fill="#8B4513" stroke="${NAVY}" stroke-width="6"/><ellipse cx="55" cy="-70" rx="30" ry="22" fill="#8B4513" stroke="${NAVY}" stroke-width="6"/><ellipse cx="0" cy="-130" rx="26" ry="20" fill="#fff" stroke="${NAVY}" stroke-width="6"/><circle cx="0" cy="-130" r="9" fill="${YEL}"/></g>`;
+    for(let i=0;i<3;i++){const p=((t*0.7+i*0.33)%1); fg+=`<path d="M${730+i*50},${lerp(850,700,p)} q-14,-26 0,-52 q14,-26 0,-52" fill="none" stroke="#fff" stroke-width="8" opacity="${1-p}" stroke-linecap="round"/>`}
+    fg+=stickman(180,gy,{al:150,ar:-150,bob:idle*2,look:1,mood:"open"});
+    fg+=stickman(380,gy,{al:150,ar:-30,bob:-idle*2,look:1,mood:"smile",towel:false,ink:"#3D5A80",skin:"#D9A066",scale:0.9});
+    top+=outlined("ഫ്രണ്ട്സിനൊപ്പം",540,400,72)+outlined("ബിരിയാണി!",540,505,84,"#9BE564");
+  } else if(id==="close"){
+    const a=back(lt/0.4);
+    fg+=`<g transform="translate(760,830) scale(${a})"><rect x="-150" y="-140" width="300" height="290" rx="22" fill="#fff" stroke="${NAVY}" stroke-width="8"/><rect x="-150" y="-140" width="300" height="80" rx="22" fill="${CORAL}" stroke="${NAVY}" stroke-width="8"/>${outlined("അടുത്ത മാസം",0,-82,40,"#fff",8)}<text y="95" font-size="150" text-anchor="middle" fill="${NAVY}" stroke="none">?</text></g>`;
+    fg+=stickman(300,gy,{al:105,ar:-105,bob:idle,look:1,mood:"smile"});
+    top+=outlined("അടുത്ത മാസം",540,400,80)+outlined("ഞാൻ ചെയ്തത്…",540,505,80,"#9BE564");
+  } else {
+    const a=ease(lt/0.5);
+    fg+=`<g opacity="${a}">`+outlined("ഒരു ഉദാഹരണം മാത്രം",540,800,76,"#fff",10)+outlined("ഉപദേശമല്ല",540,910,76,YEL,10)+outlined("അടുത്ത വീഡിയോ:",540,1060,56,"#fff",8)+outlined("അടുത്ത മാസം ഞാൻ ചെയ്തത്",540,1140,56,"#9BE564",8)+outlined("ഫോളോ ചെയ്യൂ",540,1260,60,"#fff",8)+`</g>`;
+  }
+  // tag (small disclaimer, top safe area) except end card
+  let tag="";
+  if(id!=="disc") tag=`<g transform="translate(540,560)">${`<rect x="-290" y="-30" width="580" height="58" rx="29" fill="#00000077"/><text y="10" font-size="32" text-anchor="middle" fill="#fff" stroke="none">ഒരു ഉദാഹരണം · ഉപദേശമല്ല</text>`}</g>`;
+  // captions
+  let cap="";
+  const cur=id==='disc'?null:TL.items.find(i=>t>=i.start-0.02&&t<=i.end+0.12);
+  if(cur){
+    const words=cur.text.replace(/[.?]/g,"").trim().split(/\s+/);
+    const chunks=[]; let c=[];
+    for(const w of words){const next=[...c,w].join(" "); if(c.length&&(next.length>22||c.length>=3)){chunks.push(c.join(" "));c=[w]} else c.push(w)}
+    if(c.length) chunks.push(c.join(" "));
+    const tot=chunks.reduce((s,x)=>s+x.length,0); let acc=0, idx=chunks.length-1;
+    const p=clamp((t-cur.start)/(cur.end-cur.start));
+    for(let i=0;i<chunks.length;i++){acc+=chunks[i].length/tot; if(p<=acc){idx=i;break}}
+    const txt=chunks[idx]+(cur.text.endsWith("?")&&idx===chunks.length-1?"?":"");
+    cap=outlined(txt,540,1300,60,"#fff",15);
+  }
+  svg.innerHTML=`<g transform="translate(540,960) scale(${zoom}) translate(-540,-960)">${b}${fg}</g>${top}${tag}${cap}`;
+}
+window.init=async(tl,ev)=>{TL=tl;EV=ev;await document.fonts.load('800 60px ML','ആദ്യ');await document.fonts.ready;};
+window.render=render;
+</script></body></html>
