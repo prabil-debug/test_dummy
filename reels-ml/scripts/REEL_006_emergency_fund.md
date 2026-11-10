@@ -9,7 +9,7 @@ STATUS: DRAFT in the user's spoken style. NOT reviewed by the user. Character: R
 ഒരു അത്യാവശ്യം വന്നാൽ ആരോടും ചോദിക്കാതെ എടുക്കാൻ ഒരു പൈസ. അതാണ് എമർജൻസി ഫണ്ട്. ജോലി പോയാലും, ആശുപത്രിയിൽ പോകേണ്ടി വന്നാലും, വണ്ടി കേടായാലും, ഇത് ഒരു സമാധാനമാണ്.
 ## 3
 എത്ര വേണം? പൊതുവേ പറയുന്നത് മൂന്ന് മുതൽ ആറ് മാസത്തെ ചെലവ്. ഞാൻ തുടങ്ങിയത് ഒരു മാസത്തെ ചെലവിൽ നിന്നാണ്. ചെറുതായി തുടങ്ങിയാൽ മതി. പക്ഷേ മുടക്കരുത്.
-(VERIFY before posting: the "3 to 6 months" rule of thumb, from a regulator or investor-education body.)
+(SOURCE FOUND 2026-11-10: NISM investor-education page "Save for Emergencies" says most financial advisors suggest three to six months of household expenses. Cite NISM, not SEBI directly; no SEBI/RBI primary document with the number was found. https://www.nism.ac.in/investor-education/save-for-emergencies)
 ## 4
 ഈ പൈസ വേറെ ഒരു അക്കൗണ്ടിൽ ഇട്ടു. ഫോൺ വാങ്ങാനും ബിരിയാണി അടിക്കാനും എടുക്കില്ല, കേട്ടോ. ആവശ്യം വന്നാൽ ഉടനെ എടുക്കാൻ പറ്റണം, അതാണ് ഇതിൻ്റെ കാര്യം.
 ## 5
