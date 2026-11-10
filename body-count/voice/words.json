@@ -1,0 +1,6752 @@
+[
+ {
+  "word": "Imagine",
+  "start": 0.0,
+  "end": 0.38,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "waking",
+  "start": 0.38,
+  "end": 0.68,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "up",
+  "start": 0.68,
+  "end": 0.88,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "tomorrow,",
+  "start": 0.88,
+  "end": 1.2,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "and",
+  "start": 1.2,
+  "end": 1.38,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "every",
+  "start": 1.38,
+  "end": 1.6,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "person",
+  "start": 1.6,
+  "end": 1.78,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "you",
+  "start": 1.78,
+  "end": 1.98,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "see",
+  "start": 1.98,
+  "end": 2.12,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "has",
+  "start": 2.12,
+  "end": 2.3,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "a",
+  "start": 2.3,
+  "end": 2.42,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "number",
+  "start": 2.42,
+  "end": 2.62,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "floating",
+  "start": 2.62,
+  "end": 2.82,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "above",
+  "start": 2.82,
+  "end": 3.02,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "their",
+  "start": 3.02,
+  "end": 3.2,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "head.",
+  "start": 3.2,
+  "end": 3.68,
+  "sentence": "Imagine waking up tomorrow, and every pe"
+ },
+ {
+  "word": "Not",
+  "start": 3.92,
+  "end": 4.061,
+  "sentence": "Not their age."
+ },
+ {
+  "word": "their",
+  "start": 4.061,
+  "end": 4.295,
+  "sentence": "Not their age."
+ },
+ {
+  "word": "age.",
+  "start": 4.295,
+  "end": 4.436,
+  "sentence": "Not their age."
+ },
+ {
+  "word": "Not",
+  "start": 4.38,
+  "end": 4.522,
+  "sentence": "Not their salary."
+ },
+ {
+  "word": "their",
+  "start": 4.522,
+  "end": 4.76,
+  "sentence": "Not their salary."
+ },
+ {
+  "word": "salary.",
+  "start": 4.76,
+  "end": 5.045,
+  "sentence": "Not their salary."
+ },
+ {
+  "word": "Their",
+  "start": 4.94,
+  "end": 5.04,
+  "sentence": "Their body count."
+ },
+ {
+  "word": "body",
+  "start": 5.04,
+  "end": 5.28,
+  "sentence": "Their body count."
+ },
+ {
+  "word": "count.",
+  "start": 5.28,
+  "end": 5.62,
+  "sentence": "Their body count."
+ },
+ {
+  "word": "The",
+  "start": 5.92,
+  "end": 6.066,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "number",
+  "start": 6.066,
+  "end": 6.359,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "of",
+  "start": 6.359,
+  "end": 6.456,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "people",
+  "start": 6.456,
+  "end": 6.749,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "they've",
+  "start": 6.749,
+  "end": 7.042,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "been",
+  "start": 7.042,
+  "end": 7.237,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "intimate",
+  "start": 7.237,
+  "end": 7.627,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "with.",
+  "start": 7.627,
+  "end": 7.822,
+  "sentence": "The number of people they've been intima"
+ },
+ {
+  "word": "Your",
+  "start": 7.7,
+  "end": 7.992,
+  "sentence": "Your date."
+ },
+ {
+  "word": "date.",
+  "start": 7.992,
+  "end": 8.285,
+  "sentence": "Your date."
+ },
+ {
+  "word": "Your",
+  "start": 8.2,
+  "end": 8.3,
+  "sentence": "Your boss."
+ },
+ {
+  "word": "boss.",
+  "start": 8.3,
+  "end": 8.66,
+  "sentence": "Your boss."
+ },
+ {
+  "word": "Your",
+  "start": 8.9,
+  "end": 9.161,
+  "sentence": "Your best friend."
+ },
+ {
+  "word": "best",
+  "start": 9.161,
+  "end": 9.422,
+  "sentence": "Your best friend."
+ },
+ {
+  "word": "friend.",
+  "start": 9.422,
+  "end": 9.813,
+  "sentence": "Your best friend."
+ },
+ {
+  "word": "The",
+  "start": 9.7,
+  "end": 9.919,
+  "sentence": "The stranger on the train."
+ },
+ {
+  "word": "stranger",
+  "start": 9.919,
+  "end": 10.504,
+  "sentence": "The stranger on the train."
+ },
+ {
+  "word": "on",
+  "start": 10.504,
+  "end": 10.65,
+  "sentence": "The stranger on the train."
+ },
+ {
+  "word": "the",
+  "start": 10.65,
+  "end": 10.87,
+  "sentence": "The stranger on the train."
+ },
+ {
+  "word": "train.",
+  "start": 10.87,
+  "end": 11.235,
+  "sentence": "The stranger on the train."
+ },
+ {
+  "word": "Everyone",
+  "start": 11.08,
+  "end": 11.26,
+  "sentence": "Everyone can see everyone's."
+ },
+ {
+  "word": "can",
+  "start": 11.26,
+  "end": 11.54,
+  "sentence": "Everyone can see everyone's."
+ },
+ {
+  "word": "see",
+  "start": 11.54,
+  "end": 11.72,
+  "sentence": "Everyone can see everyone's."
+ },
+ {
+  "word": "everyone's.",
+  "start": 11.72,
+  "end": 12.52,
+  "sentence": "Everyone can see everyone's."
+ },
+ {
+  "word": "Nobody",
+  "start": 12.54,
+  "end": 12.8,
+  "sentence": "Nobody can hide it."
+ },
+ {
+  "word": "can",
+  "start": 12.8,
+  "end": 13.1,
+  "sentence": "Nobody can hide it."
+ },
+ {
+  "word": "hide",
+  "start": 13.1,
+  "end": 13.28,
+  "sentence": "Nobody can hide it."
+ },
+ {
+  "word": "it.",
+  "start": 13.28,
+  "end": 13.78,
+  "sentence": "Nobody can hide it."
+ },
+ {
+  "word": "What",
+  "start": 14.72,
+  "end": 14.82,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "would",
+  "start": 14.82,
+  "end": 14.92,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "the",
+  "start": 14.92,
+  "end": 15.04,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "world",
+  "start": 15.04,
+  "end": 15.24,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "do",
+  "start": 15.24,
+  "end": 15.4,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "with",
+  "start": 15.4,
+  "end": 15.54,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "that",
+  "start": 15.54,
+  "end": 15.68,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "number?",
+  "start": 15.68,
+  "end": 16.1,
+  "sentence": "What would the world do with that number"
+ },
+ {
+  "word": "Let's",
+  "start": 16.6,
+  "end": 16.775,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "find",
+  "start": 16.775,
+  "end": 16.949,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "out.",
+  "start": 16.949,
+  "end": 17.08,
+  "sentence": "Let's find out."
+ },
+ {
+  "word": "First,",
+  "start": 18.06,
+  "end": 18.3,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "the",
+  "start": 18.3,
+  "end": 18.443,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "rules.",
+  "start": 18.443,
+  "end": 18.683,
+  "sentence": "First, the rules."
+ },
+ {
+  "word": "The",
+  "start": 18.533,
+  "end": 18.684,
+  "sentence": "The number is exact."
+ },
+ {
+  "word": "number",
+  "start": 18.684,
+  "end": 18.987,
+  "sentence": "The number is exact."
+ },
+ {
+  "word": "is",
+  "start": 18.987,
+  "end": 19.088,
+  "sentence": "The number is exact."
+ },
+ {
+  "word": "exact.",
+  "start": 19.088,
+  "end": 19.34,
+  "sentence": "The number is exact."
+ },
+ {
+  "word": "It",
+  "start": 19.78,
+  "end": 19.866,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "counts",
+  "start": 19.866,
+  "end": 20.126,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "everyone,",
+  "start": 20.126,
+  "end": 20.471,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "however",
+  "start": 20.471,
+  "end": 20.773,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "you'd",
+  "start": 20.773,
+  "end": 20.946,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "define",
+  "start": 20.946,
+  "end": 21.205,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "it,",
+  "start": 21.205,
+  "end": 21.292,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "and",
+  "start": 21.292,
+  "end": 21.421,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "it",
+  "start": 21.421,
+  "end": 21.508,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "never",
+  "start": 21.508,
+  "end": 21.723,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "goes",
+  "start": 21.723,
+  "end": 21.896,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "down.",
+  "start": 21.896,
+  "end": 22.069,
+  "sentence": "It counts everyone, however you'd define"
+ },
+ {
+  "word": "It's",
+  "start": 22.38,
+  "end": 22.6,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "visible",
+  "start": 22.6,
+  "end": 22.7,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "to",
+  "start": 22.7,
+  "end": 22.94,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "all,",
+  "start": 22.94,
+  "end": 23.14,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "all",
+  "start": 23.14,
+  "end": 23.34,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "the",
+  "start": 23.34,
+  "end": 23.5,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "time.",
+  "start": 23.5,
+  "end": 23.88,
+  "sentence": "It's visible to all, all the time."
+ },
+ {
+  "word": "So,",
+  "start": 24.16,
+  "end": 24.38,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "what's",
+  "start": 24.38,
+  "end": 24.6,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "the",
+  "start": 24.6,
+  "end": 24.72,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "first",
+  "start": 24.72,
+  "end": 24.94,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "thing",
+  "start": 24.94,
+  "end": 25.16,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "people",
+  "start": 25.16,
+  "end": 25.42,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "would",
+  "start": 25.42,
+  "end": 25.66,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "do?",
+  "start": 25.66,
+  "end": 26.04,
+  "sentence": "So, what's the first thing people would "
+ },
+ {
+  "word": "They'd",
+  "start": 26.54,
+  "end": 26.84,
+  "sentence": "They'd look."
+ },
+ {
+  "word": "look.",
+  "start": 26.84,
+  "end": 27.14,
+  "sentence": "They'd look."
+ },
+ {
+  "word": "And",
+  "start": 27.74,
+  "end": 27.863,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "then,",
+  "start": 27.863,
+  "end": 28.026,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "in",
+  "start": 28.026,
+  "end": 28.108,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "total",
+  "start": 28.108,
+  "end": 28.313,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "silence,",
+  "start": 28.313,
+  "end": 28.599,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "they'd",
+  "start": 28.599,
+  "end": 28.803,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "look",
+  "start": 28.803,
+  "end": 28.967,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "at",
+  "start": 28.967,
+  "end": 29.049,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "their",
+  "start": 29.049,
+  "end": 29.253,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "own.",
+  "start": 29.253,
+  "end": 29.376,
+  "sentence": "And then, in total silence, they'd look "
+ },
+ {
+  "word": "But",
+  "start": 29.96,
+  "end": 30.04,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "before",
+  "start": 30.04,
+  "end": 30.32,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "anyone",
+  "start": 30.32,
+  "end": 30.56,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "can",
+  "start": 30.56,
+  "end": 30.74,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "trust",
+  "start": 30.74,
+  "end": 30.9,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "the",
+  "start": 30.9,
+  "end": 31.04,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "number,",
+  "start": 31.04,
+  "end": 31.22,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "there's",
+  "start": 31.3,
+  "end": 31.46,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "a",
+  "start": 31.46,
+  "end": 31.56,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "problem.",
+  "start": 31.56,
+  "end": 32.0,
+  "sentence": "But before anyone can trust the number, "
+ },
+ {
+  "word": "Researchers",
+  "start": 32.82,
+  "end": 33.1,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "who",
+  "start": 33.1,
+  "end": 33.4,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "study",
+  "start": 33.4,
+  "end": 33.54,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "this",
+  "start": 33.54,
+  "end": 33.68,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "point",
+  "start": 33.68,
+  "end": 33.84,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "out",
+  "start": 33.84,
+  "end": 34.0,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "that",
+  "start": 34.0,
+  "end": 34.14,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "people",
+  "start": 34.14,
+  "end": 34.28,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "don't",
+  "start": 34.28,
+  "end": 34.48,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "agree",
+  "start": 34.48,
+  "end": 34.68,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "on",
+  "start": 34.68,
+  "end": 34.82,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "what",
+  "start": 34.82,
+  "end": 34.98,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "counts.",
+  "start": 34.98,
+  "end": 35.38,
+  "sentence": "Researchers who study this point out tha"
+ },
+ {
+  "word": "Ask",
+  "start": 35.78,
+  "end": 35.898,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "a",
+  "start": 35.898,
+  "end": 35.937,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "hundred",
+  "start": 35.937,
+  "end": 36.211,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "people",
+  "start": 36.211,
+  "end": 36.446,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "what",
+  "start": 36.446,
+  "end": 36.603,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "they'd",
+  "start": 36.603,
+  "end": 36.799,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "include,",
+  "start": 36.799,
+  "end": 37.073,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "and",
+  "start": 37.073,
+  "end": 37.191,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "you",
+  "start": 37.191,
+  "end": 37.308,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "get",
+  "start": 37.308,
+  "end": 37.426,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "a",
+  "start": 37.426,
+  "end": 37.465,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "hundred",
+  "start": 37.465,
+  "end": 37.739,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "slightly",
+  "start": 37.739,
+  "end": 38.053,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "different",
+  "start": 38.053,
+  "end": 38.406,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "answers.",
+  "start": 38.406,
+  "end": 38.68,
+  "sentence": "Ask a hundred people what they'd include"
+ },
+ {
+  "word": "So",
+  "start": 39.2,
+  "end": 39.36,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "in",
+  "start": 39.36,
+  "end": 39.46,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "our",
+  "start": 39.46,
+  "end": 39.68,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "story,",
+  "start": 39.68,
+  "end": 39.96,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "the",
+  "start": 40.06,
+  "end": 40.16,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "number",
+  "start": 40.16,
+  "end": 40.34,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "is",
+  "start": 40.34,
+  "end": 40.6,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "simply",
+  "start": 40.6,
+  "end": 40.88,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "fixed,",
+  "start": 40.88,
+  "end": 41.14,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "by",
+  "start": 41.14,
+  "end": 41.38,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "magic,",
+  "start": 41.38,
+  "end": 41.72,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "and",
+  "start": 41.72,
+  "end": 42.04,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "nobody",
+  "start": 42.04,
+  "end": 42.32,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "gets",
+  "start": 42.32,
+  "end": 42.66,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "to",
+  "start": 42.66,
+  "end": 42.84,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "argue.",
+  "start": 42.84,
+  "end": 43.16,
+  "sentence": "So in our story, the number is simply fi"
+ },
+ {
+  "word": "In",
+  "start": 43.44,
+  "end": 43.58,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "real",
+  "start": 43.58,
+  "end": 43.78,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "life,",
+  "start": 43.78,
+  "end": 44.12,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "every",
+  "start": 44.16,
+  "end": 44.48,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "survey",
+  "start": 44.48,
+  "end": 44.72,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "asks",
+  "start": 44.72,
+  "end": 45.12,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "the",
+  "start": 45.12,
+  "end": 45.34,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "question,",
+  "start": 45.34,
+  "end": 45.64,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "and",
+  "start": 45.64,
+  "end": 46.02,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "every",
+  "start": 46.02,
+  "end": 46.3,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "person",
+  "start": 46.3,
+  "end": 46.66,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "quietly",
+  "start": 46.66,
+  "end": 47.04,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "answers",
+  "start": 47.04,
+  "end": 47.4,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "a",
+  "start": 47.4,
+  "end": 47.68,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "different",
+  "start": 47.68,
+  "end": 47.84,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "one.",
+  "start": 47.84,
+  "end": 48.26,
+  "sentence": "In real life, every survey asks the ques"
+ },
+ {
+  "word": "That",
+  "start": 48.44,
+  "end": 48.6,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "means",
+  "start": 48.6,
+  "end": 48.84,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "the",
+  "start": 48.84,
+  "end": 49.02,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "numbers",
+  "start": 49.02,
+  "end": 49.24,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "we",
+  "start": 49.24,
+  "end": 49.48,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "have",
+  "start": 49.48,
+  "end": 49.62,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "are",
+  "start": 49.62,
+  "end": 49.8,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "already",
+  "start": 49.8,
+  "end": 50.08,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "shakier",
+  "start": 50.08,
+  "end": 50.42,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "than",
+  "start": 50.42,
+  "end": 50.54,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "they",
+  "start": 50.54,
+  "end": 50.72,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "look.",
+  "start": 50.72,
+  "end": 51.02,
+  "sentence": "That means the numbers we have are alrea"
+ },
+ {
+  "word": "And",
+  "start": 51.3,
+  "end": 51.4,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "that",
+  "start": 51.4,
+  "end": 51.48,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "leads",
+  "start": 51.48,
+  "end": 51.64,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "to",
+  "start": 51.64,
+  "end": 51.78,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "the",
+  "start": 51.78,
+  "end": 51.84,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "first",
+  "start": 51.84,
+  "end": 52.0,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "surprise.",
+  "start": 52.0,
+  "end": 52.44,
+  "sentence": "And that leads to the first surprise."
+ },
+ {
+  "word": "In",
+  "start": 53.34,
+  "end": 53.48,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "surveys,",
+  "start": 53.48,
+  "end": 53.7,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "men",
+  "start": 53.7,
+  "end": 54.06,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "tend",
+  "start": 54.06,
+  "end": 54.2,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "to",
+  "start": 54.2,
+  "end": 54.32,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "report",
+  "start": 54.32,
+  "end": 54.48,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "more",
+  "start": 54.48,
+  "end": 54.74,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "partners",
+  "start": 54.74,
+  "end": 54.98,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "than",
+  "start": 54.98,
+  "end": 55.16,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "women,",
+  "start": 55.16,
+  "end": 55.54,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "even",
+  "start": 55.54,
+  "end": 55.78,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "though,",
+  "start": 55.78,
+  "end": 55.98,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "on",
+  "start": 55.98,
+  "end": 56.14,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "average,",
+  "start": 56.14,
+  "end": 56.4,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "the",
+  "start": 56.4,
+  "end": 56.6,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "numbers",
+  "start": 56.6,
+  "end": 56.72,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "should",
+  "start": 56.72,
+  "end": 56.96,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "match.",
+  "start": 56.96,
+  "end": 57.32,
+  "sentence": "In surveys, men tend to report more part"
+ },
+ {
+  "word": "Researchers",
+  "start": 57.72,
+  "end": 58.0,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "think",
+  "start": 58.0,
+  "end": 58.34,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "some",
+  "start": 58.34,
+  "end": 58.5,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "people",
+  "start": 58.5,
+  "end": 58.72,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "exaggerate,",
+  "start": 58.72,
+  "end": 59.2,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "and",
+  "start": 59.2,
+  "end": 59.36,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "some",
+  "start": 59.36,
+  "end": 59.5,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "people",
+  "start": 59.5,
+  "end": 59.64,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "hide.",
+  "start": 59.64,
+  "end": 59.98,
+  "sentence": "Researchers think some people exaggerate"
+ },
+ {
+  "word": "In",
+  "start": 60.22,
+  "end": 60.31,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "a",
+  "start": 60.31,
+  "end": 60.354,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "small",
+  "start": 60.354,
+  "end": 60.578,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "study",
+  "start": 60.578,
+  "end": 60.802,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "from",
+  "start": 60.802,
+  "end": 60.981,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "two",
+  "start": 60.981,
+  "end": 61.115,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "thousand",
+  "start": 61.115,
+  "end": 61.474,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "three,",
+  "start": 61.474,
+  "end": 61.697,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "volunteers",
+  "start": 61.697,
+  "end": 62.145,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "were",
+  "start": 62.145,
+  "end": 62.324,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "hooked",
+  "start": 62.324,
+  "end": 62.593,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "up",
+  "start": 62.593,
+  "end": 62.682,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "to",
+  "start": 62.682,
+  "end": 62.772,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "a",
+  "start": 62.772,
+  "end": 62.817,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "fake",
+  "start": 62.817,
+  "end": 62.996,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "lie",
+  "start": 62.996,
+  "end": 63.13,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "detector",
+  "start": 63.13,
+  "end": 63.488,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "before",
+  "start": 63.488,
+  "end": 63.757,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "answering.",
+  "start": 63.757,
+  "end": 64.16,
+  "sentence": "In a small study from two thousand three"
+ },
+ {
+  "word": "Under",
+  "start": 64.54,
+  "end": 64.68,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "that",
+  "start": 64.68,
+  "end": 64.86,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "pressure,",
+  "start": 64.86,
+  "end": 65.16,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "the",
+  "start": 65.32,
+  "end": 65.42,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "gap",
+  "start": 65.42,
+  "end": 65.64,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "between",
+  "start": 65.64,
+  "end": 65.92,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "men's",
+  "start": 65.92,
+  "end": 66.3,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "and",
+  "start": 66.3,
+  "end": 66.42,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "women's",
+  "start": 66.42,
+  "end": 67.1,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "answers",
+  "start": 67.1,
+  "end": 67.1,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "almost",
+  "start": 67.1,
+  "end": 67.46,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "disappeared.",
+  "start": 67.46,
+  "end": 67.86,
+  "sentence": "Under that pressure, the gap between men"
+ },
+ {
+  "word": "It",
+  "start": 68.34,
+  "end": 68.48,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "was",
+  "start": 68.48,
+  "end": 68.54,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "only",
+  "start": 68.54,
+  "end": 68.74,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "a",
+  "start": 68.74,
+  "end": 68.88,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "small",
+  "start": 68.88,
+  "end": 69.12,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "study,",
+  "start": 69.12,
+  "end": 69.46,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "but",
+  "start": 69.46,
+  "end": 69.64,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "it",
+  "start": 69.64,
+  "end": 69.76,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "hints",
+  "start": 69.76,
+  "end": 69.92,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "at",
+  "start": 69.92,
+  "end": 70.1,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "something.",
+  "start": 70.1,
+  "end": 70.36,
+  "sentence": "It was only a small study, but it hints "
+ },
+ {
+  "word": "With",
+  "start": 70.82,
+  "end": 70.96,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "a",
+  "start": 70.96,
+  "end": 71.2,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "visible",
+  "start": 71.2,
+  "end": 71.32,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "number,",
+  "start": 71.32,
+  "end": 71.72,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "nobody",
+  "start": 71.82,
+  "end": 72.04,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "could",
+  "start": 72.04,
+  "end": 72.36,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "round",
+  "start": 72.36,
+  "end": 72.58,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "up,",
+  "start": 72.58,
+  "end": 72.82,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "and",
+  "start": 72.82,
+  "end": 73.02,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "nobody",
+  "start": 73.02,
+  "end": 73.34,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "could",
+  "start": 73.34,
+  "end": 73.66,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "round",
+  "start": 73.66,
+  "end": 73.84,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "down.",
+  "start": 73.84,
+  "end": 74.16,
+  "sentence": "With a visible number, nobody could roun"
+ },
+ {
+  "word": "Honesty",
+  "start": 74.5,
+  "end": 74.74,
+  "sentence": "Honesty by force."
+ },
+ {
+  "word": "by",
+  "start": 74.74,
+  "end": 75.0,
+  "sentence": "Honesty by force."
+ },
+ {
+  "word": "force.",
+  "start": 75.0,
+  "end": 75.38,
+  "sentence": "Honesty by force."
+ },
+ {
+  "word": "But",
+  "start": 76.0,
+  "end": 76.14,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "the",
+  "start": 76.14,
+  "end": 76.24,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "real",
+  "start": 76.24,
+  "end": 76.42,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "shock",
+  "start": 76.42,
+  "end": 76.64,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "isn't",
+  "start": 76.64,
+  "end": 76.86,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "who",
+  "start": 76.86,
+  "end": 77.02,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "was",
+  "start": 77.02,
+  "end": 77.16,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "lying.",
+  "start": 77.16,
+  "end": 77.44,
+  "sentence": "But the real shock isn't who was lying."
+ },
+ {
+  "word": "It's",
+  "start": 77.68,
+  "end": 77.76,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "what",
+  "start": 77.76,
+  "end": 77.88,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "the",
+  "start": 77.88,
+  "end": 78.0,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "average",
+  "start": 78.0,
+  "end": 78.1,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "turns",
+  "start": 78.1,
+  "end": 78.34,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "out",
+  "start": 78.34,
+  "end": 78.46,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "to",
+  "start": 78.46,
+  "end": 78.62,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "be.",
+  "start": 78.62,
+  "end": 79.06,
+  "sentence": "It's what the average turns out to be."
+ },
+ {
+  "word": "Most",
+  "start": 79.92,
+  "end": 80.1,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "people",
+  "start": 80.1,
+  "end": 80.32,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "assume",
+  "start": 80.32,
+  "end": 80.54,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "everyone",
+  "start": 80.54,
+  "end": 80.78,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "else",
+  "start": 80.78,
+  "end": 81.06,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "has",
+  "start": 81.06,
+  "end": 81.18,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "a",
+  "start": 81.18,
+  "end": 81.26,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "much",
+  "start": 81.26,
+  "end": 81.4,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "bigger",
+  "start": 81.4,
+  "end": 81.6,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "number",
+  "start": 81.6,
+  "end": 81.8,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "than",
+  "start": 81.8,
+  "end": 81.98,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "they",
+  "start": 81.98,
+  "end": 82.06,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "do.",
+  "start": 82.06,
+  "end": 82.38,
+  "sentence": "Most people assume everyone else has a m"
+ },
+ {
+  "word": "In",
+  "start": 82.88,
+  "end": 83.023,
+  "sentence": "In big U.S."
+ },
+ {
+  "word": "big",
+  "start": 83.023,
+  "end": 83.237,
+  "sentence": "In big U.S."
+ },
+ {
+  "word": "U.S.",
+  "start": 83.237,
+  "end": 83.38,
+  "sentence": "In big U.S."
+ },
+ {
+  "word": "surveys,",
+  "start": 84.26,
+  "end": 84.676,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "the",
+  "start": 84.676,
+  "end": 84.855,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "typical",
+  "start": 84.855,
+  "end": 85.271,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "number,",
+  "start": 85.271,
+  "end": 85.628,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "the",
+  "start": 85.628,
+  "end": 85.806,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "median,",
+  "start": 85.806,
+  "end": 86.163,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "has",
+  "start": 86.163,
+  "end": 86.341,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "sat",
+  "start": 86.341,
+  "end": 86.519,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "at",
+  "start": 86.519,
+  "end": 86.638,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "around",
+  "start": 86.638,
+  "end": 86.995,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "three",
+  "start": 86.995,
+  "end": 87.292,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "to",
+  "start": 87.292,
+  "end": 87.411,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "four",
+  "start": 87.411,
+  "end": 87.649,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "across",
+  "start": 87.649,
+  "end": 88.006,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "generations.",
+  "start": 88.006,
+  "end": 88.66,
+  "sentence": "surveys, the typical number, the median,"
+ },
+ {
+  "word": "A",
+  "start": 89.22,
+  "end": 89.32,
+  "sentence": "A handful."
+ },
+ {
+  "word": "handful.",
+  "start": 89.32,
+  "end": 89.62,
+  "sentence": "A handful."
+ },
+ {
+  "word": "The",
+  "start": 90.4,
+  "end": 90.54,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "average",
+  "start": 90.54,
+  "end": 90.62,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "looks",
+  "start": 90.62,
+  "end": 90.88,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "higher,",
+  "start": 90.88,
+  "end": 91.12,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "because",
+  "start": 91.12,
+  "end": 91.38,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "a",
+  "start": 91.38,
+  "end": 91.56,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "small",
+  "start": 91.56,
+  "end": 91.76,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "group",
+  "start": 91.76,
+  "end": 91.9,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "with",
+  "start": 91.9,
+  "end": 92.1,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "very",
+  "start": 92.1,
+  "end": 92.3,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "large",
+  "start": 92.3,
+  "end": 92.52,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "numbers",
+  "start": 92.52,
+  "end": 92.8,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "pulls",
+  "start": 92.8,
+  "end": 92.98,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "it",
+  "start": 92.98,
+  "end": 93.06,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "up.",
+  "start": 93.06,
+  "end": 93.4,
+  "sentence": "The average looks higher, because a smal"
+ },
+ {
+  "word": "Statisticians",
+  "start": 93.78,
+  "end": 94.358,
+  "sentence": "Statisticians call that skew."
+ },
+ {
+  "word": "call",
+  "start": 94.358,
+  "end": 94.535,
+  "sentence": "Statisticians call that skew."
+ },
+ {
+  "word": "that",
+  "start": 94.535,
+  "end": 94.713,
+  "sentence": "Statisticians call that skew."
+ },
+ {
+  "word": "skew.",
+  "start": 94.713,
+  "end": 94.891,
+  "sentence": "Statisticians call that skew."
+ },
+ {
+  "word": "And",
+  "start": 95.42,
+  "end": 95.54,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "surveys",
+  "start": 95.54,
+  "end": 95.819,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "often",
+  "start": 95.819,
+  "end": 96.019,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "stop",
+  "start": 96.019,
+  "end": 96.178,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "counting",
+  "start": 96.178,
+  "end": 96.498,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "at",
+  "start": 96.498,
+  "end": 96.577,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "fifty.",
+  "start": 96.577,
+  "end": 96.777,
+  "sentence": "And surveys often stop counting at fifty"
+ },
+ {
+  "word": "So",
+  "start": 97.06,
+  "end": 97.2,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "when",
+  "start": 97.2,
+  "end": 97.32,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "the",
+  "start": 97.32,
+  "end": 97.46,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "numbers",
+  "start": 97.46,
+  "end": 97.56,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "appeared,",
+  "start": 97.56,
+  "end": 97.96,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "most",
+  "start": 98.14,
+  "end": 98.24,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "people",
+  "start": 98.24,
+  "end": 98.42,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "would",
+  "start": 98.42,
+  "end": 98.58,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "feel",
+  "start": 98.58,
+  "end": 98.7,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "relief.",
+  "start": 98.7,
+  "end": 99.04,
+  "sentence": "So when the numbers appeared, most peopl"
+ },
+ {
+  "word": "Almost",
+  "start": 99.5,
+  "end": 99.844,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "everyone",
+  "start": 99.844,
+  "end": 100.304,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "is",
+  "start": 100.304,
+  "end": 100.419,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "closer",
+  "start": 100.419,
+  "end": 100.763,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "to",
+  "start": 100.763,
+  "end": 100.878,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "the",
+  "start": 100.878,
+  "end": 101.05,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "middle",
+  "start": 101.05,
+  "end": 101.395,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "than",
+  "start": 101.395,
+  "end": 101.624,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "they",
+  "start": 101.624,
+  "end": 101.854,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "thought.",
+  "start": 101.854,
+  "end": 102.256,
+  "sentence": "Almost everyone is closer to the middle "
+ },
+ {
+  "word": "Relief",
+  "start": 102.02,
+  "end": 102.46,
+  "sentence": "Relief doesn't last long, though."
+ },
+ {
+  "word": "doesn't",
+  "start": 102.46,
+  "end": 102.74,
+  "sentence": "Relief doesn't last long, though."
+ },
+ {
+  "word": "last",
+  "start": 102.74,
+  "end": 103.0,
+  "sentence": "Relief doesn't last long, though."
+ },
+ {
+  "word": "long,",
+  "start": 103.0,
+  "end": 103.34,
+  "sentence": "Relief doesn't last long, though."
+ },
+ {
+  "word": "though.",
+  "start": 103.34,
+  "end": 103.72,
+  "sentence": "Relief doesn't last long, though."
+ },
+ {
+  "word": "Because",
+  "start": 103.84,
+  "end": 104.215,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "the",
+  "start": 104.215,
+  "end": 104.375,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "number",
+  "start": 104.375,
+  "end": 104.696,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "was",
+  "start": 104.696,
+  "end": 104.856,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "never",
+  "start": 104.856,
+  "end": 105.124,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "really",
+  "start": 105.124,
+  "end": 105.445,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "about",
+  "start": 105.445,
+  "end": 105.712,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "numbers.",
+  "start": 105.712,
+  "end": 106.087,
+  "sentence": "Because the number was never really abou"
+ },
+ {
+  "word": "It",
+  "start": 106.28,
+  "end": 106.28,
+  "sentence": "It was about judgment."
+ },
+ {
+  "word": "was",
+  "start": 106.28,
+  "end": 106.38,
+  "sentence": "It was about judgment."
+ },
+ {
+  "word": "about",
+  "start": 106.38,
+  "end": 106.64,
+  "sentence": "It was about judgment."
+ },
+ {
+  "word": "judgment.",
+  "start": 106.64,
+  "end": 107.14,
+  "sentence": "It was about judgment."
+ },
+ {
+  "word": "Researchers",
+  "start": 108.02,
+  "end": 108.53,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "talk",
+  "start": 108.53,
+  "end": 108.716,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "about",
+  "start": 108.716,
+  "end": 108.948,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "the",
+  "start": 108.948,
+  "end": 109.087,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "sexual",
+  "start": 109.087,
+  "end": 109.366,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "double",
+  "start": 109.366,
+  "end": 109.644,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "standard:",
+  "start": 109.644,
+  "end": 110.016,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "the",
+  "start": 110.016,
+  "end": 110.155,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "same",
+  "start": 110.155,
+  "end": 110.34,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "number",
+  "start": 110.34,
+  "end": 110.619,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "can",
+  "start": 110.619,
+  "end": 110.758,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "earn",
+  "start": 110.758,
+  "end": 110.944,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "one",
+  "start": 110.944,
+  "end": 111.083,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "person",
+  "start": 111.083,
+  "end": 111.361,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "a",
+  "start": 111.361,
+  "end": 111.408,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "high-five,",
+  "start": 111.408,
+  "end": 111.779,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "and",
+  "start": 111.779,
+  "end": 111.918,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "another",
+  "start": 111.918,
+  "end": 112.243,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "person",
+  "start": 112.243,
+  "end": 112.522,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "a",
+  "start": 112.522,
+  "end": 112.568,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "label.",
+  "start": 112.568,
+  "end": 112.8,
+  "sentence": "Researchers talk about the sexual double"
+ },
+ {
+  "word": "Studies",
+  "start": 113.04,
+  "end": 113.337,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "disagree",
+  "start": 113.337,
+  "end": 113.676,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "about",
+  "start": 113.676,
+  "end": 113.888,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "how",
+  "start": 113.888,
+  "end": 114.015,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "strong",
+  "start": 114.015,
+  "end": 114.269,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "it",
+  "start": 114.269,
+  "end": 114.354,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "still",
+  "start": 114.354,
+  "end": 114.566,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "is",
+  "start": 114.566,
+  "end": 114.651,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "today.",
+  "start": 114.651,
+  "end": 114.863,
+  "sentence": "Studies disagree about how strong it sti"
+ },
+ {
+  "word": "But",
+  "start": 115.42,
+  "end": 115.5,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "in",
+  "start": 115.5,
+  "end": 115.68,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "a",
+  "start": 115.68,
+  "end": 115.86,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "world",
+  "start": 115.86,
+  "end": 116.04,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "with",
+  "start": 116.04,
+  "end": 116.22,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "visible",
+  "start": 116.22,
+  "end": 116.6,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "numbers,",
+  "start": 116.84,
+  "end": 116.94,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "gossip",
+  "start": 116.94,
+  "end": 117.14,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "would",
+  "start": 117.14,
+  "end": 117.3,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "become",
+  "start": 117.3,
+  "end": 117.48,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "a",
+  "start": 117.48,
+  "end": 117.7,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "scoreboard.",
+  "start": 118.08,
+  "end": 118.16,
+  "sentence": "But in a world with visible numbers, gos"
+ },
+ {
+  "word": "We",
+  "start": 118.08,
+  "end": 118.16,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "already",
+  "start": 118.16,
+  "end": 118.4,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "know",
+  "start": 118.4,
+  "end": 118.56,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "what",
+  "start": 118.56,
+  "end": 118.7,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "happens",
+  "start": 118.7,
+  "end": 118.94,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "when",
+  "start": 118.94,
+  "end": 119.1,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "a",
+  "start": 119.1,
+  "end": 119.22,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "number",
+  "start": 119.22,
+  "end": 119.28,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "is",
+  "start": 119.28,
+  "end": 119.48,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "public.",
+  "start": 119.48,
+  "end": 119.76,
+  "sentence": "We already know what happens when a numb"
+ },
+ {
+  "word": "In",
+  "start": 120.08,
+  "end": 120.171,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "twenty",
+  "start": 120.171,
+  "end": 120.442,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "nineteen,",
+  "start": 120.442,
+  "end": 120.805,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "Instagram",
+  "start": 120.805,
+  "end": 121.213,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "tested",
+  "start": 121.213,
+  "end": 121.485,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "hiding",
+  "start": 121.485,
+  "end": 121.756,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "like",
+  "start": 121.756,
+  "end": 121.938,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "counts,",
+  "start": 121.938,
+  "end": 122.21,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "starting",
+  "start": 122.21,
+  "end": 122.572,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "in",
+  "start": 122.572,
+  "end": 122.663,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "Canada,",
+  "start": 122.663,
+  "end": 122.935,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "because",
+  "start": 122.935,
+  "end": 123.252,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "people",
+  "start": 123.252,
+  "end": 123.524,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "kept",
+  "start": 123.524,
+  "end": 123.705,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "comparing",
+  "start": 123.705,
+  "end": 124.113,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "themselves",
+  "start": 124.113,
+  "end": 124.566,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "to",
+  "start": 124.566,
+  "end": 124.656,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "everyone",
+  "start": 124.656,
+  "end": 125.019,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "else.",
+  "start": 125.019,
+  "end": 125.2,
+  "sentence": "In twenty nineteen, Instagram tested hid"
+ },
+ {
+  "word": "Later,",
+  "start": 125.52,
+  "end": 125.791,
+  "sentence": "Later, it made hiding them optional."
+ },
+ {
+  "word": "it",
+  "start": 125.791,
+  "end": 125.9,
+  "sentence": "Later, it made hiding them optional."
+ },
+ {
+  "word": "made",
+  "start": 125.9,
+  "end": 126.117,
+  "sentence": "Later, it made hiding them optional."
+ },
+ {
+  "word": "hiding",
+  "start": 126.117,
+  "end": 126.443,
+  "sentence": "Later, it made hiding them optional."
+ },
+ {
+  "word": "them",
+  "start": 126.443,
+  "end": 126.66,
+  "sentence": "Later, it made hiding them optional."
+ },
+ {
+  "word": "optional.",
+  "start": 126.66,
+  "end": 127.094,
+  "sentence": "Later, it made hiding them optional."
+ },
+ {
+  "word": "Some",
+  "start": 127.08,
+  "end": 127.32,
+  "sentence": "Some people found it helpful."
+ },
+ {
+  "word": "people",
+  "start": 127.32,
+  "end": 127.58,
+  "sentence": "Some people found it helpful."
+ },
+ {
+  "word": "found",
+  "start": 127.58,
+  "end": 127.86,
+  "sentence": "Some people found it helpful."
+ },
+ {
+  "word": "it",
+  "start": 127.86,
+  "end": 128.02,
+  "sentence": "Some people found it helpful."
+ },
+ {
+  "word": "helpful.",
+  "start": 128.02,
+  "end": 128.42,
+  "sentence": "Some people found it helpful."
+ },
+ {
+  "word": "Some",
+  "start": 128.74,
+  "end": 128.84,
+  "sentence": "Some still wanted to see."
+ },
+ {
+  "word": "still",
+  "start": 128.84,
+  "end": 129.0,
+  "sentence": "Some still wanted to see."
+ },
+ {
+  "word": "wanted",
+  "start": 129.0,
+  "end": 129.24,
+  "sentence": "Some still wanted to see."
+ },
+ {
+  "word": "to",
+  "start": 129.24,
+  "end": 129.44,
+  "sentence": "Some still wanted to see."
+ },
+ {
+  "word": "see.",
+  "start": 129.44,
+  "end": 129.74,
+  "sentence": "Some still wanted to see."
+ },
+ {
+  "word": "A",
+  "start": 130.16,
+  "end": 130.21,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "number,",
+  "start": 130.21,
+  "end": 130.508,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "once",
+  "start": 130.508,
+  "end": 130.707,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "visible,",
+  "start": 130.707,
+  "end": 131.055,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "becomes",
+  "start": 131.055,
+  "end": 131.403,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "a",
+  "start": 131.403,
+  "end": 131.453,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "competition.",
+  "start": 131.453,
+  "end": 132.0,
+  "sentence": "A number, once visible, becomes a compet"
+ },
+ {
+  "word": "Even",
+  "start": 132.28,
+  "end": 132.6,
+  "sentence": "Even when nobody entered one."
+ },
+ {
+  "word": "when",
+  "start": 132.6,
+  "end": 132.78,
+  "sentence": "Even when nobody entered one."
+ },
+ {
+  "word": "nobody",
+  "start": 132.78,
+  "end": 133.14,
+  "sentence": "Even when nobody entered one."
+ },
+ {
+  "word": "entered",
+  "start": 133.14,
+  "end": 133.4,
+  "sentence": "Even when nobody entered one."
+ },
+ {
+  "word": "one.",
+  "start": 133.4,
+  "end": 133.84,
+  "sentence": "Even when nobody entered one."
+ },
+ {
+  "word": "We",
+  "start": 134.68,
+  "end": 134.777,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "already",
+  "start": 134.777,
+  "end": 135.117,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "live",
+  "start": 135.117,
+  "end": 135.312,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "with",
+  "start": 135.312,
+  "end": 135.506,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "numbers",
+  "start": 135.506,
+  "end": 135.846,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "that",
+  "start": 135.846,
+  "end": 136.041,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "try",
+  "start": 136.041,
+  "end": 136.187,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "to",
+  "start": 136.187,
+  "end": 136.284,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "summarise",
+  "start": 136.284,
+  "end": 136.721,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "people.",
+  "start": 136.721,
+  "end": 137.013,
+  "sentence": "We already live with numbers that try to"
+ },
+ {
+  "word": "Grades.",
+  "start": 137.12,
+  "end": 137.12,
+  "sentence": "Grades."
+ },
+ {
+  "word": "Follower",
+  "start": 137.52,
+  "end": 137.835,
+  "sentence": "Follower counts."
+ },
+ {
+  "word": "counts.",
+  "start": 137.835,
+  "end": 138.072,
+  "sentence": "Follower counts."
+ },
+ {
+  "word": "Credit",
+  "start": 137.94,
+  "end": 138.1,
+  "sentence": "Credit scores."
+ },
+ {
+  "word": "scores.",
+  "start": 138.1,
+  "end": 138.54,
+  "sentence": "Credit scores."
+ },
+ {
+  "word": "A",
+  "start": 139.22,
+  "end": 139.258,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "credit",
+  "start": 139.258,
+  "end": 139.486,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "score",
+  "start": 139.486,
+  "end": 139.675,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "is",
+  "start": 139.675,
+  "end": 139.751,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "a",
+  "start": 139.751,
+  "end": 139.789,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "single",
+  "start": 139.789,
+  "end": 140.017,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "number",
+  "start": 140.017,
+  "end": 140.245,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "that",
+  "start": 140.245,
+  "end": 140.396,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "quietly",
+  "start": 140.396,
+  "end": 140.662,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "shapes",
+  "start": 140.662,
+  "end": 140.89,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "where",
+  "start": 140.89,
+  "end": 141.079,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "you",
+  "start": 141.079,
+  "end": 141.193,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "can",
+  "start": 141.193,
+  "end": 141.307,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "rent",
+  "start": 141.307,
+  "end": 141.459,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "and",
+  "start": 141.459,
+  "end": 141.573,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "what",
+  "start": 141.573,
+  "end": 141.725,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "you",
+  "start": 141.725,
+  "end": 141.838,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "can",
+  "start": 141.838,
+  "end": 141.952,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "borrow.",
+  "start": 141.952,
+  "end": 142.18,
+  "sentence": "A credit score is a single number that q"
+ },
+ {
+  "word": "At",
+  "start": 142.64,
+  "end": 142.7,
+  "sentence": "At least it mostly stays private."
+ },
+ {
+  "word": "least",
+  "start": 142.7,
+  "end": 142.7,
+  "sentence": "At least it mostly stays private."
+ },
+ {
+  "word": "it",
+  "start": 142.7,
+  "end": 142.84,
+  "sentence": "At least it mostly stays private."
+ },
+ {
+  "word": "mostly",
+  "start": 142.84,
+  "end": 142.96,
+  "sentence": "At least it mostly stays private."
+ },
+ {
+  "word": "stays",
+  "start": 142.96,
+  "end": 143.18,
+  "sentence": "At least it mostly stays private."
+ },
+ {
+  "word": "private.",
+  "start": 143.18,
+  "end": 143.58,
+  "sentence": "At least it mostly stays private."
+ },
+ {
+  "word": "A",
+  "start": 143.88,
+  "end": 143.929,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "number",
+  "start": 143.929,
+  "end": 144.223,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "about",
+  "start": 144.223,
+  "end": 144.467,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "your",
+  "start": 144.467,
+  "end": 144.663,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "private",
+  "start": 144.663,
+  "end": 145.006,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "life",
+  "start": 145.006,
+  "end": 145.201,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "would",
+  "start": 145.201,
+  "end": 145.446,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "work",
+  "start": 145.446,
+  "end": 145.642,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "the",
+  "start": 145.642,
+  "end": 145.789,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "same",
+  "start": 145.789,
+  "end": 145.984,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "way,",
+  "start": 145.984,
+  "end": 146.131,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "only",
+  "start": 146.131,
+  "end": 146.327,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "far",
+  "start": 146.327,
+  "end": 146.474,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "more",
+  "start": 146.474,
+  "end": 146.67,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "personal,",
+  "start": 146.67,
+  "end": 147.061,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "and",
+  "start": 147.061,
+  "end": 147.208,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "far",
+  "start": 147.208,
+  "end": 147.355,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "easier",
+  "start": 147.355,
+  "end": 147.648,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "to",
+  "start": 147.648,
+  "end": 147.746,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "misuse.",
+  "start": 147.746,
+  "end": 148.04,
+  "sentence": "A number about your private life would w"
+ },
+ {
+  "word": "And",
+  "start": 148.52,
+  "end": 148.62,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "the",
+  "start": 148.62,
+  "end": 148.7,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "first",
+  "start": 148.7,
+  "end": 148.94,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "place",
+  "start": 148.94,
+  "end": 149.24,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "it",
+  "start": 149.24,
+  "end": 149.34,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "would",
+  "start": 149.34,
+  "end": 149.56,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "show",
+  "start": 149.56,
+  "end": 149.72,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "up",
+  "start": 149.72,
+  "end": 149.86,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "is",
+  "start": 149.86,
+  "end": 150.06,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "dating.",
+  "start": 150.06,
+  "end": 150.36,
+  "sentence": "And the first place it would show up is "
+ },
+ {
+  "word": "Picture",
+  "start": 151.2,
+  "end": 151.501,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "the",
+  "start": 151.501,
+  "end": 151.63,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "first",
+  "start": 151.63,
+  "end": 151.844,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "date",
+  "start": 151.844,
+  "end": 152.016,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "in",
+  "start": 152.016,
+  "end": 152.102,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "this",
+  "start": 152.102,
+  "end": 152.274,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "world.",
+  "start": 152.274,
+  "end": 152.489,
+  "sentence": "Picture the first date in this world."
+ },
+ {
+  "word": "Before",
+  "start": 152.78,
+  "end": 152.94,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "hello,",
+  "start": 152.94,
+  "end": 153.16,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "you've",
+  "start": 153.18,
+  "end": 153.48,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "already",
+  "start": 153.48,
+  "end": 153.62,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "read",
+  "start": 153.62,
+  "end": 153.74,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "their",
+  "start": 153.74,
+  "end": 153.94,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "number,",
+  "start": 153.94,
+  "end": 154.2,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "and",
+  "start": 154.2,
+  "end": 154.36,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "they've",
+  "start": 154.36,
+  "end": 154.54,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "read",
+  "start": 154.54,
+  "end": 154.66,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "yours.",
+  "start": 154.66,
+  "end": 154.96,
+  "sentence": "Before hello, you've already read their "
+ },
+ {
+  "word": "Some",
+  "start": 155.44,
+  "end": 155.665,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "people",
+  "start": 155.665,
+  "end": 156.002,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "would",
+  "start": 156.002,
+  "end": 156.284,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "use",
+  "start": 156.284,
+  "end": 156.452,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "it",
+  "start": 156.452,
+  "end": 156.565,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "as",
+  "start": 156.565,
+  "end": 156.677,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "a",
+  "start": 156.677,
+  "end": 156.734,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "filter.",
+  "start": 156.734,
+  "end": 157.071,
+  "sentence": "Some people would use it as a filter."
+ },
+ {
+  "word": "Under",
+  "start": 156.92,
+  "end": 157.24,
+  "sentence": "Under three, over ten, never mind."
+ },
+ {
+  "word": "three,",
+  "start": 157.24,
+  "end": 157.44,
+  "sentence": "Under three, over ten, never mind."
+ },
+ {
+  "word": "over",
+  "start": 157.44,
+  "end": 157.68,
+  "sentence": "Under three, over ten, never mind."
+ },
+ {
+  "word": "ten,",
+  "start": 157.68,
+  "end": 157.84,
+  "sentence": "Under three, over ten, never mind."
+ },
+ {
+  "word": "never",
+  "start": 157.84,
+  "end": 157.88,
+  "sentence": "Under three, over ten, never mind."
+ },
+ {
+  "word": "mind.",
+  "start": 157.88,
+  "end": 158.28,
+  "sentence": "Under three, over ten, never mind."
+ },
+ {
+  "word": "Some",
+  "start": 158.54,
+  "end": 158.64,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "would",
+  "start": 158.64,
+  "end": 158.9,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "feel",
+  "start": 158.9,
+  "end": 158.92,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "judged",
+  "start": 158.92,
+  "end": 159.16,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "before",
+  "start": 159.16,
+  "end": 159.42,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "they",
+  "start": 159.42,
+  "end": 159.56,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "even",
+  "start": 159.56,
+  "end": 159.78,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "spoke.",
+  "start": 159.78,
+  "end": 160.06,
+  "sentence": "Some would feel judged before they even "
+ },
+ {
+  "word": "And",
+  "start": 160.5,
+  "end": 160.78,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "nobody",
+  "start": 160.78,
+  "end": 161.0,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "would",
+  "start": 161.0,
+  "end": 161.16,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "get",
+  "start": 161.16,
+  "end": 161.26,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "to",
+  "start": 161.26,
+  "end": 161.38,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "say",
+  "start": 161.38,
+  "end": 161.64,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "anything",
+  "start": 161.64,
+  "end": 161.9,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "about",
+  "start": 161.9,
+  "end": 162.08,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "it.",
+  "start": 162.14,
+  "end": 162.38,
+  "sentence": "And nobody would get to say anything abo"
+ },
+ {
+  "word": "That's",
+  "start": 162.14,
+  "end": 162.38,
+  "sentence": "That's the cruel part."
+ },
+ {
+  "word": "the",
+  "start": 162.38,
+  "end": 162.52,
+  "sentence": "That's the cruel part."
+ },
+ {
+  "word": "cruel",
+  "start": 162.52,
+  "end": 162.64,
+  "sentence": "That's the cruel part."
+ },
+ {
+  "word": "part.",
+  "start": 162.64,
+  "end": 163.04,
+  "sentence": "That's the cruel part."
+ },
+ {
+  "word": "Because",
+  "start": 163.34,
+  "end": 163.52,
+  "sentence": "Because a number has no story."
+ },
+ {
+  "word": "a",
+  "start": 163.52,
+  "end": 163.62,
+  "sentence": "Because a number has no story."
+ },
+ {
+  "word": "number",
+  "start": 163.62,
+  "end": 163.74,
+  "sentence": "Because a number has no story."
+ },
+ {
+  "word": "has",
+  "start": 163.74,
+  "end": 164.02,
+  "sentence": "Because a number has no story."
+ },
+ {
+  "word": "no",
+  "start": 164.02,
+  "end": 164.26,
+  "sentence": "Because a number has no story."
+ },
+ {
+  "word": "story.",
+  "start": 164.26,
+  "end": 164.72,
+  "sentence": "Because a number has no story."
+ },
+ {
+  "word": "It",
+  "start": 165.34,
+  "end": 165.452,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "doesn't",
+  "start": 165.452,
+  "end": 165.789,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "say",
+  "start": 165.789,
+  "end": 165.957,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "whether",
+  "start": 165.957,
+  "end": 166.349,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "someone",
+  "start": 166.349,
+  "end": 166.742,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "was",
+  "start": 166.742,
+  "end": 166.91,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "in",
+  "start": 166.91,
+  "end": 167.022,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "love,",
+  "start": 167.022,
+  "end": 167.246,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "or",
+  "start": 167.246,
+  "end": 167.359,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "lonely,",
+  "start": 167.359,
+  "end": 167.695,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "or",
+  "start": 167.695,
+  "end": 167.807,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "young,",
+  "start": 167.807,
+  "end": 168.087,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "or",
+  "start": 168.087,
+  "end": 168.2,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "brave.",
+  "start": 168.2,
+  "end": 168.48,
+  "sentence": "It doesn't say whether someone was in lo"
+ },
+ {
+  "word": "It",
+  "start": 168.92,
+  "end": 168.993,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "doesn't",
+  "start": 168.993,
+  "end": 169.213,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "say",
+  "start": 169.213,
+  "end": 169.323,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "whether",
+  "start": 169.323,
+  "end": 169.58,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "they",
+  "start": 169.58,
+  "end": 169.727,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "were",
+  "start": 169.727,
+  "end": 169.873,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "kind.",
+  "start": 169.873,
+  "end": 170.02,
+  "sentence": "It doesn't say whether they were kind."
+ },
+ {
+  "word": "And",
+  "start": 170.32,
+  "end": 170.5,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "it",
+  "start": 170.5,
+  "end": 170.5,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "definitely",
+  "start": 170.5,
+  "end": 170.84,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "doesn't",
+  "start": 170.84,
+  "end": 171.08,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "say",
+  "start": 171.08,
+  "end": 171.3,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "whether",
+  "start": 171.3,
+  "end": 171.46,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "they",
+  "start": 171.46,
+  "end": 171.56,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "were",
+  "start": 171.56,
+  "end": 171.7,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "faithful.",
+  "start": 171.7,
+  "end": 172.0,
+  "sentence": "And it definitely doesn't say whether th"
+ },
+ {
+  "word": "So",
+  "start": 172.24,
+  "end": 172.4,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "how",
+  "start": 172.4,
+  "end": 172.52,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "useful",
+  "start": 172.52,
+  "end": 172.76,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "would",
+  "start": 172.76,
+  "end": 172.92,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "it",
+  "start": 172.92,
+  "end": 173.1,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "really",
+  "start": 173.1,
+  "end": 173.3,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "be?",
+  "start": 173.3,
+  "end": 173.82,
+  "sentence": "So how useful would it really be?"
+ },
+ {
+  "word": "Now",
+  "start": 174.44,
+  "end": 174.62,
+  "sentence": "Now it gets worse."
+ },
+ {
+  "word": "it",
+  "start": 174.62,
+  "end": 174.7,
+  "sentence": "Now it gets worse."
+ },
+ {
+  "word": "gets",
+  "start": 174.7,
+  "end": 174.94,
+  "sentence": "Now it gets worse."
+ },
+ {
+  "word": "worse.",
+  "start": 174.94,
+  "end": 175.32,
+  "sentence": "Now it gets worse."
+ },
+ {
+  "word": "The",
+  "start": 175.82,
+  "end": 175.957,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "number",
+  "start": 175.957,
+  "end": 176.23,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "wouldn't",
+  "start": 176.23,
+  "end": 176.549,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "stay",
+  "start": 176.549,
+  "end": 176.731,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "in",
+  "start": 176.731,
+  "end": 176.822,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "the",
+  "start": 176.822,
+  "end": 176.959,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "dating",
+  "start": 176.959,
+  "end": 177.232,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "world.",
+  "start": 177.232,
+  "end": 177.46,
+  "sentence": "The number wouldn't stay in the dating w"
+ },
+ {
+  "word": "It",
+  "start": 177.46,
+  "end": 177.56,
+  "sentence": "It would walk into the office."
+ },
+ {
+  "word": "would",
+  "start": 177.56,
+  "end": 177.68,
+  "sentence": "It would walk into the office."
+ },
+ {
+  "word": "walk",
+  "start": 177.68,
+  "end": 177.86,
+  "sentence": "It would walk into the office."
+ },
+ {
+  "word": "into",
+  "start": 177.86,
+  "end": 178.04,
+  "sentence": "It would walk into the office."
+ },
+ {
+  "word": "the",
+  "start": 178.04,
+  "end": 178.24,
+  "sentence": "It would walk into the office."
+ },
+ {
+  "word": "office.",
+  "start": 178.24,
+  "end": 178.5,
+  "sentence": "It would walk into the office."
+ },
+ {
+  "word": "Employers",
+  "start": 178.9,
+  "end": 179.345,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "aren't",
+  "start": 179.345,
+  "end": 179.593,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "supposed",
+  "start": 179.593,
+  "end": 179.989,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "to",
+  "start": 179.989,
+  "end": 180.087,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "judge",
+  "start": 180.087,
+  "end": 180.335,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "people",
+  "start": 180.335,
+  "end": 180.632,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "on",
+  "start": 180.632,
+  "end": 180.731,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "their",
+  "start": 180.731,
+  "end": 180.978,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "private",
+  "start": 180.978,
+  "end": 181.324,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "lives,",
+  "start": 181.324,
+  "end": 181.572,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "but",
+  "start": 181.572,
+  "end": 181.72,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "a",
+  "start": 181.72,
+  "end": 181.77,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "number",
+  "start": 181.77,
+  "end": 182.067,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "you",
+  "start": 182.067,
+  "end": 182.215,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "can",
+  "start": 182.215,
+  "end": 182.364,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "see",
+  "start": 182.364,
+  "end": 182.512,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "is",
+  "start": 182.512,
+  "end": 182.611,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "a",
+  "start": 182.611,
+  "end": 182.66,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "number",
+  "start": 182.66,
+  "end": 182.957,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "you",
+  "start": 182.957,
+  "end": 183.106,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "can't",
+  "start": 183.106,
+  "end": 183.304,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "unsee.",
+  "start": 183.304,
+  "end": 183.551,
+  "sentence": "Employers aren't supposed to judge peopl"
+ },
+ {
+  "word": "It",
+  "start": 183.72,
+  "end": 183.858,
+  "sentence": "It would walk into the family."
+ },
+ {
+  "word": "would",
+  "start": 183.858,
+  "end": 184.204,
+  "sentence": "It would walk into the family."
+ },
+ {
+  "word": "walk",
+  "start": 184.204,
+  "end": 184.481,
+  "sentence": "It would walk into the family."
+ },
+ {
+  "word": "into",
+  "start": 184.481,
+  "end": 184.757,
+  "sentence": "It would walk into the family."
+ },
+ {
+  "word": "the",
+  "start": 184.757,
+  "end": 184.965,
+  "sentence": "It would walk into the family."
+ },
+ {
+  "word": "family.",
+  "start": 184.965,
+  "end": 185.38,
+  "sentence": "It would walk into the family."
+ },
+ {
+  "word": "Awkward",
+  "start": 185.36,
+  "end": 185.657,
+  "sentence": "Awkward dinners."
+ },
+ {
+  "word": "dinners.",
+  "start": 185.657,
+  "end": 185.954,
+  "sentence": "Awkward dinners."
+ },
+ {
+  "word": "Quiet",
+  "start": 185.96,
+  "end": 186.12,
+  "sentence": "Quiet looks across the table."
+ },
+ {
+  "word": "looks",
+  "start": 186.12,
+  "end": 186.46,
+  "sentence": "Quiet looks across the table."
+ },
+ {
+  "word": "across",
+  "start": 186.46,
+  "end": 186.74,
+  "sentence": "Quiet looks across the table."
+ },
+ {
+  "word": "the",
+  "start": 186.74,
+  "end": 186.96,
+  "sentence": "Quiet looks across the table."
+ },
+ {
+  "word": "table.",
+  "start": 186.96,
+  "end": 187.16,
+  "sentence": "Quiet looks across the table."
+ },
+ {
+  "word": "Different",
+  "start": 187.48,
+  "end": 187.68,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "families,",
+  "start": 187.68,
+  "end": 188.1,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "and",
+  "start": 188.1,
+  "end": 188.4,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "different",
+  "start": 188.4,
+  "end": 188.68,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "cultures,",
+  "start": 188.68,
+  "end": 189.02,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "would",
+  "start": 189.02,
+  "end": 189.44,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "react",
+  "start": 189.44,
+  "end": 189.72,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "in",
+  "start": 189.72,
+  "end": 189.96,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "very",
+  "start": 189.96,
+  "end": 190.14,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "different",
+  "start": 190.14,
+  "end": 190.44,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "ways.",
+  "start": 190.44,
+  "end": 190.9,
+  "sentence": "Different families, and different cultur"
+ },
+ {
+  "word": "Some",
+  "start": 191.08,
+  "end": 191.307,
+  "sentence": "Some would shrug."
+ },
+ {
+  "word": "would",
+  "start": 191.307,
+  "end": 191.59,
+  "sentence": "Some would shrug."
+ },
+ {
+  "word": "shrug.",
+  "start": 191.59,
+  "end": 191.874,
+  "sentence": "Some would shrug."
+ },
+ {
+  "word": "Some",
+  "start": 191.724,
+  "end": 191.916,
+  "sentence": "Some would never recover."
+ },
+ {
+  "word": "would",
+  "start": 191.916,
+  "end": 192.156,
+  "sentence": "Some would never recover."
+ },
+ {
+  "word": "never",
+  "start": 192.156,
+  "end": 192.395,
+  "sentence": "Some would never recover."
+ },
+ {
+  "word": "recover.",
+  "start": 192.395,
+  "end": 192.731,
+  "sentence": "Some would never recover."
+ },
+ {
+  "word": "Friendships",
+  "start": 192.78,
+  "end": 192.78,
+  "sentence": "Friendships would shift."
+ },
+ {
+  "word": "would",
+  "start": 192.78,
+  "end": 193.02,
+  "sentence": "Friendships would shift."
+ },
+ {
+  "word": "shift.",
+  "start": 193.02,
+  "end": 193.32,
+  "sentence": "Friendships would shift."
+ },
+ {
+  "word": "Some",
+  "start": 193.58,
+  "end": 193.7,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "would",
+  "start": 193.7,
+  "end": 193.84,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "deepen,",
+  "start": 193.84,
+  "end": 194.06,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "because",
+  "start": 194.06,
+  "end": 194.34,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "people",
+  "start": 194.34,
+  "end": 194.62,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "finally",
+  "start": 194.62,
+  "end": 194.9,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "had",
+  "start": 194.9,
+  "end": 195.1,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "something",
+  "start": 195.1,
+  "end": 195.34,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "honest",
+  "start": 195.34,
+  "end": 195.58,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "to",
+  "start": 195.58,
+  "end": 195.78,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "talk",
+  "start": 195.78,
+  "end": 195.86,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "about.",
+  "start": 195.86,
+  "end": 196.22,
+  "sentence": "Some would deepen, because people finall"
+ },
+ {
+  "word": "Some",
+  "start": 196.52,
+  "end": 196.587,
+  "sentence": "Some would end."
+ },
+ {
+  "word": "would",
+  "start": 196.587,
+  "end": 196.67,
+  "sentence": "Some would end."
+ },
+ {
+  "word": "end.",
+  "start": 196.67,
+  "end": 196.72,
+  "sentence": "Some would end."
+ },
+ {
+  "word": "A",
+  "start": 197.8,
+  "end": 197.839,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "single",
+  "start": 197.839,
+  "end": 198.071,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "number,",
+  "start": 198.071,
+  "end": 198.302,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "rewriting",
+  "start": 198.302,
+  "end": 198.65,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "every",
+  "start": 198.65,
+  "end": 198.843,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "relationship",
+  "start": 198.843,
+  "end": 199.307,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "at",
+  "start": 199.307,
+  "end": 199.384,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "once.",
+  "start": 199.384,
+  "end": 199.539,
+  "sentence": "A single number, rewriting every relatio"
+ },
+ {
+  "word": "But",
+  "start": 199.389,
+  "end": 199.673,
+  "sentence": "But hold on."
+ },
+ {
+  "word": "hold",
+  "start": 199.673,
+  "end": 200.051,
+  "sentence": "But hold on."
+ },
+ {
+  "word": "on.",
+  "start": 200.051,
+  "end": 200.24,
+  "sentence": "But hold on."
+ },
+ {
+  "word": "If",
+  "start": 200.52,
+  "end": 200.6,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "the",
+  "start": 200.6,
+  "end": 200.7,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "number",
+  "start": 200.7,
+  "end": 200.86,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "tells",
+  "start": 200.86,
+  "end": 201.14,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "us",
+  "start": 201.14,
+  "end": 201.36,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "so",
+  "start": 201.36,
+  "end": 201.52,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "little,",
+  "start": 201.52,
+  "end": 201.82,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "why",
+  "start": 201.88,
+  "end": 202.08,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "do",
+  "start": 202.08,
+  "end": 202.2,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "we",
+  "start": 202.2,
+  "end": 202.36,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "want",
+  "start": 202.36,
+  "end": 202.48,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "it",
+  "start": 202.48,
+  "end": 202.66,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "so",
+  "start": 202.66,
+  "end": 202.82,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "badly?",
+  "start": 202.82,
+  "end": 203.12,
+  "sentence": "If the number tells us so little, why do"
+ },
+ {
+  "word": "There's",
+  "start": 203.92,
+  "end": 204.18,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "one",
+  "start": 204.18,
+  "end": 204.4,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "thing",
+  "start": 204.4,
+  "end": 204.68,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "people",
+  "start": 204.68,
+  "end": 204.98,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "might",
+  "start": 204.98,
+  "end": 205.24,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "hope",
+  "start": 205.24,
+  "end": 205.4,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "a",
+  "start": 205.4,
+  "end": 205.5,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "number",
+  "start": 205.5,
+  "end": 205.64,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "could",
+  "start": 205.64,
+  "end": 205.84,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "tell",
+  "start": 205.84,
+  "end": 206.02,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "them.",
+  "start": 206.02,
+  "end": 206.4,
+  "sentence": "There's one thing people might hope a nu"
+ },
+ {
+  "word": "Health.",
+  "start": 206.507,
+  "end": 206.947,
+  "sentence": "Health."
+ },
+ {
+  "word": "But",
+  "start": 207.76,
+  "end": 207.92,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "doctors",
+  "start": 207.92,
+  "end": 208.18,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "and",
+  "start": 208.18,
+  "end": 208.36,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "health",
+  "start": 208.36,
+  "end": 208.54,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "agencies",
+  "start": 208.54,
+  "end": 208.88,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "say",
+  "start": 208.88,
+  "end": 209.08,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "that",
+  "start": 209.08,
+  "end": 209.24,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "risk",
+  "start": 209.24,
+  "end": 209.46,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "depends",
+  "start": 209.46,
+  "end": 209.76,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "on",
+  "start": 209.76,
+  "end": 209.98,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "protection",
+  "start": 209.98,
+  "end": 210.26,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "and",
+  "start": 210.26,
+  "end": 210.5,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "testing,",
+  "start": 210.5,
+  "end": 210.8,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "not",
+  "start": 211.02,
+  "end": 211.22,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "only",
+  "start": 211.22,
+  "end": 211.38,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "on",
+  "start": 211.38,
+  "end": 211.48,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "how",
+  "start": 211.48,
+  "end": 211.64,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "many",
+  "start": 211.64,
+  "end": 211.74,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "people",
+  "start": 211.74,
+  "end": 211.96,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "someone",
+  "start": 211.96,
+  "end": 212.16,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "has",
+  "start": 212.16,
+  "end": 212.34,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "been",
+  "start": 212.34,
+  "end": 212.48,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "with.",
+  "start": 212.48,
+  "end": 212.76,
+  "sentence": "But doctors and health agencies say that"
+ },
+ {
+  "word": "Someone",
+  "start": 212.94,
+  "end": 213.261,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "with",
+  "start": 213.261,
+  "end": 213.444,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "a",
+  "start": 213.444,
+  "end": 213.49,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "high",
+  "start": 213.49,
+  "end": 213.673,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "number",
+  "start": 213.673,
+  "end": 213.948,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "who",
+  "start": 213.948,
+  "end": 214.085,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "tests",
+  "start": 214.085,
+  "end": 214.314,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "regularly",
+  "start": 214.314,
+  "end": 214.727,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "can",
+  "start": 214.727,
+  "end": 214.864,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "be",
+  "start": 214.864,
+  "end": 214.956,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "safer",
+  "start": 214.956,
+  "end": 215.185,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "than",
+  "start": 215.185,
+  "end": 215.368,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "someone",
+  "start": 215.368,
+  "end": 215.689,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "with",
+  "start": 215.689,
+  "end": 215.872,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "a",
+  "start": 215.872,
+  "end": 215.918,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "low",
+  "start": 215.918,
+  "end": 216.055,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "number",
+  "start": 216.055,
+  "end": 216.33,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "who",
+  "start": 216.33,
+  "end": 216.468,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "never",
+  "start": 216.468,
+  "end": 216.697,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "does.",
+  "start": 216.697,
+  "end": 216.88,
+  "sentence": "Someone with a high number who tests reg"
+ },
+ {
+  "word": "So",
+  "start": 217.06,
+  "end": 217.26,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "the",
+  "start": 217.26,
+  "end": 217.36,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "number",
+  "start": 217.36,
+  "end": 217.52,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "would",
+  "start": 217.52,
+  "end": 217.7,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "give",
+  "start": 217.7,
+  "end": 217.84,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "people",
+  "start": 217.84,
+  "end": 218.04,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "a",
+  "start": 218.04,
+  "end": 218.2,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "feeling",
+  "start": 218.2,
+  "end": 218.36,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "of",
+  "start": 218.36,
+  "end": 218.56,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "information,",
+  "start": 218.56,
+  "end": 218.94,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "without",
+  "start": 218.94,
+  "end": 219.36,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "the",
+  "start": 219.36,
+  "end": 219.56,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "information",
+  "start": 219.56,
+  "end": 219.88,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "that",
+  "start": 219.88,
+  "end": 220.1,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "matters.",
+  "start": 220.1,
+  "end": 220.34,
+  "sentence": "So the number would give people a feelin"
+ },
+ {
+  "word": "And",
+  "start": 220.86,
+  "end": 220.964,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "there's",
+  "start": 220.964,
+  "end": 221.172,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "something",
+  "start": 221.172,
+  "end": 221.484,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "about",
+  "start": 221.484,
+  "end": 221.657,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "numbers",
+  "start": 221.657,
+  "end": 221.899,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "that's",
+  "start": 221.899,
+  "end": 222.073,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "even",
+  "start": 222.073,
+  "end": 222.211,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "harder",
+  "start": 222.211,
+  "end": 222.419,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "to",
+  "start": 222.419,
+  "end": 222.488,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "talk",
+  "start": 222.488,
+  "end": 222.627,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "about.",
+  "start": 222.627,
+  "end": 222.8,
+  "sentence": "And there's something about numbers that"
+ },
+ {
+  "word": "A",
+  "start": 224.42,
+  "end": 224.458,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "number",
+  "start": 224.458,
+  "end": 224.685,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "can't",
+  "start": 224.685,
+  "end": 224.836,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "say",
+  "start": 224.836,
+  "end": 224.95,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "which",
+  "start": 224.95,
+  "end": 225.139,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "of",
+  "start": 225.139,
+  "end": 225.215,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "those",
+  "start": 225.215,
+  "end": 225.404,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "were",
+  "start": 225.404,
+  "end": 225.555,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "choices.",
+  "start": 225.555,
+  "end": 225.82,
+  "sentence": "A number can't say which of those were c"
+ },
+ {
+  "word": "For",
+  "start": 226.34,
+  "end": 226.48,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "some",
+  "start": 226.48,
+  "end": 226.72,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "people,",
+  "start": 226.72,
+  "end": 227.0,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "the",
+  "start": 227.06,
+  "end": 227.18,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "number",
+  "start": 227.18,
+  "end": 227.34,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "includes",
+  "start": 227.34,
+  "end": 227.78,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "things",
+  "start": 227.78,
+  "end": 228.14,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "that",
+  "start": 228.14,
+  "end": 228.28,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "were",
+  "start": 228.28,
+  "end": 228.4,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "never",
+  "start": 228.4,
+  "end": 228.62,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "their",
+  "start": 228.62,
+  "end": 228.9,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "choice.",
+  "start": 228.9,
+  "end": 229.32,
+  "sentence": "For some people, the number includes thi"
+ },
+ {
+  "word": "Imagine",
+  "start": 229.62,
+  "end": 229.88,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "that",
+  "start": 229.88,
+  "end": 230.2,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "number",
+  "start": 230.2,
+  "end": 230.5,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "hanging",
+  "start": 230.5,
+  "end": 230.76,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "over",
+  "start": 230.76,
+  "end": 230.94,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "your",
+  "start": 230.94,
+  "end": 231.16,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "head,",
+  "start": 231.16,
+  "end": 231.36,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "in",
+  "start": 231.36,
+  "end": 231.6,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "public,",
+  "start": 231.6,
+  "end": 231.84,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "forever.",
+  "start": 231.84,
+  "end": 232.38,
+  "sentence": "Imagine that number hanging over your he"
+ },
+ {
+  "word": "That's",
+  "start": 232.76,
+  "end": 232.82,
+  "sentence": "That's why some things are private."
+ },
+ {
+  "word": "why",
+  "start": 232.82,
+  "end": 233.04,
+  "sentence": "That's why some things are private."
+ },
+ {
+  "word": "some",
+  "start": 233.04,
+  "end": 233.28,
+  "sentence": "That's why some things are private."
+ },
+ {
+  "word": "things",
+  "start": 233.28,
+  "end": 233.48,
+  "sentence": "That's why some things are private."
+ },
+ {
+  "word": "are",
+  "start": 233.48,
+  "end": 233.74,
+  "sentence": "That's why some things are private."
+ },
+ {
+  "word": "private.",
+  "start": 233.74,
+  "end": 233.98,
+  "sentence": "That's why some things are private."
+ },
+ {
+  "word": "Not",
+  "start": 234.22,
+  "end": 234.4,
+  "sentence": "Not because they're shameful."
+ },
+ {
+  "word": "because",
+  "start": 234.4,
+  "end": 234.62,
+  "sentence": "Not because they're shameful."
+ },
+ {
+  "word": "they're",
+  "start": 234.62,
+  "end": 234.86,
+  "sentence": "Not because they're shameful."
+ },
+ {
+  "word": "shameful.",
+  "start": 234.86,
+  "end": 235.2,
+  "sentence": "Not because they're shameful."
+ },
+ {
+  "word": "Because",
+  "start": 235.86,
+  "end": 235.98,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "the",
+  "start": 235.98,
+  "end": 236.16,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "person",
+  "start": 236.16,
+  "end": 236.32,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "who",
+  "start": 236.32,
+  "end": 236.5,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "lived",
+  "start": 236.5,
+  "end": 236.62,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "them",
+  "start": 236.62,
+  "end": 236.9,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "should",
+  "start": 236.9,
+  "end": 237.06,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "be",
+  "start": 237.06,
+  "end": 237.18,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "the",
+  "start": 237.18,
+  "end": 237.3,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "one",
+  "start": 237.3,
+  "end": 237.44,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "who",
+  "start": 237.44,
+  "end": 237.56,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "tells",
+  "start": 237.56,
+  "end": 237.78,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "the",
+  "start": 237.78,
+  "end": 237.96,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "story.",
+  "start": 237.96,
+  "end": 238.22,
+  "sentence": "Because the person who lived them should"
+ },
+ {
+  "word": "So,",
+  "start": 238.5,
+  "end": 238.7,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "does",
+  "start": 238.7,
+  "end": 238.86,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "any",
+  "start": 238.86,
+  "end": 239.1,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "society",
+  "start": 239.1,
+  "end": 239.46,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "allow",
+  "start": 239.46,
+  "end": 239.9,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "people",
+  "start": 239.9,
+  "end": 240.22,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "to",
+  "start": 240.22,
+  "end": 240.36,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "know",
+  "start": 240.36,
+  "end": 240.54,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "about",
+  "start": 240.54,
+  "end": 240.76,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "a",
+  "start": 240.76,
+  "end": 240.98,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "partner's",
+  "start": 240.98,
+  "end": 241.22,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "past?",
+  "start": 241.22,
+  "end": 241.7,
+  "sentence": "So, does any society allow people to kno"
+ },
+ {
+  "word": "Actually,",
+  "start": 242.44,
+  "end": 242.7,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "one",
+  "start": 242.7,
+  "end": 242.86,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "does,",
+  "start": 242.86,
+  "end": 243.12,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "in",
+  "start": 243.12,
+  "end": 243.24,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "a",
+  "start": 243.24,
+  "end": 243.3,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "very",
+  "start": 243.3,
+  "end": 243.46,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "specific",
+  "start": 243.46,
+  "end": 243.66,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "way.",
+  "start": 243.66,
+  "end": 244.08,
+  "sentence": "Actually, one does, in a very specific w"
+ },
+ {
+  "word": "In",
+  "start": 244.42,
+  "end": 244.517,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "England",
+  "start": 244.517,
+  "end": 244.856,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "and",
+  "start": 244.856,
+  "end": 245.001,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "Wales,",
+  "start": 245.001,
+  "end": 245.243,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "since",
+  "start": 245.243,
+  "end": 245.485,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "twenty",
+  "start": 245.485,
+  "end": 245.776,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "fourteen,",
+  "start": 245.776,
+  "end": 246.163,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "people",
+  "start": 246.163,
+  "end": 246.454,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "can",
+  "start": 246.454,
+  "end": 246.599,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "ask",
+  "start": 246.599,
+  "end": 246.744,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "the",
+  "start": 246.744,
+  "end": 246.889,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "police",
+  "start": 246.889,
+  "end": 247.18,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "about",
+  "start": 247.18,
+  "end": 247.422,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "a",
+  "start": 247.422,
+  "end": 247.471,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "partner's",
+  "start": 247.471,
+  "end": 247.858,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "history",
+  "start": 247.858,
+  "end": 248.197,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "of",
+  "start": 248.197,
+  "end": 248.294,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "violence",
+  "start": 248.294,
+  "end": 248.681,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "or",
+  "start": 248.681,
+  "end": 248.778,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "abuse.",
+  "start": 248.778,
+  "end": 249.02,
+  "sentence": "In England and Wales, since twenty fourt"
+ },
+ {
+  "word": "It's",
+  "start": 249.64,
+  "end": 249.787,
+  "sentence": "It's called Clare's Law."
+ },
+ {
+  "word": "called",
+  "start": 249.787,
+  "end": 250.082,
+  "sentence": "It's called Clare's Law."
+ },
+ {
+  "word": "Clare's",
+  "start": 250.082,
+  "end": 250.376,
+  "sentence": "It's called Clare's Law."
+ },
+ {
+  "word": "Law.",
+  "start": 250.376,
+  "end": 250.523,
+  "sentence": "It's called Clare's Law."
+ },
+ {
+  "word": "Notice",
+  "start": 251.02,
+  "end": 251.18,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "what",
+  "start": 251.18,
+  "end": 251.58,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "society",
+  "start": 251.58,
+  "end": 251.88,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "chose",
+  "start": 251.88,
+  "end": 252.3,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "to",
+  "start": 252.3,
+  "end": 252.42,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "make",
+  "start": 252.42,
+  "end": 252.62,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "knowable.",
+  "start": 252.62,
+  "end": 253.08,
+  "sentence": "Notice what society chose to make knowab"
+ },
+ {
+  "word": "Not",
+  "start": 253.2,
+  "end": 253.44,
+  "sentence": "Not how many partners."
+ },
+ {
+  "word": "how",
+  "start": 253.44,
+  "end": 253.62,
+  "sentence": "Not how many partners."
+ },
+ {
+  "word": "many",
+  "start": 253.62,
+  "end": 253.78,
+  "sentence": "Not how many partners."
+ },
+ {
+  "word": "partners.",
+  "start": 253.78,
+  "end": 254.16,
+  "sentence": "Not how many partners."
+ },
+ {
+  "word": "Not",
+  "start": 254.68,
+  "end": 254.897,
+  "sentence": "Not a score."
+ },
+ {
+  "word": "a",
+  "start": 254.897,
+  "end": 254.97,
+  "sentence": "Not a score."
+ },
+ {
+  "word": "score.",
+  "start": 254.97,
+  "end": 255.332,
+  "sentence": "Not a score."
+ },
+ {
+  "word": "Safety.",
+  "start": 255.182,
+  "end": 255.4,
+  "sentence": "Safety."
+ },
+ {
+  "word": "That's",
+  "start": 255.76,
+  "end": 255.84,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "a",
+  "start": 255.84,
+  "end": 255.96,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "very",
+  "start": 255.96,
+  "end": 256.14,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "different",
+  "start": 256.14,
+  "end": 256.38,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "kind",
+  "start": 256.38,
+  "end": 256.58,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "of",
+  "start": 256.58,
+  "end": 256.68,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "number.",
+  "start": 256.68,
+  "end": 256.96,
+  "sentence": "That's a very different kind of number."
+ },
+ {
+  "word": "One",
+  "start": 257.18,
+  "end": 257.281,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "that",
+  "start": 257.281,
+  "end": 257.416,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "protects",
+  "start": 257.416,
+  "end": 257.685,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "people,",
+  "start": 257.685,
+  "end": 257.887,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "instead",
+  "start": 257.887,
+  "end": 258.122,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "of",
+  "start": 258.122,
+  "end": 258.19,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "ranking",
+  "start": 258.19,
+  "end": 258.425,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "them.",
+  "start": 258.425,
+  "end": 258.56,
+  "sentence": "One that protects people, instead of ran"
+ },
+ {
+  "word": "So",
+  "start": 259.98,
+  "end": 260.04,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "what",
+  "start": 260.04,
+  "end": 260.2,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "happens",
+  "start": 260.2,
+  "end": 260.5,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "a",
+  "start": 260.5,
+  "end": 260.68,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "year",
+  "start": 260.68,
+  "end": 260.82,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "after",
+  "start": 260.82,
+  "end": 261.08,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "the",
+  "start": 261.08,
+  "end": 261.28,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "numbers",
+  "start": 261.28,
+  "end": 261.4,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "appear?",
+  "start": 261.4,
+  "end": 261.86,
+  "sentence": "So what happens a year after the numbers"
+ },
+ {
+  "word": "Maybe,",
+  "start": 262.48,
+  "end": 262.7,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "like",
+  "start": 262.7,
+  "end": 262.94,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "most",
+  "start": 262.94,
+  "end": 263.14,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "things",
+  "start": 263.14,
+  "end": 263.36,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "we",
+  "start": 263.36,
+  "end": 263.5,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "see",
+  "start": 263.5,
+  "end": 263.68,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "every",
+  "start": 263.68,
+  "end": 263.92,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "day,",
+  "start": 263.92,
+  "end": 264.18,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "we'd",
+  "start": 264.18,
+  "end": 264.44,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "stop",
+  "start": 264.44,
+  "end": 264.62,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "looking.",
+  "start": 264.62,
+  "end": 264.96,
+  "sentence": "Maybe, like most things we see every day"
+ },
+ {
+  "word": "Maybe",
+  "start": 265.42,
+  "end": 265.66,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "people",
+  "start": 265.66,
+  "end": 266.02,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "would",
+  "start": 266.02,
+  "end": 266.24,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "learn",
+  "start": 266.24,
+  "end": 266.46,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "to",
+  "start": 266.46,
+  "end": 266.6,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "ask",
+  "start": 266.6,
+  "end": 266.84,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "better",
+  "start": 266.84,
+  "end": 267.08,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "questions:",
+  "start": 267.08,
+  "end": 267.66,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "Who",
+  "start": 267.66,
+  "end": 267.98,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "were",
+  "start": 267.98,
+  "end": 268.12,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "you",
+  "start": 268.12,
+  "end": 268.24,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "before?",
+  "start": 268.24,
+  "end": 268.66,
+  "sentence": "Maybe people would learn to ask better q"
+ },
+ {
+  "word": "What",
+  "start": 269.26,
+  "end": 269.4,
+  "sentence": "What did you learn?"
+ },
+ {
+  "word": "did",
+  "start": 269.4,
+  "end": 269.52,
+  "sentence": "What did you learn?"
+ },
+ {
+  "word": "you",
+  "start": 269.52,
+  "end": 269.64,
+  "sentence": "What did you learn?"
+ },
+ {
+  "word": "learn?",
+  "start": 269.64,
+  "end": 269.98,
+  "sentence": "What did you learn?"
+ },
+ {
+  "word": "What",
+  "start": 270.5,
+  "end": 270.64,
+  "sentence": "What do you want now?"
+ },
+ {
+  "word": "do",
+  "start": 270.64,
+  "end": 270.8,
+  "sentence": "What do you want now?"
+ },
+ {
+  "word": "you",
+  "start": 270.8,
+  "end": 270.88,
+  "sentence": "What do you want now?"
+ },
+ {
+  "word": "want",
+  "start": 270.88,
+  "end": 271.04,
+  "sentence": "What do you want now?"
+ },
+ {
+  "word": "now?",
+  "start": 271.04,
+  "end": 271.48,
+  "sentence": "What do you want now?"
+ },
+ {
+  "word": "Maybe",
+  "start": 271.96,
+  "end": 272.172,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "the",
+  "start": 272.172,
+  "end": 272.299,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "number",
+  "start": 272.299,
+  "end": 272.554,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "would",
+  "start": 272.554,
+  "end": 272.766,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "fade",
+  "start": 272.766,
+  "end": 272.936,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "into",
+  "start": 272.936,
+  "end": 273.105,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "the",
+  "start": 273.105,
+  "end": 273.232,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "background,",
+  "start": 273.232,
+  "end": 273.657,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "like",
+  "start": 273.657,
+  "end": 273.826,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "a",
+  "start": 273.826,
+  "end": 273.869,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "follower",
+  "start": 273.869,
+  "end": 274.208,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "count.",
+  "start": 274.208,
+  "end": 274.42,
+  "sentence": "Maybe the number would fade into the bac"
+ },
+ {
+  "word": "Or",
+  "start": 274.7,
+  "end": 274.92,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "maybe",
+  "start": 274.92,
+  "end": 275.16,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "it",
+  "start": 275.16,
+  "end": 275.36,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "would",
+  "start": 275.36,
+  "end": 275.46,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "never",
+  "start": 275.46,
+  "end": 275.68,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "stop",
+  "start": 275.68,
+  "end": 275.88,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "mattering,",
+  "start": 275.88,
+  "end": 276.14,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "and",
+  "start": 276.14,
+  "end": 276.42,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "some",
+  "start": 276.42,
+  "end": 276.56,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "people",
+  "start": 276.56,
+  "end": 276.72,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "would",
+  "start": 276.72,
+  "end": 276.9,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "never",
+  "start": 276.9,
+  "end": 277.04,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "forgive",
+  "start": 277.04,
+  "end": 277.18,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "it.",
+  "start": 277.18,
+  "end": 277.54,
+  "sentence": "Or maybe it would never stop mattering, "
+ },
+ {
+  "word": "Nobody",
+  "start": 277.693,
+  "end": 278.023,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "can",
+  "start": 278.023,
+  "end": 278.188,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "say",
+  "start": 278.188,
+  "end": 278.352,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "for",
+  "start": 278.352,
+  "end": 278.517,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "sure.",
+  "start": 278.517,
+  "end": 278.737,
+  "sentence": "Nobody can say for sure."
+ },
+ {
+  "word": "But",
+  "start": 278.587,
+  "end": 278.761,
+  "sentence": "But one thing is clear."
+ },
+ {
+  "word": "one",
+  "start": 278.761,
+  "end": 278.935,
+  "sentence": "But one thing is clear."
+ },
+ {
+  "word": "thing",
+  "start": 278.935,
+  "end": 279.225,
+  "sentence": "But one thing is clear."
+ },
+ {
+  "word": "is",
+  "start": 279.225,
+  "end": 279.341,
+  "sentence": "But one thing is clear."
+ },
+ {
+  "word": "clear.",
+  "start": 279.341,
+  "end": 279.631,
+  "sentence": "But one thing is clear."
+ },
+ {
+  "word": "A",
+  "start": 280.44,
+  "end": 280.491,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "number",
+  "start": 280.491,
+  "end": 280.798,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "is",
+  "start": 280.798,
+  "end": 280.901,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "a",
+  "start": 280.901,
+  "end": 280.952,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "terrible",
+  "start": 280.952,
+  "end": 281.361,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "summary",
+  "start": 281.361,
+  "end": 281.719,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "of",
+  "start": 281.719,
+  "end": 281.822,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "a",
+  "start": 281.822,
+  "end": 281.873,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "person.",
+  "start": 281.873,
+  "end": 282.18,
+  "sentence": "A number is a terrible summary of a pers"
+ },
+ {
+  "word": "It",
+  "start": 282.56,
+  "end": 282.667,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "can't",
+  "start": 282.667,
+  "end": 282.88,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "tell",
+  "start": 282.88,
+  "end": 283.094,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "you",
+  "start": 283.094,
+  "end": 283.254,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "whether",
+  "start": 283.254,
+  "end": 283.628,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "someone",
+  "start": 283.628,
+  "end": 284.002,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "is",
+  "start": 284.002,
+  "end": 284.108,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "honest,",
+  "start": 284.108,
+  "end": 284.429,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "kind,",
+  "start": 284.429,
+  "end": 284.642,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "careful,",
+  "start": 284.642,
+  "end": 285.016,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "or",
+  "start": 285.016,
+  "end": 285.123,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "ready.",
+  "start": 285.123,
+  "end": 285.39,
+  "sentence": "It can't tell you whether someone is hon"
+ },
+ {
+  "word": "Only",
+  "start": 285.8,
+  "end": 286.084,
+  "sentence": "Only time can."
+ },
+ {
+  "word": "time",
+  "start": 286.084,
+  "end": 286.367,
+  "sentence": "Only time can."
+ },
+ {
+  "word": "can.",
+  "start": 286.367,
+  "end": 286.58,
+  "sentence": "Only time can."
+ },
+ {
+  "word": "And",
+  "start": 286.38,
+  "end": 286.58,
+  "sentence": "And conversation."
+ },
+ {
+  "word": "conversation.",
+  "start": 286.58,
+  "end": 287.0,
+  "sentence": "And conversation."
+ },
+ {
+  "word": "In",
+  "start": 287.52,
+  "end": 287.54,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "a",
+  "start": 287.54,
+  "end": 287.6,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "world",
+  "start": 287.6,
+  "end": 287.78,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "where",
+  "start": 287.78,
+  "end": 287.9,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "we",
+  "start": 287.9,
+  "end": 287.98,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "could",
+  "start": 287.98,
+  "end": 288.14,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "see",
+  "start": 288.14,
+  "end": 288.26,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "everyone's",
+  "start": 288.26,
+  "end": 288.66,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "number,",
+  "start": 288.66,
+  "end": 288.86,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "the",
+  "start": 289.08,
+  "end": 289.14,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "smartest",
+  "start": 289.14,
+  "end": 289.38,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "people",
+  "start": 289.38,
+  "end": 289.62,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "would",
+  "start": 289.62,
+  "end": 289.78,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "be",
+  "start": 289.78,
+  "end": 289.9,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "the",
+  "start": 289.9,
+  "end": 290.02,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "ones",
+  "start": 290.02,
+  "end": 290.18,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "who",
+  "start": 290.18,
+  "end": 290.38,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "stopped",
+  "start": 290.38,
+  "end": 290.54,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "looking",
+  "start": 290.54,
+  "end": 290.78,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "at",
+  "start": 290.78,
+  "end": 290.92,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "it.",
+  "start": 290.92,
+  "end": 291.2,
+  "sentence": "In a world where we could see everyone's"
+ },
+ {
+  "word": "Imagine",
+  "start": 291.58,
+  "end": 291.58,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "a",
+  "start": 291.58,
+  "end": 291.78,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "number",
+  "start": 291.78,
+  "end": 291.94,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "floating",
+  "start": 291.94,
+  "end": 292.16,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "above",
+  "start": 292.16,
+  "end": 292.32,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "your",
+  "start": 292.32,
+  "end": 292.46,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "head.",
+  "start": 292.46,
+  "end": 292.88,
+  "sentence": "Imagine a number floating above your hea"
+ },
+ {
+  "word": "What",
+  "start": 293.98,
+  "end": 294.2,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "would",
+  "start": 294.2,
+  "end": 294.32,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "you",
+  "start": 294.32,
+  "end": 294.44,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "want",
+  "start": 294.44,
+  "end": 294.58,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "people",
+  "start": 294.58,
+  "end": 294.76,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "to",
+  "start": 294.76,
+  "end": 294.88,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "ask",
+  "start": 294.88,
+  "end": 295.06,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "you",
+  "start": 295.06,
+  "end": 295.22,
+  "sentence": "What would you want people to ask you in"
+ },
+ {
+  "word": "instead?",
+  "start": 295.22,
+  "end": 295.5,
+  "sentence": "What would you want people to ask you in"
+ }
+]

@@ -1,0 +1,1088 @@
+[
+ {
+  "section": "THE NUMBER",
+  "start": 0.0
+ },
+ {
+  "text": "Imagine waking up tomorrow, and every person you see has a number floating above their head.",
+  "section": "THE NUMBER",
+  "start": 0.0,
+  "end": 3.383,
+  "chunk": 0,
+  "pause_after": 0.343
+ },
+ {
+  "text": "Not their age.",
+  "section": "THE NUMBER",
+  "start": 3.727,
+  "end": 4.336,
+  "chunk": 1
+ },
+ {
+  "text": "Not their salary.",
+  "section": "THE NUMBER",
+  "start": 4.336,
+  "end": 4.945,
+  "chunk": 1
+ },
+ {
+  "text": "Their body count.",
+  "section": "THE NUMBER",
+  "start": 4.945,
+  "end": 5.554,
+  "chunk": 1,
+  "pause_after": 0.318
+ },
+ {
+  "text": "The number of people they've been intimate with.",
+  "section": "THE NUMBER",
+  "start": 5.871,
+  "end": 7.722,
+  "chunk": 2
+ },
+ {
+  "text": "Your date.",
+  "section": "THE NUMBER",
+  "start": 7.722,
+  "end": 8.185,
+  "chunk": 2
+ },
+ {
+  "text": "Your boss.",
+  "section": "THE NUMBER",
+  "start": 8.185,
+  "end": 8.648,
+  "chunk": 2,
+  "pause_after": 0.213
+ },
+ {
+  "text": "Your best friend.",
+  "section": "THE NUMBER",
+  "start": 8.861,
+  "end": 9.713,
+  "chunk": 3
+ },
+ {
+  "text": "The stranger on the train.",
+  "section": "THE NUMBER",
+  "start": 9.713,
+  "end": 11.135,
+  "chunk": 3
+ },
+ {
+  "text": "Everyone can see everyone's.",
+  "section": "THE NUMBER",
+  "start": 11.135,
+  "end": 12.272,
+  "chunk": 3,
+  "pause_after": 0.208
+ },
+ {
+  "text": "Nobody can hide it.",
+  "section": "THE NUMBER",
+  "start": 12.48,
+  "end": 13.491,
+  "chunk": 4,
+  "pause_after": 1.167
+ },
+ {
+  "text": "What would the world do with that number?",
+  "section": "THE NUMBER",
+  "start": 14.658,
+  "end": 15.99,
+  "chunk": 5,
+  "pause_after": 0.585
+ },
+ {
+  "text": "Let's find out.",
+  "section": "THE NUMBER",
+  "start": 16.575,
+  "end": 17.301,
+  "chunk": 6,
+  "pause_after": 0.71
+ },
+ {
+  "section": "THE RULES",
+  "start": 18.012
+ },
+ {
+  "text": "First, the rules.",
+  "section": "THE RULES",
+  "start": 18.012,
+  "end": 18.583,
+  "chunk": 7
+ },
+ {
+  "text": "The number is exact.",
+  "section": "THE RULES",
+  "start": 18.583,
+  "end": 19.344,
+  "chunk": 7,
+  "pause_after": 0.338
+ },
+ {
+  "text": "It counts everyone, however you'd define it, and it never goes down.",
+  "section": "THE RULES",
+  "start": 19.682,
+  "end": 21.969,
+  "chunk": 8,
+  "pause_after": 0.327
+ },
+ {
+  "text": "It's visible to all, all the time.",
+  "section": "THE RULES",
+  "start": 22.296,
+  "end": 23.685,
+  "chunk": 9,
+  "pause_after": 0.415
+ },
+ {
+  "text": "So, what's the first thing people would do?",
+  "section": "THE RULES",
+  "start": 24.099,
+  "end": 25.865,
+  "chunk": 10,
+  "pause_after": 0.672
+ },
+ {
+  "text": "They'd look.",
+  "section": "THE RULES",
+  "start": 26.537,
+  "end": 27.109,
+  "chunk": 11,
+  "pause_after": 0.446
+ },
+ {
+  "text": "And then, in total silence, they'd look at their own.",
+  "section": "THE RULES",
+  "start": 27.555,
+  "end": 29.276,
+  "chunk": 12,
+  "pause_after": 0.627
+ },
+ {
+  "text": "But before anyone can trust the number, there's a problem.",
+  "section": "THE RULES",
+  "start": 29.903,
+  "end": 31.815,
+  "chunk": 13,
+  "pause_after": 0.908
+ },
+ {
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 32.722
+ },
+ {
+  "text": "Researchers who study this point out that people don't agree on what counts.",
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 32.722,
+  "end": 35.249,
+  "chunk": 14,
+  "pause_after": 0.341
+ },
+ {
+  "text": "Ask a hundred people what they'd include, and you get a hundred slightly different answers.",
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 35.59,
+  "end": 38.817,
+  "chunk": 15,
+  "pause_after": 0.321
+ },
+ {
+  "text": "So in our story, the number is simply fixed, by magic, and nobody gets to argue.",
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 39.138,
+  "end": 43.14,
+  "chunk": 16,
+  "pause_after": 0.213
+ },
+ {
+  "text": "In real life, every survey asks the question, and every person quietly answers a different one.",
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 43.353,
+  "end": 48.06,
+  "chunk": 17,
+  "pause_after": 0.35
+ },
+ {
+  "text": "That means the numbers we have are already shakier than they look.",
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 48.41,
+  "end": 50.926,
+  "chunk": 18,
+  "pause_after": 0.269
+ },
+ {
+  "text": "And that leads to the first surprise.",
+  "section": "WHO DECIDES WHAT COUNTS",
+  "start": 51.195,
+  "end": 52.446,
+  "chunk": 19,
+  "pause_after": 0.795
+ },
+ {
+  "section": "THE SURPRISE",
+  "start": 53.241
+ },
+ {
+  "text": "In surveys, men tend to report more partners than women, even though, on average, the numbers should match.",
+  "section": "THE SURPRISE",
+  "start": 53.241,
+  "end": 57.273,
+  "chunk": 20,
+  "pause_after": 0.375
+ },
+ {
+  "text": "Researchers think some people exaggerate, and some people hide.",
+  "section": "THE SURPRISE",
+  "start": 57.648,
+  "end": 59.894,
+  "chunk": 21,
+  "pause_after": 0.254
+ },
+ {
+  "text": "In a small study from two thousand three, volunteers were hooked up to a fake lie detector before answering.",
+  "section": "THE SURPRISE",
+  "start": 60.147,
+  "end": 64.189,
+  "chunk": 22,
+  "pause_after": 0.316
+ },
+ {
+  "text": "Under that pressure, the gap between men's and women's answers almost disappeared.",
+  "section": "THE SURPRISE",
+  "start": 64.505,
+  "end": 67.916,
+  "chunk": 23,
+  "pause_after": 0.36
+ },
+ {
+  "text": "It was only a small study, but it hints at something.",
+  "section": "THE SURPRISE",
+  "start": 68.276,
+  "end": 70.353,
+  "chunk": 24,
+  "pause_after": 0.416
+ },
+ {
+  "text": "With a visible number, nobody could round up, and nobody could round down.",
+  "section": "THE SURPRISE",
+  "start": 70.769,
+  "end": 74.105,
+  "chunk": 25,
+  "pause_after": 0.292
+ },
+ {
+  "text": "Honesty by force.",
+  "section": "THE SURPRISE",
+  "start": 74.396,
+  "end": 75.359,
+  "chunk": 26,
+  "pause_after": 0.588
+ },
+ {
+  "text": "But the real shock isn't who was lying.",
+  "section": "THE SURPRISE",
+  "start": 75.947,
+  "end": 77.397,
+  "chunk": 27,
+  "pause_after": 0.209
+ },
+ {
+  "text": "It's what the average turns out to be.",
+  "section": "THE SURPRISE",
+  "start": 77.605,
+  "end": 78.753,
+  "chunk": 28,
+  "pause_after": 1.141
+ },
+ {
+  "section": "THE AVERAGE",
+  "start": 79.894
+ },
+ {
+  "text": "Most people assume everyone else has a much bigger number than they do.",
+  "section": "THE AVERAGE",
+  "start": 79.894,
+  "end": 82.28,
+  "chunk": 29,
+  "pause_after": 0.393
+ },
+ {
+  "text": "In big U.S.",
+  "section": "THE AVERAGE",
+  "start": 82.673,
+  "end": 83.641,
+  "chunk": 30,
+  "pause_after": 0.545
+ },
+ {
+  "text": "surveys, the typical number, the median, has sat at around three to four across generations.",
+  "section": "THE AVERAGE",
+  "start": 84.186,
+  "end": 88.76,
+  "chunk": 31,
+  "pause_after": 0.328
+ },
+ {
+  "text": "A handful.",
+  "section": "THE AVERAGE",
+  "start": 89.088,
+  "end": 89.739,
+  "chunk": 32,
+  "pause_after": 0.571
+ },
+ {
+  "text": "The average looks higher, because a small group with very large numbers pulls it up.",
+  "section": "THE AVERAGE",
+  "start": 90.31,
+  "end": 93.222,
+  "chunk": 33,
+  "pause_after": 0.304
+ },
+ {
+  "text": "Statisticians call that skew.",
+  "section": "THE AVERAGE",
+  "start": 93.527,
+  "end": 94.791,
+  "chunk": 34,
+  "pause_after": 0.431
+ },
+ {
+  "text": "And surveys often stop counting at fifty.",
+  "section": "THE AVERAGE",
+  "start": 95.222,
+  "end": 96.677,
+  "chunk": 35,
+  "pause_after": 0.342
+ },
+ {
+  "text": "So when the numbers appeared, most people would feel relief.",
+  "section": "THE AVERAGE",
+  "start": 97.019,
+  "end": 99.05,
+  "chunk": 36,
+  "pause_after": 0.381
+ },
+ {
+  "text": "Almost everyone is closer to the middle than they thought.",
+  "section": "THE AVERAGE",
+  "start": 99.431,
+  "end": 102.156,
+  "chunk": 37
+ },
+ {
+  "text": "Relief doesn't last long, though.",
+  "section": "THE AVERAGE",
+  "start": 102.156,
+  "end": 103.518,
+  "chunk": 37,
+  "pause_after": 0.285
+ },
+ {
+  "text": "Because the number was never really about numbers.",
+  "section": "THE AVERAGE",
+  "start": 103.803,
+  "end": 105.987,
+  "chunk": 38
+ },
+ {
+  "text": "It was about judgment.",
+  "section": "THE AVERAGE",
+  "start": 105.987,
+  "end": 107.079,
+  "chunk": 38,
+  "pause_after": 0.793
+ },
+ {
+  "section": "THE SCARLET NUMBER",
+  "start": 107.873
+ },
+ {
+  "text": "Researchers talk about the sexual double standard: the same number can earn one person a high-five, and another person a label.",
+  "section": "THE SCARLET NUMBER",
+  "start": 107.873,
+  "end": 112.76,
+  "chunk": 39,
+  "pause_after": 0.237
+ },
+ {
+  "text": "Studies disagree about how strong it still is today.",
+  "section": "THE SCARLET NUMBER",
+  "start": 112.997,
+  "end": 114.763,
+  "chunk": 40,
+  "pause_after": 0.565
+ },
+ {
+  "text": "But in a world with visible numbers, gossip would become a scoreboard.",
+  "section": "THE SCARLET NUMBER",
+  "start": 115.327,
+  "end": 117.812,
+  "chunk": 41,
+  "pause_after": 0.228
+ },
+ {
+  "text": "We already know what happens when a number is public.",
+  "section": "THE SCARLET NUMBER",
+  "start": 118.04,
+  "end": 119.733,
+  "chunk": 42,
+  "pause_after": 0.286
+ },
+ {
+  "text": "In twenty nineteen, Instagram tested hiding like counts, starting in Canada, because people kept comparing themselves to everyone else.",
+  "section": "THE SCARLET NUMBER",
+  "start": 120.019,
+  "end": 125.147,
+  "chunk": 43,
+  "pause_after": 0.218
+ },
+ {
+  "text": "Later, it made hiding them optional.",
+  "section": "THE SCARLET NUMBER",
+  "start": 125.365,
+  "end": 126.994,
+  "chunk": 44
+ },
+ {
+  "text": "Some people found it helpful.",
+  "section": "THE SCARLET NUMBER",
+  "start": 126.994,
+  "end": 128.351,
+  "chunk": 44,
+  "pause_after": 0.321
+ },
+ {
+  "text": "Some still wanted to see.",
+  "section": "THE SCARLET NUMBER",
+  "start": 128.672,
+  "end": 129.603,
+  "chunk": 45,
+  "pause_after": 0.38
+ },
+ {
+  "text": "A number, once visible, becomes a competition.",
+  "section": "THE SCARLET NUMBER",
+  "start": 129.983,
+  "end": 132.121,
+  "chunk": 46
+ },
+ {
+  "text": "Even when nobody entered one.",
+  "section": "THE SCARLET NUMBER",
+  "start": 132.121,
+  "end": 133.648,
+  "chunk": 46,
+  "pause_after": 0.969
+ },
+ {
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 134.617
+ },
+ {
+  "text": "We already live with numbers that try to summarise people.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 134.617,
+  "end": 136.913,
+  "chunk": 47
+ },
+ {
+  "text": "Grades.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 136.913,
+  "end": 137.143,
+  "chunk": 47,
+  "pause_after": 0.279
+ },
+ {
+  "text": "Follower counts.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 137.422,
+  "end": 137.972,
+  "chunk": 48
+ },
+ {
+  "text": "Credit scores.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 137.972,
+  "end": 138.522,
+  "chunk": 48,
+  "pause_after": 0.411
+ },
+ {
+  "text": "A credit score is a single number that quietly shapes where you can rent and what you can borrow.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 138.932,
+  "end": 142.167,
+  "chunk": 49,
+  "pause_after": 0.239
+ },
+ {
+  "text": "At least it mostly stays private.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 142.406,
+  "end": 143.483,
+  "chunk": 50,
+  "pause_after": 0.251
+ },
+ {
+  "text": "A number about your private life would work the same way, only far more personal, and far easier to misuse.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 143.735,
+  "end": 148.126,
+  "chunk": 51,
+  "pause_after": 0.33
+ },
+ {
+  "text": "And the first place it would show up is dating.",
+  "section": "THE NUMBERS WE ALREADY HAVE",
+  "start": 148.455,
+  "end": 150.367,
+  "chunk": 52,
+  "pause_after": 0.698
+ },
+ {
+  "section": "THE DATING APP",
+  "start": 151.065
+ },
+ {
+  "text": "Picture the first date in this world.",
+  "section": "THE DATING APP",
+  "start": 151.065,
+  "end": 152.389,
+  "chunk": 53,
+  "pause_after": 0.281
+ },
+ {
+  "text": "Before hello, you've already read their number, and they've read yours.",
+  "section": "THE DATING APP",
+  "start": 152.67,
+  "end": 154.983,
+  "chunk": 54,
+  "pause_after": 0.41
+ },
+ {
+  "text": "Some people would use it as a filter.",
+  "section": "THE DATING APP",
+  "start": 155.393,
+  "end": 156.971,
+  "chunk": 55
+ },
+ {
+  "text": "Under three, over ten, never mind.",
+  "section": "THE DATING APP",
+  "start": 156.971,
+  "end": 158.155,
+  "chunk": 55,
+  "pause_after": 0.313
+ },
+ {
+  "text": "Some would feel judged before they even spoke.",
+  "section": "THE DATING APP",
+  "start": 158.468,
+  "end": 160.041,
+  "chunk": 56,
+  "pause_after": 0.349
+ },
+ {
+  "text": "And nobody would get to say anything about it.",
+  "section": "THE DATING APP",
+  "start": 160.39,
+  "end": 162.151,
+  "chunk": 57
+ },
+ {
+  "text": "That's the cruel part.",
+  "section": "THE DATING APP",
+  "start": 162.151,
+  "end": 162.934,
+  "chunk": 57,
+  "pause_after": 0.398
+ },
+ {
+  "text": "Because a number has no story.",
+  "section": "THE DATING APP",
+  "start": 163.332,
+  "end": 164.635,
+  "chunk": 58,
+  "pause_after": 0.392
+ },
+ {
+  "text": "It doesn't say whether someone was in love, or lonely, or young, or brave.",
+  "section": "THE DATING APP",
+  "start": 165.027,
+  "end": 168.43,
+  "chunk": 59,
+  "pause_after": 0.286
+ },
+ {
+  "text": "It doesn't say whether they were kind.",
+  "section": "THE DATING APP",
+  "start": 168.717,
+  "end": 170.025,
+  "chunk": 60,
+  "pause_after": 0.223
+ },
+ {
+  "text": "And it definitely doesn't say whether they were faithful.",
+  "section": "THE DATING APP",
+  "start": 170.248,
+  "end": 171.989,
+  "chunk": 61,
+  "pause_after": 0.214
+ },
+ {
+  "text": "So how useful would it really be?",
+  "section": "THE DATING APP",
+  "start": 172.202,
+  "end": 173.491,
+  "chunk": 62,
+  "pause_after": 0.911
+ },
+ {
+  "section": "WORK AND FAMILY",
+  "start": 174.402
+ },
+ {
+  "text": "Now it gets worse.",
+  "section": "WORK AND FAMILY",
+  "start": 174.402,
+  "end": 175.279,
+  "chunk": 63,
+  "pause_after": 0.481
+ },
+ {
+  "text": "The number wouldn't stay in the dating world.",
+  "section": "WORK AND FAMILY",
+  "start": 175.76,
+  "end": 177.36,
+  "chunk": 64
+ },
+ {
+  "text": "It would walk into the office.",
+  "section": "WORK AND FAMILY",
+  "start": 177.36,
+  "end": 178.56,
+  "chunk": 64,
+  "pause_after": 0.2
+ },
+ {
+  "text": "Employers aren't supposed to judge people on their private lives, but a number you can see is a number you can't unsee.",
+  "section": "WORK AND FAMILY",
+  "start": 178.76,
+  "end": 183.451,
+  "chunk": 65,
+  "pause_after": 0.222
+ },
+ {
+  "text": "It would walk into the family.",
+  "section": "WORK AND FAMILY",
+  "start": 183.673,
+  "end": 185.309,
+  "chunk": 66
+ },
+ {
+  "text": "Awkward dinners.",
+  "section": "WORK AND FAMILY",
+  "start": 185.309,
+  "end": 185.854,
+  "chunk": 66
+ },
+ {
+  "text": "Quiet looks across the table.",
+  "section": "WORK AND FAMILY",
+  "start": 185.854,
+  "end": 187.217,
+  "chunk": 66,
+  "pause_after": 0.206
+ },
+ {
+  "text": "Different families, and different cultures, would react in very different ways.",
+  "section": "WORK AND FAMILY",
+  "start": 187.422,
+  "end": 190.795,
+  "chunk": 67,
+  "pause_after": 0.335
+ },
+ {
+  "text": "Some would shrug.",
+  "section": "WORK AND FAMILY",
+  "start": 191.13,
+  "end": 191.774,
+  "chunk": 68
+ },
+ {
+  "text": "Some would never recover.",
+  "section": "WORK AND FAMILY",
+  "start": 191.774,
+  "end": 192.631,
+  "chunk": 68
+ },
+ {
+  "text": "Friendships would shift.",
+  "section": "WORK AND FAMILY",
+  "start": 192.631,
+  "end": 193.274,
+  "chunk": 68,
+  "pause_after": 0.255
+ },
+ {
+  "text": "Some would deepen, because people finally had something honest to talk about.",
+  "section": "WORK AND FAMILY",
+  "start": 193.53,
+  "end": 196.053,
+  "chunk": 69,
+  "pause_after": 0.28
+ },
+ {
+  "text": "Some would end.",
+  "section": "WORK AND FAMILY",
+  "start": 196.333,
+  "end": 196.997,
+  "chunk": 70,
+  "pause_after": 0.573
+ },
+ {
+  "text": "A single number, rewriting every relationship at once.",
+  "section": "WORK AND FAMILY",
+  "start": 197.569,
+  "end": 199.439,
+  "chunk": 71
+ },
+ {
+  "text": "But hold on.",
+  "section": "WORK AND FAMILY",
+  "start": 199.439,
+  "end": 200.14,
+  "chunk": 71,
+  "pause_after": 0.303
+ },
+ {
+  "text": "If the number tells us so little, why do we want it so badly?",
+  "section": "WORK AND FAMILY",
+  "start": 200.442,
+  "end": 203.168,
+  "chunk": 72,
+  "pause_after": 0.754
+ },
+ {
+  "section": "THE HEALTH QUESTION",
+  "start": 203.922
+ },
+ {
+  "text": "There's one thing people might hope a number could tell them.",
+  "section": "THE HEALTH QUESTION",
+  "start": 203.922,
+  "end": 206.231,
+  "chunk": 73,
+  "pause_after": 0.275
+ },
+ {
+  "text": "Health.",
+  "section": "THE HEALTH QUESTION",
+  "start": 206.507,
+  "end": 206.947,
+  "chunk": 74,
+  "pause_after": 0.757
+ },
+ {
+  "text": "But doctors and health agencies say that risk depends on protection and testing, not only on how many people someone has been with.",
+  "section": "THE HEALTH QUESTION",
+  "start": 207.704,
+  "end": 212.628,
+  "chunk": 75,
+  "pause_after": 0.205
+ },
+ {
+  "text": "Someone with a high number who tests regularly can be safer than someone with a low number who never does.",
+  "section": "THE HEALTH QUESTION",
+  "start": 212.833,
+  "end": 216.783,
+  "chunk": 76,
+  "pause_after": 0.316
+ },
+ {
+  "text": "So the number would give people a feeling of information, without the information that matters.",
+  "section": "THE HEALTH QUESTION",
+  "start": 217.099,
+  "end": 220.439,
+  "chunk": 77,
+  "pause_after": 0.319
+ },
+ {
+  "text": "And there's something about numbers that's even harder to talk about.",
+  "section": "THE HEALTH QUESTION",
+  "start": 220.758,
+  "end": 223.024,
+  "chunk": 78,
+  "pause_after": 1.104
+ },
+ {
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 224.128
+ },
+ {
+  "text": "A number can't say which of those were choices.",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 224.128,
+  "end": 225.874,
+  "chunk": 79,
+  "pause_after": 0.39
+ },
+ {
+  "text": "For some people, the number includes things that were never their choice.",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 226.264,
+  "end": 229.257,
+  "chunk": 80,
+  "pause_after": 0.257
+ },
+ {
+  "text": "Imagine that number hanging over your head, in public, forever.",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 229.515,
+  "end": 232.29,
+  "chunk": 81
+ },
+ {
+  "text": "That's why some things are private.",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 232.29,
+  "end": 233.955,
+  "chunk": 81,
+  "pause_after": 0.237
+ },
+ {
+  "text": "Not because they're shameful.",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 234.191,
+  "end": 235.283,
+  "chunk": 82,
+  "pause_after": 0.516
+ },
+ {
+  "text": "Because the person who lived them should be the one who tells the story.",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 235.798,
+  "end": 238.144,
+  "chunk": 83,
+  "pause_after": 0.273
+ },
+ {
+  "text": "So, does any society allow people to know about a partner's past?",
+  "section": "WHAT A NUMBER CAN'T SAY",
+  "start": 238.416,
+  "end": 241.494,
+  "chunk": 84,
+  "pause_after": 0.887
+ },
+ {
+  "section": "THE RIGHT TO ASK",
+  "start": 242.381
+ },
+ {
+  "text": "Actually, one does, in a very specific way.",
+  "section": "THE RIGHT TO ASK",
+  "start": 242.381,
+  "end": 243.915,
+  "chunk": 85,
+  "pause_after": 0.388
+ },
+ {
+  "text": "In England and Wales, since twenty fourteen, people can ask the police about a partner's history of violence or abuse.",
+  "section": "THE RIGHT TO ASK",
+  "start": 244.303,
+  "end": 249.079,
+  "chunk": 86,
+  "pause_after": 0.38
+ },
+ {
+  "text": "It's called Clare's Law.",
+  "section": "THE RIGHT TO ASK",
+  "start": 249.459,
+  "end": 250.423,
+  "chunk": 87,
+  "pause_after": 0.461
+ },
+ {
+  "text": "Notice what society chose to make knowable.",
+  "section": "THE RIGHT TO ASK",
+  "start": 250.884,
+  "end": 253.055,
+  "chunk": 88
+ },
+ {
+  "text": "Not how many partners.",
+  "section": "THE RIGHT TO ASK",
+  "start": 253.055,
+  "end": 254.295,
+  "chunk": 88,
+  "pause_after": 0.278
+ },
+ {
+  "text": "Not a score.",
+  "section": "THE RIGHT TO ASK",
+  "start": 254.573,
+  "end": 255.232,
+  "chunk": 89
+ },
+ {
+  "text": "Safety.",
+  "section": "THE RIGHT TO ASK",
+  "start": 255.232,
+  "end": 255.452,
+  "chunk": 89,
+  "pause_after": 0.206
+ },
+ {
+  "text": "That's a very different kind of number.",
+  "section": "THE RIGHT TO ASK",
+  "start": 255.658,
+  "end": 256.876,
+  "chunk": 90,
+  "pause_after": 0.257
+ },
+ {
+  "text": "One that protects people, instead of ranking them.",
+  "section": "THE RIGHT TO ASK",
+  "start": 257.133,
+  "end": 258.799,
+  "chunk": 91,
+  "pause_after": 1.064
+ },
+ {
+  "section": "AFTER THE SHOCK",
+  "start": 259.863
+ },
+ {
+  "text": "So what happens a year after the numbers appear?",
+  "section": "AFTER THE SHOCK",
+  "start": 259.863,
+  "end": 261.734,
+  "chunk": 92,
+  "pause_after": 0.687
+ },
+ {
+  "text": "Maybe, like most things we see every day, we'd stop looking.",
+  "section": "AFTER THE SHOCK",
+  "start": 262.422,
+  "end": 264.96,
+  "chunk": 93,
+  "pause_after": 0.41
+ },
+ {
+  "text": "Maybe people would learn to ask better questions: Who were you before?",
+  "section": "AFTER THE SHOCK",
+  "start": 265.37,
+  "end": 268.686,
+  "chunk": 94,
+  "pause_after": 0.544
+ },
+ {
+  "text": "What did you learn?",
+  "section": "AFTER THE SHOCK",
+  "start": 269.23,
+  "end": 269.941,
+  "chunk": 95,
+  "pause_after": 0.539
+ },
+ {
+  "text": "What do you want now?",
+  "section": "AFTER THE SHOCK",
+  "start": 270.48,
+  "end": 271.306,
+  "chunk": 96,
+  "pause_after": 0.625
+ },
+ {
+  "text": "Maybe the number would fade into the background, like a follower count.",
+  "section": "AFTER THE SHOCK",
+  "start": 271.931,
+  "end": 274.33,
+  "chunk": 97,
+  "pause_after": 0.385
+ },
+ {
+  "text": "Or maybe it would never stop mattering, and some people would never forgive it.",
+  "section": "AFTER THE SHOCK",
+  "start": 274.715,
+  "end": 277.4,
+  "chunk": 98,
+  "pause_after": 0.344
+ },
+ {
+  "text": "Nobody can say for sure.",
+  "section": "AFTER THE SHOCK",
+  "start": 277.743,
+  "end": 278.637,
+  "chunk": 99
+ },
+ {
+  "text": "But one thing is clear.",
+  "section": "AFTER THE SHOCK",
+  "start": 278.637,
+  "end": 279.531,
+  "chunk": 99,
+  "pause_after": 0.706
+ },
+ {
+  "section": "THE REAL ANSWER",
+  "start": 280.237
+ },
+ {
+  "text": "A number is a terrible summary of a person.",
+  "section": "THE REAL ANSWER",
+  "start": 280.237,
+  "end": 282.091,
+  "chunk": 100,
+  "pause_after": 0.4
+ },
+ {
+  "text": "It can't tell you whether someone is honest, kind, careful, or ready.",
+  "section": "THE REAL ANSWER",
+  "start": 282.491,
+  "end": 285.29,
+  "chunk": 101,
+  "pause_after": 0.365
+ },
+ {
+  "text": "Only time can.",
+  "section": "THE REAL ANSWER",
+  "start": 285.655,
+  "end": 286.545,
+  "chunk": 102
+ },
+ {
+  "text": "And conversation.",
+  "section": "THE REAL ANSWER",
+  "start": 286.545,
+  "end": 287.138,
+  "chunk": 102,
+  "pause_after": 0.239
+ },
+ {
+  "text": "In a world where we could see everyone's number, the smartest people would be the ones who stopped looking at it.",
+  "section": "THE REAL ANSWER",
+  "start": 287.377,
+  "end": 291.045,
+  "chunk": 103,
+  "pause_after": 0.273
+ },
+ {
+  "text": "Imagine a number floating above your head.",
+  "section": "THE REAL ANSWER",
+  "start": 291.318,
+  "end": 292.641,
+  "chunk": 104,
+  "pause_after": 1.393
+ },
+ {
+  "text": "What would you want people to ask you instead?",
+  "section": "THE REAL ANSWER",
+  "start": 294.034,
+  "end": 295.57,
+  "chunk": 105,
+  "pause_after": 2.0
+ }
+]

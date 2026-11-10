@@ -1,6 +1,6 @@
 # What If You Could See Everyone's Body Count?
 Working title. Landscape 1920x1080, 2D stick-figure scenes (visual upgrade v2), ~6 min. Non-explicit, non-judgmental, balanced; PG tone. A curiosity loop about every 30-40 seconds.
-Status: DRAFT 1 for REVIEW (user reviews before locking). Fact notes in FACTS.md (lines marked VERIFY there are lower-confidence).
+Status: LOCKED v1 (approved by user). Fact notes in FACTS.md; lines marked VERIFY there are lower-confidence.
 Markers: a line ending in [beat] gets a longer dramatic pause (use sparingly).
 
 ## THE NUMBER
