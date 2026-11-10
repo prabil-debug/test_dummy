@@ -30,3 +30,30 @@ VISUAL: stickman at a door with two locks opened; third door labelled "ഇൻവ
 ## Notes
 - Order shown is "a common framework", not a rule for everyone; the on-screen text says so.
 - Open for the user: dialect/register, character name, whether English words (ഹെൽത്ത് ഇൻഷുറൻസ്) are what Malayalis really say or a simpler Malayalam word is better.
+
+---
+# VERSION B (user's idea, 2026-11-10): the stickman tells his own story
+Same compliance rules. On-screen tag all through: "ഒരു ഉദാഹരണം" and "പൊതുവായ അറിവ് മാത്രം, ഉപദേശമല്ല". The character is fictional; he says what HE did, never what the viewer must do. Character name: TBD (user). Spoken in first person by the character voice.
+
+## HOOK
+ആദ്യത്തെ ശമ്പളം കിട്ടിയപ്പോൾ ഞാൻ ചെയ്തത് ഇതാണ്.
+(What I did when my first salary came.)
+
+## STEP 1
+ശമ്പളത്തിൽ നിന്ന് കുറച്ച് മാറ്റി വെച്ച് ഞാൻ ഒരു ഹെൽത്ത് ഇൻഷുറൻസ് എടുത്തു.
+(I set a little aside and took a health insurance.)
+VISUAL: coins slide into a shield icon.
+
+## STEP 2
+പിന്നെ ഓരോ മാസവും ചെറിയൊരു തുക മാറ്റി വെച്ചു.
+(Then every month I put a small amount aside.)
+VISUAL: calendar flips, jar fills.
+
+## STEP 3
+രണ്ട് മൂന്ന് മാസത്തെ ശമ്പളത്തിന് തുല്യമായപ്പോൾ എൻ്റെ എമർജൻസി ഫണ്ട് ആയി.
+(When it reached about two to three months of salary, that became my emergency fund.)
+VISUAL: jar with a lock icon; "ഒരു ഉദാഹരണം" tag. VERIFY: wording stays "my example"; common rule of thumb is three to six months.
+
+## CLOSE
+ഇനി അടുത്ത ഘട്ടം: പണം ഇൻവെസ്റ്റ് ചെയ്യുന്നത് എന്തിന്? കമന്റിൽ പറയൂ.
+(Next step: why put money into investments? Tell us in the comments.)
