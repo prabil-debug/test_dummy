@@ -25,7 +25,8 @@ Folder rule: everything for this page lives in `reels-ml/`. Nothing here is shar
 
 ## Voice
 - Type: ASK (male/female, age, energy)
-- Engine: ASK, decided by the listening test (step 2). No cloned voices unless it is the user's own with a consent clip.
+- Engine: LEADING CHOICE (user liked `tiny_hook_male.wav`; female also rated "not bad"): Indic Tiny TTS Malayalam, male voice, CC-BY-4.0 (credit AI4Bharat Rasa + model author in page notes). Still to compare: Edge voices (host blocked), LFM-MALAYALAM-TTS. No cloned voices unless it is the user's own with a consent clip.
+- Measured: ~1.85-2.0 words/s at default speed (female/male), so a 60 s Reel is only ~110-130 words. Reference voice is more expressive (11.4 st pitch spread vs 8.1 female / 10.7 male) and has no digital silence (continuous bed).
 - Pace and pauses: DRAFT narration v3 rules, retuned for Malayalam after measuring real words/s
 
 ## Branding
