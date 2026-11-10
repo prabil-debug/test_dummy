@@ -1,5 +1,5 @@
 # REEL 007: ശമ്പളം 15-ന് മുമ്പ് തീരുന്നത് എന്തുകൊണ്ട്? (idea #3)
-STATUS: DRAFT in the user's spoken style. NOT reviewed. Character Ramu, month 3, first person. Voice v1. Tag "ഒരു ഉദാഹരണം" + disclaimer. No product named; no rupee totals (examples are the character's). 107 spoken words, about 52 s. No next-video teaser.
+STATUS: DRAFT in the user's spoken style. NOT reviewed. Character Ramu, month 3, first person. Voice v1. Tag "ഒരു ഉദാഹരണം" + disclaimer. No product named; no rupee totals (examples are the character's). 80 spoken words, 42.5 s (measured). Needs about 35 more words to reach the usual 60 s. No next-video teaser.
 
 ## HOOK
 മൂന്നാം മാസം, ശമ്പളം പതിനഞ്ചാം തീയതി തന്നെ തീർന്നു. പൈസ എവിടെ പോയി?
