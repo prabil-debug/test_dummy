@@ -24,3 +24,17 @@ His story, characters, art, layout identity, and name; our page keeps Ramu and i
 
 ## Limits
 I cannot hear the Malayalam. Slang and accent cannot be judged from measurements; the on-screen text shows a formal, literary storytelling register, not casual slang. The user must say what to take from the speech itself.
+
+## Detailed narration measurements (from the user's audio of the same reel, 2026-11-10)
+Phrases found by where the voice stops (his delivery has almost no quiet gaps because of a continuous bed).
+| | Reference narrator | Our v1 | Our narrator-style v1 (test) |
+|---|---|---|---|
+| Phrase (breath group) length, median | 1.6 s (p10 0.6, p90 3.6) | 0.7 s | 0.8 s (p90 2.0) |
+| Pauses >= 140 ms | median 375 ms, p90 1.16 s, max 3.5 s | median 290 ms, p90 0.97 s | median 250 ms, p90 1.4 s |
+| Speed variation across phrases (onsets/s) | 3.7 median, 1.4 to 5.0 | 4.9, 3.9 to 6.2 | 5.1, 3.0 to 6.9 |
+| Pitch fall at the end of a phrase | -1.3 st (gentle) | -3.3 st (strong drop every phrase) | -2.3 st |
+| Pitch range inside a phrase | 7.3 st | 7.3 st | 7.4 st |
+| Overall pitch range (p5-p95) | 16.6 st | 12.6 st | 11.9 st |
+| Median pitch | 89 Hz | 108 Hz | 107 Hz (N2 deep about 3 semitones lower) |
+Reading: the narrator speaks in longer breath groups, slows hard for emphasis, speeds up in runs, lets sentences end with a gentle fall, and uses a wider overall pitch range. Our voice is choppier, a little too even in speed, and drops pitch at the end of nearly every short sentence.
+What the generator now does (tiny8 style): merge short sentences into one breath group joined by a comma, vary speed per group (questions and short punch lines slower), pauses drawn from a mixture (70% 0.18-0.40 s, 22% 0.5-0.8 s, 8% 0.9-1.25 s), section breaks 0.5-0.9 s. Limits: the TTS model controls pitch contour; we cannot copy his exact intonation or accent.
