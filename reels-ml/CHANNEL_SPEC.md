@@ -38,3 +38,6 @@ Folder rule: everything for this page lives in `reels-ml/`. Nothing here is shar
 - Source standards: DRAFT every claim sourced, VERIFY marks, as in HANDOFF.md
 - AI disclosure: DRAFT disclose AI narration and answer Meta's prompts honestly (rules to be verified)
 - Script review: KNOWN the user (native speaker) reviews every script before any voice is generated
+
+## Voice decision log
+- 2026-11-10: user decided NOT to clone their voice. Options kept: (A) user records each Reel in their own voice from a Manglish reading script (best slang), processed with light EQ (A natural / B warm+bright, user to pick); (B) stock Indic Tiny TTS male voice for fast drafts. Consent clips were deleted from the working copy; no user audio is committed to the repo.
