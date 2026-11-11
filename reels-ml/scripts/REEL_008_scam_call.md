@@ -1,5 +1,5 @@
 # REEL 008: ബാങ്കിൽ നിന്നാണെന്ന് പറഞ്ഞ് ഒരു കോൾ (OTP / UPI scam rules)
-STATUS: DRAFT in the user's spoken style. NOT reviewed by the user. Character Ramu, first person. Safety/awareness content, no investment or product advice. Tag on screen: "ഒരു ഉദാഹരണം" + "പൊതുവായ അറിവ് മാത്രം". No bank, app or brand named. No next-video teaser; ends on a payoff line. About 110 words, about 55 s.
+STATUS: DRAFT in the user's spoken style. NOT reviewed by the user. Character Ramu, first person. Safety/awareness content, no investment or product advice. Tag on screen: "ഒരു ഉദാഹരണം" + "പൊതുവായ അറിവ് മാത്രം". No bank, app or brand named. No next-video teaser; ends on a payoff line. About 107 words, about 53 s (measure after audio).
 Voice-script notes: acronyms written as Malayalam letters (ഒടിപി, കെവൈസി, യുപിഐ); helpline number spoken digit by digit.
 
 ## HOOK
@@ -9,9 +9,9 @@ Voice-script notes: acronyms written as Malayalam letters (ഒടിപി, ക�
 ## 2 (rule 1)
 ഒന്ന്: ഒടിപിയും യുപിഐ പിന്നും ആരോടും പറയരുത്. ബാങ്കിനോട് പോലും.
 ## 3 (rule 2)
-രണ്ട്: പൈസ കിട്ടാൻ പിൻ അടിക്കേണ്ട. പിൻ അടിക്കാൻ പറഞ്ഞാൽ, പൈസ പോകുകയാണ്.
+രണ്ട്: പൈസ കിട്ടാൻ പിൻ അടിക്കേണ്ട. പിൻ അടിക്കാൻ പറഞ്ഞാൽ, പൈസ പോകുകയാണ്. റീഫണ്ട് ആണെന്ന് പറഞ്ഞ് ഒരു റിക്വസ്റ്റ് വരും, അത് അംഗീകരിക്കുമ്പോൾ പിൻ ചോദിക്കും. അതാണ് കെണി.
 ## 4 (rule 3)
-മൂന്ന്: സംശയം തോന്നിയാൽ ഫോൺ വെക്കുക. ബാങ്കിൻ്റെ ആപ്പിലോ വെബ്സൈറ്റിലോ ഉള്ള നമ്പറിൽ തിരിച്ച് വിളിക്കുക.
+മൂന്ന്: സംശയം തോന്നിയാൽ ഫോൺ വെക്കുക. ബാങ്കിൻ്റെ ആപ്പിലോ വെബ്സൈറ്റിലോ ഉള്ള നമ്പറിൽ തിരിച്ച് വിളിക്കുക. ആരെങ്കിലും ധൃതി കൂട്ടിയാൽ, ഭയപ്പെടുത്തിയാൽ, അതും ഒരു സൂചനയാണ്.
 ## 5 (if money is gone)
 പൈസ പോയാൽ ഒട്ടും വൈകരുത്. ഒന്ന് ഒൻപത് മൂന്ന് പൂജ്യം എന്ന നമ്പറിൽ വിളിക്കുക. സൈബർ ക്രൈം പോർട്ടലിലും പരാതി കൊടുക്കാം.
 ## CLOSE (payoff, no teaser)
