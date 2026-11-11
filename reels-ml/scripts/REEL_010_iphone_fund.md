@@ -16,3 +16,6 @@ What the video adds on its own: a persistent on-screen line "മ്യൂച്�
 - ലിക്വിഡ് ഫണ്ട്: "ഒന്ന്, ലിക്വിഡ് ഫണ്ടുകൾ. ഇവയിൽ റിസ്ക് കുറവാണ്, പക്ഷേ പൂജ്യമല്ല. സേവിംഗ്സ് അക്കൗണ്ടിനേക്കാൾ കൂടുതൽ കിട്ടാം, ഉറപ്പില്ല. പണം എപ്പോൾ വേണമെങ്കിലും എടുക്കാൻ കഴിയും."
 - ആർബിട്രാജ് ഫണ്ട്: "രണ്ട്, ആർബിട്രാജ് ഫണ്ടുകൾ. ഇവ എഫ് ഡി പോലെ ഉറപ്പുള്ളതല്ല, പക്ഷേ ചാഞ്ചാട്ടം കുറവാണ്. ടാക്സ് നിയമങ്ങൾ വ്യത്യസ്തമാണ്, അതുകൊണ്ട് ചിലർക്ക് ടാക്സ് കുറയാം."
 - Closing add: "ഇത് ഉപദേശമല്ല. നിങ്ങളുടെ കാര്യത്തിൽ ഒരു രജിസ്റ്റേർഡ് ഉപദേഷ്ടാവിനോട് ചോദിക്കുക."
+
+## Part 2 (built 2026-11-11, user's decision: use the existing audio as it is)
+User posted Part 1 (first ~30 s, new-style test) on Instagram and asked for "the rest". The user explicitly declined the safer re-record ("no need"), so Part 2 uses the original audio including the lines flagged above. Claude's mitigations inside the video: persistent tag "ഒരു ഉദാഹരണം · ഉപദേശമല്ല · മ്യൂച്വൽ ഫണ്ടുകൾ വിപണി റിസ്കിന് വിധേയം", footnotes on the fund scenes ("റിസ്ക് കുറവാണ്, പൂജ്യമല്ല · റിട്ടേൺ ഉറപ്പില്ല", "ഇത് എഫ് ഡി പോലെ ഉറപ്പുള്ളതല്ല", "ടാക്സ് നിയമം മാറാം"), and an end card with the standard risk wording and "റിട്ടേൺ ഉറപ്പില്ല". These overlays contradict the spoken claims on purpose.
