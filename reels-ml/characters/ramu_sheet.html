@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:"ML";src:url("/tmp/claude-0/-home-user-test-dummy/47e1ffcc-1af7-5e8e-bef1-43b065556665/scratchpad/noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0;background:#F6EBD9}svg{display:block}text{font-family:"ML",Arial,sans-serif;font-weight:800}
+</style></head><body><div id="o"></div><script>
+const INK="#1C1512";
+const SK={s1:{b:"#D9A47A",d:"#BF8A62",l:"#E6B88F"},s2:{b:"#C28E67",d:"#A87650",l:"#D2A27C"},s3:{b:"#A67B5B",d:"#8C6446",l:"#B88E6C"}};
+function shade(id,c){return c}
+function face(ex,sk,glasses){
+  const c=SK[sk];
+  const brow={neutral:["M-25,-17 Q-15,-21 -6,-17","M6,-17 Q15,-21 25,-17"],smile:["M-25,-18 Q-15,-22 -6,-18","M6,-18 Q15,-22 25,-18"],
+   worried:["M-25,-13 Q-15,-21 -6,-20","M6,-20 Q15,-21 25,-13"],surprised:["M-25,-24 Q-15,-29 -6,-24","M6,-24 Q15,-29 25,-24"],
+   thinking:["M-25,-16 Q-15,-20 -6,-17","M6,-23 Q15,-27 25,-21"],laugh:["M-25,-19 Q-15,-23 -6,-19","M6,-19 Q15,-23 25,-19"]}[ex];
+  const closed=ex==="laugh";
+  const eye=(x)=>closed?`<path d="M${x-8},-3 Q${x},-10 ${x+8},-3" fill="none" stroke="${INK}" stroke-width="2.6" stroke-linecap="round"/>`:
+   `<ellipse cx="${x}" cy="-3" rx="8.5" ry="${ex==="surprised"?8:6.2}" fill="#fff"/><circle cx="${x+(ex==="thinking"?2.5:0.8)}" cy="${ex==="thinking"?-5:-3}" r="4.7" fill="#3B2A20"/><circle cx="${x+(ex==="thinking"?2.5:0.8)}" cy="${ex==="thinking"?-5:-3}" r="2.4" fill="#000"/><circle cx="${x+2.3}" cy="-5" r="1.2" fill="#fff"/><path d="M${x-8.5},-3 Q${x},${ex==="surprised"?-16:-11} ${x+8.5},-3" fill="none" stroke="${INK}" stroke-width="2.2" stroke-linecap="round"/>`;
+  const mouth={neutral:`<path d="M-9,25 Q0,27 9,25" fill="none" stroke="#7A3B30" stroke-width="2.6" stroke-linecap="round"/>`,
+   smile:`<path d="M-12,22 Q0,34 12,22 Q0,28 -12,22Z" fill="#5A2A24"/><path d="M-9.5,22.6 Q0,27 9.5,22.6 L8,24.5 Q0,27.5 -8,24.5Z" fill="#fff"/>`,
+   worried:`<path d="M-10,29 Q0,21 10,29" fill="none" stroke="#7A3B30" stroke-width="2.6" stroke-linecap="round"/>`,
+   surprised:`<ellipse cx="0" cy="27" rx="6" ry="8" fill="#5A2A24"/>`,
+   thinking:`<path d="M-8,27 Q2,23 12,25" fill="none" stroke="#7A3B30" stroke-width="2.6" stroke-linecap="round"/>`,
+   laugh:`<path d="M-15,19 Q0,44 15,19 Z" fill="#5A2A24"/><path d="M-12,19.6 Q0,25 12,19.6 L11,23 Q0,27 -11,23Z" fill="#fff"/><path d="M-6,34 Q0,29 6,34 Q0,38 -6,34Z" fill="#C0584C"/>`}[ex];
+  const gl=glasses?`<circle cx="-15" cy="-3" r="12.5" fill="none" stroke="#3A2F2A" stroke-width="2.4"/><circle cx="15" cy="-3" r="12.5" fill="none" stroke="#3A2F2A" stroke-width="2.4"/><path d="M-2.5,-4 Q0,-6 2.5,-4" fill="none" stroke="#3A2F2A" stroke-width="2.4"/><path d="M-27.5,-4 L-37,-6 M27.5,-4 L37,-6" stroke="#3A2F2A" stroke-width="2.2"/>`:"";
+  return `<g>
+   <ellipse cx="-37" cy="4" rx="6" ry="10" fill="${c.d}"/><ellipse cx="37" cy="4" rx="6" ry="10" fill="${c.d}"/>
+   <path d="M-36,-8 C-36,-40 -20,-46 0,-46 C20,-46 36,-40 36,-8 C36,20 22,42 0,46 C-22,42 -36,20 -36,-8Z" fill="${c.b}"/>
+   <path d="M14,-44 C30,-38 36,-24 36,-8 C36,20 22,42 0,46 C14,34 20,10 20,-10 C20,-28 18,-38 14,-44Z" fill="${c.d}" opacity=".28"/>
+   <path d="M-30,-6 C-31,-26 -26,-36 -18,-40" fill="none" stroke="${c.l}" stroke-width="4" opacity=".5" stroke-linecap="round"/>
+   <path d="M-39,-6 C-42,-44 -22,-58 2,-57 C26,-57 42,-42 38,-4 C36,-20 28,-31 10,-35 C-6,-38 -26,-34 -39,-6Z" fill="#17100D"/>
+   <path d="M-24,-46 C-12,-52 4,-52 14,-49" fill="none" stroke="#5A4A44" stroke-width="2.4" opacity=".55" stroke-linecap="round"/>
+   <ellipse cx="-22" cy="14" rx="9" ry="6" fill="#D2685A" opacity=".22"/><ellipse cx="22" cy="14" rx="9" ry="6" fill="#D2685A" opacity=".22"/>
+   ${eye(-15)}${eye(15)}${gl}
+   <path d="${brow[0]}" fill="none" stroke="${INK}" stroke-width="3.6" stroke-linecap="round"/><path d="${brow[1]}" fill="none" stroke="${INK}" stroke-width="3.6" stroke-linecap="round"/>
+   <path d="M1,-1 Q6,11 -1,13" fill="none" stroke="${c.d}" stroke-width="2.4" stroke-linecap="round"/><path d="M-5,14 Q0,16 5,14" fill="none" stroke="${c.d}" stroke-width="2" stroke-linecap="round"/>
+   ${mouth}</g>`;
+}
+function body(outfit,sk){
+  const c=SK[sk];
+  const hand=(x,y)=>`<ellipse cx="${x}" cy="${y}" rx="9" ry="13" fill="${c.b}"/>`;
+  let legs="",torso="",arms="";
+  if(outfit==="office"){
+    legs=`<path d="M-44,-292 L-8,-292 L-12,-18 L-42,-18Z" fill="#3A4658"/><path d="M8,-292 L44,-292 L42,-18 L12,-18Z" fill="#3A4658"/><path d="M-8,-292 L8,-292 L0,-150Z" fill="#2E3846"/>
+     <path d="M24,-292 L44,-292 L42,-18 L30,-18Z" fill="#000" opacity=".12"/>
+     <path d="M-46,-18 L-10,-18 L-8,0 L-50,0Z" fill="#2B1D16"/><path d="M10,-18 L46,-18 L50,0 L8,0Z" fill="#2B1D16"/>`;
+    torso=`<path d="M-62,-445 Q-70,-440 -72,-410 L-62,-290 L62,-290 L72,-410 Q70,-440 62,-445 L24,-456 L-24,-456Z" fill="#9DB8D6"/>
+     <path d="M30,-450 Q66,-442 70,-410 L62,-290 L36,-290 Q48,-360 30,-450Z" fill="#7F9CC0" opacity=".45"/>
+     <path d="M-24,-456 L0,-426 L24,-456 L14,-462 L0,-444 L-14,-462Z" fill="#F3F6FA"/><path d="M-10,-436 L10,-436 L8,-292 L-8,-292Z" fill="#8CA9C9" opacity=".6"/>
+     <rect x="-62" y="-300" width="124" height="14" fill="#2A2018"/><rect x="-8" y="-303" width="16" height="20" rx="2" fill="#C9A24B"/>
+     <path d="M-24,-452 L-30,-420 L-30,-380" stroke="#1F6F8B" stroke-width="3" fill="none"/><path d="M24,-452 L30,-420 L30,-380" stroke="#1F6F8B" stroke-width="3" fill="none"/><rect x="18" y="-382" width="30" height="40" rx="4" fill="#fff" stroke="#1F6F8B" stroke-width="2.5"/><rect x="24" y="-374" width="18" height="14" fill="#C28E67" opacity=".6"/>`;
+    arms=`<path d="M-72,-440 L-96,-345 L-80,-338 L-60,-420Z" fill="#9DB8D6"/><path d="M-94,-345 L-100,-262 L-84,-258 L-80,-338Z" fill="${c.b}"/>${hand(-92,-248)}
+     <path d="M72,-440 L96,-345 L80,-338 L60,-420Z" fill="#8AA7C8"/><path d="M94,-345 L100,-262 L84,-258 L80,-338Z" fill="${c.d}"/>${hand(92,-248)}`;
+  } else {
+    legs=`<path d="M-30,-60 L-22,-24 L-12,-6 L-34,-6Z" fill="${c.b}"/><path d="M30,-60 L22,-24 L12,-6 L34,-6Z" fill="${c.b}"/>
+     <path d="M-52,-292 L52,-292 L58,-150 L56,-36 L-56,-36 L-58,-150Z" fill="#F7F3EA"/>
+     <path d="M-56,-36 L56,-36 L56,-52 L-56,-52Z" fill="#D4AF37"/><path d="M-56,-44 L56,-44" stroke="#fff" stroke-width="2" opacity=".6"/>
+     <path d="M-8,-292 L-4,-52 L4,-52 L8,-292Z" fill="#E6DFCF"/><path d="M-30,-290 L-34,-60 M26,-290 L30,-60" stroke="#D8D0BD" stroke-width="3" fill="none"/>
+     <path d="M20,-292 L52,-292 L58,-150 L56,-36 L30,-36Z" fill="#000" opacity=".07"/>
+     <ellipse cx="-24" cy="2" rx="22" ry="7" fill="${c.d}"/><ellipse cx="24" cy="2" rx="22" ry="7" fill="${c.d}"/>`;
+    torso=`<path d="M-62,-445 Q-70,-440 -72,-410 L-62,-290 L62,-290 L72,-410 Q70,-440 62,-445 L24,-456 L-24,-456Z" fill="#F2D16B"/>
+     <path d="M30,-450 Q66,-442 70,-410 L62,-290 L36,-290 Q48,-360 30,-450Z" fill="#D8B24C" opacity=".5"/>
+     <path d="M-24,-456 L0,-430 L24,-456" fill="${c.b}"/><path d="M0,-430 L0,-292" stroke="#D8B24C" stroke-width="3"/>
+     <path d="M-62,-445 Q-10,-400 70,-410" fill="none" stroke="#fff" stroke-width="0"/>
+     <path d="M-76,-450 Q-58,-462 -40,-450 L-34,-300 Q-52,-292 -72,-300Z" fill="#F8F4EA"/>
+     <path d="M-76,-450 Q-58,-462 -40,-450 L-37,-420 Q-58,-412 -75,-420Z" fill="#fff" opacity=".6"/>
+     <path d="M-72,-318 L-36,-318" stroke="#D4AF37" stroke-width="5"/><path d="M-72,-306 L-36,-306" stroke="#D4AF37" stroke-width="2.5"/>
+     <path d="M-40,-450 L-34,-300 L-44,-300 L-48,-446Z" fill="#000" opacity=".08"/>`;
+    arms=`<path d="M-72,-440 L-92,-352 L-74,-346 L-60,-420Z" fill="#F2D16B"/><path d="M-90,-352 L-98,-262 L-82,-258 L-76,-346Z" fill="${c.b}"/>${hand(-90,-248)}
+     <path d="M72,-440 L92,-352 L74,-346 L60,-420Z" fill="#D8B24C"/><path d="M90,-352 L98,-262 L82,-258 L76,-346Z" fill="${c.d}"/>${hand(90,-248)}`;
+  }
+  return legs+torso+arms+`<rect x="-14" y="-478" width="28" height="28" fill="${c.b}"/><path d="M-14,-470 Q0,-458 14,-470 L14,-478 L-14,-478Z" fill="${c.d}" opacity=".55"/>`;
+}
+const person=(x,y,sc,outfit,sk,ex,gl=true)=>`<g transform="translate(${x},${y}) scale(${sc})">${body(outfit,sk)}<g transform="translate(0,-512)">${face(ex,sk,gl)}</g></g>`;
+const bust=(x,y,sc,outfit,sk,ex,label)=>`<g transform="translate(${x},${y})"><rect x="-120" y="-150" width="240" height="290" rx="18" fill="#FFF8EC" stroke="#E0CFB4" stroke-width="3"/><g transform="translate(0,${60}) scale(${sc})"><g transform="translate(0,0)"><g transform="translate(0,${512})">${body(outfit,sk).replace(/^/,"")}</g></g></g><g transform="translate(0,-40) scale(${sc*1.05})">${face(ex,sk,true)}</g><text y="128" font-size="26" text-anchor="middle" fill="#5A4636">${label}</text></g>`;
+let o=`<svg width="1800" height="1100" viewBox="0 0 1800 1100"><rect width="1800" height="1100" fill="#F6EBD9"/>`;
+o+=`<text x="50" y="70" font-size="52" fill="#3B2A20">രാമു · Character sheet v1 (draft)</text><text x="50" y="108" font-size="26" fill="#7A6450">young Malayali, ~24 · semi-realistic flat vector · no outlines · no blur</text>`;
+o+=`<rect x="40" y="880" width="1" height="1" fill="none"/>`;
+o+=`<ellipse cx="310" cy="1010" rx="150" ry="16" fill="#000" opacity=".1"/>`+person(310,1010,1.4,"office","s2","smile")+`<text x="310" y="1058" font-size="30" text-anchor="middle" fill="#5A4636">ഓഫീസ്</text>`;
+o+=`<ellipse cx="720" cy="1010" rx="150" ry="16" fill="#000" opacity=".1"/>`+person(720,1010,1.4,"home","s2","neutral")+`<text x="720" y="1058" font-size="30" text-anchor="middle" fill="#5A4636">വീട് · മുണ്ട്</text>`;
+// expression busts: head+shoulders crop via clip
+const exs=[["neutral","സാധാരണ"],["smile","ചിരി"],["worried","ആശങ്ക"],["surprised","അത്ഭുതം"],["thinking","ചിന്ത"],["laugh","ആർത്തുചിരി"]];
+exs.forEach(([e,l],i)=>{const cx=1130+(i%3)*270, cy=290+Math.floor(i/3)*330;
+ o+=`<g transform="translate(${cx},${cy})"><rect x="-122" y="-150" width="244" height="300" rx="18" fill="#FFF8EC" stroke="#E0CFB4" stroke-width="3"/><clipPath id="c${i}"><rect x="-120" y="-148" width="240" height="296" rx="16"/></clipPath><g clip-path="url(#c${i})"><g transform="translate(0,${6}) scale(2.05)">${'<g transform="translate(0,0)">'+face(e,"s2",true)+'</g>'}<g transform="translate(0,0)"><g transform="translate(0,${(512)}) scale(1)"><g transform="translate(0,0)"></g></g></g></g><g transform="translate(0,222) scale(1.9)"><path d="M-62,-30 Q-70,-24 -72,10 L72,10 Q70,-24 62,-30 L24,-42 L-24,-42Z" fill="#9DB8D6"/><rect x="-14" y="-64" width="28" height="26" fill="${SK.s2.b}"/><path d="M-24,-42 L0,-12 L24,-42 L14,-48 L0,-30 L-14,-48Z" fill="#F3F6FA"/></g></g><text y="140" font-size="26" text-anchor="middle" fill="#5A4636" ></text><text y="172" font-size="26" text-anchor="middle" fill="#5A4636">${l}</text></g>`});
+// skin options
+o+=`<text x="1130" y="880" font-size="30" fill="#3B2A20">സ്കിൻ ടോൺ ഓപ്ഷനുകൾ (1 · 2 · 3)</text>`;
+[["s1","1 · #D9A47A"],["s2","2 · #C28E67"],["s3","3 · #A67B5B"]].forEach(([k,l],i)=>{const cx=1250+i*230;
+ o+=`<g transform="translate(${cx},980) scale(1.5)">${face("smile",k,true)}</g><text x="${cx}" y="1070" font-size="26" text-anchor="middle" fill="#5A4636">${l}</text>`});
+o+=`</svg>`;
+document.getElementById("o").innerHTML=o;
+</script></body></html>
