@@ -1,0 +1,282 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"ML";src:url("fonts/noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0;background:#000}
+svg{display:block}
+text{font-family:"ML",sans-serif;font-weight:800}
+</style></head>
+<body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+const NAVY="#1B2A41", YEL="#F2B705", TEAL="#2F9AA6", CORAL="#EF476F", CREAM="#FFF4E0", INK="#1C1512", GREEN="#2BB673";
+const SK={s1:{b:"#D9A47A",d:"#BF8A62",l:"#E6B88F"},s2:{b:"#C28E67",d:"#A87650",l:"#D2A27C"},s3:{b:"#A67B5B",d:"#8C6446",l:"#B88E6C"}};
+let TL=null, EV=null, ENV=null;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+const S=(sec,k)=>TL.items.filter(i=>i.sec===sec)[k];
+const at=(sec,k,f=0)=>{const i=S(sec,k);return i.start+f*(i.end-i.start)};
+const WF=(sec,k,pre)=>{const w=S(sec,k).words.find(w=>w.text.startsWith(pre));return w?w.start:S(sec,k).start};
+function outlined(text,x,y,fs,fill="#fff",sw=12,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="${NAVY}" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round">${text}</text>`}
+function plain(text,x,y,fs,fill=NAVY,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="none">${text}</text>`}
+function pill(text,x,y,col=CORAL,fs=44,tc="#fff"){const w=text.length*fs*0.72+70;return `<g transform="translate(${x},${y})"><rect x="${-w/2}" y="${-fs*0.85}" width="${w}" height="${fs*1.7}" rx="${fs*0.6}" fill="${col}"/>${plain(text,0,fs*0.33,fs,tc)}</g>`}
+function coin(x,y,r=22,a=1){return `<g opacity="${a}"><circle cx="${x}" cy="${y}" r="${r}" fill="${YEL}"/><circle cx="${x}" cy="${y}" r="${r*0.78}" fill="none" stroke="#C99A07" stroke-width="${r*0.12}"/><text x="${x}" y="${y+r*0.36}" font-size="${r*1.05}" text-anchor="middle" fill="#B8860B" stroke="none">₹</text></g>`}
+const gloss=(d)=>`<path d="${d}" fill="#fff" opacity=".28"/>`;
+const sh=(rx,ry,x=0,y=0)=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="#000" opacity=".12"/>`;
+
+// ---------------- character ----------------
+function hand(flip,c){const f=flip?-1:1;return `<g transform="translate(0,-4) scale(${f},-1)">
+ <path d="M-8,-10 Q-10,8 -4,14 L6,14 Q11,6 9,-10Z" fill="${c.b}"/>
+ <path d="M-8,-10 L-7,-24 Q-6,-27 -3,-24 L-2,-10Z M-2,-10 L-1,-27 Q0,-30 3,-27 L3,-10Z M3,-10 L5,-26 Q7,-28 9,-25 L8,-10Z" fill="${c.b}"/>
+ <path d="M8,-6 L15,-16 Q18,-14 16,-10 L10,2Z" fill="${c.b}"/>
+ <path d="M3,-8 Q6,6 4,14 L9,10 Q12,0 9,-10Z" fill="${c.d}" opacity=".35"/></g>`}
+function sneaker(x,flip){const f=flip?-1:1;return `<g transform="translate(${x},0) scale(${f},1)">
+ <path d="M-22,-30 L8,-30 L10,-14 Q24,-10 28,-2 Q28,4 20,4 L-24,4 Q-26,-12 -22,-30Z" fill="#F7F4EC"/>
+ <path d="M-24,0 L26,0 Q28,4 20,6 L-24,6Z" fill="#D8D2C4"/><path d="M8,-14 Q22,-10 28,-2 Q20,-6 8,-6Z" fill="#E9E4D6"/>
+ <path d="M-14,-30 L-14,-18 M-6,-30 L-6,-16 M2,-28 L2,-15" stroke="#B9B2A0" stroke-width="2" fill="none"/>
+ <path d="M-22,-30 L8,-30 L8,-25 L-22,-25Z" fill="#E2DDCF"/></g>`}
+function face(ex,sk,open,blink){
+  const c=SK[sk];
+  const brow={neutral:["M-24,-20 Q-15,-24 -7,-21","M7,-21 Q15,-24 24,-20"],smile:["M-24,-21 Q-15,-26 -7,-22","M7,-22 Q15,-26 24,-21"],
+   worried:["M-24,-16 Q-15,-24 -7,-23","M7,-23 Q15,-24 24,-16"],surprised:["M-24,-27 Q-15,-33 -7,-28","M7,-28 Q15,-33 24,-27"],
+   thinking:["M-24,-19 Q-15,-23 -7,-20","M7,-26 Q15,-30 24,-24"],laugh:["M-24,-22 Q-15,-27 -7,-23","M7,-23 Q15,-27 24,-22"]}[ex]||["M-24,-20 Q-15,-24 -7,-21","M7,-21 Q15,-24 24,-20"];
+  const closed=blink||ex==="laugh";
+  const eye=(x)=>closed?`<path d="M${x-9},-3 Q${x},${blink?-1:-12} ${x+9},-3" fill="none" stroke="${INK}" stroke-width="2.8" stroke-linecap="round"/>`:
+   `<ellipse cx="${x}" cy="-3" rx="9.5" ry="${ex==="surprised"?9.5:7.6}" fill="#fff"/><circle cx="${x+(ex==="thinking"?3:0.8)}" cy="${ex==="thinking"?-5.5:-3}" r="5.6" fill="#3B2A20"/><circle cx="${x+(ex==="thinking"?3:0.8)}" cy="${ex==="thinking"?-5.5:-3}" r="3" fill="#000"/><circle cx="${x+3}" cy="-5.6" r="1.6" fill="#fff"/><path d="M${x-9.5},-3 Q${x},${ex==="surprised"?-17:-12.5} ${x+9.5},-3" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/>`;
+  const up=ex==="smile"||ex==="laugh"?3:(ex==="worried"?-3:0);
+  const y0=26-up, w=8+open*5, h=open*13;
+  let mouth;
+  if(ex==="surprised") mouth=`<ellipse cx="0" cy="28" rx="${6.5+open*2}" ry="${8.5+open*3}" fill="#5A2A24"/>`;
+  else if(open<0.07){
+    mouth= ex==="smile"||ex==="laugh"?`<path d="M-12,${y0-1} Q0,${y0+9} 12,${y0-1}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`
+         : ex==="worried"?`<path d="M-9,${y0+4} Q0,${y0-4} 9,${y0+4}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`
+         : `<path d="M-8,${y0} Q0,${y0+2} 8,${y0}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`;
+  } else {
+    const th=Math.min(5,h*0.6);
+    mouth=`<path d="M${-w},${y0} Q0,${y0+h*1.9+2} ${w},${y0} Q0,${y0-h*0.15-1} ${-w},${y0}Z" fill="#5A2A24"/>`+
+      (open>0.3?`<path d="M${-w*0.78},${y0+0.4} Q0,${y0-0.2} ${w*0.78},${y0+0.4} L${w*0.7},${y0+th} Q0,${y0+th+1} ${-w*0.7},${y0+th}Z" fill="#fff"/>`:"")+
+      (open>0.55?`<ellipse cx="0" cy="${y0+h*1.25}" rx="${w*0.5}" ry="${h*0.28}" fill="#C0584C"/>`:"");
+  }
+  return `<g>
+   <ellipse cx="-38" cy="4" rx="5.5" ry="9" fill="${c.d}"/><ellipse cx="38" cy="4" rx="5.5" ry="9" fill="${c.d}"/>
+   <path d="M-38,-10 C-38,-42 -21,-47 0,-47 C21,-47 38,-42 38,-10 C38,16 27,38 0,44 C-27,38 -38,16 -38,-10Z" fill="${c.b}"/>
+   <path d="M22,-42 C32,-34 38,-24 38,-10 C38,16 27,38 0,44 C14,32 22,12 22,-8 C22,-24 24,-34 22,-42Z" fill="${c.d}" opacity=".08"/>
+   <ellipse cx="-14" cy="-26" rx="16" ry="5" fill="${c.l}" opacity=".35"/>
+   <path d="M-43,-6 C-52,-46 -26,-66 4,-65 C34,-65 54,-48 43,-4 C42,-18 36,-28 26,-32 C20,-44 4,-44 -12,-38 C-26,-34 -38,-24 -43,-6Z" fill="#17100D"/>
+   <path d="M-30,-34 C-14,-52 14,-52 32,-40" fill="none" stroke="#6A5A54" stroke-width="3" opacity=".55" stroke-linecap="round"/>
+   <path d="M-12,-38 C0,-44 14,-42 24,-34 C14,-38 2,-36 -12,-38Z" fill="#17100D"/>
+   <ellipse cx="-23" cy="15" rx="10" ry="6.5" fill="#E07A68" opacity=".3"/><ellipse cx="23" cy="15" rx="10" ry="6.5" fill="#E07A68" opacity=".3"/>
+   ${eye(-15)}${eye(15)}
+   <path d="${brow[0]}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/><path d="${brow[1]}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/>
+   <path d="M1,0 Q5,9 0,11" fill="none" stroke="${c.d}" stroke-width="2" stroke-linecap="round" opacity=".8"/><path d="M-4,12.5 Q0,14.5 4,12.5" fill="none" stroke="${c.d}" stroke-width="1.8" stroke-linecap="round"/>
+   ${mouth}</g>`;
+}
+const propsMini={
+  phone:()=>`<g><rect x="-17" y="-33" width="34" height="66" rx="6" fill="#1F2430"/><rect x="-14.5" y="-30" width="29" height="60" rx="4" fill="#2F6FD0"/><circle cx="0" cy="-6" r="7" fill="#fff"/></g>`
+};
+function arm(side,ang,o,c){
+  const out=o.outfit==="office"; const sl=out?"#A9C1DE":(o.tee||"#2F9AA6"), sld=out?"#8FAACB":"#247C87"; const slv=out?50:46;
+  const rot=-side*ang[0], er=side*ang[1];
+  return `<g transform="translate(${side*58},-440) rotate(${rot})">
+   <path d="M-14,-6 Q-15,${slv/2} -12,${slv} L12,${slv} Q15,${slv/2} 14,-6Z" fill="${sl}"/><rect x="-12" y="${slv-3}" width="24" height="6" fill="${sld}"/>
+   <path d="M-10,${slv+3} L10,${slv+3} L9,80 L-9,80Z" fill="${side>0?c.d:c.b}"/>
+   <g transform="translate(0,80) rotate(${er})">
+    <path d="M-9.5,-2 L9.5,-2 L8,86 L-8,86Z" fill="${side>0?c.d:c.b}"/>
+    ${out&&side<0?`<rect x="-10" y="64" width="20" height="11" rx="3" fill="#2A2A2E"/><circle cx="0" cy="69" r="4" fill="#C9D3E0"/>`:""}
+    <g transform="translate(0,88)">${hand(side>0,c)}${(o.hold&&o.hold.side===side)?`<g transform="translate(0,${o.hold.dy||10}) rotate(${o.hold.rot||0})">${propsMini[o.hold.item]()}</g>`:""}</g>
+   </g></g>`;
+}
+function legsTorso(o,c){
+  const sdw=(d)=>`<path d="${d}" fill="#000" opacity=".11"/>`;
+  if(o.outfit==="office"){
+    const P="#454B5C",Pd="#363B49";
+    return `<path d="M-48,-292 L-2,-292 L-8,-30 L-40,-30Z" fill="${P}"/><path d="M2,-292 L48,-292 L40,-30 L8,-30Z" fill="${P}"/><path d="M-2,-292 L2,-292 L0,-180Z" fill="${Pd}"/>
+     <path d="M-24,-292 L-22,-60" stroke="#5A6174" stroke-width="2.5" fill="none"/><path d="M24,-292 L22,-60" stroke="#5A6174" stroke-width="2.5" fill="none"/>${sdw("M26,-292 L48,-292 L40,-30 L24,-30Z")}
+     ${sneaker(-26,false)}${sneaker(26,true)}
+     <path d="M-60,-446 Q-70,-440 -72,-412 L-62,-292 Q0,-280 62,-292 L72,-412 Q70,-440 60,-446 L22,-458 L-22,-458Z" fill="#A9C1DE"/>${sdw("M30,-452 Q66,-442 70,-412 L62,-292 Q40,-288 34,-290 Q50,-370 30,-452Z")}
+     <path d="M-22,-458 L-2,-436 L-16,-428 L-26,-446Z" fill="#F3F7FB"/><path d="M22,-458 L2,-436 L16,-428 L26,-446Z" fill="#E4ECF5"/><path d="M0,-436 L0,-292" stroke="#8FAACB" stroke-width="3"/>
+     ${[-410,-372,-334].map(y=>`<circle cx="0" cy="${y}" r="3" fill="#F3F7FB"/>`).join("")}
+     <rect x="-52" y="-292" width="104" height="12" rx="3" fill="#2A2018"/><rect x="-9" y="-294" width="18" height="16" rx="2" fill="#C9A24B"/>
+     <path d="M-24,-452 L-32,-420 L-32,-376" stroke="#1F6F8B" stroke-width="3" fill="none"/><path d="M24,-452 L32,-420 L32,-376" stroke="#1F6F8B" stroke-width="3" fill="none"/>
+     <rect x="14" y="-378" width="34" height="44" rx="4" fill="#fff" stroke="#1F6F8B" stroke-width="2.5"/><rect x="20" y="-370" width="22" height="18" rx="2" fill="${c.b}"/>`;
+  }
+  const J="#44649A",Jd="#33507F",Jl="#6283B8", T=o.tee||"#2F9AA6";
+  return `<path d="M-48,-292 L-2,-292 L-8,-30 L-42,-30Z" fill="${J}"/><path d="M2,-292 L48,-292 L42,-30 L8,-30Z" fill="${J}"/><path d="M-2,-292 L2,-292 L0,-170Z" fill="${Jd}"/>
+   <path d="M-25,-290 L-24,-40" stroke="${Jl}" stroke-width="2" fill="none" stroke-dasharray="6 3"/><path d="M25,-290 L24,-40" stroke="${Jl}" stroke-width="2" fill="none" stroke-dasharray="6 3"/>
+   <path d="M-44,-286 Q-26,-258 -8,-282" fill="none" stroke="${Jd}" stroke-width="3"/><path d="M44,-286 Q26,-258 8,-282" fill="none" stroke="${Jd}" stroke-width="3"/>
+   <ellipse cx="-24" cy="-170" rx="14" ry="22" fill="${Jl}" opacity=".35"/><ellipse cx="25" cy="-170" rx="14" ry="22" fill="${Jl}" opacity=".3"/>${sdw("M28,-292 L48,-292 L42,-30 L26,-30Z")}
+   ${sneaker(-26,false)}${sneaker(26,true)}
+   <path d="M-58,-446 Q-68,-440 -70,-412 L-62,-292 Q0,-278 62,-292 L70,-412 Q68,-440 58,-446 L20,-458 Q0,-446 -20,-458Z" fill="${T}"/>${sdw("M28,-452 Q64,-442 68,-412 L62,-292 Q40,-288 34,-290 Q48,-370 28,-452Z")}
+   <path d="M-20,-458 Q0,-440 20,-458 L20,-450 Q0,-432 -20,-450Z" fill="#000" opacity=".18"/>
+   <path d="M-44,-338 Q-24,-322 -4,-338 M6,-372 Q26,-358 46,-372" fill="none" stroke="#000" stroke-width="2.5" opacity=".14"/>
+   <path d="M-20,-454 Q-30,-420 -34,-386" fill="none" stroke="#F4F4F4" stroke-width="3" stroke-linecap="round"/><path d="M20,-454 Q30,-420 34,-386" fill="none" stroke="#F4F4F4" stroke-width="3" stroke-linecap="round"/>
+   <circle cx="-34" cy="-382" r="5" fill="#F4F4F4"/><circle cx="34" cy="-382" r="5" fill="#F4F4F4"/>`;
+}
+function ramu(x,y,sc,opt){
+  const o=Object.assign({outfit:"casual",sk:"s2",ex:"neutral",open:0,blink:false,tilt:0,L:[8,-4],R:[8,-4],flip:false,tee:null,hold:null,shadow:true},opt||{});
+  const c=SK[o.sk];
+  return `<g transform="translate(${x},${y}) scale(${o.flip?-sc:sc},${sc})">${o.shadow?sh(120,14,0,4):""}${legsTorso(o,c)}${arm(-1,o.L,o,c)}${arm(1,o.R,o,c)}
+   <rect x="-13" y="-480" width="26" height="30" fill="${c.b}"/><path d="M-13,-472 Q0,-460 13,-472 L13,-480 L-13,-480Z" fill="${c.d}" opacity=".5"/>
+   <g transform="translate(0,-470) rotate(${o.tilt}) translate(0,-42) scale(1.1)">${face(o.ex,o.sk,o.open,o.blink)}</g></g>`;
+}
+// talking state: mouth from audio envelope, blink schedule, gesture
+function talk(t){
+  const i=Math.round(t*30); const open=ENV&&ENV[i]!==undefined?ENV[i]:0;
+  const bt=(t*0.9)%3.1; const blink=bt>2.96;
+  return {open:open>0.08?open:0,blink};
+}
+function gestureR(t,k=0){return [38+22*Math.sin(t*1.9+k),-(60+35*Math.sin(t*1.3+k*2))]}
+function gestureL(t,k=0){return [10+6*Math.sin(t*1.1+k),-6]}
+
+// ---------------- rooms ----------------
+function room(id,c1,c2,fl,opt){
+  opt=opt||{};
+  let o=`<defs><linearGradient id="w${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></linearGradient>
+   <linearGradient id="f${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${fl}"/><stop offset="1" stop-color="#00000022"/></linearGradient>
+   <linearGradient id="k${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BFE3F7"/><stop offset="1" stop-color="#EAF6FB"/></linearGradient></defs>
+   <rect width="1080" height="1920" fill="url(#w${id})"/>
+   <rect y="1190" width="1080" height="730" fill="${fl}"/><rect y="1190" width="1080" height="730" fill="url(#f${id})" opacity=".5"/>`;
+  for(let i=-6;i<=6;i++) o+=`<path d="M${540+i*60},1190 L${540+i*180},1920" stroke="#00000012" stroke-width="3"/>`;
+  o+=`<rect y="1166" width="1080" height="26" fill="#ffffff" opacity=".55"/><rect y="1188" width="1080" height="6" fill="#000" opacity=".08"/>`;
+  const wx=opt.winRight?700:90;
+  o+=`<g transform="translate(${wx},650)"><rect width="290" height="360" rx="6" fill="#fff"/><rect x="14" y="14" width="262" height="332" fill="url(#k${id})"/><path d="M14,250 Q70,215 120,250 T230,240 L276,246 L276,346 L14,346Z" fill="#9CCB9A"/><circle cx="210" cy="80" r="26" fill="#FFF3B8"/><rect x="140" y="14" width="10" height="332" fill="#fff"/><rect x="14" y="170" width="262" height="10" fill="#fff"/><path d="M-14,-6 H0 V380 H-14Z M290,-6 H304 V380 H290Z" fill="${opt.curtain||"#E8A598"}"/></g>`;
+  const px=opt.winRight?110:880;
+  o+=`<g transform="translate(${px},1130)"><path d="M-26,40 L-34,-4 H34 L26,40Z" fill="#C46B4A"/><path d="M0,-4 Q-34,-60 -50,-100 Q-10,-70 0,-4Z" fill="#3F9B5E"/><path d="M0,-4 Q30,-70 56,-96 Q20,-60 0,-4Z" fill="#2E8650"/><path d="M0,-4 Q-6,-80 6,-130 Q16,-70 0,-4Z" fill="#4CB06D"/></g>`;
+  return o;
+}
+const wallArt=(x,y,w,h,col)=>`<g transform="translate(${x},${y})"><rect width="${w}" height="${h}" fill="#fff" stroke="#E6D7C0" stroke-width="6"/><rect x="10" y="10" width="${w-20}" height="${h-20}" fill="${col}"/><path d="M10,${h-10} L${w*0.4},${h*0.5} L${w*0.6},${h*0.7} L${w-10},${h*0.3} V${h-10}Z" fill="#00000018"/></g>`;
+
+// ---------------- info graphics ----------------
+const cal=(x,y,top,num,sc=1)=>`<g transform="translate(${x},${y}) scale(${sc})"><rect x="-110" y="-110" width="220" height="230" rx="20" fill="#fff"/><rect x="-110" y="-110" width="220" height="62" rx="20" fill="${CORAL}"/>${plain(top,0,-62,34,"#fff")}${plain(num,0,82,104,NAVY)}${gloss("M-110,-48 H-40 L-110,40Z")}</g>`;
+const card=(x,y,w,h,title,col,a=1)=>`<g transform="translate(${x},${y}) scale(${a})"><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="26" fill="#fff"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="74" rx="26" fill="${col}"/><rect x="${-w/2}" y="${-h/2+40}" width="${w}" height="34" fill="${col}"/>${plain(title,0,-h/2+52,38,"#fff")}</g>`;
+const xmark=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><path d="M-48,-48 L48,48 M48,-48 L-48,48" stroke="${CORAL}" stroke-width="20" stroke-linecap="round"/></g>`;
+const tick=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><path d="M-40,0 L-12,32 L44,-40" fill="none" stroke="${GREEN}" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+const bubbleQ=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><circle r="52" fill="#fff"/>${plain("?",0,26,76,CORAL)}</g>`;
+const phoneBig=(x,y,sc,txt)=>`<g transform="translate(${x},${y}) scale(${sc})"><rect x="-70" y="-135" width="140" height="270" rx="24" fill="#1F2430"/><rect x="-60" y="-122" width="120" height="244" rx="16" fill="#3E7BE0"/><rect x="-60" y="-122" width="120" height="90" rx="16" fill="#5B93EE"/><circle cx="0" cy="-70" r="26" fill="#fff"/>${plain("₹",0,-60,34,"#3E7BE0")}${txt?plain(txt,0,20,30,"#fff"):""}<rect x="-40" y="50" width="80" height="14" rx="7" fill="#fff" opacity=".7"/><rect x="-40" y="76" width="56" height="12" rx="6" fill="#fff" opacity=".45"/>${gloss("M-60,-122 L-14,-122 L-60,-30Z")}</g>`;
+const num=(v)=>"₹"+Math.round(v).toLocaleString("en-IN");
+function chart(x,y,w,h,p,down){const pts=down?[[0,.25],[.18,.2],[.3,.28],[.45,.15],[.6,.3],[.72,.7],[.85,.9],[1,.98]]:[[0,.9],[.3,.6],[.6,.4],[1,.1]];
+  let d="";const n=Math.max(2,Math.floor(pts.length*p)+1);pts.slice(0,n).forEach((q,i)=>{d+=(i?"L":"M")+(x+q[0]*w)+","+(y+q[1]*h)+" "});
+  const last=pts[Math.min(n,pts.length)-1];
+  return `<g><rect x="${x-20}" y="${y-20}" width="${w+40}" height="${h+40}" rx="22" fill="#fff"/><path d="M${x},${y+h*0.5} H${x+w} M${x},${y+h*0.25} H${x+w} M${x},${y+h*0.75} H${x+w}" stroke="#E5E9EE" stroke-width="3"/><path d="${d}" fill="none" stroke="${CORAL}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${x+last[0]*w}" cy="${y+last[1]*h}" r="12" fill="${CORAL}"/></g>`}
+function coaster(x,y,w,t){let d="";const f=u=>y+Math.sin(u*Math.PI*3.2)*-90+u*40;for(let i=0;i<=60;i++){const u=i/60;d+=(i?"L":"M")+(x+u*w)+","+f(u)+" "}
+  const u=(t*0.22)%1, cx=x+u*w, cy=f(u)-16, u2=Math.min(1,u+0.01), ang=Math.atan2(f(u2)-f(u),(u2-u)*w)*180/Math.PI;
+  return `<path d="${d}" fill="none" stroke="#6B4F3A" stroke-width="12" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#B88E6C" stroke-width="4" stroke-linecap="round" transform="translate(0,-5)"/><g transform="translate(${cx},${cy}) rotate(${ang})"><rect x="-34" y="-20" width="68" height="30" rx="10" fill="${CORAL}"/><circle cx="-18" cy="14" r="8" fill="${NAVY}"/><circle cx="18" cy="14" r="8" fill="${NAVY}"/><circle cx="-10" cy="-30" r="12" fill="${SK.s2.b}"/><circle cx="12" cy="-30" r="12" fill="${SK.s3.b}"/></g>`}
+function sector(cx,cy,r,a0,a1,col){const p=a=>[cx+r*Math.cos(a*Math.PI/180),cy+r*Math.sin(a*Math.PI/180)];const [x0,y0]=p(a0),[x1,y1]=p(a1);return `<path d="M${cx},${cy} L${x0},${y0} A${r},${r} 0 ${(a1-a0)>180?1:0} 1 ${x1},${y1}Z" fill="${col}"/>`}
+function scales(x,y,tilt){return `<g transform="translate(${x},${y})"><path d="M0,140 V-20" stroke="${NAVY}" stroke-width="14"/><rect x="-60" y="130" width="120" height="16" rx="8" fill="${NAVY}"/><g transform="translate(0,-20) rotate(${tilt})"><rect x="-180" y="-8" width="360" height="16" rx="8" fill="${NAVY}"/>
+  <g transform="translate(-180,8) rotate(${-tilt})"><path d="M0,0 L-50,90 H50Z" fill="none" stroke="${NAVY}" stroke-width="4"/><rect x="-62" y="90" width="124" height="14" rx="7" fill="${CORAL}"/></g>
+  <g transform="translate(180,8) rotate(${-tilt})"><path d="M0,0 L-50,90 H50Z" fill="none" stroke="${NAVY}" stroke-width="4"/><rect x="-62" y="90" width="124" height="14" rx="7" fill="${GREEN}"/></g></g></g>`}
+
+// ---------------- captions (word-by-word, no glow, no blur) ----------------
+function captionHTML(t){
+  const it=TL.items.find(i=>t>=i.start&&t<=i.end+0.25); if(!it) return "";
+  const ws=it.words; const chunks=[]; let cur=[],len=0;
+  for(const w of ws){const l=[...w.text].length; if(cur.length&&(len+l>36||cur.length>=6)){chunks.push(cur);cur=[];len=0} cur.push(w);len+=l+1}
+  if(cur.length) chunks.push(cur);
+  let ch=chunks[chunks.length-1]; for(let i=0;i<chunks.length;i++){const nxt=chunks[i+1]; if(!nxt||t<nxt[0].start-0.02){ch=chunks[i];break}}
+  const lines=[[],[]]; let ll=0,li=0; for(const w of ch){const l=[...w.text].length; if(li===0&&ll+l>19&&lines[0].length){li=1;ll=0} lines[li].push(w);ll+=l+1}
+  const row=(arr,y)=>arr.length?`<text x="540" y="${y}" font-size="54" text-anchor="middle" paint-order="stroke" stroke-linejoin="round" stroke="${NAVY}" stroke-width="14">${arr.map((w,i)=>`<tspan fill="#fff" fill-opacity="${t>=w.start-0.02?1:0.62}" stroke-opacity="${t>=w.start-0.02?1:0.62}">${w.text}${i<arr.length-1?" ":""}</tspan>`).join("")}</text>`:"";
+  return row(lines[0],1352)+row(lines[1],1416);
+}
+const TAG=`<g transform="translate(540,552)"><rect x="-370" y="-30" width="740" height="82" rx="26" fill="#1B2A41" opacity=".82"/>${plain("ഒരു ഉദാഹരണം · ഉപദേശമല്ല",0,-2,30,"#fff")}${plain("മ്യൂച്വൽ ഫണ്ടുകൾ വിപണി റിസ്കിന് വിധേയം",0,38,25,"#FFD98A")}</g>`;
+
+function render(t){
+  const svg=document.getElementById("s");
+  const order=["hook","story","rule","where","liquid","arb","close"]; let id="hook";
+  for(const k of order){ if(t>=S(k,0).start-0.1) id=k }
+  const lastEnd=TL.items[TL.items.length-1].end; if(t>=lastEnd+0.2) id="disc";
+  const sec0=id==="disc"?lastEnd+0.2:S(id,0).start, lt=t-sec0;
+  const zoom=1+0.03*clamp(lt/10);
+  const tk=talk(t); const speaking=t<lastEnd+0.1;
+  let bg="",fg="",top="";
+  const FY=1262, SC=1.1;
+  const pickItem=()=>TL.items.find(i=>t>=i.start&&t<=i.end+0.1);
+  const cur=pickItem();
+  if(id==="hook"){
+    bg=room("h","#FBEBDD","#F4DCC6","#D8B48C",{winRight:false});
+    const dropT=WF("hook",0,"നാൽപ്പത്തിരണ്ടായിരം");
+    const v=t<dropT-0.3?50000:lerp(50000,42000,ease((t-dropT+0.3)/0.9));
+    fg+=`<g transform="translate(700,880)"><rect x="-250" y="-120" width="500" height="240" rx="30" fill="#fff"/><rect x="-250" y="-120" width="500" height="64" rx="30" fill="${GREEN}"/>${plain("എൻ്റെ സമ്പാദ്യം",0,-74,36,"#fff")}${plain(num(v),0,60,112,v<50000?CORAL:NAVY)}${gloss("M-250,-56 H-170 L-250,40Z")}</g>`;
+    if(t>dropT-0.3){fg+=`<g transform="translate(700,1060) scale(${back((t-dropT+0.3)/0.4)})">${pill("−₹8,000",0,0,CORAL,52)}</g>`}
+    fg+=phoneBig(900,1030,0.62,"");
+    fg+=ramu(280,FY,SC,{outfit:"casual",ex:t>dropT?"worried":"smile",open:tk.open,blink:tk.blink,L:gestureL(t),R:t<dropT?gestureR(t):[75,-8],tilt:Math.sin(t*1.2)*2});
+    top+=outlined("ഒറ്റ ആഴ്ച കൊണ്ട്",540,360,70);top+=outlined("₹50,000 → ₹42,000",540,462,64,"#FFD98A");
+    if(S("hook",1).start<=t) fg+=`<g transform="translate(700,1130)"><g transform="scale(${back((t-S("hook",1).start)/0.4)})">${pill("ഇത് ചെയ്യരുത് ✗",0,0,NAVY,40)}</g></g>`;
+  } else if(id==="story"){
+    bg=room("s","#E3EEF3","#D3E3EC","#B9A58E",{winRight:true,curtain:"#9DB7D3"});
+    const e8=WF("story",0,"എട്ട്"), eq=WF("story",0,"ഇക്വിറ്റി");
+    if(S("story",0).start<=t&&t<S("story",2).start){
+      if(t>e8-0.2) fg+=cal(300,830,"മാസം","8",back((t-e8+0.2)/0.4)*0.85);
+      if(t>eq-0.2){const a=back((t-eq+0.2)/0.4);fg+=card(700,860,360,250,"ഇക്വിറ്റി ഫണ്ട്",TEAL,a);fg+=`<g transform="translate(700,930) scale(${a})"><path d="M-120,40 L-60,-10 L-10,20 L50,-40 L110,-70" fill="none" stroke="${GREEN}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>`}
+      for(let i=0;i<4;i++){const c=eq+0.3+i*0.35,p=(t-c)/0.6;if(p>0&&p<1) fg+=coin(lerp(330,700,ease(p)),lerp(1000,900,ease(p))-Math.sin(p*Math.PI)*120,24)}
+    }
+    if(t>=S("story",1).start&&t<S("story",2).start){const p=clamp((t-S("story",1).start)/(S("story",1).end-S("story",1).start));fg+=chart(190,740,700,300,p,true);if(p>0.5)fg+=`<g transform="translate(540,700)">${pill("മാർക്കറ്റ് താഴേക്ക്",0,0,CORAL,38)}</g>`}
+    if(t>=S("story",2).start){const dt=WF("story",2,"നാൽപ്പത്തിരണ്ടായിരം");const v=t<dt-0.3?50000:lerp(50000,42000,ease((t-dt+0.3)/0.8));
+      fg+=`<g transform="translate(600,860)"><rect x="-300" y="-120" width="600" height="240" rx="30" fill="#fff"/><rect x="-300" y="-120" width="600" height="64" rx="30" fill="${v<50000?CORAL:GREEN}"/>${plain("എൻ്റെ അൻപതിനായിരം",0,-74,34,"#fff")}${plain(num(v),0,60,120,v<50000?CORAL:NAVY)}</g>`;
+      if(t>=S("story",3).start){const q=back((t-S("story",3).start)/0.4);fg+=`<g transform="translate(400,1060) scale(${q})">${pill("പ്ലാൻ ✗",0,0,NAVY,46)}</g><g transform="translate(760,1060) scale(${q})">${pill("മൂഡ് ✗",0,0,CORAL,46)}</g>`}}
+    const sur=t>=S("story",1).start&&t<S("story",2).start;
+    fg+=ramu(170,FY,SC,{outfit:"casual",ex:sur?"surprised":(t>=S("story",2).start?"worried":"smile"),open:tk.open,blink:tk.blink,L:sur?[100,-112]:gestureL(t,1),R:sur?[100,-112]:gestureR(t,2),tilt:Math.sin(t*1.3)*2});
+    top+=pill("എൻ്റെ മണ്ടത്തരം",540,350,CORAL,42)+outlined("ഇക്വിറ്റി ഫണ്ട്, 8 മാസത്തേക്ക്",540,470,54);
+  } else if(id==="rule"){
+    bg=room("r","#FFF3C9","#F8E7A8","#D6B98B",{winRight:false,curtain:"#E8A598"});
+    const r0=S("rule",0).start;
+    top+=pill("ഗോൾഡൻ റൂൾ",540,350,"#C99A07",44)+outlined("3 വർഷത്തിൽ താഴെ",540,470,64,"#fff");
+    if(t<S("rule",2).start){
+      fg+=`<g transform="translate(640,840) scale(${back((t-r0)/0.5)})"><path d="M0,-150 L38,-46 L148,-46 L58,22 L92,128 L0,64 L-92,128 L-58,22 L-148,-46 L-38,-46Z" fill="${YEL}"/><path d="M0,-110 L28,-36 L106,-36 L42,14 L66,92 L0,46 L-66,92 L-42,14 L-106,-36 L-28,-36Z" fill="#F7D56A"/>${plain("3",0,34,110,NAVY)}${plain("വർഷം",0,86,34,NAVY)}</g>`;
+      if(t>=S("rule",1).start){const q=back((t-S("rule",1).start)/0.4);fg+=card(640,1060,420,140,"ഇക്വിറ്റിയിൽ വേണ്ട",CORAL,q*0.9);fg+=xmark(840,1080,q*0.7)}
+    } else if(t<S("rule",3).start){
+      fg+=coaster(150,900,780,t);
+      fg+=`<g transform="translate(540,1100)">${pill("ഷോർട്ട് ടേം = റോളർ കോസ്റ്റർ",0,0,NAVY,40)}</g>`;
+    } else {
+      const q=back((t-S("rule",3).start)/0.5);
+      fg+=`<g transform="translate(640,880) scale(${q})"><path d="M0,-140 L130,-90 L130,20 Q130,120 0,170 Q-130,120 -130,20 L-130,-90Z" fill="${TEAL}"/><path d="M-30,-40 H30 V-10 H60 V30 H30 V60 H-30 V30 H-60 V-10 H-30Z" fill="#fff"/></g>`;
+      for(let i=0;i<3;i++){const p=((t-S("rule",3).start)*0.5+i*0.33)%1;fg+=coin(lerp(960,640,p),lerp(760,900,p),22,1-Math.abs(p-0.5)*1.2)}
+      fg+=`<g transform="translate(640,1090)">${pill("ലക്ഷ്യം: പൈസ തിരിച്ചു കിട്ടൽ",0,0,NAVY,36)}</g>`;
+    }
+    fg+=ramu(170,FY,SC,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t,3),R:t<S("rule",2).start?[78,-6]:gestureR(t,5),tilt:Math.sin(t*1.1)*2});
+  } else if(id==="where"){
+    bg=room("w","#EAE6F6","#DCD6EE","#C7B79F",{winRight:true,curtain:"#B7A4D8"});
+    top+=pill("എവിടെ ഇടണമായിരുന്നു?",540,350,"#6A4C93",42)+outlined("രണ്ട് വഴികൾ",540,470,64);
+    const k0=S("where",0).start,k1=S("where",1),k2=S("where",2),k3=S("where",3);
+    if(t<k1.start){fg+=bubbleQ(480,860,back((t-k0)/0.4)*1.5);fg+=`<g transform="translate(700,1000)">${sh(110,10,0,70)}<rect x="-80" y="-30" width="160" height="100" rx="14" fill="#7B4B2A"/><rect x="-80" y="-30" width="160" height="30" rx="14" fill="#8E5A33"/>${coin(40,20,20)}</g>`}
+    if(t>=k1.start&&t<k2.start){const q=back((t-k1.start)/0.4);fg+=card(640,880,420,300,"സേവിംഗ്സ് അക്കൗണ്ട്",TEAL,q);const s=lerp(1.3,0.6,clamp((t-k1.start)/(k1.end-k1.start)));fg+=coin(640,900,60*s*q);fg+=`<g transform="translate(640,1050)">${pill("വിലക്കയറ്റം ↑ → മൂല്യം ↓",0,0,CORAL,32)}</g>`}
+    if(t>=k2.start&&t<k3.start){const q=back((t-k2.start)/0.4);fg+=card(640,880,420,300,"ബാങ്ക് എഫ് ഡി",TEAL,q);const p=clamp((t-k2.start)/(k2.end-k2.start));fg+=`<g transform="translate(640,900) scale(${q})"><circle r="78" fill="${YEL}"/>${sector(0,0,78,-90,-90+360*0.3*ease(p*1.4),CORAL)}${plain("ടാക്സ്",74,-70,30,NAVY)}</g>`;fg+=`<g transform="translate(640,1050)">${pill("പലിശയ്ക്ക് ടാക്സ്",0,0,NAVY,34)}</g>`}
+    if(t>=k3.start){const q=back((t-k3.start)/0.4);fg+=card(420,880,300,280,"1",GREEN,q)+card(860,880,300,280,"2",GREEN,q)+bubbleQ(640,880,q*0.9)}
+    fg+=ramu(170,FY,SC,{outfit:"casual",ex:t<k1.start?"thinking":"neutral",open:tk.open,blink:tk.blink,L:t<k1.start?[20,-8]:gestureL(t,2),R:t<k1.start?[26,-120]:gestureR(t,4),tilt:t<k1.start?-6:Math.sin(t*1.2)*2});
+  } else if(id==="liquid"){
+    bg=room("l","#DDF1EC","#CBE8E0","#C9B08E",{winRight:false,curtain:"#8FC9B9"});
+    top+=pill("ഒന്ന്",540,350,GREEN,44)+outlined("ലിക്വിഡ് ഫണ്ട്",540,470,70);
+    const a=back((t-S("liquid",0).start)/0.5); fg+=card(640,860,440,150,"1 · ലിക്വിഡ് ഫണ്ട്",GREEN,a);
+    const s1=S("liquid",1);
+    const chip=(i,txt,col)=>{const t0=s1.start+(s1.end-s1.start)*[0.18,0.55,0.8][i];return t>t0?`<g transform="translate(640,${1000+i*92}) scale(${back((t-t0)/0.4)})">${pill(txt,0,0,col,34)}</g>`:""};
+    fg+=chip(0,"സേവിംഗ്സിനേക്കാൾ കൂടുതൽ റിട്ടേൺ ↑",TEAL)+chip(1,"എപ്പോ വേണമെങ്കിലും എടുക്കാം",NAVY);
+    fg+=ramu(170,FY,SC,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t,6),R:gestureR(t,7),tilt:Math.sin(t*1.1)*2});
+  } else if(id==="arb"){
+    bg=room("a","#E6F1DF","#D5E8CB","#CDB28F",{winRight:true,curtain:"#A8CF8E"});
+    top+=pill("രണ്ട്",540,350,GREEN,44)+outlined("ആർബിട്രാജ് ഫണ്ട്",540,470,66);
+    const a=back((t-S("arb",0).start)/0.5); fg+=card(640,860,440,150,"2 · ആർബിട്രാജ് ഫണ്ട്",GREEN,a);
+    const s1=S("arb",1);
+    if(t>s1.start+0.5){const q=ease((t-s1.start-0.5)/1.5);fg+=scales(640,1000,lerp(0,-9,q)).replace("translate(640,1000)","translate(640,960) scale(0.62)");fg+=`<g transform="translate(470,1130)">${plain("എഫ് ഡി ടാക്സ്",0,0,28,NAVY)}</g><g transform="translate(810,1130)">${plain("ടാക്സ് ലാഭം",0,0,28,NAVY)}</g>`}
+    if(t>s1.start+(s1.end-s1.start)*0.55) fg+=`<g transform="translate(640,740)">${pill("30% സ്ലാബ് → ടാക്സ് ലാഭം",0,0,CORAL,34)}</g>`;
+    fg+=ramu(170,FY,SC,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t,8),R:gestureR(t,9),tilt:Math.sin(t*1.1)*2});
+  } else if(id==="close"){
+    bg=room("c","#FBEBDD","#F4DCC6","#D8B48C",{winRight:false});
+    top+=outlined("എൻ്റെ പണിയിൽ നിന്ന്",540,360,66)+(t>=S("close",1).start?outlined("പഠിച്ചോ!",540,462,76,"#FFD98A"):"");
+    const c1=S("close",1);
+    if(t>=c1.start){const q=back((t-c1.start)/0.5);
+      fg+=ramu(760,FY,SC*0.98,{outfit:"office",sk:"s3",ex:"worried",open:0,blink:tk.blink,L:[10,-4],R:[10,-4],tee:null,flip:true});
+      fg+=`<g transform="translate(560,860) scale(${q})"><circle r="70" fill="${TEAL}"/><path d="M-26,8 L26,-26 M-26,8 L26,40 M26,-26 V40" stroke="#fff" stroke-width="12" stroke-linecap="round" fill="none"/><circle cx="-30" cy="8" r="12" fill="#fff"/><circle cx="30" cy="-26" r="12" fill="#fff"/><circle cx="30" cy="40" r="12" fill="#fff"/></g><g transform="translate(560,960) scale(${q})">${pill("ഷെയർ ചെയ്യൂ",0,0,CORAL,40)}</g>`}
+    fg+=ramu(250,FY,SC,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t,10),R:t>=c1.start?[84,-6]:[120,-8],tilt:Math.sin(t*1.2)*2});
+  } else {
+    const a=ease(lt/0.5);
+    bg=`<rect width="1080" height="1920" fill="${NAVY}"/>`;
+    fg+=`<g opacity="${a}">`+outlined("ഒരു ഉദാഹരണം മാത്രം",540,760,72,"#fff",10)+outlined("ഉപദേശമല്ല",540,860,72,YEL,10)+plain("മ്യൂച്വൽ ഫണ്ടുകൾ വിപണിയിലെ",540,1000,38,"#fff")+plain("റിസ്കിന് വിധേയമാണ്.",540,1056,38,"#fff")+plain("സ്കീം രേഖകൾ ശ്രദ്ധയോടെ വായിക്കുക.",540,1112,34,"#fff")+outlined("ഫോളോ ചെയ്യൂ",540,1260,64,"#fff",8)+`</g>`;
+    fg+=ramu(540,1700,0.7,{outfit:"casual",ex:"smile",open:0,blink:tk.blink,L:[10,-4],R:[110,-10],shadow:false});
+  }
+  const cap=(id==="disc")?"":captionHTML(t);
+  svg.innerHTML=`<g transform="translate(540,960) scale(${zoom}) translate(-540,-960)">${bg}${fg}</g>${top}${id==="disc"?"":TAG}${cap}`;
+}
+window.init=async(tl,ev)=>{TL=tl;EV=ev;ENV=tl.env;await document.fonts.load('800 60px ML','ആദ്യ');await document.fonts.ready;};
+window.render=render;
+</script></body></html>
