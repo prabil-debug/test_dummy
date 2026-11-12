@@ -1,0 +1,424 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"ML";src:url("fonts/noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0;background:#000}
+svg{display:block}
+text{font-family:"ML",sans-serif;font-weight:800}
+</style></head>
+<body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+const NAVY="#1B2A41", YEL="#F2B705", TEAL="#2F9AA6", CORAL="#EF476F", CREAM="#FFF4E0", INK="#1C1512", GREEN="#2BB673";
+const SK={s1:{b:"#D9A47A",d:"#BF8A62",l:"#E6B88F"},s2:{b:"#C28E67",d:"#A87650",l:"#D2A27C"},s3:{b:"#A67B5B",d:"#8C6446",l:"#B88E6C"}};
+let TL=null, EV=null, ENV=null;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+const S=(sec,k)=>TL.items.filter(i=>i.sec===sec)[k];
+const at=(sec,k,f=0)=>{const i=S(sec,k);return i.start+f*(i.end-i.start)};
+const WF=(sec,k,pre)=>{const w=S(sec,k).words.find(w=>w.text.startsWith(pre));return w?w.start:S(sec,k).start};
+function outlined(text,x,y,fs,fill="#fff",sw=12,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="${NAVY}" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round">${text}</text>`}
+function plain(text,x,y,fs,fill=NAVY,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="none">${text}</text>`}
+function pill(text,x,y,col=CORAL,fs=44,tc="#fff"){const w=text.length*fs*0.72+70;return `<g transform="translate(${x},${y})"><rect x="${-w/2}" y="${-fs*0.85}" width="${w}" height="${fs*1.7}" rx="${fs*0.6}" fill="${col}"/>${plain(text,0,fs*0.33,fs,tc)}</g>`}
+function coin(x,y,r=22,a=1){return `<g opacity="${a}"><circle cx="${x}" cy="${y}" r="${r}" fill="${YEL}"/><circle cx="${x}" cy="${y}" r="${r*0.78}" fill="none" stroke="#C99A07" stroke-width="${r*0.12}"/><text x="${x}" y="${y+r*0.36}" font-size="${r*1.05}" text-anchor="middle" fill="#B8860B" stroke="none">₹</text></g>`}
+const gloss=(d)=>`<path d="${d}" fill="#fff" opacity=".28"/>`;
+const sh=(rx,ry,x=0,y=0)=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="#000" opacity=".12"/>`;
+
+// ---------------- character ----------------
+function hand(flip,c){const f=flip?-1:1;return `<g transform="translate(0,-4) scale(${f},-1)">
+ <path d="M-8,-10 Q-10,8 -4,14 L6,14 Q11,6 9,-10Z" fill="${c.b}"/>
+ <path d="M-8,-10 L-7,-24 Q-6,-27 -3,-24 L-2,-10Z M-2,-10 L-1,-27 Q0,-30 3,-27 L3,-10Z M3,-10 L5,-26 Q7,-28 9,-25 L8,-10Z" fill="${c.b}"/>
+ <path d="M8,-6 L15,-16 Q18,-14 16,-10 L10,2Z" fill="${c.b}"/>
+ <path d="M3,-8 Q6,6 4,14 L9,10 Q12,0 9,-10Z" fill="${c.d}" opacity=".35"/></g>`}
+function sneaker(x,flip){const f=flip?-1:1;return `<g transform="translate(${x},0) scale(${f},1)">
+ <path d="M-22,-30 L8,-30 L10,-14 Q24,-10 28,-2 Q28,4 20,4 L-24,4 Q-26,-12 -22,-30Z" fill="#F7F4EC"/>
+ <path d="M-24,0 L26,0 Q28,4 20,6 L-24,6Z" fill="#D8D2C4"/><path d="M8,-14 Q22,-10 28,-2 Q20,-6 8,-6Z" fill="#E9E4D6"/>
+ <path d="M-14,-30 L-14,-18 M-6,-30 L-6,-16 M2,-28 L2,-15" stroke="#B9B2A0" stroke-width="2" fill="none"/>
+ <path d="M-22,-30 L8,-30 L8,-25 L-22,-25Z" fill="#E2DDCF"/></g>`}
+function face(ex,sk,open,blink){
+  const c=SK[sk];
+  const brow={neutral:["M-24,-20 Q-15,-24 -7,-21","M7,-21 Q15,-24 24,-20"],smile:["M-24,-21 Q-15,-26 -7,-22","M7,-22 Q15,-26 24,-21"],
+   worried:["M-24,-16 Q-15,-24 -7,-23","M7,-23 Q15,-24 24,-16"],surprised:["M-24,-27 Q-15,-33 -7,-28","M7,-28 Q15,-33 24,-27"],
+   thinking:["M-24,-19 Q-15,-23 -7,-20","M7,-26 Q15,-30 24,-24"],laugh:["M-24,-22 Q-15,-27 -7,-23","M7,-23 Q15,-27 24,-22"]}[ex]||["M-24,-20 Q-15,-24 -7,-21","M7,-21 Q15,-24 24,-20"];
+  const closed=blink||ex==="laugh";
+  const eye=(x)=>closed?`<path d="M${x-9},-3 Q${x},${blink?-1:-12} ${x+9},-3" fill="none" stroke="${INK}" stroke-width="2.8" stroke-linecap="round"/>`:
+   `<ellipse cx="${x}" cy="-3" rx="9.5" ry="${ex==="surprised"?9.5:7.6}" fill="#fff"/><circle cx="${x+(ex==="thinking"?3:0.8)}" cy="${ex==="thinking"?-5.5:-3}" r="5.6" fill="#3B2A20"/><circle cx="${x+(ex==="thinking"?3:0.8)}" cy="${ex==="thinking"?-5.5:-3}" r="3" fill="#000"/><circle cx="${x+3}" cy="-5.6" r="1.6" fill="#fff"/><path d="M${x-9.5},-3 Q${x},${ex==="surprised"?-17:-12.5} ${x+9.5},-3" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/>`;
+  const up=ex==="smile"||ex==="laugh"?3:(ex==="worried"?-3:0);
+  const y0=26-up, w=8+open*5, h=open*13;
+  let mouth;
+  if(ex==="surprised") mouth=`<ellipse cx="0" cy="28" rx="${6.5+open*2}" ry="${8.5+open*3}" fill="#5A2A24"/>`;
+  else if(open<0.07){
+    mouth= ex==="smile"||ex==="laugh"?`<path d="M-12,${y0-1} Q0,${y0+9} 12,${y0-1}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`
+         : ex==="worried"?`<path d="M-9,${y0+4} Q0,${y0-4} 9,${y0+4}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`
+         : `<path d="M-8,${y0} Q0,${y0+2} 8,${y0}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`;
+  } else {
+    const th=Math.min(5,h*0.6);
+    mouth=`<path d="M${-w},${y0} Q0,${y0+h*1.9+2} ${w},${y0} Q0,${y0-h*0.15-1} ${-w},${y0}Z" fill="#5A2A24"/>`+
+      (open>0.3?`<path d="M${-w*0.78},${y0+0.4} Q0,${y0-0.2} ${w*0.78},${y0+0.4} L${w*0.7},${y0+th} Q0,${y0+th+1} ${-w*0.7},${y0+th}Z" fill="#fff"/>`:"")+
+      (open>0.55?`<ellipse cx="0" cy="${y0+h*1.25}" rx="${w*0.5}" ry="${h*0.28}" fill="#C0584C"/>`:"");
+  }
+  return `<g>
+   <ellipse cx="-38" cy="4" rx="5.5" ry="9" fill="${c.d}"/><ellipse cx="38" cy="4" rx="5.5" ry="9" fill="${c.d}"/>
+   <path d="M-38,-10 C-38,-42 -21,-47 0,-47 C21,-47 38,-42 38,-10 C38,16 27,38 0,44 C-27,38 -38,16 -38,-10Z" fill="${c.b}"/>
+   <path d="M22,-42 C32,-34 38,-24 38,-10 C38,16 27,38 0,44 C14,32 22,12 22,-8 C22,-24 24,-34 22,-42Z" fill="${c.d}" opacity=".08"/>
+   <ellipse cx="-14" cy="-26" rx="16" ry="5" fill="${c.l}" opacity=".35"/>
+   <path d="M-43,-6 C-52,-46 -26,-66 4,-65 C34,-65 54,-48 43,-4 C42,-18 36,-28 26,-32 C20,-44 4,-44 -12,-38 C-26,-34 -38,-24 -43,-6Z" fill="#17100D"/>
+   <path d="M-30,-34 C-14,-52 14,-52 32,-40" fill="none" stroke="#6A5A54" stroke-width="3" opacity=".55" stroke-linecap="round"/>
+   <path d="M-12,-38 C0,-44 14,-42 24,-34 C14,-38 2,-36 -12,-38Z" fill="#17100D"/>
+   <ellipse cx="-23" cy="15" rx="10" ry="6.5" fill="#E07A68" opacity=".3"/><ellipse cx="23" cy="15" rx="10" ry="6.5" fill="#E07A68" opacity=".3"/>
+   ${eye(-15)}${eye(15)}
+   <path d="${brow[0]}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/><path d="${brow[1]}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/>
+   <path d="M1,0 Q5,9 0,11" fill="none" stroke="${c.d}" stroke-width="2" stroke-linecap="round" opacity=".8"/><path d="M-4,12.5 Q0,14.5 4,12.5" fill="none" stroke="${c.d}" stroke-width="1.8" stroke-linecap="round"/>
+   ${mouth}</g>`;
+}
+const propsMini={
+  phone:()=>`<g><rect x="-17" y="-33" width="34" height="66" rx="6" fill="#1F2430"/><rect x="-14.5" y="-30" width="29" height="60" rx="4" fill="#2F6FD0"/><circle cx="0" cy="-6" r="7" fill="#fff"/></g>`
+};
+function arm(side,ang,o,c){
+  const out=o.outfit==="office"; const sl=out?"#A9C1DE":(o.tee||"#2F9AA6"), sld=out?"#8FAACB":"#247C87"; const slv=out?50:46;
+  const rot=-side*ang[0], er=side*ang[1];
+  return `<g transform="translate(${side*58},-440) rotate(${rot})">
+   <path d="M-14,-6 Q-15,${slv/2} -12,${slv} L12,${slv} Q15,${slv/2} 14,-6Z" fill="${sl}"/><rect x="-12" y="${slv-3}" width="24" height="6" fill="${sld}"/>
+   <path d="M-10,${slv+3} L10,${slv+3} L9,80 L-9,80Z" fill="${side>0?c.d:c.b}"/>
+   <g transform="translate(0,80) rotate(${er})">
+    <path d="M-9.5,-2 L9.5,-2 L8,86 L-8,86Z" fill="${side>0?c.d:c.b}"/>
+    ${out&&side<0?`<rect x="-10" y="64" width="20" height="11" rx="3" fill="#2A2A2E"/><circle cx="0" cy="69" r="4" fill="#C9D3E0"/>`:""}
+    <g transform="translate(0,88)">${hand(side>0,c)}${(o.hold&&o.hold.side===side)?`<g transform="translate(0,${o.hold.dy||10}) rotate(${o.hold.rot||0})">${propsMini[o.hold.item]()}</g>`:""}</g>
+   </g></g>`;
+}
+function legsTorso(o,c){
+  const sdw=(d)=>`<path d="${d}" fill="#000" opacity=".11"/>`;
+  if(o.outfit==="office"){
+    const P="#454B5C",Pd="#363B49";
+    return `<path d="M-48,-292 L-2,-292 L-8,-30 L-40,-30Z" fill="${P}"/><path d="M2,-292 L48,-292 L40,-30 L8,-30Z" fill="${P}"/><path d="M-2,-292 L2,-292 L0,-180Z" fill="${Pd}"/>
+     <path d="M-24,-292 L-22,-60" stroke="#5A6174" stroke-width="2.5" fill="none"/><path d="M24,-292 L22,-60" stroke="#5A6174" stroke-width="2.5" fill="none"/>${sdw("M26,-292 L48,-292 L40,-30 L24,-30Z")}
+     ${sneaker(-26,false)}${sneaker(26,true)}
+     <path d="M-60,-446 Q-70,-440 -72,-412 L-62,-292 Q0,-280 62,-292 L72,-412 Q70,-440 60,-446 L22,-458 L-22,-458Z" fill="#A9C1DE"/>${sdw("M30,-452 Q66,-442 70,-412 L62,-292 Q40,-288 34,-290 Q50,-370 30,-452Z")}
+     <path d="M-22,-458 L-2,-436 L-16,-428 L-26,-446Z" fill="#F3F7FB"/><path d="M22,-458 L2,-436 L16,-428 L26,-446Z" fill="#E4ECF5"/><path d="M0,-436 L0,-292" stroke="#8FAACB" stroke-width="3"/>
+     ${[-410,-372,-334].map(y=>`<circle cx="0" cy="${y}" r="3" fill="#F3F7FB"/>`).join("")}
+     <rect x="-52" y="-292" width="104" height="12" rx="3" fill="#2A2018"/><rect x="-9" y="-294" width="18" height="16" rx="2" fill="#C9A24B"/>
+     <path d="M-24,-452 L-32,-420 L-32,-376" stroke="#1F6F8B" stroke-width="3" fill="none"/><path d="M24,-452 L32,-420 L32,-376" stroke="#1F6F8B" stroke-width="3" fill="none"/>
+     <rect x="14" y="-378" width="34" height="44" rx="4" fill="#fff" stroke="#1F6F8B" stroke-width="2.5"/><rect x="20" y="-370" width="22" height="18" rx="2" fill="${c.b}"/>`;
+  }
+  const J="#44649A",Jd="#33507F",Jl="#6283B8", T=o.tee||"#2F9AA6";
+  return `<path d="M-48,-292 L-2,-292 L-8,-30 L-42,-30Z" fill="${J}"/><path d="M2,-292 L48,-292 L42,-30 L8,-30Z" fill="${J}"/><path d="M-2,-292 L2,-292 L0,-170Z" fill="${Jd}"/>
+   <path d="M-25,-290 L-24,-40" stroke="${Jl}" stroke-width="2" fill="none" stroke-dasharray="6 3"/><path d="M25,-290 L24,-40" stroke="${Jl}" stroke-width="2" fill="none" stroke-dasharray="6 3"/>
+   <path d="M-44,-286 Q-26,-258 -8,-282" fill="none" stroke="${Jd}" stroke-width="3"/><path d="M44,-286 Q26,-258 8,-282" fill="none" stroke="${Jd}" stroke-width="3"/>
+   <ellipse cx="-24" cy="-170" rx="14" ry="22" fill="${Jl}" opacity=".35"/><ellipse cx="25" cy="-170" rx="14" ry="22" fill="${Jl}" opacity=".3"/>${sdw("M28,-292 L48,-292 L42,-30 L26,-30Z")}
+   ${sneaker(-26,false)}${sneaker(26,true)}
+   <path d="M-58,-446 Q-68,-440 -70,-412 L-62,-292 Q0,-278 62,-292 L70,-412 Q68,-440 58,-446 L20,-458 Q0,-446 -20,-458Z" fill="${T}"/>${sdw("M28,-452 Q64,-442 68,-412 L62,-292 Q40,-288 34,-290 Q48,-370 28,-452Z")}
+   <path d="M-20,-458 Q0,-440 20,-458 L20,-450 Q0,-432 -20,-450Z" fill="#000" opacity=".18"/>
+   <path d="M-44,-338 Q-24,-322 -4,-338 M6,-372 Q26,-358 46,-372" fill="none" stroke="#000" stroke-width="2.5" opacity=".14"/>
+   <path d="M-20,-454 Q-30,-420 -34,-386" fill="none" stroke="#F4F4F4" stroke-width="3" stroke-linecap="round"/><path d="M20,-454 Q30,-420 34,-386" fill="none" stroke="#F4F4F4" stroke-width="3" stroke-linecap="round"/>
+   <circle cx="-34" cy="-382" r="5" fill="#F4F4F4"/><circle cx="34" cy="-382" r="5" fill="#F4F4F4"/>`;
+}
+function ramu(x,y,sc,opt){
+  const o=Object.assign({outfit:"casual",sk:"s2",ex:"neutral",open:0,blink:false,tilt:0,L:[8,-4],R:[8,-4],flip:false,tee:null,hold:null,shadow:true},opt||{});
+  const c=SK[o.sk];
+  return `<g transform="translate(${x},${y}) scale(${o.flip?-sc:sc},${sc})">${o.shadow?sh(120,14,0,4):""}${legsTorso(o,c)}${arm(-1,o.L,o,c)}${arm(1,o.R,o,c)}
+   <rect x="-13" y="-480" width="26" height="30" fill="${c.b}"/><path d="M-13,-472 Q0,-460 13,-472 L13,-480 L-13,-480Z" fill="${c.d}" opacity=".5"/>
+   <g transform="translate(0,-470) rotate(${o.tilt}) translate(0,-42) scale(1.1)">${face(o.ex,o.sk,o.open,o.blink)}</g></g>`;
+}
+// talking state: mouth from audio envelope, blink schedule, gesture
+function talk(t){
+  const i=Math.round(t*30); const open=ENV&&ENV[i]!==undefined?ENV[i]:0;
+  const bt=(t*0.9)%3.1; const blink=bt>2.96;
+  return {open:open>0.08?open:0,blink};
+}
+function gestureR(t,k=0){return [38+22*Math.sin(t*1.9+k),-(60+35*Math.sin(t*1.3+k*2))]}
+function gestureL(t,k=0){return [10+6*Math.sin(t*1.1+k),-6]}
+
+const cal=(x,y,top,numTxt,sc=1)=>`<g transform="translate(${x},${y}) scale(${sc})"><rect x="-110" y="-110" width="220" height="230" rx="20" fill="#fff"/><rect x="-110" y="-110" width="220" height="62" rx="20" fill="${CORAL}"/>${plain(top,0,-62,28,"#fff")}${plain(numTxt,0,82,84,NAVY)}${gloss("M-110,-48 H-40 L-110,40Z")}</g>`;
+// ================= v7: shot-based engine =================
+function rng(seed){let s=seed;return ()=>{s=(s*1664525+1013904223)%4294967296;return s/4294967296}}
+const DEFS=`<defs>
+ <linearGradient id="gp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B6170"/><stop offset=".5" stop-color="#3C4150"/><stop offset="1" stop-color="#262A35"/></linearGradient>
+ <linearGradient id="gWood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9976A"/><stop offset="1" stop-color="#A9784F"/></linearGradient>
+ <linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EF476F" stop-opacity=".45"/><stop offset="1" stop-color="#EF476F" stop-opacity="0"/></linearGradient>
+ <linearGradient id="gGreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2BB673" stop-opacity=".45"/><stop offset="1" stop-color="#2BB673" stop-opacity="0"/></linearGradient>
+</defs>`;
+function seriesData(n,seed,kind){
+  const r=rng(seed);let c=100;const out=[];
+  for(let i=0;i<n;i++){const o=c;
+    if(kind==="crash"){ if(i<n*0.6) c+=(r()-0.38)*3.0+0.5; else c-=r()*2.2+1.4 } else c+=(r()-0.3)*2.2+0.55;
+    out.push({o,c,h:Math.max(o,c)+r()*1.6,l:Math.min(o,c)-r()*1.6,v:0.3+r()*0.7});}
+  if(kind==="crash"){let pk=0;out.forEach((d,i)=>{if(d.h>out[pk].h)pk=i});const peak=out[pk].c,fin=out[n-1].c,k=0.16*peak/(peak-fin);
+    for(let i=pk+1;i<n;i++){const m=v=>peak-(peak-v)*k;const d=out[i];d.o=m(d.o);d.c=m(d.c);d.h=m(d.h);d.l=m(d.l)}}
+  return out;}
+const DATA_CRASH=seriesData(46,11,"crash"), DATA_UP=seriesData(16,5,"up");
+function candleChart(x,y,w,h,data,p,opt){
+  opt=opt||{}; const n=data.length,cw=w/n; const mn=Math.min(...data.map(d=>d.l)),mx=Math.max(...data.map(d=>d.h));
+  const sy=v=>y+h*0.86-(v-mn)/(mx-mn)*h*0.74;
+  let o="";
+  for(let i=0;i<=5;i++){const gy=y+h*0.12+i*h*0.148;o+=`<path d="M${x},${gy} H${x+w}" stroke="#E6EAF0" stroke-width="2"/>`;const val=mx-(mx-mn)*(i/5)*0.98;o+=plain(Math.round(val*100/100*10)/10+"",x+w+10,gy+8,20,"#8A94A6","start")}
+  const rev=p*n; const cnt=Math.floor(rev);
+  data.forEach((d,i)=>{ if(i>cnt) return; const part=i===cnt?clamp(rev-cnt):1; const up=d.c>=d.o; const col=up?GREEN:CORAL;
+    const cx=x+i*cw+cw/2; const cl=d.o+(d.c-d.o)*part; const hi=d.o+(d.h-d.o)*part, lo=d.o+(d.l-d.o)*part;
+    const top=sy(Math.max(d.o,cl)), bot=sy(Math.min(d.o,cl));
+    o+=`<path d="M${cx},${sy(hi)} V${sy(lo)}" stroke="${col}" stroke-width="3"/><rect x="${cx-cw*0.4}" y="${top}" width="${cw*0.8}" height="${Math.max(3,bot-top)}" rx="1.5" fill="${col}"/>`;
+    o+=`<rect x="${cx-cw*0.34}" y="${y+h-14-d.v*h*0.12*part}" width="${cw*0.68}" height="${d.v*h*0.12*part}" fill="${col}" opacity=".35"/>`;});
+  let ma="";data.forEach((d,i)=>{ if(i>cnt) return; const s=data.slice(Math.max(0,i-4),i+1).reduce((a,b)=>a+b.c,0)/Math.min(5,i+1); ma+=(ma?"L":"M")+(x+i*cw+cw/2)+","+sy(s)+" "});
+  o+=`<path d="${ma}" fill="none" stroke="#2F6FD0" stroke-width="4" stroke-linejoin="round" opacity=".85"/>`;
+  const last=data[Math.min(cnt,n-1)];
+  o+=`<g transform="translate(${x+w+6},${sy(last.c)})"><path d="M0,0 L14,-16 H80 V16 H14Z" fill="${last.c>=last.o?GREEN:CORAL}"/>${plain((Math.round(last.c*10)/10)+"",44,7,22,"#fff")}</g>`;
+  return o;}
+function ticker(t,y,items,col){let o=`<rect x="0" y="${y-34}" width="1080" height="68" fill="${NAVY}"/>`;const txt=items.join("      ");const off=(t*120)%1400;
+  o+=`<g transform="translate(${-off},0)">${plain(txt+"      "+txt,0,y+11,30,col||"#fff","start")}</g>`;return o;}
+function flagship(x,y,s,ang){const cw=Math.cos(ang);
+  return `<g transform="translate(${x},${y}) scale(${s})">${sh(130,16,0,250)}<g transform="scale(${cw},1)">
+   <rect x="-110" y="-230" width="220" height="460" rx="42" fill="#1F232C"/><rect x="-104" y="-224" width="208" height="448" rx="37" fill="url(#gp)"/>
+   <rect x="-92" y="-212" width="108" height="108" rx="28" fill="#171A21"/>
+   ${[[-64,-178],[-28,-178],[-46,-140]].map(([a,b])=>`<circle cx="${a}" cy="${b}" r="19" fill="#0C0E12"/><circle cx="${a}" cy="${b}" r="14" fill="#2A3140"/><circle cx="${a}" cy="${b}" r="7" fill="#0A0C10"/><circle cx="${a-4}" cy="${b-5}" r="3" fill="#7FA6FF" opacity=".8"/>`).join("")}
+   <circle cx="2" cy="-190" r="7" fill="#F4E9C8"/><path d="M-104,-120 L-40,-224 H20 L-104,-30Z" fill="#fff" opacity=".1"/><path d="M40,-224 H104 V-120Z" fill="#fff" opacity=".06"/>
+  </g></g>`}
+function note(x,y,s,rot){return `<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><rect x="-82" y="-38" width="164" height="76" rx="7" fill="#7FBF9D"/><rect x="-74" y="-31" width="148" height="62" rx="5" fill="none" stroke="#fff" stroke-width="2.4" opacity=".75"/><circle cx="0" cy="0" r="24" fill="#fff" opacity=".35"/>${plain("₹",0,12,36,"#2F6F55")}${plain("500",-52,-8,18,"#2F6F55")}${plain("500",52,25,18,"#2F6F55")}${gloss("M-82,-38 H-20 L-82,10Z")}</g>`}
+function noteStack(x,y,n,s,seed=1){const r=rng(seed);let o="";for(let i=0;i<n;i++)o+=note(x+(r()-0.5)*8,y-i*10*s,s,(r()-0.5)*3);return o}
+function gfxBG(t,c1,c2){let o=`<rect width="1080" height="1920" fill="${c1}"/><rect y="0" width="1080" height="1920" fill="${c2}" opacity=".5"/>`;
+  const r=rng(3);for(let i=0;i<7;i++){const bx=r()*1080,by=r()*1920,br=120+r()*220,sp=0.12+r()*0.2;o+=`<circle cx="${(bx+t*sp*60)%1300-100}" cy="${by+Math.sin(t*0.5+i)*30}" r="${br}" fill="#fff" opacity=".35"/>`}
+  for(let gx=40;gx<1080;gx+=80)for(let gy=40;gy<1920;gy+=80)o+=`<circle cx="${gx}" cy="${gy}" r="2.4" fill="#00000012"/>`;return o}
+function deskRoom(t,c1,c2,wall2){
+  let bg=`<rect width="1080" height="1920" fill="${c1}"/><rect y="0" width="1080" height="1300" fill="${c2}" opacity=".6"/>`;
+  for(let i=0;i<14;i++)bg+=`<rect x="${i*80}" y="0" width="40" height="1250" fill="${wall2}" opacity=".35"/>`;
+  bg+=`<g transform="translate(80,560)"><rect width="300" height="400" rx="6" fill="#fff"/><rect x="16" y="16" width="268" height="368" fill="#BFE3F7"/><path d="M16,270 Q80,230 140,270 T250,262 L284,268 V384 H16Z" fill="#9CCB9A"/><circle cx="220" cy="90" r="28" fill="#FFF3B8"/><rect x="146" y="16" width="10" height="368" fill="#fff"/><rect x="16" y="190" width="268" height="10" fill="#fff"/><rect x="-18" y="-8" width="22" height="430" fill="#E8A598"/><rect x="296" y="-8" width="22" height="430" fill="#E8A598"/></g>`;
+  bg+=`<g transform="translate(700,640)"><rect width="300" height="14" rx="4" fill="#B88E6C"/><rect x="20" y="-90" width="26" height="90" fill="#E9B44C"/><rect x="48" y="-110" width="26" height="110" fill="#2F9AA6"/><rect x="76" y="-80" width="26" height="80" fill="#EF476F"/><rect x="104" y="-100" width="26" height="100" fill="#6A4C93"/><g transform="translate(220,0)"><path d="M-30,0 L-24,-44 H24 L30,0Z" fill="#C46B4A"/><path d="M0,-44 Q-34,-100 -50,-140 Q-10,-110 0,-44Z" fill="#3F9B5E"/><path d="M0,-44 Q30,-110 56,-136 Q20,-100 0,-44Z" fill="#2E8650"/></g></g>`;
+  const fg=`<rect y="1260" width="1080" height="660" fill="url(#gWood)"/><rect y="1250" width="1080" height="34" fill="#E3BC92"/><rect y="1280" width="1080" height="6" fill="#000" opacity=".12"/><path d="M0,1500 H1080 M0,1720 H1080" stroke="#00000018" stroke-width="4"/><rect x="420" y="1530" width="240" height="26" rx="10" fill="#7B4B2A"/><rect x="420" y="1760" width="240" height="26" rx="10" fill="#7B4B2A"/>`;
+  return {bg,fg};}
+
+const pip=(x,y,r,ex,tk,id)=>`<g transform="translate(${x},${y})"><clipPath id="pc${id}"><circle r="${r}"/></clipPath><circle r="${r+8}" fill="#fff"/><circle r="${r}" fill="#FBEBDD"/><g clip-path="url(#pc${id})"><g transform="translate(0,${r*0.34}) scale(${r/46})">${face(ex,"s2",tk.open,tk.blink)}</g><path d="M${-r},${r} Q0,${r*0.55} ${r},${r}Z" fill="#2F9AA6"/></g></g>`;
+const thumb=(x,y,rot,s)=>`<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><path d="M-30,120 Q-34,20 -22,-40 Q-12,-80 8,-82 Q30,-80 32,-40 Q38,20 34,120Z" fill="${SK.s2.b}"/><path d="M-12,-72 Q8,-86 24,-70 Q26,-52 8,-50 Q-8,-52 -12,-72Z" fill="#F3D5BE" opacity=".85"/><path d="M14,-70 Q30,40 34,120 H8Z" fill="${SK.s2.d}" opacity=".35"/></g>`;
+function appScreen(x,y,w,h,mode,p,t){
+  let o=`<g transform="translate(${x},${y})"><rect x="${-w/2-14}" y="${-h/2-14}" width="${w+28}" height="${h+28}" rx="52" fill="#1F232C"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="40" fill="#F6F8FB"/>`;
+  const L=-w/2, T=-h/2;
+  o+=`<rect x="${L}" y="${T}" width="${w}" height="120" rx="40" fill="#2F6FD0"/><rect x="${L}" y="${T+70}" width="${w}" height="50" fill="#2F6FD0"/>${plain("9:41",L+60,T+52,24,"#fff","start")}<rect x="${w/2-120}" y="${T+34}" width="54" height="22" rx="6" fill="#fff" opacity=".9"/>`;
+  if(mode==="invest"){
+    o+=plain("ഇൻവെസ്റ്റ്",0,T+112,40,"#fff");
+    o+=`<rect x="${L+24}" y="${T+150}" width="${w-48}" height="170" rx="22" fill="#fff"/>${plain("ഇക്വിറ്റി ഫണ്ട്",L+50,T+200,30,NAVY,"start")}<path d="M${L+50},${T+290} L${L+130},${T+250} L${L+190},${T+270} L${L+260},${T+220} L${L+330},${T+240}" fill="none" stroke="${GREEN}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>${pill("വളർച്ച ↑",w/2-110,T+196,GREEN,24)}`;
+    const typed="50,000".slice(0,Math.floor(clamp(p/0.45)*6));
+    o+=`<rect x="${L+24}" y="${T+350}" width="${w-48}" height="140" rx="22" fill="#fff" stroke="#D7DEE8" stroke-width="3"/>${plain("തുക",L+50,T+392,24,"#8A94A6","start")}${plain("₹"+typed+(p<0.5&&Math.floor(t*3)%2?"|":""),L+50,T+462,70,NAVY,"start")}`;
+    const press=p>0.62&&p<0.75?0.94:1;
+    o+=`<g transform="translate(0,${T+590}) scale(${press})"><rect x="${-w/2+34}" y="-46" width="${w-68}" height="92" rx="46" fill="${p>0.75?GREEN:"#2F6FD0"}"/>${plain(p>0.75?"ഓർഡർ വിജയിച്ചു ✓":"പണം ഇടുക",0,14,36,"#fff")}</g>`;
+    if(p>0.75) o+=`<g transform="translate(0,${T+720}) scale(${back((p-0.75)/0.15)})"><circle r="64" fill="${GREEN}"/><path d="M-30,2 L-8,26 L32,-24" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+  } else {
+    o+=plain("എൻ്റെ പോർട്ട്ഫോളിയോ",0,T+112,36,"#fff");
+    const v=lerp(50000,42000,ease(p));
+    o+=`<rect x="${L+24}" y="${T+150}" width="${w-48}" height="300" rx="26" fill="#fff"/>${plain("ഇപ്പോഴത്തെ മൂല്യം",L+52,T+200,26,"#8A94A6","start")}${plain(num(v),L+52,T+290,86,p>0.1?CORAL:NAVY,"start")}${pill("−₹"+Math.round(50000-v).toLocaleString("en-IN")+" ("+(-((50000-v)/500)).toFixed(1)+"%)",L+200,T+352,CORAL,26)}`;
+    const raw=[[0,.18],[.14,.14],[.28,.24],[.42,.18],[.56,.34],[.70,.62],[.84,.84],[1,.92]];
+    const pts=raw.map(q=>[L+44+q[0]*(w-88),T+500+q[1]*170]);
+    const cnt=Math.max(2,Math.round(pts.length*clamp(p*1.3)));let d="";pts.slice(0,cnt).forEach((q,i)=>d+=(i?"L":"M")+q[0]+","+q[1]+" ");
+    o+=`<rect x="${L+24}" y="${T+470}" width="${w-48}" height="230" rx="22" fill="#fff"/><path d="${d} L${pts[cnt-1][0]},${T+690} L${pts[0][0]},${T+690}Z" fill="url(#gRed)"/><path d="${d}" fill="none" stroke="${CORAL}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>`;
+    o+=`<rect x="${L+24}" y="${T+720}" width="${w-48}" height="96" rx="20" fill="#fff"/>${plain("ഇക്വിറ്റി ഫണ്ട്",L+52,T+780,28,NAVY,"start")}${plain("▼ "+num(v),w/2-50,T+780,28,CORAL,"end")}`;
+  }
+  return o+`</g>`;}
+const num=(v)=>"₹"+Math.round(v).toLocaleString("en-IN");
+// ================= Part 2 shots =================
+let SHOTS=[];
+const WX=(sec,k,pre)=>{const w=S(sec,k).words.find(w=>w.text.startsWith(pre));return w?w.start-0.05:S(sec,k).start};
+function buildShots(){
+  const R=[0,1,2,3].map(k=>S("rule",k)),W=[0,1,2,3].map(k=>S("where",k)),L=[0,1].map(k=>S("liquid",k)),A=[0,1].map(k=>S("arb",k)),C=[0,1].map(k=>S("close",k));
+  const b=(it)=>it.start-0.1;
+  SHOTS=[{id:"golden",t0:0,t1:b(R[1])},{id:"years",t0:b(R[1]),t1:b(R[2])},{id:"coaster",t0:b(R[2]),t1:WX("rule",2,"എപ്പോ")},{id:"plunge",t0:WX("rule",2,"എപ്പോ"),t1:b(R[3])},
+   {id:"target",t0:b(R[3]),t1:b(W[0])},{id:"options",t0:b(W[0]),t1:b(W[1])},{id:"inflation",t0:b(W[1]),t1:b(W[2])},{id:"fdtax",t0:b(W[2]),t1:b(W[3])},{id:"fork",t0:b(W[3]),t1:b(L[0])},
+   {id:"liqTitle",t0:b(L[0]),t1:b(L[1])},{id:"risk",t0:b(L[1]),t1:WX("liquid",1,"ബാങ്ക്")},{id:"compare",t0:WX("liquid",1,"ബാങ്ക്"),t1:WX("liquid",1,"എപ്പോ")},{id:"withdraw",t0:WX("liquid",1,"എപ്പോ"),t1:b(A[0])},
+   {id:"arbTitle",t0:b(A[0]),t1:b(A[1])},{id:"fdVsArb",t0:b(A[1]),t1:WX("arb",1,"ഒപ്പം")},{id:"slab",t0:WX("arb",1,"ഒപ്പം"),t1:WX("arb",1,"ഒരുപാട്")},{id:"taxScales",t0:WX("arb",1,"ഒരുപാട്"),t1:b(C[0])},
+   {id:"learn",t0:b(C[0]),t1:b(C[1])},{id:"share",t0:b(C[1]),t1:C[1].end+0.25},{id:"end",t0:C[1].end+0.25,t1:TL.total+1}];
+}
+window.getShots=()=>{if(!SHOTS.length)buildShots();return SHOTS};
+const foot=(txt,y=1215)=>`<g transform="translate(540,${y})"><rect x="-470" y="-32" width="940" height="64" rx="32" fill="#fff" opacity=".94"/>${plain(txt,0,10,25,NAVY)}</g>`;
+const star=(x,y,r,col=YEL,rot=0)=>{let p="";for(let i=0;i<10;i++){const rr=i%2?r*0.45:r,a=i/10*Math.PI*2-Math.PI/2;p+=`${i?"L":"M"}${Math.cos(a)*rr},${Math.sin(a)*rr} `}return `<g transform="translate(${x},${y}) rotate(${rot})"><path d="${p}Z" fill="${col}"/></g>`};
+const title=(txt,y,col=NAVY,fs=54)=>plain(txt,540,y,fs,col);
+const glass=(x,y,lv,t)=>`<g transform="translate(${x},${y})"><path d="M-120,-200 L-96,160 Q-94,190 -60,190 H60 Q94,190 96,160 L120,-200Z" fill="#E8F4FA"/><clipPath id="gl"><path d="M-114,-200 L-92,160 Q-90,184 -60,184 H60 Q90,184 92,160 L114,-200Z"/></clipPath><g clip-path="url(#gl)"><path d="M-130,${160-lv*340} Q-65,${150-lv*340+Math.sin(t*4)*8} 0,${160-lv*340} T130,${160-lv*340} V200 H-130Z" fill="#5DB5E8"/><path d="M-130,${166-lv*340} Q-65,${158-lv*340+Math.cos(t*4)*8} 0,${166-lv*340} T130,${166-lv*340} V200 H-130Z" fill="#3E9AD6" opacity=".7"/>${[0,1,2].map(i=>coin(-50+i*50,150-lv*300+Math.sin(t*3+i)*10-i*10,24)).join("")}</g><path d="M-120,-200 L-96,160 Q-94,190 -60,190 H60 Q94,190 96,160 L120,-200" fill="none" stroke="#C7D9E6" stroke-width="6"/>${gloss("M-100,-190 H-70 L-60,150 H-84Z")}</g>`;
+const door=(x,y,txt,col,a)=>`<g transform="translate(${x},${y}) scale(${a})"><rect x="-130" y="-170" width="260" height="340" rx="22" fill="#fff"/><rect x="-130" y="-170" width="260" height="74" rx="22" fill="${col}"/><rect x="-130" y="-130" width="260" height="34" fill="${col}"/>${plain(txt,0,-122,34,"#fff")}</g>`;
+function coasterWorld(x){return 1040-190*Math.sin(x/190)-60*Math.sin(x/70)-x*0.04}
+function cartDraw(cx,cy,ang,tk,ex){return `<g transform="translate(${cx},${cy}) rotate(${ang})"><rect x="-70" y="-24" width="140" height="48" rx="14" fill="${CORAL}"/><rect x="-70" y="-24" width="140" height="14" rx="7" fill="#fff" opacity=".35"/><circle cx="-40" cy="30" r="13" fill="${NAVY}"/><circle cx="40" cy="30" r="13" fill="${NAVY}"/><g transform="translate(-22,-40) scale(.72)">${face(ex,"s2",tk.open,tk.blink)}</g><g transform="translate(30,-34) scale(.62)">${face(ex,"s3",0,false)}</g>${coin(0,-6,16)}</g>`}
+function shotFn(id,u,t,dur,tk){
+  let bg="",mid="",fg="",cam={z:1,dx:0,dy:0,shake:0};
+  const D1=()=>deskRoom(t,"#F5E7D2","#FBEFD9","#EAD7BD");
+  if(id==="golden"){
+    const {bg:b,fg:f}=D1(); bg=b;
+    mid+=ramu(540,1830,1.9,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t),R:[120,-30],tilt:Math.sin(t*1.1)*2,shadow:false});
+    fg+=f;
+    const a=back(u*2.6);
+    fg+=`<g transform="translate(540,630) scale(${a*0.8})"><g transform="rotate(${Math.sin(t*2)*1.5})"><rect x="-360" y="-100" width="720" height="200" rx="34" fill="#F7E3A6"/><rect x="-360" y="-100" width="720" height="200" rx="34" fill="none" stroke="#C99A07" stroke-width="10"/>${star(-290,0,52,"#C99A07",t*40)}${star(290,0,52,"#C99A07",-t*40)}${plain("ഗോൾഡൻ റൂൾ",0,24,92,"#7A5A06")}</g></g>`;
+    for(let i=0;i<8;i++){const p=((t*0.6+i*0.125)%1);fg+=star(160+i*110,lerp(1000,640,p),16+8*Math.sin(i),"#FFD54F",t*90+i*30).replace("<g ",`<g opacity="${1-Math.abs(p-0.5)*1.6}" `)}
+    cam={z:lerp(1.02,1.1,ease(u)),dx:0,dy:0};
+  } else if(id==="years"){
+    bg=gfxBG(t,"#FFF3C9","#FFFAE6");
+    const X=(y)=>110+y*172, base=960, p=ease(clamp(u*2));
+    mid+=`<g><rect x="${X(0)}" y="${base-44}" width="${(X(3)-X(0))*p}" height="88" rx="44" fill="${CORAL}"/><rect x="${X(3)}" y="${base-44}" width="${Math.max(0,(X(5)-X(3))*clamp(u*2-1))}" height="88" rx="44" fill="${GREEN}"/>`;
+    for(let i=0;i<=5;i++) mid+=`<path d="M${X(i)},${base-60} V${base+60}" stroke="${NAVY}" stroke-width="6"/>${plain(i+" വർഷം",X(i),base+120,36,NAVY)}`;
+    mid+=`</g>`;
+    mid+=`<g transform="translate(${X(3)},${base-190}) scale(${back(u*2)})">${star(0,0,90,YEL)}${plain("3",0,24,76,NAVY)}</g>`;
+    const cx=lerp(X(0)+20,X(3)-40,ease(clamp(u*1.4)));mid+=coin(cx,base,30);
+    if(u>0.5) mid+=`<g transform="translate(${(X(0)+X(3))/2},${base-130}) scale(${back((u-0.5)*3)})">${pill("ഇക്വിറ്റിയിൽ വേണ്ട ✗",0,0,CORAL,42)}</g>`;
+    mid+=`<g transform="translate(${X(0)+60},${base+230})">${pill("ആവശ്യമുള്ള പൈസ",0,0,NAVY,34)}</g>`;
+    cam={z:lerp(1,1.1,ease(u)),dx:lerp(40,-40,u),dy:0};
+  } else if(id==="coaster"||id==="plunge"){
+    bg=`<rect width="1080" height="1920" fill="#BFE3F7"/><rect y="900" width="1080" height="1020" fill="#FFF4D6" opacity=".6"/>`;
+    for(let i=0;i<5;i++) bg+=`<ellipse cx="${(i*320+t*25)%1500-150}" cy="${520+(i%3)*110}" rx="120" ry="44" fill="#fff" opacity=".85"/>`;
+    bg+=`<circle cx="860" cy="560" r="64" fill="#FFE27A"/>`;
+    let cx,cy,ang,shk=0;
+    if(id==="coaster"){cx=lerp(120,1500,ease(u));cy=coasterWorld(cx);const d=coasterWorld(cx+6)-coasterWorld(cx);ang=Math.atan2(d,6)*180/Math.PI;
+      const pan=540-cx;
+      mid+=`<g transform="translate(${pan},0)">`;let d2="";for(let x=-200;x<=2200;x+=14)d2+=(x>-200?"L":"M")+x+","+coasterWorld(x)+" ";
+      for(let x=-200;x<=2200;x+=120) mid+=`<path d="M${x},${coasterWorld(x)} V1500" stroke="#8A6A4F" stroke-width="10"/>`;
+      mid+=`<path d="${d2}" fill="none" stroke="#6B4F3A" stroke-width="16" stroke-linecap="round"/><path d="${d2}" fill="none" stroke="#C9A37E" stroke-width="5" transform="translate(0,-6)"/>${cartDraw(cx,cy-34,ang,tk,"smile")}</g>`;
+      cam={z:1.0,dx:0,dy:0};
+    } else {
+      const f=u*u; cx=lerp(500,1180,f); const yf=x=>(x<700?760+Math.sin(x/60)*4:760+Math.pow(x-700,2)*0.0042); cy=yf(cx); const d=yf(cx+6)-yf(cx); ang=Math.atan2(d,6)*180/Math.PI;
+      const camx=540-cx, camy=900-cy;
+      mid+=`<g transform="translate(${camx},${camy})">`;let d2="";for(let x=200;x<=1500;x+=10)d2+=(x>200?"L":"M")+x+","+yf(x)+" ";
+      for(let x=200;x<=1500;x+=100) mid+=`<path d="M${x},${yf(x)} V2600" stroke="#8A6A4F" stroke-width="10"/>`;
+      mid+=`<path d="${d2}" fill="none" stroke="#6B4F3A" stroke-width="16" stroke-linecap="round"/>${cartDraw(cx,cy-34,ang,tk,u>0.2?"surprised":"smile")}</g>`;
+      shk=u>0.25?7:0; cam={z:1.0,dx:0,dy:0,shake:shk};
+      mid+=`<g transform="translate(540,640) scale(${back(u*3)})">${pill("താഴേക്ക്! ▼",0,0,CORAL,60)}</g>`;
+    }
+    mid+=`<g transform="translate(540,1160)">${pill("ഷോർട്ട് ടേം മാർക്കറ്റ് = റോളർ കോസ്റ്റർ",0,0,NAVY,34)}</g>`;
+  } else if(id==="target"){
+    bg=gfxBG(t,"#E4F4EC","#F4FBF7");
+    const a=back(u*2.4), b2=back((u-0.35)*2.6);
+    mid+=`<g transform="translate(300,900) scale(${a})"><rect x="-210" y="-300" width="420" height="600" rx="40" fill="#fff"/><path d="M-100,120 L-20,20 L40,70 L120,-80" fill="none" stroke="${GREEN}" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/><path d="M70,-90 L128,-90 L128,-34" fill="none" stroke="${GREEN}" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>${plain("വലിയ ലാഭം",0,210,44,NAVY)}${u>0.3?xmark(0,-10,Math.min(1.8,back((u-0.3)*3)*1.8)).replace("#EF476F","#EF476F"):""}</g>`;
+    mid+=`<g transform="translate(790,900) scale(${Math.max(0,b2)})"><rect x="-210" y="-300" width="420" height="600" rx="40" fill="#fff"/><path d="M0,-150 L110,-105 L110,10 Q110,100 0,150 Q-110,100 -110,10 L-110,-105Z" fill="${TEAL}"/><path d="M-26,-30 H26 V-6 H50 V34 H26 V58 H-26 V34 H-50 V-6 H-26Z" fill="#fff"/>${plain("പൈസ തിരിച്ചു കിട്ടൽ",0,210,38,NAVY)}${tick(0,-10,0)}</g>`;
+    if(u>0.5) for(let i=0;i<4;i++){const p=((t*0.7+i*0.25)%1);mid+=coin(lerp(1000,790,p),lerp(700,900,p),22,1-Math.abs(p-0.5)*1.4)}
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="options"){
+    const {bg:b,fg:f}=D1(); bg=b;
+    mid+=ramu(300,1830,1.9,{outfit:"casual",ex:"thinking",open:tk.open,blink:tk.blink,L:[16,-8],R:[30,-122],tilt:-5,shadow:false}); fg+=f;
+    for(let i=0;i<3;i++){const a=back((u-0.15*i)*3);fg+=door(470+i*215,880,["സേവിംഗ്സ്","എഫ് ഡി","ഫണ്ട്"][i],[TEAL,"#6A4C93",GREEN][i],Math.max(0,a)*0.62)}
+    fg+=bubbleQ2(540,640,back(u*2)*1.3);
+    cam={z:lerp(1.02,1.1,ease(u)),dx:lerp(0,20,u),dy:0};
+  } else if(id==="inflation"){
+    bg=gfxBG(t,"#FDE6E6","#FFF2F0");
+    const k=ease(u);
+    mid+=`<g transform="translate(300,860)"><rect x="-210" y="-250" width="420" height="500" rx="36" fill="#fff"/>${plain("സേവിംഗ്സ് അക്കൗണ്ട്",0,-190,32,NAVY)}${coin(0,0,lerp(110,48,k))}${plain("മൂല്യം ↓",0,200,44,CORAL)}</g>`;
+    const items=[["ചായ"],["ബാഗ്"],["ഫോൺ"]];
+    items.forEach((it,i)=>{const x=760,y=640+i*230;mid+=`<g transform="translate(${x},${y})"><rect x="-190" y="-90" width="380" height="180" rx="26" fill="#fff"/>${plain(it[0],-80,12,44,NAVY)}<g transform="translate(110,-6) rotate(${-8+Math.sin(t*3+i)*3})"><rect x="-70" y="-34" width="140" height="68" rx="14" fill="${CORAL}"/>${plain("വില ▲",0,12,34,"#fff")}</g></g>`});
+    mid+=`<g transform="translate(540,1170)">${pill("വിലക്കയറ്റം",0,0,NAVY,44)}</g>`;
+    cam={z:lerp(1,1.08,ease(u)),dx:lerp(0,-20,u),dy:0};
+  } else if(id==="fdtax"){
+    bg=gfxBG(t,"#E4EEFB","#F3F7FE");
+    mid+=`<g transform="translate(300,860)"><rect x="-230" y="-280" width="460" height="560" rx="36" fill="#fff"/><rect x="-230" y="-280" width="460" height="86" rx="36" fill="#2F6FD0"/><rect x="-230" y="-240" width="460" height="46" fill="#2F6FD0"/>${plain("ബാങ്ക് എഫ് ഡി",0,-222,40,"#fff")}${[0,1,2].map(i=>coin(-100+i*100,-60+Math.sin(t*3+i)*8,36)).join("")}${plain("പലിശ",0,70,44,NAVY)}<circle cx="150" cy="200" r="46" fill="#F5C242"/>${plain("FD",150,214,36,"#fff")}</g>`;
+    const tx=ease(clamp(u*1.4));
+    mid+=`<g transform="translate(790,860)"><circle r="190" fill="${YEL}"/>${sector(0,0,190,-90,-90+360*0.3*tx,CORAL)}<path d="M0,0 L0,-190" stroke="#fff" stroke-width="4"/>${plain("ടാക്സ്",118,-100,40,"#fff")}${plain("പലിശ",-70,60,44,NAVY)}</g>`;
+    mid+=`<g transform="translate(540,1180) scale(${back(u*2)})">${pill("പലിശയ്ക്ക് ടാക്സ്",0,0,CORAL,46)}</g>`;
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="fork"){
+    bg=`<rect width="1080" height="1920" fill="#CFE9F7"/><path d="M0,900 Q300,760 540,860 T1080,780 V1920 H0Z" fill="#9CCB9A"/><path d="M0,1100 Q400,980 700,1060 T1080,980 V1920 H0Z" fill="#7DBB86"/><circle cx="880" cy="520" r="70" fill="#FFF3B8"/>`;
+    mid+=`<path d="M440,1920 L640,1920 L560,1300 L520,1300Z" fill="#B9A58E"/><path d="M520,1300 L250,900 L330,900 L560,1300Z" fill="#B9A58E"/><path d="M560,1300 L800,900 L880,900 L600,1300Z" fill="#B9A58E"/>`;
+    mid+=`<g transform="translate(290,800) scale(${back(u*2)})"><rect x="-8" y="0" width="16" height="200" fill="#6B4F3A"/><rect x="-80" y="-90" width="160" height="110" rx="14" fill="${GREEN}"/>${plain("1",0,-6,76,"#fff")}</g><g transform="translate(840,800) scale(${back((u-0.2)*2)})"><rect x="-8" y="0" width="16" height="200" fill="#6B4F3A"/><rect x="-80" y="-90" width="160" height="110" rx="14" fill="${GREEN}"/>${plain("2",0,-6,76,"#fff")}</g>`;
+    mid+=ramu(200,1880,1.3,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t),R:[150,-10],tilt:0,shadow:true});
+    cam={z:lerp(1,1.12,ease(u)),dx:0,dy:lerp(0,40,u)};
+  } else if(id==="liqTitle"){
+    bg=gfxBG(t,"#DDF1EC","#EEF9F6");
+    mid+=glass(540,960,ease(clamp(u*1.2)),t);
+    mid+=`<g transform="translate(540,640) scale(${back(u*3)})"><circle r="74" fill="${GREEN}"/>${plain("1",0,28,96,"#fff")}</g><g transform="translate(540,1250) scale(${back(u*2.6)})">${pill("ലിക്വിഡ് ഫണ്ട്",0,0,NAVY,56)}</g>`;
+    cam={z:lerp(1,1.1,ease(u)),dx:0,dy:0};
+  } else if(id==="risk"){
+    bg=gfxBG(t,"#E9F4EE","#F6FBF8");
+    const ang=lerp(-85,-62,ease(u))+Math.sin(t*5)*1.2;
+    mid+=`<g transform="translate(540,1020)"><path d="M-330,0 A330,330 0 0 1 330,0 L240,0 A240,240 0 0 0 -240,0Z" fill="#E9EEF3"/>${sector(0,0,330,-180,-120,GREEN)}${sector(0,0,330,-120,-60,YEL)}${sector(0,0,330,-60,0,CORAL)}<circle r="236" fill="#F6FBF8"/><g transform="rotate(${ang})"><path d="M-12,0 L0,-300 L12,0Z" fill="${NAVY}"/></g><circle r="30" fill="${NAVY}"/>${plain("കുറവ്",-250,60,34,GREEN)}${plain("കൂടുതൽ",250,60,34,CORAL)}</g>`;
+    mid+=`<g transform="translate(540,640)">${pill("റിസ്ക്",0,0,NAVY,60)}</g>`;
+    fg+=foot("റിസ്ക് കുറവാണ്, പൂജ്യമല്ല · റിട്ടേൺ ഉറപ്പില്ല",1215);
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="compare"){
+    bg=gfxBG(t,"#EAF1FB","#F7FAFE");
+    const h1=lerp(0,200,ease(clamp(u*2))),h2=lerp(0,330,ease(clamp(u*2-0.3)));
+    mid+=`<g transform="translate(540,1130)"><rect x="-260" y="${-h1}" width="190" height="${h1}" rx="16" fill="${TEAL}"/><rect x="70" y="${-h2}" width="190" height="${h2}" rx="16" fill="${GREEN}"/>${plain("സേവിംഗ്സ്",-165,60,30,NAVY)}${plain("ലിക്വിഡ് ഫണ്ട്",165,60,30,NAVY)}${plain("?",165,-h2-30,70,CORAL)}</g>`;
+    mid+=`<g transform="translate(540,640)">${pill("റിട്ടേൺ താരതമ്യം",0,0,NAVY,50)}</g>`;
+    fg+=foot("ഉദാഹരണ ചിത്രം മാത്രം · റിട്ടേൺ ഉറപ്പില്ല",1215);
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="withdraw"){
+    bg=gfxBG(t,"#E4F0FA","#F3F9FE");
+    const p=clamp(u*1.1);
+    mid+=`<g transform="translate(540,960)"><rect x="-250" y="-420" width="500" height="840" rx="52" fill="#1F232C"/><rect x="-236" y="-406" width="472" height="812" rx="40" fill="#F6F8FB"/><rect x="-236" y="-406" width="472" height="110" rx="40" fill="#2F6FD0"/><rect x="-236" y="-350" width="472" height="54" fill="#2F6FD0"/>${plain("ലിക്വിഡ് ഫണ്ട്",0,-326,38,"#fff")}${plain(num(50000),0,-170,76,NAVY)}<g transform="translate(0,40) scale(${p>0.45&&p<0.6?0.94:1})"><rect x="-190" y="-48" width="380" height="96" rx="48" fill="${p>0.6?GREEN:"#2F6FD0"}"/>${plain(p>0.6?"പൈസ ബാങ്കിൽ ✓":"പിൻവലിക്കുക",0,14,38,"#fff")}</g>${p>0.6?`<g transform="translate(0,230) scale(${back((p-0.6)/0.2)})"><circle r="70" fill="${GREEN}"/><path d="M-32,2 L-9,28 L34,-26" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g>`:""}</g>`;
+    mid+=`<g transform="translate(160,900) scale(${back(u*2)})"><circle r="92" fill="#fff"/><circle r="64" fill="none" stroke="${NAVY}" stroke-width="10"/><path d="M0,-40 V0 L28,18" fill="none" stroke="${NAVY}" stroke-width="10" stroke-linecap="round"/></g>`;
+    mid+=`<g transform="translate(790,1180)">${pill("എപ്പോൾ വേണമെങ്കിലും",0,0,CORAL,28)}</g>`;
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:lerp(0,-24,u)};
+  } else if(id==="arbTitle"){
+    bg=gfxBG(t,"#E6F1DF","#F3F9EF");
+    const board=(x,lab,val,col)=>`<g transform="translate(${x},900)"><rect x="-200" y="-200" width="400" height="400" rx="32" fill="#fff"/><rect x="-200" y="-200" width="400" height="80" rx="32" fill="${col}"/><rect x="-200" y="-160" width="400" height="40" fill="${col}"/>${plain(lab,0,-142,36,"#fff")}${plain(val,0,60,100,NAVY)}</g>`;
+    mid+=board(290,"വിപണി A","₹100",TEAL)+board(790,"വിപണി B","₹101",GREEN);
+    const p=((t*0.5)%1);mid+=`<path d="M440,900 H640 M610,870 L645,900 L610,930" fill="none" stroke="${NAVY}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>${coin(lerp(420,660,p),860,24)}`;
+    mid+=`<g transform="translate(540,640) scale(${back(u*3)})"><circle r="70" fill="${GREEN}"/>${plain("2",0,26,92,"#fff")}</g><g transform="translate(540,1250) scale(${back(u*2.6)})">${pill("ആർബിട്രാജ് ഫണ്ട്",0,0,NAVY,50)}</g>`;
+    mid+=`<g transform="translate(540,1100)">${plain("ചെറിയ വില വ്യത്യാസം",0,0,34,"#5A6B5A")}</g>`;
+    cam={z:lerp(1,1.1,ease(u)),dx:0,dy:0};
+  } else if(id==="fdVsArb"){
+    bg=gfxBG(t,"#EEF1FA","#F8F9FE");
+    mid+=`<g transform="translate(300,900) scale(${back(u*2.4)})"><rect x="-220" y="-300" width="440" height="600" rx="36" fill="#fff"/><rect x="-220" y="-300" width="440" height="80" rx="36" fill="#2F6FD0"/><rect x="-220" y="-260" width="440" height="40" fill="#2F6FD0"/>${plain("ബാങ്ക് എഫ് ഡി",0,-242,38,"#fff")}<rect x="-70" y="-120" width="140" height="130" rx="20" fill="${NAVY}"/><path d="M-40,-120 V-160 Q0,-210 40,-160 V-120" fill="none" stroke="${NAVY}" stroke-width="16"/>${plain("നിശ്ചിത പലിശ",0,170,40,NAVY)}</g>`;
+    mid+=`<g transform="translate(790,900) scale(${Math.max(0,back((u-0.25)*2.4))})"><rect x="-220" y="-300" width="440" height="600" rx="36" fill="#fff"/><rect x="-220" y="-300" width="440" height="80" rx="36" fill="${GREEN}"/><rect x="-220" y="-260" width="440" height="40" fill="${GREEN}"/>${plain("ആർബിട്രാജ് ഫണ്ട്",0,-242,36,"#fff")}<path d="M-150,0 Q-100,-70 -50,0 T50,0 T150,0" fill="none" stroke="${GREEN}" stroke-width="16" stroke-linecap="round"/>${plain("ഉറപ്പില്ല*",0,170,44,CORAL)}</g>`;
+    fg+=foot("ഇത് എഫ് ഡി പോലെ ഉറപ്പുള്ളതല്ല · മ്യൂച്വൽ ഫണ്ടുകൾ റിസ്കിന് വിധേയം",1215);
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="slab"){
+    bg=gfxBG(t,"#FFF0DC","#FFF8EC");
+    const rows=[["5%",90],["10%",170],["15%",250],["20%",330],["30%",430]];
+    mid+=`<g transform="translate(540,940)">`;
+    rows.forEach(([lab,w],i)=>{const a=ease(clamp(u*3-i*0.3));const hi=i===4;mid+=`<g transform="translate(0,${-250+i*96})"><rect x="-420" y="-40" width="${w*1.6*a}" height="80" rx="20" fill="${hi?CORAL:"#F1C98A"}"/>${plain(lab,-420+w*1.6*a+50,14,40,hi?CORAL:NAVY,"start")}</g>`});
+    mid+=`</g>`;
+    mid+=`<g transform="translate(540,640)">${pill("ടാക്സ് സ്ലാബ്",0,0,NAVY,52)}</g><g transform="translate(860,1210) scale(${back((u-0.5)*3)})">${pill("30% സ്ലാബ്",0,0,CORAL,44)}</g>`;
+    fg+=foot("സ്ലാബും ടാക്സ് നിയമങ്ങളും മാറാം · ഉപദേഷ്ടാവിനോട് ചോദിക്കുക",1215);
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="taxScales"){
+    bg=gfxBG(t,"#E8F3EA","#F5FAF6");
+    const tilt=lerp(0,-9,ease(clamp(u*1.5)));
+    mid+=`<g transform="translate(540,900) scale(.9)"><path d="M0,200 V-20" stroke="${NAVY}" stroke-width="16"/><rect x="-80" y="190" width="160" height="20" rx="10" fill="${NAVY}"/><g transform="translate(0,-20) rotate(${tilt})"><rect x="-230" y="-10" width="460" height="20" rx="10" fill="${NAVY}"/>
+     <g transform="translate(-230,10) rotate(${-tilt})"><path d="M0,0 L-70,120 H70Z" fill="none" stroke="${NAVY}" stroke-width="5"/><rect x="-86" y="120" width="172" height="18" rx="9" fill="${CORAL}"/>${plain("എഫ് ഡി ടാക്സ്",0,198,32,NAVY)}</g>
+     <g transform="translate(230,10) rotate(${-tilt})"><path d="M0,0 L-70,120 H70Z" fill="none" stroke="${NAVY}" stroke-width="5"/><rect x="-86" y="120" width="172" height="18" rx="9" fill="${GREEN}"/>${plain("ആർബിട്രാജ് ടാക്സ്",0,198,32,NAVY)}</g></g></g>`;
+    mid+=`<g transform="translate(540,640)">${pill("ടാക്സ് താരതമ്യം",0,0,NAVY,50)}</g>`;
+    fg+=foot("ചിലർക്ക് ടാക്സ് കുറഞ്ഞേക്കാം · ഉറപ്പില്ല, നിയമം മാറാം",1215);
+    cam={z:lerp(1,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="learn"){
+    const {bg:b,fg:f}=D1(); bg=b;
+    mid+=ramu(540,1830,1.9,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t),R:[145,-30],tilt:Math.sin(t*1.5)*3,shadow:false}); fg+=f;
+    fg+=`<g transform="translate(540,780) scale(${back(u*3)})">${pill("പഠിച്ചോ? 👍",0,0,GREEN,76)}</g>`;
+    cam={z:lerp(1.02,1.1,ease(u)),dx:0,dy:0};
+  } else if(id==="share"){
+    const {bg:b,fg:f}=D1(); bg=b;
+    const smile=u>0.55;
+    mid+=ramu(300,1830,1.7,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t),R:[110,-20],tilt:Math.sin(t*1.2)*2,shadow:false});
+    mid+=ramu(790,1830,1.7,{outfit:"office",sk:"s3",ex:smile?"smile":"worried",open:0,blink:tk.blink,L:[10,-4],R:[10,-4],flip:true,shadow:false});
+    fg+=f;
+    const p=ease(clamp((u-0.25)/0.45));
+    fg+=`<g transform="translate(540,830) scale(${back(u*2.4)})"><circle r="84" fill="${TEAL}"/><path d="M-30,10 L30,-30 M-30,10 L30,48 M30,-30 V48" stroke="#fff" stroke-width="13" stroke-linecap="round" fill="none"/><circle cx="-34" cy="10" r="14" fill="#fff"/><circle cx="34" cy="-30" r="14" fill="#fff"/><circle cx="34" cy="48" r="14" fill="#fff"/></g>`;
+    fg+=`<g transform="translate(${lerp(300,790,p)},${lerp(1000,1000,p)-Math.sin(p*Math.PI)*160})">${p>0&&p<1?`<rect x="-36" y="-56" width="72" height="112" rx="12" fill="#1F232C"/><rect x="-30" y="-48" width="60" height="96" rx="8" fill="#3E7BE0"/>`:""}</g>`;
+    fg+=`<g transform="translate(540,1010)">${pill("ഷെയർ ചെയ്യൂ",0,0,CORAL,52)}</g>`;
+    cam={z:lerp(1.0,1.08,ease(u)),dx:0,dy:0};
+  } else if(id==="end"){
+    const a=ease(clamp((t-SHOTS[SHOTS.length-1].t0)/0.5));
+    bg=`<rect width="1080" height="1920" fill="${NAVY}"/>`;
+    mid+=`<g opacity="${a}">`+outlined("ഒരു ഉദാഹരണം മാത്രം",540,760,72,"#fff",10)+outlined("ഉപദേശമല്ല",540,860,72,YEL,10)+plain("മ്യൂച്വൽ ഫണ്ടുകൾ വിപണിയിലെ",540,1000,38,"#fff")+plain("റിസ്കിന് വിധേയമാണ്. റിട്ടേൺ ഉറപ്പില്ല.",540,1056,38,"#fff")+plain("സ്കീം രേഖകൾ ശ്രദ്ധയോടെ വായിക്കുക.",540,1112,34,"#fff")+outlined("ഫോളോ ചെയ്യൂ",540,1260,64,"#fff",8)+`</g>`;
+    mid+=ramu(540,1760,0.7,{outfit:"casual",ex:"smile",open:0,blink:tk.blink,L:[10,-4],R:[110,-10],shadow:false});
+  }
+  return {bg,mid,fg,cam};
+}
+const bubbleQ2=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><circle r="52" fill="#fff"/>${plain("?",0,26,76,CORAL)}</g>`;
+function sector(cx,cy,r,a0,a1,col){const p=a=>[cx+r*Math.cos(a*Math.PI/180),cy+r*Math.sin(a*Math.PI/180)];const [x0,y0]=p(a0),[x1,y1]=p(a1);return `<path d="M${cx},${cy} L${x0},${y0} A${r},${r} 0 ${(a1-a0)>180?1:0} 1 ${x1},${y1}Z" fill="${col}"/>`}
+const xmark=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><path d="M-48,-48 L48,48 M48,-48 L-48,48" stroke="${CORAL}" stroke-width="20" stroke-linecap="round"/></g>`;
+const tick=(x,y,sc)=>sc?`<g transform="translate(${x},${y}) scale(${sc})"><path d="M-40,0 L-12,32 L44,-40" fill="none" stroke="${GREEN}" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/></g>`:"";
+function captionHTML(t){
+  const it=TL.items.find(i=>t>=i.start&&t<=i.end+0.25); if(!it) return "";
+  const ws=it.words; const chunks=[]; let cur=[],len=0;
+  for(const w of ws){const l=[...w.text].length; if(cur.length&&(len+l>36||cur.length>=6)){chunks.push(cur);cur=[];len=0} cur.push(w);len+=l+1}
+  if(cur.length) chunks.push(cur);
+  let ch=chunks[chunks.length-1]; for(let i=0;i<chunks.length;i++){const nxt=chunks[i+1]; if(!nxt||t<nxt[0].start-0.02){ch=chunks[i];break}}
+  const lines=[[],[]]; let ll=0,li=0; for(const w of ch){const l=[...w.text].length; if(li===0&&ll+l>19&&lines[0].length){li=1;ll=0} lines[li].push(w);ll+=l+1}
+  const row=(arr,y)=>arr.length?`<text x="540" y="${y}" font-size="54" text-anchor="middle" paint-order="stroke" stroke-linejoin="round" stroke="${NAVY}" stroke-width="14">${arr.map((w,i)=>`<tspan fill="#fff" fill-opacity="${t>=w.start-0.02?1:0.62}" stroke-opacity="${t>=w.start-0.02?1:0.62}">${w.text}${i<arr.length-1?" ":""}</tspan>`).join("")}</text>`:"";
+  return row(lines[0],1352)+row(lines[1],1416);
+}
+const TAG=`<g transform="translate(540,335)"><rect x="-370" y="-30" width="740" height="82" rx="26" fill="#1B2A41" opacity=".82"/>${plain("ഒരു ഉദാഹരണം · ഉപദേശമല്ല",0,-2,30,"#fff")}${plain("മ്യൂച്വൽ ഫണ്ടുകൾ വിപണി റിസ്കിന് വിധേയം",0,38,25,"#FFD98A")}</g><g transform="translate(540,262)">${pill("ഭാഗം 2",0,0,CORAL,34)}</g>`;
+function render(t){
+  const svg=document.getElementById("s");
+  if(!SHOTS.length) buildShots();
+  let sh_=SHOTS[SHOTS.length-1]; for(const s of SHOTS){ if(t>=s.t0&&t<s.t1){sh_=s;break} }
+  const dur=Math.max(0.5,sh_.t1-sh_.t0), u=clamp((t-sh_.t0)/dur);
+  const tk=talk(t);
+  const r=shotFn(sh_.id,u,t,dur,tk);
+  const c=r.cam, sk=c.shake?Math.sin(t*90)*c.shake:0, sk2=c.shake?Math.cos(t*77)*c.shake:0;
+  const tf=(z,dx,dy)=>`translate(${540+dx+sk},${960+dy+sk2}) scale(${z}) translate(-540,-960)`;
+  const bgz=1+(c.z-1)*0.5;
+  const isEnd=sh_.id==="end";
+  svg.innerHTML=`${DEFS}<g transform="${tf(bgz,c.dx*0.5,c.dy*0.5)}">${r.bg}</g><g transform="${tf(c.z,c.dx,c.dy)}">${r.mid}</g><g transform="${tf(c.z*1.04,c.dx*1.3,c.dy*1.2)}">${r.fg}</g>${isEnd?"":TAG}${isEnd?"":captionHTML(t)}`;
+}
+window.init=async(tl,ev)=>{TL=tl;EV=ev;ENV=tl.env;SHOTS=[];await document.fonts.load('800 60px ML','ആദ്യ');await document.fonts.ready;};
+window.render=render;
+</script></body></html>
