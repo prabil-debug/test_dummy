@@ -4,12 +4,12 @@ h=h.replace('cx="${x+(ex==="thinking"?3:0.8)}" cy="${ex==="thinking"?-5.5:-3}"',
 h=h.replace('<path d="${brow[0]}"','<path transform="translate(0,${BR})" d="${brow[0]}"').replace('<path d="${brow[1]}"','<path transform="translate(0,${BR})" d="${brow[1]}"')
 p4=open('../build9/part4.js',encoding='utf8').read().split('\n')
 seg=lambda a,b:'\n'.join(p4[a-1:b])+'\n'
-cap=seg(197,206).replace('const row=(arr,y)=>arr.length?`<text x="540" y="${y}" font-size="54"','const row=(arr,y)=>arr.length?`<text x="540" y="${y}" font-size="${Math.min(54,Math.floor(54*19/Math.max(19,arr.reduce((s,w)=>s+[...w.text].length+1,0)-1)))}"')
-old='<tspan fill="#fff" fill-opacity="${t>=w.start-0.02?1:0.62}" stroke-opacity="${t>=w.start-0.02?1:0.62}">'
-assert old in cap
-cap=cap.replace(old,'<tspan ${HLATTR(w,t)}>')
-tag='const TAG=`<g transform="translate(540,335)"><rect x="-370" y="-30" width="740" height="82" rx="26" fill="#1B2A41" opacity=".82"/>${plain("ഒരു ഉദാഹരണം · ഉപദേശമല്ല",0,-2,30,"#fff")}${plain("ഉദാഹരണ കണക്ക് · വരുമാനം ഉറപ്പില്ല",0,38,25,"#FFD98A")}</g>`;\n'
+cap=open('p10_cap.js',encoding='utf8').read()
+old=''
+tag='function TAGF(){const txt="ഒരു ഉദാഹരണം · ഉപദേശമല്ല",fs=26,w=tw(txt,fs)+fs*1.1,h=fs*1.55;return `<g transform="translate(540,305)"><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="${h/2}" fill="#1B2A41" opacity=".88"/>${plain(txt,0,fs*0.34,fs,"#fff")}</g>`}\n'
+
 part=open('p10_top.js',encoding='utf8').read()+seg(17,23)+open('p10_shot.js',encoding='utf8').read()+cap+tag+seg(208,223)
+part=part.replace('${isEnd?"":TAG}','${isEnd?"":TAGF()}')
 part=part.replace('${DEFS}<g transform="${tf(bgz','${DEFS}${DEFS2}<g transform="${tf(bgz')
 open('part10.js','w',encoding='utf8').write(part); open('index.html','w',encoding='utf8').write(h+part)
 PY
