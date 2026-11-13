@@ -4,31 +4,30 @@ Plan and pipeline: `channel-kit/REELS_MALAYALAM_BRIEF.md`. Work lives in `reels-
 The English YouTube videos (all other folders) are a separate project: ignore them for Reels work.
 
 ## Audience
-Malayali young earners, ~20-35, learning money basics. Goal: sponsorships.
+Malayali young earners, ~20-35. Goal: sponsorships.
 
 ## Tone
-Friend-to-friend story, honest, educational. Never advice: every Reel says "ഒരു ഉദാഹരണം · ഉപദേശമല്ല".
+Friend-to-friend story, honest, educational, never advice. Disclaimer only on the end card and in the caption, no top tag.
 
 ## Malayalam style
-- The user is a native speaker and edits every script. Keep their text verbatim in captions and audio; put risky claims in the script notes, not silently changed.
-- Short spoken sentences; English terms and numbers written in Malayalam script (ഇഎംഐ).
-- One aside ("കേട്ടോ") at most. See `reels-ml/SLANG_STYLE_GUIDE.md`.
+- The user is a native speaker and edits every script. Keep their text verbatim; put risky claims in the script notes.
+- Short spoken sentences. Voice scripts spell English terms in Malayalam script; on screen, common finance words (EMI, rent, loan) show in English, the rest in Malayalam. See `reels-ml/SLANG_STYLE_GUIDE.md`.
 
 ## Reel format
-1080×1920, 30 fps, 60-90 s is fine. Hook in 2 s, a new shot every 2-3 s, word-by-word captions inside the safe zone (key content y≈400-1250). No "next video" teaser unless the script has one. Voice: user's ElevenLabs mp3, aligned with CTC forced alignment.
-Per reel deliver: review-cut mp4, notes with flags and math check, caption pack, 3 covers.
+1080×1920, 30 fps. Hook in 2 s, a new shot every 2-3 s. Captions: bottom dark band, white text, gold key numbers, no stroke, y≈1338-1418; content ≥60 px from sides, above y≈1250, clear of right buttons (x>920, y 870-1760). No "next video" teaser unless the script has one.
+Per reel: review-cut mp4, notes (flags, math check), caption pack, 3 covers.
 
 ## What has worked
 - Concrete ₹ numbers in hooks and covers.
-- A friend's story, then the numbers.
-- Detailed props, calm character, subtle synthesised sound.
+- Friend story, then numbers.
+- Detailed props, calm character, subtle sound.
 
 ## Decisions
-- Ramu is locked: 22 years old, no mundu. No blur or glow. Light palette.
-- Character motion must be restrained; the user found v2 distracting.
-- No cloned voices; never commit voice recordings.
-- Always add risk disclaimers (mutual funds, loans, insurance) on screen and in captions, plus the AI-voice line.
-- Skip fact-research for user scripts, but flag wrong or risky claims.
-- No pull requests unless asked.
+- Ramu is locked: 22, no mundu. No blur or glow. One focus per scene, no tiny text.
+- Number scenes use dark data cards. Font: Noto Sans Malayalam + Poppins (medium/bold).
+- Never reveal a list of points before the voice says them: use locked "?" cards, teaser captions, no spoiler covers.
+- Restrained character motion; no cloned voices; never commit voice recordings.
+- Risk wording (funds, loans, insurance) on the relevant scene; AI-voice line in captions.
+- Flag risky claims; no pull requests unless asked.
 
 At the end of each task, commit and push to GitHub.
