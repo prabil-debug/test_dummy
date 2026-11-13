@@ -24,3 +24,9 @@ Ends on the comment call-to-action, then the disclaimer end card (the script has
 5. **"വാടക + SIP" is again one-sided**, as in Reel 013: it ignores rent rising every year and that returns are not guaranteed. The video does not show a promised outcome.
 6. **"കഴിഞ്ഞ റീൽ എഴുനൂറോളം പേരാണ് ഷെയർ ചെയ്തത്"** is a claim about your own Reel. I could not verify it, so please check the insight number before posting. The video shows "700+ shares".
 7. **Spelling:** "എഴുനൂറോളം" is usually written "എഴുന്നൂറോളം". The captions follow your script exactly.
+
+## v2 (2026-11-13): softened script + audited visuals
+Script: `voice-scripts/REEL_015_v2_paste.txt`, new ElevenLabs audio, 55.0 s. Video: `builds/REEL_015_v2_when_to_buy_home_REVIEW_CUT.mp4` (19 shots, 57.7 s). Sources: `build-src-015-v2/`.
+Narration changes (by the owner): "മതി" -> "ചെക്ക് ചെയ്തു നോക്കൂ"; check 1 now says all EMIs, take-home salary, "സാധാരണ പറയുന്നത്"; check 2 adds registration cost and EMI; check 3 "സാധ്യതയുണ്ടോ" (no "ഉറപ്പ്"); "വാങ്ങിക്കോ" -> "പരിഗണിക്കാം"; renting is "ഒരു വഴി"; investing now carries the risk line in the voice; new closing line about interest, maintenance, job stability.
+On-screen fixes (mine): removed the invented ₹75,000 salary (bars now show percentages: take-home 100%, EMI 50% labelled "ഉദാഹരണം", 35% limit); "700+" -> "~700"; SIP shot -> "Invest" with "ഉദാഹരണ ചിത്രം" and the risk line; "സാധാരണ പറയുന്ന കണക്ക്" under check 1; new shot for interest / maintenance / job stability.
+Still open flags: the 35% / 6 months / 5 years figures are rules of thumb (the voice now says so for 35% only); the "700" insight number is unverified; Reel 013 still shows the invented ₹75,000 salary.
