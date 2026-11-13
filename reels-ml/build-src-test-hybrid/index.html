@@ -1,0 +1,565 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"ML";src:url("fonts/noto800.woff2") format("woff2");font-weight:800}
+html,body{margin:0;background:#000}
+svg{display:block}
+text{font-family:"ML",sans-serif;font-weight:800}
+</style></head>
+<body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+const NAVY="#1B2A41", YEL="#F2B705", TEAL="#2F9AA6", CORAL="#EF476F", CREAM="#FFF4E0", INK="#1C1512", GREEN="#2BB673";
+const SK={s1:{b:"#D9A47A",d:"#BF8A62",l:"#E6B88F"},s2:{b:"#C28E67",d:"#A87650",l:"#D2A27C"},s3:{b:"#A67B5B",d:"#8C6446",l:"#B88E6C"}};
+let TL=null, EV=null, ENV=null;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+const S=(sec,k)=>TL.items.filter(i=>i.sec===sec)[k];
+const at=(sec,k,f=0)=>{const i=S(sec,k);return i.start+f*(i.end-i.start)};
+const WF=(sec,k,pre)=>{const w=S(sec,k).words.find(w=>w.text.startsWith(pre));return w?w.start:S(sec,k).start};
+function outlined(text,x,y,fs,fill="#fff",sw=12,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="${NAVY}" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round">${text}</text>`}
+function plain(text,x,y,fs,fill=NAVY,anchor="middle"){return `<text x="${x}" y="${y}" font-size="${fs}" text-anchor="${anchor}" fill="${fill}" stroke="none">${text}</text>`}
+function pill(text,x,y,col=CORAL,fs=44,tc="#fff"){const w=text.length*fs*0.72+70;return `<g transform="translate(${x},${y})"><rect x="${-w/2}" y="${-fs*0.85}" width="${w}" height="${fs*1.7}" rx="${fs*0.6}" fill="${col}"/>${plain(text,0,fs*0.33,fs,tc)}</g>`}
+function coin(x,y,r=22,a=1){return `<g opacity="${a}"><circle cx="${x}" cy="${y}" r="${r}" fill="${YEL}"/><circle cx="${x}" cy="${y}" r="${r*0.78}" fill="none" stroke="#C99A07" stroke-width="${r*0.12}"/><text x="${x}" y="${y+r*0.36}" font-size="${r*1.05}" text-anchor="middle" fill="#B8860B" stroke="none">₹</text></g>`}
+const gloss=(d)=>`<path d="${d}" fill="#fff" opacity=".28"/>`;
+const sh=(rx,ry,x=0,y=0)=>`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="#000" opacity=".12"/>`;
+
+// ---------------- character ----------------
+function hand(flip,c){const f=flip?-1:1;return `<g transform="translate(0,-4) scale(${f},-1)">
+ <path d="M-8,-10 Q-10,8 -4,14 L6,14 Q11,6 9,-10Z" fill="${c.b}"/>
+ <path d="M-8,-10 L-7,-24 Q-6,-27 -3,-24 L-2,-10Z M-2,-10 L-1,-27 Q0,-30 3,-27 L3,-10Z M3,-10 L5,-26 Q7,-28 9,-25 L8,-10Z" fill="${c.b}"/>
+ <path d="M8,-6 L15,-16 Q18,-14 16,-10 L10,2Z" fill="${c.b}"/>
+ <path d="M3,-8 Q6,6 4,14 L9,10 Q12,0 9,-10Z" fill="${c.d}" opacity=".35"/></g>`}
+function sneaker(x,flip){const f=flip?-1:1;return `<g transform="translate(${x},0) scale(${f},1)">
+ <path d="M-22,-30 L8,-30 L10,-14 Q24,-10 28,-2 Q28,4 20,4 L-24,4 Q-26,-12 -22,-30Z" fill="#F7F4EC"/>
+ <path d="M-24,0 L26,0 Q28,4 20,6 L-24,6Z" fill="#D8D2C4"/><path d="M8,-14 Q22,-10 28,-2 Q20,-6 8,-6Z" fill="#E9E4D6"/>
+ <path d="M-14,-30 L-14,-18 M-6,-30 L-6,-16 M2,-28 L2,-15" stroke="#B9B2A0" stroke-width="2" fill="none"/>
+ <path d="M-22,-30 L8,-30 L8,-25 L-22,-25Z" fill="#E2DDCF"/></g>`}
+function face(ex,sk,open,blink){
+  const c=SK[sk];
+  const brow={neutral:["M-24,-20 Q-15,-24 -7,-21","M7,-21 Q15,-24 24,-20"],smile:["M-24,-21 Q-15,-26 -7,-22","M7,-22 Q15,-26 24,-21"],
+   worried:["M-24,-16 Q-15,-24 -7,-23","M7,-23 Q15,-24 24,-16"],surprised:["M-24,-27 Q-15,-33 -7,-28","M7,-28 Q15,-33 24,-27"],
+   thinking:["M-24,-19 Q-15,-23 -7,-20","M7,-26 Q15,-30 24,-24"],laugh:["M-24,-22 Q-15,-27 -7,-23","M7,-23 Q15,-27 24,-22"]}[ex]||["M-24,-20 Q-15,-24 -7,-21","M7,-21 Q15,-24 24,-20"];
+  const closed=blink||ex==="laugh";
+  const eye=(x)=>closed?`<path d="M${x-9},-3 Q${x},${blink?-1:-12} ${x+9},-3" fill="none" stroke="${INK}" stroke-width="2.8" stroke-linecap="round"/>`:
+   `<ellipse cx="${x}" cy="-3" rx="9.5" ry="${ex==="surprised"?9.5:7.6}" fill="#fff"/><circle cx="${x+(ex==="thinking"?3:0.8)+GZ.x}" cy="${(ex==="thinking"?-5.5:-3)+GZ.y}" r="5.6" fill="#3B2A20"/><circle cx="${x+(ex==="thinking"?3:0.8)+GZ.x}" cy="${(ex==="thinking"?-5.5:-3)+GZ.y}" r="3" fill="#000"/><circle cx="${x+3}" cy="-5.6" r="1.6" fill="#fff"/><path d="M${x-9.5},-3 Q${x},${ex==="surprised"?-17:-12.5} ${x+9.5},-3" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/>`;
+  const up=ex==="smile"||ex==="laugh"?3:(ex==="worried"?-3:0);
+  const y0=26-up, w=8+open*5, h=open*13;
+  let mouth;
+  if(ex==="surprised") mouth=`<ellipse cx="0" cy="28" rx="${6.5+open*2}" ry="${8.5+open*3}" fill="#5A2A24"/>`;
+  else if(open<0.07){
+    mouth= ex==="smile"||ex==="laugh"?`<path d="M-12,${y0-1} Q0,${y0+9} 12,${y0-1}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`
+         : ex==="worried"?`<path d="M-9,${y0+4} Q0,${y0-4} 9,${y0+4}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`
+         : `<path d="M-8,${y0} Q0,${y0+2} 8,${y0}" fill="none" stroke="#7A3B30" stroke-width="2.7" stroke-linecap="round"/>`;
+  } else {
+    const th=Math.min(5,h*0.6);
+    mouth=`<path d="M${-w},${y0} Q0,${y0+h*1.9+2} ${w},${y0} Q0,${y0-h*0.15-1} ${-w},${y0}Z" fill="#5A2A24"/>`+
+      (open>0.3?`<path d="M${-w*0.78},${y0+0.4} Q0,${y0-0.2} ${w*0.78},${y0+0.4} L${w*0.7},${y0+th} Q0,${y0+th+1} ${-w*0.7},${y0+th}Z" fill="#fff"/>`:"")+
+      (open>0.55?`<ellipse cx="0" cy="${y0+h*1.25}" rx="${w*0.5}" ry="${h*0.28}" fill="#C0584C"/>`:"");
+  }
+  return `<g>
+   <ellipse cx="-38" cy="4" rx="5.5" ry="9" fill="${c.d}"/><ellipse cx="38" cy="4" rx="5.5" ry="9" fill="${c.d}"/>
+   <path d="M-38,-10 C-38,-42 -21,-47 0,-47 C21,-47 38,-42 38,-10 C38,16 27,38 0,44 C-27,38 -38,16 -38,-10Z" fill="${c.b}"/>
+   <path d="M22,-42 C32,-34 38,-24 38,-10 C38,16 27,38 0,44 C14,32 22,12 22,-8 C22,-24 24,-34 22,-42Z" fill="${c.d}" opacity=".08"/>
+   <ellipse cx="-14" cy="-26" rx="16" ry="5" fill="${c.l}" opacity=".35"/>
+   <path d="M-43,-6 C-52,-46 -26,-66 4,-65 C34,-65 54,-48 43,-4 C42,-18 36,-28 26,-32 C20,-44 4,-44 -12,-38 C-26,-34 -38,-24 -43,-6Z" fill="#17100D"/>
+   <path d="M-30,-34 C-14,-52 14,-52 32,-40" fill="none" stroke="#6A5A54" stroke-width="3" opacity=".55" stroke-linecap="round"/>
+   <path d="M-12,-38 C0,-44 14,-42 24,-34 C14,-38 2,-36 -12,-38Z" fill="#17100D"/>
+   <ellipse cx="-23" cy="15" rx="10" ry="6.5" fill="#E07A68" opacity=".3"/><ellipse cx="23" cy="15" rx="10" ry="6.5" fill="#E07A68" opacity=".3"/>
+   ${eye(-15)}${eye(15)}
+   <path transform="translate(0,${BR})" d="${brow[0]}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/><path transform="translate(0,${BR})" d="${brow[1]}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/>
+   <path d="M1,0 Q5,9 0,11" fill="none" stroke="${c.d}" stroke-width="2" stroke-linecap="round" opacity=".8"/><path d="M-4,12.5 Q0,14.5 4,12.5" fill="none" stroke="${c.d}" stroke-width="1.8" stroke-linecap="round"/>
+   ${mouth}</g>`;
+}
+const propsMini={
+  phone:()=>`<g><rect x="-17" y="-33" width="34" height="66" rx="6" fill="#1F2430"/><rect x="-14.5" y="-30" width="29" height="60" rx="4" fill="#2F6FD0"/><circle cx="0" cy="-6" r="7" fill="#fff"/></g>`
+};
+function arm(side,ang,o,c){
+  const out=o.outfit==="office"; const sl=out?"#A9C1DE":(o.tee||"#2F9AA6"), sld=out?"#8FAACB":"#247C87"; const slv=out?50:46;
+  const rot=-side*ang[0], er=side*ang[1];
+  return `<g transform="translate(${side*58},-440) rotate(${rot})">
+   <path d="M-14,-6 Q-15,${slv/2} -12,${slv} L12,${slv} Q15,${slv/2} 14,-6Z" fill="${sl}"/><rect x="-12" y="${slv-3}" width="24" height="6" fill="${sld}"/>
+   <path d="M-10,${slv+3} L10,${slv+3} L9,80 L-9,80Z" fill="${side>0?c.d:c.b}"/>
+   <g transform="translate(0,80) rotate(${er})">
+    <path d="M-9.5,-2 L9.5,-2 L8,86 L-8,86Z" fill="${side>0?c.d:c.b}"/>
+    ${out&&side<0?`<rect x="-10" y="64" width="20" height="11" rx="3" fill="#2A2A2E"/><circle cx="0" cy="69" r="4" fill="#C9D3E0"/>`:""}
+    <g transform="translate(0,88)">${hand(side>0,c)}${(o.hold&&o.hold.side===side)?`<g transform="translate(0,${o.hold.dy||10}) rotate(${o.hold.rot||0})">${propsMini[o.hold.item]()}</g>`:""}</g>
+   </g></g>`;
+}
+function legsTorso(o,c){
+  const sdw=(d)=>`<path d="${d}" fill="#000" opacity=".11"/>`;
+  if(o.outfit==="office"){
+    const P="#454B5C",Pd="#363B49";
+    return `<path d="M-48,-292 L-2,-292 L-8,-30 L-40,-30Z" fill="${P}"/><path d="M2,-292 L48,-292 L40,-30 L8,-30Z" fill="${P}"/><path d="M-2,-292 L2,-292 L0,-180Z" fill="${Pd}"/>
+     <path d="M-24,-292 L-22,-60" stroke="#5A6174" stroke-width="2.5" fill="none"/><path d="M24,-292 L22,-60" stroke="#5A6174" stroke-width="2.5" fill="none"/>${sdw("M26,-292 L48,-292 L40,-30 L24,-30Z")}
+     ${sneaker(-26,false)}${sneaker(26,true)}
+     <path d="M-60,-446 Q-70,-440 -72,-412 L-62,-292 Q0,-280 62,-292 L72,-412 Q70,-440 60,-446 L22,-458 L-22,-458Z" fill="#A9C1DE"/>${sdw("M30,-452 Q66,-442 70,-412 L62,-292 Q40,-288 34,-290 Q50,-370 30,-452Z")}
+     <path d="M-22,-458 L-2,-436 L-16,-428 L-26,-446Z" fill="#F3F7FB"/><path d="M22,-458 L2,-436 L16,-428 L26,-446Z" fill="#E4ECF5"/><path d="M0,-436 L0,-292" stroke="#8FAACB" stroke-width="3"/>
+     ${[-410,-372,-334].map(y=>`<circle cx="0" cy="${y}" r="3" fill="#F3F7FB"/>`).join("")}
+     <rect x="-52" y="-292" width="104" height="12" rx="3" fill="#2A2018"/><rect x="-9" y="-294" width="18" height="16" rx="2" fill="#C9A24B"/>
+     <path d="M-24,-452 L-32,-420 L-32,-376" stroke="#1F6F8B" stroke-width="3" fill="none"/><path d="M24,-452 L32,-420 L32,-376" stroke="#1F6F8B" stroke-width="3" fill="none"/>
+     <rect x="14" y="-378" width="34" height="44" rx="4" fill="#fff" stroke="#1F6F8B" stroke-width="2.5"/><rect x="20" y="-370" width="22" height="18" rx="2" fill="${c.b}"/>`;
+  }
+  const J="#44649A",Jd="#33507F",Jl="#6283B8", T=o.tee||"#2F9AA6";
+  return `<path d="M-48,-292 L-2,-292 L-8,-30 L-42,-30Z" fill="${J}"/><path d="M2,-292 L48,-292 L42,-30 L8,-30Z" fill="${J}"/><path d="M-2,-292 L2,-292 L0,-170Z" fill="${Jd}"/>
+   <path d="M-25,-290 L-24,-40" stroke="${Jl}" stroke-width="2" fill="none" stroke-dasharray="6 3"/><path d="M25,-290 L24,-40" stroke="${Jl}" stroke-width="2" fill="none" stroke-dasharray="6 3"/>
+   <path d="M-44,-286 Q-26,-258 -8,-282" fill="none" stroke="${Jd}" stroke-width="3"/><path d="M44,-286 Q26,-258 8,-282" fill="none" stroke="${Jd}" stroke-width="3"/>
+   <ellipse cx="-24" cy="-170" rx="14" ry="22" fill="${Jl}" opacity=".35"/><ellipse cx="25" cy="-170" rx="14" ry="22" fill="${Jl}" opacity=".3"/>${sdw("M28,-292 L48,-292 L42,-30 L26,-30Z")}
+   ${sneaker(-26,false)}${sneaker(26,true)}
+   <path d="M-58,-446 Q-68,-440 -70,-412 L-62,-292 Q0,-278 62,-292 L70,-412 Q68,-440 58,-446 L20,-458 Q0,-446 -20,-458Z" fill="${T}"/>${sdw("M28,-452 Q64,-442 68,-412 L62,-292 Q40,-288 34,-290 Q48,-370 28,-452Z")}
+   <path d="M-20,-458 Q0,-440 20,-458 L20,-450 Q0,-432 -20,-450Z" fill="#000" opacity=".18"/>
+   <path d="M-44,-338 Q-24,-322 -4,-338 M6,-372 Q26,-358 46,-372" fill="none" stroke="#000" stroke-width="2.5" opacity=".14"/>
+   <path d="M-20,-454 Q-30,-420 -34,-386" fill="none" stroke="#F4F4F4" stroke-width="3" stroke-linecap="round"/><path d="M20,-454 Q30,-420 34,-386" fill="none" stroke="#F4F4F4" stroke-width="3" stroke-linecap="round"/>
+   <circle cx="-34" cy="-382" r="5" fill="#F4F4F4"/><circle cx="34" cy="-382" r="5" fill="#F4F4F4"/>`;
+}
+function ramu(x,y,sc,opt){
+  const o=Object.assign({outfit:"casual",sk:"s2",ex:"neutral",open:0,blink:false,tilt:0,L:[8,-4],R:[8,-4],flip:false,tee:null,hold:null,shadow:true},opt||{});
+  const c=SK[o.sk];
+  return `<g transform="translate(${x},${y}) scale(${o.flip?-sc:sc},${sc})">${o.shadow?sh(120,14,0,4):""}${legsTorso(o,c)}${arm(-1,o.L,o,c)}${arm(1,o.R,o,c)}
+   <rect x="-13" y="-480" width="26" height="30" fill="${c.b}"/><path d="M-13,-472 Q0,-460 13,-472 L13,-480 L-13,-480Z" fill="${c.d}" opacity=".5"/>
+   <g transform="translate(0,-470) rotate(${o.tilt}) translate(0,-42) scale(1.1)">${face(o.ex,o.sk,o.open,o.blink)}</g></g>`;
+}
+// talking state: mouth from audio envelope, blink schedule, gesture
+function talk(t){
+  const i=Math.round(t*30); const open=ENV&&ENV[i]!==undefined?ENV[i]:0;
+  const bt=(t*0.9)%3.1; const blink=bt>2.96;
+  return {open:open>0.08?open:0,blink};
+}
+function gestureR(t,k=0){return [38+22*Math.sin(t*1.9+k),-(60+35*Math.sin(t*1.3+k*2))]}
+function gestureL(t,k=0){return [10+6*Math.sin(t*1.1+k),-6]}
+
+const cal=(x,y,top,numTxt,sc=1)=>`<g transform="translate(${x},${y}) scale(${sc})"><rect x="-110" y="-110" width="220" height="230" rx="20" fill="#fff"/><rect x="-110" y="-110" width="220" height="62" rx="20" fill="${CORAL}"/>${plain(top,0,-62,28,"#fff")}${plain(numTxt,0,82,84,NAVY)}${gloss("M-110,-48 H-40 L-110,40Z")}</g>`;
+// ================= v7: shot-based engine =================
+function rng(seed){let s=seed;return ()=>{s=(s*1664525+1013904223)%4294967296;return s/4294967296}}
+const DEFS=`<defs>
+ <linearGradient id="gp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B6170"/><stop offset=".5" stop-color="#3C4150"/><stop offset="1" stop-color="#262A35"/></linearGradient>
+ <linearGradient id="gWood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9976A"/><stop offset="1" stop-color="#A9784F"/></linearGradient>
+ <linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EF476F" stop-opacity=".45"/><stop offset="1" stop-color="#EF476F" stop-opacity="0"/></linearGradient>
+ <linearGradient id="gGreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2BB673" stop-opacity=".45"/><stop offset="1" stop-color="#2BB673" stop-opacity="0"/></linearGradient>
+</defs>`;
+function seriesData(n,seed,kind){
+  const r=rng(seed);let c=100;const out=[];
+  for(let i=0;i<n;i++){const o=c;
+    if(kind==="crash"){ if(i<n*0.6) c+=(r()-0.38)*3.0+0.5; else c-=r()*2.2+1.4 } else c+=(r()-0.3)*2.2+0.55;
+    out.push({o,c,h:Math.max(o,c)+r()*1.6,l:Math.min(o,c)-r()*1.6,v:0.3+r()*0.7});}
+  if(kind==="crash"){let pk=0;out.forEach((d,i)=>{if(d.h>out[pk].h)pk=i});const peak=out[pk].c,fin=out[n-1].c,k=0.16*peak/(peak-fin);
+    for(let i=pk+1;i<n;i++){const m=v=>peak-(peak-v)*k;const d=out[i];d.o=m(d.o);d.c=m(d.c);d.h=m(d.h);d.l=m(d.l)}}
+  return out;}
+const DATA_CRASH=seriesData(46,11,"crash"), DATA_UP=seriesData(16,5,"up");
+function candleChart(x,y,w,h,data,p,opt){
+  opt=opt||{}; const n=data.length,cw=w/n; const mn=Math.min(...data.map(d=>d.l)),mx=Math.max(...data.map(d=>d.h));
+  const sy=v=>y+h*0.86-(v-mn)/(mx-mn)*h*0.74;
+  let o="";
+  for(let i=0;i<=5;i++){const gy=y+h*0.12+i*h*0.148;o+=`<path d="M${x},${gy} H${x+w}" stroke="#E6EAF0" stroke-width="2"/>`;const val=mx-(mx-mn)*(i/5)*0.98;o+=plain(Math.round(val*100/100*10)/10+"",x+w+10,gy+8,20,"#8A94A6","start")}
+  const rev=p*n; const cnt=Math.floor(rev);
+  data.forEach((d,i)=>{ if(i>cnt) return; const part=i===cnt?clamp(rev-cnt):1; const up=d.c>=d.o; const col=up?GREEN:CORAL;
+    const cx=x+i*cw+cw/2; const cl=d.o+(d.c-d.o)*part; const hi=d.o+(d.h-d.o)*part, lo=d.o+(d.l-d.o)*part;
+    const top=sy(Math.max(d.o,cl)), bot=sy(Math.min(d.o,cl));
+    o+=`<path d="M${cx},${sy(hi)} V${sy(lo)}" stroke="${col}" stroke-width="3"/><rect x="${cx-cw*0.4}" y="${top}" width="${cw*0.8}" height="${Math.max(3,bot-top)}" rx="1.5" fill="${col}"/>`;
+    o+=`<rect x="${cx-cw*0.34}" y="${y+h-14-d.v*h*0.12*part}" width="${cw*0.68}" height="${d.v*h*0.12*part}" fill="${col}" opacity=".35"/>`;});
+  let ma="";data.forEach((d,i)=>{ if(i>cnt) return; const s=data.slice(Math.max(0,i-4),i+1).reduce((a,b)=>a+b.c,0)/Math.min(5,i+1); ma+=(ma?"L":"M")+(x+i*cw+cw/2)+","+sy(s)+" "});
+  o+=`<path d="${ma}" fill="none" stroke="#2F6FD0" stroke-width="4" stroke-linejoin="round" opacity=".85"/>`;
+  const last=data[Math.min(cnt,n-1)];
+  o+=`<g transform="translate(${x+w+6},${sy(last.c)})"><path d="M0,0 L14,-16 H80 V16 H14Z" fill="${last.c>=last.o?GREEN:CORAL}"/>${plain((Math.round(last.c*10)/10)+"",44,7,22,"#fff")}</g>`;
+  return o;}
+function ticker(t,y,items,col){let o=`<rect x="0" y="${y-34}" width="1080" height="68" fill="${NAVY}"/>`;const txt=items.join("      ");const off=(t*120)%1400;
+  o+=`<g transform="translate(${-off},0)">${plain(txt+"      "+txt,0,y+11,30,col||"#fff","start")}</g>`;return o;}
+function flagship(x,y,s,ang){const cw=Math.cos(ang);
+  return `<g transform="translate(${x},${y}) scale(${s})">${sh(130,16,0,250)}<g transform="scale(${cw},1)">
+   <rect x="-110" y="-230" width="220" height="460" rx="42" fill="#1F232C"/><rect x="-104" y="-224" width="208" height="448" rx="37" fill="url(#gp)"/>
+   <rect x="-92" y="-212" width="108" height="108" rx="28" fill="#171A21"/>
+   ${[[-64,-178],[-28,-178],[-46,-140]].map(([a,b])=>`<circle cx="${a}" cy="${b}" r="19" fill="#0C0E12"/><circle cx="${a}" cy="${b}" r="14" fill="#2A3140"/><circle cx="${a}" cy="${b}" r="7" fill="#0A0C10"/><circle cx="${a-4}" cy="${b-5}" r="3" fill="#7FA6FF" opacity=".8"/>`).join("")}
+   <circle cx="2" cy="-190" r="7" fill="#F4E9C8"/><path d="M-104,-120 L-40,-224 H20 L-104,-30Z" fill="#fff" opacity=".1"/><path d="M40,-224 H104 V-120Z" fill="#fff" opacity=".06"/>
+  </g></g>`}
+function note(x,y,s,rot){return `<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><rect x="-82" y="-38" width="164" height="76" rx="7" fill="#7FBF9D"/><rect x="-74" y="-31" width="148" height="62" rx="5" fill="none" stroke="#fff" stroke-width="2.4" opacity=".75"/><circle cx="0" cy="0" r="24" fill="#fff" opacity=".35"/>${plain("₹",0,12,36,"#2F6F55")}${plain("500",-52,-8,18,"#2F6F55")}${plain("500",52,25,18,"#2F6F55")}${gloss("M-82,-38 H-20 L-82,10Z")}</g>`}
+function noteStack(x,y,n,s,seed=1){const r=rng(seed);let o="";for(let i=0;i<n;i++)o+=note(x+(r()-0.5)*8,y-i*10*s,s,(r()-0.5)*3);return o}
+function gfxBG(t,c1,c2){let o=`<rect width="1080" height="1920" fill="${c1}"/><rect y="0" width="1080" height="1920" fill="${c2}" opacity=".5"/>`;
+  const r=rng(3);for(let i=0;i<7;i++){const bx=r()*1080,by=r()*1920,br=120+r()*220,sp=0.12+r()*0.2;o+=`<circle cx="${(bx+t*sp*60)%1300-100}" cy="${by+Math.sin(t*0.5+i)*30}" r="${br}" fill="#fff" opacity=".35"/>`}
+  for(let gx=40;gx<1080;gx+=80)for(let gy=40;gy<1920;gy+=80)o+=`<circle cx="${gx}" cy="${gy}" r="2.4" fill="#00000012"/>`;return o}
+function deskRoom(t,c1,c2,wall2){
+  let bg=`<rect width="1080" height="1920" fill="${c1}"/><rect y="0" width="1080" height="1300" fill="${c2}" opacity=".6"/>`;
+  for(let i=0;i<14;i++)bg+=`<rect x="${i*80}" y="0" width="40" height="1250" fill="${wall2}" opacity=".35"/>`;
+  bg+=`<g transform="translate(80,560)"><rect width="300" height="400" rx="6" fill="#fff"/><rect x="16" y="16" width="268" height="368" fill="#BFE3F7"/><path d="M16,270 Q80,230 140,270 T250,262 L284,268 V384 H16Z" fill="#9CCB9A"/><circle cx="220" cy="90" r="28" fill="#FFF3B8"/><rect x="146" y="16" width="10" height="368" fill="#fff"/><rect x="16" y="190" width="268" height="10" fill="#fff"/><rect x="-18" y="-8" width="22" height="430" fill="#E8A598"/><rect x="296" y="-8" width="22" height="430" fill="#E8A598"/></g>`;
+  bg+=`<g transform="translate(700,640)"><rect width="300" height="14" rx="4" fill="#B88E6C"/><rect x="20" y="-90" width="26" height="90" fill="#E9B44C"/><rect x="48" y="-110" width="26" height="110" fill="#2F9AA6"/><rect x="76" y="-80" width="26" height="80" fill="#EF476F"/><rect x="104" y="-100" width="26" height="100" fill="#6A4C93"/><g transform="translate(220,0)"><path d="M-30,0 L-24,-44 H24 L30,0Z" fill="#C46B4A"/><path d="M0,-44 Q-34,-100 -50,-140 Q-10,-110 0,-44Z" fill="#3F9B5E"/><path d="M0,-44 Q30,-110 56,-136 Q20,-100 0,-44Z" fill="#2E8650"/></g></g>`;
+  const fg=`<rect y="1260" width="1080" height="660" fill="url(#gWood)"/><rect y="1250" width="1080" height="34" fill="#E3BC92"/><rect y="1280" width="1080" height="6" fill="#000" opacity=".12"/><path d="M0,1500 H1080 M0,1720 H1080" stroke="#00000018" stroke-width="4"/><rect x="420" y="1530" width="240" height="26" rx="10" fill="#7B4B2A"/><rect x="420" y="1760" width="240" height="26" rx="10" fill="#7B4B2A"/>`;
+  return {bg,fg};}
+
+const pip=(x,y,r,ex,tk,id)=>`<g transform="translate(${x},${y})"><clipPath id="pc${id}"><circle r="${r}"/></clipPath><circle r="${r+8}" fill="#fff"/><circle r="${r}" fill="#FBEBDD"/><g clip-path="url(#pc${id})"><g transform="translate(0,${r*0.34}) scale(${r/46})">${face(ex,"s2",tk.open,tk.blink)}</g><path d="M${-r},${r} Q0,${r*0.55} ${r},${r}Z" fill="#2F9AA6"/></g></g>`;
+const thumb=(x,y,rot,s)=>`<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><path d="M-30,120 Q-34,20 -22,-40 Q-12,-80 8,-82 Q30,-80 32,-40 Q38,20 34,120Z" fill="${SK.s2.b}"/><path d="M-12,-72 Q8,-86 24,-70 Q26,-52 8,-50 Q-8,-52 -12,-72Z" fill="#F3D5BE" opacity=".85"/><path d="M14,-70 Q30,40 34,120 H8Z" fill="${SK.s2.d}" opacity=".35"/></g>`;
+function appScreen(x,y,w,h,mode,p,t){
+  let o=`<g transform="translate(${x},${y})"><rect x="${-w/2-14}" y="${-h/2-14}" width="${w+28}" height="${h+28}" rx="52" fill="#1F232C"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="40" fill="#F6F8FB"/>`;
+  const L=-w/2, T=-h/2;
+  o+=`<rect x="${L}" y="${T}" width="${w}" height="120" rx="40" fill="#2F6FD0"/><rect x="${L}" y="${T+70}" width="${w}" height="50" fill="#2F6FD0"/>${plain("9:41",L+60,T+52,24,"#fff","start")}<rect x="${w/2-120}" y="${T+34}" width="54" height="22" rx="6" fill="#fff" opacity=".9"/>`;
+  if(mode==="invest"){
+    o+=plain("ഇൻവെസ്റ്റ്",0,T+112,40,"#fff");
+    o+=`<rect x="${L+24}" y="${T+150}" width="${w-48}" height="170" rx="22" fill="#fff"/>${plain("ഇക്വിറ്റി ഫണ്ട്",L+50,T+200,30,NAVY,"start")}<path d="M${L+50},${T+290} L${L+130},${T+250} L${L+190},${T+270} L${L+260},${T+220} L${L+330},${T+240}" fill="none" stroke="${GREEN}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>${pill("വളർച്ച ↑",w/2-110,T+196,GREEN,24)}`;
+    const typed="50,000".slice(0,Math.floor(clamp(p/0.45)*6));
+    o+=`<rect x="${L+24}" y="${T+350}" width="${w-48}" height="140" rx="22" fill="#fff" stroke="#D7DEE8" stroke-width="3"/>${plain("തുക",L+50,T+392,24,"#8A94A6","start")}${plain("₹"+typed+(p<0.5&&Math.floor(t*3)%2?"|":""),L+50,T+462,70,NAVY,"start")}`;
+    const press=p>0.62&&p<0.75?0.94:1;
+    o+=`<g transform="translate(0,${T+590}) scale(${press})"><rect x="${-w/2+34}" y="-46" width="${w-68}" height="92" rx="46" fill="${p>0.75?GREEN:"#2F6FD0"}"/>${plain(p>0.75?"ഓർഡർ വിജയിച്ചു ✓":"പണം ഇടുക",0,14,36,"#fff")}</g>`;
+    if(p>0.75) o+=`<g transform="translate(0,${T+720}) scale(${back((p-0.75)/0.15)})"><circle r="64" fill="${GREEN}"/><path d="M-30,2 L-8,26 L32,-24" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+  } else {
+    o+=plain("എൻ്റെ പോർട്ട്ഫോളിയോ",0,T+112,36,"#fff");
+    const v=lerp(50000,42000,ease(p));
+    o+=`<rect x="${L+24}" y="${T+150}" width="${w-48}" height="300" rx="26" fill="#fff"/>${plain("ഇപ്പോഴത്തെ മൂല്യം",L+52,T+200,26,"#8A94A6","start")}${plain(num(v),L+52,T+290,86,p>0.1?CORAL:NAVY,"start")}${pill("−₹"+Math.round(50000-v).toLocaleString("en-IN")+" ("+(-((50000-v)/500)).toFixed(1)+"%)",L+200,T+352,CORAL,26)}`;
+    const raw=[[0,.18],[.14,.14],[.28,.24],[.42,.18],[.56,.34],[.70,.62],[.84,.84],[1,.92]];
+    const pts=raw.map(q=>[L+44+q[0]*(w-88),T+500+q[1]*170]);
+    const cnt=Math.max(2,Math.round(pts.length*clamp(p*1.3)));let d="";pts.slice(0,cnt).forEach((q,i)=>d+=(i?"L":"M")+q[0]+","+q[1]+" ");
+    o+=`<rect x="${L+24}" y="${T+470}" width="${w-48}" height="230" rx="22" fill="#fff"/><path d="${d} L${pts[cnt-1][0]},${T+690} L${pts[0][0]},${T+690}Z" fill="url(#gRed)"/><path d="${d}" fill="none" stroke="${CORAL}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>`;
+    o+=`<rect x="${L+24}" y="${T+720}" width="${w-48}" height="96" rx="20" fill="#fff"/>${plain("ഇക്വിറ്റി ഫണ്ട്",L+52,T+780,28,NAVY,"start")}${plain("▼ "+num(v),w/2-50,T+780,28,CORAL,"end")}`;
+  }
+  return o+`</g>`;}
+const num=(v)=>"₹"+Math.round(v).toLocaleString("en-IN");
+// ===== HYBRID DATA-CARD TEST (Reel 013 rent vs EMI explanation) =====
+let SHOTS=[];
+const T0=47.9,T1=60.9;
+const IT=(i)=>TL.items[i];
+const WI=(i,k)=>IT(i).words[k].start-0.05;
+const BS=(i)=>IT(i).start-0.1;
+function buildShots(){
+  SHOTS=[{id:"chained",t0:WI(8,14),t1:BS(9)},{id:"dMath",t0:BS(9),t1:WI(9,6)},{id:"dRent",t0:WI(9,6),t1:WI(9,11)},{id:"dEmi",t0:WI(9,11),t1:WI(9,16)},{id:"dDiff",t0:WI(9,16),t1:T1+1}];
+}
+window.getShots=()=>{if(!SHOTS.length)buildShots();return SHOTS};
+const foot=(txt,y=1215)=>`<g transform="translate(540,${y})"><rect x="-470" y="-32" width="940" height="64" rx="32" fill="#fff" opacity=".94"/>${plain(txt,0,10,26,NAVY)}</g>`;
+const star=(x,y,r,col=YEL,rot=0)=>{let p="";for(let i=0;i<10;i++){const rr=i%2?r*0.45:r,a=i/10*Math.PI*2-Math.PI/2;p+=`${i?"L":"M"}${Math.cos(a)*rr},${Math.sin(a)*rr} `}return `<g transform="translate(${x},${y}) rotate(${rot})"><path d="${p}Z" fill="${col}"/></g>`};
+const xmark=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><path d="M-48,-48 L48,48 M48,-48 L-48,48" stroke="${CORAL}" stroke-width="20" stroke-linecap="round"/></g>`;
+const tick=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><path d="M-40,0 L-12,32 L44,-40" fill="none" stroke="${GREEN}" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+const bubbleQ2=(x,y,sc)=>`<g transform="translate(${x},${y}) scale(${sc})"><circle r="52" fill="#fff"/>${plain("?",0,26,76,CORAL)}</g>`;
+function sector(cx,cy,r,a0,a1,col){const p=a=>[cx+r*Math.cos(a*Math.PI/180),cy+r*Math.sin(a*Math.PI/180)];const [x0,y0]=p(a0),[x1,y1]=p(a1);return `<path d="M${cx},${cy} L${x0},${y0} A${r},${r} 0 ${(a1-a0)>180?1:0} 1 ${x1},${y1}Z" fill="${col}"/>`}
+let GZ={x:0,y:0},BR=0;
+function RAMU(x,y,sc,o,t){
+  const br=Math.sin(t*2.3), sway=Math.sin(t*0.8)*0.35;
+  const bob=-Math.abs(Math.sin(t*1.6))*1.2+(o.jump||0);
+  const sx=1+0.004*br, sy=1+0.006*br;
+  const L=o.L.slice(),R=o.R.slice(); L[0]+=1.2*Math.sin(t*1.7); R[0]+=1.2*Math.sin(t*1.3+1);
+  GZ=o.gaze||{x:0,y:0}; BR=o.brow||0;
+  const tilt=(o.tilt||0)+0.8*Math.sin(t*0.9);
+  const s=`<g transform="translate(${x},${y+bob}) rotate(${sway+(o.lean||0)}) scale(${sx},${sy})">${ramu(0,0,sc,Object.assign({},o,{L,R,tilt,shadow:false}))}</g>`;
+  GZ={x:0,y:0};BR=0; return s;
+}
+const FR=(x,y,sc,o,t)=>RAMU(x,y,sc,Object.assign({outfit:"office",sk:"s3"},o),t);
+const tears=(x,y,sc,t)=>{let o="";for(const sd of [-1,1])for(let k=0;k<2;k++){const p=((t*1.1+k*0.5+(sd>0?0.25:0))%1);o+=`<path transform="translate(${x+sd*16.5*sc*1.0+sd*p*6},${y-512*sc+p*70*sc}) scale(${1-p*0.4})" d="M0,-10 C7,-1 8,4 0,8 C-8,4 -7,-1 0,-10Z" fill="#8EC9F0" stroke="#fff" stroke-width="2" opacity="${1-p*0.6}"/>`}return o};
+const inr=(v)=>"₹"+Math.round(v).toLocaleString("en-IN");
+const spark=(x,y,r,rot,col=YEL)=>`<g transform="translate(${x},${y}) rotate(${rot})"><path d="M0,${-r} Q${r*0.18},${-r*0.18} ${r},0 Q${r*0.18},${r*0.18} 0,${r} Q${-r*0.18},${r*0.18} ${-r},0 Q${-r*0.18},${-r*0.18} 0,${-r}Z" fill="${col}"/></g>`;
+const DEFS2=`<defs>
+ <linearGradient id="gLeath" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9A6038"/><stop offset=".55" stop-color="#7A4A2B"/><stop offset="1" stop-color="#5A3419"/></linearGradient>
+ <linearGradient id="gLeathF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B07846"/><stop offset="1" stop-color="#8A5530"/></linearGradient>
+ <linearGradient id="gNoteG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A9C9A6"/><stop offset=".5" stop-color="#8DB38C"/><stop offset="1" stop-color="#76A078"/></linearGradient>
+ <linearGradient id="gPaper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF1F5"/></linearGradient>
+ <linearGradient id="gSteel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9EDF2"/><stop offset=".5" stop-color="#B7C1CF"/><stop offset="1" stop-color="#8E9AAB"/></linearGradient>
+ <linearGradient id="gWall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F4DDBF"/><stop offset="1" stop-color="#E6C9A6"/></linearGradient>
+ <linearGradient id="gGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BFE0F5"/><stop offset="1" stop-color="#8FC1E3"/></linearGradient>
+ <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE48A"/><stop offset="1" stop-color="#E0A800"/></linearGradient>
+ <radialGradient id="gDark" cx=".5" cy=".4" r=".8"><stop offset="0" stop-color="#22331F" stop-opacity=".9"/><stop offset="1" stop-color="#0A0F0B" stop-opacity="0"/></radialGradient>
+</defs>`;
+function note2(x,y,s,rot,v="500"){
+  return `<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><rect x="-96" y="-44" width="192" height="88" rx="7" fill="#5E8660" transform="translate(0,4)" opacity=".5"/><rect x="-96" y="-44" width="192" height="88" rx="7" fill="url(#gNoteG)"/><rect x="-89" y="-37" width="178" height="74" rx="4" fill="none" stroke="#fff" stroke-width="2.2" opacity=".8"/><circle cx="-48" cy="2" r="24" fill="#6F9871" opacity=".55"/><circle cx="-48" cy="-6" r="10" fill="#4F7A52"/><path d="M-70,22 Q-48,2 -26,22Z" fill="#4F7A52"/><circle cx="28" cy="0" r="30" fill="none" stroke="#fff" stroke-width="2" opacity=".5"/><text x="28" y="14" font-size="40" text-anchor="middle" fill="#2F4F32" font-family="sans-serif" font-weight="800" stroke="none">${v}</text><rect x="2" y="-44" width="5" height="88" fill="url(#gSteel)" opacity=".85"/><text x="-84" y="-18" font-size="13" fill="#2F4F32" stroke="none" font-family="sans-serif" font-weight="800">₹${v}</text><path d="M-96,-44 H-30 L-96,10Z" fill="#fff" opacity=".18"/></g>`;
+}
+function wallet2(x,y,s,open,t){
+  const flap=open*(-120);
+  return `<g transform="translate(${x},${y}) scale(${s})">
+  <ellipse cx="0" cy="124" rx="190" ry="20" fill="#000" opacity=".16"/>
+  <rect x="-170" y="-92" width="340" height="212" rx="30" fill="url(#gLeath)"/>
+  <rect x="-170" y="-92" width="340" height="212" rx="30" fill="none" stroke="#4A2A14" stroke-width="5"/>
+  <rect x="-150" y="-72" width="300" height="172" rx="20" fill="none" stroke="#E3B27A" stroke-width="3" stroke-dasharray="9 7" opacity=".85"/>
+  <g>${[["#2F6FD0",-90,-40,-5],["#EF476F",-30,-52,3],["#F2B705",30,-44,-2]].map(([c,cx,cy,r])=>`<g transform="translate(${cx},${cy}) rotate(${r})"><rect x="-44" y="-30" width="88" height="56" rx="8" fill="${c}"/><rect x="-44" y="-18" width="88" height="12" fill="#14213A" opacity=".5"/><rect x="-34" y="4" width="34" height="6" rx="3" fill="#fff" opacity=".8"/></g>`).join("")}</g>
+  ${[0,1,2,3].map(i=>note2(-20+i*8,-70-open*(46+i*20)-Math.sin(t*3+i)*3*open,0.62,-7+i*5)).join("")}
+  <path d="M-170,-4 Q0,-30 170,-4 L170,100 Q170,120 150,120 H-150 Q-170,120 -170,100Z" fill="url(#gLeathF)"/>
+  <path d="M-170,-4 Q0,-30 170,-4" fill="none" stroke="#4A2A14" stroke-width="5"/>
+  <path d="M-152,12 Q0,-12 152,12 M-152,104 H152" fill="none" stroke="#F0CFA0" stroke-width="3" stroke-dasharray="9 7"/>
+  <circle cx="-110" cy="62" r="22" fill="none" stroke="#6A3E20" stroke-width="3" opacity=".7"/><path d="M-120,62 H-100 M-110,52 V72" stroke="#6A3E20" stroke-width="3" opacity=".7"/>
+  <g transform="translate(110,-8) rotate(${flap})"><path d="M-30,0 H30 L30,70 L0,92 L-30,70Z" fill="#6A3E20"/><path d="M-30,0 H30" stroke="#4A2A14" stroke-width="4"/><circle cx="0" cy="62" r="15" fill="url(#gSteel)" stroke="#6C7787" stroke-width="3"/><circle cx="-4" cy="58" r="4" fill="#fff" opacity=".8"/></g>
+  <path d="M-170,-60 Q-168,-84 -130,-90" fill="none" stroke="#C99466" stroke-width="5" opacity=".7" stroke-linecap="round"/></g>`;
+}
+const cloud=(x,y,s)=>`<g transform="translate(${x},${y}) scale(${s})" fill="#fff" opacity=".85"><ellipse cx="0" cy="0" rx="90" ry="34"/><ellipse cx="-40" cy="-22" rx="46" ry="34"/><ellipse cx="30" cy="-30" rx="56" ry="40"/></g>`;
+function cityBG(t,k=0){
+  const sky=[["#CFE8F7","#F3FAFF"],["#FBE3D2","#FFF4EA"],["#D8E3F5","#F1F5FC"]][k%3];
+  let o=`<rect width="1080" height="1920" fill="${sky[0]}"/><rect width="1080" height="1000" fill="${sky[1]}" opacity=".6"/>`;
+  for(let i=0;i<4;i++)o+=cloud(((i*340+t*16)%1500)-200,300+i*85,0.9+i*0.12);
+  const r=rng(5);
+  for(const [col,wc,base,hmin,hmax,step] of [["#C2D3E6","#DCE8F3",1450,240,520,92],["#A9BED6","#C9D9EA",1450,170,380,70]]){
+    for(let x=-30;x<1120;x+=step){const h=hmin+r()*(hmax-hmin),w=step-8;o+=`<rect x="${x}" y="${base-h}" width="${w}" height="${h}" fill="${col}"/>`;
+      for(let wy=base-h+24;wy<base-30;wy+=38)for(let wx=x+10;wx<x+w-16;wx+=26)o+=`<rect x="${wx}" y="${wy}" width="14" height="20" rx="2" fill="${r()>0.78?"#FFE9A8":wc}"/>`}}
+  o+=`<rect y="1450" width="1080" height="470" fill="#CBD1D8"/><rect y="1450" width="1080" height="26" fill="#E3E7EC"/><rect y="1476" width="1080" height="6" fill="#000" opacity=".1"/><rect y="1700" width="1080" height="220" fill="#8C95A1"/>${[0,1,2,3,4,5].map(i=>`<rect x="${i*200+((t*40)%200)-200}" y="1800" width="110" height="14" rx="4" fill="#F3F5F7"/>`).join("")}`;
+  return o;
+}
+function flatBld(x,y,s,o){
+  o=o||{}; const lit=o.lit===undefined?0.3:o.lit; const r=rng(21);
+  let w="";for(let f=0;f<5;f++)for(let c=0;c<4;c++){const wx=-150+c*80,wy=-330+f*130,on=r()<lit;w+=`<rect x="${wx-24}" y="${wy-8}" width="62" height="78" rx="4" fill="#fff"/><rect x="${wx-19}" y="${wy-3}" width="52" height="68" rx="3" fill="${on?"#FFE9A8":"url(#gGlass)"}"/><path d="M${wx+7},${wy-3} V${wy+65}" stroke="#fff" stroke-width="3"/>${f>0?`<rect x="${wx-28}" y="${wy+70}" width="70" height="10" rx="3" fill="#B0B8C4"/>`:""}`}
+  return `<g transform="translate(${x},${y}) scale(${s})">${sh(240,16,0,330)}
+  <rect x="-210" y="-380" width="420" height="720" rx="10" fill="url(#gWall)"/>${[0,1,2,3,4].map(f=>`<rect x="-210" y="${-266+f*130}" width="420" height="10" fill="#D4B48E"/>`).join("")}
+  <rect x="-212" y="-392" width="424" height="24" rx="6" fill="#B8896A"/><rect x="100" y="-470" width="70" height="86" rx="8" fill="#8A94A6"/><rect x="95" y="-482" width="80" height="18" rx="6" fill="#6C7787"/>
+  ${w}<rect x="-70" y="250" width="140" height="90" rx="8" fill="url(#gGlass)" stroke="#6C7787" stroke-width="6"/><path d="M0,250 V340" stroke="#6C7787" stroke-width="5"/><rect x="-100" y="214" width="200" height="30" rx="8" fill="${TEAL}"/>${plain("ഫ്ലാറ്റ്",0,238,24,"#fff")}</g>`;
+}
+function phoneSms(x,y,s,l1,l2,amt,col=CORAL){
+  return `<g transform="translate(${x},${y}) scale(${s})">${sh(150,12,0,330)}<rect x="-150" y="-310" width="300" height="620" rx="42" fill="#1B2230"/><rect x="-138" y="-298" width="276" height="596" rx="32" fill="#F4F7FB"/><rect x="-50" y="-292" width="100" height="22" rx="11" fill="#1B2230"/>
+  <text x="-120" y="-262" font-size="16" fill="${NAVY}" stroke="none" font-family="sans-serif" font-weight="800">9:41</text>
+  <rect x="-122" y="-230" width="244" height="150" rx="20" fill="#fff" stroke="#DDE3EA" stroke-width="3"/><circle cx="-90" cy="-196" r="18" fill="${col}"/>${plain("₹",-90,-188,24,"#fff")}${plain(l1,-58,-192,22,NAVY,"start")}${plain(l2,-110,-146,24,"#6B7380","start")}<text x="108" y="-98" font-size="38" text-anchor="end" fill="${col}" stroke="none" font-family="sans-serif" font-weight="800">${amt}</text>
+  <rect x="-122" y="-60" width="244" height="110" rx="20" fill="#fff" opacity=".6"/><rect x="-122" y="70" width="244" height="110" rx="20" fill="#fff" opacity=".4"/></g>`;
+}
+function loanDoc(x,y,s,rot,o){
+  o=o||{};
+  return `<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><rect x="-250" y="-330" width="500" height="680" rx="12" fill="#000" opacity=".12" transform="translate(8,12)"/><rect x="-250" y="-330" width="500" height="680" rx="12" fill="url(#gPaper)"/>
+  <rect x="-250" y="-330" width="500" height="100" rx="12" fill="#2F6FD0"/><rect x="-250" y="-290" width="500" height="60" fill="#2F6FD0"/>
+  <g transform="translate(-196,-282)"><path d="M-30,16 L0,-30 L30,16Z" fill="#fff"/><rect x="-26" y="18" width="52" height="8" fill="#fff"/>${[-18,0,18].map(a=>`<rect x="${a-4}" y="2" width="8" height="14" fill="#fff"/>`).join("")}</g>
+  ${plain("ഹോം ലോൺ",30,-278,40,"#fff")}${plain("സാങ്ഷൻ ലെറ്റർ",30,-244,24,"#CFE0FA")}
+  ${[["ലോൺ തുക","₹50,00,000"],["കാലാവധി","20 വർഷം"],["മാസ ഇഎംഐ","≈ ₹45,000"]].map((rw,i)=>{const a=clamp((o.t-o.t0-0.3-i*0.35)/0.3);return `<g opacity="${a}" transform="translate(${(1-a)*50},0)"><path d="M-210,${-118+i*110} H210" stroke="#E5E9EE" stroke-width="3"/>${plain(rw[0],-210,-150+i*110,26,"#6B7380","start")}${plain(rw[1],210,-142+i*110,38,i===2?CORAL:NAVY,"end")}</g>`}).join("")}
+  <path d="M-200,230 q30,-50 60,-8 t60,-6 t50,10" fill="none" stroke="#1F3A8F" stroke-width="5" stroke-linecap="round"/><path d="M-210,248 H-30" stroke="#B9C0CB" stroke-width="3"/>
+  <g transform="translate(130,220) rotate(-14)"><circle r="62" fill="none" stroke="${CORAL}" stroke-width="8"/><circle r="50" fill="none" stroke="${CORAL}" stroke-width="2.5"/>${plain("അംഗീകരിച്ചു",0,8,20,CORAL)}</g></g>`;
+}
+function chain(x1,y1,x2,y2,n,t){let o="";for(let i=0;i<n;i++){const p=i/(n-1);const x=lerp(x1,x2,p),y=lerp(y1,y2,p)+Math.sin(p*Math.PI)*34+Math.sin(t*5+i)*2;const a=Math.atan2(y2-y1,x2-x1)*180/Math.PI;o+=`<g transform="translate(${x},${y}) rotate(${a+(i%2?90:0)})"><rect x="-30" y="-17" width="60" height="34" rx="17" fill="none" stroke="#3A4252" stroke-width="15"/><rect x="-30" y="-17" width="60" height="34" rx="17" fill="none" stroke="url(#gSteel)" stroke-width="9"/></g>`}return o}
+const padlock=(x,y,s,open=0)=>`<g transform="translate(${x},${y}) scale(${s})">${sh(60,8,0,66)}<path d="M-34,-20 V-44 Q-34,-84 0,-84 Q34,-84 34,-44 V${-20-open*30}" fill="none" stroke="url(#gSteel)" stroke-width="14" stroke-linecap="round" transform="translate(${open*18},0)"/><rect x="-52" y="-22" width="104" height="84" rx="16" fill="url(#gGold)" stroke="#B88400" stroke-width="4"/><circle cy="12" r="11" fill="#7A5600"/><rect x="-4" y="14" width="8" height="26" rx="3" fill="#7A5600"/><path d="M-48,-14 H-8 L-48,26Z" fill="#fff" opacity=".3"/></g>`;
+const keysI=(x,y,s,rot)=>`<g transform="translate(${x},${y}) rotate(${rot}) scale(${s})"><circle r="26" fill="none" stroke="url(#gSteel)" stroke-width="9"/><g transform="translate(0,26)"><rect x="-6" y="0" width="12" height="100" rx="4" fill="url(#gGold)"/><rect x="0" y="62" width="26" height="10" fill="#E0A800"/><rect x="0" y="82" width="20" height="10" fill="#E0A800"/><circle cy="-2" r="20" fill="url(#gGold)" stroke="#B88400" stroke-width="3"/><circle cy="-2" r="8" fill="#fff" opacity=".7"/></g><g transform="translate(34,18) rotate(24)"><rect x="-5" y="0" width="10" height="84" rx="4" fill="url(#gSteel)"/><rect x="0" y="52" width="22" height="9" fill="#8E9AAB"/><circle cy="0" r="17" fill="url(#gSteel)" stroke="#6C7787" stroke-width="3"/></g></g>`;
+const person=(x,y,s,col,thumb)=>`<g transform="translate(${x},${y}) scale(${s})">${sh(50,8,0,120)}<path d="M-46,120 Q-50,40 0,34 Q50,40 46,120Z" fill="${col}"/><circle cy="-8" r="34" fill="#C28E67"/><path d="M-36,-14 Q-34,-52 0,-50 Q34,-52 36,-14 Q22,-30 0,-30 Q-22,-30 -36,-14Z" fill="#17100D"/><circle cx="-12" cy="-6" r="4" fill="#3B2A20"/><circle cx="12" cy="-6" r="4" fill="#3B2A20"/><path d="M-10,12 Q0,22 10,12" fill="none" stroke="#7A3B30" stroke-width="3" stroke-linecap="round"/>${thumb?`<g transform="translate(58,50) rotate(-20)"><rect x="-14" y="-10" width="28" height="30" rx="8" fill="#C28E67"/><rect x="-6" y="-34" width="12" height="28" rx="6" fill="#C28E67"/></g>`:""}</g>`;
+
+const LIME="#C8E64C", LIMED="#6E8A1E", CORL="#FF7A59";
+let CAPHL=false;
+const HLW=["പതിനയ്യായിരം","നാൽപ്പത്തിയയ്യായിരം","മുപ്പതിനായിരം","വ്യത്യാസമുണ്ട്"];
+const HLATTR=(w,t)=>{const on=t>=w.start-0.02;if(CAPHL&&on&&HLW.some(k=>w.text.includes(k)))return `fill="#10160F" stroke="${LIME}" stroke-width="22" stroke-linejoin="round"`;return `fill="#fff" fill-opacity="${on?1:0.62}" stroke-opacity="${on?1:0.62}"`};
+function darkBG(t){let o=`<rect width="1080" height="1920" fill="#0D130E"/><rect width="1080" height="1920" fill="url(#gDark)"/>`;const off=(t*10)%54;for(let x=-54;x<1134;x+=54)o+=`<path d="M${x+off},0 V1920" stroke="#1B281D" stroke-width="2"/>`;for(let y=-54;y<1974;y+=54)o+=`<path d="M0,${y+off} H1080" stroke="#1B281D" stroke-width="2"/>`;return o+DEFS2}
+const mono=(txt,x,y,fs,fill,anchor="start")=>`<text x="${x}" y="${y}" font-size="${fs}" fill="${fill}" text-anchor="${anchor}" stroke="none" font-family="monospace" font-weight="700" letter-spacing="3">${txt}</text>`;
+const dCard=(x,y,w,h)=>`<g transform="translate(${x},${y})"><rect x="${-w/2+8}" y="${-h/2+12}" width="${w}" height="${h}" rx="30" fill="#000" opacity=".4"/><rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" rx="30" fill="#131B15" stroke="#26352A" stroke-width="3"/></g>`;
+const dBar=(x,y,w,h,f,col,tag,label,val)=>`<g transform="translate(${x},${y})">${mono(tag,0,-h/2-42,28,"#B4C5B0")}${plain(label,w,-h/2-38,34,"#fff","end")}<rect x="0" y="${-h/2}" width="${w}" height="${h}" rx="16" fill="#1F2A21"/><rect x="0" y="${-h/2}" width="${Math.max(0,w*f)}" height="${h}" rx="16" fill="${col}"/>${f>0.2?`<text x="${w*f-22}" y="${h/2-22}" font-size="52" text-anchor="end" fill="#10160F" stroke="none" font-family="sans-serif" font-weight="800">${val}</text>`:""}</g>`;
+const dSticker=(x,y,rot,txt,sc)=>`<g transform="translate(${x},${y}) rotate(${rot}) scale(${sc})"><rect x="-290" y="-96" width="580" height="192" rx="22" fill="${LIMED}" transform="translate(10,12)"/><rect x="-290" y="-96" width="580" height="192" rx="22" fill="${LIME}"/><text x="0" y="40" font-size="124" text-anchor="middle" fill="#10160F" stroke="none" font-family="sans-serif" font-weight="800">${txt}</text></g>`;
+const dFoot=`<g transform="translate(540,1262)"><rect x="-470" y="-32" width="940" height="64" rx="32" fill="#18221A" stroke="#26352A" stroke-width="2"/>${plain("ഉദാഹരണ കണക്ക് · ഉപദേശമല്ല · തുകകൾ മാറാം",0,10,26,"#B9C7B5")}</g>`;
+function shotFn(id,u,t,dur,tk){
+  let bg="",mid="",fg="",cam={z:1,dx:Math.sin(t*0.9)*5,dy:Math.cos(t*0.7)*4,shake:0}; CAPHL=false;
+  const sH=SHOTS.find(s=>s.id===id), t0=sH.t0, tt=t-t0;
+  const D1=(a,b,c)=>deskRoom(t,a||"#F5E7D2",b||"#FBEFD9",c||"#EAD7BD");
+  const rm=(o,x=250)=>RAMU(x,1830,1.9,Object.assign({outfit:"casual",open:tk.open,blink:tk.blink},o),t);
+  const fr=(o,x=250)=>FR(x,1830,1.9,Object.assign({open:tk.open,blink:tk.blink},o),t);
+  const label=(txt,y=640,fs=40,col=NAVY)=>`<g transform="translate(540,${y}) scale(${back(clamp(tt/0.35))})">${pill(txt,0,0,col,fs)}</g>`;
+  const city=(k)=>{bg=cityBG(t,k)+DEFS2};
+  const zoom=(a=1,b=1.08)=>{cam.z=lerp(a,b,ease(u))};
+
+  if(id.startsWith("d")&&["dMath","dRent","dEmi","dDiff"].includes(id)){
+    CAPHL=true; bg=darkBG(t);
+    const k=(a)=>clamp((tt-a)/0.5);
+    mid+=`<g transform="translate(540,520) scale(${back(clamp(tt/0.35))})">${mono("RENT vs EMI / MONTH",0,-50,28,LIME,"middle")}${plain(id==="dDiff"?"ഓരോ മാസവും വ്യത്യാസം":"ഒരു കണക്ക്",0,24,64,"#fff")}</g>`;
+    mid+=`<g transform="translate(0,${(1-back(clamp(tt/0.45)))*60})" opacity="${clamp(tt/0.2)}">${dCard(540,880,900,500)}`;
+    const rf=id==="dMath"?0:ease(clamp(tt/0.9)); const ef=id==="dEmi"?ease(clamp(tt/1.1)):(id==="dDiff"?1:0);
+    mid+=dBar(120,790,840,120,id==="dRent"||id==="dEmi"||id==="dDiff"?(id==="dRent"?rf*(1/3):1/3):0,LIME,"RENT","വാടക","₹15,000");
+    mid+=dBar(120,1000,840,120,ef,CORL,"EMI","ഇഎംഐ","₹45,000");
+    mid+=`</g>`;
+    if(id==="dMath") mid+=`<g transform="translate(540,890)">${plain("?",0,40,150,"#2E4232")}</g>`;
+    if(id==="dDiff"){const a=back(clamp((tt-0.2)/0.5));mid+=dSticker(540,1168,-3,"₹30,000",a*0.55)}
+    mid+=pip(160,1170,78,id==="dDiff"?"surprised":"thinking",tk,"d");
+    fg+=dFoot;
+    cam={z:lerp(1,1.04,ease(u)),dx:0,dy:0};
+  } else
+  if(id==="flatTag"){
+    city(0);
+    mid+=flatBld(540,980,1.1,{lit:0.35});
+    mid+=`<g transform="translate(780,700) rotate(${Math.sin(t*2)*4}) scale(${back(clamp(tt/0.5))})"><path d="M0,-130 V-60" stroke="${NAVY}" stroke-width="5"/><rect x="-170" y="-60" width="340" height="120" rx="24" fill="${CORAL}"/><circle cx="-140" cy="-34" r="11" fill="#fff"/>${plain(inr(lerp(0,6000000,ease(clamp(tt/1.0)))),0,24,52,"#fff")}</g>`;
+    mid+=`<g transform="translate(240,700) scale(${back(clamp((tt-0.3)/0.4))})"><circle r="90" fill="${NAVY}"/>${plain("25",0,26,80,"#fff")}${plain("വയസ്സ്",0,60,24,"#FFD98A")}</g>`;
+    zoom(1,1.08);
+  } else if(id==="keys"){
+    city(0);
+    mid+=flatBld(790,900,1.0,{lit:0.4});
+    mid+=fr({ex:"smile",L:[10,-6],R:[88,-105],gaze:{x:3,y:-1}},300);
+    mid+=keysI(560,760+Math.sin(t*3)*6,1.5,12+Math.sin(t*3)*5);
+    mid+=`<g transform="translate(560,600) scale(${back(clamp(tt/0.35))})">${pill("ഇഎംഐയിൽ",0,0,"#2F6FD0",44)}</g>`;
+    zoom(1,1.08);
+  } else if(id==="cry"){
+    bg=D1("#E8EDF5","#F4F7FB","#D5DDE8").bg+DEFS2; fg+=D1("#E8EDF5","#F4F7FB","#D5DDE8").fg;
+    mid+=fr({ex:"worried",L:[24,-100],R:[24,-100],gaze:{x:0,y:3},brow:3,lean:2},300);
+    mid+=tears(300,1830,1.9,t);
+    mid+=phoneSms(760,840,0.82,"ശമ്പളം ക്രെഡിറ്റ്","SALARY","+₹75,000",GREEN);
+    fg+=`<g transform="translate(700,1190) scale(${back(clamp((tt-0.2)/0.4))})">${pill("ഇഎംഐ കഴിഞ്ഞ് ബാക്കി?",0,0,CORAL,30)}</g>`;
+    zoom(1.02,1.1);
+  } else if(id==="doubt"){
+    bg=D1().bg+DEFS2; fg+=D1().fg;
+    mid+=rm({ex:"thinking",L:[14,-8],R:[40,-110],gaze:{x:3,y:-3}},250);
+    fg+=`<g transform="translate(640,720) scale(${back(clamp(tt/0.4))})">${flatBld(-150,70,0.55,{lit:0.4})}<g transform="translate(160,0)"><rect x="-110" y="-100" width="220" height="190" rx="20" fill="#fff"/>${keysI(0,-20,0.8,0)}${plain("വാടക",0,70,34,NAVY)}</g>${plain("?",0,-170,120,CORAL)}</g>`;
+    fg+=`<g transform="translate(640,1020) scale(${back(clamp((tt-0.3)/0.4))})">${pill("വാങ്ങണോ · വാടകയ്ക്കോ?",0,0,NAVY,36)}</g>`;
+    zoom(1.02,1.08);
+  } else if(id==="truth"){
+    bg=gfxBG(t,"#EAE6F8","#F6F3FC")+DEFS2;
+    mid+=`<g transform="translate(540,900) scale(${back(clamp(tt/0.5))})">${sh(300,14,0,330)}<rect x="-300" y="-300" width="600" height="600" rx="40" fill="#fff"/><rect x="-300" y="-300" width="600" height="110" rx="40" fill="#6A4C93"/><rect x="-300" y="-250" width="600" height="60" fill="#6A4C93"/>${plain("ഈ സത്യം",0,-212,64,"#fff")}${[0,1,2].map(i=>`<rect x="-220" y="${-120+i*84}" width="${i%2?300:440}" height="22" rx="11" fill="#DDE3EA"/>`).join("")}${plain("?",150,150,200,"#6A4C93")}</g>`;
+    mid+=`<g transform="translate(${lerp(300,760,ease(clamp(tt/1.2)))},${lerp(1180,1000,ease(clamp(tt/1.2)))})"><circle r="120" fill="#ffffff44" stroke="${NAVY}" stroke-width="14"/><path d="M85,85 L160,160" stroke="${NAVY}" stroke-width="22" stroke-linecap="round"/></g>`;
+    zoom(1,1.08);
+  } else if(id==="career"){
+    const d=D1("#E6EEF8","#F2F6FC","#D5DEEA"); bg=d.bg+DEFS2; fg+=d.fg;
+    mid+=fr({ex:"smile",L:[20,-40],R:[50,-100],gaze:{x:3,y:0}},300);
+    mid+=`<g transform="translate(760,860) scale(${back(clamp(tt/0.4))})">${sh(190,12,0,260)}<rect x="-190" y="-230" width="380" height="460" rx="20" fill="#fff"/><rect x="-190" y="-230" width="380" height="84" rx="20" fill="${TEAL}"/><rect x="-190" y="-190" width="380" height="44" fill="${TEAL}"/>${plain("സാലറി സ്ലിപ്",0,-168,40,"#fff")}${plain("ശമ്പളം",0,-92,30,"#6B7380")}${plain("₹"+Math.round(lerp(30000,75000,ease(clamp(tt/1.3)))).toLocaleString("en-IN"),0,-20,72,GREEN)}${[0,1,2].map(i=>`<rect x="-150" y="${-10+i*54}" width="${i%2?200:300}" height="18" rx="9" fill="#DDE3EA"/>`).join("")}${tick(110,160,0.9)}</g>`;
+    fg+=label("കരിയറിന്റെ തുടക്കം",1010,34,NAVY).replace("translate(540,1010)","translate(760,1170)");
+    zoom(1.02,1.08);
+  } else if(id==="think"){
+    const d=D1("#E6EEF8","#F2F6FC","#D5DEEA"); bg=d.bg+DEFS2; fg+=d.fg;
+    mid+=fr({ex:"thinking",L:[14,-6],R:[40,-110],gaze:{x:3,y:-3}},250);
+    fg+=`<g transform="translate(730,760) scale(${back(clamp(tt/0.4))})"><rect x="-290" y="-150" width="580" height="290" rx="46" fill="#fff"/><circle cx="-230" cy="170" r="16" fill="#fff"/><circle cx="-268" cy="224" r="9" fill="#fff"/>${plain("എന്തിനാണ് വെറുതെ",0,-30,48,NAVY)}${plain("വാടക കൊടുക്കുന്നത്?",0,40,48,CORAL)}</g>`;
+    zoom(1.02,1.08);
+  } else if(id==="rent15"){
+    bg=gfxBG(t,"#FDE8E0","#FFF5F0")+DEFS2;
+    mid+=`<g transform="translate(540,900) rotate(-3) scale(${back(clamp(tt/0.4))})">${sh(250,12,0,290)}<rect x="-250" y="-270" width="500" height="540" rx="20" fill="#fff"/><rect x="-250" y="-270" width="500" height="90" rx="20" fill="#B8896A"/><rect x="-250" y="-230" width="500" height="50" fill="#B8896A"/>${plain("വാടക രസീത്",0,-208,44,"#fff")}${[0,1,2].map(i=>`<rect x="-200" y="${-130+i*54}" width="${i%2?240:340}" height="18" rx="9" fill="#DDE3EA"/>`).join("")}${plain("₹15,000",0,130,92,CORAL)}${plain("/ മാസം",0,196,36,"#8A94A6")}</g>`;
+    for(let i=0;i<6;i++){const p=clamp((tt-0.3-i*0.25)/1.2);if(p>0&&p<1)mid+=note2(lerp(540,i%2?1060:20,ease(p)),lerp(900,500,ease(p))-Math.sin(p*Math.PI)*60,0.7,i*30-60+p*120)}
+    mid+=label("കാശ് കളയുന്നു?",545,40,NAVY);
+    zoom(1,1.08);
+  } else if(id==="idea"){
+    const d=D1("#F6EFE0","#FBF6EC","#E8DDC4"); bg=d.bg+DEFS2; fg+=d.fg;
+    mid+=fr({ex:"smile",L:[14,-6],R:[88,-125],gaze:{x:3,y:-2}},250);
+    fg+=`<g transform="translate(730,780) scale(${back(clamp(tt/0.4))})"><rect x="-300" y="-190" width="600" height="380" rx="46" fill="#fff"/><circle cx="-240" cy="214" r="16" fill="#fff"/><circle cx="-278" cy="266" r="9" fill="#fff"/>${flatBld(-170,10,0.34,{lit:0.5})}${plain("+ ഇഎംഐ",90,-50,52,NAVY)}${plain("= ആസ്തി",90,30,64,GREEN)}${spark(250,-130,24,t*60)}${spark(-60,-150,16,t*50+20,"#fff")}</g>`;
+    zoom(1.02,1.08);
+  } else if(id==="downpay"){
+    city(2);
+    mid+=flatBld(790,900,1.0,{lit:0.4});
+    mid+=wallet2(280,1100,0.9,ease(clamp(tt/0.4)),t);
+    for(let i=0;i<7;i++){const p=clamp((tt-0.3-i*0.2)/0.9);if(p>0&&p<1)mid+=note2(lerp(300,700,ease(p)),lerp(980,900,ease(p))-Math.sin(p*Math.PI)*140,0.55,i*14-40+p*80)}
+    mid+=label("സമ്പാദ്യം മുഴുവൻ ഡൗൺ പേയ്‌മെന്റ്",620,32,CORAL);
+    zoom(1,1.08);
+  } else if(id==="loan50"){
+    bg=gfxBG(t,"#E4EEFB","#F4F8FE")+DEFS2;
+    mid+=loanDoc(540,900,1.0,Math.sin(t*1.5)*0.6-2,{t,t0});
+    zoom(1,1.08);
+  } else if(id==="askState"){
+    const d=D1("#E8EDF5","#F4F7FB","#D5DDE8"); bg=d.bg+DEFS2; fg+=d.fg;
+    mid+=fr({ex:"worried",L:[14,-6],R:[14,-6],gaze:{x:0,y:3},brow:2},300);
+    mid+=tears(300,1830,1.9,t);
+    fg+=`<g transform="translate(740,780) scale(${back(clamp(tt/0.35))})"><rect x="-250" y="-90" width="500" height="180" rx="40" fill="#fff"/>${plain("ഇന്നത്തെ അവസ്ഥ?",0,22,52,NAVY)}</g>`;
+    zoom(1.02,1.1);
+  } else if(id==="emiSms"){
+    bg=gfxBG(t,"#FDE4E4","#FFF3F0")+DEFS2;
+    mid+=phoneSms(540,1000,1.12,"ഇഎംഐ ഡെബിറ്റ്","HOME LOAN","−₹45,000",CORAL);
+    const k=clamp(tt/0.6);
+    mid+=`<g transform="translate(540,${lerp(450,520,ease(k))}) scale(${back(k)})">${pill("മാസം ₹45,000",0,0,CORAL,52)}</g>`;
+    for(let i=0;i<5;i++){const p=clamp((tt-0.4-i*0.22)/1.0);if(p>0&&p<1)mid+=note2(lerp(540,i%2?1000:80,ease(p)),lerp(900,1150,ease(p)),0.6,i*25-50)}
+    zoom(1,1.08);
+  } else if(id==="extras"){
+    bg=gfxBG(t,"#FFF0DD","#FFF8EE")+DEFS2;
+    const blocks=[["ഇഎംഐ","₹45,000",CORAL,280],["മെയിന്റനൻസ്","+",YEL,110],["ടാക്സ്","+",TEAL,110]];
+    let yy=1150;
+    blocks.forEach(([n,v,c,h],i)=>{const a=clamp((tt-i*0.55)/0.4);const drop=(1-back(a))*-500;mid+=`<g transform="translate(540,${yy-h/2+drop})" opacity="${a>0?1:0}"><rect x="-300" y="${-h/2}" width="600" height="${h}" rx="26" fill="${c}"/><rect x="-300" y="${-h/2}" width="600" height="${h/2}" rx="26" fill="#fff" opacity=".12"/>${plain(n,-260,12,44,"#fff","start")}${i===0?plain(v,260,18,64,"#fff","end"):""}</g>`;yy-=h+8});
+    mid+=label("വേറെയും ചെലവ്",620,40,NAVY);
+    zoom(1,1.08);
+  } else if(id==="jobOffer"){
+    bg=cityBG(t,1)+DEFS2;
+    mid+=`<g transform="translate(750,860) rotate(${Math.sin(t*1.4)*2}) scale(${back(clamp(tt/0.5))})">${sh(220,12,0,310)}<rect x="-230" y="-300" width="460" height="600" rx="16" fill="#fff"/><rect x="-230" y="-300" width="460" height="100" rx="16" fill="${GREEN}"/><rect x="-230" y="-250" width="460" height="50" fill="${GREEN}"/>${plain("ജോബ് ഓഫർ",0,-228,50,"#fff")}${plain("പുതിയ നഗരം",0,-90,46,NAVY)}${[0,1,2].map(i=>`<rect x="-170" y="${-30+i*60}" width="${i%2?220:340}" height="18" rx="9" fill="#DDE3EA"/>`).join("")}${plain("↑ ശമ്പളം",0,200,48,GREEN)}</g>`;
+    mid+=fr({ex:"smile",L:[14,-6],R:[88,-110],gaze:{x:3,y:-1}},250);
+    zoom(1,1.08);
+  } else if(id==="stuck"){
+    city(1);
+    mid+=flatBld(790,900,1.0,{lit:0.4});
+    mid+=fr({ex:"worried",L:[24,-90],R:[24,-90],gaze:{x:-2,y:2},brow:3,lean:-2},300);
+    mid+=`<g transform="translate(540,640) scale(${back(clamp(tt/0.35))})">${pill("മാറാൻ പറ്റുന്നില്ല",0,0,CORAL,44)}</g>`;
+    zoom(1.02,1.08);
+  } else if(id==="chained"){
+    city(1);
+    mid+=flatBld(800,880,1.0,{lit:0.4});
+    mid+=fr({ex:"worried",L:[24,-90],R:[24,-90],gaze:{x:3,y:2},brow:3},280);
+    const k=ease(clamp(tt/0.5));
+    mid+=chain(300,1790,lerp(300,800,k),1740,9,t);
+    mid+=padlock(lerp(300,800,k)+20,1730,1.7,0);
+    mid+=`<g transform="translate(540,640) scale(${back(clamp((tt-0.3)/0.4))})">${pill("ഫ്ലാറ്റ് + ലോൺ = ബന്ധനം",0,0,NAVY,36)}</g>`;
+    zoom(1,1.08);
+  } else if(id==="mathHere"){
+    bg=gfxBG(t,"#E4F0F6","#F4F9FC")+DEFS2;
+    mid+=`<g transform="translate(540,900) scale(${back(clamp(tt/0.45))})">${sh(250,12,0,320)}<rect x="-230" y="-300" width="460" height="600" rx="40" fill="#2B3445"/><rect x="-196" y="-268" width="392" height="130" rx="18" fill="#C8E6C9"/>${plain("?",180,-166,90,NAVY,"end")}${[0,1,2,3].map(r=>[0,1,2].map(c=>`<rect x="${-186+c*128}" y="${-100+r*94}" width="112" height="76" rx="16" fill="${c===2&&r<3?YEL:"#46506A"}"/>`).join("")).join("")}</g>`;
+    mid+=label("നമ്മൾ വിട്ടുപോകുന്ന കണക്ക്",600,34,NAVY);
+    zoom(1,1.08);
+  } else if(id==="rentBar"||id==="emiBar"||id==="diff"){
+    bg=gfxBG(t,"#E8F2EC","#F6FBF8")+DEFS2;
+    const fr1=id==="rentBar"?ease(clamp(tt/0.9)):1;
+    const fr2=id==="rentBar"?0:(id==="emiBar"?ease(clamp(tt/1.1)):1);
+    mid+=`<g transform="translate(130,780)"><rect x="0" y="-70" width="820" height="110" rx="55" fill="#E5E9EE"/><rect x="0" y="-70" width="${Math.max(110,820*fr1/3)}" height="110" rx="55" fill="${TEAL}"/>${plain("വാടക",0,-100,40,NAVY,"start")}${plain("₹15,000",820,-100,44,TEAL,"end")}</g>`;
+    if(id!=="rentBar") mid+=`<g transform="translate(130,1000)"><rect x="0" y="-70" width="820" height="110" rx="55" fill="#E5E9EE"/><rect x="0" y="-70" width="${Math.max(110,820*fr2)}" height="110" rx="55" fill="${CORAL}"/>${plain("ഇഎംഐ",0,-100,40,NAVY,"start")}${plain("₹45,000",820,-100,44,CORAL,"end")}</g>`;
+    if(id==="diff"){const a=back(clamp(tt/0.5));mid+=`<g transform="translate(540,1160) scale(${a})"><path d="M-300,-30 V10 H-0" fill="none" stroke="${NAVY}" stroke-width="0"/><rect x="-330" y="-60" width="660" height="120" rx="40" fill="${NAVY}"/>${plain("വ്യത്യാസം ₹30,000 / മാസം",0,18,46,YEL)}</g>`;
+}
+    mid+=label(id==="rentBar"?"വാടക":"ഇഎംഐ vs വാടക",545,44,NAVY);
+    zoom(1,1.06);
+  } else if(id==="rentLive"){
+    const d=D1("#F6EFE0","#FBF6EC","#E8DDC4"); bg=d.bg+DEFS2; fg+=d.fg;
+    mid+=rm({ex:"smile",L:[10,-6],R:[62,-60],gaze:{x:3,y:-1}},250);
+    fg+=`<g transform="translate(740,800) scale(${back(clamp(tt/0.4))})"><rect x="-230" y="-170" width="460" height="300" rx="40" fill="#fff"/>${keysI(-110,-30,1.0,0)}${plain("വാടകയ്ക്ക്",70,-30,48,NAVY)}${plain("താമസം",70,36,48,TEAL)}${tick(140,-110,0.7)}</g>`;
+    zoom(1.02,1.08);
+  } else if(id==="surplus"){
+    bg=gfxBG(t,"#E4F4EA","#F4FBF7")+DEFS2;
+    for(let i=0;i<5;i++){const a=back(clamp((tt-i*0.12)/0.4));mid+=`<g transform="translate(${430+(i%3)*110},${1020-Math.floor(i/3)*50-i*8}) scale(${a})">${coin(0,0,64)}</g>`}
+    mid+=`<g transform="translate(540,760) scale(${back(clamp(tt/0.4))})"><rect x="-330" y="-90" width="660" height="180" rx="44" fill="${GREEN}"/>${plain("₹30,000",0,34,110,"#fff")}</g>`;
+    mid+=label("മിച്ചം / മാസം",600,38,NAVY);
+    zoom(1,1.08);
+  } else if(id==="sip"){
+    bg=gfxBG(t,"#E4EEFB","#F4F8FE")+DEFS2;
+    const bars=[0.25,0.35,0.3,0.5,0.45,0.62,0.7,0.85];
+    mid+=`<g transform="translate(540,880) scale(${back(clamp(tt/0.45))})">${sh(260,12,0,360)}<rect x="-280" y="-340" width="560" height="680" rx="40" fill="#fff"/><rect x="-280" y="-340" width="560" height="110" rx="40" fill="#2F6FD0"/><rect x="-280" y="-290" width="560" height="60" fill="#2F6FD0"/>${plain("ഇക്വിറ്റി ഫണ്ട് · SIP",0,-262,40,"#fff")}${plain("₹30,000 / മാസം",0,-150,60,NAVY)}${bars.map((b,i)=>`<rect x="${-220+i*58}" y="${280-300*b*clamp((tt-0.3-i*0.08)/0.4)}" width="44" height="${300*b*clamp((tt-0.3-i*0.08)/0.4)}" rx="8" fill="${i>4?GREEN:"#9CC5E8"}"/>`).join("")}${plain("ഉദാഹരണ ചിത്രം",0,-60,26,"#8A94A6")}</g>`;
+    fg+=foot("മ്യൂച്വൽ ഫണ്ട് നിക്ഷേപം നഷ്ടസാധ്യതയ്ക്ക് വിധേയം",1235);
+    zoom(1,1.08);
+  } else if(id==="growth"){
+    bg=gfxBG(t,"#E4F4EA","#F4FBF7")+DEFS2;
+    const years=15,k=clamp(tt/(dur*0.8));
+    for(let i=0;i<years;i++){const h=40+Math.pow(i/(years-1),2.2)*520;const a=clamp(k*years-i);mid+=`<rect x="${110+i*62}" y="${1180-h*a}" width="50" height="${h*a}" rx="8" fill="${i>9?GREEN:"#7FC9A0"}"/>`}
+    mid+=`<g transform="translate(540,700) scale(${back(clamp((tt-0.8)/0.5))})"><rect x="-300" y="-70" width="600" height="140" rx="40" fill="${NAVY}"/>${plain("10–15 കൊല്ലം",0,-4,46,"#fff")}${plain("കോടികൾ? (ഉറപ്പില്ല)",0,44,34,YEL)}</g>`;
+    fg+=foot("ഉദാഹരണ ചിത്രം · വരുമാനം ഉറപ്പില്ല, നഷ്ടസാധ്യതയുണ്ട്",1235);
+    zoom(1,1.08);
+  } else if(id==="dream"){
+    city(0);
+    mid+=`<g transform="translate(540,960) scale(${back(clamp(tt/0.5))})">${sh(250,14,0,260)}<path d="M-250,-30 L0,-250 L250,-30Z" fill="#C0583F"/><rect x="-210" y="-30" width="420" height="270" fill="#F6E3C6"/><rect x="-60" y="60" width="120" height="180" rx="10" fill="#8A5A36"/><circle cx="36" cy="150" r="7" fill="${YEL}"/>${[-150,130].map(a=>`<rect x="${a-40}" y="30" width="80" height="80" rx="6" fill="#fff"/><rect x="${a-34}" y="36" width="68" height="68" rx="4" fill="url(#gGlass)"/>`).join("")}<rect x="140" y="-190" width="42" height="90" fill="#9B4A34"/></g>`;
+    mid+=keysI(540,1340+Math.sin(t*3)*5,1.0,10);
+    mid+=`<g transform="translate(540,640) scale(${back(clamp(tt/0.4))})">${pill("ഇഷ്ടമുള്ള വീട് · കടമില്ല",0,0,GREEN,40)}</g>`;
+    zoom(1,1.08);
+  } else if(id==="showoff"){
+    city(2);
+    [[200,1130,0],[420,1150,1],[640,1130,0],[860,1150,1]].forEach(([x,y,th],i)=>{const a=back(clamp((tt-i*0.15)/0.4));mid+=`<g transform="translate(${x},${y+(1-a)*120}) scale(${Math.max(0,a)*1.2})">${person(0,-100,1,[CORAL,TEAL,"#7A4FB0","#2F6FD0"][i],th)}</g>`});
+    mid+=flatBld(540,950,0.88,{lit:0.4});
+    mid+=`<g transform="translate(540,455) scale(${back(clamp(tt/0.4))})">${pill("നാട്ടുകാരെ കാണിക്കാൻ",0,0,NAVY,42)}</g>`;
+    zoom(1,1.06);
+  } else if(id==="heavy"){
+    const d=D1("#F6E8E8","#FBF1F1","#E8D5D5"); bg=d.bg+DEFS2; fg+=d.fg;
+    const drop=back(clamp(tt/0.4));
+    mid+=fr({ex:"worried",L:[40,-90],R:[40,-90],brow:3,gaze:{x:0,y:2},jump:6*(1-clamp(tt/0.5))},330);
+    mid+=`<g transform="translate(330,${lerp(100,600,drop)})"><rect x="-190" y="-80" width="380" height="160" rx="22" fill="#4B5563"/><rect x="-190" y="-80" width="380" height="50" rx="22" fill="#6B7380"/>${plain("ഹോം ലോൺ",0,28,60,"#fff")}<path d="M-190,80 L190,80" stroke="#2E3440" stroke-width="10"/></g>`;
+    mid+=`<g transform="translate(740,900) scale(${back(clamp((tt-0.3)/0.4))})"><circle r="120" fill="${CORAL}"/>${xmark(0,0,1.6).replace(new RegExp(CORAL,"g"),"#fff")}</g>`;
+    zoom(1.02,1.08);
+  } else if(id==="freedom"){
+    bg=gfxBG(t,"#E4F4EA","#F4FBF7")+DEFS2;
+    mid+=padlock(540,900,3.0,ease(clamp(tt/0.7)));
+    for(let i=0;i<6;i++){const a=t*1.8+i*1.05;mid+=spark(540+Math.cos(a)*(360+i*8),900+Math.sin(a)*(260+i*10),14+(i%3)*5,t*80+i*30,i%2?YEL:"#fff")}
+    mid+=`<g transform="translate(540,1180) scale(${back(clamp((tt-0.4)/0.4))})">${pill("സാമ്പത്തിക സ്വാതന്ത്ര്യം",0,0,GREEN,44)}</g>`;
+    mid+=`<g transform="translate(540,640) scale(${back(clamp((tt-0.9)/0.4))})">${pill("പിന്നെ വീട് ✓",0,0,NAVY,44)}</g>`;
+    zoom(1,1.08);
+  } else if(id==="share"){
+    const d=D1(); bg=d.bg+DEFS2; fg+=d.fg;
+    const smile=u>0.55;
+    mid+=ramu(300,1830,1.7,{outfit:"casual",ex:"smile",open:tk.open,blink:tk.blink,L:gestureL(t),R:[110,-20],tilt:Math.sin(t*1.2)*2,shadow:false});
+    mid+=ramu(790,1830,1.7,{outfit:"office",sk:"s3",ex:smile?"smile":"worried",open:0,blink:tk.blink,L:[10,-4],R:[10,-4],flip:true,shadow:false});
+    const p=ease(clamp((u-0.25)/0.45));
+    fg+=`<g transform="translate(540,830) scale(${back(u*2.4)})"><circle r="84" fill="${TEAL}"/><path d="M-30,10 L30,-30 M-30,10 L30,48 M30,-30 V48" stroke="#fff" stroke-width="13" stroke-linecap="round" fill="none"/><circle cx="-34" cy="10" r="14" fill="#fff"/><circle cx="34" cy="-30" r="14" fill="#fff"/><circle cx="34" cy="48" r="14" fill="#fff"/></g>`;
+    fg+=`<g transform="translate(${lerp(300,790,p)},${1000-Math.sin(p*Math.PI)*160})">${p>0&&p<1?`<rect x="-36" y="-56" width="72" height="112" rx="12" fill="#1F232C"/><rect x="-30" y="-48" width="60" height="96" rx="8" fill="#3E7BE0"/>`:""}</g>`;
+    fg+=`<g transform="translate(540,1010)">${pill("ഷെയർ ചെയ്യൂ",0,0,CORAL,52)}</g>`;
+    zoom(1,1.08);
+  } else if(id==="end"){
+    const a=ease(clamp((t-SHOTS[SHOTS.length-1].t0)/0.5));
+    bg=`<rect width="1080" height="1920" fill="${NAVY}"/>`;
+    mid+=`<g opacity="${a}">`+outlined("ഒരു ഉദാഹരണം മാത്രം",540,640,72,"#fff",10)+outlined("ഉപദേശമല്ല",540,740,72,YEL,10)+plain("ഉദാഹരണ കണക്കുകളാണ്; പലിശ, വാടക, വരുമാനം,",540,900,34,"#fff")+plain("ടാക്സ് ഇവ വ്യക്തിക്കനുസരിച്ച് മാറും. മ്യൂച്വൽ ഫണ്ട്",540,950,34,"#fff")+plain("നിക്ഷേപം നഷ്ടസാധ്യതയ്ക്ക് വിധേയം, വരുമാനം ഉറപ്പില്ല.",540,1000,34,"#fff")+plain("തീരുമാനത്തിന് മുൻപ് വിദഗ്ധ ഉപദേശം തേടുക.",540,1050,34,"#fff")+outlined("ഫോളോ ചെയ്യൂ",540,1260,64,"#fff",8)+`</g>`;
+    mid+=ramu(540,1760,0.7,{outfit:"casual",ex:"smile",open:0,blink:tk.blink,L:[10,-4],R:[110,-10],shadow:false});
+  }
+  return {bg,mid,fg,cam};
+}
+function captionHTML(t){
+  const it=TL.items.find(i=>t>=i.start&&t<=i.end+0.25); if(!it) return "";
+  const ws=it.words; const chunks=[]; let cur=[],len=0;
+  for(const w of ws){const l=[...w.text].length; if(cur.length&&(len+l>36||cur.length>=6)){chunks.push(cur);cur=[];len=0} cur.push(w);len+=l+1}
+  if(cur.length) chunks.push(cur);
+  let ch=chunks[chunks.length-1]; for(let i=0;i<chunks.length;i++){const nxt=chunks[i+1]; if(!nxt||t<nxt[0].start-0.02){ch=chunks[i];break}}
+  const lines=[[],[]]; let ll=0,li=0; for(const w of ch){const l=[...w.text].length; if(li===0&&ll+l>19&&lines[0].length){li=1;ll=0} lines[li].push(w);ll+=l+1}
+  const row=(arr,y)=>arr.length?`<text x="540" y="${y}" font-size="${Math.min(54,Math.floor(54*19/Math.max(19,arr.reduce((s,w)=>s+[...w.text].length+1,0)-1)))}" text-anchor="middle" paint-order="stroke" stroke-linejoin="round" stroke="${NAVY}" stroke-width="14">${arr.map((w,i)=>`<tspan ${HLATTR(w,t)}>${w.text}${i<arr.length-1?" ":""}</tspan>`).join("")}</text>`:"";
+  return row(lines[0],1352)+row(lines[1],1416);
+}
+const TAG=`<g transform="translate(540,335)"><rect x="-370" y="-30" width="740" height="82" rx="26" fill="#1B2A41" opacity=".82"/>${plain("ഒരു ഉദാഹരണം · ഉപദേശമല്ല",0,-2,30,"#fff")}${plain("ഉദാഹരണ കണക്ക് · വരുമാനം ഉറപ്പില്ല",0,38,25,"#FFD98A")}</g>`;
+function render(t){
+  const svg=document.getElementById("s");
+  if(!SHOTS.length) buildShots();
+  let sh_=SHOTS[SHOTS.length-1]; for(const s of SHOTS){ if(t>=s.t0&&t<s.t1){sh_=s;break} }
+  const dur=Math.max(0.5,sh_.t1-sh_.t0), u=clamp((t-sh_.t0)/dur);
+  const tk=talk(t);
+  const r=shotFn(sh_.id,u,t,dur,tk);
+  const c=r.cam, sk=c.shake?Math.sin(t*90)*c.shake:0, sk2=c.shake?Math.cos(t*77)*c.shake:0;
+  const tf=(z,dx,dy)=>`translate(${540+dx+sk},${960+dy+sk2}) scale(${z}) translate(-540,-960)`;
+  const bgz=1+(c.z-1)*0.5;
+  const isEnd=sh_.id==="end";
+  svg.innerHTML=`${DEFS}${DEFS2}<g transform="${tf(bgz,c.dx*0.5,c.dy*0.5)}">${r.bg}</g><g transform="${tf(c.z,c.dx,c.dy)}">${r.mid}</g><g transform="${tf(c.z*1.04,c.dx*1.3,c.dy*1.2)}">${r.fg}</g>${isEnd?"":TAG}${isEnd?"":captionHTML(t)}`;
+}
+window.init=async(tl,ev)=>{TL=tl;EV=ev;ENV=tl.env;SHOTS=[];await document.fonts.load('800 60px ML','ആദ്യ');await document.fonts.ready;};
+window.render=render;
+</script></body></html>
