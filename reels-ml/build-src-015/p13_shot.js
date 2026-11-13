@@ -132,7 +132,7 @@ function shotFn(id,u,t,dur,tk){
     zoom(1.02,1.07);
   } else if(id==="three"){
     bg=gfxBG(t,"#E4F4EA","#F4FBF7")+DEFS2;
-    [["EMI",1],["Emergency fund",2],["5 years",3]].forEach(([l,n],i)=>{const a=back(clamp((tt-i*0.18)/0.4));mid+=`<g transform="translate(540,${700+i*190}) scale(${Math.max(0,a)})"><rect x="-400" y="-70" width="800" height="140" rx="40" fill="#fff"/><circle cx="-320" cy="0" r="46" fill="#10160F"/>${plain(String(n),-320,22,64,LIME)}${plain(l,-240,20,56,NAVY,"start")}</g>`});
+    [1,2,3].forEach((n,i)=>{const a=back(clamp((tt-i*0.18)/0.4));mid+=`<g transform="translate(540,${700+i*190}) scale(${Math.max(0,a)})"><rect x="-400" y="-70" width="800" height="140" rx="40" fill="#fff"/><circle cx="-320" cy="0" r="46" fill="#10160F"/>${plain(String(n),-320,22,64,LIME)}<rect x="-230" y="-18" width="330" height="36" rx="18" fill="#E5E9EE"/>${padlock(300,6,0.62,0)}${plain("?",190,24,70,"#B7C1CF")}</g>`});
     mid+=label("3 കാര്യങ്ങൾ",500,48,NAVY);
     zoom(1,1.05);
   } else if(id==="c1a"){

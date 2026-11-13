@@ -3,6 +3,7 @@
 Script by the channel owner (voice-scripts/REEL_015_paste.txt). Audio: ElevenLabs "Jijo – Deep (Optimized)", 35.6 s.
 Video: 18 shots, 1080×1920, 30 fps, in the NEW style (Noto Sans Malayalam + Poppins, bottom dark band captions, gold highlight, no top tag, English finance words, dark data cards for numbers). Review cut: `builds/REEL_015_when_to_buy_home_REVIEW_CUT.mp4`.
 Alignment note: the standalone dashes (—) in the script were dropped from the aligned text and captions; the counters "ഒന്ന്/രണ്ട്/മൂന്ന്" are merged into the sentence that follows.
+No spoilers: the three checks are shown only as locked "?" cards until the voice says each number (v2). The caption and cover B tease instead of listing them.
 Ends on the comment call-to-action, then the disclaimer end card (the script has no share line and no "next video" teaser).
 
 ## Math check (my own calculation)
