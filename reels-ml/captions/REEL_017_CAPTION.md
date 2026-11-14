@@ -21,7 +21,7 @@ Teaser caption: the three points are NOT listed (the video keeps its reason to b
 കല്യാണത്തിന് മുൻപ് പണത്തെക്കുറിച്ച് സംസാരിക്കാൻ നിങ്ങൾക്ക് ഏറ്റവും ബുദ്ധിമുട്ട് തോന്നിയത് എന്തായിരുന്നു? വായിക്കുന്നുണ്ട് 🙂
 
 ## Cover options (thumbnails/)
-A reel017_cover_A_3_locked.png ("കല്യാണത്തിന് മുൻപ് 3 പണക്കാര്യങ്ങൾ" with three locked cards and Ramu; recommended: it shows the video's own reveal and keeps the points hidden) | B reel017_cover_B_big_3.png (dark card style, big "3", "മൂന്നാമത്തേത് പലരും മറക്കും") | C reel017_cover_C_rings_lock.png ("‘യെസ്’ പറയും മുൻപ് ഇത് നോക്കിയോ?" with wedding rings and a lock; the most emotional). Text kept inside the 3:4 and 1:1 centre crops.
+A reel017_cover_A_3_locked_v2.png (Ramu moved up so he is not cut off in the profile grid) ("കല്യാണത്തിന് മുൻപ് 3 പണക്കാര്യങ്ങൾ" with three locked cards and Ramu; recommended: it shows the video's own reveal and keeps the points hidden) | B reel017_cover_B_big_3.png (dark card style, big "3", "മൂന്നാമത്തേത് പലരും മറക്കും") | C reel017_cover_C_rings_lock.png ("‘യെസ്’ പറയും മുൻപ് ഇത് നോക്കിയോ?" with wedding rings and a lock; the most emotional). Text kept inside the 3:4 and 1:1 centre crops.
 
 ## Notes
 - None of the covers or the caption reveal the three points.

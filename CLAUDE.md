@@ -14,13 +14,13 @@ Friend-to-friend story, honest, educational, never advice. Disclaimer only on th
 - Short spoken sentences. Voice scripts spell English terms in Malayalam script; on screen, common finance words (EMI, rent, loan) show in English, the rest in Malayalam. See `reels-ml/SLANG_STYLE_GUIDE.md`.
 
 ## Reel format
-1080×1920, 30 fps. Hook in 2 s, a new shot every 2-3 s. Captions: bottom dark band, white text, gold key numbers, no stroke, y≈1338-1418; content ≥60 px from sides, above y≈1250, clear of right buttons (x>920, y 870-1760). No "next video" teaser unless the script has one.
+1080×1920, 30 fps. Hook in 2 s, a new shot every 2-3 s. Captions: bottom dark band, white text, gold key numbers, no stroke, y≈1338-1418; content ≥60 px from sides, above y≈1250, clear of right buttons (x>920, y 870-1760). Covers: the grid shows a 3:4 slice (y 240-1680) with the view count over its bottom; keep key content in y 300-1500, nothing in the top-right corner. No "next video" teaser unless the script has one.
 Per reel: review-cut mp4, notes (flags, math check), caption pack, 3 covers.
 
 ## What has worked
 - Concrete ₹ numbers in hooks and covers.
 - Friend story, then numbers.
-- Detailed props, calm character, subtle sound.
+- Detailed props, calm character.
 
 ## Decisions
 - Ramu is locked: 22, no mundu. No blur or glow. One focus per scene, no tiny text.
@@ -28,6 +28,6 @@ Per reel: review-cut mp4, notes (flags, math check), caption pack, 3 covers.
 - Never reveal a list of points before the voice says them: use locked "?" cards, teaser captions, no spoiler covers.
 - Restrained character motion; no cloned voices; never commit voice recordings.
 - Risk wording (funds, loans, insurance) on the relevant scene; AI-voice line in captions.
-- Flag risky claims; no pull requests unless asked.
+- Flag risky claims; no PRs unless asked.
 
 At the end of each task, commit and push to GitHub.
